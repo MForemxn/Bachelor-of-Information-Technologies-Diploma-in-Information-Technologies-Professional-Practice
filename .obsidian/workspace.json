@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjects.md",
+                "file": "Homepage/Home.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjects.md",
+                "file": "Homepage/Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjects.md",
+                "file": "Homepage/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjects.md",
+                "file": "Homepage/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subjects.md"
+                "file": "Homepage/Home.md"
               }
             }
           }
@@ -186,7 +186,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Subjects.md",
+                    "file": "Homepage/Home.md",
                     "mode": "preview",
                     "source": true
                   }
@@ -206,11 +206,15 @@
       }
     ]
   },
-  "active": "772ab054e6a58dca",
+  "active": "5753c5990311f2d6",
   "lastOpenFiles": [
-    "Homepage/Home.md",
-    "Week by Week Guidelines.md",
     "Year 1 Autumn Week By Week.md",
+    "Week by Week Guidelines.md",
+    "Homepage/Home.md",
+    "Communications for IT Professionals Subject Outline.md",
+    "Communication for IT Professionals.md",
+    "Subjects.md",
+    "Year 1 Autumn Assessments.md",
     "Year 4 Spring Week By Week.md",
     "Year 4 Autumn Week By Week.md",
     "Year 3 Spring Week By Week.md",
@@ -226,12 +230,8 @@
     "Year 2 Spring Assessments.md",
     "Year 2 Autumn Assessments.md",
     "Year 1 Spring Assessments.md",
-    "Year 1 Autumn Assessments.md",
-    "Subjects.md",
-    "Communication for IT Professionals.md",
     "Web Systems Subject Outline.md",
     "Web Systems.md",
-    "Communications for IT Professionals Subject Outline.md",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Programming 1 Subject Outline.md",
     "Introduction to Information Systems Subject Outline.md",
