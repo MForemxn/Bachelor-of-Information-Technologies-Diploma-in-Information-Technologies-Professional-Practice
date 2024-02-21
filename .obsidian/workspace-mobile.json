@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Communications for IT Professionals Subject Outline.md",
+                "file": "Year 1 Autumn Week By Week.md",
                 "mode": "preview",
                 "source": true
               }
@@ -73,7 +73,8 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 0,
+    "pinned": true
   },
   "right": {
     "id": "30c9ef92d0e0d663",
@@ -85,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Communications for IT Professionals Subject Outline.md",
+            "file": "Year 1 Autumn Week By Week.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Communications for IT Professionals Subject Outline.md",
+            "file": "Year 1 Autumn Week By Week.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Communications for IT Professionals Subject Outline.md"
+            "file": "Year 1 Autumn Week By Week.md"
           }
         }
       }
@@ -134,6 +135,9 @@
   "active": "65c028ed68f89755",
   "lastOpenFiles": [
     "Week by Week Guidelines.md",
+    "Year 1 Autumn Week By Week.md",
+    "Homepage/Home.md",
+    "Communications for IT Professionals Subject Outline.md",
     "Year 4 Autumn Week By Week.md",
     "Year 4 Spring Week By Week.md",
     "Year 3 Spring Week By Week.md",
@@ -151,14 +155,11 @@
     "Year 1 Spring Assessments.md",
     "Week by Week.md",
     "Assessments.md",
-    "Year 1 Autumn Week By Week.md",
     "Year 1 Autumn Assessments.md",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Communication for IT Professionals.md",
     "Subjects.md",
-    "Homepage/Home.md",
     "Week By Week.md",
-    "Programming 1.md",
-    "Home.md"
+    "Programming 1.md"
   ]
 }

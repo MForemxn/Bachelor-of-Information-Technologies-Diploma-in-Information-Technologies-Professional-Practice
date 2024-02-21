@@ -76,19 +76,19 @@ issues.
 
 # Content (topics)
 
-[[1. Operating Systems]]
+[[Operating Systems]]
 
 [[General concepts, processes, storage, Input Output, File systems]]
 
 [[Memory and process management]]
 
-[[2.The Web and Human Interaction]]
+[[The Web and Human Interaction]]
 
 [[Web page development]]
 
 [[Web applications]]
 
-[[3.The Internet and the Web]]
+[[The Internet and the Web]]
 
 [[The Internet infrastructure]]
 
@@ -96,7 +96,7 @@ issues.
 
 [[The Web and Cybersecurity]]
 
-[[4.Computing Theory]]
+[[Computing Theory]]
 
 [[Representation of information]]
 
@@ -106,7 +106,7 @@ issues.
 
 [[Storage and Processing of information]]
 
-[[5.Using UNIX (based on the Linux Essentials certification)]]
+[[Using UNIX (based on the Linux Essentials certification)]]
 
 [[Filesystems]]
 

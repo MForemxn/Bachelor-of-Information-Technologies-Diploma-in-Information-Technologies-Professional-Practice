@@ -105,27 +105,27 @@ the OPELA and/or do not attend 80% of the Language Development Tutorials will re
 
 # Content (topics)
 
-[[1.      Introduction to Information Systems, Information systems within the organisation]]
+[[Introduction to Information Systems, Information systems within the organisation]]
 
-[[2.      Organisational Strategy, Competitive Advantage, and Information Systems]]
+[[Organisational Strategy, Competitive Advantage, and Information Systems]]
 
-[[3.      Acquiring information systems and application]]
+[[Acquiring information systems and application]]
 
-[[4.      Data and Knowledge Management]]
+[[Data and Knowledge Management]]
 
-[[5.      Business Analytics]]
+[[Business Analytics]]
 
-[[6.      AI-Powered products]]
+[[AI-Powered products]]
 
-[[7.      Human-AI Interaction]]
+[[Human-AI Interaction]]
 
-[[8.      Information Security - Cyber Security]]
+[[Information Security - Cyber Security]]
 
-[[9.      Social Engineering Scams]]
+[[Social Engineering Scams]]
 
-[[10.   Ethics and privacy]]
+[[Ethics and privacy]]
 
-[[11.   Telecommunications and Networking]]
+[[Telecommunications and Networking]]
 
 # Program
 

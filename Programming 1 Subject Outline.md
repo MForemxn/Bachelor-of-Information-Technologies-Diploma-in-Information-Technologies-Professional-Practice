@@ -112,29 +112,29 @@ functioning whole.
 
 # Content (topics)
 
-[[1.    Simplest Working Program, and Simple Output]]
+[[Simplest Working Program, and Simple Output]]
 
-[[2.    Data Types and Variables]]
+[[Data Types and Variables]]
 
-[[3.    Decisions and Branching Program Flow]]
+[[Decisions and Branching Program Flow]]
 
-[[4.    Arrays and User Input]]
+[[Arrays and User Input]]
 
-[[5.    Loops and Iterative Program Flow]]
+[[Loops and Iterative Program Flow]]
 
-[[6.    Classes and Constructors]]
+[[Classes and Constructors]]
 
-[[7.    Methods, Properties and Access Control]]
+[[Methods, Properties and Access Control]]
 
-[[8.    Lists and Polymorphism]]
+[[Lists and Polymorphism]]
 
-[[9.    File Input and Output]]
+[[File Input and Output]]
 
-[[10.  Object Oriented Programming Techniques and Structures]]
+[[Object Oriented Programming Techniques and Structures]]
 
-[[11.  Inheritance and Interfaces]]
+[[Inheritance and Interfaces]]
 
-[[12.  Review and Preview of Programming 2]]
+[[Review and Preview of Programming 2]]
 
 # Program
 
