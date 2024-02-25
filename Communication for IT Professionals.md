@@ -8,3 +8,6 @@
 [[Consideration of indigenous stakeholders knowledge, culture and needs]]
 [[Effective written, visual and oral communication]]
 [[Teamwork processes and participation]]
+
+# In Class Activities
+[[Escape to Saibai Island]]

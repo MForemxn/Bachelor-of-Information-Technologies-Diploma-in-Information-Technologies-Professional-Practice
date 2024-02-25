@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,24 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "mode": "preview",
                 "source": true
               }
             },
             "group": "111dc47c6de9af68"
-          },
-          {
-            "id": "22f87400715152b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Introduction to Information Systems Subject Outline.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
           }
         ]
       }
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage/Home.md"
+                "file": "Operating Systems.md"
               }
             }
           }
@@ -180,50 +168,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "9e63cf4f6d5b8694",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7bba510176bfa0fa",
-        "type": "window",
-        "children": [
-          {
-            "id": "5cb28618198f2c42",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "454ba936dabca9ee",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Homepage/Home.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                },
-                "group": "111dc47c6de9af68"
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 824,
-        "y": 25,
-        "width": 600,
-        "height": 968,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "772ab054e6a58dca",
   "lastOpenFiles": [
+    "Web Systems.md",
+    "Subjects.md",
+    "Homepage/Home.md",
     "Week by Week Guidelines.md",
     "Year 1 Autumn Week By Week.md",
-    "Homepage/Home.md",
-    "Subjects.md",
+    "Design process.md",
+    "Assessments Guidelines.md",
+    "Communication for IT Professionals.md",
+    "Escape to Saibai Island.md",
+    "FullSizeRender.png",
+    "FullSizeRender.heic",
+    "osm-intl,7,a,a,250x200@2x.png",
+    "TorresStraitIslandsMap.png",
     "Introduction to Information Systems.md",
     "Telecommunications and Networking.md",
     "Ethics and privacy.md",
@@ -237,15 +196,10 @@
     "Organisational Strategy, Competitive Advantage, and Information Systems.md",
     "Introduction to Information Systems, Information systems within the organisation.md",
     "Introduction to Information Systems Subject Outline.md",
-    "Web Systems.md",
     "Programming 1.md",
-    "Communication for IT Professionals.md",
     "Using UNIX (based on the Linux Essentials certification).md",
     "Computing Theory.md",
     "The Internet and the Web.md",
-    "The Web and Human Interaction.md",
-    "Operating Systems.md",
-    "Web Systems Subject Outline.md",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
     "timetable-25277308.pdf",

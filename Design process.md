@@ -1,0 +1,16 @@
+- There are five key stages of the design process:
+	- Empathise
+		- **What** are their issues?
+		- **Who** is affected?
+		- **What** do they need?
+	- Define
+		- From your conversations, decide on a problem that needs to be solved. Define this problem as a "how might we..." **problem statement.**
+		- Narrow our problem into a "**How might we...**" to focus on the solution, rather than the problem.
+		- What are the causes and effects of this problem? Economic? Environmental? Socio-Economical? Socio-Cultural?
+	- Ideate
+		- Brainstorm possible solutions to your problem statement - crazy ideas are welcome!
+	- Prototype
+		- Select one idea to take forward.
+		- How can you represent your idea to communicate with others? What is the exact problem we are solving?
+	- Test
+		- Share your idea with users for feedback: What will work? What won't?

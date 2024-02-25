@@ -73,8 +73,7 @@
         }
       }
     ],
-    "currentTab": 0,
-    "pinned": true
+    "currentTab": 0
   },
   "right": {
     "id": "30c9ef92d0e0d663",
@@ -135,9 +134,13 @@
   "active": "65c028ed68f89755",
   "lastOpenFiles": [
     "Week by Week Guidelines.md",
-    "Year 1 Autumn Week By Week.md",
     "Homepage/Home.md",
+    "Introduction to Information Systems Subject Outline.md",
+    "Introduction to Information Systems.md",
+    "Subjects.md",
+    "Year 1 Autumn Week By Week.md",
     "Communications for IT Professionals Subject Outline.md",
+    "Communication for IT Professionals.md",
     "Year 4 Autumn Week By Week.md",
     "Year 4 Spring Week By Week.md",
     "Year 3 Spring Week By Week.md",
@@ -156,10 +159,6 @@
     "Week by Week.md",
     "Assessments.md",
     "Year 1 Autumn Assessments.md",
-    "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
-    "Communication for IT Professionals.md",
-    "Subjects.md",
-    "Week By Week.md",
-    "Programming 1.md"
+    "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major"
   ]
 }
