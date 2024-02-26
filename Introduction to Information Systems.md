@@ -1,5 +1,5 @@
 # [[Introduction to Information Systems Subject Outline | Subject Outline]]
-[[Introduction to Information Systems, Information systems within the organisation]]
+[[Introduction to Information Systems,  Information systems within the organisation]]
 [[Organisational Strategy, Competitive Advantage, and Information Systems]]
 [[Acquiring information systems and application]]
 [[Data and Knowledge Management]]

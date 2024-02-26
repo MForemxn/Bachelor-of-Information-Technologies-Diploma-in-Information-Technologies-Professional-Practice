@@ -1,0 +1,1 @@
+Software is a program or collection of programs that enable the hardware to process data.

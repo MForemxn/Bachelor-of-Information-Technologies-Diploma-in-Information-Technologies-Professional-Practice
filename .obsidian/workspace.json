@@ -6,7 +6,6 @@
       {
         "id": "69848d72b80e80ee",
         "type": "tabs",
-        "dimension": 48.60406091370558,
         "children": [
           {
             "id": "5753c5990311f2d6",
@@ -14,32 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Using UNIX (based on the Linux Essentials certification).md",
+                "file": "Introduction to Information Systems,  Information systems within the organisation.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "111dc47c6de9af68"
+            "group": "e3860177eacea577"
           }
         ]
       },
       {
-        "id": "db5a7a10df9715ff",
+        "id": "bc329391f10b6705",
         "type": "tabs",
-        "dimension": 51.39593908629442,
         "children": [
           {
-            "id": "772ab054e6a58dca",
+            "id": "c284141857840728",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Using UNIX (based on the Linux Essentials certification).md",
+                "file": "Introduction to Information Systems,  Information systems within the organisation.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "111dc47c6de9af68"
+            "group": "e3860177eacea577"
           }
         ]
       }
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using UNIX (based on the Linux Essentials certification).md",
+                "file": "Introduction to Information Systems,  Information systems within the organisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Using UNIX (based on the Linux Essentials certification).md",
+                "file": "Introduction to Information Systems,  Information systems within the organisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Using UNIX (based on the Linux Essentials certification).md"
+                "file": "Introduction to Information Systems,  Information systems within the organisation.md"
               }
             }
           }
@@ -168,38 +166,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "772ab054e6a58dca",
+  "active": "c284141857840728",
   "lastOpenFiles": [
-    "Editor.md",
+    "Exception Reports.md",
+    "Pasted image 20240226212514.png",
+    "Introduction to Information Systems,  Information systems within the organisation.md",
+    "Comparative Reporting.md",
+    "Pasted image 20240226212342.png",
+    "Key-Indicator Reports.md",
+    "Pasted image 20240226212306.png",
+    "Pasted image 20240226212302.png",
+    "Drill Down Reports.md",
+    "Pasted image 20240226212209.png",
+    "Pasted image 20240226212201.png",
+    "Pasted image 20240226211154.png",
+    "Pasted image 20240226211147.png",
+    "Pasted image 20240226211136.png",
+    "Introduction to Information Systems.md",
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Pasted image 20240226210006.png",
+    "Concepts of Information Systems - People.md",
+    "Concepts of Information Systems - Procedures.md",
+    "Concepts of Information Systems - Hardware.md",
+    "Concepts of Information Systems - Software.md",
+    "Concepts of Information Systems - Data.md",
+    "Information Systems.md",
     "Using UNIX (based on the Linux Essentials certification).md",
+    "Web Systems.md",
+    "Python.md",
+    ">.md",
+    "mv.md",
+    "pwd.md",
+    "cp.md",
+    "Editor.md",
     "Redirection.md",
     "Touch.md",
     "vim.md",
-    "man (prefix).md",
-    "uname.md",
-    "mkdir.md",
-    "ls.md",
-    "cd.md",
-    "Web Systems.md",
-    "Operating Systems.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "Variables.md",
-    "Java.md",
-    "Python.md",
-    "Primitive types.md",
-    "Reference types.md",
-    "Data Types and Variables.md",
-    "Programming 1.md",
-    "Simplest Working Program, and Simple Output.md",
-    "State.md",
-    "Repetition.md",
-    "Branching.md",
-    "GUI.md",
-    "FullSizeRender.png",
     "FullSizeRender.heic",
-    "osm-intl,7,a,a,250x200@2x.png",
-    "TorresStraitIslandsMap.png",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
     "timetable-25277308.pdf",

@@ -105,7 +105,7 @@ the OPELA and/or do not attend 80% of the Language Development Tutorials will re
 
 # Content (topics)
 
-[[Introduction to Information Systems, Information systems within the organisation]]
+[[Introduction to Information Systems,  Information systems within the organisation]]
 
 [[Organisational Strategy, Competitive Advantage, and Information Systems]]
 

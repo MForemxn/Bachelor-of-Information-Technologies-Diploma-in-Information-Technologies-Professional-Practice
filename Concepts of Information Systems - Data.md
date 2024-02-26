@@ -1,0 +1,1 @@
+A database is a collection of related files or tables containing data.
