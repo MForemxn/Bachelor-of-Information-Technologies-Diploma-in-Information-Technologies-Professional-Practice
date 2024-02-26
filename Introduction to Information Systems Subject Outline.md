@@ -219,11 +219,7 @@ they need to ask their tutor for advice immediately as problems arise.
 | **Task:**                | This assessment task requires students to critically reflect on their experiences with some given class activities and how the given activities relate to students’ career and future.<br><br>A document explaining the detailed requirements of the assignment will be uploaded on Canvas. |
 | **Length:**              | 1500 words                                                                                                                                                                                                                                                                                  |
 | **Due:**                 | 11.59pm Saturday 25 May 2024                                                                                                                                                                                                                                                                |
-| **Further information:** | **Note for the students enrolled in the Bachelor of Computer Science ONLY**                                                                                                                                                                                                                 |
-
-This assessment will be assessed for academic language proficiency for students enrolled in the Bachelor of Computer
-Science ONLY. You will be directed to further language support after the completion of this subject if your language is
-below the required standard.
+| **Further information:** | **Note for the students enrolled in the Bachelor of Computer Science ONLY:** This assessment will be assessed for academic language proficiency for students enrolled in the Bachelor of Computer Science ONLY. You will be directed to further language support after the completion of this subject if your language is below the required standard.|
 
 **Moderation of marks**
 

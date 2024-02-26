@@ -1,0 +1,10 @@
+- CLI's can only take text inputs, and can only output text. 
+	- this means the only way of humans interacting with a CLI is using a keyboard.
+- CLI's were the first UI's ever created
+- Usually, these are:
+	- [[Sh]] (1969), which was the predecessor to [[Bash]], and [[CSH (C Shell)]]
+	- [[PM (Power Platform)]] (1973), which was the predecessor to [[MS-DOS]]
+- the command line can be accessed though
+	- CMD.exe on windows
+	- Terminal.app on MacOS
+	- Terminal on Linux

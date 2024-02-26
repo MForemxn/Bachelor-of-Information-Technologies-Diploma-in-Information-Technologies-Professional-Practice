@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Variables.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Variables.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems.md"
+                "file": "Variables.md"
               }
             }
           }
@@ -170,36 +170,36 @@
   },
   "active": "772ab054e6a58dca",
   "lastOpenFiles": [
-    "Web Systems.md",
+    "Java.md",
+    "Variables.md",
+    "Python.md",
+    "Primitive types.md",
+    "Reference types.md",
+    "Data Types and Variables.md",
+    "Programming 1.md",
+    "Operating Systems.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Week by Week Guidelines.md",
-    "Year 1 Autumn Week By Week.md",
-    "Design process.md",
-    "Assessments Guidelines.md",
-    "Communication for IT Professionals.md",
-    "Escape to Saibai Island.md",
+    "Simplest Working Program, and Simple Output.md",
+    "State.md",
+    "Repetition.md",
+    "Branching.md",
+    "GUI.md",
+    "Microsoft Windows Metro.md",
+    "Microsoft Windows Vista.md",
+    "Windows XP.md",
+    "MacOSX.md",
+    "MacOSX & Windows XP.md",
+    "Windows 1.0.md",
+    "KDE.md",
+    "Gnome.md",
+    "Lisa.md",
+    "CLI.md",
+    "MS-DOS.md",
     "FullSizeRender.png",
     "FullSizeRender.heic",
     "osm-intl,7,a,a,250x200@2x.png",
     "TorresStraitIslandsMap.png",
-    "Introduction to Information Systems.md",
-    "Telecommunications and Networking.md",
-    "Ethics and privacy.md",
-    "Social Engineering Scams.md",
-    "Information Security - Cyber Security.md",
-    "Human-AI Interaction.md",
-    "AI-Powered products.md",
-    "Business Analytics.md",
-    "Data and Knowledge Management.md",
-    "Acquiring information systems and application.md",
-    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
-    "Introduction to Information Systems, Information systems within the organisation.md",
-    "Introduction to Information Systems Subject Outline.md",
-    "Programming 1.md",
-    "Using UNIX (based on the Linux Essentials certification).md",
-    "Computing Theory.md",
-    "The Internet and the Web.md",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
     "timetable-25277308.pdf",

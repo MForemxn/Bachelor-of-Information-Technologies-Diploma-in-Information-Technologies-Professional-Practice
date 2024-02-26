@@ -1,0 +1,13 @@
+- GUI can be interacted with using the WIMP interface:
+	- windows
+	- icons
+	- menu
+	- pointer (or touch)
+# Some History
+- the first ever GUI was [[Lisa]], which was the predecessor to MacOS
+	- created by Apple in 1983
+- 1984: [[Gnome]], [[KDE]]
+- 1985: [[Windows 1.0]]
+- 2001: [[MacOSX]] & [[Windows XP]]
+- 2006: [[Microsoft Windows Vista]]
+- 2010: [[Microsoft Windows Metro]]

@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "1feb3a603ee44c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Food and Drink on Campus.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Year 1 Autumn Week By Week.md",
+            "file": "Food and Drink on Campus.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Year 1 Autumn Week By Week.md",
+            "file": "Food and Drink on Campus.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Year 1 Autumn Week By Week.md"
+            "file": "Food and Drink on Campus.md"
           }
         }
       }
@@ -131,14 +144,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65c028ed68f89755",
+  "active": "1feb3a603ee44c5f",
   "lastOpenFiles": [
-    "Week by Week Guidelines.md",
+    "Useful Links.md",
     "Homepage/Home.md",
+    "Food and Drink on Campus.md",
+    "Year 1 Autumn Week By Week.md",
+    "Week by Week Guidelines.md",
     "Introduction to Information Systems Subject Outline.md",
     "Introduction to Information Systems.md",
     "Subjects.md",
-    "Year 1 Autumn Week By Week.md",
     "Communications for IT Professionals Subject Outline.md",
     "Communication for IT Professionals.md",
     "Year 4 Autumn Week By Week.md",
@@ -157,8 +172,6 @@
     "Year 2 Spring Assessments.md",
     "Year 1 Spring Assessments.md",
     "Week by Week.md",
-    "Assessments.md",
-    "Year 1 Autumn Assessments.md",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major"
   ]
 }

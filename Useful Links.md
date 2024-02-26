@@ -10,3 +10,4 @@
 [Orientation Information (And Helpful Links)](https://www.uts.edu.au/commencing-students/orientation)
 [UTS Courses and Facilities Access](https://hmcmzhhdqdbxd.trainee.rapidglobal.com/courses)
 [[Email Etiquette]]
+[[Food and Drink on Campus]]
