@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables.md",
+                "file": "Using UNIX (based on the Linux Essentials certification).md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables.md",
+                "file": "Using UNIX (based on the Linux Essentials certification).md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variables.md",
+                "file": "Using UNIX (based on the Linux Essentials certification).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variables.md",
+                "file": "Using UNIX (based on the Linux Essentials certification).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variables.md"
+                "file": "Using UNIX (based on the Linux Essentials certification).md"
               }
             }
           }
@@ -170,32 +170,32 @@
   },
   "active": "772ab054e6a58dca",
   "lastOpenFiles": [
-    "Java.md",
+    "Editor.md",
+    "Using UNIX (based on the Linux Essentials certification).md",
+    "Redirection.md",
+    "Touch.md",
+    "vim.md",
+    "man (prefix).md",
+    "uname.md",
+    "mkdir.md",
+    "ls.md",
+    "cd.md",
+    "Web Systems.md",
+    "Operating Systems.md",
+    "Subjects.md",
+    "Homepage/Home.md",
     "Variables.md",
+    "Java.md",
     "Python.md",
     "Primitive types.md",
     "Reference types.md",
     "Data Types and Variables.md",
     "Programming 1.md",
-    "Operating Systems.md",
-    "Subjects.md",
-    "Homepage/Home.md",
     "Simplest Working Program, and Simple Output.md",
     "State.md",
     "Repetition.md",
     "Branching.md",
     "GUI.md",
-    "Microsoft Windows Metro.md",
-    "Microsoft Windows Vista.md",
-    "Windows XP.md",
-    "MacOSX.md",
-    "MacOSX & Windows XP.md",
-    "Windows 1.0.md",
-    "KDE.md",
-    "Gnome.md",
-    "Lisa.md",
-    "CLI.md",
-    "MS-DOS.md",
     "FullSizeRender.png",
     "FullSizeRender.heic",
     "osm-intl,7,a,a,250x200@2x.png",
