@@ -1,0 +1,1 @@
+**man** utilitynamemanual pages for the command "utilityname"
