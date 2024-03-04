@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "69848d72b80e80ee",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5753c5990311f2d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Systems.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "0a510bf1accfb979"
-          }
-        ]
-      },
-      {
         "id": "91a25bb9c6456f75",
         "type": "tabs",
         "children": [
           {
-            "id": "0263a7edb5446bf1",
+            "id": "cf434de9627708ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Systems.md",
+                "file": "Organisational Strategy, Competitive Advantage, and Information Systems.md",
+                "mode": "source",
+                "source": true
+              }
+            },
+            "group": "504fe302eaaa76d5"
+          }
+        ]
+      },
+      {
+        "id": "341ad479a21c3c49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90131dcf7fc8b5ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Organisational Strategy, Competitive Advantage, and Information Systems.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "0a510bf1accfb979"
+            "group": "504fe302eaaa76d5"
           }
         ]
       }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Systems.md",
+                "file": "Organisational Strategy, Competitive Advantage, and Information Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Systems.md",
+                "file": "Organisational Strategy, Competitive Advantage, and Information Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Systems.md"
+                "file": "Organisational Strategy, Competitive Advantage, and Information Systems.md"
               }
             }
           }
@@ -166,34 +166,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0263a7edb5446bf1",
+  "active": "90131dcf7fc8b5ff",
   "lastOpenFiles": [
+    "Introduction to Information Systems.md",
+    "Introduction to Information Systems,  Information systems within the organisation.md",
+    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
+    "Screenshot 2024-03-04 at 10.56.00 am.png",
     "Subjects.md",
     "Homepage/Home.md",
-    "Using UNIX (based on the Linux Essentials certification).md",
-    "Creating Files.md",
-    "Editor.md",
-    "vim.md",
-    "Redirection.md",
-    "Compressing Files.md",
-    "Remote Access.md",
-    "Previous Commands.md",
-    "Looking for Things.md",
-    "Processes.md",
-    "Calculators.md",
-    "Using Printers.md",
-    "Permissions and Ownerships.md",
-    "Useful Shortcuts.md",
-    "Help.md",
+    "Year 1 Autumn Week By Week.md",
+    "Week by Week Guidelines.md",
+    "1b Research Report.md",
+    "Communication for IT Professionals.md",
     "Web Systems.md",
-    "Text Files.md",
-    "Manipulating Directories.md",
-    "Manipulating Files.md",
-    "pwd.md",
-    "Special Charecters.md",
-    "Listing Files and Directories.md",
-    "Introduction to Information Systems,  Information systems within the organisation.md",
-    "Exception Reports.md",
+    "Assessments Guidelines.md",
+    "Handbook.md",
+    "Useful Links.md",
+    "Simplest Working Program, and Simple Output.md",
+    "Repetition.md",
+    "cd.md",
+    "Operating Systems.md",
+    "Java.md",
+    "Year 2 Spring Week By Week.md",
+    "Year 3 Autumn Assessments.md",
+    "Piping and wildcards.md",
+    "Review and Preview of Programming 2.md",
+    "Effective written, visual and oral communication.md",
+    "Information Security - Cyber Security.md",
+    "Telecommunications and Networking.md",
+    "Group Details - RRR Engineering Crew.md",
+    "APA Interactive Guide.pdf",
+    "Assesement Task 1 Checklist.docx",
+    "Assesment Task 1 Template.pdf",
     "Pasted image 20240226212514.png",
     "Pasted image 20240226212342.png",
     "Pasted image 20240226212306.png",
@@ -203,7 +207,6 @@
     "Pasted image 20240226211154.png",
     "Pasted image 20240226211147.png",
     "Pasted image 20240226211136.png",
-    "Pasted image 20240226210006.png",
     "FullSizeRender.heic",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
