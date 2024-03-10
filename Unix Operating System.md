@@ -1,0 +1,22 @@
+# Where is Unix Used
+- used since 1969
+- used on most of the computers which run the internet (background)
+- MacOS and iOS are based on unix
+	- so are android phones
+- versions
+	- AT&T research 
+- uses heaps of different scripting languages, even within one operating system
+- POSIX tried to normalise everything
+	- 1990's linux wars was caused by this
+	- 2002 Single Unix Specification (SUS) was created 
+	- then came IBM VM/CMS
+# Why has it survived?
+- it's just an idea, which means that no one can own it
+	- anyone who wants to use it can
+- unix is based on simple concepts
+	- even hardware are classes as files
+- it's portable
+	- can be used on phones and laptops
+- it's free
+- efficient, stable, and relatively safe
+- 

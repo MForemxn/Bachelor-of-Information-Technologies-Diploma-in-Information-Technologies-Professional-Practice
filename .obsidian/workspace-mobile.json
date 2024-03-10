@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manipulating Files.md",
+                "file": "scratch document.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Manipulating Files.md",
+            "file": "scratch document.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Manipulating Files.md",
+            "file": "scratch document.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Manipulating Files.md"
+            "file": "scratch document.md"
           }
         }
       }
@@ -133,19 +133,20 @@
   },
   "active": "65c028ed68f89755",
   "lastOpenFiles": [
+    "Year 1 Autumn Week By Week.md",
+    "Week by Week Guidelines.md",
+    "Homepage/Home.md",
+    "Subjects.md",
+    "Manipulating Files.md",
     "Using UNIX (based on the Linux Essentials certification).md",
     "Text Files.md",
     "Creating Files.md",
     "Redirection.md",
     "Listing Files and Directories.md",
     "Web Systems.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "Year 1 Autumn Week By Week.md",
     "Food and Drink on Campus.md",
     "Useful Links.md",
     "Touch.md",
-    "Week by Week Guidelines.md",
     "Introduction to Information Systems Subject Outline.md",
     "Introduction to Information Systems.md",
     "Communications for IT Professionals Subject Outline.md",
@@ -158,7 +159,6 @@
     "Year 2 Autumn Week By Week.md",
     "Year 1 Spring Week By Week.md",
     "Assessments Guidelines.md",
-    "Year 4 Spring Assessments.md",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major"
   ]
 }

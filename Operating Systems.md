@@ -8,7 +8,7 @@
 # Common examples of operating systems
 - operating systems have 2 main categories:
 	- personal computers
-		- linux, macos, windows
+		- linux, macos, windows, [[Unix Operating System|unix]]
 	- embedded systems
 		- has uses in everything from military uses to IoT and telecomms uses
 		- some examples include VxWorks, QNX, Integrity
