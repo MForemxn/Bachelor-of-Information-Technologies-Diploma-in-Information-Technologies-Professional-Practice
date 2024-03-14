@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group Details - RRR Engineering Crew.md",
+                "file": "Final Submission Document.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Group Details - RRR Engineering Crew.md",
+                "file": "Final Submission Document.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Group Details - RRR Engineering Crew.md",
+                "file": "Final Submission Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Group Details - RRR Engineering Crew.md",
+                "file": "Final Submission Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Group Details - RRR Engineering Crew.md"
+                "file": "Final Submission Document.md"
               }
             }
           }
@@ -166,16 +166,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0fd18340d5c335e5",
+  "active": "9507ccfe343282c0",
   "lastOpenFiles": [
     "1a and 1b Research Report.md",
+    "Fleshed, without in text references.md",
+    "Final Submission Document.md",
     "Communication for IT Professionals.md",
-    "Communications for IT Professionals Subject Outline.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Final Submission Document.md",
+    "Timetable.md",
+    "timetable-25277308.pdf",
+    "CSV to CSV to Green Grass using MQTT Readme.md",
+    "CSV to Green Grass using MQTT.md",
+    "UTSME.md",
+    "Group Details - RRR Engineering Crew.md",
+    "Communications for IT Professionals Subject Outline.md",
     "Programming 1.md",
-    "Fleshed, without in text references.md",
     "Communications For IT Professionals Assessment 1b Research Links.md",
     "Handbook.md",
     "Internet of Things.md",
@@ -187,13 +193,8 @@
     "Software as a Service (SaaS).md",
     "d.md",
     "1A Feedback.md",
-    "Group Details - RRR Engineering Crew.md",
     "Computing Theory.md",
     "Web Systems.md",
-    "Filesystems.md",
-    "Operating Systems.md",
-    "Unix Operating System.md",
-    "scratch document.md",
     "Screenshot 2024-03-04 at 11.48.02 am.png",
     "Screenshot 2024-03-04 at 10.56.00 am.png",
     "APA Interactive Guide.pdf",
@@ -210,7 +211,6 @@
     "FullSizeRender.heic",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
-    "timetable-25277308.pdf",
     "Homepages 1",
     "General concepts, processes, storage, Input",
     "Homepage",
