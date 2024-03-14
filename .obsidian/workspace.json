@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Acquiring information systems and application.md",
+                "file": "Homepage/Home.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Acquiring information systems and application.md",
+                "file": "Homepage/Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Acquiring information systems and application.md",
+                "file": "Homepage/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Acquiring information systems and application.md",
+                "file": "Homepage/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Acquiring information systems and application.md"
+                "file": "Homepage/Home.md"
               }
             }
           }
@@ -166,20 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0fd18340d5c335e5",
+  "active": "9507ccfe343282c0",
   "lastOpenFiles": [
-    "Software as a Service (SaaS).md",
-    "Acquiring information systems and application.md",
-    "Introduction to Information Systems.md",
+    "Final Submission Document.md",
+    "1a and 1b Research Report.md",
+    "Communication for IT Professionals.md",
     "Subjects.md",
     "Programming 1.md",
-    "d.md",
     "Homepage/Home.md",
+    "Fleshed, without in text references.md",
+    "Communications For IT Professionals Assessment 1b Research Links.md",
+    "Handbook.md",
+    "Internet of Things.md",
+    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
+    "Introduction to Information Systems.md",
     "Year 1 Autumn Week By Week.md",
     "Week by Week Guidelines.md",
+    "Acquiring information systems and application.md",
+    "Software as a Service (SaaS).md",
+    "d.md",
     "1A Feedback.md",
-    "1b Research Report.md",
-    "Communication for IT Professionals.md",
     "Group Details - RRR Engineering Crew.md",
     "Computing Theory.md",
     "Web Systems.md",
@@ -188,13 +194,7 @@
     "Unix Operating System.md",
     "scratch document.md",
     "Untitled 1.md",
-    "Untitled.md",
-    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
     "Screenshot 2024-03-04 at 11.48.02 am.png",
-    "Assessments Guidelines.md",
-    "Year 1 Autumn Assessments.md",
-    "Handbook.md",
-    "Useful Links.md",
     "Screenshot 2024-03-04 at 10.56.00 am.png",
     "APA Interactive Guide.pdf",
     "Assesement Task 1 Checklist.docx",

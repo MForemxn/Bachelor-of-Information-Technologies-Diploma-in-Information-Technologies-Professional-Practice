@@ -4,7 +4,8 @@
 [[Communications for IT Professionals Assessment Task 1b Brief|Task Description]]
 [[Communications For IT Professionals Assessment 1b Research Links|Web Links]]
 [[1A Feedback]]
-
+[[Fleshed, without in text references]]
+[[Final Submission Document]]
 
 # Investigation Scope: Waste Management: 1.4 Waste as a Resource
 

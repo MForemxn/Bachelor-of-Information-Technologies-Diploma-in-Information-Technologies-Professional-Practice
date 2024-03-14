@@ -36,6 +36,7 @@
 	- Programming and Testing
 	- Implementation
 	- Operation and Maintenance.
+- **^These stages must be done sequentially^**
 - Initial phases focus on understanding business needs, evaluating system feasibility (technical, economic, behavioural), and gathering user requirements.
 - The design phase translates user requirements into technical specifications, including:
 	- system outputs
