@@ -8,7 +8,7 @@ Find [great deals on campus](https://www.uts.edu.au/about/about-our-campus/food
 
 ## UTS Central Food Court (Building 2)
 
-![A young man holds a clear PLA cup full of iced tea](https://www.uts.edu.au/sites/default/files/styles/half_tile_1x/public/2020-05/CHA%20TIME12099%20880x440.jpg?itok=Qg_lS7I8)
+![A young [[man]] holds a clear PLA cup full of iced tea](https://www.uts.edu.au/sites/default/files/styles/half_tile_1x/public/2020-05/CHA%20TIME12099%20880x440.jpg?itok=Qg_lS7I8)
 
 ### [ChaTime UTS](https://chatime.com.au/)
 
@@ -184,7 +184,7 @@ Opening hours: Monday – Friday 8:30am–5pm
 Building 10, level 2      
 Opening hours: Mon-Fri 7:30am-6pm
 
-![A man with a well-trimmed beard holds a pair of sharp scissors towards the camera](https://www.uts.edu.au/sites/default/files/styles/half_tile_1x/public/2020-05/Michael%20Barber%20880x440.jpg?itok=3YOEaDhJ)
+![A [[man]] with a well-trimmed beard holds a pair of sharp scissors towards the camera](https://www.uts.edu.au/sites/default/files/styles/half_tile_1x/public/2020-05/Michael%20Barber%20880x440.jpg?itok=3YOEaDhJ)
 
 ### Michael’s Barber
 

@@ -47,18 +47,18 @@
 	- both have their own strengths and weaknesses.
 	- both exist due to varying needs from users. 
 
-| |GUI|CLI|
+| |GUI|[[CLI]]|
 |---|---|---|
 |Strengths|no experience required, user friendly, intuitive, **hides complexity from users.**|flexible, allows for fine tuning, robust, much quicker, the user is in control, lightweight, and can be run remotely, even with a very poor network connection. |
 |Weaknesses|can't do everything, can cause the system to crash, user is unaware of processes, slows the computer down, needs more powerful hardware to run correctly, and **hides complexity from users.**|hard to learn, multiple different options for completing the same task, output can be cryptic and foreign to the user, inconsistent commands and syntax, no graphics, no safety net to protect users from negatively harming the system.|
 # Scripting
 - commands can be automated using batch files (.bat)
 	- a batch file is a sequence of commands to be run in that same sequence
-- most CLI's have features similar to programming languages
+- most [[CLI]]'s have features similar to programming languages
 	- such as logic, calculations, multiway selection, repetition, etc. 
 - some examples of scripting languages are:
 	- sh
-	- bash
+	- [[bash]]
 	- K Shell
 	- C Shell
 	- Z Shell
@@ -67,7 +67,7 @@
 	- JCL (job control language)
 	- applescript
 	- python
-## Variables in CLI
+## Variables in [[CLI]]
 - usually loosely bound
 	- same variable can be either a string or an integer
 - syntax is often inconsistent

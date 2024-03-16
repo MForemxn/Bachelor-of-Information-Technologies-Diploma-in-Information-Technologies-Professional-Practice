@@ -10,3 +10,6 @@
 [[Social Engineering Scams]]
 [[Ethics and privacy]]
 [[Telecommunications and Networking]]
+
+# Assessments
+[[Infographic (Group Task)]]

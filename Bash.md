@@ -95,14 +95,14 @@ Concatenate the content of the two files and display the result in terminal:
 cat file1.txt file2.txt
 ```
 
-## Linux Command Line: Bash cd
+## Linux Command Line: Bash [[cd]]
 
-****Change Directory**** to the path specified, for example `cd projects`.
+****Change Directory**** to the path specified, for example `[[cd]] projects`.
 
 There are a few really helpful arguments to aid this:
 
 - `.` refers to the current directory, such as `./projects`
-- `..` can be used to move up one folder, use `cd ..`, and can be combined to move up multiple levels `../../my_folder`
+- `..` can be used to move up one folder, use `[[cd]] ..`, and can be combined to move up multiple levels `../../my_folder`
 - `/` is the root of your system to reach core folders, such as `system`, `users`, etc.
 - `~` is the home directory, usually the path `/users/username`. Move back to folders referenced relative to this path by including it at the start of your path, for example `~/projects`.
 
@@ -170,20 +170,20 @@ ls                                                                ⚬ master
 CODE_OF_CONDUCT.md bin                package.json       utils
 CONTRIBUTING.md    gatsby-browser.js  plugins            yarn.lock
 LICENSE.md         gatsby-config.js   src
-README.md          gatsby-node.js     static
+[[README]].md          gatsby-node.js     static
 assets             gatsby-ssr.js      translations
 ```
 
-## Linux Command Line: Bash man
+## Linux Command Line: Bash [[man]]
 
-Man, the abbreviation of ****man****ual, is a bash command used to display on-line reference manuals of the given command.
+[[Man]], the abbreviation of ****[[man]]****ual, is a bash command used to display on-line reference manuals of the given command.
 
-Man displays the reletive man page (short for ****man****ual ****page****) of the given command.
+[[Man]] displays the reletive [[man]] page (short for ****[[man]]****ual ****page****) of the given command.
 
 ### **Usage**
 
 ```
-man [options] [command]
+[[man]] [options] [command]
 ```
 
 Most used options:
@@ -193,19 +193,19 @@ Most used options:
 
 ### **Example**
 
-Display the man page of ls:
+Display the [[man]] page of ls:
 
 ```
-man ls
+[[man]] ls
 ```
 
-## Linux Command Line: Bash mv
+## Linux Command Line: Bash [[mv]]
 
 ****Moves files and folders.****
 
 ```
-mv source target
-mv source ... directory
+[[mv]] source target
+[[mv]] source ... directory
 ```
 
 The first argument is the file you want to move, and the second is the location to move it to.

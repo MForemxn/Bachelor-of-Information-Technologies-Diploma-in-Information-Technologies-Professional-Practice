@@ -1,6 +1,6 @@
 **SUBJECT OUTLINE**
 
-**31265 Communication for IT Professionals**
+**31265 [[Communication for IT Professionals]]**
 
 **Course area**UTS: Information Technology
 
@@ -126,7 +126,7 @@ to prepare for the subject assessment tasks and for professional workplace commu
 
 | Week / Session   | Dates  | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1                | 19 Feb | **Are you ready to commence 31265 Communication for IT Professionals?**<br><br>Ensure that you access Canvas to complete all of the pre-class tasks for Week 1 under 'Modules', including the Week 1 prework quiz!<br><br>**What to do during Week 1:** Attend class!<br><br>**Watch the Week 1 online materials before your tutorial class:** In particular, look at and complete the pre-work before the first tutorial.<br><br>**Attend your timetabled tutorial:** tutorials start this week and run weekly until<br><br>Week 12 (inclusive) - complete the Knowledge Check on your pre-class work _before_ you come to your tutorial class.<br><br>It is your responsibility to check your timetable and attend the weekly tutorial, and continue to monitor Canvas announcements for this subject.<br><br>**Notes:**<br><br>**Check Canvas and your UTS email regularly.**<br><br>We will send out a weekly announcement at the end of each week but urgent announcements will be sent out during the week as needed.<br><br>**What needs to be done by the end of Week 1:** All students must complete the online post enrolment language assessment (OPELA) before **5pm Sunday 25 February**. |
+| 1                | 19 Feb | **Are you ready to commence 31265 [[Communication for IT Professionals]]?**<br><br>Ensure that you access Canvas to complete all of the pre-class tasks for Week 1 under 'Modules', including the Week 1 prework quiz!<br><br>**What to do during Week 1:** Attend class!<br><br>**Watch the Week 1 online materials before your tutorial class:** In particular, look at and complete the pre-work before the first tutorial.<br><br>**Attend your timetabled tutorial:** tutorials start this week and run weekly until<br><br>Week 12 (inclusive) - complete the Knowledge Check on your pre-class work _before_ you come to your tutorial class.<br><br>It is your responsibility to check your timetable and attend the weekly tutorial, and continue to monitor Canvas announcements for this subject.<br><br>**Notes:**<br><br>**Check Canvas and your UTS email regularly.**<br><br>We will send out a weekly announcement at the end of each week but urgent announcements will be sent out during the week as needed.<br><br>**What needs to be done by the end of Week 1:** All students must complete the online post enrolment language assessment (OPELA) before **5pm Sunday 25 February**. |
 | 2                | 26 Feb | Watch the Week 2 lecture video this week before your tutorial class - EWB guest speaker<br><br>Attend your tutorial class - EWB Challenge project teams are formed in tutorial classes this week. It is critical that you attend this class and you are in a team by Wednesday Week 4, otherwise you may be refused permission to attempt Assessment tasks 2 and 3 and a fail will be recorded for the subject.<br><br>## Notes:<br><br>Check Canvas announcements and your UTS email regularly! We will send out announcements and information as needed.<br><br>Remember to do weekly pre-work before each tutorial.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 3                | 4 Mar  | Watch the Week 3 lecture video this week before your tutorial - guest speakers on indigenous knowledge<br><br>**Attend the tutorial class and continue working on the team project.**<br><br>**Notes:**<br><br>**Assessment Task 1a:** Prepare draft of Individual Background report to show to peers in class.<br><br>A summary of the feedback received should be submitted on Canvas by Sunday, week 3.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | 4                | 11 Mar | Attend your tutorial class and continue working on the team project.<br><br>**Notes:**<br><br>**Assessment task 1b**: Individual Background Research Summary is due through online submission by 11:59pm Sunday, Week 4.<br><br>**Census Date**: 30 August                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -166,19 +166,19 @@ students will receive an individualised grade which has been moderated by their 
 reflect individual contributions to each task. Students who do not meet the minimum standard for individual contribution
 to group tasks will receive a score of zero for the respective task
 
-In this subject, , students are permitted to use AI technologies in an ethical and transparent manner to generate
-materials for background research and self-study. Only assistive use is permitted. Content generated by AI technologies
+In this subject, , students are permitted to use [[AI]] technologies in an ethical and transparent manner to generate
+materials for background research and self-study. Only assistive use is permitted. Content generated by [[AI]] technologies
 or other sources presented as your own work is considered to be academic misconduct as per
 the [UTS](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16) [Student Rules on misconduct](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16).
 Students may be asked to participate in a viva voce assessment to confirm or clarify your work and/or marks.
 
-1. Any use of generative AI tools must be acknowledged by citing their use through referencing in students’ work
+1. Any use of generative [[AI]] tools must be acknowledged by citing their use through referencing in students’ work
 
-2. Students must provide all interactions with the generative AI tool, including prompts and responses, as an Appendix
+2. Students must provide all interactions with the generative [[AI]] tool, including prompts and responses, as an Appendix
 to submitted work (including assessments)
 
 It is students responsibility to check and verify the accuracy and integrity of the information used and to rewrite any
-text provided by AI or other sources in their own words.
+text provided by [[AI]] or other sources in their own words.
 
 For further information on the moderation of grades and the minimum requirements for this subject please refer to the
 Moderation of Grades and Minimum Requirements sections later in this outline.
@@ -294,7 +294,7 @@ for your communication assignments.
 
 Canvas Canvas is a web-based communication package that can be accessed from most web browsers from inside or outside
 the university. All online materials and programs required to complete the subject are available under 31265
-Communication for IT Professionals. Students will need to login using their UTS ID and password. Students will be
+[[Communication for IT Professionals]]. Students will need to login using their UTS ID and password. Students will be
 expected to use Canvas to access:
 
 Weekly pre-class tasks and online materials
@@ -312,7 +312,7 @@ Information and marking guides (rubrics) for assessment tasks.
 Students will need to login using their UTS email address and password. Most subjects publish their Canvas course one
 week before semester starts, however, on occasion this may be delayed. If you are having trouble finding a course check
 All Courses in the Courses menu before contacting IT. Students should review the Welcome module for our subject by
-navigating to the 31265 Communication for IT Professionals course then to Modules.
+navigating to the 31265 [[Communication for IT Professionals]] course then to Modules.
 
 # Graduate attribute development
 
@@ -384,15 +384,15 @@ for the subject, it is possible
 to [request a review of a result](https://www.uts.edu.au/current-students/managing-your-course/classes-and-assessment/results/request-review-result)
 with the Subject Coordinator within five (5) working days of the date of release of the result.
 
-# Academic integrity
+# [[Academic integrity]]
 
-Academic integrity is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
+[[Academic integrity]] is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
 assessments. Studying at UTS and being part of our community means maintaining these values and acting with academic
 integrity at all times. This is in line with expectations for professional practice
 in [Engineering](https://www.engineersaustralia.org.au/sites/default/files/2022-08/code-ethics-guidelines-professional-conduct-2022.pdf)
 and [IT](https://www.acs.org.au/content/dam/acs/CodeOfProfessionalEthics_Mar_2023.pdf).
 
-## Guide to practising academic integrity
+## Guide to practising [[academic integrity]]
 
 As a UTS student, when you create something original, credit others and collaborate with care, you act with academic
 integrity:
@@ -406,30 +406,30 @@ work.
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,
 study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about academic integrity, it’s okay, just ask! We’re here to help you understand academic
+If you are feeling confused about [[academic integrity]], it’s okay, just ask! We’re here to help you understand academic
 integrity and do your assessments with confidence:
 
-[Explore the guide to practising academic integrity](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
+[Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
 including dos and don’ts.
 
-[Complete the academic integrity self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
+[Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
 
 [Get help with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
 for life outside of the classroom.
 
 Talk to your tutor, lecturer, subject coordinator
 or [UTS help services](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
-if you’re unsure about anything academic integrity related.
+if you’re unsure about anything [[academic integrity]] related.
 
-## Generative AI (GenAI) and academic integrity
+## Generative [[AI]] (GenAI) and [[academic integrity]]
 
 In Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are permitted to
-use AI technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
-assistive use is permitted. Content generated by AI technologies or other sources presented as your own work is
+use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
+assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your own work is
 considered to be academic misconduct as per
 the [UTS Student Rules on misconduct](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16).
 
-There are a few things you must do to ensure you are maintaining academic integrity:
+There are a few things you must do to ensure you are maintaining [[academic integrity]]:
 
 Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
 subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not sure,
@@ -441,10 +441,10 @@ Unless instructed otherwise by the Subject
 Coordinator, [reference and acknowledge](https://studyguides.lib.uts.edu.au/genai/referencing) the use of GenAI in your
 work, providing details of the type of interactions and extent of usage.
 
-## Academic integrity breaches
+## [[Academic integrity]] breaches
 
-A breach of academic integrity is also known as 'academic misconduct'. A breach occurs if you engage in behaviour that
-undermines academic integrity, such as plagiarism and cheating (
+A breach of [[academic integrity]] is also known as 'academic misconduct'. A breach occurs if you engage in behaviour that
+undermines [[academic integrity]], such as plagiarism and cheating (
 see [Student Rule 16.2](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16)).
 
 Plagiarism can take a number of forms including but not limited to:
@@ -470,7 +470,7 @@ students with the answers to assessments are also subject to student misconduct 
 These are all serious forms of misconduct
 and [penalties apply](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/consequences-plagiarism-and-cheating).
 
-To help ensure academic integrity, assessments that you submit electronically may be subject to similarity detection
+To help ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
 software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
 html). Under
 the [Coursework Assessments Policy](https://www.uts.edu.au/about/uts-governance/policies/uts-policy/coursework-assessments-policy) (

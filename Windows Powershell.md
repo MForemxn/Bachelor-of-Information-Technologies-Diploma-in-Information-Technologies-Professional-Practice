@@ -10,9 +10,9 @@ PowerShell is a modern command shell that includes the best features of other po
 - Tab completion and command prediction (See [about_PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline))
 - Supports command and parameter [aliases](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_aliases)
 - [Pipeline](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipelines) for chaining commands
-- In-console [help](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help) system, similar to Unix `man` pages
+- In-console [help](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help) system, similar to Unix `[[man]]` pages
 
-As a scripting language, PowerShell is commonly used for automating the management of systems. It's also used to build, test, and deploy solutions, often in CI/CD environments. PowerShell is built on the .NET Common Language Runtime (CLR). All inputs and outputs are .NET objects. No need to parse text output to extract information from output. The PowerShell scripting language includes the following features:
+As a scripting language, PowerShell is commonly used for automating the management of systems. It's also used to build, test, and deploy solutions, often in CI/[[CD]] environments. PowerShell is built on the .NET Common Language Runtime (CLR). All inputs and outputs are .NET objects. No need to parse text output to extract information from output. The PowerShell scripting language includes the following features:
 
 - Extensible through [functions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced), [classes](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes), [scripts](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scripts), and [modules](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_modules)
 - Extensible [formatting system](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_format.ps1xml) for easy output

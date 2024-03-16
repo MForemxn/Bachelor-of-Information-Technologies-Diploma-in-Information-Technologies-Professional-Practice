@@ -1,6 +1,6 @@
 **SUBJECT OUTLINE**
 
-**41039 Programming 1**
+**41039 [[Programming 1]]**
 
 **Course area**UTS: Information Technology
 
@@ -142,10 +142,10 @@ functioning whole.
 |-------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Week 1                  | 19 Feb    | Simplest Working Program, and Simple Output **Notes:** Complete preparatory readings and exercises.                                                                                                          
 | Week 2                  | 26 Feb    | Data Types and Variables<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                      |
-| Week 3                  | 4 Mar     | Decisions and Branching Program Flow<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                          |
-| Week 4                  | 11 Mar    | Arrays and User Input<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                         |
-| Week 5                  | 18 Mar    | Loops and Iterative Program Flow<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                              |
-| Week 6                  | 25 Mar    | Classes and Constructors<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>Good Friday Public Holiday (29/3/2024) - Friday labs will not run this week.                                                  |
+| Week 3                  | 4 Mar     | Decisions and [[Branching]] Program Flow<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                          |
+| Week 4                  | 11 Mar    | [[Arrays and User Input]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                         |
+| Week 5                  | 18 Mar    | [[Loops and Iterative Program Flow]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                              |
+| Week 6                  | 25 Mar    | [[Classes and Constructors]]<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>Good Friday Public Holiday (29/3/2024) - Friday labs will not run this week.                                                  |
 | Week 7                  | 1 Apr     | Methods, Properties and Access Control<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>Easter Monday Public Holiday (1/4/2024) - No live lecture this week.<br><br>Monday labs will not run this week. |
 | Week 8                  | 8 Apr     | Lists and Polymorphism<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                        |
 | StuVac                  | 15 Apr    | Study time! **Notes:** Monday lecture and labs and Friday labs will run this week due to the Easter public holidays prior. No other classes run in StuVac.                                                   
@@ -342,15 +342,15 @@ for the subject, it is possible
 to [request a review of a result](https://www.uts.edu.au/current-students/managing-your-course/classes-and-assessment/results/request-review-result)
 with the Subject Coordinator within five (5) working days of the date of release of the result.
 
-# Academic integrity
+# [[Academic integrity]]
 
-Academic integrity is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
+[[Academic integrity]] is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
 assessments. Studying at UTS and being part of our community means maintaining these values and acting with academic
 integrity at all times. This is in line with expectations for professional practice
 in [Engineering](https://www.engineersaustralia.org.au/sites/default/files/2022-08/code-ethics-guidelines-professional-conduct-2022.pdf)
 and [IT](https://www.acs.org.au/content/dam/acs/CodeOfProfessionalEthics_Mar_2023.pdf).
 
-## Guide to practising academic integrity
+## Guide to practising [[academic integrity]]
 
 As a UTS student, when you create something original, credit others and collaborate with care, you act with academic
 integrity:
@@ -364,30 +364,30 @@ work.
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,
 study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about academic integrity, it’s okay, just ask! We are here to help you understand academic
+If you are feeling confused about [[academic integrity]], it’s okay, just ask! We are here to help you understand academic
 integrity and do your assessments with confidence:
 
-[Explore the guide to practising academic integrity](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
+[Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
 including dos and don’ts.
 
-[Complete the academic integrity self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
+[Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
 
 [Get help with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
 for life outside of the classroom.
 
 Talk to your tutor, lecturer, subject coordinator
 or [UTS help services](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
-if you are unsure about anything academic integrity related.
+if you are unsure about anything [[academic integrity]] related.
 
-## Generative AI (GenAI) and academic integrity
+## Generative [[AI]] (GenAI) and [[academic integrity]]
 
 In the Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are permitted
-to use AI technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
-assistive use is permitted. Content generated by AI technologies or other sources presented as your own work is
+to use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
+assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your own work is
 considered to be academic misconduct as per
 the [UTS Student Rules on misconduct](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16).
 
-There are a few things you must do to ensure you are maintaining academic integrity:
+There are a few things you must do to ensure you are maintaining [[academic integrity]]:
 
 Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
 subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not sure,
@@ -399,10 +399,10 @@ Unless instructed otherwise by the Subject
 Coordinator, [reference and acknowledge](https://studyguides.lib.uts.edu.au/genai/referencing) the use of GenAI in your
 work, providing details of the type of interactions and extent of usage.
 
-## Academic integrity breaches
+## [[Academic integrity]] breaches
 
-A breach of academic integrity is also known as 'academic misconduct'. A breach occurs if you engage in behaviour that
-undermines academic integrity, such as plagiarism and cheating (
+A breach of [[academic integrity]] is also known as 'academic misconduct'. A breach occurs if you engage in behaviour that
+undermines [[academic integrity]], such as plagiarism and cheating (
 see [Student Rule 16.2](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16)).
 
 Plagiarism can take a number of forms including but not limited to:
@@ -430,7 +430,7 @@ students with the answers to assessments are also subject to student misconduct 
 These are all serious forms of misconduct
 and [penalties apply](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/consequences-plagiarism-and-cheating).
 
-To help ensure academic integrity, assessments that you submit electronically may be subject to similarity detection
+To help ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
 software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
 html). Under
 the [Coursework Assessments Policy](https://www.uts.edu.au/about/uts-governance/policies/uts-policy/coursework-assessments-policy) (

@@ -1,1 +1,1 @@
-**man** utilitynamemanual pages for the command "utilityname"
+**[[man]]** utilitynamemanual pages for the command "utilityname"

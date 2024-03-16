@@ -1,4 +1,4 @@
-# 1.1 Variables and Branching
+# 1.1 Variables and [[Branching]]
 # Basics of Programming
 ## Programming and Programming Languages
 
@@ -59,7 +59,7 @@ There are many ways to structure a programming language, but underlying all of t
 
 - **State**: A programming language needs a way of (explicitly or implicitly) managing what state the program is in.
     
-- **Branching**: We need to be able to make choices. Particularly we need to be able to make choices about which parts of the code to execute (often based on the state of the program).
+- **[[Branching]]**: We need to be able to make choices. Particularly we need to be able to make choices about which parts of the code to execute (often based on the state of the program).
     
 - **Repetition:** We also need to be able to repeat a piece of code, managed by some controlling parameters.
     

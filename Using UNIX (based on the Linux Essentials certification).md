@@ -1,4 +1,4 @@
-# Key CLI Commands
+# Key [[CLI]] Commands
 [[Listing Files and Directories]]
 [[Manipulating Directories]]
 [[Special Charecters]]
@@ -17,7 +17,7 @@
 [[Compressing Files]]
 [[Creating Files]]
 # Creating files
-There are three key ways to create files in Unix CLI
+There are three key ways to create files in Unix [[CLI]]
 - [[Touch]]
 - [[Redirection]]
 - [[Editor]] ([[vim]])

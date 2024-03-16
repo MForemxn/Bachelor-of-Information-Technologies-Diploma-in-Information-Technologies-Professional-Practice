@@ -156,7 +156,7 @@ System requirements
 |CPU|- [x86-64](https://en.wikipedia.org/wiki/X86-64 "X86-64") or compatible<br>- [BIOS](https://en.wikipedia.org/wiki/BIOS "BIOS") or compatible firmware[D]|   |
 |Memory|256 MB|   |
 |Free space|- 1.5 GB<br>- [Master boot record](https://en.wikipedia.org/wiki/Master_boot_record "Master boot record") used[D]|   |
-|Media|[CD-ROM drive](https://en.wikipedia.org/wiki/CD-ROM_drive "CD-ROM drive") or compatible|   |
+|Media|[[[CD]]-ROM drive](https://en.wikipedia.org/wiki/CD-ROM_drive "CD-ROM drive") or compatible|   |
 |Display|[Super VGA](https://en.wikipedia.org/wiki/Super_VGA "Super VGA") (800 × 600) or over|[XGA](https://en.wikipedia.org/wiki/XGA "XGA") (1024 × 768) or over|
 |Sound hardware|N/A|[Sound card](https://en.wikipedia.org/wiki/Sound_card "Sound card") plus [speakers](https://en.wikipedia.org/wiki/Computer_speaker "Computer speaker")/[headphones](https://en.wikipedia.org/wiki/Headphones "Headphones")|
 |Input device(s)|[Keyboard](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard"), [mouse](https://en.wikipedia.org/wiki/Mouse_(computing) "Mouse (computing)")|   |
@@ -164,7 +164,7 @@ System requirements
 |CPU|[Itanium](https://en.wikipedia.org/wiki/Itanium "Itanium") 733 [MHz](https://en.wikipedia.org/wiki/MHz "MHz")|[Itanium](https://en.wikipedia.org/wiki/Itanium "Itanium") 800 [MHz](https://en.wikipedia.org/wiki/MHz "MHz")|
 |Memory|1 GB|   |
 |Free space|6 GB|   |
-|Media|[CD-ROM drive](https://en.wikipedia.org/wiki/CD-ROM_drive "CD-ROM drive") or compatible|   |
+|Media|[[[CD]]-ROM drive](https://en.wikipedia.org/wiki/[[CD]]-ROM_drive "[[CD]]-ROM drive") or compatible|   |
 |Display|[Super VGA](https://en.wikipedia.org/wiki/Super_VGA "Super VGA") (800 × 600) or over|[XGA](https://en.wikipedia.org/wiki/XGA "XGA") (1024 x 768) or over|
 |Input device(s)|[Keyboard](https://en.wikipedia.org/wiki/Computer_keyboard "Computer keyboard"), [mouse](https://en.wikipedia.org/wiki/Mouse_(computing) "Mouse (computing)")|   |
 
@@ -340,7 +340,7 @@ Microsoft issued a statement stating that it was investigating the leaks.[168][1
 66. ["Changes to Windows XP Home Edition K and Windows XP Professional K from earlier versions of Windows XP (MSKB 922474)"](https://support.microsoft.com/kb/922474). _Microsoft Support_. Microsoft. September 15, 2006. [Archived](https://web.archive.org/web/20131219020559/http://support.microsoft.com/kb/922474) from the original on December 19, 2013. Retrieved January 26, 2014.none
 67. ["Service Pack and Update Center"](https://support.microsoft.com/en-us/help/14162/windows-service-pack-and-update-center). _Support_. [Microsoft](https://en.wikipedia.org/wiki/Microsoft "Microsoft"). September 10, 2016. [Archived](https://web.archive.org/web/20170831045620/https://support.microsoft.com/en-us/help/14162/windows-service-pack-and-update-center) from the original on August 31, 2017.none
 68. ["Installing Windows XP Service Pack 3 (SP3)"](https://technet.microsoft.com/en-us/library/cc507836.aspx). _[Microsoft](https://en.wikipedia.org/wiki/Microsoft_TechNet "Microsoft TechNet")_. [Microsoft](https://en.wikipedia.org/wiki/Microsoft "Microsoft"). November 18, 2011. [Archived](https://web.archive.org/web/20170822181613/https://technet.microsoft.com/en-us/library/cc507836.aspx) from the original on August 22, 2017. Retrieved August 22, 2017.none
-69. Purdy, Kevin. ["Slipstream Service Pack 3 into Your Windows XP Installation CD"](https://lifehacker.com/386526/slipstream-service-pack-3-into-your-windows-xp-installation-cd). _Lifehacker_. [Archived](https://web.archive.org/web/20170822180903/http://lifehacker.com/386526/slipstream-service-pack-3-into-your-windows-xp-installation-cd) from the original on August 22, 2017. Retrieved August 22, 2017.none
+69. Purdy, Kevin. ["Slipstream Service Pack 3 into Your Windows XP Installation [[CD]]"](https://lifehacker.com/386526/slipstream-service-pack-3-into-your-windows-xp-installation-[[cd]]). _Lifehacker_. [Archived](https://web.archive.org/web/20170822180903/http://lifehacker.com/386526/slipstream-service-pack-3-into-your-windows-xp-installation-[[cd]]) from the original on August 22, 2017. Retrieved August 22, 2017.none
 70. ["Windows XP SP1 Irons out the Wrinkles"](https://www.pcmag.com/article2/0,2817,526004,00.asp). _PC Magazine_. [Archived](https://web.archive.org/web/20140226221844/http://www.pcmag.com/article2/0,2817,526004,00.asp) from the original on February 26, 2014. Retrieved January 26, 2014.none
 71. [Mendelson, Edward](https://en.wikipedia.org/wiki/Edward_Mendelson "Edward Mendelson"). ["Microsoft Windows XP Service Pack 1 review"](https://reviews.cnet.com/windows/microsoft-windows-xp-service/4505-3672_7-20039834.html). _CNET_. CNET Networks. [Archived](https://web.archive.org/web/20080209135918/http://reviews.cnet.com/windows/microsoft-windows-xp-service/4505-3672_7-20039834.html) from the original on February 9, 2008. Retrieved January 26, 2014.none
 72. ["Differences Between Windows XP SP1 and Windows XP SP1a"](https://support.microsoft.com/?kbid=813926). February 3, 2003. [Archived](https://web.archive.org/web/20070127143544/http://support.microsoft.com/?kbid=813926) from the original on January 27, 2007. Retrieved September 21, 2007.none

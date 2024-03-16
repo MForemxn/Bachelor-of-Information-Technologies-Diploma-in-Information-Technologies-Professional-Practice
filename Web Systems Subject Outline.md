@@ -1,6 +1,6 @@
 **SUBJECT OUTLINE**
 
-**31268 Web Systems**
+**31268 [[Web Systems]]**
 
 **Course area**UTS: Information Technology
 
@@ -126,14 +126,14 @@ issues.
 |--------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1            | 19 Feb | **Online Seminar**: Welcome and Admin<br><br>Tutorial: none Lab: none<br><br>**Notes:**<br><br>You are required to read and follow the Preparation information on Canvas.                                                                                                                                                                                                  |
 | 2            | 26 Feb | **Online Seminar**: Intro to Operating Systems<br><br>Tutorial: intro to labs, Ed, Lesson 1<br><br>Lab: Lesson 1 - filesystems<br><br>**Notes:**<br><br>You are required to view the online lectures **before** each weekly tutorial/lab listed in this schedule.                                                                                                          |
-| 3            | 4 Mar  | Online Lectures: unix, filesystems & file management Tutorial: filesystem and CLI Lab: Lesson 2 - editing **Notes:** **Lesson 1 (2%) - due 5pm Sunday**                                                                                                                                                                                                                    
+| 3            | 4 Mar  | Online Lectures: unix, filesystems & file management Tutorial: filesystem and [[CLI]] Lab: Lesson 2 - editing **Notes:** **Lesson 1 (2%) - due 5pm Sunday**                                                                                                                                                                                                                    
 | 4            | 11 Mar | **Online Seminar**: Introduction to Web and Web Assignment Online lecture: system security, users and permissions Tutorial: setting up websites Lab: Lesson 3 - security **Notes:** **Lesson 2 (2%) - due 5pm Sunday**                                                                                                                                                     
-| 8            | 8 Apr  | **Online Seminar:** Computing Theory 1<br><br>Tutorial: number systems<br><br>Lab: Lesson 6 - scripting<br><br>**Notes:**<br><br>**Lesson 5 (2%) - due 5pm Sunday**                                                                                                                                                                                                        |
+| 8            | 8 Apr  | **Online Seminar:** [[Computing Theory]] 1<br><br>Tutorial: number systems<br><br>Lab: Lesson 6 - scripting<br><br>**Notes:**<br><br>**Lesson 5 (2%) - due 5pm Sunday**                                                                                                                                                                                                        |
 | Stuvac       | 15 Apr | **Stuvac**<br><br>**Notes:**<br><br>No Labs or classes.<br><br>**Exception**: Monday and Friday labs may run to account for Public Holidays in weeks 6 and 7. **Lesson 2 (2%) - due 5pm Sunday**                                                                                                                                                                           
 | 5            | 18 Mar | Online Lecture: web development<br><br>Tutorial: HTLM Lab: web development<br><br>**Notes:**<br><br>**Lesson 3 (2%) - due 5pm Sunday**                                                                                                                                                                                                                                     |
 | 6            | 25 Mar | Online Lecture: web design with CSS<br><br>Tutorial: CSS, Web assignment<br><br>Lab: Ed catchup<br><br>**Notes:**<br><br>**Lesson 4(2%) - due 5pm Sunday**<br><br>**Draft Website Assignment due 5pm Sunday**<br><br>**Friday is a public holiday. Friday Labs may be rescheduled to occur on Friday in mid-StuVac. Details TBA on Canvas.**                               |
 | 7            | 1 Apr  | Online lectures: process, resource, memory management<br><br>Tutorial: process management<br><br>Lab: Lesson 5 - piping<br><br>**Notes:**<br><br>**Quiz 1 (5%) in your lab**<br><br>**Monday is a public holiday. Monday Labs may be rescheduled to occur on Monday in mid-StuVac. Details TBA on Canvas.** **Website Assignment (19%) due 5pm Sunday**                    
-| 9            | 22 Apr | **Online Seminar:** Computing Theory 2 Tutorial: boolean logic Lab: Lesson 7 - Data Processing **Notes:** **Lesson 6 (2%) - due at 5pm Sunday** **Thursday is a public holiday. Thursday Labs may be rescheduled to occur on Thursday in** **Thursday is a public holiday. Thursday Labs may be rescheduled to occur on Thursday in final-StuVac. Details TBA on Canvas.** 
+| 9            | 22 Apr | **Online Seminar:** [[Computing Theory]] 2 Tutorial: [[boolean logic]] Lab: Lesson 7 - Data Processing **Notes:** **Lesson 6 (2%) - due at 5pm Sunday** **Thursday is a public holiday. Thursday Labs may be rescheduled to occur on Thursday in** **Thursday is a public holiday. Thursday Labs may be rescheduled to occur on Thursday in final-StuVac. Details TBA on Canvas.** 
 | 10           | 29 Apr | Seminar: Review and Wrap Up Online lectures: Review and Networking Tutorial: Logic, Internet tools Lab: Edstem catchup **Notes:** **Lesson 7 (3%) - due 5pm Sunday** **Website Assignment peer marking (6%) due 5pm Sunday**                                                                                                                                               
 | 11           | 6 May  | Tutorial: **Quiz 2** Lab: Practice Skills Test **Notes:** **Quiz 2 (5%) in lab**                                                                                                                                                                                                                                                                                           
 | 12           | 13 May | Tutorial: none this week Lab: **Skills Test** **Notes:** **Skills Test (20%) in lab**                                                                                                                                                                                                                                                                                      |
@@ -166,7 +166,7 @@ the week they are due.
 | **Type:**                | Quiz/test                                                                                                                                                                                              |
 | **Groupwork:**           | Individual                                                                                                                                                                                             |
 | **Weight:**              | 5%                                                                                                                                                                                                     |
-| **Task:**                | This online quiz will test your knowledge of the basic computing theory developed in the lecture and tutorial materials from week 1 to week 6. You must sit for this quiz in your allocated tutorial.  |
+| **Task:**                | This online quiz will test your knowledge of the basic [[computing theory]] developed in the lecture and tutorial materials from week 1 to week 6. You must sit for this quiz in your allocated tutorial.  |
 | **Due:**                 | In class in Week 7 in your scheduled lab                                                                                                                                                               |
 | **Further information:** | If you miss this tutorial, you will receive 0 marks for this quiz unless prior arrangements have been made.                                                                                            |
 
@@ -178,7 +178,7 @@ the week they are due.
 | **Type:**                | Quiz/test                                                                                                                                                                                                               |
 | **Groupwork:**           | Individual                                                                                                                                                                                                              |
 | **Weight:**              | 5%                                                                                                                                                                                                                      |
-| **Task:**                | This online quiz will test your knowledge of the basic computing theory developed in the lecture and tutorial materials from week 7 to week 10. You must sit for this quiz in your allocated tutorial.                  |
+| **Task:**                | This online quiz will test your knowledge of the basic [[computing theory]] developed in the lecture and tutorial materials from week 7 to week 10. You must sit for this quiz in your allocated tutorial.                  |
 | **Due:**                 | In class in Week 11 in your scheduled lab                                                                                                                                                                               |
 | **Further information:** | If you miss this tutorial, you will receive 0 marks for this quiz unless prior arrangements have been made.                                                                                                             |
 
@@ -218,8 +218,8 @@ immediate feedback as students complete each question which prepares them to dev
 
 # Examination material or equipment
 
-You are allowed to bring a non-programmable calculator for the Quiz 2 and the final exam. Smartphone calculators such as
-Android or iPhones will not be allowed. Calculators with binary/hex number conversion or boolean logic functions are not
+You are allowed to bring a non-programmable calculator for the Quiz 2 and the final exam. Smartphone [[calculators]] such as
+Android or iPhones will not be allowed. [[Calculators]] with binary/hex number conversion or [[boolean logic]] functions are not
 allowed. The typical HSC school calculator is a good choice to bring.
 
 You are allowed to bring 1 A4 double sided sheet of notes into the Linux Skills Test. You are allowed to bring in 2 x A4
@@ -333,17 +333,17 @@ for the subject, it is possible
 to [request a review of a result](https://www.uts.edu.au/current-students/managing-your-course/classes-and-assessment/results/request-review-result)
 with the Subject Coordinator within five (5) working days of the date of release of the result.
 
-# Academic integrity
+# [[Academic integrity]]
 
-Academic integrity is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
+[[Academic integrity]] is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
 assessments.
 
-Studying at UTS and being part of our community means maintaining these values and acting with academic integrity at all
+Studying at UTS and being part of our community means maintaining these values and acting with [[academic integrity]] at all
 times. This is in line with expectations for professional practice
 in [Engineering](https://www.engineersaustralia.org.au/sites/default/files/2022-08/code-ethics-guidelines-professional-conduct-2022.pdf)
 and [IT](https://www.acs.org.au/content/dam/acs/CodeOfProfessionalEthics_Mar_2023.pdf).
 
-**Guide to practising academic integrity**
+**Guide to practising [[academic integrity]]**
 
 As a UTS student, when you create something original, credit others and collaborate with care, you act with academic
 integrity: Create something original. This means doing all your own work from start to finish, submitting work that is
@@ -353,29 +353,29 @@ Credit others. You need to acknowledge and reference the source of any ideas, da
 work. Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or
 supervisor, study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about academic integrity, it’s okay, just ask! We are here to help you understand academic
+If you are feeling confused about [[academic integrity]], it’s okay, just ask! We are here to help you understand academic
 integrity and do your assessments with confidence:
 
-[Explore the guide to practising academic integrity](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
+[Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
 including dos and
-don’ts. [Complete the academic integrity self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
+don’ts. [Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
 
 [Get help with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
 for life outside of the classroom.
 
 Talk to your tutor, lecturer, subject coordinator
 or [UTS help services](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
-if you are unsure about anything academic integrity related.
+if you are unsure about anything [[academic integrity]] related.
 
-**Generative AI (GenAI) and academic integrity**
+**Generative [[AI]] (GenAI) and [[academic integrity]]**
 
 In the Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are permitted
-to use AI technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
-assistive use is permitted. Content generated by AI technologies or other sources presented as your own work is
+to use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
+assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your own work is
 considered to be academic misconduct as per
 the [UTS Student Rules on misconduct](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16).
 
-There are a few things you must do to ensure you are maintaining academic integrity:
+There are a few things you must do to ensure you are maintaining [[academic integrity]]:
 
 Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
 subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not sure,
@@ -387,10 +387,10 @@ Unless instructed otherwise by the Subject
 Coordinator, [reference and acknowledge](https://studyguides.lib.uts.edu.au/genai/referencing) the use of GenAI in your
 work, providing details of the type of interactions and extent of usage.
 
-**Academic integrity breaches**
+**[[Academic integrity]] breaches**
 
-A breach of academic integrity is also known as 'academic misconduct'. A breach occurs if you engage in behaviour that
-undermines academic integrity, such as plagiarism and cheating (
+A breach of [[academic integrity]] is also known as 'academic misconduct'. A breach occurs if you engage in behaviour that
+undermines [[academic integrity]], such as plagiarism and cheating (
 see [Student Rule 16.2](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-16)).
 
 Plagiarism can take a number of forms including but not limited to:
@@ -416,7 +416,7 @@ students with the answers to assessments are also subject to student misconduct 
 These are all serious forms of misconduct
 and [penalties apply](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/consequences-plagiarism-and-cheating).
 
-To help ensure academic integrity, assessments that you submit electronically may be subject to similarity detection
+To help ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
 software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
 html). Under
 the [Coursework](https://www.uts.edu.au/about/uts-governance/policies/uts-policy/coursework-assessments-policy) [Assessments Policy](https://www.uts.edu.au/about/uts-governance/policies/uts-policy/coursework-assessments-policy) (

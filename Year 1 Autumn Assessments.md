@@ -42,7 +42,7 @@
 |**Due:**|Final Presentation in-class Week 12|
 |**Further Information**|This assessment is moderated by Self and Peer Assessment to determine individual grades. Students who do not meet the minimum standard for individual contribution to both assessment task 2 AND 3 will receive a score of zero for BOTH tasks.|
 
-# Introduction to Information Systems
+# [[Introduction to Information Systems]]
 ## Assessment task 1: Information Systems in Business, Organization and Society (Quiz)
 
 |**Intent:**|To demonstrate technical knowledge of specified concepts covered in the weekly lectures.|
@@ -98,7 +98,7 @@
 |**Due:**|11.59pm Saturday 25 May 2024|
 |**Further information:**|**Note for the students enrolled in the Bachelor of Computer Science ONLY**|
 
-# Programming 1
+# [[Programming 1]]
 ## Assessment task 1: Lab Assessments
 
 |||
@@ -162,7 +162,7 @@
 |**Due:**|Week 12<br><br>Final due date Friday Week 12 (17/5/2024 11:55PM).|
 |**Further information:**|Although weighted at 0%, this assessment task can be used as an alternative assessment to the lab assessments.|
 
-# Web Systems
+# [[Web Systems]]
 
 ## Assessment task 1: Linux Exercises**
 
@@ -183,7 +183,7 @@
 |**Type:**|Quiz/test|
 |**Groupwork:**|Individual|
 |**Weight:**|5%|
-|**Task:**|This online quiz will test your knowledge of the basic computing theory developed in the lecture and tutorial materials from week 1 to week 6. You must sit for this quiz in your allocated tutorial.|
+|**Task:**|This online quiz will test your knowledge of the basic [[computing theory]] developed in the lecture and tutorial materials from week 1 to week 6. You must sit for this quiz in your allocated tutorial.|
 |**Due:**|In class in Week 7 in your scheduled lab|
 |**Further information:**|If you miss this tutorial, you will receive 0 marks for this quiz unless prior arrangements have been made.|
 
@@ -195,7 +195,7 @@
 | **Type:** | Quiz/test |
 | **Groupwork:** | Individual |
 | **Weight:** | 5% |
-| **Task:** | This online quiz will test your knowledge of the basic computing theory developed in the lecture and tutorial materials from week 7 to week 10. You must sit for this quiz in your allocated tutorial. |
+| **Task:** | This online quiz will test your knowledge of the basic [[computing theory]] developed in the lecture and tutorial materials from week 7 to week 10. You must sit for this quiz in your allocated tutorial. |
 | **Due:** | In class in Week 11 in your scheduled lab |
 | **Further information:** | If you miss this tutorial, you will receive 0 marks for this quiz unless prior arrangements have been made. |
 

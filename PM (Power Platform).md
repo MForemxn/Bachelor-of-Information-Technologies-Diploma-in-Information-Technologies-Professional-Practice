@@ -1,22 +1,22 @@
-# Getting Started with the Power Platform CLI
+# Getting Started with the Power Platform [[CLI]]
 
 May 10th, 20230 [4](https://devblogs.microsoft.com/powerplatform/wp-login.php?redirect_to=https%3A%2F%2Fdevblogs.microsoft.com%2Fpowerplatform%2Fgetting-started-with-the-power-platform-cli%2F)
 
-As a developer, you might be used to working with the command line. When using low-code tools like the Power Platform, that’s not a given. To bridge the gap for developers, Microsoft has created the Power Platform CLI.
+As a developer, you might be used to working with the command line. When using low-code tools like the Power Platform, that’s not a given. To bridge the gap for developers, Microsoft has created the Power Platform [[CLI]].
 
-> This blog is part of a multi-part series on the Power Platform CLI.
+> This blog is part of a multi-part series on the Power Platform [[CLI]].
 > 
 > Previously, the following blogs appeared in this series:
 > 
-> - Part 1 – Getting Started with the Power Platform CLI (This blog)
+> - Part 1 – Getting Started with the Power Platform [[CLI]] (This blog)
 > - [Part 2 – Streamline your solution development with the Power Platform CLI: Create a solution from scratch](https://devblogs.microsoft.com/powerplatform/streamline-your-solution-development-with-the-power-platform-cli-create-a-solution-from-scratch/)
 > - [Part 3 – Getting Started with Power Platform CLI and Power Pages](https://devblogs.microsoft.com/powerplatform/getting-started-with-power-platform-cli-and-power-pages/)
 
 ## Inner loop & outer loop development
 
-The Power Platform CLI works for both inner loop development and outer loop development. The inner loop is for when a developer wants to work on a project and build a new feature for instance. The outer loop is to make sure that what has been built, also can be deployed to other environments. The Power Platform CLI also powers [the GitHub Actions for Power Platform](https://aka.ms/pp/github-actions) as well as the [Microsoft Power Platform Build Tools for Azure DevOps](https://aka.ms/pp/devops).
+The Power Platform [[CLI]] works for both inner loop development and outer loop development. The inner loop is for when a developer wants to work on a project and build a new feature for instance. The outer loop is to make sure that what has been built, also can be deployed to other environments. The Power Platform [[CLI]] also powers [the GitHub Actions for Power Platform](https://aka.ms/pp/github-actions) as well as the [Microsoft Power Platform Build Tools for Azure DevOps](https://aka.ms/pp/devops).
 
-Which commands are available in the Power Platform CLI? There are a lot… Currently, they are divided in sixteen command groups. Below you can see the overview of those command groups:
+Which commands are available in the Power Platform [[CLI]]? There are a lot… Currently, they are divided in sixteen command groups. Below you can see the overview of those command groups:
 
 [![Power Platform CLI Command Groups](https://devblogs.microsoft.com/powerplatform/wp-content/uploads/sites/79/2023/05/pac.png)](https://devblogs.microsoft.com/powerplatform/wp-content/uploads/sites/79/2023/05/pac.png)
 
@@ -24,9 +24,9 @@ A command group is a set of commands that belong to a certain topic. For instanc
 
 ## Installation
 
-The Power Platform CLI can be installed on Windows, MacOS and Linux devices. The easiest way to install the Power Platform CLI, is to install the [Power Platform Tools extension for VS Code](http://aka.ms/pac/docs#install-using-power-platform-tools-for-visual-studio-code). This will automatically install the CLI and makes it available in the integrated terminal. For Windows, it’s also possible to install the CLI as via [a MSI Installer](http://aka.ms/pac/docs#install-power-platform-cli-for-windows).
+The Power Platform [[CLI]] can be installed on Windows, MacOS and Linux devices. The easiest way to install the Power Platform [[CLI]], is to install the [Power Platform Tools extension for VS Code](http://aka.ms/pac/docs#install-using-power-platform-tools-for-visual-studio-code). This will automatically install the [[CLI]] and makes it available in the integrated terminal. For Windows, it’s also possible to install the CLI as via [a MSI Installer](http://aka.ms/pac/docs#install-power-platform-cli-for-windows).
 
-Although Power Platform CLI is a cross-platform CLI, some commands only work on Windows. That’s simply because those commands work with tools that haven’t been available cross platform. In the [docs on Microsoft Learn](https://aka.ms/pac/docs), you will see which commands don’t work cross platform.
+Although Power Platform [[CLI]] is a cross-platform [[CLI]], some commands only work on Windows. That’s simply because those commands work with tools that haven’t been available cross platform. In the [docs on Microsoft Learn](https://aka.ms/pac/docs), you will see which commands don’t work cross platform.
 
 [![Note that states that a command is only available for the .NET Full Framework version of the PAC CLI](https://devblogs.microsoft.com/powerplatform/wp-content/uploads/sites/79/2023/05/pac-net-framework.png)](https://devblogs.microsoft.com/powerplatform/wp-content/uploads/sites/79/2023/05/pac-net-framework.png)
 
@@ -71,6 +71,6 @@ Don’t forget to replace the `{ID}` part with the ID, URL or unique name that
 
 ## Power Platform CLI overview
 
-A couple of weeks back, I had the pleasure to have a chat with Kartik Kanakasabesan, who is the Program Manager of the Power Platform CLI. In the video, which is embedded below, Kartik shows how you can use the Power Platform to your benefit.
+A couple of weeks back, I had the pleasure to have a chat with Kartik Kanakasabesan, who is the Program Manager of the Power Platform [[CLI]]. In the video, which is embedded below, Kartik shows how you can use the Power Platform to your benefit.
 
 [Read more about the Power Platform CLI on Microsoft Learn](https://learn.microsoft.com/power-platform/developer/cli/introduction)

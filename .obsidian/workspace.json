@@ -13,31 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Final Submission Document.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "674e3cf06f55f083"
+            "group": "ddf66f6049f01f20"
           }
         ]
       },
       {
-        "id": "3850448e1e09ed84",
+        "id": "d8460e51f44df422",
         "type": "tabs",
         "children": [
           {
-            "id": "0fd18340d5c335e5",
+            "id": "2672adc29ec67e4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Final Submission Document.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "674e3cf06f55f083"
+            "group": "ddf66f6049f01f20"
           }
         ]
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,14 +105,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Final Submission Document.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Final Submission Document.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Final Submission Document.md"
+                "file": "Loops and Iterative Program Flow.md"
               }
             }
           }
@@ -153,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,45 +165,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9507ccfe343282c0",
+  "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
-    "1a and 1b Research Report.md",
-    "Fleshed, without in text references.md",
-    "Final Submission Document.md",
-    "Communication for IT Professionals.md",
+    "Ethics relating to IT issues.md",
+    "Information Security - Cyber Security.md",
+    "AI-Powered products.md",
+    "Business Analytics.md",
+    "vim.md",
+    "Vim Quiz 1 Questions and Answers.md",
+    "Using UNIX (based on the Linux Essentials certification).md",
+    "Creating Files.md",
+    "Web Systems.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Timetable.md",
-    "timetable-25277308.pdf",
-    "CSV to CSV to Green Grass using MQTT Readme.md",
-    "CSV to Green Grass using MQTT.md",
-    "UTSME.md",
-    "Group Details - RRR Engineering Crew.md",
     "Communications for IT Professionals Subject Outline.md",
-    "Programming 1.md",
-    "Communications For IT Professionals Assessment 1b Research Links.md",
-    "Handbook.md",
-    "Internet of Things.md",
-    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
-    "Introduction to Information Systems.md",
-    "Year 1 Autumn Week By Week.md",
-    "Week by Week Guidelines.md",
-    "Acquiring information systems and application.md",
-    "Software as a Service (SaaS).md",
-    "d.md",
-    "1A Feedback.md",
-    "Computing Theory.md",
-    "Web Systems.md",
+    "scratch document.md",
+    "Windows Powershell.md",
+    "Programming 1 Subject Outline.md",
+    "Harvard Business Review Article.md",
+    "Software Defined Networks.md",
+    "Career Management for IT Professionals.md",
+    "Business Requirements Modelling.md",
+    "Infographic (Group Task).md",
+    "1a and 1b Research Report.md",
+    "Filesystems.md",
+    "Useful Links.md",
+    "Communications for IT Professionals Assessment Task 1b Checklist.md",
+    "Redirection.md",
+    "Assesment Task 1 Template.pdf",
+    "Permissions and Ownerships.md",
+    "Pasted image 20240226212209.png",
+    "timetable-25277308.pdf",
     "Screenshot 2024-03-04 at 11.48.02 am.png",
     "Screenshot 2024-03-04 at 10.56.00 am.png",
     "APA Interactive Guide.pdf",
     "Assesement Task 1 Checklist.docx",
-    "Assesment Task 1 Template.pdf",
     "Pasted image 20240226212514.png",
     "Pasted image 20240226212342.png",
     "Pasted image 20240226212306.png",
     "Pasted image 20240226212302.png",
-    "Pasted image 20240226212209.png",
     "Pasted image 20240226212201.png",
     "Pasted image 20240226211154.png",
     "Pasted image 20240226211147.png",

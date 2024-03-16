@@ -39,7 +39,7 @@
 # How Does IT Impact Organisations
 - allows people to make more informed decisions
 	- allows people to have all the necessary information on hand to make the best decisions
-		- does this through business analytics tools for example
+		- does this through [[business analytics]] tools for example
 		- ![[Pasted image 20240226210006.png]]
 	- Example: role of IT in the health care system
 		- Faster diagnosis and better decision making
