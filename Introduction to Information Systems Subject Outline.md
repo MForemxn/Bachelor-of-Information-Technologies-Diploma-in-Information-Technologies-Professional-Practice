@@ -34,7 +34,7 @@ and networked environment. It describes the role of information systems (IS) for
 formation of business networks. Real-world case studies are presented to understand the role of IS in obtaining and
 maintaining competitive advantage. This introductory subject explains activities used to develop, implement and maintain
 IS. Techniques for building effective team collaboration skills and relationship skills are demonstrated in this
-subject. In addition, ethics, privacy and information security are highlighted. In this subject, students learn to apply
+subject. In addition, ethics, privacy and information [[Security]] are highlighted. In this subject, students learn to apply
 theoretical knowledge to solve practical situations, learn to generate new ideas and learn how to work together to
 develop team skills.
 
@@ -141,7 +141,7 @@ the OPELA and/or do not attend 80% of the Language Development Tutorials will re
 | Week 7           | 1 April   | Topic: [[AI]]-Powered products **Notes:** Video Submission Deadline: 2 April, 2024, In-Class Activity 2: Video: 3-5 April, 2024                                                                                                                                                   |
 | Week 8           | 8 April   | Human-[[AI]] Interaction **Notes:** **Quiz 2** (includes topic from Week 5, 6)                                                                                                                                                                                                    |
 | Stu Vac          | 15 April  | Mid-session Stu Vac (study vacation), Monday, 15 April, 2024 - Sunday, 21 April, 2024                                                                                                                                                                                         |
-| Week 9           | 22 April  | Topic: Information Security- Cyber Security<br><br>**Notes:**<br><br>**In-class activity 3**                                                                                                                                                                                  |
+| Week 9           | 22 April  | Topic: Information [[Security]]- Cyber [[Security]]<br><br>**Notes:**<br><br>**In-class activity 3**                                                                                                                                                                                  |
 | Week 10          | 29 April  | Topic: Social Engineering Scams                                                                                                                                                                                                                                               |
 | Week 11          | 6 May     | Topic: Ethics and privacy **Notes:** Assignment 2 Submission Deadline: 7 May 2024, **Assignment 2 presentation**                                                                                                                                                              |
 | Week 12          | 13 May    | Telecommunications and Networking **Notes:** **Quiz 3** (includes topic from Week 9 & 11) **Assignment 4 submission deadline**: 25 May, 2024                                                                                                                                  

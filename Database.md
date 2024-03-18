@@ -8,7 +8,7 @@
 |---|---|
 |Minimal data redundancy|A single copy of data ensures that storage requirements are minimised.|
 |Improved data consistency|Eliminating redundancy greatly reduces the possibilities of inconsistency.|
-|Increased security|A centralised system makes it easier to enforce access restrictions.|
+|Increased [[Security]]|A centralised system makes it easier to enforce access restrictions.|
 |Improved data quality|Centralised control, minimised redundancy, and improved data consistency help to enhance the quality of data.|
 |Improved data accessibility and sharing|A centralised system makes it easier to deploy and control access for personnel within or outside organisational boundaries.|
 |Enforcement of standards|A centralised system makes it much easier to enforce standards and rules for data creation, modification, naming, and deletion.|

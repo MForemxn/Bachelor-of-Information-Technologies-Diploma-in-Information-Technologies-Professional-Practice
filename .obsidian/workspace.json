@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data and Knowledge Management.md",
+                "file": "Security.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data and Knowledge Management.md",
+                "file": "Security.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,13 +105,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data and Knowledge Management.md",
+                "file": "Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data and Knowledge Management.md",
+                "file": "Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,15 +145,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data and Knowledge Management.md"
+                "file": "Security.md"
               }
+            }
+          },
+          {
+            "id": "a5229cf9541aec66",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 430.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,46 +170,49 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "2672adc29ec67e4e",
+  "active": "9507ccfe343282c0",
   "lastOpenFiles": [
-    "Knowledge Management.md",
+    "Backup Data.md",
+    "Security.md",
+    "Educate and Train Users.md",
+    "Penetration Testing.md",
+    "Security Audits.md",
+    "Security Layers.md",
+    "Secure Coding Practices.md",
+    "Update and Patch.md",
+    "Web Systems.md",
+    "Content Security Policy (CSP).md",
+    "Security Headers.md",
+    "Input Validation.md",
+    "Session Management.md",
+    "Content Security Policy (CSP).md",
+    "Cross-Site Scripting (XSS).md",
+    "Session Management.md",
+    "SQL Injection.md",
+    "Cross-Site Request Forgery (CSRF).md",
+    "Cross-Site Request Forgery (CSRF).md",
+    "copilot-conversations",
+    "Use Secure Coding Practices.md",
+    "Authentication and Authorisation.md",
+    "Data Protection.md",
+    "Encryption.md",
+    "Regularly Update and Patch.md",
+    "MacOSX.md",
+    "Windows XP.md",
     "Pasted image 20240318112947.png",
-    "Data and Knowledge Management.md",
     "Pasted image 20240318112314.png",
-    "Big Data.md",
-    "Data Warehouses and Data Marts.md",
     "Pasted image 20240318112139.png",
     "Pasted image 20240318112100.png",
     "Pasted image 20240318112056.png",
     "Pasted image 20240318112052.png",
     "Pasted image 20240318112045.png",
-    "Collaborative Filtering.md",
-    "2024-03-18.md",
-    "Content Based Recommendation.md",
     "Pasted image 20240318111537.png",
     "Pasted image 20240318111520.png",
     "Pasted image 20240318111457.png",
-    "Database.md",
-    "Modality.md",
-    "Cardinality.md",
-    "Introduction to Information Systems.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "Infographic (Group Task).md",
-    "Handbook.md",
-    "Harvard Business Review Article.md",
-    "Communication for IT Professionals.md",
-    "Communications for IT Professionals Subject Outline.md",
-    "Loops and Iterative Program Flow.md",
-    "Ethics relating to IT issues.md",
-    "Information Security - Cyber Security.md",
-    "AI-Powered products.md",
-    "Business Analytics.md",
-    "vim.md",
-    "Vim Quiz 1 Questions and Answers.md",
     "Assesment Task 1 Template.pdf",
     "timetable-25277308.pdf",
     "APA Interactive Guide.pdf",
@@ -211,7 +222,6 @@
     "Homepage",
     "Homepages 1",
     "General concepts, processes, storage, Input",
-    "Homepage",
     "Untitled.canvas"
   ]
 }

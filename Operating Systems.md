@@ -16,12 +16,12 @@
 - from lowest level to highest:
 	- hardware (CPU, memory, I/O, storage)
 	- kernal (immediately controls hardware)
-		- drivers, firmware, allocates resources, security control
+		- drivers, firmware, allocates resources, [[Security]] control
 		- kernal cannot fail under any circumstances, must be written very well. 
 	- apps
 		- top layer, often called "UserLand" or "UserSpace"
 		- programs that complete a task for the user
-		- also included programs which are invisible to the user, but still complete a task, such as security and networking tasks.
+		- also included programs which are invisible to the user, but still complete a task, such as [[Security]] and networking tasks.
 	- interface ([[GUI]] or [[CLI]])
 		- [[GUI]] - user friendly, intuitive, and can sometimes even be a web interface
 		- [[CLI]] - used for programs without a [[GUI]].
