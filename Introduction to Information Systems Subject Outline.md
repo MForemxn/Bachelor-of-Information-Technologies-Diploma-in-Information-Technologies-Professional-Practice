@@ -45,7 +45,7 @@ Upon successful completion of this subject students should be able to:
 1. Identify business, organizational and society environment to propose types of IS for obtaining and maintaining
    competitive advantage. (B.1)
 
-2. Demonstrate data management approaches for implementing knowledge management systems in organisations. (D.1)
+2. Demonstrate data management approaches for implementing [[knowledge management]] systems in organisations. (D.1)
 
 3. Discuss key concepts relating to telecommunication and networking. (D.1)
 
@@ -136,7 +136,7 @@ the OPELA and/or do not attend 80% of the Language Development Tutorials will re
 | Week 2           | 26 Feb    | Topic: Information systems within the organisation                                                                                                                                                                                                                            |
 | Week 3           | 4 March   | Topic: Organisational Strategy, Competitive Advantage and Information Systems                                                                                                                                                                                                 |
 | Week 4           | 11 March  | Topic: Acquiring information systems and applications<br><br>**Notes:**<br><br>**Quiz 1** (includes topic from Week 2, 3, 4)                                                                                                                                                  |
-| Week 5           | 18 March  | Topic: Data and Knowledge Management **Notes:** **In-class activity 1: Infographic**                                                                                                                                                                                          |
+| Week 5           | 18 March  | Topic: [[Data and Knowledge Management]] **Notes:** **In-class activity 1: Infographic**                                                                                                                                                                                          |
 | Week 6           | 25 March  | Topic: [[Business Analytics]]                                                                                                                                                                                                                                                     |
 | Week 7           | 1 April   | Topic: [[AI]]-Powered products **Notes:** Video Submission Deadline: 2 April, 2024, In-Class Activity 2: Video: 3-5 April, 2024                                                                                                                                                   |
 | Week 8           | 8 April   | Human-[[AI]] Interaction **Notes:** **Quiz 2** (includes topic from Week 5, 6)                                                                                                                                                                                                    |

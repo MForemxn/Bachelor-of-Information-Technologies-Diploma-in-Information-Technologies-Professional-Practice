@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Data and Knowledge Management.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Data and Knowledge Management.md",
                 "mode": "preview",
                 "source": true
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Data and Knowledge Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Data and Knowledge Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loops and Iterative Program Flow.md"
+                "file": "Data and Knowledge Management.md"
               }
             }
           }
@@ -167,46 +167,45 @@
   },
   "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
+    "Knowledge Management.md",
+    "Pasted image 20240318112947.png",
+    "Data and Knowledge Management.md",
+    "Pasted image 20240318112314.png",
+    "Big Data.md",
+    "Data Warehouses and Data Marts.md",
+    "Pasted image 20240318112139.png",
+    "Pasted image 20240318112100.png",
+    "Pasted image 20240318112056.png",
+    "Pasted image 20240318112052.png",
+    "Pasted image 20240318112045.png",
+    "Collaborative Filtering.md",
+    "2024-03-18.md",
+    "Content Based Recommendation.md",
+    "Pasted image 20240318111537.png",
+    "Pasted image 20240318111520.png",
+    "Pasted image 20240318111457.png",
+    "Database.md",
+    "Modality.md",
+    "Cardinality.md",
+    "Introduction to Information Systems.md",
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Infographic (Group Task).md",
+    "Handbook.md",
+    "Harvard Business Review Article.md",
+    "Communication for IT Professionals.md",
+    "Communications for IT Professionals Subject Outline.md",
+    "Loops and Iterative Program Flow.md",
     "Ethics relating to IT issues.md",
     "Information Security - Cyber Security.md",
     "AI-Powered products.md",
     "Business Analytics.md",
     "vim.md",
     "Vim Quiz 1 Questions and Answers.md",
-    "Using UNIX (based on the Linux Essentials certification).md",
-    "Creating Files.md",
-    "Web Systems.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "Communications for IT Professionals Subject Outline.md",
-    "scratch document.md",
-    "Windows Powershell.md",
-    "Programming 1 Subject Outline.md",
-    "Harvard Business Review Article.md",
-    "Software Defined Networks.md",
-    "Career Management for IT Professionals.md",
-    "Business Requirements Modelling.md",
-    "Infographic (Group Task).md",
-    "1a and 1b Research Report.md",
-    "Filesystems.md",
-    "Useful Links.md",
-    "Communications for IT Professionals Assessment Task 1b Checklist.md",
-    "Redirection.md",
     "Assesment Task 1 Template.pdf",
-    "Permissions and Ownerships.md",
-    "Pasted image 20240226212209.png",
     "timetable-25277308.pdf",
-    "Screenshot 2024-03-04 at 11.48.02 am.png",
-    "Screenshot 2024-03-04 at 10.56.00 am.png",
     "APA Interactive Guide.pdf",
     "Assesement Task 1 Checklist.docx",
-    "Pasted image 20240226212514.png",
-    "Pasted image 20240226212342.png",
-    "Pasted image 20240226212306.png",
-    "Pasted image 20240226212302.png",
-    "Pasted image 20240226212201.png",
-    "Pasted image 20240226211154.png",
-    "Pasted image 20240226211147.png",
     "FullSizeRender.heic",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
