@@ -1,4 +1,5 @@
 # [[Communications for IT Professionals Subject Outline | Subject Outline]]
+# [[Communications for IT Professionals Course Export | Full Course]]
 # Topics
 
 [[Design process]]
@@ -14,3 +15,4 @@
 
 # Assessment Tasks
 ## [[1a and 1b Research Report]]
+## [[2a and 2b Group Research Report]]

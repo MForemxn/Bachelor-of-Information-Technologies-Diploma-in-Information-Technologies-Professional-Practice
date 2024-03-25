@@ -55,7 +55,7 @@
 	- developing partnerships with external governments and NGO's
 	- collaborating with innovators in the chosen field allow for passion and funding from large groups of people to be funnelled into projects. 
 ## Innovative Approaches to Recycling Outputs and By-Products:
-> What innovative technologies or processes exist for managing the outputs or by-products of recycling processes?
+> What innovative technologies or [[processes]] exist for managing the outputs or by-products of recycling [[processes]]?
 > How can recycled materials be further transformed or utilised to maximise their value and minimise waste?
 - there are three key new technologies used to improve the quality of the recycling process. these include
 	- pyrolysis: thermal decomposition of organic materials in an oxygen free environment. this can be used to convert non-recyclable plastics, organic waste, and rubber into things like biofuels, carbon black, snd syngas. 
@@ -71,8 +71,8 @@
 > What strategies can be implemented to raise awareness and promote participation in waste reduction efforts?
 - communities can be involved in the recycling process on Saibai island through:
 	- community workshops and training programs: educating the community on the importance of effective waste management and upcycling where possible
-	- community led recycling centres: building self sustaining centres where people can volunteer to help in sorting and processing activities
-	- incentive programs: provide incentives to help convince members of the community that their participation in recycling and waste management is not only valued, but necessary. 
+	- community led recycling centres: building self sustaining centres where people can volunteer to [[help]] in sorting and processing activities
+	- incentive programs: provide incentives to [[help]] convince members of the community that their participation in recycling and waste management is not only valued, but necessary. 
 - there are many ways to raise awareness for the importance of effective waste management. this includes:
 	- public education campaigns
 	- school programs
@@ -125,11 +125,11 @@
 ## Collaboration and Knowledge Sharing:
 > How can partnerships with government agencies, NGOs, academic institutions, and industry stakeholders facilitate the implementation and success of recycling and upcycling projects on Saibai?
 > What opportunities exist for sharing knowledge and best practices with other communities facing similar waste management challenges?
-- how partnerships can help facilitate the implementation and success of these projects:
+- how partnerships can [[help]] facilitate the implementation and success of these projects:
 	- government agencies: provide support, funding, and technical expertise
 	- ngo's: community engagement, capacity building, and create education programs
 	- academic institutions: conduct research and provide scientific expertise, offer training, research opportunities, provide opportunities for practical experience
-	- industry stakeholders: provide monetary (financial) resources to help make these plans and infrastructure upgrades happen, and to keep them running for years to come. 
+	- industry stakeholders: provide monetary (financial) resources to [[help]] make these plans and infrastructure upgrades happen, and to keep them running for years to come. 
 - how knowledge can be shared
 	- networking and knowledge exchange (forums)
 	- peer learning and mentoring

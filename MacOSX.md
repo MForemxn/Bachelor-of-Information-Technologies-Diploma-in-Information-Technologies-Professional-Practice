@@ -143,7 +143,7 @@ The retail packaging for Leopard is significantly smaller than it was for previo
 |10.5.8|9L30|August 5, 2009|9.8|About the Mac OS X 10.5.8 Update|[Mac OS X 10.5.8 Update](https://support.apple.com/kb/dl865)<br><br>[Mac OS X 10.5.8 Combo Update](https://support.apple.com/kb/dl866)|
 |9L34|August 31, 2009|9.8  <br>xnu-1228.15.4~1|Mac OS X Server 10.5.8 Update v.1.1|—|
 
-## Timeline of Macintosh operating systems
+## Timeline of Macintosh [[operating systems]]
 
 |Timeline of Mac operating systems <br><br>- [v](https://en.wikipedia.org/wiki/Template:Timeline_of_Mac_operating_systems "Template:Timeline of Mac operating systems")<br>- [t](https://en.wikipedia.org/wiki/Template_talk:Timeline_of_Mac_operating_systems "Template talk:Timeline of Mac operating systems")<br>- [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:Timeline_of_Mac_operating_systems "Special:EditPage/Template:Timeline of Mac operating systems")|
 |---|

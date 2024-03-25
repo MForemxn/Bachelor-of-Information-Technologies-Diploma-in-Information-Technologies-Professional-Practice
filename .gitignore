@@ -4,3 +4,5 @@
 /.obsidian/plugins/copilot
 .obsidian/plugins/copilot/data.json
 /.obsidian/plugins
+.plugins/plugins/copilot/data.json
+/.plugins

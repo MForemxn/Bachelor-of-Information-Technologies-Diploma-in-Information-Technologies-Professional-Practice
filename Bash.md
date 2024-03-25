@@ -21,7 +21,7 @@ You can read more about bash [here](https://www.gnu.org/software/bash/), via th
 
 ## **Using bash on the command line (Linux, OS X)**
 
-You can start using bash on most Linux and OS X operating systems by opening up a terminal. Let’s consider a simple hello world example. Open up your terminal, and write the following line (everything after the $ sign):
+You can start using bash on most Linux and OS X [[operating systems]] by opening up a terminal. Let’s consider a simple hello world example. Open up your terminal, and write the following line (everything after the $ sign):
 
 ```
 zach@marigold:~$ echo "Hello world!"
@@ -64,7 +64,7 @@ And then execute the script.
 
 ## **Linux Command Line: Bash Cat**
 
-Cat is one of the most frequently used commands in Unix operating systems.
+Cat is one of the most frequently used commands in Unix [[operating systems]].
 
 Cat is used to read a file sequentially and print it to the standard output. The name is derived from its function to con****cat****enate files.
 
@@ -147,7 +147,7 @@ Print in terminal the first 5 lines of file1.txt, followed by the first 5 lines 
 
 Linux Command Line: Bash ls
 
-`ls` is a command on Unix-like operating systems to list contents of a directory, for example folder and file names.
+`ls` is a command on Unix-like [[operating systems]] to list contents of a directory, for example folder and file names.
 
 ### **Usage**
 
