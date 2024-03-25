@@ -1,4 +1,4 @@
-Computer security in web systems focuses on protecting websites, web applications, and web services from unauthorised access, use, disclosure, disruption, modification, or destruction. It is a critical aspect of cybersecurity, given the internet's role in modern business and personal activities.
+Computer security in [[web systems]] focuses on protecting websites, web applications, and web services from unauthorised access, use, disclosure, disruption, modification, or destruction. It is a critical aspect of cybersecurity, given the internet's role in modern business and personal activities.
 
 
 ## Key Concepts
@@ -18,6 +18,6 @@ Computer security in web systems focuses on protecting websites, web application
 - **Regularly [[Update and Patch]]**: Keep all web server software and platforms up to date to protect against known vulnerabilities.
 - **Use [[Secure Coding Practices]]**: Write code that anticipates and protects against potential attacks, such as sanitizing user input.
 - **Implement [[Security Layers]]**: Use a multi-layered security approach (e.g., firewalls, intrusion detection systems) to provide comprehensive protection.
-- **Conduct [[Security Audits]] and [[Penetration Testing]]**: Regularly test web systems for vulnerabilities to identify and address security weaknesses before attackers can exploit them.
+- **Conduct [[Security Audits]] and [[Penetration Testing]]**: Regularly test [[web systems]] for vulnerabilities to identify and address security weaknesses before attackers can exploit them.
 - **[[Educate and Train Users]]**: Ensure that users are aware of potential security risks and best practices for maintaining security, such as recognizing phishing attempts.
 - **[[Backup Data]] Regularly**: Ensure that data is regularly backed up and that backup integrity is verified, enabling recovery in the event of a security breach.

@@ -1,0 +1,2 @@
+- stands for application programming interface
+- works as a software intermediary that allows two applications to talk to each other. 

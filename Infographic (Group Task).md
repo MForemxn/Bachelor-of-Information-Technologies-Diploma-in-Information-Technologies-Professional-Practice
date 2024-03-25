@@ -1,6 +1,6 @@
 [[Harvard Business Review Article]]
 # Summary of Article
-The Harvard Business Review IdeaCast episode, hosted by Curt Nickisch, features Joshua Gans, a strategy professor at the University of Toronto’s Rotman School of Management. The discussion centers on the importance of integrating artificial intelligence (AI) within the right system for effective decision-making and transformation within organizations. Gans emphasizes that while AI can improve prediction and decision-making, its full potential is realized only when it is part of a coordinated system that accounts for ripple effects across an organization.
+The Harvard Business Review IdeaCast episode, hosted by Curt Nickisch, features Joshua Gans, a strategy professor at the University of Toronto’s Rotman School of Management. The discussion centers on the importance of integrating artificial intelligence (AI) within the right system for effective [[decision]]-making and transformation within organizations. Gans emphasizes that while AI can improve prediction and [[decision]]-making, its full potential is realized only when it is part of a coordinated system that accounts for ripple effects across an organization.
 
 Key points from the episode include:
 

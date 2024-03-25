@@ -24,7 +24,7 @@
 	- leasing applications
 	- employing custom development
 		- see Systems Development Life Cycle (SDLC), and how it provides a backbone methodology for custom development.
-> The decision between subscribing, buying, or building IT solutions involves considering industry best practices, time and resources, and specific organisational needs.
+> The [[decision]] between subscribing, buying, or building IT solutions involves considering industry best practices, time and resources, and specific organisational needs.
 - [[Software as a Service (SaaS)]] offers a convenient model for using software through vendor-hosted applications, presenting advantages like quick access, technical support, and lower costs, but also poses challenges such as [[Security]] concerns and dependence on stable internet connectivity.
 
 # Exploring Systems Development Life Cycle (SDLC)

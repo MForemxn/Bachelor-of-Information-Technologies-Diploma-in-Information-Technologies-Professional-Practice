@@ -187,7 +187,7 @@ By aligning policy frameworks, providing financial incentives, building capacity
     - Collaborate with local communities to implement grassroots initiatives and address specific waste management challenges.
 - **Academic Institutions:**
     
-    - Academic institutions can conduct research and provide scientific expertise to inform evidence-based decision-making in waste management and recycling.
+    - Academic institutions can conduct research and provide scientific expertise to inform evidence-based [[decision]]-making in waste management and recycling.
     - Offer training, internships, and research opportunities for students to gain practical experience and contribute to recycling and upcycling projects.
 - **Industry Stakeholders:**
     

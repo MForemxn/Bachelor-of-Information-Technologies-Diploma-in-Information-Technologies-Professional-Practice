@@ -1,5 +1,5 @@
 - to stay ahead, businesses need effective information systems
-- poor information systems lead to poor decision making, as garbage in equals garbage out
+- poor information systems lead to poor [[decision]] making, as garbage in equals garbage out
 - effective information systems require:
 	- accurate data (free from errors)
 	- timely information (accessible when it needs to be accessed)

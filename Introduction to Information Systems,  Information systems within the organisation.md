@@ -42,7 +42,7 @@
 		- does this through [[business analytics]] tools for example
 		- ![[Pasted image 20240226210006.png]]
 	- Example: role of IT in the health care system
-		- Faster diagnosis and better decision making
+		- Faster diagnosis and better [[decision]] making
 		- long distance patient/clinician contact and care, advice, reminders, education, monitoring and remote admissions
 		- Distance-learning- Behaviour change to prevent disease
 		- Patient/patient interactions
@@ -69,13 +69,13 @@
 		- batch: transactions are accumulated over a period of time and are processed as a group
 		- online real time: each transaction is processed immediately and changes are reflected across all systems almost instantly.
 	- 
-# Decision Support Systems
-- DSS allows middle managers to analyse a large amount of raw data to support their decision making. 
+# [[Decision Support Systems]]
+- DSS allows middle managers to analyse a large amount of raw data to support their [[decision]] making. 
 	- this allows them to analyse complex environments between (sometimes) millions of raw data points with ease
 # Executive Support Systems
 - ESS allow higher, more senior managers to make large scale, strategic decisions.
 	- this may include "what products should we make in 5 years?"
-- also allows for non-routine decision making
+- also allows for non-routine [[decision]] making
 - allows the macro tracking and analysing of KPI's and other metrics
 # Reporting Options
 - there are 3 types of reports which all information systems are able to produce
@@ -85,7 +85,7 @@
 # Expert Systems
 - designed to do the most advanced and reliable problem solving problems.
 - capabilities:
-	- aiding in decision making
+	- aiding in [[decision]] making
 	- data analysis 
 	- interpreting input
 	- justifying conclusions
@@ -94,7 +94,7 @@
 	- understandable
 	- reliable
 	- able to process data quickly
-	- capable of critical decision making
+	- capable of critical [[decision]] making
 - three key people are needed for expert systems development
 	- Domain expert: person or group with the expertise or knowledge the expert system is trying to capture
 	- Knowledge engineer: person who has training or experience in the design, development, implementation, and maintenance of an expert system
@@ -109,5 +109,5 @@
 |Benefits|Limitations|
 |---|---|
 |Organizational flexibility and agility|Companies may need to change their existing business processes|
-|Facilitating decision making|ERP systems can be complex, expensive|
+|Facilitating [[decision]] making|ERP systems can be complex, expensive|
 |Improving quality and efficiency|time-consuming to implement|

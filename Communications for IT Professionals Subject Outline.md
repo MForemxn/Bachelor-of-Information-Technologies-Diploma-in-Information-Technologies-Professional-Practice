@@ -72,7 +72,7 @@ Socially Responsible: FEIT graduates identify, engage, interpret and analyse sta
 perspectives, establish priorities and goals, and identify constraints, uncertainties and risks (social, ethical,
 cultural, legislative, environmental, economics etc.) to define the system requirements. (B.1)
 
-Design Oriented: FEIT graduates apply problem solving, design and decision-making methodologies to develop components,
+Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop components,
 systems and processes to meet specified requirements. (C.1)
 
 Collaborative and Communicative: FEIT graduates work as an effective member or leader of diverse teams, communicating

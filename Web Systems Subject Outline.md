@@ -58,7 +58,7 @@ make use of distributed applications on the Internet. (D.1)
 # Course intended learning outcomes (CILOs)
 
 This subject also contributes specifically to the development of the following Course Intended Learning Outcomes (
-CILOs): Design Oriented: FEIT graduates apply problem solving, design and decision-making methodologies to develop
+CILOs): Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop
 components, systems and processes to meet specified requirements. (C.1)
 
 Technically Proficient: FEIT graduates apply abstraction, mathematics and discipline fundamentals, software, tools and

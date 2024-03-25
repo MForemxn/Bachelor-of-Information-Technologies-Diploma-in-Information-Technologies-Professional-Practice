@@ -66,7 +66,7 @@ You can see that user **C** is closest to **B** even by looking at the graph
 
 You could say **C** is closer to **D** in terms of distance. But looking at the rankings, it would seem that the choices of **C** would align with that of **A** more than **D**because both **A** and **C** like the second movie almost twice as much as they like the first movie, but **D** likes both of the movies equally.
 
-So, what can you use to identify such patterns that Euclidean distance cannot? Can the angle between the lines joining the points to the origin be used to make a decision? You can take a look at the angle between the lines joining the origin of the graph to the respective points as shown:
+So, what can you use to identify such patterns that Euclidean distance cannot? Can the angle between the lines joining the points to the origin be used to make a [[decision]]? You can take a look at the angle between the lines joining the origin of the graph to the respective points as shown:
 
 [![Two dimensional vectors plotted on a graph to explain angle as a distance metric](https://files.realpython.com/media/cosine-similarity.76bcd5413eb8.jpg)](https://files.realpython.com/media/cosine-similarity.76bcd5413eb8.jpg)
 

@@ -1,0 +1,4 @@
+- Goal-Seeking Analysis represents a "backward" solution approach.
+- ﻿﻿It attempts to calculate the value of the inputs necessary to achieve a desired level of output.
+- ﻿﻿EX1: let's say that an initial BI analysis predicted a profit of $2 million.
+- EX2: Management might want to know what sales volume would be necessary to generate a profit of $3 million.

@@ -1,6 +1,6 @@
 
 ## Definition
-- CSRF is a type of security exploit where an attacker tricks a user into executing unwanted actions on a web application in which they are authenticated. It leverages the user's identity and privileges to perform an undesired task without the user's knowledge.
+- CSRF is a type of [[security]] exploit where an attacker tricks a user into executing unwanted actions on a web application in which they are authenticated. It leverages the user's identity and privileges to perform an undesired task without the user's knowledge.
 
 ## How It Works
 1. **User Authentication**: The user logs into a web application and receives a session cookie.
@@ -30,4 +30,4 @@
 - Educating users on the risks of phishing and social engineering attacks.
 - Regularly updating and auditing web applications for vulnerabilities.
 
-Understanding and mitigating CSRF attacks are crucial for maintaining the security and integrity of web applications. Developers and website administrators should prioritize CSRF protection to safeguard user data and prevent unauthorized actions.
+Understanding and mitigating CSRF attacks are crucial for maintaining the [[security]] and integrity of web applications. Developers and website administrators should prioritize CSRF protection to safeguard user data and prevent unauthorized actions.

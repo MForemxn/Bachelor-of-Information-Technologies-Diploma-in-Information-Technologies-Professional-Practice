@@ -44,7 +44,7 @@ to complex industry-scale projects.
 
 Upon successful completion of this subject students should be able to:
 
-1. Apply basic programming concepts of state, iteration, and decision. (D.1)
+1. Apply basic programming concepts of state, iteration, and [[decision]]. (D.1)
 
 2. Solve computational problems by using abstract modelling and conceptualisation. (D.1)
 
@@ -59,7 +59,7 @@ Upon successful completion of this subject students should be able to:
 This subject also contributes specifically to the development of the following Course Intended Learning Outcomes (
 CILOs):
 
-Design Oriented: FEIT graduates apply problem solving, design and decision-making methodologies to develop components,
+Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop components,
 systems and processes to meet specified requirements. (C.1)
 
 Technically Proficient: FEIT graduates apply abstraction, mathematics and discipline fundamentals, software, tools and

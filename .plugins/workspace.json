@@ -1,43 +1,43 @@
 {
   "main": {
-    "id": "7f053ce1bd41bbf2",
+    "id": "a836ca3e88bd7e8a",
     "type": "split",
     "children": [
       {
-        "id": "2f1196a50f8e554b",
+        "id": "4858c5d14a409e78",
         "type": "tabs",
         "children": [
           {
-            "id": "9507ccfe343282c0",
+            "id": "bca3ee534025fb5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "ddf66f6049f01f20"
+            "group": "91baebc988754b2c"
           }
         ]
       },
       {
-        "id": "d8460e51f44df422",
+        "id": "39910d7db7bc7153",
         "type": "tabs",
         "children": [
           {
-            "id": "2672adc29ec67e4e",
+            "id": "3ae841f511acfb8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "ddf66f6049f01f20"
+            "group": "91baebc988754b2c"
           }
         ]
       }
@@ -45,30 +45,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "87cfac5465973bbe",
+    "id": "ebcf664d6dbb1cee",
     "type": "split",
     "children": [
       {
-        "id": "dfa221807a72f967",
+        "id": "bec3d08a5f0010d6",
         "type": "tabs",
         "children": [
           {
-            "id": "d548f32682de94da",
+            "id": "9ea178d5c68bf32a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "b9ce2c6fc56e215b",
+            "id": "b4d659196d0b9c65",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "business inte",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             }
           },
           {
-            "id": "2a3cd68e86203336",
+            "id": "f7feebbd8aee3eb4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,44 +92,44 @@
     "width": 300
   },
   "right": {
-    "id": "8150062bcafd6099",
+    "id": "28c38ddf42c567c4",
     "type": "split",
     "children": [
       {
-        "id": "2990c48daea19d33",
+        "id": "37c47c877976485c",
         "type": "tabs",
         "children": [
           {
-            "id": "30154b4d092bd100",
+            "id": "dbdbe57ae227553b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a85eadc5790b4a05",
+            "id": "12704f4965da89d2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b4e918bfb1d547a6",
+            "id": "56e4ab3b58f3682c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,17 +140,17 @@
             }
           },
           {
-            "id": "12373b899523f38b",
+            "id": "35cc0b7671dd68c7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage/Home.md"
+                "file": "Operating Systems.md"
               }
             }
           },
           {
-            "id": "8166385ad6255b1e",
+            "id": "ae68bee10f3d1fb9",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
@@ -162,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,54 +175,43 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "8166385ad6255b1e",
+  "active": "ae68bee10f3d1fb9",
   "lastOpenFiles": [
-    "Business Analytics.md",
-    "Business Intelligence.md",
-    "Introduction to Information Systems.md",
-    "Subjects.md",
-    "Programming 1.md",
-    "Homepage/Home.md",
-    "copilot-conversations",
-    "Decision Support Systems.md",
-    "Goal-Seeking Analysis.md",
-    "Sensitivity Analysis (What-if analysis).md",
-    "API.md",
-    "Pasted image 20240226205207.png",
-    "Pasted image 20240226205200.png",
-    "Regularly Update and Patch.md",
-    "13.md",
-    "Use Secure Coding Practices.md",
+    "Interpersonal Roles 2.md",
+    "multidimensional arrays or online analytical processing (OLAP) 2.md",
+    "Screenshot 2024-03-25 at 11.27.28 am 2.png",
+    "Data Analysis 2.md",
+    "Screenshot 2024-03-25 at 11.11.46 am 2.png",
+    "Decision 2.md",
+    "Screenshot 2024-03-25 at 11.00.10 am 2.png",
+    "Sensitivity Analysis (What-if analysis) 2.md",
+    "Business Intelligence 2.md",
+    "Web Systems Assessment 1 - WebAss 2.md",
+    "Screenshot 2024-03-25 at 11.10.38 am 2.png",
+    "Decisional Roles 2.md",
     "multidimensional arrays or online analytical processing (OLAP).md",
-    "Screenshot 2024-03-25 at 11.27.28 am.png",
-    "Introduction to Information Systems,  Information systems within the organisation.md",
-    "Decision.md",
-    "Screenshot 2024-03-25 at 11.11.46 am.png",
-    "Screenshot 2024-03-25 at 11.10.38 am.png",
-    "Software as a Service (SaaS).md",
-    "IT Support.md",
-    "Screenshot 2024-03-25 at 11.00.10 am.png",
-    "Decisional Roles.md",
-    "Informational Roles.md",
-    "Interpersonal Roles.md",
-    "Data Analysis.md",
     "WebAss Specification.md",
     "Web Systems Assessment 1 - WebAss.md",
-    "Web Systems.md",
-    "Final Submission Document.md",
-    "Pasted image 20240318112947.png",
-    "Pasted image 20240318112314.png",
-    "Pasted image 20240318112139.png",
-    "Pasted image 20240318112100.png",
-    "Assesment Task 1 Template.pdf",
-    "timetable-25277308.pdf",
-    "APA Interactive Guide.pdf",
-    "Assesement Task 1 Checklist.docx",
-    "FullSizeRender.heic",
-    "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
-    "Homepage",
-    "Homepages 1",
-    "General concepts, processes, storage, Input",
-    "Untitled.canvas"
+    "Sensitivity Analysis (What-if analysis).md",
+    "Screenshot 2024-03-25 at 11.27.28 am.png",
+    "Screenshot 2024-03-25 at 11.11.46 am.png",
+    "Screenshot 2024-03-25 at 11.10.38 am.png",
+    "Screenshot 2024-03-25 at 11.00.10 am.png",
+    "Interpersonal Roles.md",
+    "Informational Roles.md",
+    "IT Support.md",
+    "Goal-Seeking Analysis.md",
+    "Decisional Roles.md",
+    "Decision.md",
+    "Decision Support Systems.md",
+    "Data Analysis.md",
+    "Business Intelligence.md",
+    "API.md",
+    "13.md",
+    "Use Secure Coding Practices.md",
+    "Regularly Update and Patch.md",
+    "Pasted image 20240226205207.png",
+    "Pasted image 20240226205200.png",
+    "Web Systems.md"
   ]
 }

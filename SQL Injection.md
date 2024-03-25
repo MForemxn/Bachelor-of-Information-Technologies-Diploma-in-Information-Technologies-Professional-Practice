@@ -1,4 +1,4 @@
-SQL Injection is a prevalent security vulnerability that occurs in the database layer of an application. It allows attackers to execute malicious SQL code on a database server behind a web application. Attackers exploit SQL Injection vulnerabilities by manipulating standard SQL queries to achieve unauthorized access to the database, allowing them to retrieve, manipulate, or delete data. This vulnerability exploits weaknesses in input validation and parameterization.
+SQL Injection is a prevalent [[security]] vulnerability that occurs in the database layer of an application. It allows attackers to execute malicious SQL code on a database server behind a web application. Attackers exploit SQL Injection vulnerabilities by manipulating standard SQL queries to achieve unauthorized access to the database, allowing them to retrieve, manipulate, or delete data. This vulnerability exploits weaknesses in input validation and parameterization.
 
 ## How SQL Injection Works
 
@@ -29,4 +29,4 @@ The impact of a successful SQL Injection attack can be devastating, including:
 - Escalation of privileges within the database server.
 - Potentially gaining administrative access to the database system, allowing for the execution of arbitrary commands on the server.
 
-SQL Injection remains one of the most critical web application vulnerabilities due to its potential for significant impact and the prevalence of susceptible applications. Awareness, proper security practices in application development, and regular security assessments are key to mitigating the risk of SQL Injection attacks.
+SQL Injection remains one of the most critical web application vulnerabilities due to its potential for significant impact and the prevalence of susceptible applications. Awareness, proper [[security]] practices in application development, and regular [[security]] assessments are key to mitigating the risk of SQL Injection attacks.

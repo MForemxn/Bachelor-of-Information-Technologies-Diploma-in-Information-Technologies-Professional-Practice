@@ -1,0 +1,3 @@
+- In the **monitor** role, managers actively seek and gather information from various sources, both internal and external to the organization.  
+	- They monitor the business environment, industry trends, competitors, and internal operations to stay informed about developments that could impact the organization
+- ﻿﻿In the **disseminator** role, managers share information within the organization, ensuring that relevant information reaches the right people. They communicate important updates, decisions, and insights to their teams, departments, and other relevant stakeholders.
