@@ -9,7 +9,7 @@ Input validation is the process of ensuring that a program operates on clean, co
 ## Types of Input Validation
 1. **Client-Side Validation**: Performed on the client side, usually within a web browser before sending data to the server. It provides immediate feedback but is not secure on its own.
 2. **Server-Side Validation**: Performed on the server, providing a secure check of the data. It is crucial for [[security]] and data integrity.
-3. **Static Validation**: Checks the data against a set of rules for format, type, and length without any dynamic reference to external data or state.
+3. **Static Validation**: Checks the data against a set of rules for format, type, and length without any dynamic reference to external data or [[state]].
 4. **Dynamic Validation**: Involves checking the input against a dynamically changing environment or against external data sources.
 
 ## Techniques

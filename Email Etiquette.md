@@ -7,7 +7,7 @@ Throughout your time at UTS you are going to have to contact staff via email man
 - A short description of your query in the subject field (3-5 words)
 - Your Student ID
 - The subject code and/or name you are enquiring about
-- If your email is not a simple general enquiry, then your tutorial activity number should be provided to help us find your information
+- If your email is not a simple general enquiry, then your tutorial activity number should be provided to [[help]] us find your information
 - All relevant context to your enquiry
 
 ## Tips for emailing

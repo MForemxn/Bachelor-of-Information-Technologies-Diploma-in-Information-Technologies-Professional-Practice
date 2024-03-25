@@ -1,5 +1,5 @@
 
-|**Networking and Cybersecurity major**|**Year 1**   |  
+|**Networking and [[Cybersecurity]] major**|**Year 1**   |  
 |---|---|---|
 |_Autumn session_|   |  
 |[31265](https://handbook.uts.edu.au/subjects/31265.html) [[Communication for IT Professionals]]|6cp|

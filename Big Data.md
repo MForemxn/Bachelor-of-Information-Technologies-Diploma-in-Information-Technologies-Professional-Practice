@@ -1,4 +1,4 @@
-- Big data is considered as an extremely large and complex data collections Old software, hardware, and analysis processes are unable to deal  with them. There are four common characteristics of big data:
+- Big data is considered as an extremely large and complex data collections Old software, hardware, and analysis [[processes]] are unable to deal  with them. There are four common characteristics of big data:
 	- Volume – This relates to the huge amounts of data generated every second by IT systems.
 	- Velocity – This relates to the speed of transmission of data across the globe.
 	- Variety – This relates to the many types of data that are being generated, such as numeric (e.g. financial data), text (social media feeds) and video.

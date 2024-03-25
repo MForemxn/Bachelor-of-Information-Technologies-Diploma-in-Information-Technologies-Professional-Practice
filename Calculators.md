@@ -1,1 +1,0 @@
-**bc -l**command-line calculator

@@ -3,7 +3,7 @@ https://hbr.org/podcast/2022/10/to-improve-[[[[[[[[ai]]]]]]]]-outcomes-think-abo
 
 *CURT NICKISCH: Welcome to the HBR _IdeaCast_ from Harvard Business Review. I’m Curt Nickisch.*
 
-A shiny new piece of technology is not good enough on its own. It needs to be implemented at the right time, used in the right context, and accepted in the right culture, applied in the right way. In short, it needs to be part of the right system. And that’s true for artificial intelligence too. [[AI]] can help individuals and teams make better predictions, combine that with judgment and you get better decisions. But those decisions have ripple effects on other parts of the system, ripple effects that can undermine the very prediction that was made.
+A shiny new piece of technology is not good enough on its own. It needs to be implemented at the right time, used in the right context, and accepted in the right culture, applied in the right way. In short, it needs to be part of the right system. And that’s true for artificial intelligence too. [[AI]] can [[help]] individuals and teams make better predictions, combine that with judgment and you get better decisions. But those decisions have ripple effects on other parts of the system, ripple effects that can undermine the very prediction that was made.
 
 Our guest today says, “If organizations want to take artificial intelligence to the next level, they need to get better at coordinating optimal decisions over a wider network.” Joshua Gans is a strategy professor at the University of Toronto’s Rotman School of Management. He co-wrote the HBR article, From Prediction to Transformation, as well as the new book, Power and Prediction: The Disruptive Economics of Artificial Intelligence.
 
@@ -97,6 +97,6 @@ JOSHUA GANS: Thank you.
 
 CURT NICKISCH:That’s Joshua Gans. He is a professor at the University of Toronto’s Rotman School of Management. The chief economist at the Creative Destruction Lab, and a co-author of the HBR article, From Prediction to Transformation. He also co-wrote the new book, Power and Prediction.
 
-If you got something from today’s episode, we have more podcasts to help you manage your team, manage organizations, and manage your career. Find them at hbr.org/podcast or search HBR in Apple Podcasts, Spotify, or wherever you listen.
+If you got something from today’s episode, we have more podcasts to [[help]] you manage your team, manage organizations, and manage your career. Find them at hbr.org/podcast or search HBR in Apple Podcasts, Spotify, or wherever you listen.
 
-This episode was produced by Mary Dooe. We get technical help from Rob Eckhardt. Our audio product manager is Ian Fox and Hannah Bates is our audio production assistant. Thanks for listening to the HBR _IdeaCast_. I’m Curt Nickisch.
+This episode was produced by Mary Dooe. We get technical [[help]] from Rob Eckhardt. Our audio product manager is Ian Fox and Hannah Bates is our audio production assistant. Thanks for listening to the HBR _IdeaCast_. I’m Curt Nickisch.

@@ -12,7 +12,7 @@ Bash (short for Bourne Again SHell) is a Unix shell, and a command language int
 
 Many things that can be done Linux operating system can be done via command line. Some examples are…
 
-- Editing files
+- [[Editing]] files
 - Adjusting the volume of the operating system
 - Fetching web pages from the internet
 - Automating work you do every day
@@ -32,7 +32,7 @@ As you can see, we used the echo command to print the string “Hello world!” 
 
 ## **Writing a bash script**
 
-You can also put all of your bash commands into a .sh file, and run them from the command line. Say you had a bash script with the following contents:
+You can also put all of your bash commands into a .[[sh]] file, and run them from the command line. Say you had a bash script with the following contents:
 
 ```
 #!/bin/bash

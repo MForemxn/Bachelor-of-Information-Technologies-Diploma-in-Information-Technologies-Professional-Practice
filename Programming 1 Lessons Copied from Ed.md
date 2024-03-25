@@ -1,4 +1,4 @@
-# 1.1 Variables and [[Branching]]
+# 1.1 [[Variables]] and [[Branching]]
 # Basics of Programming
 ## Programming and Programming Languages
 
@@ -692,17 +692,17 @@ In contrast to Java, Python is a strongly, _dynamically_ typed language and uses
 
 ## Typing
 
-As mentioned, Python is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the variables themselves have no type, and hence any type of data can be assigned to any variable (not necessarily a good practice, but it's possible).
+As mentioned, Python is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the [[variables]] themselves have no type, and hence any type of data can be assigned to any variable (not necessarily a good practice, but it's possible).
 
-As with Java, Python offers a range of built-in types, listed [here](https://edstem.org/au/courses/10667/lessons/30853/slides/217691).
+As with [[Java]], [[Python]] offers a range of built-in types, listed [here](https://edstem.org/au/courses/10667/lessons/30853/slides/217691).
 
 ## Declaration and Initialisation
 
-As the variables have no type, there's not really a sensible way to declare an uninitialised variable, thus every variable declaration (excluding function parameters, but that's for later) is also an initialisation and has the form:
+As the [[variables]] have no type, there's not really a sensible way to declare an uninitialised variable, thus every variable declaration (excluding function parameters, but that's for later) is also an initialisation and has the form:
 ```
 <name> = <initial value>
 ```
-As with Java, there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid data value, but as the variable has no type, there's no restrictions other than that.
+As with [[Java]], there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid data value, but as the variable has no type, there's no restrictions other than that.
 
 So if we wanted a variable called `num` that stored an `int` (again, notice that the variable itself is not an `int`, it's just a variable), we could write:
 
@@ -714,11 +714,11 @@ If we want a variable to store the character 'c', we can write something like:
 
 `letter = 'c'`
 
-(Note that Python does not have a character data type, this is actually just a string.)
+(Note that [[Python]] does not have a character data type, this is actually just a string.)
 
 ## Use
 
-Thus using variables is relatively straight-forward in Python, they are created on first assignment, and that's that. This does have some implications for more complicated programs, but for simple ones, this is simpler than Java and avoids some basic errors (either a variable doesn't exist, or it does exist and it has a value - it may not be the right value, but there's no uninitialised variable problems).
+Thus using [[variables]] is relatively straight-forward in [[Python]], they are created on first assignment, and that's that. This does have some implications for more complicated programs, but for simple ones, this is simpler than [[Java]] and avoids some basic errors (either a variable doesn't exist, or it does exist and it has a value - it may not be the right value, but there's no uninitialised variable problems).
 
 ```
 d = 8.6
@@ -729,7 +729,7 @@ print("d = " + str(d))
 
 print("e = " + str(e))
 ```
-One place where this simplicity and flexibility can get confusing and lead to errors is incautious reuse of variables:
+One place where this simplicity and flexibility can get confusing and lead to errors is incautious reuse of [[variables]]:
 
 ```
 d = 8.6
@@ -778,7 +778,7 @@ For reasons that are hopefully obvious, you will only get clear error messages f
 
 ## Errors in Java: How to read a compile time error
 
-When the java compiler encounters code that is not valid, it will provide one or more error messages to describe the problem(s). These error messages are always formatted as the following:
+When the [[java]] compiler encounters code that is not valid, it will provide one or more error messages to describe the problem(s). These error messages are always formatted as the following:
 
 <class>:<line>: error: <description> <problematic code>
 
@@ -824,11 +824,11 @@ Based on this knowledge, have a go at fixing the error.
 
 Compiler messages can sometimes be tricky to decipher, and you can't always expect the error message to be completely accurate about what the problem is or even where the problem is located. Often a single small bug will cause multiple compiler errors, which can all be addressed with one small change. Equally its possible for a single error message to require multiple changes before it is resolved.
 
-Remember, compiler errors occur when the source code isn't valid Java. If it isn't valid Java, then the compiler is not able to understand it. The further away the source code is from being valid, the more confused the compiler will get.
+Remember, compiler errors occur when the source code isn't valid [[Java]]. If it isn't valid [[Java]], then the compiler is not able to understand it. The further away the source code is from being valid, the more confused the compiler will get.
 
 If you try to compile code that is extremely far from being valid, then you should expect the compiler to be utterly confused, and for the error messages to be equally confusing. It's akin to giving an English teacher a page of random gibberish.
 
-## Errors in Java: How to read a run-time error
+## Errors in [[Java]]: How to read a run-time error
 
 If a Java program crashes it will (with its last gasp), print out an error message to explain what caused the crash.
 
@@ -894,7 +894,7 @@ public class HelloAgain {
 
 This program will work fine if your name is a number, but otherwise it will throw an error like this:
 
-Exception in thread "main" java.util.InputMismatchException at java.base/java.util.Scanner.throwFor(Scanner.java:943) at java.base/java.util.Scanner.next(Scanner.java:1598) at java.base/java.util.Scanner.nextInt(Scanner.java:2263) at java.base/java.util.Scanner.nextInt(Scanner.java:2217) at HelloAgain.main(HelloAgain.java:10)
+Exception in thread "main" java.util.InputMismatchException at java.base/java.util.Scanner.throwFor(Scanner.[[java]]:943) at [[java]].base/[[java]].util.Scanner.next(Scanner.[[java]]:1598) at [[java]].base/[[java]].util.Scanner.nextInt(Scanner.[[java]]:2263) at [[java]].base/[[java]].util.Scanner.nextInt(Scanner.[[java]]:2217) at HelloAgain.main(HelloAgain.[[java]]:10)
 
 Here the type of error is `InputMismatchException` . If you google that you will find helpful resources (like [this one](https://rollbar.com/blog/java-inputmismatchexception/)) that describe what this error is, what causes it, and how to fix it.
 
@@ -902,13 +902,13 @@ If we work through the stacktrace we can see several entries for stuff that is h
 
 Based on this knowledge, have a go at fixing the error.
 
-## Errors in Python
+## Errors in [[Python]]
 
-As Python doesn't (normally) run as a _compiled_ language, it only has run-time errors.
+As [[Python]] doesn't (normally) run as a _compiled_ language, it only has run-time errors.
 
-This means we only have to consider one format for error output, but ultimately the same basic structures apply as with Java.
+This means we only have to consider one format for error output, but ultimately the same basic structures apply as with [[Java]].
 
-Python's basic error format is:
+[[Python]]'s basic error format is:
 
 Traceback (most recent call last): File "<filename>", line <linenumber>, in <module> <line of code that caused the problem> <Type of Error>: <description of error>
 
@@ -933,4 +933,4 @@ So we get several important pieces of information:
 - A more detailed description, which may give a hint as to what precisely is wrong (simple in this case) and how to go about fixing it.
     
 
-Now adjust the code so that it runs and produces `This is not a number1` as the output. There are several ways of doing this, reading through some of the lessons may help (especially if you jump forward to the Quick Reference section).
+Now adjust the code so that it runs and produces `This is not a number1` as the output. There are several ways of doing this, reading through some of the lessons may [[help]] (especially if you jump forward to the Quick Reference section).

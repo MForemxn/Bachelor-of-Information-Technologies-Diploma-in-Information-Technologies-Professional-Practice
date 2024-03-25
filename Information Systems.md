@@ -1,5 +1,5 @@
 # Definition
-- An information system collects, processes, stores,  analyzes, and disseminates information for a  specific purpose.
+- An information system collects, [[processes]], stores,  analyzes, and disseminates information for a  specific purpose.
 - purpose of information systems has been defined  as getting the right information to the right  people, at the right time, in the right amount, and  in the right format.
 # What do Information Systems do?
 - At the highest level, information systems:

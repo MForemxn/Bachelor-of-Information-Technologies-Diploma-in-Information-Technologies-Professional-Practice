@@ -26,7 +26,7 @@
 	- removes need for widespread maintenance 
 	- free from complexity, for both users and devs
 		- for example, google apps, dropbox, etc.
-# Processes for Generating Information
+# [[Processes]] for Generating Information
 - Three activities for producing the information:
 	- Input: Capturing raw data or information
 	- Processing : Converting input into a meaningful form
@@ -78,7 +78,7 @@
 - also allows for non-routine [[decision]] making
 - allows the macro tracking and analysing of KPI's and other metrics
 # Reporting Options
-- there are 3 types of reports which all information systems are able to produce
+- there are 3 types of reports which all [[information systems]] are able to produce
 	- routine reports: anything from hourly to yearly reports on all types of key data points
 	- ad-hoc (on demand) reports: [[Drill Down Reports|drill-down]], [[Key-Indicator Reports|key indicator]], and [[Comparative Reporting|comparative reports]]
 	- [[Exception Reports|exception reports]]: all information which falls outside a certain threshold (outliers)
@@ -86,7 +86,7 @@
 - designed to do the most advanced and reliable problem solving problems.
 - capabilities:
 	- aiding in [[decision]] making
-	- data analysis 
+	- [[data analysis]] 
 	- interpreting input
 	- justifying conclusions
 - characteristics
@@ -101,13 +101,13 @@
 	- Knowledge user: person or group who uses and benefits from the expert system
 		- Needs no previous training or experience
 # Enterprise Resource Planning (ERP) Systems
-- functional area information systems were developed independently of one another, 
+- functional area [[information systems]] were developed independently of one another, 
 - ERP systems are designed to correct a lack of communication among the functional area IS!
-- ERP systems tightly integrate the functional area IS via a common database.
+- ERP systems tightly integrate the functional area IS via a common [[database]].
 - The leading ERP software vendor is SAP!
 
 |Benefits|Limitations|
 |---|---|
-|Organizational flexibility and agility|Companies may need to change their existing business processes|
+|Organizational flexibility and agility|Companies may need to change their existing business [[processes]]|
 |Facilitating [[decision]] making|ERP systems can be complex, expensive|
 |Improving quality and efficiency|time-consuming to implement|

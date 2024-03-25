@@ -30,7 +30,7 @@ e.g., 31266 team problems, 31266 request for late submission due to illness).
 This subject describes today's business environment and how technology is integrated into business, government and
 community systems. It covers the trends towards greater mobility, greater complexity, globalisation and business
 networking, and ways that technology can deliver services to improve business competitiveness in an increasingly global
-and networked environment. It describes the role of information systems (IS) for better business management and the
+and networked environment. It describes the role of [[information systems]] (IS) for better business management and the
 formation of business networks. Real-world case studies are presented to understand the role of IS in obtaining and
 maintaining competitive advantage. This introductory subject explains activities used to develop, implement and maintain
 IS. Techniques for building effective team collaboration skills and relationship skills are demonstrated in this
@@ -49,7 +49,7 @@ Upon successful completion of this subject students should be able to:
 
 3. Discuss key concepts relating to telecommunication and networking. (D.1)
 
-4. Describe the process of acquiring information systems and applications. (D.1)
+4. Describe the process of acquiring [[information systems]] and applications. (D.1)
 
 5. Identify ethical issues in the IS context to propose recommendations. (B.1)
 
@@ -94,7 +94,7 @@ answers with their peers, and complete problem-solving activities, analyse case 
 in teams.
 
 Students are encouraged to come up with ideas and present them to the whole class, and are expected to evaluate each
-other’s responses; this regular peer feedback will help students learn. Constant feedback as part of the tutorial will
+other’s responses; this regular peer feedback will [[help]] students learn. Constant feedback as part of the tutorial will
 be provided by extending the class collaborative discussion with reflective questions from the tutor.
 
 The following applies to Bachelor of Computing Science students only.
@@ -133,18 +133,18 @@ the OPELA and/or do not attend 80% of the Language Development Tutorials will re
 |------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Orientation      | 12 Feb    | Please read the Subject Outline. Make yourself comfortable with the Canvas environment: Explore the Canvas environment, Read through the subject outline, and Navigate and understand the information on the "Get started" module. **Notes:** There is NO class in this week. 
 | Week 1           | 19 Feb    | Topic: Introduction to subject/ [[Introduction to Information Systems]] **Notes:** Please Read lecture notes (slides and other materials)                                                                                                                                         
-| Week 2           | 26 Feb    | Topic: Information systems within the organisation                                                                                                                                                                                                                            |
-| Week 3           | 4 March   | Topic: Organisational Strategy, Competitive Advantage and Information Systems                                                                                                                                                                                                 |
-| Week 4           | 11 March  | Topic: Acquiring information systems and applications<br><br>**Notes:**<br><br>**Quiz 1** (includes topic from Week 2, 3, 4)                                                                                                                                                  |
+| Week 2           | 26 Feb    | Topic: [[Information systems]] within the organisation                                                                                                                                                                                                                            |
+| Week 3           | 4 March   | Topic: Organisational Strategy, Competitive Advantage and [[Information Systems]]                                                                                                                                                                                                 |
+| Week 4           | 11 March  | Topic: Acquiring [[information systems]] and applications<br><br>**Notes:**<br><br>**Quiz 1** (includes topic from Week 2, 3, 4)                                                                                                                                                  |
 | Week 5           | 18 March  | Topic: [[Data and Knowledge Management]] **Notes:** **In-class activity 1: Infographic**                                                                                                                                                                                          |
 | Week 6           | 25 March  | Topic: [[Business Analytics]]                                                                                                                                                                                                                                                     |
 | Week 7           | 1 April   | Topic: [[AI]]-Powered products **Notes:** Video Submission Deadline: 2 April, 2024, In-Class Activity 2: Video: 3-5 April, 2024                                                                                                                                                   |
 | Week 8           | 8 April   | Human-[[AI]] Interaction **Notes:** **Quiz 2** (includes topic from Week 5, 6)                                                                                                                                                                                                    |
 | Stu Vac          | 15 April  | Mid-session Stu Vac (study vacation), Monday, 15 April, 2024 - Sunday, 21 April, 2024                                                                                                                                                                                         |
 | Week 9           | 22 April  | Topic: Information [[Security]]- Cyber [[Security]]<br><br>**Notes:**<br><br>**In-class activity 3**                                                                                                                                                                                  |
-| Week 10          | 29 April  | Topic: Social Engineering Scams                                                                                                                                                                                                                                               |
-| Week 11          | 6 May     | Topic: Ethics and privacy **Notes:** Assignment 2 Submission Deadline: 7 May 2024, **Assignment 2 presentation**                                                                                                                                                              |
-| Week 12          | 13 May    | Telecommunications and Networking **Notes:** **Quiz 3** (includes topic from Week 9 & 11) **Assignment 4 submission deadline**: 25 May, 2024                                                                                                                                  
+| Week 10          | 29 April  | Topic: [[Social Engineering Scams]]                                                                                                                                                                                                                                               |
+| Week 11          | 6 May     | Topic: [[Ethics and privacy]] **Notes:** Assignment 2 Submission Deadline: 7 May 2024, **Assignment 2 presentation**                                                                                                                                                              |
+| Week 12          | 13 May    | [[Telecommunications and Networking]] **Notes:** **Quiz 3** (includes topic from Week 9 & 11) **Assignment 4 submission deadline**: 25 May, 2024                                                                                                                                  
 |                  |
 
 # Additional information
@@ -166,7 +166,7 @@ assessments such as assignment two and group activities in assignment three, wil
 work together and in gaining team skills and knowledge. If any student has trouble with the operation of their team,
 they need to ask their tutor for advice immediately as problems arise.
 
-## Assessment task 1: Information Systems in Business, Organization and Society (Quiz)
+## Assessment task 1: [[Information Systems]] in Business, Organization and Society (Quiz)
 
 | **Intent:**              | To demonstrate technical knowledge of specified concepts covered in the weekly lectures.                                                                                                                                 |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -178,7 +178,7 @@ they need to ask their tutor for advice immediately as problems arise.
 | **Due:**                 | Quiz 1: Week 4 (Individually assessed-9%)<br><br>Quiz 2: Week 8 (Individually assessed-9%)<br><br>Quiz 3: Week 12 (Individually assessed-7%)                                                                             |
 | **Further information:** | A document explaining the detailed requirements of the assignment will be uploaded on Canvas.                                                                                                                            |
 
-## Assessment task 2: Identify and Analyse Advanced Information Systems
+## Assessment task 2: Identify and Analyse Advanced [[Information Systems]]
 
 |                          |                                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -188,7 +188,7 @@ they need to ask their tutor for advice immediately as problems arise.
 | **Type:**                | Project                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Groupwork:**           | Group, group and individually assessed                                                                                                                                                                                                                                                                                                                                                             |
 | **Weight:**              | 25%                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Task:**                | The purpose of this assessment is to examine students' ability to identify the emerging topics in the area of information systems as well as examining their reflection ability in expressing how they can contribute towards building the digital society. This assessment task has two parts: a report and a presentation. In both report and presentation, at least 10% will be group assessed. |
+| **Task:**                | The purpose of this assessment is to examine students' ability to identify the emerging topics in the area of [[information systems]] as well as examining their reflection ability in expressing how they can contribute towards building the digital society. This assessment task has two parts: a report and a presentation. In both report and presentation, at least 10% will be group assessed. |
 | **Due:**                 | Submission deadline: 7 May 2024,11:59 pm<br><br>Presentation: Each group is required to make a presentation during their tutorial class in Week 11 and/or 12.                                                                                                                                                                                                                                      |
 | **Further information:** | A document explaining the detailed requirements of the assignment will be uploaded on Canvas.                                                                                                                                                                                                                                                                                                      |
 
@@ -240,7 +240,7 @@ In order to pass the subject, a student must achieve an overall mark of 50% or m
 
 # Recommended texts
 
-Management Information Systems, 1st Australian Edition R. Kelly Rainer, Heather Gray, Tomayess Issa, Graeme Pye, Indrit
+Management [[Information Systems]], 1st Australian Edition R. Kelly Rainer, Heather Gray, Tomayess Issa, Graeme Pye, Indrit
 Troshani, Brad Prince, Hugh J. Watson ISBN: 9781118646021
 
 [[Introduction to Information Systems]], 7th Edition, R. Kelly Rainer, Brad Prince, ISBN: 978-1-119-36296-8
@@ -271,7 +271,7 @@ For a full list of the faculty's graduate attributes refer to the
 FEIT [Graduate Attributes](https://www.uts.edu.au/about/faculty-engineering-and-information-technology/who-we-are/engineering-and-it-uts/graduate)
 webpage.
 
-For the contribution of subjects taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering to
+For the contribution of [[subjects]] taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering to
 the Engineers Australia Stage 1 Competencies, see the
 faculty's [Graduate Attributes and the Engineers Australia](https://www.uts.edu.au/current-students/current-students-information-faculty-engineering-and-it/undergraduate/graduate) [Stage 1 Competencies](https://www.uts.edu.au/current-students/current-students-information-faculty-engineering-and-it/undergraduate/graduate)
 webpage.
@@ -300,7 +300,7 @@ for [Special Consideration](http://www.uts.edu.au/current-students/managing-your
 
 **Late penalty**
 
-For Graded subjects:
+For Graded [[subjects]]:
 
 Work submitted late without an approved extension is subject to a late penalty of 10 per cent of the total available
 marks deducted per calendar day that the assessment is overdue (e.g. if an assignment is out of 40 marks, and is
@@ -317,11 +317,11 @@ b. online quizzes where answers are released to students on completion, or
 c. professional assessment tasks, where the intention is to create an authentic assessment that has an absolute
 submission date, or
 
-d. take-home papers that are assessed during a defined time period, or
+d. take-[[home]] papers that are assessed during a defined time period, or
 
 e. pass/fail assessment tasks.
 
-For Pass/Fail subjects:
+For Pass/Fail [[subjects]]:
 
 Work submitted late without an approved extension will only be assessed at the subject coordinator’s discretion.
 Students who do not submit assessment tasks by the due dates may be referred to the Responsible Academic Officer
@@ -357,7 +357,7 @@ work.
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,
 study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about [[academic integrity]], it’s okay, just ask! We are here to help you understand academic
+If you are feeling confused about [[academic integrity]], it’s okay, just ask! We are here to [[help]] you understand academic
 integrity and do your assessments with confidence:
 
 [Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
@@ -365,7 +365,7 @@ including dos and don’ts.
 
 [Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
 
-[Get help with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
+[Get [[help]] with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-[[help]])
 for life outside of the classroom.
 
 Talk to your tutor, lecturer, subject coordinator
@@ -374,7 +374,7 @@ if you are unsure about anything [[academic integrity]] related.
 
 **Generative [[AI]] (GenAI) and [[academic integrity]]**
 
-In the Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are permitted
+In the Faculty of Engineering and IT [[subjects]], unless otherwise instructed by the Subject Coordinator, you are permitted
 to use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
 assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your own work is
 considered to be academic misconduct as per
@@ -382,8 +382,8 @@ the [UTS Student Rules on misconduct](https://www.uts.edu.au/about/uts-governanc
 
 There are a few things you must do to ensure you are maintaining [[academic integrity]]:
 
-Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
-subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not sure,
+Check the rules for if and how you can use GenAI in your [[subjects]] and assessments via this subject outline or your
+subject sites in Canvas (rules will differ between [[subjects]], so make sure you check each subject). If you are not sure,
 check with your tutor, lecturer or subject coordinator.
 
 Understand [how to use GenAI ethically](https://studyguides.lib.uts.edu.au/genai/home).
@@ -421,8 +421,8 @@ students with the answers to assessments are also subject to student misconduct 
 These are all serious forms of misconduct
 and [penalties apply](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/consequences-plagiarism-and-cheating).
 
-To help ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
-software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
+To [[help]] ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
+software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf ([[text files]]), rtf,
 html). Under
 the [Coursework Assessments Policy](https://www.uts.edu.au/about/uts-governance/policies/uts-policy/coursework-assessments-policy) (
 section 4.27), vivas or other invigilated tasks may be used to confirm or clarify your work and/or marks, and to verify

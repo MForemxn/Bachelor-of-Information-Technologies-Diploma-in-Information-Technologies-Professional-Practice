@@ -1,6 +1,6 @@
 ![[Pasted image 20240318112314.png]]
 # Role of IT in 
-- Knowledge management steps include the processes of knowledge creation, capture, refine, storage, manage , and disseminate Knowledge to achieve competitive advantage
+- Knowledge management steps include the [[processes]] of knowledge creation, capture, refine, storage, manage , and disseminate Knowledge to achieve competitive advantage
 - Knowledge management is an organised approach of organisations to take advantage of both explicit and tacit knowledge
 # Benefits and Challenges
 - Benefits:
@@ -21,4 +21,4 @@
 - Knowledge storage: Useful knowledge must then be stored in a reasonable format in a knowledge repository so that others in the organisation can access it.
 - Manage knowledge: Like a library, the knowledge must be kept current. It must be reviewed regularly to verify that it is relevant and accurate.
 - Disseminate knowledge: Knowledge must be made available in a useful format to anyone in the organisation who needs it, anywhere and anytime.
-> KMS refer to a class of information systems applied to support and enhance the organisational processes of knowledge creation, capture, refine, storage, manage , and disseminate.
+> KMS refer to a class of [[information systems]] applied to support and enhance the organisational [[processes]] of knowledge creation, capture, refine, storage, manage , and disseminate.
