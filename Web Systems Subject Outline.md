@@ -90,7 +90,7 @@ issues.
 
 [[The Internet and the Web]]
 
-[[The Internet infrastructure]]
+[[The Internet Infrastructure]]
 
 [[Network services]]
 

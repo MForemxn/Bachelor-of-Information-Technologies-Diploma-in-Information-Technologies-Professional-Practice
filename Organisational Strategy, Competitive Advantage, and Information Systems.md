@@ -75,7 +75,7 @@
 			- more aware of competing prices
 		- Information systems can help preserve customer relations through
 			- customer relationship management systems
-			- business intelligence systems. 
+			- [[business intelligence]] systems. 
 # Porter's Competitive Forces Model
 - the best known framework for analysing competitiveness is Michael Porter's competitive forces model (Porter, 1985)
 	- ![[Screenshot 2024-03-04 at 11.48.02 am.png]]

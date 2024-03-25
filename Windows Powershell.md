@@ -1,56 +1,39 @@
-# What is PowerShell?
+- a task automation and configuration management framework from Microsoft
+- consists of a command-line shell and a scripting language built on .NET
+- designed for system administrators and power-users to rapidly automate the administration of multiple operating systems (Windows, Linux, and macOS) and the processes related to the applications that run on those operating systems
 
-06/29/2023
+# PowerShell Features
+- integrates with .NET framework, allowing for a wide range of functionalities
+	- access to COM and WMI for system management tasks
+- supports cmdlets (pronounced "command-lets"), which are specialized .NET classes implementing a particular operation
+	- hundreds of built-in cmdlets for performing common system administration tasks
+- allows scripting and automation of virtually any task in the Windows ecosystem
+	- scripts can range from simple command sequences to complex programs
+- enhanced security features
+	- execution policies to control the execution of scripts
+	- supports secure connections for managing remote systems
 
-PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. PowerShell runs on Windows, Linux, and macOS.
+# PowerShell vs CMD
+- PowerShell is not just an upgrade of the command prompt (CMD)
+	- it is a more powerful tool with a vast set of features
+- CMD commands can be used in PowerShell, but PowerShell cmdlets offer more functionality
+	- for example, PowerShell provides objects, allowing for more complex and useful manipulations of data
+- PowerShell scripts can interact with .NET, allowing for more sophisticated scripts compared to batch scripts
 
-PowerShell is a modern command shell that includes the best features of other popular shells. Unlike most shells that only accept and return text, PowerShell accepts and returns .NET objects. The shell includes the following features:
+# Scripting with PowerShell
+- PowerShell scripts use the .ps1 file extension
+- supports complex logic, including loops, conditions, and structured error handling
+- can access and manipulate the file system, registry, and other data stores
+- allows for the creation and management of Windows services, processes, and events
 
-- Robust command-line [history](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_history)
-- Tab completion and command prediction (See [about_PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/about/about_psreadline))
-- Supports command and parameter [aliases](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_aliases)
-- [Pipeline](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipelines) for chaining commands
-- In-console [help](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help) system, similar to Unix `[[man]]` pages
+## Variables in PowerShell
+- strongly typed, but also has type inference to ease script development
+	- variables can store data of any .NET type
+- supports complex data structures, such as arrays and hash tables
+- provides a rich set of operators for manipulating variables and their contents
 
-As a scripting language, PowerShell is commonly used for automating the management of systems. It's also used to build, test, and deploy solutions, often in CI/[[CD]] environments. PowerShell is built on the .NET Common Language Runtime (CLR). All inputs and outputs are .NET objects. No need to parse text output to extract information from output. The PowerShell scripting language includes the following features:
-
-- Extensible through [functions](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions_advanced), [classes](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes), [scripts](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scripts), and [modules](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_modules)
-- Extensible [formatting system](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_format.ps1xml) for easy output
-- Extensible [type system](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_types.ps1xml) for creating dynamic types
-- Built-in support for common data formats like [CSV](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-csv), [JSON](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json), and [XML](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertto-xml)
-
-The extensible nature of PowerShell has enabled an ecosystem of PowerShell modules to deploy and manage almost any technology you work with. For example:
-
-Microsoft
-
-- [Azure](https://learn.microsoft.com/en-us/powershell/azure)
-- [Windows](https://learn.microsoft.com/en-us/powershell/windows/get-started)
-- [Exchange](https://learn.microsoft.com/en-us/powershell/exchange/exchange-management-shell)
-- [SQL](https://learn.microsoft.com/en-us/sql/powershell/sql-server-powershell)
-
-Third-party
-
-- [AWS](https://aws.amazon.com/powershell/)
-- [VMWare](https://core.vmware.com/vmware-powercli)
-- [Google Cloud](https://cloud.google.com/powershell/)
-
-PowerShell Desired State Configuration ([DSC](https://learn.microsoft.com/en-us/powershell/scripting/dsc/overview/dscforengineers)) is a management framework in PowerShell that enables you to manage your enterprise infrastructure with configuration as code. With DSC, you can:
-
-- Create declarative [configurations](https://learn.microsoft.com/en-us/powershell/scripting/dsc/configurations/configurations) and custom scripts for repeatable deployments
-- Enforce configuration settings and report on configuration drift
-- Deploy configuration using [push or pull](https://learn.microsoft.com/en-us/powershell/scripting/dsc/pull-server/enactingconfigurations) models
-
-Are you new to PowerShell and don't know where to start? Take a look at these resources.
-
-- [Installing PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell)
-- [PowerShell Bits tutorials](https://learn.microsoft.com/en-us/powershell/scripting/learn/tutorials/00-introduction)
-- [PowerShell 101](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction)
-- [Microsoft Virtual Academy videos](https://learn.microsoft.com/en-us/shows/browse?terms=powershell)
-- [PowerShell Learn modules](https://learn.microsoft.com/en-us/training/browse/?terms=PowerShell)
-
-Take a look at how PowerShell is being used in different scenarios and on different platforms.
-
-- [PowerShell remoting over SSH](https://learn.microsoft.com/en-us/powershell/scripting/learn/remoting/ssh-remoting-in-powershell-core)
-- [Getting started with Azure PowerShell](https://learn.microsoft.com/en-us/powershell/azure/get-started-azureps)
-- [Building a CI/CD pipeline with DSC](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/dsc-cicd)
-- [Managing Microsoft Exchange](https://learn.microsoft.com/en-us/powershell/exchange/exchange-management-shell)
+# PowerShell ISE (Integrated Scripting Environment)
+- an application for developing, testing, and debugging PowerShell scripts and modules
+- provides a graphical user interface with syntax highlighting, tab completion, and context-sensitive help
+- allows for multiple script execution and testing in a single interface
+- although PowerShell ISE is a powerful tool, with the introduction of Visual Studio Code and its PowerShell extension, many developers and IT professionals have shifted towards using VS Code for PowerShell scripting due to its advanced features and support for a wide range of programming languages and file types

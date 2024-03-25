@@ -36,7 +36,7 @@
 	- Kernel (core part of the OS, manages hardware resources, process and memory management)
 		- Manages file systems, networking, and system calls
 		- Acts as an interface between hardware and user applications
-	- Shell (command-line interface or CLI)
+	- Shell (command-line interface or [[CLI]])
 		- Allows users to interact with the kernel through commands
 	- Utilities and Applications
 		- User-level programs and tools for file manipulation, text editing, programming, and communication

@@ -16,7 +16,7 @@ The third question for how to measure the accuracy of your predictions also has 
 
 One of the approaches to measure the accuracy of your result is the Root Mean Square Error (RMSE), in which you predict ratings for a test dataset of user-item pairs whose rating values are already known. The difference between the known value and the predicted value would be the error. Square all the error values for the test set, find the average (or mean), and then take the square root of that average to get the RMSE.
 
-Another metric to measure the accuracy is Mean Absolute Error (MAE), in which you find the magnitude of error by finding its [absolute value](https://realpython.com/python-absolute-value) and then taking the average of all error values.
+Another metric to measure the accuracy is Mean Absolute Error (MAE), in which you find the magnitude of error by finding its [absolute value](https://realpython.com/[[python]]-absolute-value) and then taking the average of all error values.
 
 You don’t need to worry about the details of RMSE or MAE at this point as they are readily available as part of various packages in Python, and you will see them later in the article.
 
@@ -56,7 +56,7 @@ In the graph above, each point represents a user and is plotted against the rati
 
 Looking at the distance between the points seems to be a good way to estimate similarity, right? You can find the distance using the formula for Euclidean distance between two points. You can use the function available in [`scipy`](https://realpython.com/python-scipy-cluster-optimize/) as shown in the following program:
 
-Python
+[[Python]]
 
 `>>> from scipy import spatial  >>> a = [1, 2] >>> b = [2, 4] >>> c = [2.5, 4] >>> d = [4.5, 5]  >>> spatial.distance.euclidean(c, a) 2.5 >>> spatial.distance.euclidean(c, b) 0.5 >>> spatial.distance.euclidean(c, d) 2.23606797749979`
 
@@ -80,7 +80,7 @@ You can use the cosine of the angle to find the similarity between two users. Th
 
 `scipy` has a function that calculates the **cosine distance** of vectors. It returns a higher value for higher angle:
 
-Python
+[[Python]]
 
 `>>> from scipy import spatial >>> a = [1, 2] >>> b = [2, 4] >>> c = [2.5, 4] >>> d = [4.5, 5]  >>> spatial.distance.cosine(c,a) 0.004504527406047898  >>> spatial.distance.cosine(c,b) 0.004504527406047898  >>> spatial.distance.cosine(c,d) 0.015137225946083022  >>> spatial.distance.cosine(a,b) 0.0`
 
@@ -123,7 +123,7 @@ You can predict that a user’s rating **R** for an item **I** will be close
 
 This formula shows that the average rating given by the _n_ similar users is equal to the sum of the ratings given by them divided by the number of similar users, which is _n_.
 
-There will be situations where the _n_ similar users that you found are not equally similar to the target user **U**. The top 3 of them might be very similar, and the rest might not be as similar to **U** as the top 3. In that case, you could consider an approach where the rating of the most similar user matters more than the second most similar user and so on. The weighted average can help us achieve that.
+There will be situations where the _n_ similar users that you found are not equally similar to the target user **U**. The top 3 of them might be very similar, and the rest might not be as similar to **U** as the top 3. In that case, you could consider an approach where the rating of the most similar user matters more than the second most similar user and so on. The weighted average can [[help]] us achieve that.
 
 In the weighted average approach, you multiply each rating by a similarity factor(which tells how similar the users are). By multiplying with the similarity factor, you add weights to the ratings. The heavier the weight, the more the rating would matter. 
 

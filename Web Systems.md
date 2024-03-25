@@ -6,7 +6,7 @@
 [[Web page development]]
 [[Web applications]]
 [[The Internet and the Web]]
-[[The Internet infrastructure]]
+[[The Internet Infrastructure]]
 [[Network services]]
 [[The Web and Cybersecurity]]
 [[Computing Theory]]
