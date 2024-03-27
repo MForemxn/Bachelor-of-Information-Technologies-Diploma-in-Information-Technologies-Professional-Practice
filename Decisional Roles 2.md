@@ -1,2 +1,0 @@
-- ﻿In the **entrepreneur** role, managers are responsible for seeking out and identifying new opportunities and initiatives for the organization.
-- ﻿In the **resource allocator** role, managers make decisions about how to distribute the organization's resources, including budget, personnel, time, and equipment.
