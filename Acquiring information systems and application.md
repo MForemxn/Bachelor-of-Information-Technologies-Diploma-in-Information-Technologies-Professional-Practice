@@ -1,6 +1,6 @@
 # System Development
 
-> System development involves a set of activities for building information systems tailored to users' needs, ranging from small projects to large endeavours across various fields.
+> System development involves a set of activities for building [[information systems]] tailored to users' needs, ranging from small projects to large endeavours across various fields.
 - Examples include: 
 	- a startup using a cloud-based CRM for cost efficiency
 	- a manufacturing company developing a custom inventory system for unique requirements
@@ -15,7 +15,7 @@
 	- ABC Healthcare focusing on innovative medical practices and customer-centric platforms
 	- a company emphasising sustainable living through enhanced e-commerce platforms and customer relationship management.
 
-# Exploring Strategies for Acquiring Information Systems
+# Exploring Strategies for Acquiring [[Information Systems]]
 
 - Strategies for acquiring IT applications include:
 	- purchasing prewritten applications
@@ -30,12 +30,12 @@
 # Exploring Systems Development Life Cycle (SDLC)
 
 - The SDLC is a structured framework used for large-scale IS projects, consisting of several phases: 
-	- Systems Investigation
-	- Systems Analysis
-	- Systems Design
-	- Programming and Testing
-	- Implementation
-	- Operation and Maintenance.
+	- [[Systems Investigation]]
+	- [[Systems Analysis]]
+	- [[Systems Design]]
+	- [[Programming and Testing]]
+	- [[Implementation]]
+	- [[Operation and Maintenance]].
 - **^These stages must be done sequentially^**
 - Initial phases focus on understanding business needs, evaluating system feasibility (technical, economic, behavioural), and gathering user requirements.
 - The design phase translates user requirements into technical specifications, including:

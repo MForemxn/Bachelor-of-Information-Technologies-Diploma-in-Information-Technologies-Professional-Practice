@@ -86,7 +86,7 @@ which underpin the engineering discipline.
 
 2.2. Fluent application of engineering techniques, tools and resources.
 
-2.3. Application of systematic engineering synthesis and design processes.
+2.3. Application of systematic engineering synthesis and design [[processes]].
 
 3.2. Effective oral and written communication in professional and lay domains.
 
@@ -98,11 +98,11 @@ experiences that suits their particular needs.
 The flipped lecture format allows the students to engage with the learning material in an asynchronous, self-paced,
 location-independent manner. It also supports a modular approach to delivering core content, permitting students to
 revise, engage and re-engage as suits their needs. Included in the learning material are staged practice exercises to
-help the students develop their knowledge and skills in a consequence- and stress-free environment.
+[[help]] the students develop their knowledge and skills in a consequence- and stress-free environment.
 
 In the workshops, this learning will be reinforced with scaffolded exercises that weave the core material together and
 provide a practical experience of the subject matter. These exercises are then capped with a low-stakes assessment task
-to help the students gauge their progress and understanding of the material.
+to [[help]] the students gauge their progress and understanding of the material.
 
 Tying these two structural components together is the weekly drop-in sessions, that offer students a face-to-face expert
 contact point tailored to their current progress, addressing the exact difficulties they are facing at the time.
@@ -140,18 +140,18 @@ functioning whole.
 
 | **Week/Session**        | **Dates** | **Description**                                                                                                                                                                                              |
 |-------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Week 1                  | 19 Feb    | Simplest Working Program, and Simple Output **Notes:** Complete preparatory readings and exercises.                                                                                                          
-| Week 2                  | 26 Feb    | Data Types and Variables<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                      |
+| Week 1                  | 19 Feb    | [[Simplest Working Program, and Simple Output]] **Notes:** Complete preparatory readings and exercises.                                                                                                          
+| Week 2                  | 26 Feb    | [[Data Types and Variables]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                      |
 | Week 3                  | 4 Mar     | Decisions and [[Branching]] Program Flow<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                          |
 | Week 4                  | 11 Mar    | [[Arrays and User Input]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                         |
 | Week 5                  | 18 Mar    | [[Loops and Iterative Program Flow]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                              |
 | Week 6                  | 25 Mar    | [[Classes and Constructors]]<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>Good Friday Public Holiday (29/3/2024) - Friday labs will not run this week.                                                  |
-| Week 7                  | 1 Apr     | Methods, Properties and Access Control<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>Easter Monday Public Holiday (1/4/2024) - No live lecture this week.<br><br>Monday labs will not run this week. |
-| Week 8                  | 8 Apr     | Lists and Polymorphism<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                        |
+| Week 7                  | 1 Apr     | [[Methods, Properties and Access Control]]<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>Easter Monday Public Holiday (1/4/2024) - No live lecture this week.<br><br>Monday labs will not run this week. |
+| Week 8                  | 8 Apr     | [[Lists and Polymorphism]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                        |
 | StuVac                  | 15 Apr    | Study time! **Notes:** Monday lecture and labs and Friday labs will run this week due to the Easter public holidays prior. No other classes run in StuVac.                                                   
-| Week 9                  | 22 Apr    | File Input and Output<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>ANZAC Day Public Holiday (25/4/2024) - Thursday labs will not run this week.                                                     |
-| Week 10                 | 29 Apr    | Object Oriented Programming Techniques and Structures<br><br>**Notes:**<br><br>Assessment Task 2 (Code Comprehension) due on Friday 3/5/2024.                                                                |
-| Week 11                 | 6 May     | Inheritance and Interfaces<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                    |
+| Week 9                  | 22 Apr    | [[File Input and Output]]<br><br>**Notes:**<br><br>Complete Lab Activity<br><br>ANZAC Day Public Holiday (25/4/2024) - Thursday labs will not run this week.                                                     |
+| Week 10                 | 29 Apr    | [[Object Oriented Programming Techniques and Structures]]<br><br>**Notes:**<br><br>Assessment Task 2 (Code Comprehension) due on Friday 3/5/2024.                                                                |
+| Week 11                 | 6 May     | [[Inheritance and Interfaces]]<br><br>**Notes:**<br><br>Complete Lab Activity                                                                                                                                    |
 | Week 12                 | 13 May    | Review, preview and Q&A<br><br>**Notes:**<br><br>Assessment task 1 ('weekly' Lab Assessments) to be finalised by Friday 17/5/2024.<br><br>Task 5 (optional Extension task) due on Friday 17/5/2024.          |
 | StuVac                  | 20 May    | Study time!<br><br>**Notes:**<br><br>Thursday labs will run this week due to the ANZAC day public holiday.                                                                                                   |
 | Final Assessment Period | 27 May    | **Notes:** Assessment Task 3 (Project) due on Monday 27/5/2024.                                                                                                                                              
@@ -205,7 +205,7 @@ functioning whole.
 | **Type:**         | Examination                                                                                                                                                                                                                                                                                                                             |
 | **Groupwork:**    | Individual                                                                                                                                                                                                                                                                                                                              |
 | **Weight:**       | 20%                                                                                                                                                                                                                                                                                                                                     |
-| **Task:**         | Answer questions posed by the examiner in a take-home, open-book exam format.                                                                                                                                                                                                                                                           |
+| **Task:**         | Answer questions posed by the examiner in a take-[[home]], open-book exam format.                                                                                                                                                                                                                                                           |
 | **Length:**       | 1 day                                                                                                                                                                                                                                                                                                                                   |
 | **Due:**          | UTS Exam period                                                                                                                                                                                                                                                                                                                         |
 
@@ -213,7 +213,7 @@ functioning whole.
 
 |                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intent:**              | Knowledge and skill can be demonstrated in many ways. In programming subjects in particular, more sustained and free-form development than that allowed by normal assessment tasks can reveal a deeper understanding than otherwise apparent.<br><br>This task offers the opportunity for students to demonstrate a higher degree of knowledge and skill through work on more difficult computational and programming problems that extend beyond the immediate material of the subject.<br><br> 
+| **Intent:**              | Knowledge and skill can be demonstrated in many ways. In programming [[subjects]] in particular, more sustained and free-form development than that allowed by normal assessment tasks can reveal a deeper understanding than otherwise apparent.<br><br>This task offers the opportunity for students to demonstrate a higher degree of knowledge and skill through work on more difficult computational and programming problems that extend beyond the immediate material of the subject.<br><br> 
 | **Objective(s):**        | This assessment task addresses the following subject learning objectives (SLOs): 1, 2, 3 and 5<br><br>This assessment task contributes to the development of the following Course Intended Learning Outcomes (CILOs):<br><br>C.1 and D.1                                                                                                                                                                                                                                                         |
 | **Type:**                | Project                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Groupwork:**           | Individual                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -244,32 +244,32 @@ To pass this subject, students must achieve an overall mark of 50% or greater.
 
 ## Introductory Texts
 
-1. H. Schildt, “Java: A Beginner’s Guide”, 8th Ed., McGraw-Hill Education, 2018.
+1. H. Schildt, “[[Java]]: A Beginner’s Guide”, 8th Ed., McGraw-Hill Education, 2018.
 
-2. K. Sierra & B. Bates, "Head First Java", 2nd Ed., O'Reilly, 2005. (Only covers up to Java 5, but the differences
+2. K. Sierra & B. Bates, "Head First [[Java]]", 2nd Ed., O'Reilly, 2005. (Only covers up to [[Java]] 5, but the differences
 won'tmatter for this subject)
 
-3. Eric Matthes, "Python Crash Course", 2nd Ed., No Starch, 2019.
+3. Eric Matthes, "[[Python]] Crash Course", 2nd Ed., No Starch, 2019.
 
-4. Al Swigert, "Automate the Boring Stuff with Python", 2nd Ed., No Starch, 2019. (This gets a bit away from learningto
-program, to just using Python as a tool without deep comprehension, but it's still useful and the cover matches the
+4. Al Swigert, "Automate the Boring Stuff with [[Python]]", 2nd Ed., No Starch, 2019. (This gets a bit away from learningto
+program, to just using [[Python]] as a tool without deep comprehension, but it's still useful and the cover matches the
 Matthes one).
 
-5. Z. A. Shaw, "Learn Python 3 the Hard Way", 1st Ed., Addison Wesley, 2017. (There's an older version for Python2.7
+5. Z. A. Shaw, "Learn [[Python]] 3 the Hard Way", 1st Ed., Addison Wesley, 2017. (There's an older version for Python2.7
 which is just as good, and a follow-on book as well. This is probably my pick of the three intro texts at the moment).
 
-6. P. Barry, "Head First Python", 2nd Ed., O'Reilly, 2016. (Same series as "Head First Java", so if you like that,
+6. P. Barry, "Head First [[Python]]", 2nd Ed., O'Reilly, 2016. (Same series as "Head First [[Java]]", so if you like that,
 you'llprobably like this.)
 
 ## More Advanced Texts
 
-7. C. S. Horstmann, “Core Java, Volume I – Fundamentals”, 11th Ed., Prentice Hall, 2018.
+7. C. S. Horstmann, “Core [[Java]], Volume I – Fundamentals”, 11th Ed., Prentice Hall, 2018.
 
-8. J. Bloch, “Effective Java”, 3rd Ed., Addison-Wesley Professional, 2018. (Advanced text.)
+8. J. Bloch, “Effective [[Java]]”, 3rd Ed., Addison-Wesley Professional, 2018. (Advanced text.)
 
-9. H. Schildt, "Java: The Complete Reference", 11th Ed., McGraw-Hill Education, 2019.
+9. H. Schildt, "[[Java]]: The Complete Reference", 11th Ed., McGraw-Hill Education, 2019.
 
-10. M. Lutz, "Learning Python", 5th Ed., O'Reilly, 2013. (Maybe getting a bit old now, but quite comprehensive, andpart
+10. M. Lutz, "Learning [[Python]]", 5th Ed., O'Reilly, 2013. (Maybe getting a bit old now, but quite comprehensive, andpart
 of a huge series of O'Reilly books on [[Python]].)
 
 # Graduate attribute development
@@ -364,7 +364,7 @@ work.
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,
 study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about [[academic integrity]], it’s okay, just ask! We are here to help you understand academic
+If you are feeling confused about [[academic integrity]], it’s okay, just ask! We are here to [[help]] you understand academic
 integrity and do your assessments with confidence:
 
 [Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
@@ -372,7 +372,7 @@ including dos and don’ts.
 
 [Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
 
-[Get help with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
+[Get [[help]] with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
 for life outside of the classroom.
 
 Talk to your tutor, lecturer, subject coordinator
@@ -393,7 +393,7 @@ Check the rules for if and how you can use GenAI in your [[subjects]] and assess
 subject sites in Canvas (rules will differ between [[subjects]], so make sure you check each subject). If you are not sure,
 check with your tutor, lecturer or subject coordinator.
 
-Understand [how to use GenAI ethically](https://studyguides.lib.uts.edu.au/genai/[[home]]).
+Understand [how to use GenAI ethically](https://studyguides.lib.uts.edu.au/genai/home).
 
 Unless instructed otherwise by the Subject
 Coordinator, [reference and acknowledge](https://studyguides.lib.uts.edu.au/genai/referencing) the use of GenAI in your

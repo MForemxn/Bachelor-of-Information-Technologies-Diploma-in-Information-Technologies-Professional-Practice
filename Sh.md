@@ -6,7 +6,7 @@ The [[CLI]] uses the git interface and the [Platform.sh REST API](https://api.p
 
 ## 1. Install ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-To install the CLI, use a [[[Bash]] installation script](https://github.com/platformsh/cli#user-content-[[bash]]-installer). You can also install with [Homebrew](https://brew.sh/) (on Linux, macOS, or the Windows Subsystem for Linux) or [Scoop](https://scoop.sh/)(on Windows).
+To install the CLI, use a [[Bash]] installation script](https://github.com/platformsh/cli#user-content-[[bash]]-installer). You can also install with [Homebrew](https://brew.sh/) (on Linux, macOS, or the Windows Subsystem for Linux) or [Scoop](https://scoop.sh/)(on Windows).
 
 If you have issues with installation on a Mac, such as missing libraries, see how to [troubleshoot CLI installation on M1 Macs](https://community.platform.sh/t/troubleshoot-cli-installation-on-m1-macs/1202).
 

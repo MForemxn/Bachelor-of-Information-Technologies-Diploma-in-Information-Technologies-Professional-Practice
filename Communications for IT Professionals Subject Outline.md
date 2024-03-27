@@ -41,7 +41,7 @@ their career.
 The skills introduced include understanding and applying principles and theories of human communication; researching the
 various discipline areas that inform the development of a design solution; identifying, formulating and designing a
 solution to solve a problem while considering ethical and socio-technical issues; written and oral communication for IT
-contexts; expressing technology concepts through visual communication; and, leading and participating in team processes.
+contexts; expressing technology concepts through visual communication; and, leading and participating in team [[processes]].
 
 # Subject learning objectives (SLOs)
 
@@ -73,7 +73,7 @@ perspectives, establish priorities and goals, and identify constraints, uncertai
 cultural, legislative, environmental, economics etc.) to define the system requirements. (B.1)
 
 Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop components,
-systems and processes to meet specified requirements. (C.1)
+systems and [[processes]] to meet specified requirements. (C.1)
 
 Collaborative and Communicative: FEIT graduates work as an effective member or leader of diverse teams, communicating
 effectively and operating within cross-disciplinary and cross-cultural contexts in the workplace.
@@ -96,14 +96,14 @@ management, design and build, reflection and group discussion. Activities suppor
 information technology skills in a small group setting under the supervision of a tutor; these skills relate directly to
 your major group EWB project.
 
-**OPELA:** An aim of this subject is to help you develop academic and professional language and communication skills in
+**OPELA:** An aim of this subject is to [[help]] you develop academic and professional language and communication skills in
 order to succeed at university and in the workplace. To determine your current academic language proficiency, you are
 required to complete an online language screening
 task, [OPELA](https://www.uts.edu.au/research-and-teaching/learning-and-teaching/enhancing/language-and-learning/about-opela-students).
 If you receive a Basic grade for OPELA, you must attend additional Language Development Tutorials (each week from weeks
 3 to 12) in order to pass the subject. The development of these tutorials is a new university-wide initiative designed
 to provide personalised support and enhance students’ English language skills. They will focus on developing your
-communication skills (reading, writing, speaking, listening) and your independent learning skills, which will help you
+communication skills (reading, writing, speaking, listening) and your independent learning skills, which will [[help]] you
 to prepare for the subject assessment tasks and for professional workplace communication tasks.
 
 # Content (topics)
@@ -126,7 +126,7 @@ to prepare for the subject assessment tasks and for professional workplace commu
 
 | Week / Session   | Dates  | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1                | 19 Feb | **Are you ready to commence 31265 [[Communication for IT Professionals]]?**<br><br>Ensure that you access Canvas to complete all of the pre-class tasks for Week 1 under 'Modules', including the Week 1 prework quiz!<br><br>**What to do during Week 1:** Attend class!<br><br>**Watch the Week 1 online materials before your tutorial class:** In particular, look at and complete the pre-work before the first tutorial.<br><br>**Attend your timetabled tutorial:** tutorials start this week and run weekly until<br><br>Week 12 (inclusive) - complete the Knowledge Check on your pre-class work _before_ you come to your tutorial class.<br><br>It is your responsibility to check your timetable and attend the weekly tutorial, and continue to monitor Canvas announcements for this subject.<br><br>**Notes:**<br><br>**Check Canvas and your UTS email regularly.**<br><br>We will send out a weekly announcement at the end of each week but urgent announcements will be sent out during the week as needed.<br><br>**What needs to be done by the end of Week 1:** All students must complete the online post enrolment language assessment (OPELA) before **5pm Sunday 25 February**. |
+| 1                | 19 Feb | **Are you ready to commence 31265 [[Communication for IT Professionals]]?**<br><br>Ensure that you access Canvas to complete all of the pre-class tasks for Week 1 under 'Modules', including the Week 1 prework quiz!<br><br>**What to do during Week 1:** Attend class!<br><br>**Watch the Week 1 online materials before your tutorial class:** In particular, look at and complete the pre-work before the first tutorial.<br><br>**Attend your timetabled tutorial:** tutorials start this week and run weekly until<br><br>Week 12 (inclusive) - complete the Knowledge Check on your pre-class work _before_ you come to your tutorial class.<br><br>It is your responsibility to check your [[timetable]] and attend the weekly tutorial, and continue to monitor Canvas announcements for this subject.<br><br>**Notes:**<br><br>**Check Canvas and your UTS email regularly.**<br><br>We will send out a weekly announcement at the end of each week but urgent announcements will be sent out during the week as needed.<br><br>**What needs to be done by the end of Week 1:** All students must complete the online post enrolment language assessment (OPELA) before **5pm Sunday 25 February**. |
 | 2                | 26 Feb | Watch the Week 2 lecture video this week before your tutorial class - EWB guest speaker<br><br>Attend your tutorial class - EWB Challenge project teams are formed in tutorial classes this week. It is critical that you attend this class and you are in a team by Wednesday Week 4, otherwise you may be refused permission to attempt Assessment tasks 2 and 3 and a fail will be recorded for the subject.<br><br>## Notes:<br><br>Check Canvas announcements and your UTS email regularly! We will send out announcements and information as needed.<br><br>Remember to do weekly pre-work before each tutorial.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 3                | 4 Mar  | Watch the Week 3 lecture video this week before your tutorial - guest speakers on indigenous knowledge<br><br>**Attend the tutorial class and continue working on the team project.**<br><br>**Notes:**<br><br>**Assessment Task 1a:** Prepare draft of Individual Background report to show to peers in class.<br><br>A summary of the feedback received should be submitted on Canvas by Sunday, week 3.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | 4                | 11 Mar | Attend your tutorial class and continue working on the team project.<br><br>**Notes:**<br><br>**Assessment task 1b**: Individual Background Research Summary is due through online submission by 11:59pm Sunday, Week 4.<br><br>**Census Date**: 30 August                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -142,10 +142,10 @@ to prepare for the subject assessment tasks and for professional workplace commu
 
 # Assessment
 
-Assessment tasks in this subject are designed to help you develop the essential professional skills all professionals
+Assessment tasks in this subject are designed to [[help]] you develop the essential professional skills all professionals
 need. Through the application of these skills to the EWB Challenge and its associated assessment tasks, you will develop
 a greater understanding of technology, improve your professional skills, and build a "toolbox” of knowledge, techniques,
-and processes you can use in future IT work.
+and [[processes]] you can use in future IT work.
 
 You are encouraged to discuss your assessment tasks with your group, other students in your class, and your tutor,
 however, you should not provide a copy of your work to other students or groups nor share it online.
@@ -190,12 +190,12 @@ assessment task will be posted on Canvas throughout the semester and students sh
 
 |                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Intent:**              | To develop report writing skills based on finding, evaluating and referencing information relevant to the team project and to develop understanding of the Indigenous Australian context of the project.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Intent:**              | To develop report writing skills based on [[finding, evaluating and referencing information]] relevant to the team project and to develop understanding of the Indigenous Australian context of the project.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Objective(s):**        | This assessment task addresses the following subject learning objectives (SLOs):<br><br>1, 2, 3 and 5<br><br>This assessment task contributes to the development of the following Course Intended Learning Outcomes (CILOs):<br><br>A.1, B.1, C.1 and E.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Type:**                | Report                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Groupwork:**           | Individual                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Weight:**              | 25%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Task:**                | Students will investigate and evaluate information to become familiar with the context of the future team project, critically evaluating the information and sources to synthesise their research into a written summary.<br><br>Students will write a summary of the research that they have conducted so far, ensuring that information sources found and used are reliable and relevant, and are referenced correctly in their summary. This is an individual assessment task that builds skills in finding, evaluating and referencing information sources.<br><br>As part of the process of developing this report you will bring copies of your draft to class, participate in peer review exercises, and submit a small reflection responding to the feedback. This process will assist in improving your work prior to final submission.<br><br>Draft and Peer Review Process: 5%<br><br>Final Report: 20% |
+| **Task:**                | Students will investigate and evaluate information to become familiar with the context of the future team project, critically evaluating the information and sources to synthesise their research into a written summary.<br><br>Students will write a summary of the research that they have conducted so far, ensuring that information sources found and used are reliable and relevant, and are referenced correctly in their summary. This is an individual assessment task that builds skills in [[finding, evaluating and referencing information]] sources.<br><br>As part of the process of developing this report you will bring copies of your draft to class, participate in peer review exercises, and submit a small reflection responding to the feedback. This process will assist in improving your work prior to final submission.<br><br>Draft and Peer Review Process: 5%<br><br>Final Report: 20% |
 | **Length:**              | 750 words (10% tolerance) excluding references                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Due:**                 | Week 4: 11:59 pm Sunday                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Further information:** | This assessment will be assessed for academic language proficiency. Students will be directed to further language support if theirlanguage is below the required standard                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -309,7 +309,7 @@ Self and peer evaluation software
 
 Information and marking guides (rubrics) for assessment tasks.
 
-Students will need to login using their UTS email address and password. Most subjects publish their Canvas course one
+Students will need to login using their UTS email address and password. Most [[subjects]] publish their Canvas course one
 week before semester starts, however, on occasion this may be delayed. If you are having trouble finding a course check
 All Courses in the Courses menu before contacting IT. Students should review the Welcome module for our subject by
 navigating to the 31265 [[Communication for IT Professionals]] course then to Modules.
@@ -320,7 +320,7 @@ For a full list of the faculty's graduate attributes refer to the
 FEIT [Graduate Attributes](https://www.uts.edu.au/about/faculty-engineering-and-information-technology/who-we-are/engineering-and-it-uts/graduate)
 webpage.
 
-For the contribution of subjects taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering to
+For the contribution of [[subjects]] taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering to
 the Engineers Australia Stage 1 Competencies, see the
 faculty's [Graduate Attributes and the Engineers Australia](https://www.uts.edu.au/current-students/current-students-information-faculty-engineering-and-it/undergraduate/graduate) [Stage 1 Competencies](https://www.uts.edu.au/current-students/current-students-information-faculty-engineering-and-it/undergraduate/graduate)
 webpage.
@@ -349,7 +349,7 @@ for [Special Consideration](http://www.uts.edu.au/current-students/managing-your
 
 ## Late penalty
 
-For Graded subjects:
+For Graded [[subjects]]:
 
 Work submitted late without an approved extension is subject to a late penalty of 10 per cent of the total available
 marks deducted per calendar day that the assessment is overdue (e.g. if an assignment is out of 40 marks, and is
@@ -366,11 +366,11 @@ b. online quizzes where answers are released to students on completion, or
 c. professional assessment tasks, where the intention is to create an authentic assessment that has an absolute
 submission date, or
 
-d. take-home papers that are assessed during a defined time period, or
+d. take-[[home]] papers that are assessed during a defined time period, or
 
 e. pass/fail assessment tasks.
 
-For Pass/Fail subjects:
+For Pass/Fail [[subjects]]:
 
 Work submitted late without an approved extension will only be assessed at the subject coordinator’s discretion.
 Students who do not submit assessment tasks by the due dates may be referred to the Responsible Academic Officer
@@ -406,7 +406,7 @@ work.
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,
 study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about [[academic integrity]], it’s okay, just ask! We’re here to help you understand academic
+If you are feeling confused about [[academic integrity]], it’s okay, just ask! We’re here to [[help]] you understand academic
 integrity and do your assessments with confidence:
 
 [Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
@@ -414,16 +414,16 @@ including dos and don’ts.
 
 [Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
 
-[Get help with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
+[Get [[help]] with academic skills, such as writing, researching and referencing, and other support](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
 for life outside of the classroom.
 
 Talk to your tutor, lecturer, subject coordinator
-or [UTS help services](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
+or [UTS [[help]] services](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/academic-help)
 if you’re unsure about anything [[academic integrity]] related.
 
 ## Generative [[AI]] (GenAI) and [[academic integrity]]
 
-In Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are permitted to
+In Faculty of Engineering and IT [[subjects]], unless otherwise instructed by the Subject Coordinator, you are permitted to
 use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and self-study. Only
 assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your own work is
 considered to be academic misconduct as per
@@ -431,8 +431,8 @@ the [UTS Student Rules on misconduct](https://www.uts.edu.au/about/uts-governanc
 
 There are a few things you must do to ensure you are maintaining [[academic integrity]]:
 
-Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
-subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not sure,
+Check the rules for if and how you can use GenAI in your [[subjects]] and assessments via this subject outline or your
+subject sites in Canvas (rules will differ between [[subjects]], so make sure you check each subject). If you are not sure,
 check with your tutor, lecturer or subject coordinator.
 
 Understand [how to use GenAI ethically](https://studyguides.lib.uts.edu.au/genai/home).
@@ -470,8 +470,8 @@ students with the answers to assessments are also subject to student misconduct 
 These are all serious forms of misconduct
 and [penalties apply](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/consequences-plagiarism-and-cheating).
 
-To help ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
-software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
+To [[help]] ensure [[academic integrity]], assessments that you submit electronically may be subject to similarity detection
+software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf ([[text files]]), rtf,
 html). Under
 the [Coursework Assessments Policy](https://www.uts.edu.au/about/uts-governance/policies/uts-policy/coursework-assessments-policy) (
 section 4.27), vivas or other invigilated tasks may be used to confirm or clarify your work and/or marks, and to verify

@@ -8,7 +8,7 @@
 [[Useful Shortcuts]]
 [[Permissions and Ownerships]]
 [[Using Printers]]
-[[Calculators]]
+Calculators
 [[Processes]]
 [[Looking for Things]]
 [[Previous Commands]]

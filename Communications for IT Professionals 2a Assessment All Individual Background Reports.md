@@ -187,15 +187,15 @@ The indigenous inhabitants of Saibai Island are mostly Torres Strait Islanders (
 
 On Saibai, people use KKY (Kalaw Kawaw Ya) as their main language in daily activities. For the people of Saibai, passing knowledge and cultural values to future generations is a crucial mission that everyone must carry. To this end, KKY not only preserves the cultural heritage of Saibai through myths and historical stories but also fosters the solidarity and well-being of its residents (EWB, 2024).
 
-The people of Saibai Island possess profound knowledge of their natural environment, a result of centuries of interaction with their surroundings. This knowledge encompasses an understanding of tidal patterns, seasonal changes, and the habitats of various plant and animal species, which helps them in fishing, hunting, and foraging practices. Land and sea are not merely part of their surroundings but are crucial to the Islanders' cultural identity and spirituality (EWB, 2024). This deep connection between nature and Saibai Islanders has been used as a great source of inspiration for their creative sculptures and printing (TSIRC, 2024; Cairns Art Gallery, 2019; Yarn, n.d.). Saibai Islanders also maintain their cultural identity through dance and music. Traditional dances and songs are performed during community ceremonies and pivotal life events such as births, marriages, and funerals. Throughout history, upon the arrival of the London Missionary Society, they have also adopted the Christian rituals adopted Christian rituals and ceremonies while upholding their traditional values (Scheu, 2021)[[ML1]](#_msocom_1) .
+The people of Saibai Island possess profound knowledge of their natural environment, a result of centuries of interaction with their surroundings. This knowledge encompasses an understanding of tidal patterns, seasonal changes, and the habitats of various plant and animal species, which helps them in fishing, hunting, and foraging practices. Land and sea are not merely part of their surroundings but are crucial to the Islanders' cultural identity and spirituality (EWB, 2024). This deep connection between nature and Saibai Islanders has been used as a great source of inspiration for their creative sculptures and printing (TSIRC, 2024; Cairns Art Gallery, 2019; Yarn, n.d.). Saibai Islanders also maintain their cultural identity through dance and music. Traditional dances and songs are performed during community ceremonies and pivotal life events such as births, marriages, and funerals. Throughout history, upon the arrival of the London Missionary Society, they have also adopted the Christian rituals adopted Christian rituals and ceremonies while upholding their traditional values (Scheu, 2021)ML1(#_msocom_1) .
 
-## Social Structure and Leadership[[ML2]](#_msocom_2) 
+## Social Structure and Leadership ML2(#_msocom_2) 
 
 By upholding the clan system, Saibaians maintain a form of belonging that is both flexible and deeply rooted in shared cultural symbols and narratives. To them, clans are not just groups of families but also means for the expression and preservation of unique cultural and social identities. At the same time, this loose conglomerate structure allows for individual families within the clan to maintain their independence, particularly in politics and land ownership (Davis, 2008 p.22). In terms of spirituality and cultural preservation, elders and cultural leaders hold the responsibility of guiding the community and the most respect and authority.
 
 The project, therefore, should respect and leverage existing social structures and leadership systems. Engaging with elders and community leaders in the planning and implementation phases can facilitate community buy-in and ensure that the project aligns with local governance. Family and clan structures can also be integral in promoting recycling practices through community networks.
 
-## Contemporary challenges[[ML3]](#_msocom_3) 
+## Contemporary challengesML3(#_msocom_3) 
 
 Saibai Island is currently facing dire climate change challenges that threaten its very existence and cultural heritage spanning over 65,000 years. The island's low-lying geography makes it particularly vulnerable to rising sea levels, leading to increased erosion and the intrusion of salt into the soil, which devastates local vegetation and undermines traditional farming practices (Jenkins, 2022). As a result, the reliance on cargo ships for essential supplies has surged, significantly increasing living costs for the island's residents. The exacerbation of climate change is not only a threat to infrastructure but also the social fabric of the community, as it endangers the continuity of cultural practices and traditions. This environmental crisis has escalated to the point where the community's cemetery has seen graves eroded by water. Despite the significant $24.5 million investment from the government, the seawall completed in 2017 has fallen short of expectations (Wellauer, 2023).
 
@@ -371,12 +371,12 @@ Saibai Island's intricate waste management challenges necessitate customized str
 
 ---
 
-They pay a lot of respect into land and sea, so take that into consideration if we do something with the land or sea. [[ML1]](#_msoanchor_1)
+They pay a lot of respect into land and sea, so take that into consideration if we do something with the land or sea. ML1(#_msoanchor_1)
 
 The remaining part may suggest creating artworks from plastic, fish net, etc.. or instruments for ceremonies?
 
-Focus on the last part of this section, as we can leverage the clan structure to implement our solutions into groups of families [[ML2]](#_msoanchor_2)
+Focus on the last part of this section, as we can leverage the clan structure to implement our solutions into groups of families ML2(#_msoanchor_2)
 
-Basically, they are currently having climate change problems: erosion, soil salinity => affecting local vegetation, rising sea levels and built seawalls don't work effectively. [[ML3]](#_msoanchor_3)
+Basically, they are currently having climate change problems: erosion, soil salinity => affecting local vegetation, rising sea levels and built seawalls don't work effectively. ML3(#_msoanchor_3)
 
 Idea: Recycle sort of "box" so that they can plant vegetable?
