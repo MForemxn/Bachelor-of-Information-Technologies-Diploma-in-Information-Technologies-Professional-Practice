@@ -26,7 +26,7 @@
 - use of plagiarism detection software to check the originality of students' work
 - fostering a culture of integrity and ethics within the academic community
 
-# Academic Integrity in the Digital Age
+# Academic [[Integrity]] in the Digital Age
 - the internet and digital resources have made information more accessible but also increased opportunities for academic dishonesty
 - educators are adapting by developing new strategies to detect and prevent plagiarism and cheating in online environments
 - students are encouraged to develop digital literacy skills to navigate academic integrity in the context of digital resources and online submissions

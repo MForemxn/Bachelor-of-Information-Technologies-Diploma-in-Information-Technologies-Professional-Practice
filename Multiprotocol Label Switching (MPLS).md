@@ -15,7 +15,7 @@
 - **Quality of Service (QoS)**: It supports multiple levels of service, enabling prioritization of voice, video, and data traffic.
 - **Scalability**: MPLS can easily scale to handle high volumes of traffic and more customers.
 - **Flexibility**: It supports IP, ATM, and frame relay Layer 2 protocols, making it flexible for integrating and supporting varied networking technologies.
-- **Reliability**: MPLS offers improved network redundancy, allowing for the rerouting of traffic in case of a node or link failure, thus increasing network reliability and availability.
+- **Reliability**: MPLS offers improved network redundancy, allowing for the rerouting of traffic in case of a node or link failure, thus increasing network reliability and [[availability]].
 
 # MPLS Applications
 - **VPN Services**: MPLS is widely used for deploying Virtual Private Network (VPN) services for connecting multiple sites in an enterprise network or connecting customer sites for service providers.

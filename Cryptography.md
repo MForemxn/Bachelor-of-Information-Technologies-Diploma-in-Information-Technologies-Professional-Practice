@@ -17,7 +17,7 @@
 		- examples include SHA-256 and MD5
 
 # Cryptography in Practice
-- cryptography is used in various applications to ensure the confidentiality, integrity, and authenticity of information:
+- cryptography is used in various applications to ensure the [[confidentiality]], integrity, and authenticity of information:
 	- secure communications, such as SSL/TLS for Internet security
 	- secure transactions, like those in banking and e-commerce
 	- password protection and storage

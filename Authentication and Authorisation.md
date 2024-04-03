@@ -9,7 +9,7 @@ Authentication is the process of verifying the identity of a user, device, or en
     - **Biometrics**: Uses unique physical characteristics, such as fingerprints or facial recognition, to identify and verify individuals.
     - **Tokens**: Physical devices or software-based [[security]] tokens that generate a one-time passcode (OTP) for authentication.
     - **Certificates**: Digital certificates use public key infrastructure (PKI) to verify the identity of the certificate holder.
-    - **Multi-Factor Authentication (MFA)**: Combines two or more independent credentials: what the user knows (password), what the user has ([[security]] token), and what the user is (biometric verification).
+    - **Multi-Factor Authentication (MFA)**: Combines two or more independent credentials: what the user knows (password), what the user has ([[security]] token), and what the user is ([[biometric]] verification).
 
 ## Authorization
 

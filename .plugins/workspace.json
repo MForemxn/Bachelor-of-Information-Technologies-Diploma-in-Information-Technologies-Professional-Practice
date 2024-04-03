@@ -4,40 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4858c5d14a409e78",
+        "id": "716c912331489d96",
         "type": "tabs",
         "children": [
           {
-            "id": "bca3ee534025fb5d",
+            "id": "14ff7d26d6aa429a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Web Systems.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": true
               }
-            },
-            "group": "91baebc988754b2c"
-          }
-        ]
-      },
-      {
-        "id": "39910d7db7bc7153",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3ae841f511acfb8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operating Systems.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "91baebc988754b2c"
+            }
           }
         ]
       }
@@ -89,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "28c38ddf42c567c4",
@@ -105,14 +87,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Web Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -122,9 +104,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems.md",
+                "file": "Web Systems.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -145,24 +127,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems.md"
+                "file": "Web Systems.md"
               }
             }
           },
           {
-            "id": "ae68bee10f3d1fb9",
+            "id": "2a8e5b646943896a",
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,46 +154,59 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "html-server:Turn Http Server On": false,
+      "html-server:Turn Http Server Off": false,
       "copilot:Copilot Chat": false
     }
   },
-  "active": "ae68bee10f3d1fb9",
+  "active": "14ff7d26d6aa429a",
   "lastOpenFiles": [
-    "Interpersonal Roles 2.md",
-    "multidimensional arrays or online analytical processing (OLAP) 2.md",
-    "Screenshot 2024-03-25 at 11.27.28 am 2.png",
-    "Data Analysis 2.md",
-    "Screenshot 2024-03-25 at 11.11.46 am 2.png",
-    "Decision 2.md",
-    "Screenshot 2024-03-25 at 11.00.10 am 2.png",
-    "Sensitivity Analysis (What-if analysis) 2.md",
-    "Business Intelligence 2.md",
-    "Web Systems Assessment 1 - WebAss 2.md",
-    "Screenshot 2024-03-25 at 11.10.38 am 2.png",
-    "Decisional Roles 2.md",
-    "multidimensional arrays or online analytical processing (OLAP).md",
-    "WebAss Specification.md",
-    "Web Systems Assessment 1 - WebAss.md",
-    "Sensitivity Analysis (What-if analysis).md",
-    "Screenshot 2024-03-25 at 11.27.28 am.png",
-    "Screenshot 2024-03-25 at 11.11.46 am.png",
-    "Screenshot 2024-03-25 at 11.10.38 am.png",
-    "Screenshot 2024-03-25 at 11.00.10 am.png",
-    "Interpersonal Roles.md",
-    "Informational Roles.md",
-    "IT Support.md",
-    "Goal-Seeking Analysis.md",
-    "Decisional Roles.md",
-    "Decision.md",
-    "Decision Support Systems.md",
-    "Data Analysis.md",
-    "Business Intelligence.md",
-    "API.md",
-    "13.md",
-    "Use Secure Coding Practices.md",
-    "Regularly Update and Patch.md",
-    "Pasted image 20240226205207.png",
-    "Pasted image 20240226205200.png",
-    "Web Systems.md"
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Security.md",
+    "Web Systems.md",
+    "Data processing.md",
+    "Introduction to scripting.md",
+    "Piping and wildcards.md",
+    "Editing.md",
+    "Filesystems.md",
+    "Using UNIX (based on the Linux Essentials certification).md",
+    "Storage and Processing of information.md",
+    "Boolean logic.md",
+    "Number Systems.md",
+    "Representation of information.md",
+    "Computing Theory.md",
+    "The Web and Cybersecurity.md",
+    "Network services.md",
+    "The Internet Infrastructure.md",
+    "The Internet and the Web.md",
+    "Web applications.md",
+    "Web page development.md",
+    "The Web and Human Interaction.md",
+    "Memory and process management.md",
+    "Operating Systems.md",
+    "Biometric.md",
+    "Confidentiality.md",
+    "Untitled.canvas",
+    "unlinked-pages",
+    "osm-intl,7,a,a,250x200@2x.png",
+    "FullSizeRender.png",
+    "Assesment Task 1 Template.pdf",
+    "APA Interactive Guide.pdf",
+    "content",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-2DimquwSoZehXrq7UiV36Gi3MS851vi6.mp4",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Generic Banners/_87A3022_UTS Central Library_hr-1.jpg",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/EWB Banners/Saibai Island.png",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Design Brief/2024 EWB Challenge Design Brief - Saibai.pdf",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Assessment Files/Assessment 1/Assessment Task 1 - Template.pdf",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-mza8T8SmkZGzkmDwrjVP8kyHSXoYzfT.mp4",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-5uD9YCgx5dvjRwY6MSVSJtEsFHB6ZDPQ.mp4",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Weekly Content/Week 0 - Welcome/jgCD2Yy0TkqNPLdwuYbAJbenOXgifADJankLZjt7.webp",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Teresa Bell.png",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Ninad Gudi.png",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Monica Bhandari.png",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Emily Canda.png",
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Jacob Le Lievre.jpg"
   ]
 }

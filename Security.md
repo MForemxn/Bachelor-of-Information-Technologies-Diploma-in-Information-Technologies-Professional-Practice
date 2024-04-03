@@ -20,4 +20,4 @@ Computer security in [[web systems]] focuses on protecting websites, [[web appli
 - **Implement [[Security Layers]]**: Use a multi-layered security approach (e.g., firewalls, intrusion detection systems) to provide comprehensive protection.
 - **Conduct [[Security Audits]] and [[Penetration Testing]]**: Regularly test [[web systems]] for vulnerabilities to identify and address security weaknesses before attackers can exploit them.
 - **[[Educate and Train Users]]**: Ensure that users are aware of potential security risks and best practices for maintaining security, such as recognizing phishing attempts.
-- **[[Backup Data]] Regularly**: Ensure that data is regularly backed up and that backup integrity is verified, enabling recovery in the event of a security breach.
+- **[[Backup Data]] Regularly**: Ensure that data is regularly backed up and that backup [[integrity]] is verified, enabling recovery in the event of a security breach.

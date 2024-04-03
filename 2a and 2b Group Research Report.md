@@ -53,7 +53,7 @@ Our commitment to addressing the waste management issue on Saibai Island encompa
 - Engage with local communities, stakeholders, and experts in environmental management to foster a collaborative approach towards sustainable waste practices.
 
 However, it is crucial to delineate the boundaries of our proposal. Our focus will primarily be on:
-- The identification and implementation of practical and community-oriented waste management solutions.
+- The identification and [[implementation]] of practical and community-oriented waste management solutions.
 - Initiatives that are feasible within the socio-economic and environmental context of Saibai Island.
 
 We will not engage in:

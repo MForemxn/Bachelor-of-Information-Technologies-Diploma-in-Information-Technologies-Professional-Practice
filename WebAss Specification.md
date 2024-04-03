@@ -98,7 +98,7 @@ You can also set up a web server on your own machine. The choices are many, see�
 - Mac users can refer to [https://discussions.apple.com/docs/DOC-3083Links to an external site.](https://discussions.apple.com/docs/DOC-3083) for discussions on how to activate the built in web server.
 - Or you could install a "WAMP" stack on your machine ([https://en.wikipedia.org/wiki/WampServerLinks to an external site.](https://en.wikipedia.org/wiki/WampServer))  if you intend to do more advanced web development in the later subjects such as Programming on the Internet, Interface Design etc.
 - Finally, you can set up an external web server on one of the many external "virtual hosting" providers [(https://en.wikipedia.org/wiki/Virtual_private_serverLinks to an external site.](https://en.wikipedia.org/wiki/Virtual_private_server)).  
-    UTS is a member of the Amazon Web Services (AWS) Academy and can provide $50 free credit for Web Systems students if you have a AWS developer account [https://aws.amazon.com/developer/Links to an external site.](https://aws.amazon.com/developer/)   (See Web Sites tab).  We highly recommend the Amazon Lightsail all-in-one service
+    UTS is a member of the Amazon Web Services (AWS) Academy and can provide $50 free credit for [[Web Systems]] students if you have a AWS developer account [https://aws.amazon.com/developer/Links to an external site.](https://aws.amazon.com/developer/)   (See Web Sites tab).  We highly recommend the Amazon Lightsail all-in-one service
 
 ---
 

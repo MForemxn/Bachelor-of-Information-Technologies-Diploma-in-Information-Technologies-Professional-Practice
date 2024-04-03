@@ -1,5 +1,5 @@
 # Understanding Network [[Security]]
-- network [[security]] involves implementing measures to protect the integrity, confidentiality, and accessibility of computer networks and data
+- network [[security]] involves implementing measures to protect the [[integrity]], [[confidentiality]], and accessibility of computer networks and data
 - it encompasses both hardware and software technologies
 - effective network [[security]] manages access to the network and targets a variety of threats to stop them from entering or spreading on the network
 

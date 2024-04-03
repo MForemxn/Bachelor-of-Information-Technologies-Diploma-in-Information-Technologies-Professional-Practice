@@ -1,5 +1,5 @@
 also see [[Encryption]]
-Data protection refers to the processes, policies, and technologies used to safeguard personal and sensitive information from unauthorized access, use, disclosure, alteration, or destruction. It plays a crucial role in maintaining privacy, confidentiality, and integrity of data in various forms, including digital and physical records.
+Data protection refers to the processes, policies, and technologies used to safeguard personal and sensitive information from unauthorized access, use, disclosure, alteration, or destruction. It plays a crucial role in maintaining privacy, [[confidentiality]], and integrity of data in various forms, including digital and physical records.
 
 ## Key Principles
 

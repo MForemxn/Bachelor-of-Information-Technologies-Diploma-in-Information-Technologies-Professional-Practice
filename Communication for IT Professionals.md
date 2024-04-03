@@ -12,6 +12,7 @@
 
 # In Class Activities
 [[Escape to Saibai Island]]
+[[Communications for IT Professionals Week 6 Synthesising Information Task]]
 
 # Assessment Tasks
 ## [[1a and 1b Research Report]]

@@ -328,14 +328,14 @@ management. [https://ewbchallenge.org/challenge/saibai-island-tsirc/design-area-
 **Tutorial class: 7**
 
 **_Which forms of waste can be used as resources on Saibai Island?_**
-
+## Location
 Saibai Island is located in the northwestern Torres Strait, around 140 kilometres from the northern tip of Cape York, Queensland (Australian Government, n.d). Saibai island grapples with complicated waste management challenges due to constraints such as limited space, strict biosecurity regulations, and environmental considerations (EWB, 2024). The limitations of a centralized waste collection and disposal area located south of the community spark an exploration into reducing, reusing, and recycling waste (EWB, 2024). Design Area 1.4 focuses extensively on the creation of useful resources from various forms of waste, particularly addressing the issues of ghost nets and plastics that frequently wash up on Saibai island’s shores. By transforming common waste forms on the island into valuable resources, such as repurposing ghost nets and plastics, Saibai can adapt a more environmentally conscious and resilient waste management approach, fostering a positive impact on the community and the island's delicate ecosystem.
 
-**Forms of waste on Saibai Island**
+## Forms of waste on Saibai Island
 
 Saibai Island is [[home]] to a variety of waste forms, ranging from household items, solid waste, ghost nets, and plastic debris that can often be found on island’s shores (EWB, 2024). Although the Saibai community might view these materials and forms of waste as discarded and useless, there is definite potential to clean and repurpose items such as plastic and ghost nets, transforming them into reusable resources that can contribute to the island's sustainability. Repurposing ghost nets can play a crucial role in addressing waste management issues on Saibai island, as they pose a threat to coastal plant and animal communities, particularly nesting species like turtles. Thus why it is crucial to have these ghost nets removed from the shores and ocean, as it not only addresses the issue of marine debris but also promotes resourcefulness and sustainability within the community on Saibai Island (Park Australia, 2021).
 
-**Ghost Nets as a resource**
+## Ghost Nets as a resource
 
 According to the CSIRO (Commonwealth Scientific and Industrial Research Organisation), several projects focusing on the elimination of ghost nets have been operational since the early 2000’s and have extended to include the Torres Strait region (Britta Denise Hardesty et.al, 2021). Local ranger groups in the Torres Strait region have documented and eliminated thousands of nets, specifically 15,000 ghost nets as of 2015 in the region, leading to many positive impacts such as acquiring new livelihood skills, transforming ghost nets into artwork, and enhancing mental health and well-being (Britta Denise Hardesty et.al, 2021). Ghost nets can also be recycled and repurposed for artistic uses, such as creating sculptures or traditional crafts, promoting cultural expression, and reducing marine debris on the island. Ghost nets being a prevalent form of waste on the island, can as well be repurposed as valuable resources through mechanical recycling technologies, including pretreatment and preprocessing. The shredded polymer recyclate generated from these [[processes]] can be utilized for various purposes, such as creating beneficial and useful resources like mats, baskets, or other locally needed products (Skidmore MA et.al, 2023). This approach not only addresses the issue of marine debris but also provides sustainable solutions and economic benefits to the community on Saibai Island (Skidmore MA et.al, 2023).
 
@@ -343,13 +343,13 @@ According to the CSIRO (Commonwealth Scientific and Industrial Research Organisa
 
 Photo of mechanical recycling process, which can transform ghost nets into shredded polymer recyclate (Skidmore MA et.al, 2023, pg 4).
 
-**Plastic as a resource**
+## Plastic as a resource
 
 Recycling plastic debris, particularly plastic bottles, is an effective strategy to get rid of and make the most use of one of the most common forms of waste on the island. To encourage this, a Container Refund Scheme has been put into place, offering a 10-cent refund for each container, commencing in Queensland, which will also be considered for the Torres Strait Islands (TSIRC, 2016). This not only promotes recycling but also presents an opportunity for the community of Saibai to economically benefit from collecting and returning plastic bottles. A further effective strategy for transforming waste into resources is to upcycle products and reusable forms of waste. By encouraging the use of plastic waste to create upcycled resources, local artists and entrepreneurs on the island can explore the production of sustainable items such as clothing, bags, and accessories made from recycled plastic materials. This not only reduces the demand for new materials but also promotes a circular economy within the Saibai community, enabling the people of Saibai Island to think twice before throwing away certain plastic materials as they may be upcycled for a greater purpose.
 
 Saibai Island's intricate waste management challenges necessitate customized strategies. By implementing the practice of reducing, reusing, and recycling, followed by the repurposing of ghost nets and plastics, the island can transform its waste into valuable resources, significantly enhancing the island’s economy and sustainability. Resources such as bags, clothing, and accessories created from Saibai’s waste will be a key influence in harnessing the island’s sustainable future.
 
-**References**
+## References
 
 ·       Australian Government. (n.d). Saibai Island. [https://www.indigenous.gov.au/community/saibai-island-0#:~:text=Saibai%20Island%20is%20a%20small,tip%20of%20%20Cape%20York%2C%20Queensland](https://www.indigenous.gov.au/community/saibai-island-0#:~:text=Saibai%20Island%20is%20a%20small,tip%20of%20%20Cape%20York%2C%20Queensland)
 

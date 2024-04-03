@@ -28,7 +28,7 @@
 # Load Balancing and Redundancy
 - advanced routing principles also encompass strategies for load balancing and redundancy to ensure network reliability and performance
 	- load balancing distributes traffic evenly across multiple paths or servers to optimise resource use and avoid congestion
-	- redundancy involves creating backup routes and mechanisms to maintain network availability in case of failures
+	- redundancy involves creating backup routes and mechanisms to maintain network [[availability]] in case of failures
 
 # Quality of Service (QoS)
 - QoS mechanisms prioritise certain types of traffic to ensure that critical applications receive the bandwidth and performance they require

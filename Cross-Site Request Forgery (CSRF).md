@@ -30,4 +30,4 @@
 - Educating users on the risks of phishing and social engineering attacks.
 - Regularly updating and auditing web applications for vulnerabilities.
 
-Understanding and mitigating CSRF attacks are crucial for maintaining the [[security]] and integrity of web applications. Developers and website administrators should prioritize CSRF protection to safeguard user data and prevent unauthorized actions.
+Understanding and mitigating CSRF attacks are crucial for maintaining the [[security]] and [[integrity]] of web applications. Developers and website administrators should prioritize CSRF protection to safeguard user data and prevent unauthorized actions.

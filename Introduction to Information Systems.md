@@ -12,4 +12,5 @@
 [[Telecommunications and Networking]]
 
 # Assessments
-[[Infographic (Group Task)]]
+[[Introduction to Information Systems Infographic (Group Task)|Infographic Task]]
+[[Introduction to Information Systems Video Group Task|Video Task]]

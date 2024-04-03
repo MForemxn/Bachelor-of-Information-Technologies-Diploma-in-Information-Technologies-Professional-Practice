@@ -12,6 +12,55 @@
 	- damage to reputation
 	- legal consequences
 	- national [[security]] threats
+### [[Security]] & [[Encryption]] Principles
+
+- The internet is inherently insecure, highlighting the importance of web [[security]].
+- Basic [[security]] principles include [[Confidentiality]], [[Integrity]], and [[Availability]] (CIA).
+
+### [[Confidentiality]]
+
+- Ensuring information is accessible only to authorized users.
+- Mechanisms include [[encryption]], authentication, access controls, and secure transmission protocols.
+
+### [[Integrity]]
+
+- Safeguarding the accuracy and completeness of information and its processing methods.
+- Measures include ensuring data can only be altered by authorized users and employing audit trails, hashes, checksums, and message digests for detection.
+
+### [[Availability]]
+
+- Making sure authorized users have access to information and processing when needed.
+- This includes systems surviving failures (using hot/cold standby mechanisms) and resisting attacks (such as Denial of Service attacks).
+
+### [[Security]] Services and Attacks
+
+- [[Security]] services utilize mechanisms to protect against attacks that compromise the [[security]] of information.
+- Types of attacks include those against [[availability]], [[confidentiality]], [[integrity]], and authenticity.
+- Typical [[security]] services include [[confidentiality]] ([[encryption]]), authentication, [[integrity]] verification, non-repudiation, access control, and ensuring [[availability]].
+
+### [[Encryption]]
+
+- [[Encryption]] is crucial for converting plaintext into ciphertext to keep it unreadable by unintended recipients.
+- Both symmetric key (secret key) and asymmetric key (public key) [[cryptography]] are used for [[encryption]], with applications in SSL (Secure Sockets Layer) for web [[security]].
+
+### Hashing
+
+- Hashing ensures data [[integrity]] by applying a code on data, such as emails or electronic documents, to verify it hasn't been modified.
+- This is typically used in secure email, digital signatures on documents, and software validation.
+
+### Authentication
+
+- Authentication verifies identity and is key for non-repudiation and access control.
+- It involves verifying something the user knows (e.g., a password), has (e.g., a token), or is ([[Biometric|biometric data]]).
+
+### Access Controls
+
+- These are measures, both physical and logical, enforced at various levels (operating system, application, [[security]] devices) to manage and restrict access to resources.
+
+### Audit Log and Risk Assessment
+
+- Audit logs are vital for measuring [[security]] effectiveness, conducting forensics, and generating alerts.
+- Risk assessment helps in understanding and mitigating internal or external threats, including vandalism, espionage, and theft.
 
 # Common [[Cybersecurity]] Threats on the Web
 - malware (viruses, worms, trojan horses)

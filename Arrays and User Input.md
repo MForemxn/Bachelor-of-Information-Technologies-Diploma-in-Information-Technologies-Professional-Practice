@@ -15,7 +15,7 @@
 
 # User Input Handling
 - involves capturing and processing data entered by users
-	- can include validation to ensure data integrity and relevance
+	- can include validation to ensure data [[integrity]] and relevance
 - common methods include using forms in [[web applications]] or input functions in console applications
 - [[security]] considerations are crucial to prevent malicious input (e.g., [[SQL injection]], cross-site scripting)
 

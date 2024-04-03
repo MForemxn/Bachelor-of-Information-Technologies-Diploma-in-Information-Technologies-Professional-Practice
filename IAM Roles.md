@@ -39,3 +39,35 @@
 - many AWS services are designed to work seamlessly with iam for secure access control.
 - for example, Amazon S3 uses iam policies to control access to storage buckets and objects, while AWS Lambda uses iam to manage permissions for serverless functions.
 - this integration ensures that all access to AWS resources can be centrally managed and audited through iam.
+
+The error message you're encountering indicates that the IAM user `Sophie` doesn't have the necessary permissions to perform the `iam:PassRole` action on the specified IAM role (`greengrass-to-timestream-iot-role`). The `iam:PassRole` permission is crucial when you're setting up AWS services that require a role to be passed to another AWS service, such as when AWS IoT Core passes a role to AWS Timestream to write data.
+
+To resolve this issue, you need to update the IAM policy attached to the `Sophie` user or her IAM group to include the `iam:PassRole` permission for the specific role. Here's how you can do this:
+
+### Step 1: Create or Update an IAM Policy
+
+1. **Open the IAM Console** in AWS.
+2. Navigate to **Policies** and click **Create policy** (or select an existing policy attached to `Sophie` if you're updating).
+3. In the policy editor, choose the **JSON** tab.
+4. Add the following policy statement to allow the `iam:PassRole` action for the specific role. Make sure to replace the role ARN with the correct one for your `greengrass-to-timestream-iot-role` role:
+
+jsonCopy code
+
+
+```
+{   
+"Version": "2012-10-17",   
+"Statement": [     
+{       
+"Effect": "Allow",       
+"Action": "iam:PassRole",       
+"Resource": 
+"arn:aws:iam::324210936572:role/greengrass-to-timestream-iot-role",       
+"Condition": {         
+"StringEquals": {           
+"iam:PassedToService": "timestream.amazonaws.com"         }       }     }   ] }`
+```
+
+5. **Review**, **name**, and **create** the policy.
+
+### Step 2: Attach the Policy

@@ -24,7 +24,7 @@
 - managing the cost of ongoing support and updates
 	- maintenance can become expensive, especially for complex systems
 - ensuring minimal downtime during updates and maintenance activities
-	- critical for systems that require high availability
+	- critical for systems that require high [[availability]]
 - dealing with legacy systems
 	- older systems may be more difficult and costly to maintain
 - keeping up with technological advancements

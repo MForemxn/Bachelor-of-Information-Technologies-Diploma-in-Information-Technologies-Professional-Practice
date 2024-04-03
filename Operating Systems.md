@@ -11,7 +11,7 @@
 		- linux, macos, windows, [[Unix Operating System|unix]]
 	- embedded systems
 		- has uses in everything from military uses to IoT and telecomms uses
-		- some examples include VxWorks, QNX, Integrity
+		- some examples include VxWorks, QNX, [[Integrity]]
 # Operating System Architecture 
 - from lowest level to highest:
 	- hardware (CPU, memory, I/O, storage)

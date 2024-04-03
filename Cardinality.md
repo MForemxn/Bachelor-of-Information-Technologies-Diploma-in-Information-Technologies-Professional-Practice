@@ -10,7 +10,7 @@
 - **Many-to-Many (N:N)**: Rows in Table A can be linked to multiple rows in Table B, and rows in Table B can be linked to multiple rows in Table A. This relationship usually requires a junction table. Example: A students table and a courses table where students can enroll in multiple courses and courses can have multiple students.
 
 # Importance of Cardinality in [[Database]] Design
-- **Data Integrity**: Ensures that the [[database]] accurately represents the real-world relationships among entities.
+- **Data [[Integrity]]**: Ensures that the [[database]] accurately represents the real-world relationships among entities.
 - **Performance Optimisation**: Properly defined relationships can improve query performance by reducing redundancy and ensuring efficient data retrieval.
 - **Scalability**: Understanding cardinality helps in designing scalable databases that can handle growth in data volume without significant performance degradation.
 

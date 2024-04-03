@@ -12,7 +12,7 @@ Encryption is a method of converting plaintext into a coded form (ciphertext) to
 - **Data At Rest**: Encrypting stored data to protect it from unauthorized access if physical [[security]] measures fail.
 - **Data In Transit**: Encrypting data being transmitted over networks to prevent interception and eavesdropping.
 - **End-to-End Encryption (E2EE)**: Ensures that data is encrypted on the sender's device and only decrypted on the recipient's device, preventing intermediaries from accessing the plaintext data.
-- **Digital Signatures**: Uses asymmetric encryption to verify the authenticity and integrity of digital messages or documents.
+- **Digital Signatures**: Uses asymmetric encryption to verify the authenticity and [[integrity]] of digital messages or documents.
 
 ## Best Practices
 
