@@ -13,4 +13,4 @@
 		- Select one idea to take forward.
 		- How can you represent your idea to communicate with others? What is the exact problem we are solving?
 	- Test
-		- Share your idea with users for feedback: What will work? What won't?
+		- Share your idea with users for [[feedback]]: What will work? What won't?

@@ -9,7 +9,7 @@
 	- without proper maintenance, systems can become obsolete or fail to meet user needs
 - allows for the system to adapt to changing requirements and technologies
 	- keeping the system up-to-date with the latest [[security]] measures and functionalities
-- involves monitoring system performance and user feedback
+- involves monitoring system performance and user [[feedback]]
 	- critical for identifying areas for improvement and ensuring user satisfaction
 # Maintenance Types
 - corrective maintenance
@@ -34,7 +34,7 @@
 	- reduces the risk of human error and speeds up the maintenance process
 - establishing a clear maintenance schedule and protocol
 	- ensures regular checks and updates are performed efficiently
-- fostering a feedback loop with users
+- fostering a [[feedback]] loop with users
 	- allows for the identification of issues and potential improvements from the user's perspective
 - investing in training for maintenance staff
 	- ensures the team is equipped with the necessary skills and knowledge to manage the system effectively

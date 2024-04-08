@@ -13,12 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Systems.md",
+                "file": "Feedback.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
-            }
+            },
+            "group": "934feaf55f3c68a0"
+          }
+        ]
+      },
+      {
+        "id": "ba32325ac6bd8253",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22cc9729934f87ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Feedback.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            },
+            "group": "934feaf55f3c68a0"
           }
         ]
       }
@@ -70,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "28c38ddf42c567c4",
@@ -87,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Systems.md",
+                "file": "Feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Systems.md",
+                "file": "Feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Systems.md"
+                "file": "Feedback.md"
               }
             }
           },
@@ -143,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,39 +173,45 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false,
       "html-server:Turn Http Server On": false,
-      "html-server:Turn Http Server Off": false,
-      "copilot:Copilot Chat": false
+      "html-server:Turn Http Server Off": false
     }
   },
-  "active": "14ff7d26d6aa429a",
+  "active": "22cc9729934f87ae",
   "lastOpenFiles": [
+    "Feedback.md",
+    "Implementation.md",
+    "Human-AI Interaction.md",
+    "Introduction to Information Systems Subject Outline.md",
+    "Precision and Recall Tradeoffs.md",
+    "Pasted image 20240408105605.png",
+    "Screenshot 2024-04-08 at 10.55.39 am.png",
+    "Screenshot 2024-04-08 at 10.55.26 am.png",
+    "Screenshot 2024-04-08 at 10.55.08 am.png",
+    "Data Cascades.md",
+    "Pasted image 20240408104844.png",
+    "Pasted image 20240408104550.png",
+    "Introduction to Information Systems.md",
+    "Introduction to scripting.md",
+    "Data and Knowledge Management.md",
+    "Business Analytics.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Security.md",
+    "1a and 1b Research Report.md",
+    "2a and 2b Group Research Report.md",
+    "Communication for IT Professionals.md",
+    "Communications for IT Professionals Assessment 2a Introduction First Draft.md",
+    "CSV to CSV to Green Grass using MQTT Readme.md",
+    "CSV to Green Grass using MQTT.md",
+    "UTSME.md",
     "Web Systems.md",
+    "Security.md",
     "Data processing.md",
-    "Introduction to scripting.md",
     "Piping and wildcards.md",
     "Editing.md",
     "Filesystems.md",
     "Using UNIX (based on the Linux Essentials certification).md",
-    "Storage and Processing of information.md",
-    "Boolean logic.md",
-    "Number Systems.md",
-    "Representation of information.md",
-    "Computing Theory.md",
-    "The Web and Cybersecurity.md",
-    "Network services.md",
-    "The Internet Infrastructure.md",
-    "The Internet and the Web.md",
-    "Web applications.md",
-    "Web page development.md",
-    "The Web and Human Interaction.md",
-    "Memory and process management.md",
-    "Operating Systems.md",
-    "Biometric.md",
-    "Confidentiality.md",
     "Untitled.canvas",
     "unlinked-pages",
     "osm-intl,7,a,a,250x200@2x.png",
@@ -201,12 +226,6 @@
     "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Assessment Files/Assessment 1/Assessment Task 1 - Template.pdf",
     "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-mza8T8SmkZGzkmDwrjVP8kyHSXoYzfT.mp4",
     "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-5uD9YCgx5dvjRwY6MSVSJtEsFHB6ZDPQ.mp4",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Weekly Content/Week 0 - Welcome/jgCD2Yy0TkqNPLdwuYbAJbenOXgifADJankLZjt7.webp",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Teresa Bell.png",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Ninad Gudi.png",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Monica Bhandari.png",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Emily Canda.png",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Staff Images/Jacob Le Lievre.jpg"
+    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects"
   ]
 }

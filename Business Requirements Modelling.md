@@ -24,7 +24,7 @@
 	- **Complexity** - large and complex projects can make modelling and understanding requirements difficult
 # Best Practices for Effective Modelling
 - to overcome challenges and ensure success, consider the following best practices:
-	- **Engage Stakeholders Early and Often** - regular communication and feedback loops with all stakeholders
+	- **Engage Stakeholders Early and Often** - regular communication and [[feedback]] loops with all stakeholders
 	- **Use a Combination of Techniques** - no single modelling technique is sufficient for all scenarios
 	- **Iterative Approach** - refine and update models as more information becomes available and as requirements evolve
 	- **Clear Documentation** - maintain detailed and accessible documentation of the models and requirements

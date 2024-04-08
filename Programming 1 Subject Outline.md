@@ -181,7 +181,7 @@ functioning whole.
 | **Weight:**       | 25%                                                                                                                                                                                                                                                                                                                                                |
 | **Task:**         | The student will be presented with a large program codebase, from which they will select a portion of approximately 50 lines of code, which they will then read and comment. The comments should explain the purposes and key structural elements of the reviewed code correctly and concisely, and relate that code back to the overall codebase. |
 | **Length:**       | 50-100 lines of code, commented.                                                                                                                                                                                                                                                                                                                   |
-| **Due:**          | Week 10<br><br>Final due date will be the end of Week 10 (3/5/2024 11:55PM), though students may request informal feedback during lab time.                                                                                                                                                                                                        |
+| **Due:**          | Week 10<br><br>Final due date will be the end of Week 10 (3/5/2024 11:55PM), though students may request informal [[feedback]] during lab time.                                                                                                                                                                                                        |
 
 ## Assessment task 3: Project
 
@@ -231,9 +231,9 @@ Turnitin.
 
 Where required, moderation between markers will take place.
 
-# Assessment feedback
+# Assessment [[feedback]]
 
-Feedback will be provided immediately, where automated marking is available, or will be provided 2-3 weeks after
+[[Feedback]] will be provided immediately, where automated marking is available, or will be provided 2-3 weeks after
 submission of all elements of the assessment.
 
 **Minimum requirements**

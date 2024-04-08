@@ -8,7 +8,7 @@
 |**Type:**|Report|
 |**Groupwork:**|Individual|
 |**Weight:**|25%|
-|**Task:**|Students will investigate and evaluate information to become familiar with the context of the future team project, critically evaluating the information and sources to synthesise their research into a written summary.<br><br>Students will write a summary of the research that they have conducted so far, ensuring that information sources found and used are reliable and relevant, and are referenced correctly in their summary. This is an individual assessment task that builds skills in finding, evaluating and referencing information sources.<br><br>As part of the process of developing this report you will bring copies of your draft to class, participate in peer review exercises, and submit a small reflection responding to the feedback. This process will assist in improving your work prior to final submission.<br><br>Draft and Peer Review Process: 5%<br><br>Final Report: 20%|
+|**Task:**|Students will investigate and evaluate information to become familiar with the context of the future team project, critically evaluating the information and sources to synthesise their research into a written summary.<br><br>Students will write a summary of the research that they have conducted so far, ensuring that information sources found and used are reliable and relevant, and are referenced correctly in their summary. This is an individual assessment task that builds skills in finding, evaluating and referencing information sources.<br><br>As part of the process of developing this report you will bring copies of your draft to class, participate in peer review exercises, and submit a small reflection responding to the [[feedback]]. This process will assist in improving your work prior to final submission.<br><br>Draft and Peer Review Process: 5%<br><br>Final Report: 20%|
 |**Length:**|750 words (10% tolerance) excluding references|
 |**Due:**|Week 4: 11:59 pm Sunday|
 |**Further information:**|This assessment will be assessed for academic language proficiency. Students will be directed to further language support if theirlanguage is below the required standard|
@@ -22,7 +22,7 @@
 |**Type:**|Project|
 |**Groupwork:**|Group, individually assessed|
 |**Weight:**|45%|
-|**Task:**|In teams, students will investigate a design brief provided by Engineers Without Borders and select a problem opportunity to develop a design solution for. Throughout the subject teams will engage with the design thinking process to develop their design. Teams will be provided formative experiences to share their progress throughout the subject and develop a final report and presentation to communicate their process and design. As part of the process of developing the project, teams will bring a draft of early sections of their report to class, participate in peer review exercises and submit a small reflection responding to the feedback. This process will assist in improving your work and inform changes to the project to work on throughout the rest of the semester.|
+|**Task:**|In teams, students will investigate a design brief provided by Engineers Without Borders and select a problem opportunity to develop a design solution for. Throughout the subject teams will engage with the design thinking process to develop their design. Teams will be provided formative experiences to share their progress throughout the subject and develop a final report and presentation to communicate their process and design. As part of the process of developing the project, teams will bring a draft of early sections of their report to class, participate in peer review exercises and submit a small reflection responding to the [[feedback]]. This process will assist in improving your work and inform changes to the project to work on throughout the rest of the semester.|
 |**Length:**|Final Report 5000 words (excluding title page, executive summary, table of contents, reference list and appendices).   |
 |**Due:**|2a: Draft and peer review in class week 7,|
 |||
@@ -122,7 +122,7 @@
 |**Weight:**|25%|
 |**Task:**|The student will be presented with a large program codebase, from which they will select a portion of approximately 50 lines of code, which they will then read and comment. The comments should explain the purposes and key structural elements of the reviewed code correctly and concisely, and relate that code back to the overall codebase.|
 |**Length:**|50-100 lines of code, commented.|
-|**Due:**|Week 10<br><br>Final due date will be the end of Week 10 (3/5/2024 11:55PM), though students may request informal feedback during lab time.|
+|**Due:**|Week 10<br><br>Final due date will be the end of Week 10 (3/5/2024 11:55PM), though students may request informal [[feedback]] during lab time.|
 
 ## Assessment task 3: Project
 |   |   |
@@ -173,11 +173,11 @@
 |**Weight:**|15%|
 |**Task:**|You will develop practical UNIX skills using a problem-based approach using an online Computer Based Training software package. You will be expected to complete the training exercises during the tutorial.
 |**Due:**|Generally each Linux exercise will be due at the end of the week after the scheduled Linux lab. Precise due dates and times are detailed in the program and on Canvas
-|**Further Information**|The Linux system is based on the Linux Professional Institute "Linux Essentials" certification. This system is designed to provide formative feedback including instant diagnostics for each question answered incorrectly.
+|**Further Information**|The Linux system is based on the Linux Professional Institute "Linux Essentials" certification. This system is designed to provide formative [[feedback]] including instant diagnostics for each question answered incorrectly.
 
 ## **Assessment task 2: Quiz 1**
 
-|**Intent:**|This quiz is a "low stakes" test of the concepts covered in the early stage of this subject. Each question includes instant formative feedback to enable you do understand the intended result.|
+|**Intent:**|This quiz is a "low stakes" test of the concepts covered in the early stage of this subject. Each question includes instant formative [[feedback]] to enable you do understand the intended result.|
 |---|---|
 |**Objective(s):**| This assessment task addresses the following subject learning objectives (SLOs): 1 This assessment task contributes to the development of the following Course Intended Learning Outcomes (CILOs): D.1
 |**Type:**|Quiz/test|
@@ -189,7 +189,7 @@
 
 ## **Assessment task 3: Quiz 2**
 
-| **Intent:** | This quiz is a "low stakes" test of the concepts covered in the middle stage of this subject. Each question includes instant formative feedback to enable you do understand the intended result. |
+| **Intent:** | This quiz is a "low stakes" test of the concepts covered in the middle stage of this subject. Each question includes instant formative [[feedback]] to enable you do understand the intended result. |
 | --- | --- |
 | **Objective(s):** | This assessment task addresses the following subject learning objectives (SLOs): 1, 2 and 3 This assessment task contributes to the development of the following Course Intended Learning Outcomes (CILOs): C.1 and D.1 |
 | **Type:** | Quiz/test |
@@ -206,8 +206,8 @@
 | **Type:** | Project |
 | **Groupwork:** | Individual |
 | **Weight:** | 25% |
-| **Task:** | You will develop a website for a given specification by applying stakeholder analysis and critical reflection and will construct the site using HTML, CSS and UNIX commands. You will also consider accessibility issues in your design. You will provide constructive feedback to other websites given your research. This website will be 1. a student website 2. using unix commands to set up the appropriate directory structure with correct [[Security]] access permissions; 3. developed by hand using HTML and CSS and not using any other tool. You will then peer-assess 2 other student websites. You will critique website quality aspects such as aesthetics and accessibility and will write 1 paragraph justifying your assessment. |
-| **Length:** | 5 web pages and 1 CSS file. 1 paragraph on feedback per website. |
+| **Task:** | You will develop a website for a given specification by applying stakeholder analysis and critical reflection and will construct the site using HTML, CSS and UNIX commands. You will also consider accessibility issues in your design. You will provide constructive [[feedback]] to other websites given your research. This website will be 1. a student website 2. using unix commands to set up the appropriate directory structure with correct [[Security]] access permissions; 3. developed by hand using HTML and CSS and not using any other tool. You will then peer-assess 2 other student websites. You will critique website quality aspects such as aesthetics and accessibility and will write 1 paragraph justifying your assessment. |
+| **Length:** | 5 web pages and 1 CSS file. 1 paragraph on [[feedback]] per website. |
 | **Due:** | Week 6 Website draft: due at the end of Week 6. Website final (19%): due at the end of mid-Stuvac week. Peer Marking (6%): due at the end of Week 10. Precise due dates and times are detailed in the program and on Canvas. The default is 5pm on Sundays for each component. |
 | **Further information:** | Any assignment not exactly following the assignment specifications in regards to hosting or directory structure will get 0 technical marks. |
 

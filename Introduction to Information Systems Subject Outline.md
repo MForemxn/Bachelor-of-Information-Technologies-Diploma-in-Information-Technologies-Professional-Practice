@@ -76,13 +76,13 @@ starting from week 2) over 12 weeks.
 
 Lecture notes for each week will be made available on Canvas. Students are expected to download the notes, engage with
 new content and make use of it in the lectures. The lecturer will explain each topic based on the Canvas materials and
-encourage students to clarify their interpretations through verbal interaction and feedback.
+encourage students to clarify their interpretations through verbal interaction and [[feedback]].
 
 **Tutorials**
 
 Tutorials are designed to engage students in learning activities, encourage them to collaborate with other students,
 learn from each other’s ideas through group discussion and peer review, and to provide opportunities for additional
-feedback on teaching materials that inform the assessment tasks. Tutorial classes will involve a range of planned
+[[feedback]] on teaching materials that inform the assessment tasks. Tutorial classes will involve a range of planned
 activities such as testing students’ understanding using weekly in-class quizzes, problem-solving activities, and group
 activities and discussions. Students are required to learn concepts covered in the week’s lecture topic before each
 tutorial.
@@ -94,7 +94,7 @@ answers with their peers, and complete problem-solving activities, analyse case 
 in teams.
 
 Students are encouraged to come up with ideas and present them to the whole class, and are expected to evaluate each
-other’s responses; this regular peer feedback will [[help]] students learn. Constant feedback as part of the tutorial will
+other’s responses; this regular peer [[feedback]] will [[help]] students learn. Constant [[feedback]] as part of the tutorial will
 be provided by extending the class collaborative discussion with reflective questions from the tutor.
 
 The following applies to Bachelor of Computing Science students only.
@@ -225,14 +225,14 @@ they need to ask their tutor for advice immediately as problems arise.
 
 To maintain equity between tutorial cohorts, the subject coordinator reserves the right to moderate marks if necessary.
 
-# Assessment feedback
+# Assessment [[feedback]]
 
-Multiple forms of feedback will be provided to students in this subject including:
+Multiple forms of [[feedback]] will be provided to students in this subject including:
 
-**Formative Feedback:**
+**Formative [[Feedback]]:**
 
-**Verbal Feedback** in relation to students' questions, comments, class participation, and tutorial activities, as well
-as generic feedback on assessment tasks. **Written Feedback** on Assessments 2, 3 and 4.
+**Verbal [[Feedback]]** in relation to students' questions, comments, class participation, and tutorial activities, as well
+as generic [[feedback]] on assessment tasks. **Written [[Feedback]]** on Assessments 2, 3 and 4.
 
 **Minimum requirements**
 

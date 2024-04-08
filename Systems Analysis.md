@@ -42,7 +42,7 @@
 - flowcharts and data flow diagrams (DFDs)
 	- graphical tools to represent the flow of data through the system
 - prototyping
-	- creating a preliminary version of the system for evaluation and feedback
+	- creating a preliminary version of the system for evaluation and [[feedback]]
 
 # Challenges in [[Systems Design]]
 - balancing competing priorities, such as cost, time, and quality

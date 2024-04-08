@@ -45,8 +45,8 @@
 	- keeping all stakeholders informed and involved throughout the process
 - thorough testing and quality assurance
 	- extensive testing to ensure the system meets all requirements and operates reliably
-- post-implementation review and feedback collection
-	- evaluating the implementation process and collecting feedback to identify areas for improvement
+- post-implementation review and [[feedback]] collection
+	- evaluating the implementation process and collecting [[feedback]] to identify areas for improvement
 
 # Post-Implementation Support
 - ongoing support is crucial to address any issues that arise after the system goes live
