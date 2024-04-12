@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feedback.md",
+                "file": "Using Ollama.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feedback.md",
+                "file": "Using Ollama.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -60,7 +60,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "using ollama",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Feedback.md",
+                "file": "Using Ollama.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Feedback.md",
+                "file": "Using Ollama.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feedback.md"
+                "file": "Using Ollama.md"
               }
             }
           },
@@ -159,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,7 +181,19 @@
   },
   "active": "22cc9729934f87ae",
   "lastOpenFiles": [
+    "Homepage/Home.md",
+    "Subjects.md",
+    "Business Requirements Modelling.md",
+    "Communications for IT Professionals Subject Outline.md",
+    "CSV to CSV to Green Grass using MQTT Readme.md",
+    "Concepts of Information Systems - Procedures.md",
+    "Using Ollama.md",
+    "CSV to Green Grass using MQTT.md",
+    "UTSME.md",
+    "1a and 1b Research Report.md",
+    "Cloud Computing Infrastructure.md",
     "Feedback.md",
+    "Manipulating Files.md",
     "Implementation.md",
     "Human-AI Interaction.md",
     "Introduction to Information Systems Subject Outline.md",
@@ -196,22 +209,10 @@
     "Introduction to scripting.md",
     "Data and Knowledge Management.md",
     "Business Analytics.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "1a and 1b Research Report.md",
     "2a and 2b Group Research Report.md",
     "Communication for IT Professionals.md",
     "Communications for IT Professionals Assessment 2a Introduction First Draft.md",
-    "CSV to CSV to Green Grass using MQTT Readme.md",
-    "CSV to Green Grass using MQTT.md",
-    "UTSME.md",
     "Web Systems.md",
-    "Security.md",
-    "Data processing.md",
-    "Piping and wildcards.md",
-    "Editing.md",
-    "Filesystems.md",
-    "Using UNIX (based on the Linux Essentials certification).md",
     "Untitled.canvas",
     "unlinked-pages",
     "osm-intl,7,a,a,250x200@2x.png",

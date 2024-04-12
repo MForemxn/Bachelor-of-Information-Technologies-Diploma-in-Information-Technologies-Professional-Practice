@@ -4,3 +4,4 @@
 [[Assessments Guidelines]]
 [[Week by Week Guidelines]]
 [[UTSME]]
+[[Using Ollama]]

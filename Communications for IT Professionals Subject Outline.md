@@ -177,7 +177,7 @@ Students may be asked to participate in a viva voce assessment to confirm or cla
 2. Students must provide all interactions with the generative [[AI]] tool, including prompts and responses, as an Appendix
 to submitted work (including assessments)
 
-It is students responsibility to check and verify the accuracy and integrity of the information used and to rewrite any
+It is students responsibility to check and verify the accuracy and [[integrity]] of the information used and to rewrite any
 text provided by [[AI]] or other sources in their own words.
 
 For further information on the moderation of grades and the minimum requirements for this subject please refer to the
@@ -388,14 +388,14 @@ with the Subject Coordinator within five (5) working days of the date of release
 
 [[Academic integrity]] is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
 assessments. Studying at UTS and being part of our community means maintaining these values and acting with academic
-integrity at all times. This is in line with expectations for professional practice
+[[integrity]] at all times. This is in line with expectations for professional practice
 in [Engineering](https://www.engineersaustralia.org.au/sites/default/files/2022-08/code-ethics-guidelines-professional-conduct-2022.pdf)
 and [IT](https://www.acs.org.au/content/dam/acs/CodeOfProfessionalEthics_Mar_2023.pdf).
 
 ## Guide to practising [[academic integrity]]
 
 As a UTS student, when you create something original, credit others and collaborate with care, you act with academic
-integrity:
+[[integrity]]:
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original for
 that assessment and being honest about any data or results.
@@ -407,9 +407,9 @@ Collaborate with care. Make sure you do group work according to the guidelines f
 study with your classmates and friends with care and keep your assessment and study notes just for you.
 
 If you are feeling confused about [[academic integrity]], it’s okay, just ask! We’re here to [[help]] you understand academic
-integrity and do your assessments with confidence:
+[[integrity]] and do your assessments with confidence:
 
-[Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity),
+[Explore the guide to practising [[academic integrity]]](https://www.uts.edu.au/current-students/support/academic-support/academic-[[integrity]]),
 including dos and don’ts.
 
 [Complete the [[academic integrity]] self-paced tutorial and quiz](https://www.uts.edu.au/current-students/support/academic-support/academic-integrity/tutorial-and-quiz).
