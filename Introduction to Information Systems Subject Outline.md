@@ -119,7 +119,7 @@ the OPELA and/or do not attend 80% of the Language Development Tutorials will re
 
 [[Human-AI Interaction]]
 
-[[Information Security - Cyber Security]]
+[[Information Security]]
 
 [[Social Engineering Scams]]
 

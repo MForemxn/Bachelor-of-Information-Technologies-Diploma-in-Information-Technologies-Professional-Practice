@@ -6,7 +6,7 @@
 [[Business Analytics]]
 [[AI-Powered products]]
 [[Human-AI Interaction]]
-[[Information Security - Cyber Security]]
+[[Information Security|Information Security - Cyber Security]]
 [[Social Engineering Scams]]
 [[Ethics and privacy]]
 [[Telecommunications and Networking]]
