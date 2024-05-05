@@ -6,10 +6,10 @@
 	- their main purpose is to initialise the new object's properties
 
 # Importance of Classes in OOP
-- classes provide a means for abstraction and encapsulation
-	- abstraction allows hiding complex implementation details
-	- encapsulation bundles the data (attributes) and methods (functions) that operate on the data into a single unit
-- they enable code reusability through inheritance
+- classes provide a means for [[abstraction]] and [[encapsulation]]
+	- [[abstraction]] allows hiding complex implementation details
+	- [[encapsulation]] bundles the data (attributes) and methods (functions) that operate on the data into a single unit
+- they enable code reusability through [[inheritance]]
 	- child classes can inherit properties and methods from parent classes
 - facilitate the creation of flexible and maintainable code
 
@@ -44,7 +44,7 @@
 	- for example, the Singleton pattern ensures a class has only one instance and provides a global point of access to it
 	- Factory methods use constructor calls to create objects from different classes based on input parameters
 
-# Inheritance and Constructors
+# [[Inheritance]] and Constructors
 - when a class inherits from another, the constructor of the parent class can be called to initialise inherited properties
 - some languages require explicit calls to the parent constructor, while others do it automatically
 

@@ -62,7 +62,7 @@ CILOs):
 Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop components,
 systems and [[processes]] to meet specified requirements. (C.1)
 
-Technically Proficient: FEIT graduates apply abstraction, mathematics and discipline fundamentals, software, tools and
+Technically Proficient: FEIT graduates apply [[abstraction]], mathematics and discipline fundamentals, software, tools and
 techniques to evaluate, implement and operate systems. (D.1)
 
 Collaborative and Communicative: FEIT graduates work as an effective member or leader of diverse teams, communicating

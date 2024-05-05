@@ -226,7 +226,7 @@ The [GLib](https://en.wikipedia.org/wiki/GLib "GLib") data structures and util
 
 - [GNOME Display Manager](https://en.wikipedia.org/wiki/GNOME_Display_Manager "GNOME Display Manager") (GDM), which manages user sessions, X and Wayland alike.
 - [Tracker](https://en.wikipedia.org/wiki/Tracker_(search_software) "Tracker (search software)") automatically searches the specified directories for files and keeps an index of them to provide fast search; heavily integrated into GNOME Shell and GNOME Files
-- [GVfs](https://en.wikipedia.org/wiki/GVfs "GVfs"), an abstraction layer framework for file systems augmenting GIO; well integrated into GNOME Files and GNOME Disks
+- [GVfs](https://en.wikipedia.org/wiki/GVfs "GVfs"), an [[abstraction]] layer framework for file systems augmenting GIO; well integrated into GNOME Files and GNOME Disks
 - [dconf](https://en.wikipedia.org/wiki/Dconf "Dconf") a backend for GSettings
 - [Mutter](https://en.wikipedia.org/wiki/Mutter_(software) "Mutter (software)"), the [Wayland compositor](https://en.wikipedia.org/wiki/Wayland_compositor "Wayland compositor") and [X Window Manager](https://en.wikipedia.org/wiki/X_window_manager "X window manager")
 - [Linux color management](https://en.wikipedia.org/wiki/Linux_color_management "Linux color management"), [udev](https://en.wikipedia.org/wiki/Udev "Udev"), etc.

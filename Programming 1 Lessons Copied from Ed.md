@@ -75,7 +75,7 @@ Although there is no clear-cut classification of programming languages into cate
 
 - **Imperative Languages**: State is expressed through variables and their values. The program expresses how to manipulate these variables to achieve the desired result. This paradigm is also embodied in the structure of most computers. It can be further developed into (at least) two sub-paradigms:
     
-    - **Procedural Languages:** The program is broken into smaller units (_procedures_) that operate on their inputs and produce output - in a sense, mini-programs. This allows modularisation and abstraction of some or all of the program, along with other benefits. **Python** originated as a procedural language.
+    - **Procedural Languages:** The program is broken into smaller units (_procedures_) that operate on their inputs and produce output - in a sense, mini-programs. This allows modularisation and [[abstraction]] of some or all of the program, along with other benefits. **Python** originated as a procedural language.
         
     - **Object Oriented Languages:** State is encapsulated in _objects,_ along with procedures and functions to manipulate that state in a (hopefully) controlled manner. **Java** is an object oriented language, and **Python** has support for an object oriented approach.
         

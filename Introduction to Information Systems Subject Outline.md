@@ -64,7 +64,7 @@ cultural, legislative, environmental, economics etc.) to define the system requi
 
 legislative, environmental, economics etc.) to define the system requirements. (B.1)
 
-Technically Proficient: FEIT graduates apply abstraction, mathematics and discipline fundamentals, software, tools and
+Technically Proficient: FEIT graduates apply [[abstraction]], mathematics and discipline fundamentals, software, tools and
 techniques to evaluate, implement and operate systems. (D.1)
 
 # Teaching and learning strategies

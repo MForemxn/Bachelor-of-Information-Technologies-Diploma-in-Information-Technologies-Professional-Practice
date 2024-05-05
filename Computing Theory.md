@@ -22,7 +22,7 @@
 - several models of computation are used to study and understand the theoretical capabilities of computers:
 	- **Turing Machines**: an abstract machine that manipulates symbols on a strip of tape according to a set of rules
 	- **Finite Automata**: used to model computation with a finite amount of memory
-	- **Lambda Calculus**: a formal system in mathematical logic for expressing computation based on function abstraction and application
+	- **Lambda Calculus**: a formal system in mathematical logic for expressing computation based on function [[abstraction]] and application
 	- **Quantum Computing**: a model that uses quantum-mechanical phenomena, such as superposition and entanglement
 
 # Challenges in Computing Theory
