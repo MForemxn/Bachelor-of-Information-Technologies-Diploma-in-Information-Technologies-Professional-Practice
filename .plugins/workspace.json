@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "UTSME.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "UTSME.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "UTSME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "UTSME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage/Home.md"
+                "file": "UTSME.md"
               }
             }
           },
@@ -159,8 +159,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,16 +178,35 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "f729984cb6c903da",
+  "active": "7c02cffcd58bfd8b",
   "lastOpenFiles": [
+    "CSV to Green Grass using MQTT.md",
+    "UTSME.md",
+    "Homepage/Home.md",
+    "Introduction to Information Systems Presentation.md",
+    "Introduction to Information Systems.md",
+    "Subjects.md",
+    "Vim Skills Test Example Questions Answered.md",
+    "Prepping for Web Systems Skills Test.md",
+    "Using UNIX (based on the Linux Essentials certification).md",
+    "vim.md",
+    "Editor.md",
+    "Touch.md",
+    "Previous Commands.md",
+    "Redirection.md",
+    "Remote Access.md",
+    "Compressing Files.md",
+    "Creating Files.md",
+    "Web Systems.md",
+    "Finding, evaluating and referencing information.md",
+    "Communication for IT Professionals.md",
+    "Design process.md",
+    "Using Ollama.md",
     "Ethics and privacy.md",
     "Pasted image 20240513111045.png",
     "Pasted image 20240513111031.png",
     "Pasted image 20240513111020.png",
-    "Introduction to Information Systems.md",
-    "Subjects.md",
     "Programming 1.md",
-    "Homepage/Home.md",
     "Pasted image 20240513110115.png",
     "Pasted image 20240513110058.png",
     "Pasted image 20240513110048.png",
@@ -196,26 +214,8 @@
     "Processes.md",
     "Common good approach.md",
     "Pasted image 20240513105006.png",
-    "Rights approach.md",
     "Pasted image 20240513104921.png",
-    "Utilitarian approach.md",
     "Pasted image 20240513104906.png",
-    "Information Security.md",
-    "Human-AI Interaction.md",
-    "AI-Powered products.md",
-    "Business Analytics.md",
-    "Data and Knowledge Management.md",
-    "Acquiring information systems and application.md",
-    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
-    "Introduction to Information Systems,  Information systems within the organisation.md",
-    "Communication for IT Professionals.md",
-    "Finding, evaluating and referencing information.md",
-    "Design process.md",
-    "Using Ollama.md",
-    "Operating Systems.md",
-    "MacOSX.md",
-    "Collaborative Filtering.md",
-    "CSH (C Shell).md",
     "quiz-2-websystem-revision-w7-10.pdf",
     "web-systems-online-quiz-2.pdf",
     "web-systems-quiz-2-quiz-2.pdf",
