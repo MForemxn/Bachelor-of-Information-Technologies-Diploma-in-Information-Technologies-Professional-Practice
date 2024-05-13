@@ -4,42 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "0b8555212e749bd3",
+        "id": "398d343667c3047c",
         "type": "tabs",
         "children": [
           {
-            "id": "028717108e595859",
+            "id": "f729984cb6c903da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Review and Preview of Programming 2.md",
+                "file": "Homepage/Home.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             },
-            "group": "b9c3cc8b241eaea8"
+            "group": "0975ba86ee295e58"
           }
         ]
       },
       {
-        "id": "ed04cadb17c37999",
+        "id": "873912cfef11c1fe",
         "type": "tabs",
         "children": [
           {
-            "id": "18bf7118e6ff3950",
+            "id": "7c02cffcd58bfd8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Review and Preview of Programming 2.md",
+                "file": "Homepage/Home.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             },
-            "group": "b9c3cc8b241eaea8"
+            "group": "0975ba86ee295e58"
           }
         ]
       }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "webass peer marking",
+                "query": "line:(port 23)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,13 +107,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Review and Preview of Programming 2.md",
+                "file": "Homepage/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Review and Preview of Programming 2.md",
+                "file": "Homepage/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Review and Preview of Programming 2.md"
+                "file": "Homepage/Home.md"
               }
             }
           },
@@ -159,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,54 +179,53 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "18bf7118e6ff3950",
+  "active": "f729984cb6c903da",
   "lastOpenFiles": [
-    "Homepage/Home.md",
-    "Handbook.md",
-    "Review and Preview of Programming 2.md",
-    "Polymorphism.md",
-    "Inheritance.md",
-    "Encapsulation.md",
-    "Abstraction.md",
-    "Programming 1.md",
-    "Subjects.md",
-    "HouseHold Expense Project.md",
-    "e7ed2543-d52b-436d-9252-59394e445f80.webp",
-    "Using Ollama.md",
-    "Year 1 Autumn Week By Week.md",
-    "Week by Week Guidelines.md",
-    "The Internet and the Web.md",
-    "Web Systems.md",
-    "Communication for IT Professionals.md",
-    "Information Security.md",
+    "Ethics and privacy.md",
+    "Pasted image 20240513111045.png",
+    "Pasted image 20240513111031.png",
+    "Pasted image 20240513111020.png",
     "Introduction to Information Systems.md",
-    "WebAss Specification.md",
-    "Using UNIX (based on the Linux Essentials certification).md",
-    "Listing Files and Directories.md",
-    "Text Files.md",
-    "Using Printers.md",
-    "Risk Mitigation.md",
-    "Risk Analysis.md",
-    "Risk Management.md",
-    "Screenshot 2024-04-16 at 4.58.51 pm.png",
-    "Pasted image 20240408105605.png",
-    "Screenshot 2024-04-08 at 10.55.39 am.png",
-    "Screenshot 2024-04-08 at 10.55.26 am.png",
-    "Screenshot 2024-04-08 at 10.55.08 am.png",
-    "Pasted image 20240408104844.png",
-    "Pasted image 20240408104550.png",
-    "Untitled.canvas",
-    "unlinked-pages",
-    "osm-intl,7,a,a,250x200@2x.png",
-    "FullSizeRender.png",
-    "Assesment Task 1 Template.pdf",
-    "APA Interactive Guide.pdf",
-    "content",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-2DimquwSoZehXrq7UiV36Gi3MS851vi6.mp4",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Design Brief/2024 EWB Challenge Design Brief - Saibai.pdf",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/Assessment Files/Assessment 1/Assessment Task 1 - Template.pdf",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-mza8T8SmkZGzkmDwrjVP8kyHSXoYzfT.mp4",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects/m-5uD9YCgx5dvjRwY6MSVSJtEsFHB6ZDPQ.mp4",
-    "31265-Communication-for-IT-Professionals---Autumn-2024-2024-Mar-25_04-04-38-349/viewer/files/media_objects"
+    "Subjects.md",
+    "Programming 1.md",
+    "Homepage/Home.md",
+    "Pasted image 20240513110115.png",
+    "Pasted image 20240513110058.png",
+    "Pasted image 20240513110048.png",
+    "Pasted image 20240513110037.png",
+    "Processes.md",
+    "Common good approach.md",
+    "Pasted image 20240513105006.png",
+    "Rights approach.md",
+    "Pasted image 20240513104921.png",
+    "Utilitarian approach.md",
+    "Pasted image 20240513104906.png",
+    "Information Security.md",
+    "Human-AI Interaction.md",
+    "AI-Powered products.md",
+    "Business Analytics.md",
+    "Data and Knowledge Management.md",
+    "Acquiring information systems and application.md",
+    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
+    "Introduction to Information Systems,  Information systems within the organisation.md",
+    "Communication for IT Professionals.md",
+    "Finding, evaluating and referencing information.md",
+    "Design process.md",
+    "Using Ollama.md",
+    "Operating Systems.md",
+    "MacOSX.md",
+    "Collaborative Filtering.md",
+    "CSH (C Shell).md",
+    "quiz-2-websystem-revision-w7-10.pdf",
+    "web-systems-online-quiz-2.pdf",
+    "web-systems-quiz-2-quiz-2.pdf",
+    "web-systems-quizzes-2022 1.pdf",
+    "notes-for-quiz-1-web-systems-31268.pdf",
+    "quiz-1-web-systems.pdf",
+    "web-systems-lecture-notesquiz-1-preparation.pdf",
+    "web-systems-quiz-1-notes (1).pdf",
+    "web-systems-quiz-1-notes.pdf",
+    "web-systems-quiz-1.pdf",
+    "Untitled.canvas"
   ]
 }

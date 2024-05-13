@@ -1,6 +1,6 @@
 - a task automation and configuration management framework from Microsoft
 - consists of a command-line shell and a scripting language built on .NET
-- designed for system administrators and power-users to rapidly automate the administration of multiple operating systems (Windows, Linux, and macOS) and the processes related to the applications that run on those operating systems
+- designed for system administrators and power-users to rapidly automate the administration of multiple [[operating systems]] (Windows, Linux, and macOS) and the processes related to the applications that run on those [[operating systems]]
 
 # PowerShell Features
 - integrates with .NET framework, allowing for a wide range of functionalities

@@ -22,9 +22,9 @@
 # BSD in Modern Use
 - BSD variants are widely used in servers, embedded systems, and networking equipment.
 	- also popular among some desktop users who prefer a Unix-like environment.
-- its influence is seen in many other operating systems, including macOS, which is built on a BSD-derived foundation.
+- its influence is seen in many other [[operating systems]], including macOS, which is built on a BSD-derived foundation.
 # BSD Community and Development
 - development is driven by a combination of volunteer and corporate contributions.
 - each BSD variant has its own community and project structure.
 	- communities are known for their dedication to code quality, documentation, and user support.
-- BSD operating systems are often developed openly, with source code available for review and contribution.
+- BSD [[operating systems]] are often developed openly, with source code available for review and contribution.

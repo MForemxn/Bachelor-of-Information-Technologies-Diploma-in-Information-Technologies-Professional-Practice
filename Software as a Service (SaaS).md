@@ -2,13 +2,13 @@ Software as a service (SaaS) allows users to connect to and use cloud-based apps
 
 SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a [cloud service provider](https://azure.microsoft.com/en-au/resources/cloud-computing-dictionary/choosing-a-cloud-service-provider/). You rent the use of an app for your organization, and your users connect to it over the Internet, usually with a web browser. All of the underlying infrastructure, middleware, app software, and app data are located in the service provider’s data center. The service provider manages the hardware and software, and with the appropriate service agreement, will ensure the [[availability]] and the [[Security]] of the app and your data as well. SaaS allows your organization to get quickly up and running with an app at minimal upfront cost.
 
-![Software as a Service — IaaS includes servers and storage, networking firewalls and [[[[security]]]], and datacenter (physical plant/building). PaaS includes IaaS elements plus operating systems, development tools, database management, and [[[[business analytics]]]]. SaaS includes PaaS elements plus hosted apps.](https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/what-is-saas_what-is-saas?scl=1)
+![Software as a Service — IaaS includes servers and storage, networking firewalls and [[[[security]]]], and datacenter (physical plant/building). PaaS includes IaaS elements plus [[operating systems]], development tools, database management, and [[[[business analytics]]]]. SaaS includes PaaS elements plus hosted apps.](https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/what-is-saas_what-is-saas?scl=1)
 
 ---
 
 |   |   |   |   |   |   |
 |---|---|---|---|---|---|
-|Hosted applications/apps|Development tools, database management, [[business analytics]]|Operating systems|Servers and storage|Networking firewalls/[[Security]]|Data center physical plant/building|
+|Hosted applications/apps|Development tools, database management, [[business analytics]]|[[Operating systems]]|Servers and storage|Networking firewalls/[[Security]]|Data center physical plant/building|
 
 ## Common SaaS scenarios
 

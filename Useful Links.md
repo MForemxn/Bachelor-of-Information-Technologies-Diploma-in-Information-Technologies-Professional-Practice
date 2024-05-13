@@ -12,3 +12,4 @@
 [[Email Etiquette]]
 [[Food and Drink on Campus]]
 [[Massive APA Referencing How-To Guide]]
+[Community Study Notes](https://www.studocu.com/en-au/home)

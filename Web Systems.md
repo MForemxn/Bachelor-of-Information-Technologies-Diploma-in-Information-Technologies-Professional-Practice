@@ -15,11 +15,7 @@
 [[Boolean logic]]
 [[Storage and Processing of information]]
 [[Using UNIX (based on the Linux Essentials certification)]]
-[[Filesystems]]
-[[Editing]]
-[[Security]]
-[[Piping and wildcards]]
-[[Introduction to scripting]]
-[[Data processing]]
 # Assessments
 [[Web Systems Assessment 1 - WebAss]]
+[[Quiz 1 Revision]]
+[[Quiz 2 Revision]]

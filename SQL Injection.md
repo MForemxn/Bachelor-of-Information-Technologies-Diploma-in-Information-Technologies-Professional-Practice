@@ -17,7 +17,7 @@ SQL Injection is a prevalent [[security]] vulnerability that occurs in the datab
 - **Stored Procedures**: Use stored procedures to encapsulate the SQL logic on the database server, reducing exposure to SQL injection, though still requiring careful implementation to avoid vulnerabilities.
 - **Input Validation**: While not a complete defense, validating user inputs for type, length, format, and range can reduce the risk of SQL Injection.
 - **ORMs (Object Relational Mapping Libraries)**: Utilise ORM libraries, which often include built-in protections against SQL Injection by abstracting database interactions.
-- **Least Privilege**: Ensure that database accounts used by web applications have the minimum necessary permissions, reducing the potential impact of a successful injection attack.
+- **Least Privilege**: Ensure that database accounts used by [[web applications]] have the minimum necessary permissions, reducing the potential impact of a successful injection attack.
 - **Web Application Firewalls (WAFs)**: Deploy WAFs to help detect and block SQL Injection attempts and other common web application attacks.
 
 ## Impact of SQL Injection

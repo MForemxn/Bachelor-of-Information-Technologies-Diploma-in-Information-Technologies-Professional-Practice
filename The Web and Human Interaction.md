@@ -30,5 +30,5 @@
 
 - A brief mention of an assignment related to the course content, including specifications, examples, and peer marking. It suggests checking the web page design at a resolution of 1024x768 and testing on browsers with different engines, specifically Firefox and Chrome/Safari.
 
-This summary encapsulates the main themes and educational content of the document related to [[web systems]], focusing on the technical foundations of web servers, [[web page development]], browser diversity, and web design principles.
+This summary encapsulates the main themes and educational content of the document related to [[Web Systems]], focusing on the technical foundations of web servers, [[web page development]], browser diversity, and web design principles.
 

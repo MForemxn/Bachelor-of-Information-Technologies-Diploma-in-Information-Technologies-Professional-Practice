@@ -1,6 +1,6 @@
 # What is the cd command?
 - the cd command stands for "change directory"
-- it is a command-line instruction used to change the current working directory in various operating systems, such as [[Unix Operating System|unix]], linux, and windows
+- it is a command-line instruction used to change the current working directory in various [[operating systems]], such as [[Unix Operating System|unix]], linux, and windows
 - allows users to navigate the filesystem of their computer from the terminal or command prompt
 
 # Usage of the cd command

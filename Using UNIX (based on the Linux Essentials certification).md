@@ -1,3 +1,9 @@
+[[Filesystems]]
+[[Editing]]
+[[Security]]
+[[Piping and wildcards]]
+[[Introduction to scripting]]
+[[Data processing]]
 # Key [[CLI]] Commands
 [[Listing Files and Directories]]
 [[Manipulating Directories]]
@@ -8,7 +14,7 @@
 [[Useful Shortcuts]]
 [[Permissions and Ownerships]]
 [[Using Printers]]
-Calculators
+[[Calculators]]
 [[Processes]]
 [[Looking for Things]]
 [[Previous Commands]]

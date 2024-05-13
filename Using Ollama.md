@@ -8,7 +8,7 @@ OLLAMA_ORIGINS=app://obsidian.md* ollama serve
 ```
 # To Run in [[GUI]]
 ```
-cd /Applications/ollama-[[gui]]
+cd /Applications/ollama-gui
 yarn dev
 ```
 # List of Models

@@ -28,7 +28,7 @@
 # History of UNIX
 - Initially developed in 1969 by Ken Thompson, Dennis Ritchie, and others at AT&T's Bell Labs.
 - It was written in assembly language but was later rewritten in C by Dennis Ritchie, which significantly increased its portability across different hardware platforms.
-- Over the years, UNIX has evolved through various versions and has inspired the creation of numerous UNIX-like operating systems, such as Linux and BSD.
+- Over the years, UNIX has evolved through various versions and has inspired the creation of numerous UNIX-like [[operating systems]], such as Linux and BSD.
 
 # UNIX Architecture
 - The UNIX operating system architecture is layered and includes the following components from lowest to highest:
@@ -49,13 +49,13 @@
 - Scripting and programming support: Comes with powerful scripting languages like shell scripting, AWK, and sed, and supports various programming languages.
 
 # UNIX Derivatives
-- UNIX has led to the development of various derivatives and UNIX-like operating systems, including:
+- UNIX has led to the development of various derivatives and UNIX-like [[operating systems]], including:
 	- [[BSD (Berkeley Software Distribution)]]: A version of UNIX developed at the University of California, Berkeley.
 	- [[System V]]: A version of UNIX developed by AT&T.
 	- Linux: Although not derived from UNIX's codebase, it is UNIX-like in its design and functionality.
 	- macOS: Apple's operating system for Mac computers, based on the BSD variant of UNIX.
 
 # Impact of UNIX
-- UNIX and its concepts have had a profound impact on the development of other operating systems and the field of computing as a whole.
-- Its design principles, such as "everything is a file" and the use of simple, composable tools, have influenced the design of many subsequent operating systems.
-- The POSIX standard was developed to ensure compatibility among UNIX and UNIX-like operating systems, promoting interoperability and standards across different platforms.
+- UNIX and its concepts have had a profound impact on the development of other [[operating systems]] and the field of computing as a whole.
+- Its design principles, such as "everything is a file" and the use of simple, composable tools, have influenced the design of many subsequent [[operating systems]].
+- The POSIX standard was developed to ensure compatibility among UNIX and UNIX-like [[operating systems]], promoting interoperability and standards across different platforms.

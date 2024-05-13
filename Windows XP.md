@@ -22,7 +22,7 @@
 - extended support continued until 2014
 - despite this, remained popular and widely used across various sectors due to its stability and compatibility
 - legacy applications and systems, particularly in business and industrial environments, contributed to its prolonged use
-# Transition to Newer Operating Systems
+# Transition to Newer [[Operating Systems]]
 - Microsoft encouraged migration to newer versions like Windows 7, 8, and 10
 - challenges included compatibility issues with older hardware and software
 - various tools and programs were developed to assist in the transition

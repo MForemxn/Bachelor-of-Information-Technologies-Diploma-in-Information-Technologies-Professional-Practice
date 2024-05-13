@@ -1,4 +1,4 @@
-Cross-Site Scripting (XSS) is a common [[security]] vulnerability found in web applications that allows attackers to inject malicious scripts into content that is then served to other users. This attack exploits the trust a user has for a particular site, executing the script in the user's browser under the guise of the trusted site's domain. XSS can lead to various [[security]] issues, including stolen session cookies, account takeovers, redirecting users to malicious sites, and spreading malware.
+Cross-Site Scripting (XSS) is a common [[security]] vulnerability found in [[web applications]] that allows attackers to inject malicious scripts into content that is then served to other users. This attack exploits the trust a user has for a particular site, executing the script in the user's browser under the guise of the trusted site's domain. XSS can lead to various [[security]] issues, including stolen session cookies, account takeovers, redirecting users to malicious sites, and spreading malware.
 
 ## Types of XSS Attacks
 

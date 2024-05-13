@@ -5,7 +5,7 @@
 
 ![How to Use the Command Line Interface – for Beginners](https://www.freecodecamp.org/news/content/images/size/w2000/2022/09/BEGINNERS--HACK-ON-USING-CLI--1-.png)
 
-There's a lot to learn when you're getting into tech. But fortunately there are some skills that you can use across different programming languages, operating systems, and tools. 
+There's a lot to learn when you're getting into tech. But fortunately there are some skills that you can use across different programming languages, [[operating systems]], and tools. 
 
 And knowing how to use the command line interface (also known as the command prompt or terminal, depending on your operating system) is one of those skills.
 
@@ -27,7 +27,7 @@ For instance, to go to a particular folder, you'd type:
 
 The command line interface (or [[CLI]] for short) is similar to DOS in that it uses commands to perform various operations, like creating files, creating folders, installing programs, and what have you.
 
-The advancement of technology over the years brought about the popular GUI (Graphical User Interface) and made Operating Systems less stressful to use.
+The advancement of technology over the years brought about the popular GUI (Graphical User Interface) and made [[Operating Systems]] less stressful to use.
 
 Although developers (and non-technical users) often use the GUI these days, sometimes working directly from the [[CLI]] is useful or necessary, irrespective of your stack.
 
@@ -73,11 +73,11 @@ To use your [[CLI]]:
 
 Later in the tutorial, we'll execute some commands using the [[CLI]] so you can better understand how it works.
 
-## The Command Line in Different Operating Systems
+## The Command Line in Different [[Operating Systems]]
 
 Every Operating System comes with its default Command Line Interface, though you can choose to install a more advanced [[CLI]] depending on your needs.
 
-Some Operating Systems and their respective CLIs are listed below:
+Some [[Operating Systems]] and their respective CLIs are listed below:
 
 - Windows: Command Prompt
 - Linux: Linux [[Bash]] Shell
@@ -90,7 +90,7 @@ Some Operating Systems and their respective CLIs are listed below:
 
 A picture of Windows command prompt, AWS Cloudshell, MacOs Terminal and Linux Terminal
 
-I currently use Windows OS and Windows Command Prompt, but I'll also show you how you can locate your own Terminal or Command Prompt based on popular Operating systems.
+I currently use Windows OS and Windows Command Prompt, but I'll also show you how you can locate your own Terminal or Command Prompt based on popular [[Operating systems]].
 
 ## How to Locate your [[CLI]]
 
