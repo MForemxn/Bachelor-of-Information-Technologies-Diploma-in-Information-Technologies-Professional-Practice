@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
+                "file": "Filesystems Lesson.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
+                "file": "Filesystems Lesson.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
+                "file": "Filesystems Lesson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
+                "file": "Filesystems Lesson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,16 +147,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variables and Branching Programming 1 EdStem Lesson.md"
+                "file": "Filesystems Lesson.md"
               }
-            }
-          },
-          {
-            "id": "2a8e5b646943896a",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
             }
           }
         ],
@@ -179,14 +171,18 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "43e38b7061860d06",
+  "active": "7c02cffcd58bfd8b",
   "lastOpenFiles": [
-    "Programming 1 EdStem Lessons.md",
+    "Filesystems Lesson.md",
+    "Web Systems EdStem Lessons.md",
     "Variables and Branching Programming 1 EdStem Lesson.md",
-    "What is EdStem Programming 1 EdStem Lesson.md",
+    "Programming 1 EdStem Lessons.md",
     "Programming 1.md",
     "Subjects.md",
     "Homepage/Home.md",
+    "Ethics and privacy.md",
+    "Introduction to Information Systems.md",
+    "What is EdStem Programming 1 EdStem Lesson.md",
     "Introduction to Object Oriented Programming Principles Programming 1 EdStem Lesson.md",
     "Input and Output Programming 1 EdStem Lesson.md",
     "Inheritance and Interfaces Programming 1 EdStem Lesson.md",
@@ -198,15 +194,11 @@
     "Further Web Systems Notes.md",
     "Programming 1 Lessons Copied from Ed.md",
     "Web Systems.md",
-    "Web Systems EdStem Lessons.md",
     "Untitled.md",
     "Data Processing Lesson.md",
     "Introduction to Scripting Lesson.md",
     "Piping and Wildcards Lesson.md",
     "Web Dev Lesson.md",
-    "People and Permissions Lesson.md",
-    "Elementary Vim Lesson.md",
-    "Filesystems Lesson.md",
     "Ed Workspaces - Quick Start July2017.pdf",
     "ed-discussion-quickstart Jan2019.pdf",
     "Pasted image 20240513111045.png",

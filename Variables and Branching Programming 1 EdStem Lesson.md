@@ -74,22 +74,22 @@ Although there is no clear-cut classification of programming languages into cate
     
     - **Procedural Languages:** The program is broken into smaller units (_procedures_) that operate on their inputs and produce output - in a sense, mini-programs. This allows modularisation and [[abstraction]] of some or all of the program, along with other benefits. **[[Python]]** originated as a procedural language.
         
-    - **Object Oriented Languages:** [[State]] is encapsulated in _objects,_ along with procedures and functions to manipulate that [[state]] in a (hopefully) controlled manner. **Java** is an object oriented language, and **Python** has support for an object oriented approach.
+    - **Object Oriented Languages:** [[State]] is encapsulated in _objects,_ along with procedures and functions to manipulate that [[state]] in a (hopefully) controlled manner. **[[Java]]** is an object oriented language, and **[[Python]]** has support for an object oriented approach.
         
-- **Declarative Languages:** These languages emphasise _what_ is to be computed, rather than _how_. State is more ephemeral, and may not be directly under the programmer's control. There are several sub-paradigms of declarative languages, but we will only mention one here:
+- **Declarative Languages:** These languages emphasise _what_ is to be computed, rather than _how_. [[State]] is more ephemeral, and may not be directly under the programmer's control. There are several sub-paradigms of declarative languages, but we will only mention one here:
     
-    - **Functional Languages:** These languages focus on computation as the application of functions. State is typically restricted that implied by function inputs, and local information, rather than allowing access to some global state. They also heavily employ recursion (we'll get to this later).
+    - **Functional Languages:** These languages focus on computation as the application of functions. [[State]] is typically restricted that implied by function inputs, and local information, rather than allowing access to some global [[state]]. They also heavily employ recursion (we'll get to this later).
         
 
 In practice, few languages (especially modern ones) fall into a single category, and most explicitly attempt to offer features of several programming paradigms, or can be forced by the programmer into one paradigm or another.
 
-As mentioned, **Java**, one of the languages we will be using to learn to program, is nominally an object oriented language, however the determined programmer can employ it in a procedural style, and more productively, a functional style. **Python** is primarily procedural, but includes support for object oriented and functional styles of programming.
+As mentioned, **[[Java]]**, one of the languages we will be using to learn to program, is nominally an object oriented language, however the determined programmer can employ it in a procedural style, and more productively, a functional style. **[[Python]]** is primarily procedural, but includes support for object oriented and functional styles of programming.
 
 ## Other Features of Programming Languages
 
 Naturally the distinction between programming languages is not limited to the basic choices or paradigms. There are many other choices made in their design, which, as budding programmers, you can use as starting points for unnecessarily dogmatic arguments about which is best:
 
-**Syntax**: How the language allows the programmer to express their intent in a grammatical sense. Compare declarations of a variable in Java, Python and Kotlin:
+**Syntax**: How the language allows the programmer to express their intent in a grammatical sense. Compare declarations of a variable in [[Java]], [[Python]] and Kotlin:
 
 
 ```
@@ -101,7 +101,7 @@ int i = 42;
 
 
 ```
-# Python
+# [[Python]]
 
 i = 42
 ```
@@ -119,38 +119,38 @@ var i : Int = 42;
 
 **Type Systems:** How the language deals with information of different types, and how the programmer can interact with these systems.
 
-## Java the Language
+## [[Java]] the La[[Java|ngua]]ge
 
-Now that we have some basic terminology about programming languages, we can state the following:
+Now that we have some basic terminology about programming languages, we can [[state]] the following:
 
-> Java is a generic, general purpose programming language that is primarily a class-based object oriented language, but allows both functional and procedural programming. It is syntactically derived from C, is strongly statically typed and has automatic garbage collection.
+> [[Java]] is a generic, general purpose programming language that is primarily a class-based object oriented language, but allows both functional and procedural programming. It is syntactically derived from C, is strongly statically typed and has automatic garbage collection.
 
-This still won't mean a lot if you haven't done a lot of programming, but this gives you a reference point against which to start building your understanding of both Java, and programming languages in general.
+This still won't mean a lot if you haven't done a lot of programming, but this gives you a reference point against which to start building your understanding of both [[Java]], and programming languages in general.
 
 ## Some Terminology
 
-As mentioned, Java's syntax derives most directly from C and C++, which themselves draw upon early languages back to at least Algol. We'll introduce some terminology now, but with the caveat that there's more here than you need to know right now.
+As mentioned, [[Java]]'s syntax derives most directly from C and C++, which themselves draw upon early languages back to at least Algol. We'll introduce some terminology now, but with the caveat that there's more here than you need to know right now.
 
-Java programs consist of a sequence of **statements** arranged into **blocks**. The blocks may be nested, with the top level being that of a **class**. A class is a definition of every **object** of that sort. Inside a class there are **methods** and **data** **members**.
+[[Java]] programs consist of a sequence of **statements** arranged into **blocks**. The blocks may be nested, with the top level being that of a **class**. A class is a definition of every **object** of that sort. Inside a class there are **methods** and **data** **members**.
 
 ![](https://static.au.edusercontent.com/files/jY3MJqonNVEGbdrOElQ8cTmR)
 
-**Variables** are Java's primary mechanism for storing the state of the program. Variables are segments of memory that store data. Variables also have an associated **type**. This is a way of specifying what data we expect to see stored in that variable. There are two sorts of variable types in Java, **primitives**, which simply store a value, and **objects**, which are structures that combine data and **methods** (see below) for operating on that data (or sometimes just doing things). We'll look at both of these in more detail as we go.
+**[[Variables]]** are [[Java]]'s primary mechanism for storing the [[state]] of the program. [[Variables]] are segments of memory that store data. [[Variables]] also have an associated **type**. This is a way of specifying what data we expect to see stored in that variable. There are two sorts of variable types in [[Java]], **primitives**, which simply store a value, and **objects**, which are structures that combine data and **methods** (see below) for operating on that data (or sometimes just doing things). We'll look at both of these in more detail as we go.
 
-**Data members** (or member variables, or similar), are the variables that belong to the class or to the objects created using that class definition. There may be other variables which only belong to lower level blocks than the class. These are typically referred to as **local variables.** In contrast, variables which are accessible by all classes and objects in a program are called **global variables**. If all objects made from given class share the same instance of a variable, it is a **class variable**, if each object has its own copy, it is an **object variable** or **instance variable**.
+**Data members** (or member [[variables]], or similar), are the [[variables]] that belong to the class or to the objects created using that class definition. There may be other [[variables]] which only belong to lower level blocks than the class. These are typically referred to as **local [[variables]].** In contrast, [[variables]] which are accessible by all classes and objects in a program are called **global [[Variables]]**. If all objects made from given class share the same instance of a variable, it is a **class variable**, if each object has its own copy, it is an **object variable** or **instance variable**.
 
 **Methods** are named blocks of code that can take input **parameters** and return an output value. They may or may not access information outside of the method:
 
-- **Procedures** are methods that access information outside the method (or in particular, modify state outside the procedure).
+- **Procedures** are methods that access information outside the method (or in particular, modify [[State]] outside the procedure).
     
-- **Functions** are methods that work with local state only. Another way of viewing this is that given the same input parameters repeatedly, a function will always return the same output - it is not affected by other parts of the program (or world).
+- **Functions** are methods that work with local [[State]] only. Another way of viewing this is that given the same input parameters repeatedly, a function will always return the same output - it is not affected by other parts of the program (or world).
 ## Some Java Conventions (and one Rule)
 
-Before looking at the rules for writing Java programs, there's a couple of conventions that Java programmers tend to use - they're not enforced (except maybe in the workplace), but they will help you understand other people's code, and help others understand yours:
+Before looking at the rules for writing [[Java]] programs, there's a couple of conventions that [[Java]] programmers tend to use - they're not enforced (except maybe in the workplace), but they will [[Help]] you understand other people's code, and [[Help]] others understand yours:
 
 - Names of classes start with an uppercase letter - `HelloWorld`, not `hello_world`.
     
-- Names of variables start with a lowercase letter - `myNumber`, not `MyNumber`.
+- Names of [[Variables]] start with a lowercase letter - `myNumber`, not `MyNumber`.
     
 - Names made up of multiple words (like the ones above) use uppercase for the start of each word from the second word on (the first word is covered by the previous two conventions).
     
@@ -158,14 +158,14 @@ Before looking at the rules for writing Java programs, there's a couple of conve
     
 - Don't use underscores (`_`) in names (with the exception of constants).
     
-- Whitespace is only a separator in Java (you don't have to indent a particular way or anything), but you should indent every time you start a new block level - this will become clearer when you see more and more code.
+- Whitespace is only a separator in [[Java]] (you don't have to indent a particular way or anything), but you should indent every time you start a new block level - this will become clearer when you see more and more code.
     
 
-The one rule that you actually definitely have to know, is that Java is _**case sensitive**_ - `bob` is different to `Bob`, and to `BOB`, `BoB`, `BOb`, `boB`, `bOb` and `bOB.` So take care when writing class and variable names (or add all eight variants of Bob as variable names to really annoy people).
+The one rule that you actually definitely have to know, is that [[Java]] is _**case sensitive**_ - `bob` is different to `Bob`, and to `BOB`, `BoB`, `BOb`, `boB`, `bOb` and `bOB.` So take care when writing class and variable names (or add all eight variants of Bob as variable names to really annoy people).
 
 ## Basic Java Syntax
 
-We can now look at a simple program that demonstrates several basic syntactic elements of Java. (Note: you can run and modify this code! Play around! Maybe read the description first though!)
+We can now look at a simple program that demonstrates several basic syntactic elements of [[Java]]. (Note: you can run and modify this code! Play around! Maybe read the description first though!)
 
 
 ```
@@ -183,7 +183,7 @@ public class Hello {
 ```
 This program consists of a single class. Line 1 gives the syntax for defining a class: `class <name>.` The name is chosen by the programmer, and when objects are created from this class, their type is `<name>`, whatever that happens to be. So in this case, this class can be used to create objects of type `Hello`, although in this program effectively none are ever created. The `public` at the start of Line 1 is an _access modifier_. For now, we'll stick with `public` whenever we need such a thing, but in short, `public` means that everything in the program can access this class and its objects. To define what the contents of the class are, we enclose those contents in and open `{` and close `}` brace. Thus thus class definition runs from Line 1 to Line 8.
 
-Starting on Line 3, we have a method. The syntax for declaring a method in Java is `<return type> <name>( <parameter list> ) { ... }`. Here the return type is `void`, which means the method does not return anything when it's done, and the name is `main`. Its parameter list consists of a single parameter `String[] args`. Again, we don't need to understand this yet, but it's an array of Strings called `args`. The method has also been declared `public` (everything in the program can see it) and `static` (it only needs class variables to work - no object variables are necessary, and hence no object of this class needs to be created to run this method). The method contains the code between the `{` on Line 3 and the `}` on Line 7.
+Starting on Line 3, we have a method. The syntax for declaring a method in [[Java]] is `<return type> <name>( <parameter list> ) { ... }`. Here the return type is `void`, which means the method does not return anything when it's done, and the name is `main`. Its parameter list consists of a single parameter `String[] args`. Again, we don't need to understand this yet, but it's an array of Strings called `args`. The method has also been declared `public` (everything in the program can see it) and `static` (it only needs class variables to work - no object variables are necessary, and hence no object of this class needs to be created to run this method). The method contains the code between the `{` on Line 3 and the `}` on Line 7.
 
 This `main` method happens to be a special one in Java. For a piece of Java code to be runnable (i.e. a program), it needs at least one `main` method with exactly the signature we've just seen: `public static void main(String[] args) { ... }`. Later on we'll see classes with many other methods.
 
@@ -193,7 +193,7 @@ Line 5 contains a _statement_. Every statement in Java is terminated by either a
 
 Now that we've seen a very small program, we can start thinking about what we can put into that program. As Java is an imperative programming language, there's little we can do without variables (at least without great effort).
 
-As mentioned, Java has two sorts of types, we'll look at the first one here: primitive types.
+As mentioned, Java has two sorts of types, we'll look at the first one here: [[primitive types]].
 
 Variables of a primitive type simply store a value, and the type indicates what values they might be.
 
@@ -260,7 +260,7 @@ Lines 4-9 include two variable **declarations**, two **initialisations** and thr
 
 As computers are mathematical constructs, arithmetic forms an important part of their low level functionality, and provides the model for many of the more abstract and complicated things they can do.
 
-In Java, we have access to all the expected basic arithmetic operators: `+, -, *, /`, along with the mod operator `%`, which gives the remainder from a division. The first four work on the integer primitive types (anything like `int`) and the floating point types (`float` and `double`). `%` only works on integer types.
+In Java, we have access to all the expected basic arithmetic operators: `+, -, *, /`, along with the mod operator `%`, which gives the remainder from a division. The first four work on the integer [[primitive types]] (anything like `int`) and the floating point types (`float` and `double`). `%` only works on integer types.
 
 ```
 
@@ -298,7 +298,7 @@ In Java (and many programming languages), this is not the case, the operator `=`
 
 Whether `=` was a good choice for indicating this operation is a different matter...
 
-## Using Classes and Objects: Declaration, null and Reference Types
+## Using Classes and Objects: Declaration, null and [[Reference Types]]
 
 Although we won't make our own until a little later, we will start using classes and objects almost immediately.
 
@@ -425,17 +425,17 @@ Although Python is often touted as an exciting new language, it is in fact older
 
 ## The Structure of Python
 
-Just like Java, Python uses **Variables** as its primary tool for storing the state of a program.
+Just like Java, Python uses **[[Variables]]** as its primary tool for storing the [[state]] of a program.
 
-The program consists of sequences of **statements**, collected into **blocks**. Python allows the definition of **classes**, which act as templates for **objects**, however unlike Java, Python also allows code _outside_ of classes. This reflects its background as an interpreted scripting language.
+The program consists of sequences of **statements**, collected into **blocks**. [[Python]] allows the definition of **classes**, which act as templates for **objects**, however unlike [[Java]], [[Python]] also allows code _outside_ of classes. This reflects its background as an interpreted scripting language.
 
-This means that when writing simple programs, Python is often more straightforward than Java, with a trade-off that Java offers more opportunity to detect certain sorts of error in a program before it's been run.
+This means that when writing simple programs, [[Python]] is often more straightforward than [[Java]], with a trade-off that [[Java]] offers more opportunity to detect certain sorts of error in a program before it's been run.
 
-Python allows the definition of **functions**, which can also be either inside or outside a class. Python functions are, practically speaking, the equivalent of Java methods, they are sections of code that may take input parameters, perform some task and perhaps return a value. While there are technical differences in exactly how they work in the back-end, this is really just one of the many places where programming nomenclature overlaps and clashes, in Python "function" is just a general name, whereas it is used for a more precise concept in other languages (deriving from _functional programming_).
+[[Python]] allows the definition of **functions**, which can also be either inside or outside a class. [[Python]] functions are, practically speaking, the equivalent of [[Java]] methods, they are sections of code that may take input parameters, perform some task and perhaps return a value. While there are technical differences in exactly how they work in the back-end, this is really just one of the many places where programming nomenclature overlaps and clashes, in [[Python]] "function" is just a general name, whereas it is used for a more precise concept in other languages (deriving from _functional programming_).
 
-## Python's Design Philosophy
+## [[Python]]'s Design Philosophy
 
-Python has an explicit philosophy of programming associated with it (first published in [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)). Whether this philosophy is correct, coherent or useful is an open question, and despite a certain level of dogmatism amongst a certain type of Python programmer, it is rarely followed. It's principles are:
+[[Python]] has an explicit philosophy of programming associated with it (first published in [The Zen of Python](https://www.python.org/dev/peps/pep-0020/)). Whether this philosophy is correct, coherent or useful is an open question, and despite a certain level of dogmatism amongst a certain type of Python programmer, it is rarely followed. It's principles are:
 
 - Beautiful is better than ugly.
     
@@ -469,9 +469,9 @@ Python has an explicit philosophy of programming associated with it (first publi
     
 - Although never is often better than right now.
     
-- If the implementation is hard to explain, it's a bad idea.
+- If the [[implementation]] is hard to explain, it's a bad idea.
     
-- If the implementation is easy to explain, it may be a good idea.
+- If the [[implementation]] is easy to explain, it may be a good idea.
     
 - Namespaces are one honking great idea — let's do more of those!
     
@@ -627,7 +627,7 @@ In Java we have two types of variables, primitive and reference. For the moment,
 
 Java is a strongly, statically typed language. The "statically" part of this means that not only does data have a type in Java, but variables also have an explicit type (cf. Python, where data has a type, but the variables used to refer to it don't). So if you want a variable that's going to store `int` type data, the variable has to have type `int`. If you want to store a `float`, the variable should also be of type `float`, and so on. Later we will see there is a bit more flexibility, but for now, we should be thinking of matching our variable types to the data exactly.
 
-Java has 8 primitive types, which are listed in the ["Introduction to Java" lesson](https://edstem.org/au/courses/10667/lessons/30852/slides/217680).
+[[Java]] has 8 [[primitive types]], which are listed in the ["Introduction to Java" lesson](https://edstem.org/au/courses/10667/lessons/30852/slides/217680).
 
 ## Declaration
 
@@ -663,7 +663,7 @@ char c = 'a'; char c = 'b';
 
 ## Intialisation
 
-Java also requires variables to be initialised before use. The problem with this is that it is actually very difficult to determine if a variable has been initialised before its first use, but in small cases, it's possible and Java will complain. You may think of a "use" as any time the value of the variable is used to do something.
+Java also requires [[variables]] to be initialised before use. The problem with this is that it is actually very difficult to determine if a variable has been initialised before its first use, but in small cases, it's possible and [[Java]] will complain. You may think of a "use" as any time the value of the variable is used to do something.
 
 Initialisation is achieved just by assigning a value. This may be at declaration (as with some of the example above), or it may be later, as long as it happens at some point before that value is employed to compute something.
 
@@ -716,7 +716,7 @@ public class Example {
 
 
 
-Java will in fact auto-initialise variables to some equivalent of `0` (specifically whatever the interpretation of setting the block of memory it references to all zeroes is), but in the cases where it can tell that the programmer hasn't explicitly initialised it, it will fail to compile. In the cases where it can't tell (or doesn't try and check), you can observe this result:
+[[Java]] will in fact auto-initialise [[variables]] to some equivalent of `0` (specifically whatever the interpretation of setting the block of memory it references to all zeroes is), but in the cases where it can tell that the programmer hasn't explicitly initialised it, it will fail to compile. In the cases where it can't tell (or doesn't try and check), you can observe this result:
 
 ```
 public class Test {
@@ -735,23 +735,23 @@ public class Test {
 
 ## Variables in Python
 
-In contrast to Java, Python is a strongly, _dynamically_ typed language and uses only reference variables. However because of the way it handles data values, for certain types of data, variables work in a very similar way to Java's primitive types.
+In contrast to [[Java]], [[Python]] is a strongly, _dynamically_ typed language and uses only reference [[variables]]. However because of the way it handles data values, for certain types of data, [[variables]] work in a very similar way to Java's [[primitive types]].
 
 ## Typing
 
-As mentioned, Python is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the variables themselves have no type, and hence any type of data can be assigned to any variable (not necessarily a good practice, but it's possible).
+As mentioned, [[Python]] is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the [[variables]] themselves have no type, and hence any type of data can be assigned to any variable (not necessarily a good practice, but it's possible).
 
-As with Java, Python offers a range of built-in types, listed [here](https://edstem.org/au/courses/10667/lessons/30853/slides/217691).
+As with Java, [[Python]] offers a range of built-in types, listed [here](https://edstem.org/au/courses/10667/lessons/30853/slides/217691).
 
 ## Declaration and Initialisation
 
-As the variables have no type, there's not really a sensible way to declare an uninitialised variable, thus every variable declaration (excluding function parameters, but that's for later) is also an initialisation and has the form:
+As the [[variables]] have no type, there's not really a sensible way to declare an uninitialised variable, thus every variable declaration (excluding function parameters, but that's for later) is also an initialisation and has the form:
 
 ```
 <name> = <initial value>
 ```
 
-As with Java, there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid data value, but as the variable has no type, there's no restrictions other than that.
+As with [[Java]], there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid data value, but as the variable has no type, there's no restrictions other than that.
 
 So if we wanted a variable called `num` that stored an `int` (again, notice that the variable itself is not an `int`, it's just a variable), we could write:
 
@@ -767,11 +767,11 @@ If we want a variable to store the character 'c', we can write something like:
 letter = 'c'
 ```
 
-(Note that Python does not have a character data type, this is actually just a string.)
+(Note that [[Python]] does not have a character data type, this is actually just a string.)
 
 ## Use
 
-Thus using variables is relatively straight-forward in Python, they are created on first assignment, and that's that. This does have some implications for more complicated programs, but for simple ones, this is simpler than Java and avoids some basic errors (either a variable doesn't exist, or it does exist and it has a value - it may not be the right value, but there's no uninitialised variable problems).
+Thus using [[variables]] is relatively straight-forward in [[Python]], they are created on first assignment, and that's that. This does have some implications for more complicated programs, but for simple ones, this is simpler than [[Java]] and avoids some basic errors (either a variable doesn't exist, or it does exist and it has a value - it may not be the right value, but there's no uninitialised variable problems).
 
 ```
 d = 8.6
@@ -784,7 +784,7 @@ print("e = " + str(e))
 ```
 
 
-One place where this simplicity and flexibility can get confusing and lead to errors is incautious reuse of variables:
+One place where this simplicity and flexibility can get confusing and lead to errors is incautious reuse of [[variables]]:
 
 ```
 d = 8.6
@@ -895,9 +895,9 @@ If a Java program crashes it will (with its last gasp), print out an error messa
 
 ## Some essential background
 
-Before we can start talking about what runtime error messages look like, we need to give you a very rough idea of how Java programs run.
+Before we can start talking about what runtime error messages look like, we need to give you a very rough idea of how [[Java]] programs run.
 
-Most java programs are constructed from several classes. You can think of these as building blocks. Some of these classes/blocks will be written by the programmer, others will be imported from elsewhere (like the `Scanner` class). When a program is running, execution jumps around between these classes, since each class has different responsibilities.
+Most [[java]] programs are constructed from several classes. You can think of these as building blocks. Some of these classes/blocks will be written by the programmer, others will be imported from elsewhere (like the `Scanner` class). When a program is running, execution jumps around between these classes, since each class has different responsibilities.
 
 When something goes wrong and a program crashes, that crash will occur within one of these classes. But it might not be that classes fault! It might instead be the fault of some other class, which unfairly asked the first class to do something it wasn't capable of, or made a request that didn't make sense. The class that is actually at fault might be several steps removed from the one in which the crash happened.
 

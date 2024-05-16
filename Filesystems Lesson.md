@@ -1,7 +1,7 @@
 ## Chapter 1: The Filesystem
 
-Learning the Bash command-line interface will enable you to quickly and effectively perform many of the tasks which are arduous in a point-and-click environment. This chapter focuses on management of the Linux filesystem and its contents
-## Getting started with Bash
+Learning the [[Bash]] command-line interface will enable you to quickly and effectively perform many of the tasks which are arduous in a point-and-click environment. This chapter focuses on management of the Linux filesystem and its contents
+## Getting started with [[Bash]]
 
 ## 1. Working directory
 
@@ -10,7 +10,7 @@ The most elementary concept which distinguishes the shell from the graphical use
 ##   
 1.1. Executing a command
 
-To see where you are located, type pwd (which stands for "print working directory") at the command line then press the ENTER key.
+To see where you are located, type [[pwd]] (which stands for "print working directory") at the command line then press the ENTER key.
 
 ## 2. Hints
 
@@ -22,11 +22,11 @@ The most accurate and comprehensive source of information (though often difficul
 man pwd
 ```
 
-Using man: Use the spacebar to jump to the next page. Use the up/down arrow keys to move up and down a line. Use the **q** key to quit.
+Using [[man]]: Use the spacebar to jump to the next page. Use the up/down arrow keys to move up and down a line. Use the **q** key to quit.
 
 ## References
 
-It's worth scanning through the references below (in this order) when there's a Bash question you need help with.
+It's worth scanning through the references below (in this order) when there's a [[Bash]] question you need [[help]] with.
 
 [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/index.html), Michael Stonebank, University of Surrey (last viewed: 23 May 2007).
 
@@ -62,7 +62,7 @@ The diagram below represents (part of) the file system of Edstem. A line from on
 
 - When you are working within a shell terminal, you are always operating in a particular directory. To determine which directory you are in, use the **pwd** command.
     
-- Your home directory is the directory you are in when you first open the terminal. To go to your home directory from anywhere, just type **cd**
+- Your [[home]] directory is the directory you are in when you first open the terminal. To go to your [[home]] directory from anywhere, just type **cd**
     
 - An absolute path name is one beginning with the "/" character, which signifies the root of the file system tree. Therefore, the absolute way of going to your home directory is:  
     **cd /home**
@@ -113,7 +113,7 @@ Most but not all commands support the **--help** option which may display in a m
 
 ## Saving output to a file
 
-When you execute a Bash command, the output you see on the screen is of two types, the standard output (called the "**STDOUT**") and the standard error (called the "**STDERR**"). In this section we explain how to store these in a file.  
+When you execute a [[Bash]] command, the output you see on the screen is of two types, the standard output (called the "**STDOUT**") and the standard error (called the "**STDERR**"). In this section we explain how to store these in a file.  
   
 If you run the command:  
 `echo "Hello World"`  
@@ -126,11 +126,11 @@ echo "Hello World"
 
   
   
-Redirection is the process of capturing the **STDOUT** data and sending it to a destination other than the screen.
+[[Redirection]] is the process of capturing the **STDOUT** data and sending it to a destination other than the screen.
 
 # Saving standard output as a file
 
-The most commonly used redirection is the use of the greater-than operator (**>**) to send the standard output to a file.
+The most commonly used [[redirection]] is the use of the greater-than operator (**>**) to send the standard output to a file.
 
 ## **Example 1: Redirecting standard output**
 
@@ -286,7 +286,7 @@ ls /course/linuxgym/teeny
 
 ## 2. Listing invisible files
 
-Many directories (especially your home directory) have contents which are not displayed by ls unless you specifically ask it to. The invisible contents are files and directories beginning with a full-stop (.).  
+Many directories (especially your [[home]] directory) have contents which are not displayed by ls unless you specifically ask it to. The invisible contents are files and directories beginning with a full-stop (.).  
   
 In order to list these files as well, use the -a option - or equivalently --all - which means "all files". That is:
 
@@ -413,7 +413,7 @@ wc /course/linuxgym/teeny/3mwsm10.txt
 
 ## References
 
-As always, there are many options for these command which you will find in the man pages which are accessed with the command:
+As always, there are many options for these command which you will find in the [[man]] pages which are accessed with the command:
 
 ```
 man command
