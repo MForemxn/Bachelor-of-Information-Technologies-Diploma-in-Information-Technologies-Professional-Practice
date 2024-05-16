@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "398d343667c3047c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f729984cb6c903da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UTSME.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            },
-            "group": "0975ba86ee295e58"
-          }
-        ]
-      },
-      {
         "id": "873912cfef11c1fe",
         "type": "tabs",
         "children": [
@@ -33,13 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UTSME.md",
+                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            },
+            "group": "98ecfa87b145bfb1"
+          }
+        ]
+      },
+      {
+        "id": "893a301ec2165f09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43e38b7061860d06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             },
-            "group": "0975ba86ee295e58"
+            "group": "98ecfa87b145bfb1"
           }
         ]
       }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(port 23)",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UTSME.md",
+                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UTSME.md",
+                "file": "Variables and Branching Programming 1 EdStem Lesson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UTSME.md"
+                "file": "Variables and Branching Programming 1 EdStem Lesson.md"
               }
             }
           },
@@ -159,11 +159,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,41 +179,43 @@
       "html-server:Turn Http Server Off": false
     }
   },
-  "active": "7c02cffcd58bfd8b",
+  "active": "43e38b7061860d06",
   "lastOpenFiles": [
-    "CSV to Green Grass using MQTT.md",
-    "UTSME.md",
-    "Homepage/Home.md",
-    "Introduction to Information Systems Presentation.md",
-    "Introduction to Information Systems.md",
+    "Programming 1 EdStem Lessons.md",
+    "Variables and Branching Programming 1 EdStem Lesson.md",
+    "What is EdStem Programming 1 EdStem Lesson.md",
+    "Programming 1.md",
     "Subjects.md",
-    "Vim Skills Test Example Questions Answered.md",
-    "Prepping for Web Systems Skills Test.md",
-    "Using UNIX (based on the Linux Essentials certification).md",
-    "vim.md",
-    "Editor.md",
-    "Touch.md",
-    "Previous Commands.md",
-    "Redirection.md",
-    "Remote Access.md",
-    "Compressing Files.md",
-    "Creating Files.md",
+    "Homepage/Home.md",
+    "Introduction to Object Oriented Programming Principles Programming 1 EdStem Lesson.md",
+    "Input and Output Programming 1 EdStem Lesson.md",
+    "Inheritance and Interfaces Programming 1 EdStem Lesson.md",
+    "Java Lists and Generics Programming 1 EdStem Lesson.md",
+    "Classes and Objects Programming 1 EdStem Lesson.md",
+    "Methods and Functions Programming 1 EdStem Lesson.md",
+    "Arrays, Lists, Loops, and Some Fancier Data Types Programming 1 EdStem Lesson.md",
+    "Last Bits Programming 1 EdStem Lesson.md",
+    "Further Web Systems Notes.md",
+    "Programming 1 Lessons Copied from Ed.md",
     "Web Systems.md",
-    "Finding, evaluating and referencing information.md",
-    "Communication for IT Professionals.md",
-    "Design process.md",
-    "Using Ollama.md",
-    "Ethics and privacy.md",
+    "Web Systems EdStem Lessons.md",
+    "Untitled.md",
+    "Data Processing Lesson.md",
+    "Introduction to Scripting Lesson.md",
+    "Piping and Wildcards Lesson.md",
+    "Web Dev Lesson.md",
+    "People and Permissions Lesson.md",
+    "Elementary Vim Lesson.md",
+    "Filesystems Lesson.md",
+    "Ed Workspaces - Quick Start July2017.pdf",
+    "ed-discussion-quickstart Jan2019.pdf",
     "Pasted image 20240513111045.png",
     "Pasted image 20240513111031.png",
     "Pasted image 20240513111020.png",
-    "Programming 1.md",
     "Pasted image 20240513110115.png",
     "Pasted image 20240513110058.png",
     "Pasted image 20240513110048.png",
     "Pasted image 20240513110037.png",
-    "Processes.md",
-    "Common good approach.md",
     "Pasted image 20240513105006.png",
     "Pasted image 20240513104921.png",
     "Pasted image 20240513104906.png",
@@ -224,8 +227,6 @@
     "quiz-1-web-systems.pdf",
     "web-systems-lecture-notesquiz-1-preparation.pdf",
     "web-systems-quiz-1-notes (1).pdf",
-    "web-systems-quiz-1-notes.pdf",
-    "web-systems-quiz-1.pdf",
     "Untitled.canvas"
   ]
 }

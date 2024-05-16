@@ -1,5 +1,5 @@
 # [[Programming 1 Subject Outline | Subject Outline]]
-# [[Programming 1 Lessons Copied from Ed | Copied from Ed]]
+# [[Programming 1 EdStem Lessons|Edstem]]
 # Topics
 [[Simplest Working Program, and Simple Output]]
 [[Data Types and Variables]]
