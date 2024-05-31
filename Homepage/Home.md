@@ -5,3 +5,4 @@
 [[Week by Week Guidelines]]
 [[UTSME]]
 [[Using Ollama]]
+[[Using Fabric]]

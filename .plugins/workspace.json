@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Filesystems Lesson.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Filesystems Lesson.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Filesystems Lesson.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Filesystems Lesson.md",
+                "file": "Loops and Iterative Program Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,8 +147,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Filesystems Lesson.md"
+                "file": "Loops and Iterative Program Flow.md"
               }
+            }
+          },
+          {
+            "id": "4a8488c2474c3a2e",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
             }
           }
         ],
@@ -166,39 +174,39 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "copilot:Copilot Chat": false,
       "html-server:Turn Http Server On": false,
-      "html-server:Turn Http Server Off": false
+      "html-server:Turn Http Server Off": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "7c02cffcd58bfd8b",
+  "active": "12704f4965da89d2",
   "lastOpenFiles": [
-    "Filesystems Lesson.md",
-    "Web Systems EdStem Lessons.md",
-    "Variables and Branching Programming 1 EdStem Lesson.md",
-    "Programming 1 EdStem Lessons.md",
     "Programming 1.md",
+    "Arrays and User Input.md",
+    "Decisions and Branching Program Flow.md",
+    "Data Types and Variables.md",
+    "Simplest Working Program, and Simple Output.md",
     "Subjects.md",
-    "Homepage/Home.md",
-    "Ethics and privacy.md",
     "Introduction to Information Systems.md",
-    "What is EdStem Programming 1 EdStem Lesson.md",
-    "Introduction to Object Oriented Programming Principles Programming 1 EdStem Lesson.md",
-    "Input and Output Programming 1 EdStem Lesson.md",
-    "Inheritance and Interfaces Programming 1 EdStem Lesson.md",
-    "Java Lists and Generics Programming 1 EdStem Lesson.md",
-    "Classes and Objects Programming 1 EdStem Lesson.md",
-    "Methods and Functions Programming 1 EdStem Lesson.md",
-    "Arrays, Lists, Loops, and Some Fancier Data Types Programming 1 EdStem Lesson.md",
-    "Last Bits Programming 1 EdStem Lesson.md",
-    "Further Web Systems Notes.md",
-    "Programming 1 Lessons Copied from Ed.md",
-    "Web Systems.md",
-    "Untitled.md",
-    "Data Processing Lesson.md",
-    "Introduction to Scripting Lesson.md",
-    "Piping and Wildcards Lesson.md",
-    "Web Dev Lesson.md",
+    "Telecommunications and Networking.md",
+    "WAN (Wide Area Network).md",
+    "LAN (Local Area Network).md",
+    "Ethics and privacy.md",
+    "Social Engineering Scams.md",
+    "Information Security.md",
+    "Human-AI Interaction.md",
+    "Business Analytics.md",
+    "Data and Knowledge Management.md",
+    "Acquiring information systems and application.md",
+    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
+    "Introduction to Information Systems,  Information systems within the organisation.md",
+    "Communication for IT Professionals.md",
+    "Teamwork processes and participation.md",
+    "Effective written, visual and oral communication.md",
+    "Consideration of indigenous stakeholders knowledge, culture and needs.md",
+    "Ethics relating to IT issues.md",
+    "Academic integrity.md",
+    "Finding, evaluating and referencing information.md",
     "Ed Workspaces - Quick Start July2017.pdf",
     "ed-discussion-quickstart Jan2019.pdf",
     "Pasted image 20240513111045.png",
