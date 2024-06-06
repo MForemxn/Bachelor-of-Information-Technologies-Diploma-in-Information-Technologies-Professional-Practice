@@ -42,14 +42,14 @@
 ## Shoulder Surfing
 - Shoulder surfing is the practice of spying on the user of an ATM, computer, or other electronic device in an attempt to obtain personal or financial information. It can be done close by or through more sophisticated means like using binoculars or surveillance equipment.
 ## Tailgating
-- Tailgating, also known as "piggybacking," involves an unauthorized person following an authorized individual into a restricted area or system without their knowledge or consent. It exploits physical security weaknesses rather than technological ones. The attacker usually waits for someone to open a secure entrance and then follows closely behind, often under the guise of being an employee or a contractor without access credentials. This technique is particularly effective in busy environments where people are less likely to challenge or notice unauthorized entrants.
+- Tailgating, also known as "piggybacking," involves an unauthorized person following an authorized individual into a restricted area or system without their knowledge or consent. It exploits physical [[security]] weaknesses rather than technological ones. The attacker usually waits for someone to open a secure entrance and then follows closely behind, often under the guise of being an employee or a contractor without access credentials. This technique is particularly effective in busy environments where people are less likely to challenge or notice unauthorized entrants.
 
 ## Quid Pro Quo
 - Quid pro quo attacks involve the attacker offering a benefit or service in exchange for information or access. This type of social engineering plays on the human tendency to engage in a mutual exchange. For example, an attacker might call random numbers within an organization, claiming to be calling back from technical support. The attacker offers assistance in solving a non-existent problem in exchange for the employee's login credentials or other sensitive information. In another scenario, the attacker might offer free software in exchange for login information.
 
 # Conclusion
 
-Tailgating and quid pro quo are social engineering techniques that exploit human nature and the social norms of reciprocity and trust. Tailgating takes advantage of physical security lapses, while quid pro quo manipulates the expectation of a fair exchange for services or information. Awareness and training are key to defending against these tactics, as they help individuals recognize and respond appropriately to unauthorized attempts to gain access or information.
+Tailgating and quid pro quo are social engineering techniques that exploit human nature and the social norms of reciprocity and trust. Tailgating takes advantage of physical [[security]] lapses, while quid pro quo manipulates the expectation of a fair exchange for services or information. Awareness and training are key to defending against these tactics, as they help individuals recognize and respond appropriately to unauthorized attempts to gain access or information.
 
 # How Social Engineering Works
 

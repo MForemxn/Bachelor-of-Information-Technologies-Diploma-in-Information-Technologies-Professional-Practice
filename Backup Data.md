@@ -34,12 +34,12 @@
 - cloud services have become popular for backups due to their convenience and scalability:
 	- **Automated Backups**: many services offer automatic scheduling of backups.
 	- **Versioning**: the ability to restore previous versions of files.
-	- **Encryption**: data is encrypted for security during transfer and storage.
+	- **Encryption**: data is encrypted for [[security]] during transfer and storage.
 	- **Accessibility**: data can be accessed from any device with internet connectivity.
 
 # Challenges in Data Backup
 - despite its importance, data backup faces challenges:
 	- **Data Growth**: as data volumes grow, so does the need for storage capacity.
-	- **Security**: ensuring backups are secure from unauthorized access.
+	- **[[Security]]**: ensuring backups are secure from unauthorized access.
 	- **Compliance**: adhering to legal and regulatory requirements for data storage and protection.
 	- **Cost**: balancing the cost of backup solutions with the level of data protection needed.

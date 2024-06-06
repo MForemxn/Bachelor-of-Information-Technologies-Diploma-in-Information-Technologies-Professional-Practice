@@ -9,7 +9,7 @@
 	- hundreds of built-in cmdlets for performing common system administration tasks
 - allows scripting and automation of virtually any task in the Windows ecosystem
 	- scripts can range from simple command sequences to complex programs
-- enhanced security features
+- enhanced [[security]] features
 	- execution policies to control the execution of scripts
 	- supports secure connections for managing remote systems
 

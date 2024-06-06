@@ -12,11 +12,11 @@
 - today, BSD is not just a single operating system but a family of systems, each with its own focus and applications.
 	- FreeBSD: known for its performance and advanced networking features.
 	- NetBSD: emphasizes portability across a wide range of hardware platforms.
-	- OpenBSD: focuses on security features, correctness, and proactive security measures.
+	- OpenBSD: focuses on [[security]] features, correctness, and proactive [[security]] measures.
 	- DragonFly BSD: aims at high performance, particularly in multi-CPU environments.
 # BSD Features
 - BSD systems are known for their robustness, efficiency, and advanced networking capabilities.
-	- includes a native filesystem (UFS, ZFS), advanced networking, and security features.
+	- includes a native filesystem (UFS, ZFS), advanced networking, and [[security]] features.
 - they offer a comprehensive suite of standard Unix tools.
 - BSD licenses are more permissive compared to other open-source licenses, allowing for wider use in both open and closed source projects.
 # BSD in Modern Use

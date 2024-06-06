@@ -70,7 +70,7 @@ Absolutely, incorporating AI image recognition into the "Recycling Helper" app i
 
 - **AI Model Training**: You will need a dataset of images of recyclable materials to train your machine learning model. This could be sourced from existing databases or you might need to compile one.
 - **Model Accuracy**: Regular updates and retraining of the model with new data will be essential to maintain high accuracy, especially as new types of packaging and materials are introduced.
-- **User Privacy and Data Security**: Ensure that any data collected, especially photos taken by users, are handled securely with clear privacy policies.
+- **User Privacy and Data [[Security]]**: Ensure that any data collected, especially photos taken by users, are handled securely with clear privacy policies.
 
 ### Development Tools:
 
@@ -786,7 +786,7 @@ The error message "iOS project folder not found. Are you sure this is a React Na
 ### General Tips
 
 - **Check React Native Version**: Sometimes, certain commands or functionalities differ based on the version of React Native. Ensure you are following documentation that matches your project's React Native version.
-- **Permissions**: Make sure that your terminal has the necessary permissions to execute scripts and access all relevant directories. This can be particularly troublesome on macOS due to its security settings.
+- **Permissions**: Make sure that your terminal has the necessary permissions to execute scripts and access all relevant directories. This can be particularly troublesome on macOS due to its [[security]] settings.
 - **Using Xcode**: You can also try opening the Xcode project file directly from the `ios` folder (`.xcworkspace` file after running `pod install`, or `.xcodeproj` if no pods are installed) to see if Xcode itself gives any more detailed errors or warnings.
 
 Following these steps should help you resolve the error and continue with your iOS development. If issues persist, consider re-cloning the project from your version control system (if applicable) or reinitializing the project as a last resort.
@@ -1366,7 +1366,7 @@ bashCopy code
 
 `sudo npx react-native init SortWiseAI --use-yarn`
 
-**Note**: Using `sudo` with `npx` or npm can lead to security risks and is generally not recommended unless absolutely necessary. It can also cause further permission issues down the line, as files created with `sudo` will be owned by the root user.
+**Note**: Using `sudo` with `npx` or npm can lead to [[security]] risks and is generally not recommended unless absolutely necessary. It can also cause further permission issues down the line, as files created with `sudo` will be owned by the root user.
 
 #### 3. Change Ownership or Permissions
 

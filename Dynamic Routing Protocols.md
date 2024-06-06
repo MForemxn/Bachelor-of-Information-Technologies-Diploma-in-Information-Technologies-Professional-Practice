@@ -51,5 +51,5 @@
 	- requires careful planning and configuration to avoid routing loops and other issues
 - resource consumption
 	- dynamic routing protocols can consume significant amounts of CPU, memory, and bandwidth
-- security concerns
+- [[security]] concerns
 	- routing information must be protected from malicious tampering to prevent routing attacks

@@ -46,7 +46,7 @@ Fabric offers a variety of Patterns, each designed for a specific task:
 |**create_art_prompt**|Generates detailed prompts for [[AI]]-generated art|Artists and creators|
 |**summarize**|Creates concise summaries of provided text|Research, study, and content creation|
 |**explain_code**|Breaks down code functionality in simple terms|Education, software development|
-|**create_security_update**|Forms updates based on security developments|IT security, system admin|
+|**create_security_update**|Forms updates based on [[security]] developments|IT [[security]], system admin|
 |**write_essay**|Writes comprehensive essays from prompts|Education, content creation|
 |**extract_article_wisdom**|Pulls insightful concepts from articles|Research, academic study|
 |**create_visualization**|Creates visual representations of data|Data analysis, reporting|

@@ -11,10 +11,10 @@
 	- easier access to frequently used programs
     - improved system notifications
 - included new wallpapers, with "Bliss" becoming iconic
-# Security
-- marked a significant focus on security with the introduction of:
+# [[Security]]
+- marked a significant focus on [[security]] with the introduction of:
 	- Windows Firewall
-	- Security Center
+	- [[Security]] Center
 	- Internet Connection Firewall (ICF)
 - despite improvements, faced criticism for vulnerabilities and became a prime target for viruses and malware
 # Support and Legacy

@@ -89,7 +89,7 @@ When you apply for a Crypto.com Visa Card, you might choose a specific tier like
 
 During the lockup period, you cannot withdraw these CRO tokens. Once the lockup period ends, you can choose to withdraw your CRO or continue staking to enjoy ongoing card benefits and potential staking rewards.
 
-This mechanism not only supports the underlying blockchain's functionality and security but also ties the users more closely to the Crypto.com ecosystem, encouraging longer-term investment and usage of the platform's services.
+This mechanism not only supports the underlying blockchain's functionality and [[security]] but also ties the users more closely to the Crypto.com ecosystem, encouraging longer-term investment and usage of the platform's services.
 
 You
 

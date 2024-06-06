@@ -5,7 +5,7 @@
 - modern cryptography intersects with disciplines such as mathematics, computer science, and electrical engineering
 
 # Types of Cryptography
-- there are several types of cryptography, each with its own use cases and level of security:
+- there are several types of cryptography, each with its own use cases and level of [[security]]:
 	- symmetric-key cryptography
 		- uses the same key for both encryption and decryption
 		- examples include AES (Advanced Encryption Standard) and DES (Data Encryption Standard)
@@ -18,7 +18,7 @@
 
 # Cryptography in Practice
 - cryptography is used in various applications to ensure the [[confidentiality]], integrity, and authenticity of information:
-	- secure communications, such as SSL/TLS for Internet security
+	- secure communications, such as SSL/TLS for Internet [[security]]
 	- secure transactions, like those in banking and e-commerce
 	- password protection and storage
 	- digital signatures and certificates for verifying identity

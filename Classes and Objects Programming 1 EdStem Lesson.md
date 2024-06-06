@@ -569,7 +569,7 @@ public class BankAccount {
 
 The `accountName` and `balance` data members are encapsulated, so parts of the program outside this class/object can't readily interfere with this data in a way that isn't allowed by the methods of the class.
 
-Note of course that this is only designed to stop accidental interference - this is not about security, it's about safety and a step towards abstraction - anything that uses `BankAccount` doesn't need to know how the data is stored internally, it only need to care about the `public` methods.
+Note of course that this is only designed to stop accidental interference - this is not about [[security]], it's about safety and a step towards abstraction - anything that uses `BankAccount` doesn't need to know how the data is stored internally, it only need to care about the `public` methods.
 ## Abstraction
 
 Abstraction is a general idea that suggests that we should not have to care about the internals of something when they're not important to the external functionality. Is it important what the internals of a clock look like as long as it presents the time readably? A clockwork watch, digital watch, mobile phone, computer etc. all abstract the idea of a clock from the process of time-keeping. We can use all reasonably interchangeably to tell the time, regardless of whether it has tiny gears inside it, or it's consulting an internet based time server that uses an atomic clock.

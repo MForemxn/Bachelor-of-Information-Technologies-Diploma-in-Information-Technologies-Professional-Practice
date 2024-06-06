@@ -7,7 +7,7 @@
 # Key Features of AWS VPC
 
 - **Customizable network configurations**: Users can create a public-facing subnet for their webservers that has access to the internet, and place their backend systems such as databases or application servers in a private-facing subnet with no internet access.
-- **Security**: VPC provides two levels of security with security groups and network access control lists (ACLs) to enable inbound and outbound filtering at the instance and subnet level, respectively.
+- **[[Security]]**: VPC provides two levels of [[security]] with [[security]] groups and network access control lists (ACLs) to enable inbound and outbound filtering at the instance and subnet level, respectively.
 - **VPN Connection**: The option to connect your VPC to your own corporate data centre using an industry-standard encrypted IPsec VPN connection makes it easy for you to integrate cloud resources with your existing IT infrastructure.
 - **Direct Connect**: AWS Direct Connect allows for the establishment of a dedicated network connection from your premises to AWS, which can reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet-based connections.
 
@@ -22,10 +22,10 @@
 - **Transit Gateway**: A service that enables customers to connect their Amazon VPCs and their on-premises networks to a single gateway.
 - **Endpoint Services**: Private connections between your VPC and supported AWS services, without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection.
 
-# Security in AWS VPC
+# [[Security]] in AWS VPC
 
-- **Security Groups**: Act as a virtual firewall for your instances to control inbound and outbound traffic.
-- **Network ACLs**: An additional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+- **[[Security]] Groups**: Act as a virtual firewall for your instances to control inbound and outbound traffic.
+- **Network ACLs**: An additional layer of [[security]] for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
 - **Flow Logs**: Capture information about the IP traffic going to and from network interfaces in your VPC.
 
 # Connectivity Options

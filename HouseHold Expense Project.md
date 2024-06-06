@@ -82,7 +82,7 @@
 	    - Invite new roommates via email or a shareable link.
 	1. **Notifications and Settings**
 	    - Customizable notification settings for different types of alerts.
-	    - Settings for personal profile and security preferences.
+	    - Settings for personal profile and [[security]] preferences.
 	1. **Expense History**
 	    - Detailed list of past expenses sortable by date, category, or roommate.
 	    - Filters for viewing specific types of expenses.
