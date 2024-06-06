@@ -7,7 +7,7 @@
 |[41039](https://handbook.uts.edu.au/subjects/41039.html) [[Programming 1]]|6cp|
 |[31268](https://handbook.uts.edu.au/subjects/31268.html) [[Web Systems]]|6cp|
 |_Spring session_|   |   
-|[31269](https://handbook.uts.edu.au/subjects/31269.html) [[Business Requirements Modelling]]|6cp|
+|[31269](https://handbook.uts.edu.au/subjects/31269.html) [[Business Requirements Modelling (Topic)]]|6cp|
 |[41092](https://handbook.uts.edu.au/subjects/41092.html) [[Network Fundamentals]]|6cp|
 |Select 12 credit points of options|12cp|
 |**Year 2**|   |   
@@ -35,9 +35,9 @@
 |_Autumn session_|   |   
 |[31272](https://handbook.uts.edu.au/subjects/31272.html) [[Project Management and the Professional]]|6cp|
 |Select 6 credit points from the following:|6cp|
-|[41890](https://handbook.uts.edu.au/subjects/41890.html) [[Applying Network Security]]|6cp|
+|[41890](https://handbook.uts.edu.au/subjects/41890.html) [[Applying Network Security (Topic)]]|6cp|
 |[32011](https://handbook.uts.edu.au/subjects/32011.html) [[Multilayer Switched Networks]]|6cp|
-|[32009](https://handbook.uts.edu.au/subjects/32009.html) [[Advanced Routing Principles]]|6cp|
+|[32009](https://handbook.uts.edu.au/subjects/32009.html) [[Advanced Routing Principles (Topic)]]|6cp|
 |[41905](https://handbook.uts.edu.au/subjects/41905.html) [[Software Defined Networks]]|6cp|
 |[41903](https://handbook.uts.edu.au/subjects/41903.html) [[Internet Science]]|6cp|
 |[48436](https://handbook.uts.edu.au/subjects/48436.html) [[Digital Forensics]]|6cp|
@@ -50,9 +50,9 @@
 |_Spring session_|   |   
 |[31261](https://handbook.uts.edu.au/subjects/31261.html) [[Internetworking Project]]|6cp|
 |Select 6 credit points from the following:|6cp|
-|[41890](https://handbook.uts.edu.au/subjects/41890.html) [[Applying Network Security]]|6cp|
+|[41890](https://handbook.uts.edu.au/subjects/41890.html) [[Applying Network Security (Topic)]]|6cp|
 |[32011](https://handbook.uts.edu.au/subjects/32011.html) [[Multilayer Switched Networks]]|6cp|
-|[32009](https://handbook.uts.edu.au/subjects/32009.html) [[Advanced Routing Principles]]|6cp|
+|[32009](https://handbook.uts.edu.au/subjects/32009.html) [[Advanced Routing Principles (Topic)]]|6cp|
 |[41905](https://handbook.uts.edu.au/subjects/41905.html) [[Software Defined Networks]]|6cp|
 |[41903](https://handbook.uts.edu.au/subjects/41903.html) [[Internet Science]]|6cp|
 |[48436](https://handbook.uts.edu.au/subjects/48436.html) [[Digital Forensics]]|6cp|
