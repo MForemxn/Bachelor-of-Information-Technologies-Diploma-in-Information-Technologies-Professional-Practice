@@ -13,33 +13,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Web Systems.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             },
-            "group": "98ecfa87b145bfb1"
+            "group": "792af4c6beb4983a"
           }
         ]
       },
       {
-        "id": "893a301ec2165f09",
+        "id": "213c28738a6e2ab8",
         "type": "tabs",
         "children": [
           {
-            "id": "43e38b7061860d06",
+            "id": "4894c19663b19d3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Web Systems.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             },
-            "group": "98ecfa87b145bfb1"
+            "group": "792af4c6beb4983a"
           }
         ]
       }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Web Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loops and Iterative Program Flow.md",
+                "file": "Web Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loops and Iterative Program Flow.md"
+                "file": "Web Systems.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -174,39 +174,92 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false,
       "html-server:Turn Http Server On": false,
-      "html-server:Turn Http Server Off": false,
-      "copilot:Copilot Chat": false
+      "html-server:Turn Http Server Off": false
     }
   },
-  "active": "12704f4965da89d2",
+  "floating": {
+    "id": "9c11671bc2786462",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ca8ef4717bbb9999",
+        "type": "window",
+        "children": [
+          {
+            "id": "bf177415abc445b5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aee41f188f1bc272",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "UTSME.github.io Readme.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "02e42f25410cafb6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "utsme.github.io test file.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 602,
+        "y": 44,
+        "width": 600,
+        "height": 1042,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4894c19663b19d3a",
   "lastOpenFiles": [
-    "Programming 1.md",
-    "Arrays and User Input.md",
-    "Decisions and Branching Program Flow.md",
-    "Data Types and Variables.md",
-    "Simplest Working Program, and Simple Output.md",
     "Subjects.md",
+    "Programming 1.md",
+    "Inheritance and Interfaces.md",
+    "Predictability in Programming.md",
+    "Application Architecture.md",
+    "Programming Languages.md",
+    "Functionality Extension.md",
+    "Class Definitions.md",
+    "Scalable Software Solutions.md",
+    "Method Implementation.md",
+    "Code Maintenance.md",
+    "SOLID Principles.md",
+    "Abstract Classes.md",
+    "Contractual Programming.md",
+    "Code Organization.md",
+    "Interface Segregation Principle.md",
+    "Multiple Inheritance.md",
+    "Loose Coupling.md",
+    "Parent-Child Relationship.md",
     "Introduction to Information Systems.md",
-    "Telecommunications and Networking.md",
-    "WAN (Wide Area Network).md",
-    "LAN (Local Area Network).md",
-    "Ethics and privacy.md",
-    "Social Engineering Scams.md",
-    "Information Security.md",
-    "Human-AI Interaction.md",
-    "Business Analytics.md",
-    "Data and Knowledge Management.md",
-    "Acquiring information systems and application.md",
-    "Organisational Strategy, Competitive Advantage, and Information Systems.md",
-    "Introduction to Information Systems,  Information systems within the organisation.md",
-    "Communication for IT Professionals.md",
-    "Teamwork processes and participation.md",
-    "Effective written, visual and oral communication.md",
-    "Consideration of indigenous stakeholders knowledge, culture and needs.md",
-    "Ethics relating to IT issues.md",
-    "Academic integrity.md",
-    "Finding, evaluating and referencing information.md",
+    "Homepage/Home.md",
+    "Object Oriented Programming Techniques and Structures.md",
+    "Loops and Iterative Program Flow.md",
+    "OOP Fundamentals.md",
+    "Programming Principles.md",
+    "Efficiency in Solutions.md",
+    "Stream-Based I",
     "Ed Workspaces - Quick Start July2017.pdf",
     "ed-discussion-quickstart Jan2019.pdf",
     "Pasted image 20240513111045.png",
@@ -226,7 +279,6 @@
     "notes-for-quiz-1-web-systems-31268.pdf",
     "quiz-1-web-systems.pdf",
     "web-systems-lecture-notesquiz-1-preparation.pdf",
-    "web-systems-quiz-1-notes (1).pdf",
     "Untitled.canvas"
   ]
 }
