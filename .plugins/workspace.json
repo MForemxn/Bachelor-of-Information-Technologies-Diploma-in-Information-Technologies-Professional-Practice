@@ -31,13 +31,8 @@
             "id": "4894c19663b19d3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computing Theory.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             },
             "group": "792af4c6beb4983a"
           }
@@ -107,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computing Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computing Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computing Theory.md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,10 +170,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "12704f4965da89d2",
+  "active": "4894c19663b19d3a",
   "lastOpenFiles": [
-    "Coding Theory.md",
     "Computing Theory.md",
+    "Coding Theory.md",
     "Information Theory.md",
     "Machine Learning.md",
     "Artificial Intelligence.md",

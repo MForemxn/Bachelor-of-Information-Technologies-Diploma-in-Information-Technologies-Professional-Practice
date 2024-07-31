@@ -11,8 +11,12 @@
             "id": "d5ec7134b795684e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "State Management.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "State Management.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "State Management.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,7 +113,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "State Management.md"
+          }
         }
       }
     ],
@@ -125,14 +133,15 @@
   },
   "active": "d5ec7134b795684e",
   "lastOpenFiles": [
-    "Security.md",
-    "Penetration Testing.md",
     "Methods, Properties and Access Control.md",
     "Programming 1.md",
     "Subjects.md",
+    "Homepage/Home.md",
+    "State Management.md",
+    "Security.md",
+    "Penetration Testing.md",
     "Introduction to Information Systems.md",
     "Communication for IT Professionals.md",
-    "Homepage/Home.md",
     "AI Behaviour Interview.md",
     "Untitled",
     "Week by Week Guidelines.md",
@@ -152,7 +161,6 @@
     "scratch document.md",
     "d.md",
     "Computing Theory.md",
-    "Compressing Files.md",
     "Assesment Task 1 Template.pdf",
     "APA Interactive Guide.pdf",
     "Untitled.canvas",
