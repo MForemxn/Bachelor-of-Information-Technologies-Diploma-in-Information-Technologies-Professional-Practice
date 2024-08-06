@@ -35,7 +35,7 @@
 - establishing a clear maintenance schedule and protocol
 	- ensures regular checks and updates are performed efficiently
 - fostering a [[feedback]] loop with users
-	- allows for the identification of issues and potential improvements from the user's perspective
+	- allows for the [[identification]] of issues and potential improvements from the user's perspective
 - investing in training for maintenance staff
 	- ensures the team is equipped with the necessary skills and knowledge to manage the system effectively
 # Operation and Maintenance Documentation

@@ -1,5 +1,5 @@
 # What are advanced routing principles?
-- advanced routing principles refer to the sophisticated techniques and protocols used in network routing to efficiently manage data traffic, ensure reliability, and optimise performance
+- advanced routing principles refer to the sophisticated techniques and protocols used in network routing to efficiently manage [[data]] traffic, ensure reliability, and optimise performance
 - these principles are crucial for handling complex network structures and diverse traffic demands in large-scale and enterprise networks
 
 # Types of Advanced Routing Techniques
@@ -9,7 +9,7 @@
 	- [[Policy-Based Routing (PBR)]]
 		- allows administrators to define policies that dictate how traffic is routed, based on criteria other than the shortest path
 	- [[Multiprotocol Label Switching (MPLS)]]
-		- creates a highly efficient, scalable network by directing data from one network node to the next based on short path labels rather than long network addresses
+		- creates a highly efficient, scalable network by directing [[data]] from one network node to the next based on short path labels rather than long network addresses
 
 # [[Dynamic Routing Protocols]]
 - [[dynamic routing protocols]] are designed to adapt to changes in the network automatically, making routing decisions based on current network conditions

@@ -14,11 +14,11 @@
 - **Simplifies Complexity**: By focusing only on the necessary attributes and methods, abstraction reduces the complexity of designing and implementing software systems.
 - **Increases Reusability**: Abstraction allows for the creation of a more generic framework which can be reused across different applications.
 - **Improves Maintainability**: Changes in the abstracted code can be made independently of the concrete [[implementation]], making the system easier to maintain.
-- **Enhances [[Security]]**: By hiding the internal [[implementation]] details, abstraction provides a form of [[security]] through obscurity, protecting the data and the methods.
+- **Enhances [[Security]]**: By hiding the internal [[implementation]] details, abstraction provides a form of [[security]] through obscurity, protecting the [[data]] and the methods.
 
 # Examples of Abstraction
 
-- A common example of abstraction is the concept of a file in a computer system. Users interact with files (e.g., opening, reading, writing) without needing to understand the underlying details of how the data is stored on the disk.
+- A common example of abstraction is the concept of a file in a computer system. Users interact with files (e.g., opening, reading, writing) without needing to understand the underlying details of how the [[data]] is stored on the disk.
 - In a software application, a payment processing system can provide an abstract interface for payment methods. Whether the customer pays by credit card, PayPal, or bank transfer, the system [[processes]] payments through a unified interface, hiding the details of each payment method.
 
 # Challenges with Abstraction

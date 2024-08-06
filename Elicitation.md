@@ -1,5 +1,5 @@
-Stakeholders identification
+# Stakeholders [[identification]]
 
-Understanding the application domain
+# Understanding the application domain
 
-Requirements elicitation tools and techniques
+# Requirements elicitation tools and techniques

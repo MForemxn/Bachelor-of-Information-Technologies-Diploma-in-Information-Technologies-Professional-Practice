@@ -1,21 +1,21 @@
 # What are arrays and user [[input]]?
 - arrays are [[data structures]] used to store multiple values in a single variable
-	- allows for efficient storage and access of similar types of data
+	- allows for efficient storage and access of similar types of [[data]]
 	- can be one-dimensional or multi-dimensional (arrays of arrays)
-- user [[input]] refers to any information or data that is entered into a system by the user
+- user [[input]] refers to any information or [[data]] that is entered into a system by the user
 	- can be through various interfaces such as keyboard, mouse, [[touch]] screen, or voice commands
 	- critical for interactive applications and systems to respond to user's needs or commands
 
 # Arrays in Programming
-- used extensively in programming for data management and manipulation
-	- examples include sorting algorithms, managing lists of items, and storing data for processing
+- used extensively in programming for [[data]] management and manipulation
+	- examples include sorting algorithms, managing lists of items, and storing [[data]] for processing
 - languages like [[Python]], [[Java]], C++, and JavaScript have built-in support for arrays
 	- [[syntax]] and capabilities may vary between languages
 - arrays can be static (fixed size) or dynamic (size can change during runtime)
 
 # User [[Input]] Handling
-- involves capturing and processing data entered by users
-	- can include validation to ensure data [[integrity]] and relevance
+- involves capturing and processing [[data]] entered by users
+	- can include validation to ensure [[data]] [[integrity]] and relevance
 - common methods include using forms in [[web applications]] or [[input]] functions in console applications
 - [[security]] considerations are crucial to prevent malicious [[input]] (e.g., [[SQL injection]], cross-site [[scripting]])
 

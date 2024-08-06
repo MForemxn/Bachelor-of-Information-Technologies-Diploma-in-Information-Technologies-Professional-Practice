@@ -1,5 +1,5 @@
 ### ONE SENTENCE SUMMARY:
-A WAN (Wide Area Network) connects devices across large geographical areas, enabling communication and data exchange between distant locations.
+A WAN (Wide Area Network) connects devices across large geographical areas, enabling communication and [[data]] exchange between distant locations.
 
 ### RELATED TERMS:
 1. Internet
@@ -26,11 +26,11 @@ A WAN (Wide Area Network) connects devices across large geographical areas, enab
 ### MAIN POINTS:
 1. WANs cover larger geographical areas than LANs, connecting multiple smaller networks.
 2. The Internet is the largest example of a WAN, connecting networks globally.
-3. VPNs secure data transmission across WANs by creating encrypted connections.
-4. MPLS enhances data flow efficiency across WANs for high-performance telecommunications.
+3. VPNs secure [[data]] transmission across WANs by creating encrypted connections.
+4. MPLS enhances [[data]] flow efficiency across WANs for high-performance telecommunications.
 5. SD-WAN technology allows for more flexible and efficient WAN management.
 6. WANs often use leased lines, satellite, or fiber optics for long-distance connections.
-7. Routers direct data traffic across WANs, while firewalls provide [[security]].
+7. Routers direct [[data]] traffic across WANs, while firewalls provide [[security]].
 8. Bandwidth and latency are critical performance metrics for WANs.
 9. Cloud services and edge computing are increasingly integrated with WANs for improved performance and scalability.
 10. Network management in WANs involves monitoring, maintenance, and optimization of network performance and [[security]].
@@ -39,5 +39,5 @@ A WAN (Wide Area Network) connects devices across large geographical areas, enab
 1. WANs are crucial for global business operations and communication, connecting distant offices and enabling remote work.
 2. Technological advancements like SD-WAN and MPLS are making WANs more efficient and reliable.
 3. [[Security]] is a paramount concern for WANs, necessitating robust measures like VPNs and firewalls.
-4. The integration of cloud and edge computing with WANs is transforming data management and processing.
-5. Effective WAN management ensures high-quality communication and data exchange across vast geographical distances.
+4. The integration of cloud and edge computing with WANs is transforming [[data]] management and processing.
+5. Effective WAN management ensures high-quality communication and [[data]] exchange across vast geographical distances.

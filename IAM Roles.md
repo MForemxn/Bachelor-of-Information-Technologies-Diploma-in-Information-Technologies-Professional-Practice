@@ -23,7 +23,7 @@
 - follow the principle of least privilege: only grant permissions necessary to perform a task.
 - regularly review and audit iam roles and permissions to ensure they are up to date with current requirements.
 - use iam roles for applications running on EC2 instances to securely access other AWS services without embedding static credentials.
-- enable multi-factor authentication (MFA) for sensitive accounts and roles to add an extra layer of [[security]].
+- enable multi-factor [[authentication]] (MFA) for sensitive accounts and roles to add an extra layer of [[security]].
 
 # Advanced Features
 - iam policies support condition elements that allow permissions to be fine-tuned based on various factors like IP address, date/time, etc.

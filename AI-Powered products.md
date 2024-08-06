@@ -17,7 +17,7 @@
 - Automation of repetitive tasks
 	- Frees up human time for more complex and creative tasks.
 - Enhanced [[decision]] making
-	- [[AI]] can analyse vast amounts of data quickly to inform better decisions.
+	- [[AI]] can analyse vast amounts of [[data]] quickly to inform better decisions.
 - Personalisation
 	- [[AI]] can tailor experiences, recommendations, and services to individual user preferences.
 - Efficiency and cost savings
@@ -25,11 +25,11 @@
 
 # Challenges and considerations
 - Privacy and [[security]]
-	- [[AI]] products often require access to sensitive data, raising concerns about [[data protection]] and privacy.
+	- [[AI]] products often require access to sensitive [[data]], raising concerns about [[data protection]] and privacy.
 - Ethical implications
 	- Decisions made by [[AI]] can have significant impacts, necessitating careful consideration of ethical guidelines.
-- Dependence on data quality
-	- [[AI]] systems are only as good as the data they are trained on, making high-quality, unbiased data essential.
+- Dependence on [[data]] quality
+	- [[AI]] systems are only as good as the [[data]] they are trained on, making high-quality, unbiased [[data]] essential.
 - Integration with existing systems
 	- Incorporating [[AI]] into existing workflows and systems can be challenging and requires careful planning.
 

@@ -1,6 +1,6 @@
 # What is Programming and Testing?
 - programming refers to the process of designing, writing, debugging, and maintaining the source code of computer programs
-- testing is the systematic identification of defects in software through various methods and tools
+- testing is the systematic [[identification]] of defects in software through various methods and tools
 - both are critical components in the software development process, ensuring that the software is functional, reliable, and meets user requirements
 
 # Programming Languages and Paradigms

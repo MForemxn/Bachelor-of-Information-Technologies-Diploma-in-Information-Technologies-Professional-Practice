@@ -3,7 +3,7 @@ SQL Injection is a prevalent [[security]] vulnerability that occurs in the datab
 ## How SQL Injection Works
 
 - **Injection Mechanism**: Attackers insert (or "inject") malicious SQL statements into input fields or through manipulated HTTP requests. When these inputs are processed by the server without proper sanitization or parameterization, the malicious SQL code is executed.
-- **Example**: Consider a simple login form with fields for a username and password. An attacker might enter a username input like `admin' --` where the `--` denotes a SQL comment, potentially bypassing authentication by commenting out the rest of the SQL query.
+- **Example**: Consider a simple login form with fields for a username and password. An attacker might enter a username input like `admin' --` where the `--` denotes a SQL comment, potentially bypassing [[authentication]] by commenting out the rest of the SQL query.
 
 ## Types of SQL Injection
 

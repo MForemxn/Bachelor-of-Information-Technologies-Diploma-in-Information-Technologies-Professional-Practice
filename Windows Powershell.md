@@ -17,19 +17,19 @@
 - PowerShell is not just an upgrade of the command prompt (CMD)
 	- it is a more powerful tool with a vast set of features
 - CMD commands can be used in PowerShell, but PowerShell cmdlets offer more functionality
-	- for example, PowerShell provides objects, allowing for more complex and useful manipulations of data
+	- for example, PowerShell provides objects, allowing for more complex and useful manipulations of [[data]]
 - PowerShell scripts can interact with .NET, allowing for more sophisticated scripts compared to batch scripts
 
 # Scripting with PowerShell
 - PowerShell scripts use the .ps1 file extension
 - supports complex logic, including loops, conditions, and structured error handling
-- can access and manipulate the file system, registry, and other data stores
+- can access and manipulate the file system, registry, and other [[data]] stores
 - allows for the creation and management of Windows services, processes, and events
 
 ## Variables in PowerShell
 - strongly typed, but also has type inference to ease script development
-	- variables can store data of any .NET type
-- supports complex data structures, such as arrays and hash tables
+	- variables can store [[data]] of any .NET type
+- supports complex [[data]] structures, such as arrays and hash tables
 - provides a rich set of operators for manipulating variables and their contents
 
 # PowerShell ISE (Integrated Scripting Environment)

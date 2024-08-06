@@ -1,5 +1,7 @@
 # [[Database Fundamentals Subject Outline|Subject Outline]]
 # Topics
+[[Introduction to Database Management Systems]]
+
 [[The Role of Databases in Information Systems]]
 
 [[The Relational Data Model]]

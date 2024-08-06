@@ -2,7 +2,7 @@
 - risk management in [[information security]] involves identifying, assessing, and taking steps to mitigate risks to an organisation's information assets
 - aims to protect the [[confidentiality]], [[integrity]], and [[availability]] of data
 - involves a continuous process of:
-	- risk identification
+	- risk [[identification]]
 	- risk assessment (evaluating the potential impact and likelihood of risks)
 	- [[risk mitigation]] (implementing controls to manage risks)
 	- monitoring and review (to ensure the effectiveness of the risk management strategy and to adapt to new threats)

@@ -56,7 +56,7 @@ When a file is executable, it means that it can be run as a program. When a dire
 
 # Changing file permissions
 
-It is important to be able to change the permissions of files and directories to control their availability to other users - whether they be humans or processes. In general one uses a command of the form:
+It is important to be able to change the permissions of files and directories to control their [[availability]] to other users - whether they be humans or processes. In general one uses a command of the form:
 
 chmod [ugo][+-][rwx] /path/to/file
 

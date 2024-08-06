@@ -13,7 +13,7 @@
 - [[encryption]]: transforming readable data into an unreadable format unless decrypted
 	- uses algorithms and keys for data [[encryption]] and decryption
 - access control: restricting access to data based on user roles and permissions
-	- includes authentication (verifying identity) and authorisation (granting access)
+	- includes [[authentication]] (verifying identity) and [[authorisation]] (granting access)
 - secure communication protocols: ensuring data transmitted over networks is protected
 	- examples include SSL/TLS for web traffic and VPNs for secure [[remote access]]
 

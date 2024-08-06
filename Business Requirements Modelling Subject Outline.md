@@ -1,4 +1,4 @@
-31269 Business Requirements Modelling
+31269 [[Business Requirements Modelling]]
 
 Course area UTS: Information Technology
 
@@ -10,9 +10,7 @@ any Bachelor's degree OR any Bachelor's Honours Embedded OR any Bachelor's
 
 Combined Degree OR any Bachelor's Combined Honours
 
-These requisites may not apply to students in certain courses. See access
-
-conditions.
+These requisites may not apply to students in certain courses. See access conditions.
 
 Result type Grade and marks
 
@@ -26,7 +24,7 @@ Consultations: By appointment, available both online and on campus (please see s
 
 details).
 
-Students are expected to seek help through the following steps:
+Students are expected to seek [[help]] through the following steps:
 
 Step 1: Check Canvas
 
@@ -46,43 +44,21 @@ Lecturer: Dr. Mahira Mohamed Mowjoon
 
 Email: mahira.athamlebbe@uts.edu.au
 
-Tutors: Your tutor will be your first point of contact. Please see Canvas Your Teaching Staff page for tutor contact
-
-information.
+Tutors: Your tutor will be your first point of contact. Please see Canvas Your Teaching Staff page for tutor contact information.
 
 Subject description
 
-This subject introduces information system concepts and describes how these concepts can be used to model
-
-business requirements. It outlines how the ability to capture information about the system in ways understood by its
-
-eventual users improves the final quality of the system. An overview of agile and non-agile software engineering
-
-principles, methods, tools and techniques is presented and practised in small teams. The subject introduces various
-
-analysis approaches found in contemporary system development including object-oriented methods, agile methods,
-
-business process modelling and entity-relationship modelling. It explores the relationships between these techniques
-
-and their application, and how they are used to capture and model the business requirements. Students apply various
-
-requirements elicitation, analysis, modelling and specification techniques to case studies in small teams.
-
-Subject learning objectives (SLOs)
+This subject introduces information system concepts and describes how these concepts can be used to model business requirements. It outlines how the ability to capture information about the system in ways understood by its eventual users improves the final quality of the system. An overview of agile and non-agile [[software engineering]] principles, methods, tools and techniques is presented and practised in small teams. The subject introduces various analysis approaches found in contemporary system development including [[object]]-oriented methods, agile methods, business [[process]] [[modelling]] and entity-relationship [[modelling]]. It explores the relationships between these techniques and their application, and how they are used to capture and model the business requirements. Students apply various requirements [[elicitation]], analysis, [[modelling]] and [[specification]] techniques to case studies in small teams. Subject learning objectives (SLOs)
 
 Upon successful completion of this subject students should be able to:
 
-1. Identify stakeholders, understand their needs, and learn what/how to capture requirements in the system
+1. Identify stakeholders, understand their needs, and learn what/how to capture requirements in the system development [[process]]. (B.1)
 
-development process. (B.1)
+2. Apply [[modelling]] and [[systems analysis]] techniques that [[help]] understand the working of a business system. (D.1)
 
-2. Apply modelling and systems analysis techniques that help understand the working of a business system. (D.1)
-
-3. Document and specify various requirements via Software Requirements Specification (SRS). (C.1)
-
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 1 of 124. Develop various models using a range of systems analysis techniques to analyse and specify system and user
-
-requirements. (C.1)
+3. Document and specify various requirements via Software Requirements [[Specification]] (SRS). (C.1)
+   
+4. Develop various models using a range of [[systems analysis]] techniques to analyse and specify system and user requirements. (C.1)
 
 5. Work effectively in a small team. (E.1)
 
@@ -92,23 +68,13 @@ This subject also contributes specifically to the development of the following C
 
 (CILOs):
 
-Socially Responsible: FEIT graduates identify, engage, interpret and analyse stakeholder needs and cultural
+Socially Responsible: FEIT graduates identify, engage, interpret and analyse stakeholder needs and cultural perspectives, establish priorities and goals, and identify constraints, uncertainties and risks (social, ethical, cultural, legislative, environmental, economics etc.) to define the system requirements. (B.1)
 
-perspectives, establish priorities and goals, and identify constraints, uncertainties and risks (social, ethical, cultural,
+Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop components, systems and [[processes]] to meet specified requirements. (C.1)
 
-legislative, environmental, economics etc.) to define the system requirements. (B.1)
+Technically Proficient: FEIT graduates apply [[abstraction]], mathematics and discipline fundamentals, software, tools and techniques to evaluate, implement and operate systems. (D.1)
 
-Design Oriented: FEIT graduates apply problem solving, design and decision-making methodologies to develop
-
-components, systems and processes to meet specified requirements. (C.1)
-
-Technically Proficient: FEIT graduates apply abstraction, mathematics and discipline fundamentals, software, tools
-
-and techniques to evaluate, implement and operate systems. (D.1)
-
-Collaborative and Communicative: FEIT graduates work as an effective member or leader of diverse teams,
-
-communicating effectively and operating within cross-disciplinary and cross-cultural contexts in the workplace.
+Collaborative and Communicative: FEIT graduates work as an effective member or leader of diverse teams, communicating effectively and operating within cross-disciplinary and cross-cultural contexts in the workplace.
 
 (E.1)
 
@@ -118,19 +84,15 @@ Engineers Australia Stage 1 Competencies
 
 This subject contributes to the development of the following Engineers Australia Stage 1 Competencies:
 
-1.1. Comprehensive, theory based understanding of the underpinning natural and physical sciences and the
-
-engineering fundamentals applicable to the engineering discipline.
+1.1. Comprehensive, theory based understanding of the underpinning natural and physical sciences and the engineering fundamentals applicable to the engineering discipline.
 
 1.5. Knowledge of engineering design practice and contextual factors impacting the engineering discipline.
 
-1.6. Understanding of the scope, principles, norms, accountabilities and bounds of sustainable engineering practice
-
-in the specific discipline.
+1.6. Understanding of the scope, principles, norms, accountabilities and bounds of sustainable engineering practice in the specific discipline.
 
 2.2. Fluent application of engineering techniques, tools and resources.
 
-2.3. Application of systematic engineering synthesis and design processes.
+2.3. Application of systematic engineering synthesis and design [[processes]].
 
 2.4. Application of systematic approaches to the conduct and management of engineering projects.
 
@@ -140,89 +102,47 @@ in the specific discipline.
 
 Teaching and learning strategies
 
-This subject uses a lecture followed by a tutorial format. The tutorial provides collaborative and active learning
+This subject uses a lecture followed by a tutorial format. The tutorial provides collaborative and active learning workshops to support a practice-focused learning strategy. This subject is based on a practical case study and provides regular [[feedback]]. The teaching and learning approach is based on learning by doing collaborative work based on case studies.
 
-workshops to support a practice-focused learning strategy. This subject is based on a practical case study and
+In lectures, topics from the recommended texts are covered and additional material from other sources is introduced where necessary. After introducing the concept and topic in the lecture, students will further apply and practice these topics via interactive and collaborative exercises during the workshops in the tutorials. Additionally, students will be provided with illustrative examples, practice exercises and case studies that further reinforce the material.
 
-provides regular feedback. The teaching and learning approach is based on learning by doing collaborative work
+The lecture followed by a tutorial format are also an extra opportunity for students to ask questions and generate a discussion based on Canvas material. Students will engage in a range of activities such as role playing, think-pair-share, attempting quizzes, short presentations, working in groups, group discussion, critiquing other students’ work, problem solving exercises, analysing stakeholder needs, etc. During tutorials, students will apply the material and build a working relationship with other team members in a collaborative group learning environment. The collaborative and active learning environment will require students to work with other students in small groups on tutorial and assignment case study exercises.
 
-based on case studies.
+For the assignment case study, students are required to do some pre-work and bring the work in progress (draft models) to the tutorial sessions. Regular [[feedback]] will be provided to students each week in the tutorial, for both in-[[class]] case studies as well as the assignment case study. This will enable students to identify and correct any issues before formal submission of assignments, and consequently improve their learning and performance in the subject.
 
-In lectures, topics from the recommended texts are covered and additional material from other sources is introduced
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 2 of 12For assessable quizzes, [[feedback]] will be provided on Canvas at a specified date after students have attempted.
 
-where necessary. After introducing the concept and topic in the lecture, students will further apply and practice these
+Quizzes will be marked automatically and marks will be updated to Canvas so that students can track their progress and performance in the subject regularly and before the census date.
 
-topics via interactive and collaborative exercises during the workshops in the tutorials. Additionally, students will be
+Please note students are expected to put in some additional study time outside of [[class]] time. The University regards a 6 credit point subject as requiring 9-12 hours of study per week, including [[class]] time. Students must read the recommended and reference books outside of [[class]] time so that they can effectively participate in group work and discussions that are integral to the understanding of the topics.
 
-provided with illustrative examples, practice exercises and case studies that further reinforce the material.
-
-The lecture followed by a tutorial format are also an extra opportunity for students to ask questions and generate a
-
-discussion based on Canvas material. Students will engage in a range of activities such as role playing,
-
-think-pair-share, attempting quizzes, short presentations, working in groups, group discussion, critiquing other
-
-students’ work, problem solving exercises, analysing stakeholder needs, etc. During tutorials, students will apply the
-
-material and build a working relationship with other team members in a collaborative group learning environment. The
-
-collaborative and active learning environment will require students to work with other students in small groups on
-
-tutorial and assignment case study exercises.
-
-For the assignment case study, students are required to do some pre-work and bring the work in progress (draft
-
-models) to the tutorial sessions. Regular feedback will be provided to students each week in the tutorial, for both
-
-in-class case studies as well as the assignment case study. This will enable students to identify and correct any issues
-
-before formal submission of assignments, and consequently improve their learning and performance in the subject.
-
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 2 of 12For assessable quizzes, feedback will be provided on Canvas at a specified date after students have attempted.
-
-Quizzes will be marked automatically and marks will be updated to Canvas so that students can track their progress
-
-and performance in the subject regularly and before the census date.
-
-Please note students are expected to put in some additional study time outside of class time. The University regards a
-
-6 credit point subject as requiring 9-12 hours of study per week, including class time. Students must read the
-
-recommended and reference books outside of class time so that they can effectively participate in group work and
-
-discussions that are integral to the understanding of the topics.
-
-An aim of this subject is to help you develop academic and professional language and communication skills to succeed
-
-at university and in the workplace. During this subject, you will complete a milestone assessment task that will, in
-
-addition to assessing your subject-specific learning objectives, assess your English language proficiency
+An aim of this subject is to [[help]] you develop academic and professional language and communication skills to succeed at university and in the workplace. During this subject, you will complete a milestone assessment task that will, in addition to assessing your subject-specific learning objectives, assess your English language proficiency
 
 Content (topics)
 
-1. Process
+1. [[Process]]
 
-System development processes (traditional and agile)
+System development [[processes]] (traditional and agile)
 
-Requirements engineering processes
+Requirements engineering [[processes]]
 
-2. Elicitation
+2. [[Elicitation]]
 
-Stakeholders identification
+Stakeholders [[identification]]
 
 Understanding the application domain
 
-Requirements elicitation tools and techniques
+Requirements [[elicitation]] tools and techniques
 
-3. Modelling
+3. [[Modelling]]
 
-Process modelling with BPMN
+[[Process]] [[modelling]] with BPMN
 
-Data modelling with ERD
+Data [[modelling]] with ERD
 
-Object-oriented modelling with several OO models using UML
+[[Object]]-oriented [[modelling]] with several OO models using UML
 
-4. Specification
+4. [[Specification]]
 
 Software requirements specifications
 
@@ -238,11 +158,11 @@ Week/Session Dates Description
 
 Practice Quiz "Introduction to BRM"
 
-2 12 Aug "Requirements Process"
+2 12 Aug "Requirements [[Process]]"
 
 Week 2 Activity Due on Canvas ( date/day depends on the tutorial date/day)
 
-3 19 Aug "Requirements Elicitation"
+3 19 Aug "Requirements [[Elicitation]]"
 
 Quiz 1 Due on Canvas
 
@@ -250,13 +170,13 @@ Week 3 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-4 26 Aug "Requirements Analysis - Process Modelling"
+4 26 Aug "Requirements Analysis - [[Process]] [[Modelling]]"
 
 Week 4 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 3 of 125 02 Sep "Requirements Analysis - Data Modelling"
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 3 of 125 02 Sep "Requirements Analysis - Data [[Modelling]]"
 
 Quiz 2 Due on Canvas
 
@@ -264,13 +184,13 @@ Week 5 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-6 09 Sep " Software Requirement Specification (SRS) and Agile Development"
+6 09 Sep " Software Requirement [[Specification]] (SRS) and Agile Development"
 
 Week 6 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-Assessment 3 in-class presentation due in tutorial class
+Assessment 3 in-[[class]] presentation due in tutorial [[class]]
 
 Assessment 3 Due on Canvas
 
@@ -282,7 +202,7 @@ Week 7 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-8 23 Sep "Object-Oriented Models with UML - Use Case Modelling"
+8 23 Sep "[[Object]]-Oriented Models with UML - Use Case [[Modelling]]"
 
 Week 8 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
@@ -290,7 +210,7 @@ date/day)
 
 StuVac 30 Sep No Lectures and tutorial classes
 
-9 07 Oct "Object-Oriented Models with UML - Class Modelling" ( Due to Public holiday on
+9 07 Oct "[[Object]]-Oriented Models with UML - [[Class]] [[Modelling]]" ( Due to Public holiday on
 
 7th Oct, recorded lecture is posted on Canvas Instead of live online lecture)
 
@@ -300,13 +220,13 @@ Week 9 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-10 14 Oct "Object-Oriented Models with UML - Interaction Modelling"
+10 14 Oct "[[Object]]-Oriented Models with UML - Interaction [[Modelling]]"
 
 Week 10 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-11 21 Oct "Object-Oriented Models with UML - State and Event Modelling"
+11 21 Oct "[[Object]]-Oriented Models with UML - [[State]] and Event [[Modelling]]"
 
 Quiz 5 Due on Canvas
 
@@ -316,11 +236,11 @@ date/day)
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 4 of 1212 28 Oct Revision
 
-Assessment 4 in-class presentation due in tutorial class
+Assessment 4 in-[[class]] presentation due in tutorial [[class]]
 
 This presentation includes the mandatory milestone assessment component
 
-where your spoken communication is assessed by the tutor in class
+where your spoken communication is assessed by the tutor in [[class]]
 
 Assessment 4 and Reflection Due on Canvas
 
@@ -368,7 +288,7 @@ quiz is worth 6% and there are five assessable quizzes in total and assessed in 
 
 11.
 
-Questions in the quiz will be multiple choice questions. Feedback will be provided after the
+Questions in the quiz will be multiple choice questions. [[Feedback]] will be provided after the
 
 completion of each quiz by showing the students the answers they chose for each question. Quiz
 
@@ -396,7 +316,7 @@ Intent: To produce various models and artifacts of software and business require
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 5 of 12Intent: To produce various models and artifacts of software and business requirements via the traditional
 
-and agile approach to software development.
+and agile approach to [[software development]].
 
 To enhance professional skills of reflective practice.
 
@@ -446,13 +366,13 @@ completion of the weekly tutorial, students in the group will need to meet onlin
 
 continue working on their weekly activities. Each team member must make a fair contribution to
 
-these weekly activities. If there are issues within the group, please inform your tutor in class and via
+these weekly activities. If there are issues within the group, please inform your tutor in [[class]] and via
 
 email.
 
 Assessment task 3: Requirements Analysis Report
 
-Intent: To analyse business processes and capture data via the business process and data models.
+Intent: To analyse business [[processes]] and capture data via the business [[process]] and data models.
 
 Objective(s): This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -470,13 +390,13 @@ Groupwork: Group, individually assessed
 
 Weight: 20%
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 6 of 12Task: Length: Due: Each group will assess a case study and produce a report containing a Business Process Model,
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 6 of 12Task: Length: Due: Each group will assess a case study and produce a report containing a Business [[Process]] Model,
 
 Data Model and Data Dictionary.
 
 Students will work on this case study each week to produce drafts of their diagrams/models. Each
 
-week, students will be required to submit their work in progress so as to get formative feedback from
+week, students will be required to submit their work in progress so as to get formative [[feedback]] from
 
 their tutors before the formal submission deadline. This will enable the students to identify and
 
@@ -484,13 +404,13 @@ correct any issues before formal submission, and consequently improve their lear
 
 performance in the assignment.
 
-In the week 6 tutorial each group will give a 5 minute in-class presentation of their work in progress
+In the week 6 tutorial each group will give a 5 minute in-[[class]] presentation of their work in progress
 
-and receive further feedback from their tutor in preparation for submission.
+and receive further [[feedback]] from their tutor in preparation for submission.
 
 Additional information about the Case Study and detailed assessment criteria and other details will
 
-be provided in the assignment specification.
+be provided in the assignment [[specification]].
 
 The recommended word limit for this assignment is maximum 1000 words excluding diagrams,
 
@@ -512,25 +432,25 @@ students enrolled in the same tutorial group.
 
 Students will work in a team but be assessed as an individual based on SPARKPLUS and the
 
-Contributions Table to be provided in the assignment specification. Hence each member of the team
+Contributions Table to be provided in the assignment [[specification]]. Hence each member of the team
 
 may receive a different mark for this assignment based on the peer assessment reports.
 
 Student will self-organise themselves in group. It is not the responsibility of teaching staff to find a
 
-group for you; however, they may help to allocate you to a group if you are unable to find group
+group for you; however, they may [[help]] to allocate you to a group if you are unable to find group
 
-members. The group should be finalised in the first tutorial class and informed to the tutor.
+members. The group should be finalised in the first tutorial [[class]] and informed to the tutor.
 
 Additional information about the case study and detailed assessment criteria and other details will be
 
-provided in the assignment specification.
+provided in the assignment [[specification]].
 
-Assessment task 4: OO Requirements Analysis and Specification Report
+Assessment task 4: OO Requirements Analysis and [[Specification]] Report
 
 Intent: To analyse and capture the functional and non-functional requirements via the SRS, agile artifacts
 
-and object-oriented models.
+and [[object]]-oriented models.
 
 Objective(s): This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -560,7 +480,7 @@ non-functional requirements as parts of software requirement specifications.
 
 Students will work on this case study each week to produce drafts of their diagrams/models. Each
 
-week, students will be required to submit their work in progress so as to get formative feedback from
+week, students will be required to submit their work in progress so as to get formative [[feedback]] from
 
 their tutors before the formal submission deadline. This will enable the students to identify and
 
@@ -568,19 +488,19 @@ correct any issues before formal submission, and consequently improve their lear
 
 performance in the assignment.
 
-In the week 12 tutorial each group will give a 5 minute in–class presentation of their work in progress
+In the week 12 tutorial each group will give a 5 minute in–[[class]] presentation of their work in progress
 
-and receive further feedback from their tutor in preparation for submission.
+and receive further [[feedback]] from their tutor in preparation for submission.
 
 Additional information about the case study and detailed assessment criteria and other details will be
 
-provided in the assignment specification.
+provided in the assignment [[specification]].
 
 This task includes a milestone assessment component that evaluates your academic and
 
 professional communication. You will be guided to further language support after the completion of
 
-this subject if your results in this milestone task indicate you need more help with your language skills.
+this subject if your results in this milestone task indicate you need more [[help]] with your language skills.
 
 The recommended word limit for this assignment is maximum 3000 words excluding diagrams,
 
@@ -602,7 +522,7 @@ students enrolled in the same tutorial and the same group as your assessment 3. 
 
 in a team but be assessed as an individual based on SPARKPLUS results and the Contributions
 
-Table to be provided in the assignment specification. Hence each member of the team may receive a
+Table to be provided in the assignment [[specification]]. Hence each member of the team may receive a
 
 different mark for this assignment based on SPARKPLUS results.
 
@@ -612,13 +532,13 @@ Benchmarking of marking standards is used at the commencement of marking to assi
 
 similar ways.
 
-Assessment feedback
+Assessment [[feedback]]
 
 Marked assignments will be returned within 2 weeks after the assignment submission due date, with formative and
 
-summative feedback.
+summative [[feedback]].
 
-Formative and summative feedback for quizzes and weekly activities will be provided regularly each week and
+Formative and summative [[feedback]] for quizzes and weekly activities will be provided regularly each week and
 
 discussed during the workshops.
 
@@ -644,9 +564,9 @@ Recommended texts
 
 Sommerville,I. (2019) Engineering software products, Pearson, US
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 8 of 12Sommerville, I. (2016) Software engineering, 10th edn, Pearson, Boston Munich
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 8 of 12Sommerville, I. (2016) [[Software engineering]], 10th edn, Pearson, Boston Munich
 
-Robertson, S. & Robertson, J. (2013), "Mastering the Requirements Process: getting requirements right", Addison
+Robertson, S. & Robertson, J. (2013), "Mastering the Requirements [[Process]]: getting requirements right", Addison
 
 Wesley, 3rd Edition.
 
@@ -654,7 +574,7 @@ IIBA (2015), "A Guide to the Business Analysis Body of Knowledge", BABOK (any ve
 
 References
 
-Bennett, S., McRobb S., & Farmer, R. (2010), "Object-Oriented Systems Analysis and Design Using UML", McGraw
+Bennett, S., McRobb S., & Farmer, R. (2010), "[[Object]]-Oriented [[Systems Analysis]] and Design Using UML", McGraw
 
 Hill, 4th Edition.
 
@@ -662,13 +582,13 @@ Leffingwell, D. & Widrig, D. (2003), “Managing Software Requirements – A Use
 
 Second Edition.
 
-Brown, D.W. (2002), “An Introduction to Object-Oriented Analysis – Objects and UML in Plain English” Wiley, Second
+Brown, D.W. (2002), “An Introduction to [[Object]]-Oriented Analysis – Objects and UML in Plain English” Wiley, Second
 
 Edition.
 
-Kendall & Kendall. (2014), “Systems Analysis and Design”, Pearson Education Inc.
+Kendall & Kendall. (2014), “[[Systems Analysis]] and Design”, Pearson Education Inc.
 
-Blaha, M & Rumbaugh, J. (2005), “Object-oriented modeling and design with UML”, Pearson Prentice Hall, 2nd Edition.
+Blaha, M & Rumbaugh, J. (2005), “[[Object]]-oriented modeling and design with UML”, Pearson Prentice Hall, 2nd Edition.
 
 Other resources
 
@@ -688,7 +608,7 @@ Graduate attribute development
 
 For a full list of the faculty's graduate attributes refer to the FEIT Graduate Attributes webpage.
 
-For the contribution of subjects taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering
+For the contribution of [[subjects]] taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering
 
 to the Engineers Australia Stage 1 Competencies, see the faculty's Graduate Attributes and the Engineers Australia
 
@@ -720,7 +640,7 @@ demands, you may be eligible to apply for Special Consideration.
 
 Late penalty
 
-For Graded subjects:
+For Graded [[subjects]]:
 
 Work submitted late without an approved extension is subject to a late penalty of 10 per cent of the total available
 
@@ -752,11 +672,11 @@ d.
 
 e.
 
-take-home papers that are assessed during a defined time period, or
+take-[[home]] papers that are assessed during a defined time period, or
 
 pass/fail assessment tasks.
 
-For Pass/Fail subjects:
+For Pass/Fail [[subjects]]:
 
 Work submitted late without an approved extension will only be assessed at the subject coordinator’s discretion.
 
@@ -772,19 +692,19 @@ for the subject, it is possible to request a review of a result with the Subject
 
 the date of release of the result.
 
-Academic integrity
+Academic [[integrity]]
 
-Academic integrity is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
+Academic [[integrity]] is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
 
 assessments. Studying at UTS and being part of our community means maintaining these values and acting with
 
-academic integrity at all times. This is in line with expectations for professional practice in Engineering and IT.
+academic [[integrity]] at all times. This is in line with expectations for professional practice in Engineering and IT.
 
-Guide to practising academic integrity
+Guide to practising academic [[integrity]]
 
 As a UTS student, when you create something original, credit others and collaborate with care, you act with academic
 
-integrity:
+[[integrity]]:
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original
 
@@ -798,37 +718,37 @@ Collaborate with care. Make sure you do group work according to the guidelines f
 
 supervisor, study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about academic integrity, it’s okay, just ask! We are here to help you understand academic
+If you are feeling confused about academic [[integrity]], it’s okay, just ask! We are here to [[help]] you understand academic
 
-integrity and do your assessments with confidence:
+[[integrity]] and do your assessments with confidence:
 
-Explore the guide to practising academic integrity, including dos and don’ts.
+Explore the guide to practising academic [[integrity]], including dos and don’ts.
 
-Complete the academic integrity self-paced tutorial and quiz.
+Complete the academic [[integrity]] self-paced tutorial and quiz.
 
-Get help with academic skills, such as writing, researching and referencing, and other support for life outside of the
+Get [[help]] with academic skills, such as writing, researching and referencing, and other support for life outside of the
 
 classroom.
 
-Talk to your tutor, lecturer, subject coordinator or UTS help services if you are unsure about anything academic
+Talk to your tutor, lecturer, subject coordinator or UTS [[help]] services if you are unsure about anything academic
 
-integrity related.
+[[integrity]] related.
 
-Generative AI (GenAI) and academic integrity
+Generative [[AI]] (GenAI) and academic [[integrity]]
 
-In the Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are
+In the Faculty of Engineering and IT [[subjects]], unless otherwise instructed by the Subject Coordinator, you are
 
-permitted to use AI technologies, such as ChatGPT or DALL-E, to generate materials for background research and
+permitted to use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and
 
-self-study. Only assistive use is permitted. Content generated by AI technologies or other sources presented as your
+self-study. Only assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your
 
 own work is considered to be academic misconduct as per the UTS Student Rules on misconduct.
 
-There are a few things you must do to ensure you are maintaining academic integrity:
+There are a few things you must do to ensure you are maintaining academic [[integrity]]:
 
-Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
+Check the rules for if and how you can use GenAI in your [[subjects]] and assessments via this subject outline or your
 
-subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not
+subject sites in Canvas (rules will differ between [[subjects]], so make sure you check each subject). If you are not
 
 sure, check with your tutor, lecturer or subject coordinator.
 
@@ -838,11 +758,11 @@ Unless instructed otherwise by the Subject Coordinator, reference and acknowledg
 
 providing details of the type of interactions and extent of usage.
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 10 of 12Academic integrity breaches
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 10 of 12Academic [[integrity]] breaches
 
-A breach of academic integrity is also known as 'academic misconduct'. A breach occurs if you engage in behaviour
+A breach of academic [[integrity]] is also known as 'academic misconduct'. A breach occurs if you engage in behaviour
 
-that undermines academic integrity, such as plagiarism and cheating (see Student Rule 16.2).
+that undermines academic [[integrity]], such as plagiarism and cheating (see Student Rule 16.2).
 
 Plagiarism can take a number of forms including but not limited to:
 
@@ -884,9 +804,9 @@ students with the answers to assessments are also subject to student misconduct 
 
 These are all serious forms of misconduct and penalties apply.
 
-To help ensure academic integrity, assessments that you submit electronically may be subject to similarity detection
+To [[help]] ensure academic [[integrity]], assessments that you submit electronically may be subject to similarity detection
 
-software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
+software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf ([[text files]]), rtf,
 
 html). Under the Coursework Assessments Policy (section 4.27), vivas or other invigilated tasks may be used to
 

@@ -11,7 +11,7 @@
 ### It is not always easy to decide what is right or wrong. However, the available frameworks can [[help]] us make ethical decisions.
 # Fundamental Tenets of Ethics:
 - **Responsibility**: means that you accept the consequences of your decisions and actions.
-- **Accountability**: refers to determining who is responsible for actions that were taken.
+- **[[Accountability]]**: refers to determining who is responsible for actions that were taken.
 - **Liability**: A legal concept that gives individuals the right to recover the  damages done to them by other individuals, organisations, or  systems
 
 > What is Unethical is not necessarily Illegal

@@ -32,7 +32,7 @@
 
 # Ethical Considerations in Emerging Technologies
 - as technology evolves, new ethical challenges emerge:
-	- the development and deployment of [[AI]] and machine learning raise questions about bias, accountability, and the impact on employment
+	- the development and deployment of [[AI]] and machine learning raise questions about bias, [[accountability]], and the impact on employment
 	- the growth of the [[Internet of Things]] (IoT) increases concerns about surveillance and data [[security]]
 	- blockchain and cryptocurrencies present issues related to transparency, regulation, and financial ethics
 

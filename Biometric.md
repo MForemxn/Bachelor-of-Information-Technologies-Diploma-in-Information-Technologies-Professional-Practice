@@ -1,12 +1,12 @@
 # What is Biometric Data?
 - biometric data refers to unique physical or behavioural characteristics that can be used for identifying and authenticating individuals
 - includes fingerprints, facial patterns, voice recognition, and eye scans (iris or retina)
-- utilised in [[security]] systems, access control, and identification [[processes]] due to its uniqueness and difficulty to replicate
+- utilised in [[security]] systems, access control, and [[identification]] [[processes]] due to its uniqueness and difficulty to replicate
 
 # Importance of Biometric Data in [[Security]]
 - offers a higher level of [[security]] compared to traditional methods like passwords or PINs, which can be forgotten, lost, or stolen
-- provides a convenient and fast way for user authentication
-- enhances user experience by simplifying the authentication process, especially in mobile and personal devices
+- provides a convenient and fast way for user [[authentication]]
+- enhances user experience by simplifying the [[authentication]] process, especially in mobile and personal devices
 
 # Types of Biometric Data
 - physiological biometrics: based on physical characteristics of the body
@@ -16,7 +16,7 @@
 
 # Methods of Collecting and Using Biometric Data
 - biometric scanners and sensors: devices designed to capture and convert biometric traits into digital information
-- biometric authentication systems: compare collected biometric data against stored templates to verify identity
+- biometric [[authentication]] systems: compare collected biometric data against stored templates to verify identity
 - used in various applications, including smartphone [[security]], border control, banking, and secure access to buildings
 
 # Challenges in Biometric Data [[Security]]

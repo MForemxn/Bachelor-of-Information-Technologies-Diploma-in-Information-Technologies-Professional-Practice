@@ -18,14 +18,14 @@
 # Web Application Architecture
 - client-server architecture: separates the application into two main components, the client (front-end) and the server (back-end)
 - front-end: the user interface and interaction layer, built using HTML, CSS, and JavaScript
-- back-end: the server, [[database]], and application logic layer, responsible for processing requests, storing data, and generating responses
+- back-end: the server, [[database]], and application logic layer, responsible for processing requests, storing [[data]], and generating responses
 - communication between the client and server typically occurs over the HTTP/HTTPS protocol
 
 # Challenges in Web Application Development
 - ensuring cross-browser compatibility and responsive design for different devices and screen sizes
-- maintaining [[security]] to protect against threats like [[SQL injection]], [[cross-site scripting (XSS)]], and data breaches
+- maintaining [[security]] to protect against threats like [[SQL injection]], [[cross-site scripting (XSS)]], and [[data]] breaches
 - optimising performance to reduce load times and improve user experience, especially on mobile devices
-- managing scalability to handle increasing numbers of users and data volume
+- managing scalability to handle increasing numbers of users and [[data]] volume
 
 # Web Application Frameworks
 - frameworks provide a structured way to build web applications and handle common development tasks
@@ -33,7 +33,7 @@
 - popular back-end frameworks include Node.js, Django, and Ruby on Rails, which offer tools for building the server-side logic and [[database]] interactions
 
 # [[Security]] Measures for Web Applications
-- implementing HTTPS to encrypt data in transit
+- implementing HTTPS to encrypt [[data]] in transit
 - using [[secure coding practices]] to prevent vulnerabilities
 - conducting regular [[security]] audits and [[penetration testing]] to identify and fix [[security]] issues
 - employing [[authentication and authorisation]] mechanisms to control access to resources

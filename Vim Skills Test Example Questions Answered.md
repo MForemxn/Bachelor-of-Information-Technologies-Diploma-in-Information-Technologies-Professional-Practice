@@ -77,9 +77,9 @@ fi
 
 ```
 
-# Data Processing
+# [[Data]] Processing
 
-The file seats_2019.txt is a text file containing electoral data just prior to the 2019 federal election. The fields in order are: name of the electorate, its’ state or territory, the initials of the party that held the seat and the margin the seat is held by. Each field is separated by a space. Electorates with multiword names have been hyphenated. Although the file has every electorate for 2019, the data is unordered.
+The file seats_2019.txt is a text file containing electoral [[data]] just prior to the 2019 federal election. The fields in order are: name of the electorate, its’ state or territory, the initials of the party that held the seat and the margin the seat is held by. Each field is separated by a space. Electorates with multiword names have been hyphenated. Although the file has every electorate for 2019, the [[data]] is unordered.
 
 Note the **major** parties are : 
 - ALP (Australian Labor Party) LIB (Liberal Party)
@@ -125,7 +125,7 @@ sort -k1,1 seats_2019.txt > sorted_seats.txt
 
 # Harder Questions
 
-Some of these questions might be able to be done in one line, others may require two or more or many lines. It is permitted to save data in temporary files etc.
+Some of these questions might be able to be done in one line, others may require two or more or many lines. It is permitted to save [[data]] in temporary files etc.
 
 ## What seat is held by the smallest margin? Put the answer in a text file smallest.txt
 ```

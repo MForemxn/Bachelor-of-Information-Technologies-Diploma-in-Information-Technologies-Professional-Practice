@@ -13,7 +13,7 @@
 - redundancy: having backup systems or components that can take over in case of failure
 	- includes redundant servers, networks, and data storage
 - failover mechanisms: automatic switching to a redundant or standby system upon the failure of the primary system
-- regular maintenance and updates: keeping systems updated to prevent failures due to software bugs or hardware issues
+- regular [[maintenance]] and updates: keeping systems updated to prevent failures due to software bugs or hardware issues
 - DDoS protection: implementing measures to protect against Distributed Denial of Service attacks that aim to overwhelm resources
 
 # Challenges in Maintaining Availability
@@ -42,6 +42,6 @@
 - potential legal and regulatory consequences for failing to meet service level agreements or compliance requirements
 
 # Future Trends in Ensuring Availability
-- cloud-based solutions and services offering high availability and scalability
-- machine learning and [[AI]] for predictive maintenance, identifying potential issues before they cause downtime
+- cloud-based solutions and services offering high availability and [[scalability]]
+- [[machine learning]] and [[AI]] for predictive [[maintenance]], identifying potential issues before they cause downtime
 - increased focus on disaster recovery planning and business continuity strategies to minimise the impact of catastrophic events

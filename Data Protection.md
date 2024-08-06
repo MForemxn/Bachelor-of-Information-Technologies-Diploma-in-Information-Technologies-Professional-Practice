@@ -9,7 +9,7 @@ Data protection refers to the processes, policies, and technologies used to safe
 - **Accuracy**: Keeping data accurate, complete, and up-to-date.
 - **Storage Limitation**: Retaining data only as long as necessary for the purposes for which it was collected.
 - **[[Security]]**: Protecting data against unauthorised or unlawful processing and against accidental loss, destruction, or damage using appropriate technical or organisational measures.
-- **Accountability**: The data controller is responsible for, and must be able to demonstrate, compliance with the other principles.
+- **[[Accountability]]**: The data controller is responsible for, and must be able to demonstrate, compliance with the other principles.
 
 ## Data Protection Measures
 

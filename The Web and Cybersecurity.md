@@ -20,7 +20,7 @@
 ### [[Confidentiality]]
 
 - Ensuring information is accessible only to authorized users.
-- Mechanisms include [[encryption]], authentication, access controls, and secure transmission protocols.
+- Mechanisms include [[encryption]], [[authentication]], access controls, and secure transmission protocols.
 
 ### [[Integrity]]
 
@@ -36,7 +36,7 @@
 
 - [[Security]] services utilize mechanisms to protect against attacks that compromise the [[security]] of information.
 - Types of attacks include those against [[availability]], [[confidentiality]], [[integrity]], and authenticity.
-- Typical [[security]] services include [[confidentiality]] ([[encryption]]), authentication, [[integrity]] verification, non-repudiation, access control, and ensuring [[availability]].
+- Typical [[security]] services include [[confidentiality]] ([[encryption]]), [[authentication]], [[integrity]] verification, non-repudiation, access control, and ensuring [[availability]].
 
 ### [[Encryption]]
 
@@ -48,9 +48,9 @@
 - Hashing ensures data [[integrity]] by applying a code on data, such as emails or electronic documents, to verify it hasn't been modified.
 - This is typically used in secure email, digital signatures on documents, and software validation.
 
-### Authentication
+### [[Authentication]]
 
-- Authentication verifies identity and is key for non-repudiation and access control.
+- [[Authentication]] verifies identity and is key for non-repudiation and access control.
 - It involves verifying something the user knows (e.g., a password), has (e.g., a token), or is ([[Biometric|biometric data]]).
 
 ### Access Controls
@@ -79,8 +79,8 @@
 	- network [[security]] systems that monitor and control incoming and outgoing network traffic based on predetermined [[security]] rules
 - antivirus software
 	- designed to detect, prevent, and remove malware
-- secure passwords and authentication methods
-	- using strong, unique passwords and methods like two-factor authentication (2FA) to enhance [[security]]
+- secure passwords and [[authentication]] methods
+	- using strong, unique passwords and methods like two-factor [[authentication]] (2FA) to enhance [[security]]
 - regular software updates
 	- keeping software and systems up to date to protect against known vulnerabilities
 
@@ -89,7 +89,7 @@
 	- an extension of HTTP, used for secure communication over a computer network, and widely used on the internet
 - importance
 	- encrypts data exchanged between a user's browser and the website they are visiting, protecting against eavesdropping and tampering
-	- provides authentication of the accessed website, preventing [[man]]-in-the-middle attacks
+	- provides [[authentication]] of the accessed website, preventing [[man]]-in-the-middle attacks
 
 # [[Cybersecurity]] Education and Awareness
 - educating users about safe web practices is crucial in enhancing [[cybersecurity]]

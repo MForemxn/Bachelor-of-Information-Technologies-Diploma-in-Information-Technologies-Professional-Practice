@@ -3,13 +3,13 @@ In the context of the escalating waste management challenges on Saibai Island, t
 
 The opportunity identified within this design project centers on the transformation of waste management practices on Saibai Island. By exploring and implementing alternative waste destinations, we endeavour not only to mitigate the environmental pollution associated with landfill waste but also to unveil the potential of waste as a catalyst for economic enrichment and community development. The essence of our approach is encapsulated in the "How might we...?" statement, serving as the guiding principle for our design solution exploration.
 
-Our commitment to addressing the waste management issue on Saibai Island encompasses a comprehensive evaluation of the current waste practices, identification of viable waste diversion strategies, and the promotion of waste as a valuable resource for the community. We aim to do the following;
+Our commitment to addressing the waste management issue on Saibai Island encompasses a comprehensive evaluation of the current waste practices, [[identification]] of viable waste diversion strategies, and the promotion of waste as a valuable resource for the community. We aim to do the following;
 - Propose innovative solutions that go beyond traditional waste disposal methods, focusing on waste reduction, reuse, and recycling as principal components of waste management.
 - Explore the economic potential of waste by identifying avenues through which waste can contribute to the local economy, such as material recovery, composting for agricultural use, and the development of waste-to-energy projects.
 - Engage with local communities, stakeholders, and experts in environmental management to foster a collaborative approach towards sustainable waste practices.
 
 However, it is crucial to delineate the boundaries of our proposal. Our focus will primarily be on:
-- The identification and [[implementation]] of practical and community-oriented waste management solutions.
+- The [[identification]] and [[implementation]] of practical and community-oriented waste management solutions.
 - Initiatives that are feasible within the socio-economic and environmental context of Saibai Island.
 
 We will not engage in:

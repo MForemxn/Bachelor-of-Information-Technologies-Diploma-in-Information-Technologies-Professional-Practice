@@ -33,7 +33,7 @@
 	- - **Frontend:** React.js and Next.js for robust single-page application behavior, styled with Tailwind CSS and Daisy UI.
 	- **Backend:** Serverless functions via Next.js for API routes, handling calculations and data management.
 	- **Database:** MongoDB with Mongoose for efficient data storage and querying.
-	- **Authentication:** Possibly using NextAuth.js for seamless authentication integration.
+	- **[[Authentication]]:** Possibly using NextAuth.js for seamless [[authentication]] integration.
 	- **Hosting and Deployment:** Vercel for deploying both front and backend elements, with MongoDB Atlas for database services.
 
 
@@ -131,9 +131,9 @@
 - [ ] **[[State]] Management:** Use React hooks like `useState` and `useEffect` for managing [[state]] within your app.
 
 ### Step 4: Backend Development
-- [ ] **Serverless Functions:** Implement Next.js [[API]] routes to handle backend logic such as user authentication, expense management, and data retrieval.
+- [ ] **Serverless Functions:** Implement Next.js [[API]] routes to handle backend logic such as user [[authentication]], expense management, and data retrieval.
 - [ ] **[[Database]] Integration:** Use Mongoose to interact with MongoDB for CRUD operations related to users and expenses.
-- [ ] **Authentication:** Implement secure login and signup [[processes]] using email and password or third-party providers.
+- [ ] **[[Authentication]]:** Implement secure login and signup [[processes]] using email and password or third-party providers.
 
 ### Step 5: Integrations
 - [ ] **Payment Integration:** Use Stripe for handling payments, whether splitting bills or settling up expenses among roommates.

@@ -1,14 +1,14 @@
 # What is AWS VPC?
 
 - AWS VPC (Amazon Web Services Virtual Private Cloud) is a service that allows users to launch AWS resources in a logically isolated virtual network.
-- This virtual network closely resembles a traditional network that you'd operate in your own data centre, but with the benefits of using the scalable infrastructure of AWS.
+- This virtual network closely resembles a traditional network that you'd operate in your own [[data]] centre, but with the benefits of using the scalable infrastructure of AWS.
 - Users have complete control over their virtual networking environment, including selection of IP address range, creation of subnets, and configuration of route tables and network gateways.
 
 # Key Features of AWS VPC
 
 - **Customizable network configurations**: Users can create a public-facing subnet for their webservers that has access to the internet, and place their backend systems such as databases or application servers in a private-facing subnet with no internet access.
 - **[[Security]]**: VPC provides two levels of [[security]] with [[security]] groups and network access control lists (ACLs) to enable inbound and outbound filtering at the instance and subnet level, respectively.
-- **VPN Connection**: The option to connect your VPC to your own corporate data centre using an industry-standard encrypted IPsec VPN connection makes it easy for you to integrate cloud resources with your existing IT infrastructure.
+- **VPN Connection**: The option to connect your VPC to your own corporate [[data]] centre using an industry-standard encrypted IPsec VPN connection makes it easy for you to integrate cloud resources with your existing IT infrastructure.
 - **Direct Connect**: AWS Direct Connect allows for the establishment of a dedicated network connection from your premises to AWS, which can reduce network costs, increase bandwidth throughput, and provide a more consistent network experience than internet-based connections.
 
 # AWS VPC Destinations

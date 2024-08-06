@@ -16,7 +16,7 @@ To list and manage your projects, authenticate by running the following command:
 
 This process opens a browser tab for you to log in. It also creates certificates on your computer for [SSH](https://docs.platform.sh/development/ssh.html).
 
-Once you are logged in, a list of your projects appears, along with some tips for getting started. If you experience authentication issues or want to force a login, run the command `platform login`.
+Once you are logged in, a list of your projects appears, along with some tips for getting started. If you experience [[authentication]] issues or want to force a login, run the command `platform login`.
 
 ## 3. Use ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 

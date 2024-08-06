@@ -4,7 +4,7 @@ Computer security in [[Web Systems]] focuses on protecting websites, [[web appli
 ## Key Concepts
 - **[[Encryption]]**: Ensuring any sensitive data is not transmitted in plain text, and is not readable whilst stored or in transit.  
 - **[[Data Protection]]**: Ensuring that data transmitted between the server and the client (browser) is encrypted, typically using protocols like HTTPS.
-- **[[Authentication and Authorisation]]**: Verifying the identity of users (authentication) and ensuring they have permission to access specific resources or perform certain actions (authorization).
+- **[[Authentication and Authorisation]]**: Verifying the identity of users ([[authentication]]) and ensuring they have permission to access specific resources or perform certain actions (authorization).
 - **[[Cross-Site Scripting (XSS)]]**: A security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, potentially stealing data or compromising user accounts.
 - **[[SQL Injection]]**: A type of attack that involves inserting malicious SQL queries into input fields to manipulate or exploit the [[database]] behind a web application.
 - **[[Cross-Site Request Forgery (CSRF)]]**: An attack that tricks the victim into submitting a malicious request. It exploits the trust a web application has in the user's browser.

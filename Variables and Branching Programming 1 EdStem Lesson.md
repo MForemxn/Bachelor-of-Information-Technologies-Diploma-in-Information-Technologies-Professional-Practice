@@ -739,7 +739,7 @@ In contrast to [[Java]], [[Python]] is a strongly, _dynamically_ typed language 
 
 ## Typing
 
-As mentioned, [[Python]] is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the [[variables]] themselves have no type, and hence any type of data can be assigned to any variable (not necessarily a good practice, but it's possible).
+As mentioned, [[Python]] is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the [[variables]] themselves have no type, and hence any type of [[data]] can be assigned to any variable (not necessarily a good practice, but it's possible).
 
 As with Java, [[Python]] offers a range of built-in types, listed [here](https://edstem.org/au/courses/10667/lessons/30853/slides/217691).
 
@@ -751,7 +751,7 @@ As the [[variables]] have no type, there's not really a sensible way to declare 
 <name> = <initial value>
 ```
 
-As with [[Java]], there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid data value, but as the variable has no type, there's no restrictions other than that.
+As with [[Java]], there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid [[data]] value, but as the variable has no type, there's no restrictions other than that.
 
 So if we wanted a variable called `num` that stored an `int` (again, notice that the variable itself is not an `int`, it's just a variable), we could write:
 
@@ -759,7 +759,7 @@ So if we wanted a variable called `num` that stored an `int` (again, notice that
 num = 7
 ```
 
-As there's no way to just say "I want a variable that stores data of some type", initialising with an actual value is required (in the example, `7`).
+As there's no way to just say "I want a variable that stores [[data]] of some type", initialising with an actual value is required (in the example, `7`).
 
 If we want a variable to store the character 'c', we can write something like:
 
@@ -767,7 +767,7 @@ If we want a variable to store the character 'c', we can write something like:
 letter = 'c'
 ```
 
-(Note that [[Python]] does not have a character data type, this is actually just a string.)
+(Note that [[Python]] does not have a character [[data]] type, this is actually just a string.)
 
 ## Use
 
@@ -797,7 +797,7 @@ print("d = " + str(d))
 ```
 
 
-If we now miss the code where the variable `d` is storing a different of data, we can run into odd problems (easy to see here, but imagine a more complex codebase):
+If we now miss the code where the variable `d` is storing a different of [[data]], we can run into odd problems (easy to see here, but imagine a more complex codebase):
 ```
 d = 8.6
 
@@ -996,7 +996,7 @@ So we get several important pieces of information:
     
 - The line itself.
     
-- What sort of error has occurred. Here it's a TypeError, which means there's something wrong with the types of the data being manipulated. In this case it's trying to apply the `+` operator to a `str` and an `int`, which are not compatible for this operation.
+- What sort of error has occurred. Here it's a TypeError, which means there's something wrong with the types of the [[data]] being manipulated. In this case it's trying to apply the `+` operator to a `str` and an `int`, which are not compatible for this operation.
     
 - A more detailed description, which may give a hint as to what precisely is wrong (simple in this case) and how to go about fixing it.
     
@@ -1005,7 +1005,7 @@ Now adjust the code so that it runs and produces `This is not a number1` as the 
 
 ## A Little More About Types in [[Java]]
 
-As probably mentioned somewhere along the way, [[Java]] is a _strongly statically typed_ programming language. What this means is that [[variables]] and data both have types (for us), and those types have to be compatible and known at compile time.
+As probably mentioned somewhere along the way, [[Java]] is a _strongly statically typed_ programming language. What this means is that [[variables]] and [[data]] both have types (for us), and those types have to be compatible and known at compile time.
 
 We saw a type mistmatch/incompatible type error, but other errors are possible:
 
@@ -1037,11 +1037,11 @@ public class BadArguments {
 
 When we get to generics, we'll see other ways to mess up the types (and thanks to the way [[Java]] handles generics, some things you might think would be okay, but can't be done).
 
-But it's not only [[variables]] and data that have a type in [[Java]]:
+But it's not only [[variables]] and [[data]] that have a type in [[Java]]:
 
 - methods have a _return type_ - that's what the `void` we've seen in the signature of the `main` method is, it tells us that the `main` method doesn't return anything, we'll soon see methods with non-`void` return types.
     
-- _expressions_ have a type (you can interpret these just like methods, just with different formats). It's the type of the data that expression evaluates to. Not all expression types are useful to the programmer.
+- _expressions_ have a type (you can interpret these just like methods, just with different formats). It's the type of the [[data]] that expression evaluates to. Not all expression types are useful to the programmer.
     
 
 For example, the expression `10 + 3` has a type of `int`. This works:
@@ -1124,7 +1124,7 @@ int main() {
 
 `booleans` are often not so interesting by themselves. Where they become extremely useful is as the type of a whole expression.
 
-We can create `boolean` values by combining data using operators (some of which you will be familiar with from maths). Here are the most prominent ones in [[Java]] that return a `boolean`:
+We can create `boolean` values by combining [[data]] using operators (some of which you will be familiar with from maths). Here are the most prominent ones in [[Java]] that return a `boolean`:
 
 - `<` - less than (takes two suitable numeric arguments).
     
@@ -1719,7 +1719,7 @@ Once you have the basic idea in [[Java]], [[Python]] (and every imperative progr
 
 ## Structural Pattern Matching and the match statement in [[Python]]
 
-Prior to version 3.10, [[Python]] had no similar statement to [[Java]]'s `switch`, leaving just a hack with `dicts` that kind of works, but it's actually just exploiting a data structure to give back known values, rather than running code.
+Prior to version 3.10, [[Python]] had no similar statement to [[Java]]'s `switch`, leaving just a hack with `dicts` that kind of works, but it's actually just exploiting a [[data]] structure to give back known values, rather than running code.
 
 Since version 3.10, however, [[Python]] has introduced a pattern matching statement with very similar syntax to [[Java]]'s (and C, C++, etc.) `switch`, but with slightly different semantics. [[Python]]'s `match` statement draws inspiration from functional language style pattern matching, rather than the C style "fancy jump statement", but in simple cases it mostly works the same as a [[Java]] `switch`.
 

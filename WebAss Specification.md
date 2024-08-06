@@ -110,7 +110,7 @@ You can also set up a web server on your own machine. The choices are many, see�
 - If you are late, the Mark process will still work and the new version will be uploaded to the public site, but this may result in a late penalty as specified in the subject outline.
 - You will get zero (0) marks for websites email'ed, submitted erroneously on Canvas, or demonstrated by using the browser to directly load a HTML file (ie: using File -> Open, c:\ or file:// URL's.).  
     ANYTHING ELSE WILL NOT BE MARKED!
-- Do not change the web site after the submission date - everthing is data stamped so we will know. Your tutor may take up to 2 weeks to finalise the marking.
+- Do not change the web site after the submission date - everthing is [[data]] stamped so we will know. Your tutor may take up to 2 weeks to finalise the marking.
 
 ### Prohibitions
 

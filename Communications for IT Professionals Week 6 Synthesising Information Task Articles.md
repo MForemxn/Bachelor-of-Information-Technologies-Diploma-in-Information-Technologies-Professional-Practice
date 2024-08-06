@@ -140,11 +140,11 @@ Another key principle for [[AI]] ethics is impartiality. [[AI]] should treat all
 
 Artificial intelligence can’t pick up on biases within its data. If this isn’t addressed, [[AI]] systems could repeat these biases and implement them automatically. There have been many cases of [AI bias upholding systemic forms of discrimination](https://www.prolific.co/blog/shocking-ai-bias) towards marginalized groups. That’s why researchers must use unbiased, high-quality data and test models to see if they display biased behavior.
 
-#### 3. Accountability
+#### 3. [[Accountability]]
 
-Accountability is another important aspect of [[AI]] ethics. Algorithms are run by artificial intelligence. So, who is held accountable when something goes wrong? People and organizations who have worked on an [[AI]] system need to be held accountable at each stage of the process, not just after the [[AI]] is already operating.
+[[Accountability]] is another important aspect of [[AI]] ethics. Algorithms are run by artificial intelligence. So, who is held accountable when something goes wrong? People and organizations who have worked on an [[AI]] system need to be held accountable at each stage of the process, not just after the [[AI]] is already operating.
 
-With [[AI]] accountability, prevention is as important as the cure. Teams need to ensure they understand how well the system is working, supervise the development of the algorithms, and select high-quality data to feed into the system. Organizations should consult diversity experts, as well as people who will be using the [[AI]] system. What’s more, if an [[AI]] system is used for sensitive purposes, such as public services, it should always be held accountable by external review.
+With [[AI]] [[accountability]], prevention is as important as the cure. Teams need to ensure they understand how well the system is working, supervise the development of the algorithms, and select high-quality data to feed into the system. Organizations should consult diversity experts, as well as people who will be using the [[AI]] system. What’s more, if an [[AI]] system is used for sensitive purposes, such as public services, it should always be held accountable by external review.
 
 #### 4. Reliability
 
@@ -156,7 +156,7 @@ Monitoring [[AI]] systems is key to ensuring their reliability. This way, any is
 
 [[Security]] measures need to be established to ensure that sensitive data is stored and used securely. These measures include data [[encryption]], locating system vulnerabilities and defending against malicious attacks. Responsible data collection and robust data governance practices are also essential.
 
-[According to Forbes](https://www.forbes.com/sites/forbestechcouncil/2021/01/27/ai-ethics-really-come-down-to-security/?sh=6a4c62be1676), one of the biggest challenges is that [[AI]] is often patched together by a network of very different creators. This makes it hard to achieve the levels of accountability, reliability, and [[security]] needed for ethical [[AI]]. To become truly secure, you need a unified approach to [[security]] across the entire lifespan of the [[AI]] system.
+[According to Forbes](https://www.forbes.com/sites/forbestechcouncil/2021/01/27/ai-ethics-really-come-down-to-security/?sh=6a4c62be1676), one of the biggest challenges is that [[AI]] is often patched together by a network of very different creators. This makes it hard to achieve the levels of [[accountability]], reliability, and [[security]] needed for ethical [[AI]]. To become truly secure, you need a unified approach to [[security]] across the entire lifespan of the [[AI]] system.
 
 ### Ethical [[AI]] hinges on high-quality data
 

@@ -32,7 +32,7 @@ Based on the provided context, here are the evaluations of the statements regard
 
 ### **Article 2 (Denison, 2023)**
 
-- [[AI]] ethics are crucial as [[AI]] technology becomes more advanced, posing risks to human safety. Ethical [[AI]] involves principles like transparency, impartiality, accountability, reliability, and [[security]] to minimize risks and improve life for all human beings.
+- [[AI]] ethics are crucial as [[AI]] technology becomes more advanced, posing risks to human safety. Ethical [[AI]] involves principles like transparency, impartiality, [[accountability]], reliability, and [[security]] to minimize risks and improve life for all human beings.
 
 ### **Article 3 (Waters, 2024)**
 

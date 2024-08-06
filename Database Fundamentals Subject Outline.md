@@ -1,4 +1,4 @@
-31271 Database Fundamentals
+31271 [[Database Fundamentals]]
 
 Course area UTS: Information Technology
 
@@ -6,9 +6,9 @@ Delivery Credit points 6cp
 
 Requisite(s) Spring 2024; standard mode; City
 
-48023 Programming Fundamentals OR 37171 Introduction to Programming OR
+48023 [[Programming Fundamentals]] OR 37171 Introduction to Programming OR
 
-48430 Fundamentals of C Programming OR 41039 Programming 1
+48430 Fundamentals of C Programming OR 41039 [[Programming 1]]
 
 Result type Grade and marks
 
@@ -60,19 +60,19 @@ announcements or updated news on Ed. Requests for appointments outside the given
 
 Bring your own device (BYOD)
 
-Students need to bring their laptops to the class. They can also borrow laptops that are provided by the university.
+Students need to bring their laptops to the [[class]]. They can also borrow laptops that are provided by the university.
 
 Subject description
 
-This subject introduces students to the fundamentals of effective database systems. Students are taught how data is structured and managed in an organisation in a way that can be used effectively by applications and users. They also learn to use the language SQL for effective data retrieval and modification. This subject teaches students to appreciate the significance and challenges of good database design and management, which underpin the development of functional software applications.
+This subject introduces students to the fundamentals of effective [[database]] systems. Students are taught how data is structured and managed in an organisation in a way that can be used effectively by applications and users. They also learn to use the language SQL for effective data retrieval and modification. This subject teaches students to appreciate the significance and challenges of good [[database]] design and management, which underpin the development of functional [[software applications]].
 
 Subject learning objectives (SLOs)
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 1 of 14Upon successful completion of this subject students should be able to:
 
-1. Construct conceptual data models using appropriate database design, and data modelling principles. (C.1)
+1. Construct conceptual data models using appropriate [[database]] design, and data [[modelling]] principles. (C.1)
 
-2. Identify data redundancy levels and their impact on database integrity and maintainability using data normalisation principles. (D.1)
+2. Identify data redundancy levels and their impact on [[database]] [[integrity]] and maintainability using data normalisation principles. (D.1)
 
 3. Construct efficient SQL queries to retrieve and manipulate data as required. (D.1)
 
@@ -82,9 +82,9 @@ This subject also contributes specifically to the development of the following C
 
 (CILOs):
 
-Design Oriented: FEIT graduates apply problem solving, design and decision-making methodologies to develop components, systems and processes to meet specified requirements. (C.1)
+Design Oriented: FEIT graduates apply problem solving, design and [[decision]]-making methodologies to develop components, systems and [[processes]] to meet specified requirements. (C.1)
 
-Technically Proficient: FEIT graduates apply abstraction, mathematics and discipline fundamentals, software, tools and techniques to evaluate, implement and operate systems. (D.1)
+Technically Proficient: FEIT graduates apply [[abstraction]], mathematics and discipline fundamentals, software, tools and techniques to evaluate, implement and operate systems. (D.1)
 
 Contribution to the development of graduate attributes
 
@@ -96,7 +96,7 @@ This subject contributes to the development of the following Engineers Australia
 
 2.2. Fluent application of engineering techniques, tools and resources.
 
-2.3. Application of systematic engineering synthesis and design processes.
+2.3. Application of systematic engineering synthesis and design [[processes]].
 
 Teaching and learning strategies
 
@@ -106,7 +106,7 @@ Related materials (lecture notes, tutorial questions, etc.) will be provided on 
 
 In tutorials, students will be involved in discussions about provided tasks to analyze the problem from different perspectives. Students have the opportunity to share their ideas and skills with their teammates under the supervision of their tutor. Suggested solutions will be presented by each team and discussed/evaluated during the tutorial.
 
-During the session, students will receive feedback on their progress and performance through weekly quizzes, tutorial discussions and reviewed assignments.
+During the session, students will receive [[feedback]] on their progress and performance through weekly quizzes, tutorial discussions and reviewed assignments.
 
 Content (topics)
 
@@ -122,15 +122,15 @@ Content (topics)
 
 6.
 
-The Role of Databases in Information Systems
+The Role of Databases in [[Information Systems]]
 
-The Relational Data Model
+[[The Relational Data Model]]
 
-Conceptual database design (ER modeling)
+Conceptual [[database]] design (ER modeling)
 
 Logical design: ER conversion to a relational model
 
-Normalisation and set operators
+[[Normalisation and set operators]]
 
 SQL: simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries
 
@@ -146,7 +146,7 @@ Review the self-study lecture note.
 
 Review the lecture notes and concepts in Chapters 1 and 2 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
 Explore the Ed environment through the link in Canvas and review the Ed manual
 
@@ -154,7 +154,7 @@ Explore the Ed environment through the link in Canvas and review the Ed manual
 
 Lecture and Tutorial 1:
 
-Introduction to Database Management Systems (DBMS) and Data Modeling I:
+Introduction to [[Database]] Management Systems (DBMS) and Data Modeling I:
 
 Entity, Attributes, PK, FK, etc.
 
@@ -172,7 +172,7 @@ Whatch the recorded video in Week 2 module on Ed
 
 Review the lecture notes and related concepts to Introduction to SQL (Data
 
-Definition Language (DDL) in Chapter 6 of the "Modern Database Management"
+Definition Language (DDL) in Chapter 6 of the "Modern [[Database]] Management"
 
 textbook.
 
@@ -196,9 +196,9 @@ Watch the recorded video in Week 3 module on Ed
 
 Review the lecture notes and related concepts in Chapter 2 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
-Lecture and Tutorial 3: Data modelling II: Associative Entity, Weak Entity, etc.
+Lecture and Tutorial 3: Data [[modelling]] II: Associative Entity, Weak Entity, etc.
 
 Assessments:
 
@@ -222,7 +222,7 @@ Watch the recorded video in Week 4 module on Ed
 
 Review the lecture notes and related concepts in Chapter 3 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
 Lecture and Tutorial 4: Data Modeling III: Subtype/Supertype
 
@@ -244,7 +244,7 @@ Watch the recorded video in Week 5 module on Ed
 
 Review the lecture notes and related concepts in Chapter 4 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
 Lecture and Tutorial 5: Relational Model
 
@@ -260,7 +260,7 @@ Watch the recorded video in Week 6 module on Ed
 
 Review the lecture notes and related concepts in Chapter 4 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
 Lecture and Tutorial 6: Functional Dependencies and Normalisation
 
@@ -286,7 +286,7 @@ Watch the recorded video in Week 7 module on Ed
 
 Review the lecture notes and related concepts in Chapter 6 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
 Lecture and Tutorial 7: SQL I - Simple Query
 
@@ -306,7 +306,7 @@ Watch the recorded video in Week 8 module on Ed.
 
 Review the lecture notes and related concepts in Chapter 7 of the Modern
 
-Database Management textbook.
+[[Database]] Management textbook.
 
 Lecture and Tutorial 8: SQL II: Join Tables
 
@@ -330,7 +330,7 @@ Watch the recorded video in Week 9 module on Ed.
 
 Review the lecture notes and related concepts in Chapter 7 of the Modern
 
-Database Management textbook.
+[[Database]] Management textbook.
 
 Lecture and Tutorial 9: SQL III: Sub-Query
 
@@ -352,7 +352,7 @@ Watch the recorded video in Week 10 module on Ed
 
 Review the lecture notes and related concepts in Chapter 7 of the "Modern
 
-Database Management" textbook.
+[[Database]] Management" textbook.
 
 Lecture and Tutorial 10: SQL IV: Correlated Sub-Query
 
@@ -374,7 +374,7 @@ Practice SQL test is available.
 
 Review materials.
 
-Lecture 11: Subject Review or Guest Lecture or application of relational database
+Lecture 11: Subject Review or Guest Lecture or application of relational [[database]]
 
 using PowerBI
 
@@ -388,11 +388,11 @@ Assignment Part D
 
 Notes:
 
-Assessment task due: Assignment Part D-Implementation(by 27/10/2024, at
+Assessment task due: Assignment Part D-[[Implementation]](by 27/10/2024, at
 
 11:59 pm)
 
-In the review lecture, we mostly review SQL-related concepts to help the students
+In the review lecture, we mostly review SQL-related concepts to [[help]] the students
 
 prepare for the SQL test.
 
@@ -402,7 +402,7 @@ Get prepared for the SQL test:
 
 Review the lecture notes 7 to 10 and related concepts in Chapters 6 and 7 of
 
-the "Modern Database Management" textbook.
+the "Modern [[Database]] Management" textbook.
 
 Complete the SQL Quiz 10% (assessment 3).
 
@@ -420,7 +420,7 @@ Based on the updated details, the subject coordinator may organize a session at 
 
 usual lecture time for Subject Review or Guest Lecture or application of a relational
 
-database using PowerBI.
+[[database]] using PowerBI.
 
 The makeup Quiz for Assessment 1 is due by 10/11/2024 at 23:59.
 
@@ -474,7 +474,7 @@ Assessment task 1: Weekly Quiz
 
 Intent: To assess the individual student's understanding of four or five specified concepts covered in the
 
-lecture and tutorial topics. Two or three questions of the quiz are extracted from the class activities
+lecture and tutorial topics. Two or three questions of the quiz are extracted from the [[class]] activities
 
 (lecture and tutorial) of the week.
 
@@ -494,7 +494,7 @@ Groupwork: Individual
 
 Weight: 30%
 
-Task: Every class includes a short quiz that tests the individual student's knowledge of concepts covered in
+Task: Every [[class]] includes a short quiz that tests the individual student's knowledge of concepts covered in
 
 the related lecture and tutorial.
 
@@ -542,11 +542,11 @@ Students need to check their “weekly plan” and the "News Page" on Ed to get 
 
 about this assessment.
 
-Assessment task 2: Data Modeling and Database Design Assignment
+Assessment task 2: Data Modeling and [[Database]] Design Assignment
 
 Intent: The assignment assesses the student's ability to analyse and interpret data requirements, and to
 
-create conceptual and logical designs for a suitable database by applying the principles of data
+create conceptual and logical designs for a suitable [[database]] by applying the principles of data
 
 modeling and data normalisation.
 
@@ -566,7 +566,7 @@ Groupwork: Group, group assessed
 
 Weight: 30%
 
-Task: The assignment involves the conceptual and logical design of a database to support a small- to
+Task: The assignment involves the conceptual and logical design of a [[database]] to support a small- to
 
 medium-size enterprise or organisational unit. The task can be done individually, in pairs or as part of
 
@@ -590,7 +590,7 @@ An electronic copy of each of the assignment parts must also be submitted to the
 
 site by the due dates and times. Part C will be an online Quiz on Ed, and Part D of the assignment
 
-needs to be submitted on Ed as well (more details will be provided in the assignment specification).
+needs to be submitted on Ed as well (more details will be provided in the assignment [[specification]]).
 
 Please note that only the assignment deliverable that has an electronic copy submitted to the correct
 
@@ -612,7 +612,7 @@ contribution of their peers to the group project. This peer assessment will be u
 
 whether all group members receive the same mark for the assignment. If discrepancies in
 
-contribution are noted, individual marks will be scaled in accordance with the peer feedback.
+contribution are noted, individual marks will be scaled in accordance with the peer [[feedback]].
 
 Assignment marks (for each part) will be delivered within two weeks after the submission due.
 
@@ -624,7 +624,7 @@ Assessment task 3: Preparation SQL Quiz for the Online SQL Test
 
 Intent: Objective(s): The online test assesses the student's practical ability to construct appropriate SQL statements to
 
-retrieve particular information from the database.
+retrieve particular information from the [[database]].
 
 This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -644,7 +644,7 @@ Weight: 10%
 
 Task: The SQL Quiz will be taken online and need to be completed on Ed. Students will be required to
 
-design and execute SQL queries that correctly return specific information from a database.
+design and execute SQL queries that correctly return specific information from a [[database]].
 
 Due: Week 12 The Quiz will be available from Week 10 of the semester and needs to be completed on Ed
 
@@ -658,13 +658,13 @@ information:
 
 More details about the quiz will be released separately.
 
-Feedback: The SQL Quiz mark will be released within three weeks after the test.
+[[Feedback]]: The SQL Quiz mark will be released within three weeks after the test.
 
 Assessment task 4: Online SQL Test
 
 Intent: Objective(s): The online test assesses the student's practical ability to construct appropriate SQL statements to
 
-retrieve particular information from the database.
+retrieve particular information from the [[database]].
 
 This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -686,7 +686,7 @@ Task: The SQL test will be taken online under supervised conditions. In a limite
 
 be required to design and execute SQL queries that correctly return specific information from a
 
-database.
+[[database]].
 
 Due: The SQL test will take place during the exam period. The subject coordinator will update you about
 
@@ -706,7 +706,7 @@ time at the student’s convenience, as often as they wish.
 
 More details about the test will be released separately.
 
-Feedback: The SQL test mark will be released within three weeks after the test.
+[[Feedback]]: The SQL test mark will be released within three weeks after the test.
 
 Moderation of marks
 
@@ -714,19 +714,19 @@ Benchmarking of marking standards is used at the commencement of marking to assi
 
 similar ways.
 
-Assessment feedback
+Assessment [[feedback]]
 
-Multiple forms of feedback will be provided to students in this subject including:
+Multiple forms of [[feedback]] will be provided to students in this subject including:
 
-Formative Feedback: Verbal Feedback in relation to students’ questions, comments, class participation, and tutorial
+Formative [[Feedback]]: Verbal [[Feedback]] in relation to students’ questions, [[comments]], [[class]] participation, and tutorial
 
-activities, as well as generic feedback on assessment tasks. Students are advised to take note of this feedback on a
+activities, as well as generic [[feedback]] on assessment tasks. Students are advised to take note of this [[feedback]] on a
 
-weekly basis, and use it to inform their decision in relation to enrolment by census date and throughout the
+weekly basis, and use it to inform their [[decision]] in relation to enrolment by census date and throughout the
 
 semester.
 
-Summative Feedback: Students will receive marks on assignment, quizzes, SQL online test and the final exam
+Summative [[Feedback]]: Students will receive marks on assignment, quizzes, SQL online test and the final exam
 
 which will determine whether they meet the requirements for the subject.
 
@@ -772,7 +772,7 @@ Required texts
 
 The required referent for the subject is:
 
-Modern Database Management, 11th or 12th Edition, by Hoffer, J.A, Ramesh, V., and Topi, H., ISBN-10: 0273779281
+Modern [[Database]] Management, 11th or 12th Edition, by Hoffer, J.A, Ramesh, V., and Topi, H., ISBN-10: 0273779281
 
 or ISBN-13: 9780273779285, published by Pearson Education.
 
@@ -794,7 +794,7 @@ Please see the Textbook module on the LMS (Learning Management System) for more 
 
 Recommended texts
 
-Mannino, Michael V (University of Colorado, Denver).: Database Design, Application, Development & Administration,
+Mannino, Michael V (University of Colorado, Denver).: [[Database]] Design, Application, Development & Administration,
 
 2nd, 3rd (McGraw-Hill publishers) and 4th editions are all acceptable; the relevant material in all of these editions is
 
@@ -806,11 +806,11 @@ copies of the 2nd edition in 7-day loans, closed reserve and on the open shelves
 
 library in Haymarket.
 
-Date, C.J.: An introduction to Database Systems, Eighth Edition, Pearson Addison Wesley, 2003, ISBN: 0321197844
+Date, C.J.: An introduction to [[Database]] Systems, Eighth Edition, Pearson Addison Wesley, 2003, ISBN: 0321197844
 
 (there are several copies of this in the City campus library, and other books by the same author). Whilst this book is
 
-quite technical, this is the seminal text for relational database management systems.
+quite technical, this is the seminal text for relational [[database]] management systems.
 
 Simsion, Graeme C. : Data Modeling Essentials, Morgan Kaufmann Publishers, Amsterdam, 2005, ISBN:
 
@@ -820,15 +820,15 @@ Pratt, Philip J. : A Guide to SQL, Seventh Edition, Thomson Course Technology, 2
 
 editions also fine).
 
-Connolly, Thomas M.: Database solutions : a step-by-step guide to building databases, Second Edition, Pearson
+Connolly, Thomas M.: [[Database]] solutions : a step-by-step guide to building databases, Second Edition, Pearson
 
 Addison Wesley, 2003, ISBN 0321173503.
 
-Connolly, Thomas and Begg, Carolyn: Database Systems – a practical approach to design, implementation, and
+Connolly, Thomas and Begg, Carolyn: [[Database]] Systems – a practical approach to design, [[implementation]], and
 
 management, Fifth Edition, AddisonWesley, 2010, ISBN 0321523067 (third and fourth editions also fine).
 
-These texts, and several others on relational database design, use and management, are all available in the university
+These texts, and several others on relational [[database]] design, use and management, are all available in the university
 
 library.
 
@@ -880,7 +880,7 @@ Graduate attribute development
 
 29/07/2024 (Spring 2024) For a full list of the faculty's graduate attributes refer to the FEIT Graduate Attributes webpage.
 
-For the contribution of subjects taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering
+For the contribution of [[subjects]] taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering
 
 © University of Technology Sydney Page 11 of 14to the Engineers Australia Stage 1 Competencies, see the faculty's Graduate Attributes and the Engineers Australia
 
@@ -912,7 +912,7 @@ demands, you may be eligible to apply for Special Consideration.
 
 Late penalty
 
-For Graded subjects:
+For Graded [[subjects]]:
 
 Work submitted late without an approved extension is subject to a late penalty of 10 per cent of the total available
 
@@ -944,11 +944,11 @@ d.
 
 e.
 
-take-home papers that are assessed during a defined time period, or
+take-[[home]] papers that are assessed during a defined time period, or
 
 pass/fail assessment tasks.
 
-For Pass/Fail subjects:
+For Pass/Fail [[subjects]]:
 
 Work submitted late without an approved extension will only be assessed at the subject coordinator’s discretion.
 
@@ -964,19 +964,19 @@ for the subject, it is possible to request a review of a result with the Subject
 
 the date of release of the result.
 
-Academic integrity
+Academic [[integrity]]
 
-Academic integrity is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
+Academic [[integrity]] is about demonstrating honesty, trust, fairness, respect, and responsibility in your studies and
 
 assessments. Studying at UTS and being part of our community means maintaining these values and acting with
 
-academic integrity at all times. This is in line with expectations for professional practice in Engineering and IT.
+academic [[integrity]] at all times. This is in line with expectations for professional practice in Engineering and IT.
 
-Guide to practising academic integrity
+Guide to practising academic [[integrity]]
 
 As a UTS student, when you create something original, credit others and collaborate with care, you act with academic
 
-integrity:
+[[integrity]]:
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original
 
@@ -990,37 +990,37 @@ Collaborate with care. Make sure you do group work according to the guidelines f
 
 supervisor, study with your classmates and friends with care and keep your assessment and study notes just for you.
 
-If you are feeling confused about academic integrity, it’s okay, just ask! We are here to help you understand academic
+If you are feeling confused about academic [[integrity]], it’s okay, just ask! We are here to [[help]] you understand academic
 
-integrity and do your assessments with confidence:
+[[integrity]] and do your assessments with confidence:
 
-Explore the guide to practising academic integrity, including dos and don’ts.
+Explore the guide to practising academic [[integrity]], including dos and don’ts.
 
-Complete the academic integrity self-paced tutorial and quiz.
+Complete the academic [[integrity]] self-paced tutorial and quiz.
 
-Get help with academic skills, such as writing, researching and referencing, and other support for life outside of the
+Get [[help]] with academic skills, such as writing, researching and referencing, and other support for life outside of the
 
 classroom.
 
-Talk to your tutor, lecturer, subject coordinator or UTS help services if you are unsure about anything academic
+Talk to your tutor, lecturer, subject coordinator or UTS [[help]] services if you are unsure about anything academic
 
-integrity related.
+[[integrity]] related.
 
-Generative AI (GenAI) and academic integrity
+Generative [[AI]] (GenAI) and academic [[integrity]]
 
-In the Faculty of Engineering and IT subjects, unless otherwise instructed by the Subject Coordinator, you are
+In the Faculty of Engineering and IT [[subjects]], unless otherwise instructed by the Subject Coordinator, you are
 
-permitted to use AI technologies, such as ChatGPT or DALL-E, to generate materials for background research and
+permitted to use [[AI]] technologies, such as ChatGPT or DALL-E, to generate materials for background research and
 
-self-study. Only assistive use is permitted. Content generated by AI technologies or other sources presented as your
+self-study. Only assistive use is permitted. Content generated by [[AI]] technologies or other sources presented as your
 
 own work is considered to be academic misconduct as per the UTS Student Rules on misconduct.
 
-There are a few things you must do to ensure you are maintaining academic integrity:
+There are a few things you must do to ensure you are maintaining academic [[integrity]]:
 
-Check the rules for if and how you can use GenAI in your subjects and assessments via this subject outline or your
+Check the rules for if and how you can use GenAI in your [[subjects]] and assessments via this subject outline or your
 
-subject sites in Canvas (rules will differ between subjects, so make sure you check each subject). If you are not
+subject sites in Canvas (rules will differ between [[subjects]], so make sure you check each subject). If you are not
 
 sure, check with your tutor, lecturer or subject coordinator.
 
@@ -1030,11 +1030,11 @@ Unless instructed otherwise by the Subject Coordinator, reference and acknowledg
 
 providing details of the type of interactions and extent of usage.
 
-Academic integrity breaches
+Academic [[integrity]] breaches
 
-A breach of academic integrity is also known as 'academic misconduct'. A breach occurs if you engage in behaviour
+A breach of academic [[integrity]] is also known as 'academic misconduct'. A breach occurs if you engage in behaviour
 
-that undermines academic integrity, such as plagiarism and cheating (see Student Rule 16.2).
+that undermines academic [[integrity]], such as plagiarism and cheating (see Student Rule 16.2).
 
 Plagiarism can take a number of forms including but not limited to:
 
@@ -1076,9 +1076,9 @@ students with the answers to assessments are also subject to student misconduct 
 
 These are all serious forms of misconduct and penalties apply.
 
-To help ensure academic integrity, assessments that you submit electronically may be subject to similarity detection
+To [[help]] ensure academic [[integrity]], assessments that you submit electronically may be subject to similarity detection
 
-software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf (text files), rtf,
+software. Your work must be submitted in a format able to be assessed by the software (e.g. doc, pdf ([[text files]]), rtf,
 
 html). Under the Coursework Assessments Policy (section 4.27), vivas or other invigilated tasks may be used to
 

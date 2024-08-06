@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjects.md",
+                "file": "Introduction to Database Management Systems.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjects.md",
+                "file": "Introduction to Database Management Systems.md",
                 "mode": "preview",
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "business inte",
+                "query": "data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,13 +108,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjects.md",
+                "file": "Introduction to Database Management Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjects.md",
+                "file": "Introduction to Database Management Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,8 +148,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subjects.md"
+                "file": "Introduction to Database Management Systems.md"
               }
+            }
+          },
+          {
+            "id": "fef4448d060367fa",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
             }
           }
         ],
@@ -165,37 +174,41 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "2672adc29ec67e4e",
+  "active": "a85eadc5790b4a05",
   "lastOpenFiles": [
-    "Business Requirements Modelling.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "Other Pages.md",
-    "Week by Week Guidelines.md",
-    "Year 1 Spring Week By Week.md",
-    "Year 1 Autumn Week By Week.md",
-    "Useful Links.md",
-    "Handbook.md",
-    "Assessments Guidelines.md",
-    "Communication for IT Professionals.md",
-    "Network Fundamentals.md",
-    "Computer Networks and the Internet.md",
-    "Information Security and Management.md",
-    "Security Contingencies and Maintenance.md",
-    "Protection Mechanisms.md",
-    "Security Management Models and Practices.md",
-    "Security Policy, Law and Ethics.md",
-    "Risk Analysis and Management.md",
-    "Security Governance and Compliance.md",
+    "Identifiers (Keys).md",
+    "Introduction to Database Management Systems.md",
+    "Keys.md",
+    "Attributes.md",
+    "Entities.md",
+    "Business Rules.md",
+    "Relational Database.md",
+    "Metadata.md",
+    "Structured Data.md",
+    "Data.md",
+    "Arrays and User Input.md",
+    "2a and 2b Group Research Report.md",
+    "Variables and Branching Programming 1 EdStem Lesson.md",
+    "Windows Powershell.md",
+    "Structured Query Language (SQL).md",
+    "Entity Relationship Diagram (ERD).md",
+    "Database Management Systems (DBMS).md",
     "Database Fundamentals.md",
-    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
-    "Normalisation and set operators.md",
-    "Logical design - ER conversion to a relational model.md",
-    "Conceptual database design (ER modeling).md",
-    "The Relational Data Model.md",
+    "Year 1 Spring Week By Week.md",
+    "Week by Week Guidelines.md",
+    "Other Pages.md",
+    "Homepage/Home.md",
+    "Subjects.md",
+    "Business Requirements Modelling.md",
+    "Introduction to Business Requirements Modelling.md",
+    "Year 2 Spring Assessments.md",
+    "Pasted image 20240806134440.png",
+    "Screenshot 2024-08-06 at 11.28.15 am.png",
+    "Pasted image 20240806133114.png",
     "copilot-conversations",
     "Pasted image 20240226205207.png",
     "Pasted image 20240226205200.png",
@@ -204,9 +217,6 @@
     "Screenshot 2024-03-25 at 11.10.38 am.png",
     "Screenshot 2024-03-25 at 11.00.10 am.png",
     "Pasted image 20240318112947.png",
-    "Pasted image 20240318112314.png",
-    "Pasted image 20240318112139.png",
-    "Pasted image 20240318112100.png",
     "Assesment Task 1 Template.pdf",
     "timetable-25277308.pdf",
     "APA Interactive Guide.pdf",

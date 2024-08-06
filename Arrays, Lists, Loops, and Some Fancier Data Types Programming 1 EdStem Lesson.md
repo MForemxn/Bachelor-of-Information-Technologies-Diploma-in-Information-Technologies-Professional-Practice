@@ -4,7 +4,7 @@ Before getting to how `Scanner` works, and how this can cause problems, we first
 
 So far we've only worked with input from the keyboard, but Java (and everything that runs on a computer) sees input a little differently to what most people normally think about when typing something in.
 
-At the absolute lowest software level, all data on a computer is encoded in binary. This includes _all_ input. Everything you type in, everything coming in from a webcam, whatever it is, is just binary data. Fortunately, we don't normally have to deal with it at that level, we have software libraries of various kinds that interpret the binary in different ways to make it easier to work with. The interpretation we are concerned with here is _text_ or _character data_.
+At the absolute lowest software level, all [[data]] on a computer is encoded in binary. This includes _all_ input. Everything you type in, everything coming in from a webcam, whatever it is, is just binary data. Fortunately, we don't normally have to deal with it at that level, we have software libraries of various kinds that interpret the binary in different ways to make it easier to work with. The interpretation we are concerned with here is _text_ or _character data_.
 
 ## What does text look like to a computer?
 

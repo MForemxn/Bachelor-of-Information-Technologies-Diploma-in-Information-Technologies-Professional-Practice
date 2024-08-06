@@ -11,7 +11,7 @@
 
 # Steps in the [[Information Security]] Risk Analysis Process
 - scope definition: determining the boundaries and focus of the risk analysis
-- asset identification: cataloguing information assets and their value to the organisation
+- asset [[identification]]: cataloguing information assets and their value to the organisation
 - threat and vulnerability assessment: identifying potential threats and vulnerabilities that could impact the information assets
 - risk assessment: evaluating the likelihood and impact of identified risks on information assets
 - risk treatment: deciding on [[risk mitigation]] strategies, such as risk acceptance, avoidance, transfer, or mitigation
@@ -33,7 +33,7 @@
 - balancing [[security]] needs with business objectives and usability
 
 # Future Trends in Risk Analysis in [[Information Security]]
-- increased reliance on artificial intelligence ([[AI]]) and machine learning (ML) to automate risk identification and assessment
+- increased reliance on artificial intelligence ([[AI]]) and machine learning (ML) to automate risk [[identification]] and assessment
 - greater integration of risk analysis with overall business [[risk management]] strategies
 - emphasis on continuous risk assessment to adapt to the dynamic threat environment
 - growing importance of third-party risk analysis as organisations increasingly rely on external vendors and cloud services

@@ -1,3 +1,3 @@
-Software requirements specifications
+# Software requirements specifications
 
-Quality attributes of requirements specifications
+# Quality attributes of requirements specifications
