@@ -1,4 +1,4 @@
-pretend you are an IT consultant for a small business currently using lightspeed POS for your in store transactions, and Woocommerce for 2 online commerce websites. now imagine we told you we want to move infrastructure for our in store POS to either square POS or shopify POS (or something else altogether). can you tell us which one would suit our business requirements the best?
+pretend you are an IT consultant for a small business currently using lightspeed POS for your in store transactions, and Woocommerce for 2 online commerce websites. now imagine we told you we want to move infrastructure for our in store POS to either square POS or shopify POS (or something else altogether). can you tell us which one would suit our [[business requirements]] the best?
 
 ChatGPT
 

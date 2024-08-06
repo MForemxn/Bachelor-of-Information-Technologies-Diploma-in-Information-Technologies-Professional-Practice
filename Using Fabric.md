@@ -27,7 +27,7 @@ Fabric addresses the [[AI]] integration challenge by offering a structured envir
 
 ### Using the Fabric Client
 
-Configure Fabric to use specific AI models:
+Configure Fabric to use specific AI [[models]]:
 
 bash
 
@@ -69,7 +69,7 @@ Copy code
 
 ## Advanced Usage
 
-Fabric's [[CLI]] supports complex functionalities, such as adjusting [[AI]] parameters and managing various models, enhancing flexibility and precision in tasks.
+Fabric's [[CLI]] supports complex functionalities, such as adjusting [[AI]] parameters and managing various [[models]], enhancing flexibility and precision in tasks.
 
 ## Helper Applications
 

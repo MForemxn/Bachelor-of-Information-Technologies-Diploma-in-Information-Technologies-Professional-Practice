@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Computer Networks and the Internet.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Computer Networks and the Internet.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,13 +107,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Computer Networks and the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Computer Networks and the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Business Requirements Modelling.md"
+                "file": "Computer Networks and the Internet.md"
               }
             }
           },
@@ -177,34 +177,34 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "d548f32682de94da",
+  "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
-    "Introduction to Business Requirements Modelling.md",
-    "Business Requirements Modelling.md",
+    "Network Fundamentals.md",
     "Subjects.md",
-    "Year 2 Spring Assessments.md",
-    "Homepage/Home.md",
-    "Arrays, Lists, Loops, and Some Fancier Data Types Programming 1 EdStem Lesson.md",
-    "Arrays and User Input.md",
-    "Structured Data.md",
-    "Metadata.md",
-    "Relational Database.md",
-    "Business Rules.md",
-    "Entities.md",
-    "Attributes.md",
-    "Keys.md",
-    "Identifiers (Keys).md",
-    "Year 1 Spring Week By Week.md",
-    "Introduction to Database Management Systems.md",
+    "Information Security and Management.md",
     "Introduction to Management of Information Security.md",
+    "6 P's of Cyber Security Management.md",
     "Technical Controls.md",
-    "Specification.md",
-    "Modelling.md",
-    "Elicitation.md",
-    "Process.md",
-    "Business Requirements Modelling Subject Outline.md",
-    "Input and Output Programming 1 EdStem Lesson.md",
+    "Accountability.md",
+    "Authorisation.md",
+    "Authentication.md",
+    "Identification.md",
+    "Availability.md",
+    "Integrity.md",
+    "Confidentiality.md",
+    "Database Fundamentals.md",
+    "Introduction to Database Management Systems.md",
+    "Identifiers (Keys).md",
+    "Attributes.md",
+    "Entities.md",
+    "Metadata.md",
+    "Data.md",
     "Database Management Systems (DBMS).md",
+    "Entity Relationship Diagram (ERD).md",
+    "Structured Query Language (SQL).md",
+    "Business Rules.md",
+    "Relational Database.md",
+    "Business Requirements Modelling.md",
     "Pasted image 20240806134440.png",
     "Screenshot 2024-08-06 at 11.28.15 am.png",
     "Pasted image 20240806133114.png",

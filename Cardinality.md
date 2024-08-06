@@ -21,5 +21,5 @@
 
 # Challenges with Cardinality
 - **Complex Relationships**: In large databases, managing many-to-many relationships can become complex and may require careful planning to avoid data anomalies.
-- **Changing Requirements**: As business requirements change, the cardinality between tables may need to be updated, which can be challenging if the [[database]] is not designed with flexibility in mind.
+- **Changing Requirements**: As [[business requirements]] change, the cardinality between tables may need to be updated, which can be challenging if the [[database]] is not designed with flexibility in mind.
 - **Performance Issues**: Incorrect cardinality can lead to inefficient [[database]] queries, which can degrade performance, especially in databases with large volumes of data.

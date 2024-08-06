@@ -1,4 +1,4 @@
-Most models include two types of input variables:
+Most [[models]] include two types of input variables:
 - **﻿﻿Decision variables**: "What is our reorder point for these raw materials?
 - ﻿﻿**Environmental variables**: (external to the organisation): "What will the rate of inflation be?"
 - ﻿﻿The output in this example would be the total cost of raw materials.

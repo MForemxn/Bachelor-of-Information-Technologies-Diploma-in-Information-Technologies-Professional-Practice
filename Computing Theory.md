@@ -18,8 +18,8 @@
 - enables the understanding of the limits of what computers can achieve
 - drives innovation in various fields such as [[artificial intelligence]], [[cybersecurity]], and data science
 
-# Models of Computation
-- several models of computation are used to study and understand the theoretical capabilities of computers:
+# [[Models]] of Computation
+- several [[models]] of computation are used to study and understand the theoretical capabilities of computers:
 	- **[[Turing Machines]]**: an abstract machine that manipulates symbols on a strip of tape according to a set of rules
 	- **Finite Automata**: used to model computation with a finite amount of memory
 	- **Lambda Calculus**: a formal system in mathematical logic for expressing computation based on [[function]] [[abstraction]] and application
@@ -32,7 +32,7 @@
 	- **[[Cryptography]]**: with the advent of [[quantum computing]], current cryptographic methods may become insecure, necessitating the development of quantum-resistant [[cryptography]]
 
 # Future Directions
-- as technology evolves, computing theory continues to explore new paradigms and models
+- as technology evolves, computing theory continues to explore new paradigms and [[models]]
 - research in areas such as [[quantum computing]], [[machine learning]] theory, and blockchain technology is expanding the boundaries of what is computationally possible
 - ethical considerations and the societal impact of computing advancements are becoming increasingly important in the field
 # Complexity Theory
@@ -51,7 +51,7 @@ Computing Theory explores the fundamental principles and mathematical concepts u
 ### MAIN POINTS:
 1. Defines the limits of what computers can and cannot compute.
 2. Introduces the concept of algorithms and their efficiency.
-3. Discusses different models of computation, like [[Turing machines]].
+3. Discusses different [[models]] of computation, like [[Turing machines]].
 4. Explores [[complexity classes]] such as P, NP, and NP-complete.
 5. Examines the role of automata in computing theory.
 6. Highlights the importance of [[data structures]] in [[algorithm]] efficiency.

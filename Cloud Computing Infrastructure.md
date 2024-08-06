@@ -8,8 +8,8 @@
 		- offers hardware and software tools over the internet, typically for application development
 	- [[Software as a Service (SaaS)]]
 		- delivers software applications over the internet, on a subscription basis
-# Deployment Models
-- cloud computing can be deployed in different models based on the requirements:
+# Deployment [[Models]]
+- cloud computing can be deployed in different [[models]] based on the requirements:
 	- Public Cloud
 		- services are delivered over the public internet and available to anyone willing to pay
 	- Private Cloud

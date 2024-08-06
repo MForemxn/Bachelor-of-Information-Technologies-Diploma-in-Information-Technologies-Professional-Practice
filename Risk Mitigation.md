@@ -16,7 +16,7 @@
 - risk acceptance: acknowledging the risk and deciding to accept the potential impact without taking mitigative actions
 
 # Implementing Risk Mitigation Measures
-- technical controls: firewalls, [[encryption]], intrusion detection systems, and antivirus software
+- [[technical controls]]: firewalls, [[encryption]], intrusion detection systems, and antivirus software
 - administrative controls: policies, procedures, and [[security]] awareness training for employees
 - physical controls: secure access to buildings, server rooms, and data centers
 - regular updates and patch management to address vulnerabilities in software and systems

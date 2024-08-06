@@ -36,7 +36,7 @@ The ideate stage is all about generating ideas for potential solutions to the pr
 - **Crazy eights:** Quickly sketch out eight different solutions in just eight minutes to encourage rapid ideation.
 ### 4. Prototype
 #### Selecting and Representing Your Idea
-During the prototype stage, select a promising idea from your ideation session and create a representation or mockup of it. Prototyping can take various forms, from low-fidelity sketches to high-fidelity digital models.
+During the prototype stage, select a promising idea from your ideation session and create a representation or mockup of it. Prototyping can take various forms, from low-fidelity sketches to high-fidelity digital [[models]].
 - **Communicating your idea:** Clearly convey the essence of your chosen solution to others through visuals, descriptions, and presentations.
 - **Define the problem being solved:** Clearly articulate what specific issue your prototype aims to address, ensuring that everyone involved is aligned on the goals
 #### Choosing the Right Prototyping Tools

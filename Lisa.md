@@ -8,7 +8,7 @@ The complexity of the Lisa operating system and its associated programs (especia
 
 In 1982, after [Steve Jobs](https://en.wikipedia.org/wiki/Steve_Jobs "Steve Jobs") was forced out of the Lisa project by Apple's board of directors,[5] he appropriated the Macintosh project from [Jef Raskin](https://en.wikipedia.org/wiki/Jef_Raskin "Jef Raskin"), who had originally conceived of a sub-$1,000 text-based appliance computer in 1979. Jobs immediately redefined Macintosh as a less expensive and more focused version of the graphical Lisa.
 
-When Macintosh launched in January 1984, it quickly surpassed Lisa's underwhelming sales. Jobs then began assimilating increasing numbers of Lisa staff, as he had done with the Apple II division after assuming control over Raskin's project. Newer Lisa models were eventually introduced to address its shortcomings but, even after lowering the list price considerably, the platform failed to achieve sales volumes comparable to the much less expensive Mac. The final model, the Lisa 2/10, was rebranded as the [Macintosh XL](https://en.wikipedia.org/wiki/Macintosh_XL "Macintosh XL") to become the high-end model in the Macintosh series.[3]: 79 
+When Macintosh launched in January 1984, it quickly surpassed Lisa's underwhelming sales. Jobs then began assimilating increasing numbers of Lisa staff, as he had done with the Apple II division after assuming control over Raskin's project. Newer Lisa [[models]] were eventually introduced to address its shortcomings but, even after lowering the list price considerably, the platform failed to achieve sales volumes comparable to the much less expensive Mac. The final model, the Lisa 2/10, was rebranded as the [Macintosh XL](https://en.wikipedia.org/wiki/Macintosh_XL "Macintosh XL") to become the high-end model in the Macintosh series.[3]: 79 
 
 ## History
 
@@ -40,7 +40,7 @@ The high cost and the delays in its release date contributed to the Lisa's disco
 
 In 1987, [Sun Remarketing](https://en.wikipedia.org/wiki/Sun_Remarketing "Sun Remarketing") purchased about 5,000 [Macintosh XLs](https://en.wikipedia.org/wiki/Macintosh_XL "Macintosh XL") and upgraded them. In 1989, with the help of Sun Remarketing, Apple disposed of approximately 2,700 unsold Lisa units in a guarded landfill in [Logan, Utah](https://en.wikipedia.org/wiki/Logan,_Utah "Logan, Utah"), to receive a tax write-off on the unsold inventory.[17] Some leftover Lisa computers and spare parts were available until Cherokee Data (which purchased Sun Remarketing) went out of business.[_[when?](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Dates_and_numbers#Chronological_items "Wikipedia:Manual of Style/Dates and numbers")_]
 
-### Timeline of Lisa models
+### Timeline of Lisa [[models]]
 
 See also: [Timeline of Apple Inc. products](https://en.wikipedia.org/wiki/Timeline_of_Apple_Inc._products "Timeline of Apple Inc. products"), [Timeline of the Apple II family](https://en.wikipedia.org/wiki/Timeline_of_the_Apple_II_family "Timeline of the Apple II family"), and [Timeline of Apple Macintosh models](https://en.wikipedia.org/wiki/Timeline_of_Apple_Macintosh_models "Timeline of Apple Macintosh models")
 

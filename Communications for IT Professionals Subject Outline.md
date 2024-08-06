@@ -508,7 +508,7 @@ being brought against you.
 # Retention of student work
 
 The University reserves the right to retain the original or one copy of any work executed and/or submitted by a student
-as part of the course including, but not limited to, drawings, models, designs, plans and specifications, essays,
+as part of the course including, but not limited to, drawings, [[models]], designs, plans and specifications, essays,
 programs, reports and theses, for any of the purposes designated in Student Rule 3.9.2. Such retention is not to affect
 any copyright or other intellectual property right that may exist in the student's work. Copies of student work may be
 retained for a period of up to five years for course accreditation purposes. Students are advised to contact their

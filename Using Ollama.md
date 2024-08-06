@@ -11,7 +11,7 @@ OLLAMA_ORIGINS=app://obsidian.md* ollama serve
 cd /Applications/ollama-gui
 yarn dev
 ```
-# List of Models
+# List of [[Models]]
 |Model|Parameters|Size|Run|Best Use Case|
 |---|---|---|---|---|
 |[![](https://camo.githubusercontent.com/71704f1e4cea0174a5b3158057d2f3508ae6d4304160de35edb06dc85d6a1e64/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e65772d626c61636b2e737667)](https://ollama.ai/library/mixtral) Mixtral-8x7B Large|7B|26GB|`ollama run mixtral`|Chatbot|

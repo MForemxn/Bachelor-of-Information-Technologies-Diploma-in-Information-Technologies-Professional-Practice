@@ -10,7 +10,7 @@ These can include:
 # [[Models]]
 > [[Models]] are simplified representations of systems or concepts used to understand, analyze, and predict behaviors and outcomes. They allow for better **understanding**, deeper **analysis**, or more efficient **communication** or an idea or concept. 
 ## [[Object Oriented Models]]
-[[Object]]-oriented [[models]] represent systems using objects, encapsulating [[data]] and behavior, to facilitate modular, reusable, and maintainable [[software design]]. These can include
+[[Object oriented models]] represent systems using objects, encapsulating [[data]] and behavior, to facilitate modular, reusable, and maintainable [[software design]]. These can include
 - use case diagram
 - [[class]] diagram
 - sequence diagram

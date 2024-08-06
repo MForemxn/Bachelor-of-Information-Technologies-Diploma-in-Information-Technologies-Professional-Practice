@@ -62,7 +62,7 @@ Tailgating and quid pro quo are social engineering techniques that exploit human
 - **Education and Awareness**: Regular training and awareness programs can [[help]] individuals recognize and avoid social engineering tactics.
 - **Verification [[Processes]]**: Implementing strict verification [[processes]] for accessing sensitive information or entering secure areas can reduce the risk of successful attacks.
 - **[[Security]] Culture**: Fostering a [[security]]-conscious culture within an organization can [[help]] in creating an environment where suspicious activities are promptly reported and addressed.
-- **Technical Controls**: Using spam filters, setting up web and email filters, and employing two-factor [[authentication]] can add layers of [[security]].
+- **[[Technical Controls]]**: Using spam filters, setting up web and email filters, and employing two-factor [[authentication]] can add layers of [[security]].
 
 # Challenges in Combating Social Engineering
 

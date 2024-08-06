@@ -68,7 +68,7 @@ Subject learning objectives (SLOs)
 
 Upon successful completion of this subject students should be able to:
 
-1. Understand the key architectural principles of the Internet, namely protocol layering and service models. (D.1)
+1. Understand the key architectural principles of the Internet, namely protocol layering and service [[models]]. (D.1)
 
 2. Analyse various components of the Internet, including Applications, Transport, Network, Addressing, and Data
 
@@ -174,7 +174,7 @@ Principles of Congestion Control
 
 4. The Network Layer: Data Plane
 
-Network service models
+Network service [[models]]
 
 21/07/2024 (Spring 2024) © University of Technology Sydney Page 2 of 11What’s inside a router
 
@@ -236,7 +236,7 @@ Notes:
 
 1.4 Performance: delay, loss, throughput
 
-1.5 protocol layers, service models
+1.5 protocol layers, service [[models]]
 
 1.7 history
 
@@ -818,7 +818,7 @@ Retention of student work
 
 The University reserves the right to retain the original or one copy of any work executed and/or submitted by a student
 
-as part of the course including, but not limited to, drawings, models, designs, plans and specifications, essays,
+as part of the course including, but not limited to, drawings, [[models]], designs, plans and specifications, essays,
 
 programs, reports and theses, for any of the purposes designated in Student Rule 3.9.2. Such retention is not to affect
 

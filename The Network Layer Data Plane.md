@@ -1,4 +1,4 @@
-Network service models
+Network service [[models]]
 
 What’s inside a router
 

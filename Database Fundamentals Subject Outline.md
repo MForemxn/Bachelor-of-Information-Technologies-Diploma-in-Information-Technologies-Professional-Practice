@@ -70,7 +70,7 @@ Subject learning objectives (SLOs)
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 1 of 14Upon successful completion of this subject students should be able to:
 
-1. Construct conceptual data models using appropriate [[database]] design, and data [[modelling]] principles. (C.1)
+1. Construct conceptual data [[models]] using appropriate [[database]] design, and data [[modelling]] principles. (C.1)
 
 2. Identify data redundancy levels and their impact on [[database]] [[integrity]] and maintainability using data normalisation principles. (D.1)
 
@@ -1120,7 +1120,7 @@ Retention of student work
 
 The University reserves the right to retain the original or one copy of any work executed and/or submitted by a student
 
-as part of the course including, but not limited to, drawings, models, designs, plans and specifications, essays,
+as part of the course including, but not limited to, drawings, [[models]], designs, plans and specifications, essays,
 
 programs, reports and theses, for any of the purposes designated in Student Rule 3.9.2. Such retention is not to affect
 

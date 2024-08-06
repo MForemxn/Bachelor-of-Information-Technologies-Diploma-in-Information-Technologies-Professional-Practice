@@ -61,7 +61,7 @@ I am using IMDB similar movies as a reference to check how my model is performin
 
 Definitely we can use more data from places like IMDB website:  
 [https://datasets.imdbws.com/](https://datasets.imdbws.com/)  
-to improve our models recommendation or use [[collaborative filtering]] method or hybrid models that uses content based and [[collaborative filtering]] methods together.
+to improve our [[models]] recommendation or use [[collaborative filtering]] method or hybrid [[models]] that uses content based and [[collaborative filtering]] methods together.
 
 ## A Better Version? (Using LSA Model and More Data)
 
@@ -89,7 +89,7 @@ Here is the summary of the code for word2vec trained from scratch:
 
 import pandas as pd  
 import numpy as np  
-from gensim.models import Word2Vec  
+from gensim.[[models]] import Word2Vec  
 from gensim.utils import simple_preprocess  
 from sklearn.metrics.pairwise import cosine_similarity  
   
@@ -157,22 +157,22 @@ Here is the output of the code:
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*ujeb3e1_DacgMN2ASbBcFQ.png)
 
-I have used The Prestige (2006) movie as benchmark as we have been using this movie in all other previous models and compare the result with IMDB similar movie list. This output is not what we expected, there are few relevant movies but most of them are not that great. You can try to optimize the following model by trying these methods:
+I have used The Prestige (2006) movie as benchmark as we have been using this movie in all other previous [[models]] and compare the result with IMDB similar movie list. This output is not what we expected, there are few relevant movies but most of them are not that great. You can try to optimize the following model by trying these methods:
 
 1. Increase the vector size: Using larger vectors (e.g., 200 or 300 dimensions) may capture more information about the words and result in better recommendations. However, this may also increase memory usage and computation time.
 2. Tune hyperparameters: Experiment with different Word2Vec hyperparameters such as `window`, `min_count`, and `negative` to find the best combination for your specific dataset. Additionally, you could try different training algorithms (`sg=0` for CBOW, `sg=1` for skip-gram) and adjust the learning rate (`alpha`).
-3. Use pre-trained embeddings: Instead of training your own Word2Vec model, you could use pre-trained word embeddings like GloVe or FastText. These models have been trained on massive text corpora and could provide better representations of words in the movie content.
+3. Use pre-trained embeddings: Instead of training your own Word2Vec model, you could use pre-trained word embeddings like GloVe or FastText. These [[models]] have been trained on massive text corpora and could provide better representations of words in the movie content.
 4. Text preprocessing: Improve the text preprocessing steps by performing better tokenization, stemming or lemmatization, and filtering out less informative words or phrases. This can help the model better capture the essence of each movie’s content.
 5. Combine features: Instead of using only Word2Vec embeddings, you could also try combining them with other features like TF-IDF, Bag of Words, or other custom features that capture the unique aspects of each movie.
 6. Use Doc2Vec: Instead of averaging Word2Vec embeddings, you could use the Doc2Vec model, which is specifically designed for representing entire documents. Doc2Vec can better capture the semantics of the entire text and might provide better recommendations.
 
 ## Using Neural Networks (Word2Vec [Google News pre-trained Word2Vec model])
 
-Its always best to utilize pre-trained models by big organizations for our work if possible, I will try using Google trained Word2Vec model (300-dimensional vector, 1.6GB) available through Gensim package and see how well that performs.
+Its always best to utilize pre-trained [[models]] by big organizations for our work if possible, I will try using Google trained Word2Vec model (300-dimensional vector, 1.6GB) available through Gensim package and see how well that performs.
 
 import pandas as pd  
 import numpy as np  
-from gensim.models import Word2Vec, KeyedVectors  
+from gensim.[[models]] import Word2Vec, KeyedVectors  
 from gensim.utils import simple_preprocess  
 from sklearn.metrics.pairwise import cosine_similarity  
 import gensim.downloader as api  

@@ -231,7 +231,7 @@ Reading characters to and from files is such an important use case, that a simil
 
 ## Reading from a File
 
-Reading from a file begins with a `File`, the class that models a file in the file system on the host OS. This class abstracts the details for how files are represented and located in the host OS.
+Reading from a file begins with a `File`, the class that [[models]] a file in the file system on the host OS. This class abstracts the details for how files are represented and located in the host OS.
 
 With file I/O however, we often don't have to deal directly with `File` objects, as the process has been streamlined in some cases (but not all). There are also other ways of providing a file to help assist in different use cases (e.g. reading the file name from the user, or extracting paths from a file dialog, etc.).
 

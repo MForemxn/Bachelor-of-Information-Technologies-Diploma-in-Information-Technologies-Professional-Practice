@@ -1,7 +1,7 @@
 # What is Availability in Computer [[Security]]?
-- availability in computer [[security]] refers to ensuring timely and reliable access to data and resources for authorised users
+- availability in computer [[security]] refers to ensuring timely and reliable access to [[data]] and resources for authorised users
 - it's a fundamental aspect of the CIA triad, alongside [[confidentiality]] and [[integrity]]
-- focuses on minimising downtime and ensuring that systems, applications, and data are accessible when needed
+- focuses on minimising downtime and ensuring that systems, applications, and [[data]] are accessible when needed
 
 # Importance of Availability in Computer [[Security]]
 - critical for the smooth operation of businesses and services
@@ -11,7 +11,7 @@
 
 # Methods to Ensure Availability
 - redundancy: having backup systems or components that can take over in case of failure
-	- includes redundant servers, networks, and data storage
+	- includes redundant servers, networks, and [[data]] storage
 - failover mechanisms: automatic switching to a redundant or standby system upon the failure of the primary system
 - regular [[maintenance]] and updates: keeping systems updated to prevent failures due to software bugs or hardware issues
 - DDoS protection: implementing measures to protect against Distributed Denial of Service attacks that aim to overwhelm resources
@@ -23,7 +23,7 @@
 - natural disasters and catastrophic events that can damage infrastructure
 
 # Redundancy Techniques
-- data mirroring: maintaining copies of data in two or more locations to ensure availability in case one site fails
+- [[data]] mirroring: maintaining copies of [[data]] in two or more locations to ensure availability in case one site fails
 - load balancing: distributing workloads across multiple servers to prevent any single server from becoming a bottleneck
 - hot and cold sites: maintaining fully operational duplicate systems (hot sites) or having the capability to quickly set up a system in a new location (cold sites)
 

@@ -65,7 +65,7 @@ We know that our data is being used by businesses, and we are happy when our dat
 
 ## 6. Ensuring [[AI]] Is Used Only For Good
 
-Generative [[AI]] and large language models in particular are advancing rapidly and are becoming more and more powerful by the day. How do we ensure [[AI]] is used for good? How do we provide the necessary guardrails, privacy and [[security]]? And how do we minimize deception and, more importantly, provide transparency about generative [[AI]]? The first one concerns me the most—let’s hope regulations can come fast enough. - [Lana Feng](https://councils.forbes.com/u/b1917a5a-08cf-4591-8def-20ca1a7af4cc "https://councils.forbes.com/u/b1917a5a-08cf-4591-8def-20ca1a7af4cc"), [Huma.[[AI]], Inc.](http://huma.ai/ "http://huma.ai/")
+Generative [[AI]] and large language [[models]] in particular are advancing rapidly and are becoming more and more powerful by the day. How do we ensure [[AI]] is used for good? How do we provide the necessary guardrails, privacy and [[security]]? And how do we minimize deception and, more importantly, provide transparency about generative [[AI]]? The first one concerns me the most—let’s hope regulations can come fast enough. - [Lana Feng](https://councils.forbes.com/u/b1917a5a-08cf-4591-8def-20ca1a7af4cc "https://councils.forbes.com/u/b1917a5a-08cf-4591-8def-20ca1a7af4cc"), [Huma.[[AI]], Inc.](http://huma.ai/ "http://huma.ai/")
 
 ## 7. Spyware
 
@@ -81,7 +81,7 @@ Generative [[AI]] is generating articles that quote studies by real organization
 
 ## 10. The Lack Of Awareness About LLMs
 
-Some entities are hiding or obscuring the fact that generative technology relies on large language models and are passing off the output as fact or truth. It is already hard to tell fact from fiction in 2023, but I suspect it is about to get a lot worse. - [Elise Carmichael](https://councils.forbes.com/u/ea5ce205-0fee-48f7-aa6f-b4a743464f3b "https://councils.forbes.com/u/ea5ce205-0fee-48f7-aa6f-b4a743464f3b"), [Lakeside Software](https://www.lakesidesoftware.com/ "https://www.lakesidesoftware.com/")
+Some entities are hiding or obscuring the fact that generative technology relies on large language [[models]] and are passing off the output as fact or truth. It is already hard to tell fact from fiction in 2023, but I suspect it is about to get a lot worse. - [Elise Carmichael](https://councils.forbes.com/u/ea5ce205-0fee-48f7-aa6f-b4a743464f3b "https://councils.forbes.com/u/ea5ce205-0fee-48f7-aa6f-b4a743464f3b"), [Lakeside Software](https://www.lakesidesoftware.com/ "https://www.lakesidesoftware.com/")
 
 ## 11. Blockchain’s Vulnerability To Scams
 
@@ -89,7 +89,7 @@ I’ve seen no industry that’s more scam-prone than blockchain. Quick coin lau
 
 ## 12. The Risk Of Biased Outcomes From [[AI]]
 
-[[AI]]—especially the accelerated adoption of generative [[AI]]—comes with the ongoing risk of producing biased outcomes. [[AI]] models are trained on input data that reflects our societal biases, which can be amplified through machine learning. To develop responsible [[AI]] technologies, we have to understand what those biases are and make sure we can account for them accordingly. - [Merav Yuravlivker](https://councils.forbes.com/u/7f5d2edb-ddec-4e6a-9eb3-455a5198cead "https://councils.forbes.com/u/7f5d2edb-ddec-4e6a-9eb3-455a5198cead"), [Data Society](https://datasociety.com/ "https://datasociety.com/")
+[[AI]]—especially the accelerated adoption of generative [[AI]]—comes with the ongoing risk of producing biased outcomes. [[AI]] [[models]] are trained on input data that reflects our societal biases, which can be amplified through machine learning. To develop responsible [[AI]] technologies, we have to understand what those biases are and make sure we can account for them accordingly. - [Merav Yuravlivker](https://councils.forbes.com/u/7f5d2edb-ddec-4e6a-9eb3-455a5198cead "https://councils.forbes.com/u/7f5d2edb-ddec-4e6a-9eb3-455a5198cead"), [Data Society](https://datasociety.com/ "https://datasociety.com/")
 
 ## 13. The Lack Of Consensus Over Appropriate Uses For Generative [[AI]]
 
@@ -138,7 +138,7 @@ The [Dutch government](http://people%20have%20been%20talking%20about%20ai%20eth
 
 Another key principle for [[AI]] ethics is impartiality. [[AI]] should treat all human beings equally. That means eliminating bias and discrimination from [[AI]] systems. How can you achieve this? With [high-quality data](https://www.prolific.co/blog/complete-guide-improving-data-quality-online-surveys). Many data sets are not specifically created for training [[AI]]. When they’re used for this purpose, they can pass on quirks and biases from the data collection process.  
 
-Artificial intelligence can’t pick up on biases within its data. If this isn’t addressed, [[AI]] systems could repeat these biases and implement them automatically. There have been many cases of [AI bias upholding systemic forms of discrimination](https://www.prolific.co/blog/shocking-ai-bias) towards marginalized groups. That’s why researchers must use unbiased, high-quality data and test models to see if they display biased behavior.
+Artificial intelligence can’t pick up on biases within its data. If this isn’t addressed, [[AI]] systems could repeat these biases and implement them automatically. There have been many cases of [AI bias upholding systemic forms of discrimination](https://www.prolific.co/blog/shocking-ai-bias) towards marginalized groups. That’s why researchers must use unbiased, high-quality data and test [[models]] to see if they display biased behavior.
 
 #### 3. [[Accountability]]
 

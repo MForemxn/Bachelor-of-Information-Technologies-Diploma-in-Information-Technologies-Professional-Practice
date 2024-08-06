@@ -38,5 +38,5 @@
 - the future of network [[security]] will likely involve:
 	- **[[AI]] and Machine Learning**: to predict and identify new threats more quickly
 	- **Increased Use of [[Encryption]]**: to protect [[data]] in transit and at rest
-	- **Zero Trust Models**: assuming no entity inside or outside the network is trustworthy without verification
+	- **Zero Trust [[Models]]**: assuming no entity inside or outside the network is trustworthy without verification
 - as threats evolve, so will the strategies and technologies to combat them, making network [[security]] an ever-changing field.

@@ -16,5 +16,5 @@ The 6 P's of [[cybersecurity]] management are essential components that collecti
 1. Planning is crucial for identifying and mitigating [[cybersecurity]] risks.
 2. Policies provide the framework for consistent [[cybersecurity]] practices.
 3. Programs operationalize policies through specific initiatives and activities.
-4. Protection involves deploying technical controls to secure [[data]] and systems.
+4. Protection involves deploying [[technical controls]] to secure [[data]] and systems.
 5. People are a critical component, requiring ongoing training and awareness.

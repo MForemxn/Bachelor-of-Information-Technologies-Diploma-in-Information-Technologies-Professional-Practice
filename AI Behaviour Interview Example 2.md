@@ -74,7 +74,7 @@ Absolutely, incorporating AI image recognition into the "Recycling Helper" app i
 
 ### Development Tools:
 
-- **TensorFlow or PyTorch**: Popular libraries for building machine learning models.
+- **TensorFlow or PyTorch**: Popular libraries for building machine learning [[models]].
 - **OpenCV**: Useful for image processing tasks before feeding [[data]] into your model.
 - **Google Cloud Vision or Microsoft Azure Computer Vision**: These APIs can provide a quick start for prototype development if you prefer not to build the image recognition from scratch.
 
@@ -130,7 +130,7 @@ To build and deploy a native app for both iOS and Android, you have a few good o
     - **React Native**: Visual Studio Code, Atom, or any JavaScript-friendly editor.
     - **Flutter**: Android Studio or Visual Studio Code with Flutter and Dart plugins.
     - **Xamarin**: Microsoft Visual Studio.
-- **AI and Image Recognition**: For the AI components like image recognition, you may consider using pre-built services like Google’s ML Kit which integrates well with both Android and iOS. Alternatively, custom models can be developed using TensorFlow Lite (for mobile) if you choose to build the model yourself.
+- **AI and Image Recognition**: For the AI components like image recognition, you may consider using pre-built services like Google’s ML Kit which integrates well with both Android and iOS. Alternatively, custom [[models]] can be developed using TensorFlow Lite (for mobile) if you choose to build the model yourself.
 - **Backend Services**: You might need backend services for managing user [[data]], recycling guidelines, and potentially integrating with third-party services. Firebase offers a comprehensive suite of tools including database, [[authentication]], and hosting services that integrate well with mobile apps.
 - **Testing and Deployment**: Use native tools like Xcode for iOS and Android Studio for Android for final packaging and testing. Cross-platform tools often have built-in or add-on capabilities for testing on multiple device types simultaneously.
 

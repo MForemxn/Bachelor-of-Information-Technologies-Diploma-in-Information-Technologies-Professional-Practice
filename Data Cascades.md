@@ -15,7 +15,7 @@
 	- lack of collaboration among team members
 	- insufficient data governance policies
 	- inadequate data preparation and cleaning [[processes]]
-	- failure to properly validate and test data models
+	- failure to properly validate and test data [[models]]
 - these issues can arise at any stage of the data project, from initial data collection to the final analysis phase
 
 # Impact of data cascades

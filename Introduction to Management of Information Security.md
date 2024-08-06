@@ -8,7 +8,7 @@
 - [[accountability]]
 # Entry Points
 - Ransomware
-	- locking files or data and demanding payment before unlocking them
+	- locking files or [[data]] and demanding payment before unlocking them
 - Credential Harvesting Malware
 	- attempts to trick users into entering their credentials into a fraudulent site in an attempt steal their login info. 
 - Social Engineering 
@@ -39,26 +39,26 @@
 
 # Threats and Vulnerabilities
 ## Threats
-> Object or person that represents a constant danger to organisational assets
+> [[Object]] or person that represents a [[constant]] danger to organisational assets
 
 ![[Screenshot 2024-08-06 at 11.28.15 am.png]]
 ## Vulnerabilities
 > Refers to any flaw or weakness in the system defence which could be exploited to gain unauthorised access to, damage, or otherwise affect it
 ## [[Technical Controls]]
-- Technical controls in cybersecurity address technical and tactical issues by implementing preventative, detective, and responsive measures to secure an organisation.
-- address those technical and tactical issues related to designing and implementing security in the organisation
+- [[Technical controls]] in [[cybersecurity]] address technical and tactical issues by implementing preventative, detective, and responsive measures to secure an organisation.
+- address those technical and tactical issues related to designing and implementing [[security]] in the organisation
 	- preventative
 	- detective
 	- responsive
 # Current Challenges
-- insufficient commitment to the process 
-- security controls and business objectives are not aligned
+- insufficient commitment to the [[process]] 
+- [[security]] controls and business objectives are not aligned
 - excessively restrictive policies
 - required monitoring tools are not available (due to ever changing landscape of threats ands attacks)
 - lack of staff training
-- lack of co-ordination in processes
+- lack of co-ordination in [[processes]]
 # [[6 P's of Cyber Security Management]]
-The 6 P's of cybersecurity management provide a comprehensive framework for securing organisational assets and data.
+The 6 P's of [[cybersecurity]] management provide a comprehensive framework for securing organisational assets and [[data]].
 - planning 
 - policy
 - programs

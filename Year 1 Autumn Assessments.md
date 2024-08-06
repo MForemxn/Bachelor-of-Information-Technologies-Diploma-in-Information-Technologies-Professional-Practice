@@ -115,7 +115,7 @@
 
 |   |   |
 |---|---|
-|**Intent:**|The ability to understand code at a higher level than simple line-by-line translation is a key skill in developing strong mental models supporting program design and development skills.<br><br>Being able to read, comprehend and explain code is a fundamental step in developing deeper understanding.<br><br>
+|**Intent:**|The ability to understand code at a higher level than simple line-by-line translation is a key skill in developing strong mental [[models]] supporting program design and development skills.<br><br>Being able to read, comprehend and explain code is a fundamental step in developing deeper understanding.<br><br>
 |**Objective(s):**|This assessment task addresses the following subject learning objectives (SLOs): 4 and 5<br><br>This assessment task contributes to the development of the following Course Intended Learning Outcomes (CILOs):<br><br>C.1 and E.1|
 |**Type:**|Exercises|
 |**Groupwork:**|Individual|
@@ -140,7 +140,7 @@
 
 |   |   |
 |---|---|
-|**Intent:**|Programming well requires robust mental models of both the problem to be solved and the tools and approaches that can potentially be used to solve it.<br><br>The exam is an opportunity for students to demonstrate understanding of key elements of programming skills independent of more complicated software development concerns.|
+|**Intent:**|Programming well requires robust mental [[models]] of both the problem to be solved and the tools and approaches that can potentially be used to solve it.<br><br>The exam is an opportunity for students to demonstrate understanding of key elements of programming skills independent of more complicated software development concerns.|
 |**Objective(s):**|This assessment task addresses the following subject learning objectives (SLOs):<br><br>1, 2, 3, 4 and 5<br><br>This assessment task contributes to the development of the following Course Intended Learning Outcomes (CILOs):<br><br>C.1, D.1 and E.1|
 |**Type:**|Examination|
 |**Groupwork:**|Individual|

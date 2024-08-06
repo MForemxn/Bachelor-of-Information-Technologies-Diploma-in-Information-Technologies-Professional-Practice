@@ -266,7 +266,7 @@ Deliverables: Assessment task 1: [[Security]] Assessment Report due at
 
 11:59 AM 16/09/2024
 
-Week 8 23 September 2024 [[Security]] Management Models
+Week 8 23 September 2024 [[Security]] Management [[Models]]
 
 Workshop:
 
@@ -766,7 +766,7 @@ Retention of student work
 
 The University reserves the right to retain the original or one copy of any work executed and/or submitted by a student
 
-as part of the course including, but not limited to, drawings, models, designs, plans and specifications, essays,
+as part of the course including, but not limited to, drawings, [[models]], designs, plans and specifications, essays,
 
 programs, reports and theses, for any of the purposes designated in Student Rule 3.9.2. Such retention is not to affect
 

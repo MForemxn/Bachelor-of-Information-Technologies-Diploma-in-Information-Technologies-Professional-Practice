@@ -48,7 +48,7 @@ Tutors: Your tutor will be your first point of contact. Please see Canvas Your T
 
 Subject description
 
-This subject introduces information system concepts and describes how these concepts can be used to model business requirements. It outlines how the ability to capture information about the system in ways understood by its eventual users improves the final quality of the system. An overview of agile and non-agile [[software engineering]] principles, methods, tools and techniques is presented and practised in small teams. The subject introduces various analysis approaches found in contemporary system development including [[object]]-oriented methods, agile methods, business [[process]] [[modelling]] and entity-relationship [[modelling]]. It explores the relationships between these techniques and their application, and how they are used to capture and model the business requirements. Students apply various requirements [[elicitation]], analysis, [[modelling]] and [[specification]] techniques to case studies in small teams. Subject learning objectives (SLOs)
+This subject introduces information system concepts and describes how these concepts can be used to model [[business requirements]]. It outlines how the ability to capture information about the system in ways understood by its eventual users improves the final quality of the system. An overview of agile and non-agile [[software engineering]] principles, methods, tools and techniques is presented and practised in small teams. The subject introduces various analysis approaches found in contemporary system development including [[object]]-oriented methods, agile methods, business [[process]] [[modelling]] and entity-relationship [[modelling]]. It explores the relationships between these techniques and their application, and how they are used to capture and model the [[business requirements]]. Students apply various requirements [[elicitation]], analysis, [[modelling]] and [[specification]] techniques to case studies in small teams. Subject learning objectives (SLOs)
 
 Upon successful completion of this subject students should be able to:
 
@@ -58,7 +58,7 @@ Upon successful completion of this subject students should be able to:
 
 3. Document and specify various requirements via Software Requirements [[Specification]] (SRS). (C.1)
    
-4. Develop various models using a range of [[systems analysis]] techniques to analyse and specify system and user requirements. (C.1)
+4. Develop various [[models]] using a range of [[systems analysis]] techniques to analyse and specify system and user requirements. (C.1)
 
 5. Work effectively in a small team. (E.1)
 
@@ -108,7 +108,7 @@ In lectures, topics from the recommended texts are covered and additional materi
 
 The lecture followed by a tutorial format are also an extra opportunity for students to ask questions and generate a discussion based on Canvas material. Students will engage in a range of activities such as role playing, think-pair-share, attempting quizzes, short presentations, working in groups, group discussion, critiquing other students’ work, problem solving exercises, analysing stakeholder needs, etc. During tutorials, students will apply the material and build a working relationship with other team members in a collaborative group learning environment. The collaborative and active learning environment will require students to work with other students in small groups on tutorial and assignment case study exercises.
 
-For the assignment case study, students are required to do some pre-work and bring the work in progress (draft models) to the tutorial sessions. Regular [[feedback]] will be provided to students each week in the tutorial, for both in-[[class]] case studies as well as the assignment case study. This will enable students to identify and correct any issues before formal submission of assignments, and consequently improve their learning and performance in the subject.
+For the assignment case study, students are required to do some pre-work and bring the work in progress (draft [[models]]) to the tutorial sessions. Regular [[feedback]] will be provided to students each week in the tutorial, for both in-[[class]] case studies as well as the assignment case study. This will enable students to identify and correct any issues before formal submission of assignments, and consequently improve their learning and performance in the subject.
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 2 of 12For assessable quizzes, [[feedback]] will be provided on Canvas at a specified date after students have attempted.
 
@@ -140,7 +140,7 @@ Requirements [[elicitation]] tools and techniques
 
 Data [[modelling]] with ERD
 
-[[Object]]-oriented [[modelling]] with several OO models using UML
+[[Object]]-oriented [[modelling]] with several OO [[models]] using UML
 
 4. [[Specification]]
 
@@ -202,7 +202,7 @@ Week 7 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-8 23 Sep "[[Object]]-Oriented Models with UML - Use Case [[Modelling]]"
+8 23 Sep "[[Object]]-Oriented [[Models]] with UML - Use Case [[Modelling]]"
 
 Week 8 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
@@ -210,7 +210,7 @@ date/day)
 
 StuVac 30 Sep No Lectures and tutorial classes
 
-9 07 Oct "[[Object]]-Oriented Models with UML - [[Class]] [[Modelling]]" ( Due to Public holiday on
+9 07 Oct "[[Object]]-Oriented [[Models]] with UML - [[Class]] [[Modelling]]" ( Due to Public holiday on
 
 7th Oct, recorded lecture is posted on Canvas Instead of live online lecture)
 
@@ -220,13 +220,13 @@ Week 9 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-10 14 Oct "[[Object]]-Oriented Models with UML - Interaction [[Modelling]]"
+10 14 Oct "[[Object]]-Oriented [[Models]] with UML - Interaction [[Modelling]]"
 
 Week 10 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-11 21 Oct "[[Object]]-Oriented Models with UML - [[State]] and Event [[Modelling]]"
+11 21 Oct "[[Object]]-Oriented [[Models]] with UML - [[State]] and Event [[Modelling]]"
 
 Quiz 5 Due on Canvas
 
@@ -312,9 +312,9 @@ circumstances.
 
 Assessment task 2: Weekly Activities
 
-Intent: To produce various models and artifacts of software and business requirements via the traditional
+Intent: To produce various [[models]] and artifacts of software and [[business requirements]] via the traditional
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 5 of 12Intent: To produce various models and artifacts of software and business requirements via the traditional
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 5 of 12Intent: To produce various [[models]] and artifacts of software and [[business requirements]] via the traditional
 
 and agile approach to [[software development]].
 
@@ -340,7 +340,7 @@ Task: Part 1: In the first tutorial students form groups of up to five students.
 
 remain in the same group for the remainder of the semester, Each week, in the tutorial, the group
 
-will work on exercises, such as role playing, developing models, or analysing a case study, based on
+will work on exercises, such as role playing, developing [[models]], or analysing a case study, based on
 
 the weekly lecture topic. After the completion of the tutorial, a student representative from each
 
@@ -372,7 +372,7 @@ email.
 
 Assessment task 3: Requirements Analysis Report
 
-Intent: To analyse business [[processes]] and capture data via the business [[process]] and data models.
+Intent: To analyse business [[processes]] and capture data via the business [[process]] and data [[models]].
 
 Objective(s): This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -394,7 +394,7 @@ Weight: 20%
 
 Data Model and Data Dictionary.
 
-Students will work on this case study each week to produce drafts of their diagrams/models. Each
+Students will work on this case study each week to produce drafts of their diagrams/[[models]]. Each
 
 week, students will be required to submit their work in progress so as to get formative [[feedback]] from
 
@@ -450,7 +450,7 @@ Assessment task 4: OO Requirements Analysis and [[Specification]] Report
 
 Intent: To analyse and capture the functional and non-functional requirements via the SRS, agile artifacts
 
-and [[object]]-oriented models.
+and [[object]]-oriented [[models]].
 
 Objective(s): This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -478,7 +478,7 @@ containing several UML diagrams, functional requirements using user stories and 
 
 non-functional requirements as parts of software requirement specifications.
 
-Students will work on this case study each week to produce drafts of their diagrams/models. Each
+Students will work on this case study each week to produce drafts of their diagrams/[[models]]. Each
 
 week, students will be required to submit their work in progress so as to get formative [[feedback]] from
 
@@ -846,7 +846,7 @@ Retention of student work
 
 The University reserves the right to retain the original or one copy of any work executed and/or submitted by a student
 
-as part of the course including, but not limited to, drawings, models, designs, plans and specifications, essays,
+as part of the course including, but not limited to, drawings, [[models]], designs, plans and specifications, essays,
 
 programs, reports and theses, for any of the purposes designated in Student Rule 3.9.2. Such retention is not to affect
 

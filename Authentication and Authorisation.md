@@ -15,7 +15,7 @@
 
 Once [[authentication]] is confirmed, [[authorisation]] is the process of determining whether a user, device, or entity has the right to perform a specific action or access particular data within a system. It involves setting permissions and policies that control access levels and actions that authenticated entities are allowed to perform.
 
-- **Models**:
+- **[[Models]]**:
     - **Role-Based Access Control (RBAC)**: Access decisions are based on the roles assigned to users within an organisation, with each role having a defined set of access rights.
     - **Attribute-Based Access Control (ABAC)**: Decisions are made by evaluating attributes (or characteristics) of the user, resource, and environment against a set of policies.
     - **Mandatory Access Control (MAC)**: Access to resources is based on the information's classification and the clearance level of the user, often used in government and military environments.

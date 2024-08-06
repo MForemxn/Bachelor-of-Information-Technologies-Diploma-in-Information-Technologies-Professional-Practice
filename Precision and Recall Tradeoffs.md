@@ -5,7 +5,7 @@
 ![[Screenshot 2024-04-08 at 10.55.39 am.png]]
 ![[Pasted image 20240408105605.png]]
 # What are Precision and Recall Tradeoffs??
-- precision and recall are metrics used to evaluate the performance of classification models in machine learning and information retrieval
+- precision and recall are metrics used to evaluate the performance of classification [[models]] in machine learning and information retrieval
 - precision measures the accuracy of the positive predictions made by the model
 	- it is the ratio of true positive predictions to the total positive predictions (true positives + false positives)
 - recall, also known as sensitivity, measures the ability of the model to identify all relevant instances
@@ -36,6 +36,6 @@
 	- they [[help]] in understanding how changing the threshold affects the balance between precision and recall
 
 # Conclusion
-- understanding the precision and recall tradeoff is crucial for developing effective classification models
+- understanding the precision and recall tradeoff is crucial for developing effective classification [[models]]
 - the optimal balance depends on the specific requirements and constraints of the application
 - tools like the F1 score and Precision-Recall curves aid in navigating and optimising this tradeoff
