@@ -24,16 +24,16 @@
 - From early in the product development process, plan for the fact that your [[AI]] system will make bad predictions at some point. This is an important part of confirming that [[AI]] is the right technology for your project.
 - Think through the types of errors that your system could make, and their consequences. You should have an informed point of view about what's at stake for your user for a given error and expected impact of [false positive](https://pair.withgoogle.com/chapter/glossary/) and [false negative](https://pair.withgoogle.com/chapter/glossary/) predictions.
 	- ![[Pasted image 20240408104844.png]]
-# Invest Early into Good Data Practices
-> The better your data planning and collection [[processes]], the higher quality your end output.
+# Invest Early into Good [[Data]] Practices
+> The better your [[data]] planning and collection [[processes]], the higher quality your end output.
 > 	**Garbage in, garbage out.**
-- [[AI]]-powered products can suffer without the right level of focus and resources on data from early on.
+- [[AI]]-powered products can suffer without the right level of focus and resources on [[data]] from early on.
 - We call such downstream effects “[[data cascades]]” and they can be hard to diagnose and detect until your product experience is impacted.
 ## Avoiding [[Data Cascades]]
 - Good planning and scrutiny of your dataset can [[help]] you avoid issues downstream. Some actions that you can take include:
-	- Collect data in batches
-	- Embrace “noisy” data
-	- Plan for data maintenance
+	- Collect [[data]] in batches
+	- Embrace “noisy” [[data]]
+	- Plan for [[data]] maintenance
 	- Partner with domain experts
 # When and Why Should I Use [[AI]] in my Product?
 - Does it:
@@ -59,8 +59,8 @@
 	- Even after onboarding is complete, continue to make user actions and decisions reversible where possible.
 	- User preferences and context are always changing.
 	- Giving piecemeal undo options allows them to manipulate preferences recommendations without needing to resort to a nuclear reset option.
-- [[AI]] systems often require access to some data or input from their users to provide them with personalized recommendations.
-- Before asking new users what and how much data they are willing to share, give them the opportunity to test your system.
+- [[AI]] systems often require access to some [[data]] or input from their users to provide them with personalized recommendations.
+- Before asking new users what and how much [[data]] they are willing to share, give them the opportunity to test your system.
 	- For example, this can be done by offering an initial experimentation experience.
 	- This will [[help]] new users who are eager to get started, or who don’t have time to fully consider and configure their preferences before diving in.
 - It will also support users who are wary of sharing this information before they fully understand what the system offers in return.
@@ -98,13 +98,13 @@
 - However, in other contexts, confidence displays can be challenging for users to understand.
 - If you decide to use them, test different types of displays early in the product development process to find what works best for your users.
 
-# Embrace 'Noisy' Data
-> The real world is messy! Expect the same from the data that you gather.
-- As you develop your [training dataset](https://pair.withgoogle.com/chapter/glossary/), don’t strive for something perfectly curated. Instead, allow some “noise” to make the data as similar as possible to the real-world data you expect to get from your users.
+# Embrace 'Noisy' [[Data]]
+> The real world is messy! Expect the same from the [[data]] that you gather.
+- As you develop your [training dataset](https://pair.withgoogle.com/chapter/glossary/), don’t strive for something perfectly curated. Instead, allow some “noise” to make the [[data]] as similar as possible to the real-world [[data]] you expect to get from your users.
 - This can [[help]] head off errors and poor quality recommendations once you release your model into the real world.
-- To do this, think about the types of data that you expect to get from your users, and then ensure that data is represented in your training set.
-	- For example, for an image recognition system, consider the data you might get from you users.
-	- If it’s likely they will not have the time to take high-quality photographs and your model will have to work with blurry smartphone images, include blurry images in your training data.
+- To do this, think about the types of [[data]] that you expect to get from your users, and then ensure that [[data]] is represented in your training set.
+	- For example, for an image recognition system, consider the [[data]] you might get from you users.
+	- If it’s likely they will not have the time to take high-quality photographs and your model will have to work with blurry smartphone images, include blurry images in your training [[data]].
 # Let Users Give [[Feedback]]
 > Give users the opportunity for real-time teaching, [[feedback]] and error correction
 - Giving a thumbs up or thumbs down on a recommendation

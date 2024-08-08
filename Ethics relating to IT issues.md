@@ -5,7 +5,7 @@
 
 # Common Ethical Issues in IT
 - the IT sector faces numerous ethical dilemmas, some of the most prevalent include:
-	- data privacy and protection: handling personal information responsibly and respecting user consent
+	- [[data]] privacy and protection: handling personal information responsibly and respecting user consent
 	- [[cybersecurity]]: protecting systems and networks from theft, damage, or unauthorized access
 	- intellectual property: respecting copyright laws and the rights of creators while fostering innovation and access to information
 	- digital divide: addressing inequalities in access to technology and the internet
@@ -20,8 +20,8 @@
 
 # Privacy and [[Data Protection]]
 - one of the most pressing ethical concerns in IT:
-	- involves collecting, storing, and using personal data in a manner that respects individual privacy rights
-	- requires transparency about data practices and ensuring data [[security]]
+	- involves collecting, storing, and using personal [[data]] in a manner that respects individual privacy rights
+	- requires transparency about [[data]] practices and ensuring [[data]] [[security]]
 	- regulations like the GDPR in the EU and the Privacy Act in Australia set legal standards for [[data protection]]
 
 # The Role of IT Professionals
@@ -33,7 +33,7 @@
 # Ethical Considerations in Emerging Technologies
 - as technology evolves, new ethical challenges emerge:
 	- the development and deployment of [[AI]] and machine learning raise questions about bias, [[accountability]], and the impact on employment
-	- the growth of the [[Internet of Things]] (IoT) increases concerns about surveillance and data [[security]]
+	- the growth of the [[Internet of Things]] (IoT) increases concerns about surveillance and [[data]] [[security]]
 	- blockchain and cryptocurrencies present issues related to transparency, regulation, and financial ethics
 
 # Education and Awareness

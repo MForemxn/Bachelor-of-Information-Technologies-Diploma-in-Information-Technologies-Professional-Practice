@@ -11,7 +11,7 @@
 	- error messages and alerts
 		- inform users of mistakes or issues that need attention
 	- performance metrics
-		- provide data on how well the system is operating
+		- provide [[data]] on how well the system is operating
 	- user reviews and ratings
 		- offer insights into user satisfaction and areas for improvement
 	- system logs
@@ -36,7 +36,7 @@
 
 # Challenges with Feedback in [[Information Systems]]
 - collecting and managing feedback effectively can be challenging due to:
-	- volume of data
+	- volume of [[data]]
 	- varying quality of user-generated feedback
 	- integrating feedback into system design and operation
 - addressing these challenges requires:

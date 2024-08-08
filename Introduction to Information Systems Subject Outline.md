@@ -45,7 +45,7 @@ Upon successful completion of this subject students should be able to:
 1. Identify business, organizational and society environment to propose types of IS for obtaining and maintaining
    competitive advantage. (B.1)
 
-2. Demonstrate data management approaches for implementing [[knowledge management]] systems in organisations. (D.1)
+2. Demonstrate [[data]] management approaches for implementing [[knowledge management]] systems in organisations. (D.1)
 
 3. Discuss key concepts relating to telecommunication and networking. (D.1)
 
@@ -349,9 +349,9 @@ As a UTS student, when you create something original, credit others and collabor
 integrity:
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original for
-that assessment and being honest about any data or results.
+that assessment and being honest about any [[data]] or results.
 
-Credit others. You need to acknowledge and reference the source of any ideas, data or materials you use or adapt in your
+Credit others. You need to acknowledge and reference the source of any ideas, [[data]] or materials you use or adapt in your
 work.
 
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,

@@ -1,7 +1,7 @@
 # What is Systems Design?
 - systems design is a process that involves creating the architecture of a system to meet specific requirements
 - it encompasses:
-	- defining the components, modules, interfaces, and data for a system to satisfy specified requirements
+	- defining the components, modules, interfaces, and [[data]] for a system to satisfy specified requirements
 	- involves both hardware and software design aspects
 - aims to ensure that the system will be efficient, reliable, and maintainable
 
@@ -9,7 +9,7 @@
 - preliminary design
 	- outlines the overall system architecture and identifies major components
 - detailed design
-	- delves into the specifics of each component, including algorithms, data structures, and communication protocols
+	- delves into the specifics of each component, including algorithms, [[data]] structures, and communication protocols
 
 # Importance of Systems Design
 - critical for ensuring the system's functionality aligns with user needs and business goals
@@ -22,7 +22,7 @@
 - scalability and flexibility
 	- designing systems that can grow and adapt over time
 - [[security]]
-	- incorporating [[security]] measures at the design stage to protect data and operations
+	- incorporating [[security]] measures at the design stage to protect [[data]] and operations
 - performance
 	- ensuring the system can handle expected loads and perform tasks within acceptable time frames
 - interoperability
@@ -32,15 +32,15 @@
 - structured design
 	- focuses on breaking down the system into smaller parts and then integrating them
 - object-oriented design (OOD)
-	- based on the concept of "objects", which are data structures encapsulating data fields and methods
+	- based on the concept of "objects", which are [[data]] structures encapsulating [[data]] fields and methods
 - service-oriented architecture (SOA)
 	- designs the system as a set of interconnected services to enhance flexibility and reuse
 
 # Tools and Techniques in Systems Design
 - Unified Modeling Language (UML)
 	- a standard way to visualize the design of a system
-- flowcharts and data flow diagrams (DFDs)
-	- graphical tools to represent the flow of data through the system
+- flowcharts and [[data]] flow diagrams (DFDs)
+	- graphical tools to represent the flow of [[data]] through the system
 - prototyping
 	- creating a preliminary version of the system for evaluation and [[feedback]]
 

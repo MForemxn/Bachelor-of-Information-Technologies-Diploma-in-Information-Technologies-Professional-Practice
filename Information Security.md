@@ -1,7 +1,7 @@
 # What is Information [[Security]]?
 
 - Information [[security]] encompasses all [[processes]] and policies designed to protect an organisation's information and its [[information systems]] (IS) from unauthorized access, use, disclosure, disruption, modification, or destruction.
-- It aims to safeguard the [[confidentiality]], [[integrity]], and [[availability]] of data, while ensuring the continuous functionality of [[information systems]].
+- It aims to safeguard the [[confidentiality]], [[integrity]], and [[availability]] of [[data]], while ensuring the continuous functionality of [[information systems]].
 
 # Detailed Explanation of Information [[Security]] Threats
 
@@ -11,9 +11,9 @@
 
 # Types of Information [[Security]] Safeguards and Controls
 
-- **Physical Controls:** Measures to physically secure data, such as locks and secure access to buildings.
-- **Access Controls:** Techniques to ensure that only authorized individuals can access certain data or [[information systems]].
-- **Communication Controls:** Include firewalls, [[encryption]], and anti-malware systems, which protect the data as it moves across networks.
+- **Physical Controls:** Measures to physically secure [[data]], such as locks and secure access to buildings.
+- **Access Controls:** Techniques to ensure that only authorized individuals can access certain [[data]] or [[information systems]].
+- **Communication Controls:** Include firewalls, [[encryption]], and anti-malware systems, which protect the [[data]] as it moves across networks.
 
 # Information [[Security]] [[Processes]]
 
@@ -32,5 +32,5 @@
 
 # Case Study: Small Businesses in Danger
 
-- The case study emphasizes the importance of implementing basic [[security]] controls in small businesses, such as regular updates to anti-virus software and backing up data.
-- It stresses the critical need for robust backup plans and procedures to safeguard against data loss, which can be time-consuming and costly to recover.
+- The case study emphasizes the importance of implementing basic [[security]] controls in small businesses, such as regular updates to anti-virus software and backing up [[data]].
+- It stresses the critical need for robust backup plans and procedures to safeguard against [[data]] loss, which can be time-consuming and costly to recover.

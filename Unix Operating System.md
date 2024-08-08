@@ -44,7 +44,7 @@
 # Features of UNIX
 - Multi-user capability: Allows multiple users to access the system and its resources simultaneously.
 - Multi-tasking: Enables several programs to run at the same time.
-- Pipe and filter architecture: Allows the output of one program to serve as the input to another, facilitating complex data processing workflows.
+- Pipe and filter architecture: Allows the output of one program to serve as the input to another, facilitating complex [[data]] processing workflows.
 - Hierarchical file system: Organizes files in a tree-like structure, making it easier to manage and navigate.
 - Scripting and programming support: Comes with powerful scripting languages like shell scripting, AWK, and sed, and supports various programming languages.
 

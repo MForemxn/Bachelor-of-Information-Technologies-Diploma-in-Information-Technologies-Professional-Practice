@@ -15,8 +15,8 @@
 
 # Process Management Concepts
 - process scheduling: determines the order in which [[processes]] access the CPU, using algorithms like round-robin, first-come-first-served, and priority scheduling
-- process synchronisation: coordinates the execution of [[processes]] that share resources or data, preventing race conditions and ensuring data consistency
-- inter-process communication (IPC): enables [[processes]] to exchange data and signals, facilitating cooperation and data sharing among [[processes]]
+- process synchronisation: coordinates the execution of [[processes]] that share resources or [[data]], preventing race conditions and ensuring [[data]] consistency
+- inter-process communication (IPC): enables [[processes]] to exchange [[data]] and signals, facilitating cooperation and [[data]] sharing among [[processes]]
 
 # Challenges in Memory and Process Management
 - balancing performance and resource utilisation: ensuring that memory and CPU resources are used efficiently without compromising system performance

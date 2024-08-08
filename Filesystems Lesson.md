@@ -126,7 +126,7 @@ echo "Hello World"
 
   
   
-[[Redirection]] is the process of capturing the **STDOUT** data and sending it to a destination other than the screen.
+[[Redirection]] is the process of capturing the **STDOUT** [[data]] and sending it to a destination other than the screen.
 
 # Saving standard output as a file
 
@@ -230,7 +230,7 @@ cat test.txt
 ```
 
   
-If you wish to append the output of a command to a file, retaining the data it contained prior to executing the command, use the "double greater-than" operator, (**>>**).  
+If you wish to append the output of a command to a file, retaining the [[data]] it contained prior to executing the command, use the "double greater-than" operator, (**>>**).  
 
 ## **Example 4: Appending standard output to a file**
 
@@ -394,7 +394,7 @@ Similar to the `head` command, but it prints the last lines of a file to the scr
 tail /course/linuxgym/teeny/3mwsm10.txt
 ```
 
-The tail command also handles the 'follow' function, which continues to watch the file and output any new data which is appended to it. This is very useful for watching system log files
+The tail command also handles the 'follow' function, which continues to watch the file and output any new [[data]] which is appended to it. This is very useful for watching system log files
 
 
 

@@ -31,8 +31,8 @@
 	### Technical Specifications
 
 	- - **Frontend:** React.js and Next.js for robust single-page application behavior, styled with Tailwind CSS and Daisy UI.
-	- **Backend:** Serverless functions via Next.js for API routes, handling calculations and data management.
-	- **Database:** MongoDB with Mongoose for efficient data storage and querying.
+	- **Backend:** Serverless functions via Next.js for API routes, handling calculations and [[data]] management.
+	- **Database:** MongoDB with Mongoose for efficient [[data]] storage and querying.
 	- **[[Authentication]]:** Possibly using NextAuth.js for seamless [[authentication]] integration.
 	- **Hosting and Deployment:** Vercel for deploying both front and backend elements, with MongoDB Atlas for database services.
 
@@ -49,7 +49,7 @@
 	    - Access the app from any device so that I can manage my expenses on the go.
 	1. **As a managing roommate (one who handles bill payments), I want to:**
     
-	    - Add and remove roommates from our household group so that the right people have access to our expense data.
+	    - Add and remove roommates from our household group so that the right people have access to our expense [[data]].
 	    - Approve expenses added by roommates so that I can ensure they are accurate before they are split.
 	    - Generate reports on past expenses so that I can analyze our spending habits over time.
 	    - Set up recurring expenses (like rent and utilities) so that they are automatically added each period.
@@ -58,7 +58,7 @@
 	    - Have a separate landlord account that can access multiple households if I own several properties.
 	    - Track rental payments separately so that I can keep rental income distinct from other household expenses.
 	    - Receive consolidated reports for tax purposes so that I can easily report rental income.
-- [x] **Compliance and [[Security]]:** Consider any legal and [[security]] requirements, especially related to financial data.
+- [x] **Compliance and [[Security]]:** Consider any legal and [[security]] requirements, especially related to financial [[data]].
 
 ### Step 2: Design
 - [x] **Wireframes:** Create basic wireframes for each screen or component.
@@ -123,7 +123,7 @@
 }
 
 ```
-- [x] **[[Database]] Design:** Plan your MongoDB schema to handle user data, expense records, and transaction logs efficiently.
+- [x] **[[Database]] Design:** Plan your MongoDB schema to handle user [[data]], expense records, and transaction logs efficiently.
 
 ### Step 3: Frontend Development
 - [ ] **Set Up Next.js:** Initialize a Next.js project as the framework provides efficient routing and SEO capabilities.
@@ -131,7 +131,7 @@
 - [ ] **[[State]] Management:** Use React hooks like `useState` and `useEffect` for managing [[state]] within your app.
 
 ### Step 4: Backend Development
-- [ ] **Serverless Functions:** Implement Next.js [[API]] routes to handle backend logic such as user [[authentication]], expense management, and data retrieval.
+- [ ] **Serverless Functions:** Implement Next.js [[API]] routes to handle backend logic such as user [[authentication]], expense management, and [[data]] retrieval.
 - [ ] **[[Database]] Integration:** Use Mongoose to interact with MongoDB for CRUD operations related to users and expenses.
 - [ ] **[[Authentication]]:** Implement secure login and signup [[processes]] using email and password or third-party providers.
 

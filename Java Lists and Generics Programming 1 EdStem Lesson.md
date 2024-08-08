@@ -1,13 +1,13 @@
 ## Arrays are great, but...
 
-So far we've worked with arrays a reasonable amount. It's very useful to be able to collect a group of similar things together and deal with them as one unit. Arrays however have a couple of limitations: what if you need more space and what if you want to put something in the middle of existing data?
+So far we've worked with arrays a reasonable amount. It's very useful to be able to collect a group of similar things together and deal with them as one unit. Arrays however have a couple of limitations: what if you need more space and what if you want to put something in the middle of existing [[data]]?
 
 It would be nice to have something that could expand when needed, but still worked basically like an array: enter the `ArrayList`!
 ## ArrayLists
 
 `ArrayList` is a class in the `java.util` package that implements the idea of an expandable array.
 
-Internally it stores and array, and makes careful judgements about how big that array is, when it needs to get bigger and takes care of moving data around when things change.
+Internally it stores and array, and makes careful judgements about how big that array is, when it needs to get bigger and takes care of moving [[data]] around when things change.
 
 Externally, we can treat it like something very similar to an array. We don't get to use the `[]`array index brackets (Java doesn't allow operator overloading), but we do have a series of useful methods:
 
@@ -34,9 +34,9 @@ The full description of the public interface of `ArrayList` can be found in the 
 
 ## What is E???
 
-`ArrayList<E>` (which is the proper, full type name for the class) is the first time we've seen what's called (in Java) a _generic_ class. We will talk a bit more about what generics are in a couple of lessons, but for the moment the important aspect for using `ArrayList<E>` is that when creating one, you replace the `E` with the type of the data that you want the `ArrayList` to store. `E` is called a _type parameter_, and it's like providing data to a method, except you are providing type data to the class.
+`ArrayList<E>` (which is the proper, full type name for the class) is the first time we've seen what's called (in Java) a _generic_ class. We will talk a bit more about what generics are in a couple of lessons, but for the moment the important aspect for using `ArrayList<E>` is that when creating one, you replace the `E` with the type of the [[data]] that you want the `ArrayList` to store. `E` is called a _type parameter_, and it's like providing [[data]] to a method, except you are providing type [[data]] to the class.
 
-Thus creating an `ArrayList` requires you to know what type of data will be stored in it (just like arrays) and that's the only type of data that can be stored in it (also just like arrays).
+Thus creating an `ArrayList` requires you to know what type of [[data]] will be stored in it (just like arrays) and that's the only type of [[data]] that can be stored in it (also just like arrays).
 
 If we pick `String` as the example type for what we want to store, the basic declaration/initialisation looks like
 
@@ -44,7 +44,7 @@ ArrayList<String> list = new ArrayList<String>();
 
 So not a lot different to the object creation you have already seen, we've only added that type parameter (and of course `String` can be replaced by any class name).
 
-One caveat to this is that type parameters (in Java) can only be replaced by class names/types. This means you can't use primitive types, however Java provides class counterparts for each primitive type that gets automatically converted into a primitive when used. These are called _wrapper classes_ (because they "wrap" the data in a class). The names for these are usually the same as the primitive type, but with a capital letter. The only exceptions are `int` which has `Integer` as its wrapper class, and `char` which has `Character`.
+One caveat to this is that type parameters (in Java) can only be replaced by class names/types. This means you can't use primitive types, however Java provides class counterparts for each primitive type that gets automatically converted into a primitive when used. These are called _wrapper classes_ (because they "wrap" the [[data]] in a class). The names for these are usually the same as the primitive type, but with a capital letter. The only exceptions are `int` which has `Integer` as its wrapper class, and `char` which has `Character`.
 
 The full list is:
 
@@ -100,7 +100,7 @@ Notice in particular the lines with comments:
     
 - Line 9: here we add things to `list` using the basic `add` method. This puts things at the end of the `ArrayList`. As noted before, there are many methods for working with array lists.
     
-- Line 12: `ArrayList` is a data structure that we can use the for-each style loop with (more formally, it implements the `Iterable` interface, but more on that soon).
+- Line 12: `ArrayList` is a [[data]] structure that we can use the for-each style loop with (more formally, it implements the `Iterable` interface, but more on that soon).
     
 
 Lets now look at the "Smallest Swap" exercise from Lab 4, but completed with an `ArrayList`
@@ -186,7 +186,7 @@ Of course this means that it still shares some of the restrictions of arrays, in
 
 Given that there is a whole lesson about this, clearly there is an alternative. Enter the `LinkedList<E>`!
 
-[Linked lists](https://en.wikipedia.org/wiki/Linked_list) are a fundamental data structure that predate OOP (though the ideas mesh well with it). They are lists constructed out of independent components normally called _nodes_. Each node stores a single element, and some sort of link to the next node. The list itself stores a link to the first node.
+[Linked lists](https://en.wikipedia.org/wiki/Linked_list) are a fundamental [[data]] structure that predate OOP (though the ideas mesh well with it). They are lists constructed out of independent components normally called _nodes_. Each node stores a single element, and some sort of link to the next node. The list itself stores a link to the first node.
 
 This means that added and removing elements is easy, once you've found the spot you want them to go in. Finding the spot may be slow though.
 ## Java's LinkedList<E>
@@ -313,7 +313,7 @@ Generics are the Java name for classes or methods that take type parameters. The
 
 The motivation for this is that we would like our classes and methods to be type-safe (be able to detect when the wrong sort of information is passed to them), but often the functionality of the method or class does not depend on the actual details of the type passed to them.
 
-Taking the example that we have already seen, the `ArrayList<E>` class doesn't need to know anything about the structure of the data it stores, but we do need to be able to check that it all has the same type. So at run-time we need to be able to give `E` a value, and use it to check things, but we don't need to know what it is to write the code to add something to the list.
+Taking the example that we have already seen, the `ArrayList<E>` class doesn't need to know anything about the structure of the [[data]] it stores, but we do need to be able to check that it all has the same type. So at run-time we need to be able to give `E` a value, and use it to check things, but we don't need to know what it is to write the code to add something to the list.
 
 This parameterisation by types is called type polymorphism and is one expression of the principle of abstraction - we're abstracting away the internal details of the type, and thus allowing our generic class or method to not have to be redefined every time we want to make it work with a new type.
 

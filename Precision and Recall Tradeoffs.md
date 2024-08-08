@@ -9,7 +9,7 @@
 - precision measures the accuracy of the positive predictions made by the model
 	- it is the ratio of true positive predictions to the total positive predictions (true positives + false positives)
 - recall, also known as sensitivity, measures the ability of the model to identify all relevant instances
-	- it is the ratio of true positive predictions to the actual positives in the data (true positives + false negatives)
+	- it is the ratio of true positive predictions to the actual positives in the [[data]] (true positives + false negatives)
 
 # Precision and Recall Tradeoffs
 - improving precision typically reduces recall and vice versa

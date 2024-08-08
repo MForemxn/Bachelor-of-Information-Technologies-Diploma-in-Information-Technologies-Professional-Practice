@@ -1,4 +1,5 @@
 [[Subjects]]
 [[Useful Links]]
 [[Handbook]]
+[[Week by Week Guidelines]]
 [[Other Pages]]

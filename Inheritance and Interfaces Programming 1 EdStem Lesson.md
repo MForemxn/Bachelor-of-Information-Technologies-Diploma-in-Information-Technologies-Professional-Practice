@@ -1,10 +1,10 @@
 ## Inheritance
 
-Inheritance is one of the fundamental principles of OOP - the idea that an object should be able to inherit properties (data and methods) from another object, effectively setting the "child" up as a subtype of the "parent".
+Inheritance is one of the fundamental principles of OOP - the idea that an object should be able to inherit properties ([[data]] and methods) from another object, effectively setting the "child" up as a subtype of the "parent".
 
 Java has two ways of achieving this, the first is called (confusingly) _inheritance_ (not really Java's fault, this meaning of inheritance to mean a type of inheritance is inherited from prior languages - did that help?).
 
-In Java, inheritance is achieved by using the `extends` keyword in the child class declaration, and the name of the chosen parent class. Java only allows **one** parent. The child class then has all the data and methods of the parent class (however may not be able to access them if they're marked `private`, but they're still there).
+In Java, inheritance is achieved by using the `extends` keyword in the child class declaration, and the name of the chosen parent class. Java only allows **one** parent. The child class then has all the [[data]] and methods of the parent class (however may not be able to access them if they're marked `private`, but they're still there).
 
 In Java the parent class is called the _superclass_, and the child is called the _subclass_.
 
@@ -19,7 +19,7 @@ This super- and sub-class relationship extends to a hierarchy - if `A extends B`
 - `C` is a superclass of `B` and `A` (it can't do the new things `A` and `B` add).
     
 
-Each class in the hierarchy then has access to non-private methods and data from all its superclasses. The immediate superclass can be accessed with the `super` keyword, and constructors from the immediate superclass can be called by `super(...)` in a similar fashion to using `this(...)` to call other constructors in the same class.
+Each class in the hierarchy then has access to non-private methods and [[data]] from all its superclasses. The immediate superclass can be accessed with the `super` keyword, and constructors from the immediate superclass can be called by `super(...)` in a similar fashion to using `this(...)` to call other constructors in the same class.
 
 
 ## Dynamic Dispatch, Or, How to choose what to run.
@@ -39,7 +39,7 @@ Java has a simple resolution mechanism:
 
 So in the example, the type of the value is `A`. The type of the variable referencing that value is irrelevant (in contrast to C++ style dispatch). If all three implement `foo()`, then `A.foo()` will be run. If `A` didn't implement `foo()`, the JVM will move up to the immediate superclass and check there. In this case, `B`. This will continue until the required member is found, or all superclasses are exhausted.
 
-Note that _data_ members in Java are _statically_ dispatched - the data is chosen by the type of the variable, not the value.
+Note that _[[data]]_ members in Java are _statically_ dispatched - the [[data]] is chosen by the type of the variable, not the value.
 
 So in the example above, if `A`, `B` and `C` all had a `public` variable called `bar` the following code would produce the one associated with the `C`, rather than the `A`:
 

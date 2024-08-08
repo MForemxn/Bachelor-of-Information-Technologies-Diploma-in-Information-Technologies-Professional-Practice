@@ -1,6 +1,6 @@
 ## How Errors are Created in Java
 
-Like everything in Java barring the primitive data types, errors are handled in an object oriented manner. Errors can be generated both by the JVM and by the program itself, and by exploiting the type hierarchy intrinsic in Java's approach to OOP, different errors can be differentiated, and different types of errors can be handled in different ways (both at compile time and run time).
+Like everything in Java barring the primitive [[data]] types, errors are handled in an object oriented manner. Errors can be generated both by the JVM and by the program itself, and by exploiting the type hierarchy intrinsic in Java's approach to OOP, different errors can be differentiated, and different types of errors can be handled in different ways (both at compile time and run time).
 
 In Java, all errors are broken down into three basic types:
 
@@ -220,7 +220,7 @@ The core model is based on the decorator pattern (not part of this subject, but 
 
 For input, the source is modeled by an object that provides raw bytes. This source is passed through some collection of input streams, which perform transformations on the raw input. The transformed input can then be interpreted via a reader of some kind, which presents the transformed information.
 
-For output, the process is essentially inverted, a writer is used to pass data through output streams that modify the data, which is then written out to a target.
+For output, the process is essentially inverted, a writer is used to pass [[data]] through output streams that modify the [[data]], which is then written out to a target.
 
 This can quite cumbersome for complicated transformations. Fortunately for simple character based I/O, we can simplify things greatly.
 
@@ -280,7 +280,7 @@ Of course it can be altered in many ways, again the documentation for `[PrintWri
 
 As I/O has the possibility of generating a number of checked exceptions, we are obliged to handle these exceptions either by throwing them up the call chain, or using a `try-catch` to handle them. In all cases with I/O, there's probably actions we would like to take, even when an exception has been generated, for example, calling `close()` on the stream.
 
-This suggests we would like to put the call to `close()` in a `finally` block, but this creates its own problems as the `finally` block is a different context to the `try` block, so we face a dilemma about where to create the reader or writer and a mess of nested `try-catch` structures, or possibly not closing the stream properly (which may cause additional data loss in some cases, or leave files locked, etc.).
+This suggests we would like to put the call to `close()` in a `finally` block, but this creates its own problems as the `finally` block is a different context to the `try` block, so we face a dilemma about where to create the reader or writer and a mess of nested `try-catch` structures, or possibly not closing the stream properly (which may cause additional [[data]] loss in some cases, or leave files locked, etc.).
 
 To deal with this problem, Java has a (relatively new) feature called "try-with". This allows a `try-catch` to be parameterized with resources that are available in the different contexts of the different blocks. As it is intended to be used with I/O resources, it also automatically closes the resource, without the need for an explicit `finally` block (unless you want to do something else in the `finally`).
 

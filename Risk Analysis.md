@@ -1,6 +1,6 @@
 # What is Risk Analysis in [[Information Security]]?
 - risk analysis in [[information security]] is the process of identifying, evaluating, and estimating the levels of risks involved in [[information systems]] and technology environments
-- focuses on threats to [[confidentiality]], [[integrity]], and [[availability]] of data
+- focuses on threats to [[confidentiality]], [[integrity]], and [[availability]] of [[data]]
 - aims to identify vulnerabilities and threats to information assets and assess the potential impact and likelihood of those threats
 
 # Importance of Risk Analysis in [[Information Security]]

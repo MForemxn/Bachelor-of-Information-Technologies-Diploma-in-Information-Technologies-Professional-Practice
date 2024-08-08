@@ -1,5 +1,5 @@
 # What is a file system
-- a system that manages data storage and access
+- a system that manages [[data]] storage and access
 	- classed into logical and physical
 	- logical: what the user sees. files, directories, etc.
 	- physical: where the files are physically stored
@@ -15,8 +15,8 @@
 	- siblings of files are in the same directory (share the same parent)
 # File Storage
 - google is a distributed file system 
-	- this means hundreds of systems all connected to each other, sharing the data
-- UTS has 2 data centres, one on campus and one in Macquarie park
+	- this means hundreds of systems all connected to each other, sharing the [[data]]
+- UTS has 2 [[data]] centres, one on campus and one in Macquarie park
 # Types of File Allocation
 - Contiguous, Chained or Linked, and Indexed
 	- Contiguous: supports random access

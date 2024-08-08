@@ -32,7 +32,7 @@ Email: luke.mathieson@uts.edu.au
 
 # Subject description
 
-Programming computers is an essential skill for computer scientists, software engineers, software developers and data
+Programming computers is an essential skill for computer scientists, software engineers, software developers and [[data]]
 scientists, and successful programmers integrate many diverse capabilities to be able to solve complex, abstract
 problems. This subject introduces the core programming concepts using an object-oriented approach to programming,
 prioritising project-based learning and independent research, experimentation, and communication skills. Additionally,
@@ -356,9 +356,9 @@ As a UTS student, when you create something original, credit others and collabor
 integrity:
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original for
-that assessment and being honest about any data or results.
+that assessment and being honest about any [[data]] or results.
 
-Credit others. You need to acknowledge and reference the source of any ideas, data or materials you use or adapt in your
+Credit others. You need to acknowledge and reference the source of any ideas, [[data]] or materials you use or adapt in your
 work.
 
 Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or supervisor,

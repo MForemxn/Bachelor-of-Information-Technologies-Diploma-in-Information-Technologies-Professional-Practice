@@ -1,11 +1,11 @@
 # What are Network Services?
 - network services refer to the applications, protocols, and functionalities that enable devices to communicate over a computer network
-- they provide essential capabilities such as data transfer, resource sharing, network connectivity, and [[security]]
+- they provide essential capabilities such as [[data]] transfer, resource sharing, network connectivity, and [[security]]
 - common examples include web services, email, file sharing, and domain name resolution
 
 # Importance of Network Services
-- facilitate seamless communication and data exchange between devices across different networks
-- enable efficient resource utilisation by allowing multiple devices to share hardware, software, and data resources
+- facilitate seamless communication and [[data]] exchange between devices across different networks
+- enable efficient resource utilisation by allowing multiple devices to share hardware, software, and [[data]] resources
 - critical for maintaining network infrastructure, ensuring devices can connect, communicate, and access network resources
 - support the delivery of content and services over the internet, underpinning modern digital experiences
 
@@ -29,12 +29,12 @@
 
 # Network Services [[Security]] Measures
 - implementing firewalls and intrusion detection systems to monitor and control incoming and outgoing network traffic
-- using [[encryption]] protocols like SSL/TLS for secure data transmission
+- using [[encryption]] protocols like SSL/TLS for secure [[data]] transmission
 - applying regular updates and patches to network services and protocols to address vulnerabilities
 - employing access control measures to restrict and monitor user access to network resources
 
 # Future Trends in Network Services
 - increased adoption of cloud-based network services, offering scalability, flexibility, and cost-efficiency
 - growth of software-defined networking (SDN) and network functions virtualisation (NFV), enabling more agile and programmable network infrastructures
-- expansion of edge computing services, bringing [[data processing]] closer to the source of data generation for improved performance
+- expansion of edge computing services, bringing [[data processing]] closer to the source of [[data]] generation for improved performance
 - integration of artificial intelligence and machine learning for smarter network management, optimisation, and [[security]] measures

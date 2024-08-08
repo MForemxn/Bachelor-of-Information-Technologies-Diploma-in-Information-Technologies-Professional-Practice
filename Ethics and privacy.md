@@ -84,9 +84,9 @@
 - With the rapid advancement of technology, ethical considerations are more important than ever.
 - Technology can greatly benefit society, but it also has the potential to harm individuals if used irresponsibly.
 - Ethical guidelines in technology aim to ensure that advancements contribute positively to society without infringing on individuals' rights or well-being.
-- Issues such as data breaches, surveillance, and the manipulation of information highlight the need for ethical standards in technological development and [[implementation]].
+- Issues such as [[data]] breaches, surveillance, and the manipulation of information highlight the need for ethical standards in technological development and [[implementation]].
 # Privacy Law
-- Privacy law relates to the protection of an individual’s personal data and  information
+- Privacy law relates to the protection of an individual’s personal [[data]] and  information
 - The Privacy Act regulates how personal information is handled
 - The Privacy Act allows you to:
 	- know why your personal information is being collected, how it will be used and who it will be disclosed to
@@ -96,30 +96,30 @@
 	- make a complaint about an agency or organisation, if you think that they have mishandled your personal information.
 # Privacy Codes and Policies
 - Privacy policies or privacy codes are an organization’s guidelines for protecting the privacy of its customers, clients, and employees.
-- Privacy laws revolve around requirements that mandate that organizations get users to opt-in or opt-out of specific data collection and processing activities.
-- The opt-out model of informed consent permits the company to collect personal information until the customer specifically requests that the data not be collected.
+- Privacy laws revolve around requirements that mandate that organizations get users to opt-in or opt-out of specific [[data]] collection and processing activities.
+- The opt-out model of informed consent permits the company to collect personal information until the customer specifically requests that the [[data]] not be collected.
 - The opt-in model of informed consent, which prohibits an organization from collecting any personal information unless the customer specifically authorizes it.
-## Data Collection
+## [[Data]] Collection
 ![[Pasted image 20240513111020.png]]
-## Data Accuracy
+## [[Data]] Accuracy
 ![[Pasted image 20240513111031.png]]
-## Data [[Confidentiality]]
+## [[Data]] [[Confidentiality]]
 ![[Pasted image 20240513111045.png]]
 # Personal Information in Databases
 There are several concerns about the information you provide to these record keepers. Some of the major concerns are:
 - Do you know where the records are?
 - Are the records accurate?
-- Can you change inaccurate data?
+- Can you change inaccurate [[data]]?
 - How long will it take to make a change?
-- Under what circumstances will personal data be released?
-- How are the data used?
-- To whom are the data given or sold?
-- How secure are the data against access by unauthorised people?
+- Under what circumstances will personal [[data]] be released?
+- How are the [[data]] used?
+- To whom are the [[data]] given or sold?
+- How secure are the [[data]] against access by unauthorised people?
 # Privacy Concerns in the Digital Age
-- The digital age has brought about unprecedented levels of data collection and surveillance.
+- The digital age has brought about unprecedented levels of [[data]] collection and surveillance.
 - Personal information is constantly being collected by various entities, from social media platforms to government agencies.
 - This raises significant privacy concerns, as individuals often have little control over what information is collected and how it is used.
-- The potential for misuse of personal data is a major ethical issue, with implications for individual autonomy, [[security]], and freedom.
+- The potential for misuse of personal [[data]] is a major ethical issue, with implications for individual autonomy, [[security]], and freedom.
 
 # Balancing Innovation and Privacy
 - One of the key challenges in technology ethics is finding the right balance between innovation and privacy.
@@ -130,7 +130,7 @@ There are several concerns about the information you provide to these record kee
 # The Role of Legislation and Regulation
 - Legislation and regulation play a critical role in protecting ethics and privacy in the digital world.
 - Laws such as the General [[Data Protection]] Regulation (GDPR) in the European Union set standards for [[data protection]] and privacy.
-- These regulations require organizations to be transparent about data collection practices and give individuals control over their personal information.
+- These regulations require organizations to be transparent about [[data]] collection practices and give individuals control over their personal information.
 - However, the rapid pace of technological change often outstrips the ability of legislation to keep up, highlighting the need for ongoing vigilance and adaptation.
 
 # Ethical Design and Development

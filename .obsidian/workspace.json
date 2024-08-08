@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Introduction to Network Fundamentals.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Introduction to Network Fundamentals.md",
                 "mode": "preview",
                 "source": true
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Introduction to Network Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Introduction to Network Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks and the Internet.md"
+                "file": "Introduction to Network Fundamentals.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -177,34 +177,34 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "2672adc29ec67e4e",
+  "active": "fef4448d060367fa",
   "lastOpenFiles": [
+    "Internet Structure.md",
+    "Introduction to Network Fundamentals.md",
     "Network Fundamentals.md",
     "Subjects.md",
+    "Homepage/Home.md",
+    "Year 1 Spring Week By Week.md",
+    "Week by Week Guidelines.md",
+    "Data.md",
+    "Other Pages.md",
+    "Database Fundamentals Subject Outline.md",
+    "Ethics relating to IT issues.md",
+    "Lisa.md",
+    "Java Lists and Generics Programming 1 EdStem Lesson.md",
+    "Input and Output Programming 1 EdStem Lesson.md",
+    "Computer Networks and the Internet.md",
+    "Methods and Functions Programming 1 EdStem Lesson.md",
+    "Microsoft Windows Vista.md",
+    "Modality.md",
+    "Review and Preview of Programming 2.md",
+    "2a and 2b Group Research Report.md",
     "Information Security and Management.md",
     "Introduction to Management of Information Security.md",
     "6 P's of Cyber Security Management.md",
     "Technical Controls.md",
     "Accountability.md",
     "Authorisation.md",
-    "Authentication.md",
-    "Identification.md",
-    "Availability.md",
-    "Integrity.md",
-    "Confidentiality.md",
-    "Database Fundamentals.md",
-    "Introduction to Database Management Systems.md",
-    "Identifiers (Keys).md",
-    "Attributes.md",
-    "Entities.md",
-    "Metadata.md",
-    "Data.md",
-    "Database Management Systems (DBMS).md",
-    "Entity Relationship Diagram (ERD).md",
-    "Structured Query Language (SQL).md",
-    "Business Rules.md",
-    "Relational Database.md",
-    "Business Requirements Modelling.md",
     "Pasted image 20240806134440.png",
     "Screenshot 2024-08-06 at 11.28.15 am.png",
     "Pasted image 20240806133114.png",

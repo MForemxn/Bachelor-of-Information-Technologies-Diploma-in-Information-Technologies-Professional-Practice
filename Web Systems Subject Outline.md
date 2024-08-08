@@ -349,7 +349,7 @@ As a UTS student, when you create something original, credit others and collabor
 [[integrity]]: Create something original. This means doing all your own work from start to finish, submitting work that is
 original for that assessment and being honest about any [[data]] or results.
 
-Credit others. You need to acknowledge and reference the source of any ideas, data or materials you use or adapt in your
+Credit others. You need to acknowledge and reference the source of any ideas, [[data]] or materials you use or adapt in your
 work. Collaborate with care. Make sure you do group work according to the guidelines from your tutor, lecturer or
 supervisor, study with your classmates and friends with care and keep your assessment and study notes just for you.
 

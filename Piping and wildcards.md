@@ -1,12 +1,12 @@
 # What is Piping and Wildcards in Unix?
 - Piping and wildcards are powerful features in Unix and Unix-like operating systems, enabling users to execute complex tasks efficiently through the command line.
-- **Piping** allows users to direct the output of one command as input to another, facilitating the chaining of commands and the manipulation of data in a streamlined manner.
+- **Piping** allows users to direct the output of one command as input to another, facilitating the chaining of commands and the manipulation of [[data]] in a streamlined manner.
 - **Wildcards** are special characters that represent one or many characters, allowing users to specify complex search patterns for file and directory operations.
 
 # Understanding Piping
 - The pipe symbol (`|`) is used to combine commands. For example, `command1 | command2` takes the output of `command1` and uses it as input for `command2`.
-- Piping is essential for filtering, processing, and displaying data without the need for intermediate files, enhancing command line efficiency and flexibility.
-- Common uses include sorting, searching within files, and transforming data. For instance, `grep 'pattern' file.txt | sort` searches for 'pattern' in `file.txt` and sorts the matching lines.
+- Piping is essential for filtering, processing, and displaying [[data]] without the need for intermediate files, enhancing command line efficiency and flexibility.
+- Common uses include sorting, searching within files, and transforming [[data]]. For instance, `grep 'pattern' file.txt | sort` searches for 'pattern' in `file.txt` and sorts the matching lines.
 
 # Wildcards in Unix
 - The most commonly used wildcards are `*`, `?`, and `[]`.
@@ -16,7 +16,7 @@
 - Wildcards are particularly useful for operations on multiple files or directories that share naming patterns.
 
 # Combining Piping and Wildcards
-- Piping and wildcards can be combined to perform complex file management tasks and data processing with minimal effort.
+- Piping and wildcards can be combined to perform complex file management tasks and [[data]] processing with minimal effort.
 - For example, `grep 'error' *.log | sort | uniq` searches for the term 'error' in all `.log` files, sorts the occurrences, and filters out duplicates.
 
 # Practical Applications
@@ -25,7 +25,7 @@
 - **Batch Processing**: Applying transformations to multiple files, such as resizing images or converting file formats, using wildcards to specify the files and piping to chain commands.
 
 # Advanced Piping Techniques
-- **Sequential Piping**: Chaining multiple commands together to perform a series of operations on data sequentially.
+- **Sequential Piping**: Chaining multiple commands together to perform a series of operations on [[data]] sequentially.
 - **Tee Command**: Using `tee` in conjunction with piping to direct output to both the terminal and a file simultaneously.
 
 # Wildcard Expansion and Quoting

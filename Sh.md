@@ -20,7 +20,7 @@ Once you are logged in, a list of your projects appears, along with some tips fo
 
 ## 3. Use ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-Now you can run actions on your projects such as [[branching]] and merging. You can also simulate a local build of your codebase as if you were pushing a change to Platform.sh, including your services and data.
+Now you can run actions on your projects such as [[branching]] and merging. You can also simulate a local build of your codebase as if you were pushing a change to Platform.sh, including your services and [[data]].
 
 Get a list of all available commands with:
 

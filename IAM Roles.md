@@ -40,7 +40,7 @@
 - for example, Amazon S3 uses iam policies to control access to storage buckets and objects, while AWS Lambda uses iam to manage permissions for serverless functions.
 - this integration ensures that all access to AWS resources can be centrally managed and audited through iam.
 
-The error message you're encountering indicates that the IAM user `Sophie` doesn't have the necessary permissions to perform the `iam:PassRole` action on the specified IAM role (`greengrass-to-timestream-iot-role`). The `iam:PassRole` permission is crucial when you're setting up AWS services that require a role to be passed to another AWS service, such as when AWS IoT Core passes a role to AWS Timestream to write data.
+The error message you're encountering indicates that the IAM user `Sophie` doesn't have the necessary permissions to perform the `iam:PassRole` action on the specified IAM role (`greengrass-to-timestream-iot-role`). The `iam:PassRole` permission is crucial when you're setting up AWS services that require a role to be passed to another AWS service, such as when AWS IoT Core passes a role to AWS Timestream to write [[data]].
 
 To resolve this issue, you need to update the IAM policy attached to the `Sophie` user or her IAM group to include the `iam:PassRole` permission for the specific role. Here's how you can do this:
 

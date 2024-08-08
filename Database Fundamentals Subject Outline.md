@@ -70,11 +70,11 @@ Subject learning objectives (SLOs)
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 1 of 14Upon successful completion of this subject students should be able to:
 
-1. Construct conceptual data [[models]] using appropriate [[database]] design, and data [[modelling]] principles. (C.1)
+1. Construct conceptual data [[models]] using appropriate [[database]] design, and [[data]] [[modelling]] principles. (C.1)
 
-2. Identify data redundancy levels and their impact on [[database]] [[integrity]] and maintainability using data normalisation principles. (D.1)
+2. Identify [[data]] redundancy levels and their impact on [[database]] [[integrity]] and maintainability using [[data]] normalisation principles. (D.1)
 
-3. Construct efficient SQL queries to retrieve and manipulate data as required. (D.1)
+3. Construct efficient SQL queries to retrieve and manipulate [[data]] as required. (D.1)
 
 Course intended learning outcomes (CILOs)
 
@@ -132,7 +132,7 @@ Logical design: ER conversion to a relational model
 
 [[Normalisation and set operators]]
 
-SQL: simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries
+SQL: simple queries, aggregate functions, [[data]] modification statements, simple joins, complex joins, subqueries
 
 Program
 
@@ -154,7 +154,7 @@ Explore the Ed environment through the link in Canvas and review the Ed manual
 
 Lecture and Tutorial 1:
 
-Introduction to [[Database]] Management Systems (DBMS) and Data Modeling I:
+Introduction to [[Database]] Management Systems (DBMS) and [[Data]] Modeling I:
 
 Entity, Attributes, PK, FK, etc.
 
@@ -170,13 +170,13 @@ members and register the team information on Canvas.
 
 Whatch the recorded video in Week 2 module on Ed
 
-Review the lecture notes and related concepts to Introduction to SQL (Data
+Review the lecture notes and related concepts to Introduction to SQL ([[Data]]
 
 Definition Language (DDL) in Chapter 6 of the "Modern [[Database]] Management"
 
 textbook.
 
-Lecture and Tutorial 2: Data Definition Language (DDL)
+Lecture and Tutorial 2: [[Data]] Definition Language (DDL)
 
 Assessments:
 
@@ -198,7 +198,7 @@ Review the lecture notes and related concepts in Chapter 2 of the "Modern
 
 [[Database]] Management" textbook.
 
-Lecture and Tutorial 3: Data [[modelling]] II: Associative Entity, Weak Entity, etc.
+Lecture and Tutorial 3: [[Data]] [[modelling]] II: Associative Entity, Weak Entity, etc.
 
 Assessments:
 
@@ -224,7 +224,7 @@ Review the lecture notes and related concepts in Chapter 3 of the "Modern
 
 [[Database]] Management" textbook.
 
-Lecture and Tutorial 4: Data Modeling III: Subtype/Supertype
+Lecture and Tutorial 4: [[Data]] Modeling III: Subtype/Supertype
 
 Assessments:
 
@@ -542,13 +542,13 @@ Students need to check their “weekly plan” and the "News Page" on Ed to get 
 
 about this assessment.
 
-Assessment task 2: Data Modeling and [[Database]] Design Assignment
+Assessment task 2: [[Data]] Modeling and [[Database]] Design Assignment
 
-Intent: The assignment assesses the student's ability to analyse and interpret data requirements, and to
+Intent: The assignment assesses the student's ability to analyse and interpret [[data]] requirements, and to
 
-create conceptual and logical designs for a suitable [[database]] by applying the principles of data
+create conceptual and logical designs for a suitable [[database]] by applying the principles of [[data]]
 
-modeling and data normalisation.
+modeling and [[data]] normalisation.
 
 Objective(s): This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -812,7 +812,7 @@ Date, C.J.: An introduction to [[Database]] Systems, Eighth Edition, Pearson Add
 
 quite technical, this is the seminal text for relational [[database]] management systems.
 
-Simsion, Graeme C. : Data Modeling Essentials, Morgan Kaufmann Publishers, Amsterdam, 2005, ISBN:
+Simsion, Graeme C. : [[Data]] Modeling Essentials, Morgan Kaufmann Publishers, Amsterdam, 2005, ISBN:
 
 0126445516 (there is also a later edition, but this is not in the uni library).
 
@@ -980,9 +980,9 @@ As a UTS student, when you create something original, credit others and collabor
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original
 
-for that assessment and being honest about any data or results.
+for that assessment and being honest about any [[data]] or results.
 
-Credit others. You need to acknowledge and reference the source of any ideas, data or materials you use or adapt
+Credit others. You need to acknowledge and reference the source of any ideas, [[data]] or materials you use or adapt
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 12 of 14in your work.
 

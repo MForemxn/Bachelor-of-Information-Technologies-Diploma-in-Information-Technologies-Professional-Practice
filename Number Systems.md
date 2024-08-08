@@ -4,7 +4,7 @@
 > **- Hexadecimal (Base 16)**
 # What are Number Systems?
 - Number systems are mathematical frameworks for representing numbers, each with its own base and set of symbols.
-- They provide the foundation for arithmetic operations, data representation, and computing processes.
+- They provide the foundation for arithmetic operations, [[data]] representation, and computing processes.
 - Common number systems include binary, decimal, hexadecimal, and octal, each serving specific purposes in mathematics and computing.
 
 # [[Decimal Number System]]
@@ -15,7 +15,7 @@
 # [[Binary Number System]]
 - The binary system, or base-2, uses only two symbols: 0 and 1.
 - Fundamental to digital computing, as it represents the two states of electronic circuitry (off/on, false/true).
-- All data in computers, including text, images, and video, are ultimately stored and processed in binary form.
+- All [[data]] in computers, including text, images, and video, are ultimately stored and processed in binary form.
 
 # [[Hexadecimal Number System]]
 - The hexadecimal system, or base-16, uses sixteen symbols: 0-9 to represent values zero to nine, and A-F (or a-f) to represent values ten to fifteen.
@@ -37,5 +37,5 @@
 
 # Understanding Number Systems in Computing
 - A fundamental skill for programmers, network engineers, and anyone involved in computer science or information technology.
-- Helps in understanding how data is stored, manipulated, and transmitted in digital systems.
+- Helps in understanding how [[data]] is stored, manipulated, and transmitted in digital systems.
 - Essential for tasks such as bit manipulation, memory allocation, and error detection/correction algorithms.

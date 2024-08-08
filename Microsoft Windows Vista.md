@@ -83,16 +83,16 @@ Problem Reports and Solutions, a feature that allows users to check for solution
 Windows Ultimate Extras: The Ultimate edition of Windows Vista provides, via Windows Update, access to some additional features. These are a collection of additional MUI language packs, Texas Hold 'Em (a Poker game) and Microsoft Tinker (a strategy game where the character is a robot), BitLocker and EFS enhancements that allow users to back up their [[encryption]] key online in a Digital Locker, and Windows DreamScene, which enables the use of videos in MPEG and WMV formats as the desktop background. On April 21, 2008, Microsoft launched two more Ultimate Extras; three new Windows sound schemes, and a content pack for DreamScene. Various DreamScene Content Packs have been released since the final version of DreamScene was released.
 Reliability and Performance Monitor includes various tools for tuning and monitoring system performance and resources activities of CPU, disks, network, memory and other resources. It shows the operations on files, the opened connections, etc.[59]
 Disk Management: The Logical Disk Manager in Windows Vista supports shrinking and expanding volumes on-the-fly.[60]
-Windows Anytime Upgrade: is a program that allows a user to upgrade their computer running Vista to a higher edition. For example, a computer running Windows Vista Home Basic can be upgraded to Home Premium or better. Anytime Upgrade permits users to upgrade without having their programs and data erased, and is cheaper than replacing the existing installation of Windows. Anytime Upgrade is no longer available for Vista.[61]
+Windows Anytime Upgrade: is a program that allows a user to upgrade their computer running Vista to a higher edition. For example, a computer running Windows Vista Home Basic can be upgraded to Home Premium or better. Anytime Upgrade permits users to upgrade without having their programs and [[data]] erased, and is cheaper than replacing the existing installation of Windows. Anytime Upgrade is no longer available for Vista.[61]
 Digital Locker Assistant: A program that facilitated access to downloads and purchases from the Windows Marketplace distribution platform.[62] Apps purchased from Windows Marketplace are managed by Microsoft Account credentials, which are used to access a user's digital locker that stores the app and its associated information (e.g., licenses) off-site.[63]
 Core
 
 Main article: Technical features new to Windows Vista
-Vista includes technologies such as ReadyBoost[64] and ReadyDrive, which employ fast flash memory (located on USB flash drives and hybrid hard disk drives) to improve system performance by caching commonly used programs and data. This manifests itself in improved battery life on notebook computers as well, since a hybrid drive can be spun down when not in use.[65] Another new technology called SuperFetch utilizes machine learning techniques to analyze usage patterns to allow Windows Vista to make intelligent decisions about what content should be present in system memory at any given time. It uses almost all the extra RAM as disk cache.[66] In conjunction with SuperFetch, an automatic built-in Windows Disk Defragmenter makes sure that those applications are strategically positioned on the hard disk where they can be loaded into memory very quickly with the least physical movement of the hard disk's read-write heads.[67]
+Vista includes technologies such as ReadyBoost[64] and ReadyDrive, which employ fast flash memory (located on USB flash drives and hybrid hard disk drives) to improve system performance by caching commonly used programs and [[data]]. This manifests itself in improved battery life on notebook computers as well, since a hybrid drive can be spun down when not in use.[65] Another new technology called SuperFetch utilizes machine learning techniques to analyze usage patterns to allow Windows Vista to make intelligent decisions about what content should be present in system memory at any given time. It uses almost all the extra RAM as disk cache.[66] In conjunction with SuperFetch, an automatic built-in Windows Disk Defragmenter makes sure that those applications are strategically positioned on the hard disk where they can be loaded into memory very quickly with the least physical movement of the hard disk's read-write heads.[67]
 
 As part of the redesign of the networking architecture, IPv6 has been fully incorporated into the operating system[68] and a number of performance improvements have been introduced, such as TCP window scaling.[69] Earlier versions of Windows typically needed third-party wireless networking software to work properly, but this is not the case with Vista, which includes more comprehensive wireless networking support.[70]
 
-For graphics, Vista introduces a new Windows Display Driver Model[71] and a major revision to Direct3D. The new driver model facilitates the new Desktop Window Manager, which provides the tearing-free desktop and special effects that are the cornerstones of Windows Aero. Direct3D 10, developed in conjunction with major graphics card manufacturers, is a new architecture with more advanced shader support, and allows the graphics processing unit to render more complex scenes without assistance from the CPU. It features improved load balancing between CPU and GPU and also optimizes data transfer between them.[72] WDDM also provides video content playback that rivals typical consumer electronics devices. It does this by making it easy to connect to external monitors, providing for protected HD video playback, and increasing overall video playback quality. For the first time in Windows, graphics processing unit (GPU) multitasking is possible, enabling users to run more than one GPU-intensive application simultaneously.[73]
+For graphics, Vista introduces a new Windows Display Driver Model[71] and a major revision to Direct3D. The new driver model facilitates the new Desktop Window Manager, which provides the tearing-free desktop and special effects that are the cornerstones of Windows Aero. Direct3D 10, developed in conjunction with major graphics card manufacturers, is a new architecture with more advanced shader support, and allows the graphics processing unit to render more complex scenes without assistance from the CPU. It features improved load balancing between CPU and GPU and also optimizes [[data]] transfer between them.[72] WDDM also provides video content playback that rivals typical consumer electronics devices. It does this by making it easy to connect to external monitors, providing for protected HD video playback, and increasing overall video playback quality. For the first time in Windows, graphics processing unit (GPU) multitasking is possible, enabling users to run more than one GPU-intensive application simultaneously.[73]
 
 At the core of the operating system, many improvements have been made to the memory manager, process scheduler and I/O scheduler. The Heap Manager implements additional features such as integrity checking in order to improve robustness and defend against buffer overflow [[Security]] exploits, although this comes at the price of breaking backward compatibility with some legacy applications.[74] A Kernel Transaction Manager has been implemented that enables applications to work with the file system and Registry using atomic transaction operations.[75]
 
@@ -258,7 +258,7 @@ Service Pack 2 for Windows Vista and Windows Server 2008 was released through di
 
 Windows Search 4 (available for SP1 systems as a standalone update)
 Feature Pack for Wireless adds support for Bluetooth 2.1
-Windows Feature Pack for Storage enables the data recording onto Blu-ray media
+Windows Feature Pack for Storage enables the [[data]] recording onto Blu-ray media
 Windows Connect Now (WCN) to simplify Wi-Fi configuration
 Improved support for resuming with active Wi-Fi connections
 Improved support for eSATA drives
@@ -429,7 +429,7 @@ Suokko, Matti (2004). "Windows For Mobile PCs And Tablet PCs - CY05 And Beyond".
 Parker, Burt (2005). "Building a "Longhorn"-Ready Mobile PC". Microsoft. Archived from the original (PPT) on September 7, 2015. Retrieved August 4, 2015.none
 "Windows Longhorn ACPI and Power Management - Part 1". Microsoft. 2004. Archived from the original (PPT) on February 19, 2006. Retrieved August 4, 2015.none
 "Configuring Windows HotStart" (DOCX). Microsoft. March 19, 2010. Retrieved April 18, 2015.none
-"Selected Scenarios for Maintaining Data Integrity with Windows Vista". Microsoft. 2006. Archived from the original on August 20, 2006. Retrieved August 24, 2006.none
+"Selected Scenarios for Maintaining [[Data]] Integrity with Windows Vista". Microsoft. 2006. Archived from the original on August 20, 2006. Retrieved August 24, 2006.none
 Windows Update, Easier and Less Disruptive Windows Update in Windows Vista Archived May 22, 2008, at the Wayback Machine.
 Windows Vista, SAPI Talking Windows Archived March 23, 2007, at the Wayback Machine
 Russell, Richard G. (May 6, 2005). "System Performance Assessment Tools for Windows Longhorn". Microsoft. Archived from the original (PPT) on November 18, 2012. Retrieved December 27, 2012.none
@@ -497,7 +497,7 @@ Halderman, J. Alex; Schoen, Seth D.; Heninger, Nadia; Clarkson, William; Paul, W
 ^ "Windows Vista Alternate Media". Microsoft. Retrieved August 20, 2007.
 ^ Windows Vista 64-bit Editions Archived July 24, 2008, at the Wayback Machine. Microsoft.com. Retrieved on October 14, 2011.
 ^ "Windows Vista: Recommended System Requirements". Microsoft. Archived from the original on January 1, 2008. Retrieved March 13, 2008.
-^ Ashley, Mitchell (January 31, 2008). "Vista Starter - The Easy Button For Vista". Network World (International Data Group). Retrieved June 3, 2019.
+^ Ashley, Mitchell (January 31, 2008). "Vista Starter - The Easy Button For Vista". Network World (International [[Data]] Group). Retrieved June 3, 2019.
 ^ "What is the maximum amount of RAM that Windows Vista can handle?". Microsoft. Retrieved April 18, 2014.
 ^ A logical processor is either: 1) One of the two handlers of the thread of instructions of one of the numbers of cores of one of the number of physical processors with support for HyperThreading; or 2) One of the numbers of cores of one of the numbers of physical processors without support for HyperThreading.
 ^ 32 cores without support for HyperThreading, 16 cores with support for HyperThreading.
@@ -726,6 +726,6 @@ Comparison
 Category
 Authority control databases: National Edit this at Wikidata	
 France
-BnF data
+BnF [[data]]
 Germany
 Czech Republic

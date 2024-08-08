@@ -19,7 +19,7 @@
 2. **Feasibility Study**
 	- assessing the viability of the project from various perspectives
 3. **Information Gathering**
-	- collecting data about the current system and user requirements through interviews, surveys, observation, etc.
+	- collecting [[data]] about the current system and user requirements through interviews, surveys, observation, etc.
 4. **Analysis**
 	- examining the collected information to identify the requirements and constraints of the new system
 5. **Report Preparation**

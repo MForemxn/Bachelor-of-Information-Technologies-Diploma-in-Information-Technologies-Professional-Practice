@@ -4,15 +4,15 @@ Before getting to how `Scanner` works, and how this can cause problems, we first
 
 So far we've only worked with input from the keyboard, but Java (and everything that runs on a computer) sees input a little differently to what most people normally think about when typing something in.
 
-At the absolute lowest software level, all [[data]] on a computer is encoded in binary. This includes _all_ input. Everything you type in, everything coming in from a webcam, whatever it is, is just binary data. Fortunately, we don't normally have to deal with it at that level, we have software libraries of various kinds that interpret the binary in different ways to make it easier to work with. The interpretation we are concerned with here is _text_ or _character data_.
+At the absolute lowest software level, all [[data]] on a computer is encoded in binary. This includes _all_ input. Everything you type in, everything coming in from a webcam, whatever it is, is just binary [[data]]. Fortunately, we don't normally have to deal with it at that level, we have software libraries of various kinds that interpret the binary in different ways to make it easier to work with. The interpretation we are concerned with here is _text_ or _character [[data]]_.
 
 ## What does text look like to a computer?
 
-Text data, to a computer, is fairly close to the way we think of it, it is a sequence of characters. Of course computers don't know what the symbol "g" means, that is a visual interpretation of a small binary number. There are several standards for what numbers give what characters, but most of the time we work with [ASCII](https://en.wikipedia.org/wiki/ASCII) values, or when needed, [UNICODE](https://en.wikipedia.org/wiki/Unicode) of some form (with [UTF-8](https://en.wikipedia.org/wiki/UTF-8) being backwards compatible with ASCII).
+Text [[data]], to a computer, is fairly close to the way we think of it, it is a sequence of characters. Of course computers don't know what the symbol "g" means, that is a visual interpretation of a small binary number. There are several standards for what numbers give what characters, but most of the time we work with [ASCII](https://en.wikipedia.org/wiki/ASCII) values, or when needed, [UNICODE](https://en.wikipedia.org/wiki/Unicode) of some form (with [UTF-8](https://en.wikipedia.org/wiki/UTF-8) being backwards compatible with ASCII).
 
 When we write text, we use a small set of symbols (around 70 in English, including punctuation and numbers), however we also use physical arrangement of those symbols to help. For example, we normally put spaces between words, however there is no normal symbol for that. We also put text on different lines, but we don't write a symbol to do that either, we just move our hand down the page.
 
-When a computer is dealing with text data, there is no concept of a physical arrangement, but to render things on a monitor or print to paper, we need to have some way of encoding this information. This is done by using extra symbols that are not in handwritten (or traditionally typeset) alphabets.
+When a computer is dealing with text [[data]], there is no concept of a physical arrangement, but to render things on a monitor or print to paper, we need to have some way of encoding this information. This is done by using extra symbols that are not in handwritten (or traditionally typeset) alphabets.
 
 For example, the following bit string
 
@@ -26,14 +26,14 @@ This is some text with newlines in it.
 
 Each of the letters has an 8-bit sequence representing it, however the spaces and newlines _also_ have an 8-bit sequence representing them - a newline is `00001010`, and a space is `00100000`.
 
-So somewhere in between these two representations we get a useful model of how text data reaches our code - as a sequence of symbols, some of which we recognise as written characters, others of which are there to store formatting and control information:
+So somewhere in between these two representations we get a useful model of how text [[data]] reaches our code - as a sequence of symbols, some of which we recognise as written characters, others of which are there to store formatting and control information:
 
 ![](https://static.au.edusercontent.com/files/Nsg1zpLsg2QDKew9fLTVVHwS)
 
 
 ## What is java.util.Scanner?
 
-`[java.util.Scanner](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Scanner.html)` (the full name of `Scanner`) is a small collection of tools (these are all methods, but we haven't seen that word yet) for extracting data from input (in what we've done so far, a `java.io.InputStream`, `System.in` (the fancy name for the keyboard), but it can be from other sources):
+`[java.util.Scanner](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/Scanner.html)` (the full name of `Scanner`) is a small collection of tools (these are all methods, but we haven't seen that word yet) for extracting [[data]] from input (in what we've done so far, a `java.io.InputStream`, `System.in` (the fancy name for the keyboard), but it can be from other sources):
 
 - `next()` and `hasNext()`,
     
@@ -44,13 +44,13 @@ So somewhere in between these two representations we get a useful model of how t
 - and a series of others along the lines of `nextInt()`/ `hasNextInt()` for all the primitive types.
     
 
-The central lesson here is that `next()` and `nextLine()` work in a slightly different way to `nextInt()` and the ones like it. We'll gloss over the `has...` methods, the same basic things apply, except they don't produce data, they just tell you if there's data there to read.
+The central lesson here is that `next()` and `nextLine()` work in a slightly different way to `nextInt()` and the ones like it. We'll gloss over the `has...` methods, the same basic things apply, except they don't produce [[data]], they just tell you if there's [[data]] there to read.
 
-All of these methods read from the current position in the input, up to a delimiter (a symbol marking the end of something, see below) and return that bit of the input as data if possible (or maybe fail if it's impossible), then update the current position.
+All of these methods read from the current position in the input, up to a delimiter (a symbol marking the end of something, see below) and return that bit of the input as [[data]] if possible (or maybe fail if it's impossible), then update the current position.
 
 ## How Scanner interacts with delimiters (and what the delimiters are)
 
-The difference is in what each does with the delimiter following the data that was read:
+The difference is in what each does with the delimiter following the [[data]] that was read:
 
 - `next()` accepts _any_ whitespace as a delimiter,
     
@@ -70,7 +70,7 @@ And with that delimiter:
 
 This means that `next()` and `nextLine()` effectively discard the delimiter (depending on where the input is coming from, you may be able to move backwards as well, so it may not be truly lost). `nextInt()` and its ilk however, do not, and you still have to process the delimiter separately.
 
-Combining this with our model of what text data looks like gives us an idea of what `Scanner` is actually doing when it reads data.
+Combining this with our model of what text [[data]] looks like gives us an idea of what `Scanner` is actually doing when it reads [[data]].
 
 
 ## The Blackboard
@@ -229,7 +229,7 @@ Let's look at that line by interesting line:
     
 - Lines 11 to 13 show us how to access an element (also called a cell) of an array. `a[i]` is the element at position `i` of the array `a`. So here we're accessing the element at 0, then 1, then 2. Again, note that the numbering starts at 0, not 1.
     
-- Line 15 shows how to get data out of an array - it's exactly the same as how to get it in, just like a regular variable.
+- Line 15 shows how to get [[data]] out of an array - it's exactly the same as how to get it in, just like a regular variable.
     
 - Line 15 also uses `values.length`. One part of arrays being objects in Java is that they can carry around more information than just the stored values. One thing each array has is a variable called `length` that, surprise surprise, gives the number of elements of the array.
     
@@ -488,7 +488,7 @@ public class BigArray {
 
 ## Changing the Size of Arrays
 
-Arrays in Java are not dynamically resizable - this means once you create it, it's fixed at that size. You can create a new array and use the same variable to reference that array, but it will not include the data from the original, unless you copy it over somehow:
+Arrays in Java are not dynamically resizable - this means once you create it, it's fixed at that size. You can create a new array and use the same variable to reference that array, but it will not include the [[data]] from the original, unless you copy it over somehow:
 
 ```
 public class ArrayResize {
@@ -555,7 +555,7 @@ Here's a few other bits and pieces about arrays that don't fit neatly elsewhere.
 
 ## Array Literals
 
-If you happen to know exactly what your array is going to look like, you can specify the array in one go. This only works for data types that have a literal representation - so complex things can't be handled this way, but numbers, `Strings`, `booleans`, etc., all work fine:
+If you happen to know exactly what your array is going to look like, you can specify the array in one go. This only works for [[data]] types that have a literal representation - so complex things can't be handled this way, but numbers, `Strings`, `booleans`, etc., all work fine:
 
 
 ```
@@ -575,9 +575,9 @@ public class ArrayLiteral {
 
 ## No Polymorphism
 
-You may be wondering if its possible to have different types of data in a single array. In short, no, we can't have an array like `{1, "Hi", 3.4}`.
+You may be wondering if its possible to have different types of [[data]] in a single array. In short, no, we can't have an array like `{1, "Hi", 3.4}`.
 
-If the data types are suitably compatible (i.e. they can all be converted to the same, more general type - another thing we'll see later), then you can kind of do this.
+If the [[data]] types are suitably compatible (i.e. they can all be converted to the same, more general type - another thing we'll see later), then you can kind of do this.
 
 ## Alternate Declaration Syntax
 
@@ -602,7 +602,7 @@ public class CArray {
 
 When an array is created in Java, it automatically fills out each cell with a default value. What that value is depends on the underlying type of the array. For `ints`, it's 0, so declaring an array of `ints` will give you (barring you doing anything about it) an array full of zeroes.
 
-Primitive data types have reasonably obvious default values, so let's take a look at what object types do:
+Primitive [[data]] types have reasonably obvious default values, so let's take a look at what object types do:
 
 ```
 public class ObjectArray {
@@ -619,7 +619,7 @@ public class ObjectArray {
 ```
 
 
-An array of objects (here I used `String` just because it's familiar, not because it's special in any way) is filled with the default value `null`. This will come up again when discuss object data types. For those who are already C/C++ programmers (or some other languages), all object variables are references, dynamically allocated, so the default value is a null pointer.
+An array of objects (here I used `String` just because it's familiar, not because it's special in any way) is filled with the default value `null`. This will come up again when discuss object [[data]] types. For those who are already C/C++ programmers (or some other languages), all object variables are references, dynamically allocated, so the default value is a null pointer.
 
 
 Arrays in Java
@@ -674,7 +674,7 @@ public class ArrayError {
 
 ## No Arrays!
 
-Python, unlike almost every other imperative language, does not have an array type as a basic type. Other libraries (notably Numpy) introduce them, but vanilla Python decided to go a different direction and use _lists_ as its basic "collect a bunch of data together" data type.
+Python, unlike almost every other imperative language, does not have an array type as a basic type. Other libraries (notably Numpy) introduce them, but vanilla Python decided to go a different direction and use _lists_ as its basic "collect a bunch of [[data]] together" [[data]] type.
 
 Java also has a `List` type, but it's not a primitive type (technically arrays aren't either, but they get special syntax, so they're treated similarly to a primitive type in some ways).
 
@@ -1419,7 +1419,7 @@ Python has two looping structures: `for` loops, which bear more in common with J
 
 As mentioned, Python's `for` loops are conceptually more similar to Java's `for-each` loops, though they can be coaxed into working much like a `for` loop.
 
-At heart, Python's `for` loops iterate over a given sequence, producing each element in turn. As many Python data structures support this iterator approach, this style of `for` loop is fairly suitable for most tasks. This is also where `in` gets its most common use.
+At heart, Python's `for` loops iterate over a given sequence, producing each element in turn. As many Python [[data]] structures support this iterator approach, this style of `for` loop is fairly suitable for most tasks. This is also where `in` gets its most common use.
 
 ```
 word = "Programming 1"
@@ -2263,7 +2263,7 @@ Python of course has a different goal - it wants to present a robust range of to
 
 Like most things this is a trade-off, but it certainly helps with writing smaller programs where the overhead of the object-oriented approach used in Java is not worth the cost.
 
-One aspect of this is that Python provides a wider range of built-in types with lightweight syntax for the programmer to employ. Here we'll introduce 3 very useful simple data structures that Python supports as a core part of the language. Java does have these (except the Tuple for some reason), but they're not included by default, and they're more complicated to use at the trade-off of being more structured than the Python variants.
+One aspect of this is that Python provides a wider range of built-in types with lightweight syntax for the programmer to employ. Here we'll introduce 3 very useful simple [[data]] structures that Python supports as a core part of the language. Java does have these (except the Tuple for some reason), but they're not included by default, and they're more complicated to use at the trade-off of being more structured than the Python variants.
 
 These types are:
 
@@ -2278,7 +2278,7 @@ If you dig into the internals, these are implemented as classes (again, see the 
 
 ## Dictionaries
 
-A dictionary (also called hash-map, associative array, hash-table, maybe other things, and in Python, a `dict`) is a key-value pair data structure. What this means is that it works like a list, but instead of accessing elements by a non-negative integer, each element is associated with a key, by which it is added, accessed and modified.
+A dictionary (also called hash-map, associative array, hash-table, maybe other things, and in Python, a `dict`) is a key-value pair [[data]] structure. What this means is that it works like a list, but instead of accessing elements by a non-negative integer, each element is associated with a key, by which it is added, accessed and modified.
 
 ## Setting up a `dict`
 
@@ -2295,7 +2295,7 @@ print(luke_data)
 
 
 
-So in the above example (don't forget you can mess around with it), the `dict` `luke_data` has an entry that has the key `job` and the value `Lecturer`.
+So in the above example (don't forget you can mess around with it), the `dict` `luke_[[data]]` has an entry that has the key `job` and the value `Lecturer`.
 
 You can also create an empty `dict` with the `dict()` function (which can do more than this, but we'll leave that for later).
 

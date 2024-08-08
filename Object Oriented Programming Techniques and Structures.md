@@ -6,7 +6,7 @@ MAIN POINTS:
 2. [[Inheritance]] allows a [[class]] to inherit properties and methods from another [[class]], promoting [[code reuse]].
 3. [[Polymorphism]] enables objects of different classes to be treated as objects of a common [[superclass]].
 4. Classes are blueprints for creating objects, defining their properties and behaviors.
-5. Objects are instances of classes, encapsulating data and the methods that operate on that data.
+5. Objects are instances of classes, encapsulating [[data]] and the methods that operate on that [[data]].
 6. [[Abstraction]] simplifies complexity by hiding the detailed [[implementation]] and showing only the necessary features of an [[object]] or method.
 7. Interfaces define a contract for what a [[class]] can do, without specifying how it does it.
 8. Composition over [[inheritance]] is a principle suggesting the use of [[object composition]] to achieve [[code reuse]] over [[class]] [[inheritance]].

@@ -9,8 +9,8 @@
 # Key Steps in the Implementation Process
 - preparation of the environment
 	- ensuring all hardware and software prerequisites are met
-- data migration
-	- transferring existing data into the new system, often requiring data cleansing and mapping
+- [[data]] migration
+	- transferring existing [[data]] into the new system, often requiring [[data]] cleansing and mapping
 - system configuration and customisation
 	- adjusting settings and parameters to match the operational requirements
 - user training and support materials creation
@@ -33,8 +33,8 @@
 	- users may be accustomed to the old system and hesitant to adopt the new one
 - unforeseen technical issues
 	- problems that weren't identified during testing may emerge in the live environment
-- data [[integrity]] and loss concerns
-	- ensuring that all data is accurately transferred and no critical information is lost
+- [[data]] [[integrity]] and loss concerns
+	- ensuring that all [[data]] is accurately transferred and no critical information is lost
 - training and support
 	- providing adequate training and support to all users to ensure smooth transition
 

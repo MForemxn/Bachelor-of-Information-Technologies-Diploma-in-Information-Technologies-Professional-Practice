@@ -1,6 +1,6 @@
 # What are the 4 pillars of OOP?
 
-- [[Object-Oriented Programming (OOP)]] is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
+- [[Object-Oriented Programming (OOP)]] is a programming paradigm based on the concept of "objects", which can contain [[data]] and code: [[data]] in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
 - The 4 pillars of OOP are fundamental concepts that enable the OOP paradigm to provide a clear modular structure for programs, making it possible to handle more complex problems by breaking them down into manageable pieces.
 
 # [[Abstraction]]
@@ -9,7 +9,7 @@
 - In OOP, [[abstraction]] is achieved using [[abstract classes]] and interfaces.
 
 # [[Encapsulation]]
-- [[Encapsulation]] is the bundling of data and the methods that operate on that data, such that access to that data is restricted from outside the bundle.
+- [[Encapsulation]] is the bundling of [[data]] and the methods that operate on that [[data]], such that access to that [[data]] is restricted from outside the bundle.
 - It allows the internal representation of an [[object]] to be hidden from the outside.
 - This is achieved by making [[class]] members private and providing public [[getter and setter]] methods to modify and view the [[variables]]' values.
 

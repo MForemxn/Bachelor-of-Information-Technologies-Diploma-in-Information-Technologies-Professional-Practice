@@ -129,13 +129,13 @@ This still won't mean a lot if you haven't done a lot of programming, but this g
 
 As mentioned, Java's syntax derives most directly from C and C++, which themselves draw upon early languages back to at least Algol. We'll introduce some terminology now, but with the caveat that there's more here than you need to know right now.
 
-Java programs consist of a sequence of **statements** arranged into **blocks**. The blocks may be nested, with the top level being that of a **class**. A class is a definition of every **object** of that sort. Inside a class there are **methods** and **data** **members**.
+Java programs consist of a sequence of **statements** arranged into **blocks**. The blocks may be nested, with the top level being that of a **class**. A class is a definition of every **object** of that sort. Inside a class there are **methods** and **[[data]]** **members**.
 
 ![](https://static.au.edusercontent.com/files/jY3MJqonNVEGbdrOElQ8cTmR)
 
-**Variables** are Java's primary mechanism for storing the state of the program. Variables are segments of memory that store data. Variables also have an associated **type**. This is a way of specifying what data we expect to see stored in that variable. There are two sorts of variable types in Java, **primitives**, which simply store a value, and **objects**, which are structures that combine data and **methods** (see below) for operating on that data (or sometimes just doing things). We'll look at both of these in more detail as we go.
+**Variables** are Java's primary mechanism for storing the state of the program. Variables are segments of memory that store [[data]]. Variables also have an associated **type**. This is a way of specifying what [[data]] we expect to see stored in that variable. There are two sorts of variable types in Java, **primitives**, which simply store a value, and **objects**, which are structures that combine [[data]] and **methods** (see below) for operating on that [[data]] (or sometimes just doing things). We'll look at both of these in more detail as we go.
 
-**Data members** (or member variables, or similar), are the variables that belong to the class or to the objects created using that class definition. There may be other variables which only belong to lower level blocks than the class. These are typically referred to as **local variables.** In contrast, variables which are accessible by all classes and objects in a program are called **global variables**. If all objects made from given class share the same instance of a variable, it is a **class variable**, if each object has its own copy, it is an **object variable** or **instance variable**.
+**[[Data]] members** (or member variables, or similar), are the variables that belong to the class or to the objects created using that class definition. There may be other variables which only belong to lower level blocks than the class. These are typically referred to as **local variables.** In contrast, variables which are accessible by all classes and objects in a program are called **global variables**. If all objects made from given class share the same instance of a variable, it is a **class variable**, if each object has its own copy, it is an **object variable** or **instance variable**.
 
 **Methods** are named blocks of code that can take input **parameters** and return an output value. They may or may not access information outside of the method:
 
@@ -184,7 +184,7 @@ Starting on Line 3, we have a method. The syntax for declaring a method in Java 
 This `main` method happens to be a special one in Java. For a piece of Java code to be runnable (i.e. a program), it needs at least one `main` method with exactly the signature we've just seen: `public static void main(String[] args) { ... }`. Later on we'll see classes with many other methods.
 
 Line 5 contains a _statement_. Every statement in Java is terminated by either a `;`(semicolon), or in a small number of cases, a block of code surround by open `{` and close `}` braces. The statement on Line 5 happens to print something out, as you will see if you hit run.
-## Primitive Data Types
+## Primitive [[Data]] Types
 
 Now that we've seen a very small program, we can start thinking about what we can put into that program. As Java is an imperative programming language, there's little we can do without variables (at least without great effort).
 
@@ -209,7 +209,7 @@ Variables of a primitive type simply store a value, and the type indicates what 
 - `char` - stores a 16-bit Unicode character.
     
 
-It should be reasonably obvious that several of these data types are partially compatible: `byte`, `short`, `int` and `long` all store whole numbers with increasing ranges; `float` and `double` store decimals with increasing accuracy; and in fact `char` is secretly just a `short` that's interpreted in a special way.
+It should be reasonably obvious that several of these [[data]] types are partially compatible: `byte`, `short`, `int` and `long` all store whole numbers with increasing ranges; `float` and `double` store decimals with increasing accuracy; and in fact `char` is secretly just a `short` that's interpreted in a special way.
 
 In practice, we'll most commonly use `int`, `double`, `char` and `boolean`, but knowing when to use the others is also important (but not needed yet!).
 
@@ -289,9 +289,9 @@ Whether `=` was a good choice for indicating this operation is a different matte
 
 Although we won't make our own until a little later, we will start using classes and objects almost immediately.
 
-Classes and objects are different from variables with primitive type in that they can include more than just a single value - they may have many internal values, and most importantly for an object oriented language, they include methods to control access to that data, and perform tasks related to that data and to the purpose of the class.
+Classes and objects are different from variables with primitive type in that they can include more than just a single value - they may have many internal values, and most importantly for an object oriented language, they include methods to control access to that [[data]], and perform tasks related to that [[data]] and to the purpose of the class.
 
-To this end, object variables have slightly more complicated behaviour than primitive variables. The object variable itself is just a reference to a spot in memory where the information is stored (in fact, it's a little more complicated, but that can wait for later). So to access the methods and data members related to that object variable we have to use the `.` operator (called the "dot" operator, or dereference operator).
+To this end, object variables have slightly more complicated behaviour than primitive variables. The object variable itself is just a reference to a spot in memory where the information is stored (in fact, it's a little more complicated, but that can wait for later). So to access the methods and [[data]] members related to that object variable we have to use the `.` operator (called the "dot" operator, or dereference operator).
 
 To give an example that will be very useful, Java includes in its base library a class called `String`. It is used for storing sequences of `chars` - something like the text you're reading now.
 
@@ -488,15 +488,15 @@ my_fun(int(input("Enter a number: ")))
 ```
 
 
-We will come back to the indenting later, but for now, you've seen all the basic syntax of Python. It's pretty simple. There is some specific syntax for dealing with particular data types (`list`, `tuple` and `dict` particularly, but we will deal with those as we come to them).
+We will come back to the indenting later, but for now, you've seen all the basic syntax of Python. It's pretty simple. There is some specific syntax for dealing with particular [[data]] types (`list`, `tuple` and `dict` particularly, but we will deal with those as we come to them).
 
-## Basic Data Types
+## Basic [[Data]] Types
 
-As mentioned, Python is a _dynamically_ typed language. One way of thinking of this is that variables do not have a type. In Java, a variable can only store one type of data (`int` , `String`, etc.). In Python, it can store any type. This does not mean that the data itself doesn't have a type though.
+As mentioned, Python is a _dynamically_ typed language. One way of thinking of this is that variables do not have a type. In Java, a variable can only store one type of [[data]] (`int` , `String`, etc.). In Python, it can store any type. This does not mean that the [[data]] itself doesn't have a type though.
 
 Python comes with the following built-in types:
 
-- `str` - the basic string data type
+- `str` - the basic string [[data]] type
     
 - `int` - integer valued numbers (Python sort of does arbitrary precision, so this is the only integral type)
     
@@ -583,9 +583,9 @@ For example, if we add `1` to `count`, we get something like:
 
 ![](https://static.au.edusercontent.com/files/ZuewegYZ27wJlRba529BXmxT)
 
-This gives us our basic model of primitive variables in Java. Each variable refers to a particular location in memory, that location can store data that we can modify using the variable. In addition, primitive variables refer to the same location in memory for their lifetime in the program.
+This gives us our basic model of primitive variables in Java. Each variable refers to a particular location in memory, that location can store [[data]] that we can modify using the variable. In addition, primitive variables refer to the same location in memory for their lifetime in the program.
 
-When we get to reference variables (also called object variables), we will see that we can have variables where we can change which location in memory they refer to (in a sense this is actually the defining feature of reference variables - their value is not the data, but the address as labelled in the images above).
+When we get to reference variables (also called object variables), we will see that we can have variables where we can change which location in memory they refer to (in a sense this is actually the defining feature of reference variables - their value is not the [[data]], but the address as labelled in the images above).
 
 In Python all variables are reference variables, but for primitive values (things like numbers, characters, booleans, etc.) they are handled in a way that makes them look like the model above. So although there's some background technical differences, from a simple programming perspective, this model works for both languages.
 ## Variables in Java
@@ -594,7 +594,7 @@ In Java we have two types of variables, primitive and reference. For the moment,
 
 ## Typing
 
-Java is a strongly, statically typed language. The "statically" part of this means that not only does data have a type in Java, but variables also have an explicit type (cf. Python, where data has a type, but the variables used to refer to it don't). So if you want a variable that's going to store `int` type data, the variable has to have type `int`. If you want to store a `float`, the variable should also be of type `float`, and so on. Later we will see there is a bit more flexibility, but for now, we should be thinking of matching our variable types to the data exactly.
+Java is a strongly, statically typed language. The "statically" part of this means that not only does [[data]] have a type in Java, but variables also have an explicit type (cf. Python, where [[data]] has a type, but the variables used to refer to it don't). So if you want a variable that's going to store `int` type [[data]], the variable has to have type `int`. If you want to store a `float`, the variable should also be of type `float`, and so on. Later we will see there is a bit more flexibility, but for now, we should be thinking of matching our variable types to the [[data]] exactly.
 
 Java has 8 primitive types, which are listed in the ["Introduction to Java" lesson](https://edstem.org/au/courses/10667/lessons/30852/slides/217680).
 
@@ -688,11 +688,11 @@ public class Test {
 ```
 ## Variables in Python
 
-In contrast to Java, Python is a strongly, _dynamically_ typed language and uses only reference variables. However because of the way it handles data values, for certain types of data, variables work in a very similar way to Java's primitive types.
+In contrast to Java, Python is a strongly, _dynamically_ typed language and uses only reference variables. However because of the way it handles [[data]] values, for certain types of [[data]], variables work in a very similar way to Java's primitive types.
 
 ## Typing
 
-As mentioned, Python is a strongly typed language, which means that the data stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the [[variables]] themselves have no type, and hence any type of data can be assigned to any variable (not necessarily a good practice, but it's possible).
+As mentioned, Python is a strongly typed language, which means that the [[data]] stored in memory has a specific type (e.g. `str`, `int`, etc.). However it is a _dynamically_ typed language, which means that the [[variables]] themselves have no type, and hence any type of [[data]] can be assigned to any variable (not necessarily a good practice, but it's possible).
 
 As with [[Java]], [[Python]] offers a range of built-in types, listed [here](https://edstem.org/au/courses/10667/lessons/30853/slides/217691).
 
@@ -702,19 +702,19 @@ As the [[variables]] have no type, there's not really a sensible way to declare 
 ```
 <name> = <initial value>
 ```
-As with [[Java]], there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid data value, but as the variable has no type, there's no restrictions other than that.
+As with [[Java]], there are rules about what constitutes a valid name, but basically anything that doesn't start with a number works. The initial value has to be a valid [[data]] value, but as the variable has no type, there's no restrictions other than that.
 
 So if we wanted a variable called `num` that stored an `int` (again, notice that the variable itself is not an `int`, it's just a variable), we could write:
 
 `num = 7`
 
-As there's no way to just say "I want a variable that stores data of some type", initialising with an actual value is required (in the example, `7`).
+As there's no way to just say "I want a variable that stores [[data]] of some type", initialising with an actual value is required (in the example, `7`).
 
 If we want a variable to store the character 'c', we can write something like:
 
 `letter = 'c'`
 
-(Note that [[Python]] does not have a character data type, this is actually just a string.)
+(Note that [[Python]] does not have a character [[data]] type, this is actually just a string.)
 
 ## Use
 
@@ -741,7 +741,7 @@ d = "This is not a number" #Variables have no type
 print("d = " + str(d))
 ```
 
-If we now miss the code where the variable `d` is storing a different of data, we can run into odd problems (easy to see here, but imagine a more complex codebase):
+If we now miss the code where the variable `d` is storing a different of [[data]], we can run into odd problems (easy to see here, but imagine a more complex codebase):
 
 ```
 
@@ -928,7 +928,7 @@ So we get several important pieces of information:
     
 - The line itself.
     
-- What sort of error has occurred. Here it's a TypeError, which means there's something wrong with the types of the data being manipulated. In this case it's trying to apply the `+` operator to a `str` and an `int`, which are not compatible for this operation.
+- What sort of error has occurred. Here it's a TypeError, which means there's something wrong with the types of the [[data]] being manipulated. In this case it's trying to apply the `+` operator to a `str` and an `int`, which are not compatible for this operation.
     
 - A more detailed description, which may give a hint as to what precisely is wrong (simple in this case) and how to go about fixing it.
     

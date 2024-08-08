@@ -1,6 +1,6 @@
 # What is Risk Management in [[Information Security]]?
 - risk management in [[information security]] involves identifying, assessing, and taking steps to mitigate risks to an organisation's information assets
-- aims to protect the [[confidentiality]], [[integrity]], and [[availability]] of data
+- aims to protect the [[confidentiality]], [[integrity]], and [[availability]] of [[data]]
 - involves a continuous process of:
 	- risk [[identification]]
 	- risk assessment (evaluating the potential impact and likelihood of risks)
@@ -10,7 +10,7 @@
 # Importance of Risk Management in [[Information Security]]
 - critical for maintaining the trust of customers and stakeholders
 - helps in compliance with legal and regulatory requirements
-- minimises financial losses and protects against data breaches and cyber attacks
+- minimises financial losses and protects against [[data]] breaches and cyber attacks
 - enables organisations to make informed decisions about where to allocate resources for the best protection
 
 # Risk Assessment Techniques

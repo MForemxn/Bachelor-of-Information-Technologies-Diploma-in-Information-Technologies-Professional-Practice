@@ -3,7 +3,7 @@
 A text editor is used for creating and modifying ASCII files, so that the files being created can be viewed using cat or less. Often the text files are used as code - a sequence of instructions to the computer - as will be seen in the introduction to scripting.
 ## Introduction to VIM
 
-Vim is a text editor - not a word processor. The difference being that a file created with a text editor contains no extra data to influence its visual presentation. For this reason, any file containing code to be executed by the operating system must be created using a text editor.
+Vim is a text editor - not a word processor. The difference being that a file created with a text editor contains no extra [[data]] to influence its visual presentation. For this reason, any file containing code to be executed by the operating system must be created using a text editor.
 
 While there are many text editors, Vim is the most powerful in terms of functionality, and also the least reliant on system specifications. It is therefore regarded as the editor of choice for the Linux professional.
 

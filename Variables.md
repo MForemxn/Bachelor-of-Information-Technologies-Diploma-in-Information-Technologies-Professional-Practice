@@ -1,6 +1,6 @@
 Variables are storage for information
-- a variable is a place to put data
-- each variable must have at least a name, and a stored data value
+- a variable is a place to put [[data]]
+- each variable must have at least a name, and a stored [[data]] value
 	- most languages also require a type to be assigned to each variable
 - [[Reference types]] start with uppercase letters
 - [[Primitive types]] start with lowercase letters
@@ -14,14 +14,14 @@ Variables are storage for information
 # What are variables?
 - variables are symbolic names that reference or point to a location in memory where a value is stored
 - they allow programmers to:
-	- store data that can be changed and reused throughout a program
-	- make code more readable and maintainable by giving meaningful names to data
-- variables can hold different types of data, such as numbers, text, or more complex data structures
+	- store [[data]] that can be changed and reused throughout a program
+	- make code more readable and maintainable by giving meaningful names to [[data]]
+- variables can hold different types of [[data]], such as numbers, text, or more complex [[data]] structures
 
 # Types of variables
-- variables can be categorised based on their data type and scope:
-	- **Primitive data types**: include integers, floats, booleans, and characters
-	- **Complex data types**: include arrays, objects, and structures
+- variables can be categorised based on their [[data]] type and scope:
+	- **Primitive [[data]] types**: include integers, floats, booleans, and characters
+	- **Complex [[data]] types**: include arrays, objects, and structures
 	- **Scope**:
 		- **Local variables**: accessible only within the block or function where they are declared
 		- **Global variables**: accessible throughout the entire program, from any function or block
@@ -48,7 +48,7 @@ Variables are storage for information
 - the choice between static and dynamic typing affects flexibility, error checking, and performance
 
 # Variables in Different Programming Paradigms
-- **Procedural programming**: variables are used to store [[state]] and data to be manipulated
+- **Procedural programming**: variables are used to store [[state]] and [[data]] to be manipulated
 - **Object-oriented programming (OOP)**: variables are often attributes of objects, representing the object's [[state]]
 - **Functional programming**: variables are used less frequently in the traditional sense, as this paradigm emphasises immutability and functions over [[state]]
 

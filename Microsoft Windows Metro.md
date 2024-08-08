@@ -36,7 +36,7 @@ Early response to the language was generally positive. In a review of the [Zune
 
 At its IDEA 2011 Ceremony, the [Industrial Designers Society of America](https://en.wikipedia.org/wiki/Industrial_Designers_Society_of_America "Industrial Designers Society of America") (IDSA) gave Windows Phone 7, which uses the UI, its "Gold Interactive" award, its "People's Choice Award", and a "Best in Show" award.[21][22] Isabel Ancona, the User Experience Consultant at IDSA, explained why Windows Phone won:[23]
 
-> The innovation here is the fluidity of experience and focus on the data, without using traditional user interface conventions of windows and frames. Data becomes the visual elements and controls. Simple gestures and transitions guide the user deeper into content. A truly elegant and unique experience.
+> The innovation here is the fluidity of experience and focus on the [[data]], without using traditional user interface conventions of windows and frames. [[Data]] becomes the visual elements and controls. Simple gestures and transitions guide the user deeper into content. A truly elegant and unique experience.
 
 It was reported that the UI was better received by women and first-time users.[24]
 

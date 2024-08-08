@@ -1,10 +1,10 @@
 # What is Risk Mitigation in [[Information Security]]?
 - risk mitigation in [[information security]] involves implementing strategies and controls to reduce the impact or likelihood of potential threats to information assets
-- aims to protect the [[confidentiality]], [[integrity]], and [[availability]] of data from cyber threats, vulnerabilities, and other risks
+- aims to protect the [[confidentiality]], [[integrity]], and [[availability]] of [[data]] from cyber threats, vulnerabilities, and other risks
 - includes a variety of measures, from technical solutions to policies and training
 
 # Importance of Risk Mitigation in [[Information Security]]
-- essential for preventing data breaches and cyber attacks
+- essential for preventing [[data]] breaches and cyber attacks
 - helps in maintaining trust with customers and stakeholders by safeguarding sensitive information
 - critical for compliance with legal and regulatory requirements related to [[data protection]] and privacy
 - supports business continuity by ensuring that information assets are protected against disruptions
@@ -18,7 +18,7 @@
 # Implementing Risk Mitigation Measures
 - [[technical controls]]: firewalls, [[encryption]], intrusion detection systems, and antivirus software
 - administrative controls: policies, procedures, and [[security]] awareness training for employees
-- physical controls: secure access to buildings, server rooms, and data centers
+- physical controls: secure access to buildings, server rooms, and [[data]] centers
 - regular updates and patch management to address vulnerabilities in software and systems
 
 # Challenges in Risk Mitigation in [[Information Security]]

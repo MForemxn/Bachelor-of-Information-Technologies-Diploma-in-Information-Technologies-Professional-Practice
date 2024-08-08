@@ -37,7 +37,7 @@ With the installation done, we are on our way, but we still need to connect to t
 There are two concepts that you need to be aware of:
 
 - A tenant, this is your own part of the Microsoft Cloud that’s available for your company. Some people work with multiple companies, and they might connect to multiple tenants
-- An environment, you can see this as a container inside your tenant which enables you to group data and content you have. This way you can have multiple environments to make split development work from testing and production workloads
+- An environment, you can see this as a container inside your tenant which enables you to group [[data]] and content you have. This way you can have multiple environments to make split development work from testing and production workloads
 
 ### Pac Auth
 

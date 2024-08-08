@@ -1,5 +1,5 @@
 ## Overview
-Session management is a critical aspect of web [[security]], enabling [[web applications]] to maintain state and track user activities across multiple requests. It is essential for distinguishing between different users, managing user logins, and ensuring secure data access.
+Session management is a critical aspect of web [[security]], enabling [[web applications]] to maintain state and track user activities across multiple requests. It is essential for distinguishing between different users, managing user logins, and ensuring secure [[data]] access.
 
 ## Key Concepts
 

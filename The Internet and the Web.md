@@ -1,7 +1,7 @@
 # What is the Internet?
 - the internet is a global network of computers and servers interconnected through communication protocols
 - it enables:
-	- data exchange across vast distances
+	- [[data]] exchange across vast distances
 	- access to information and resources
 	- communication through email, messaging apps, and social media platforms
 - it is the infrastructure that supports the web and other services
@@ -16,12 +16,12 @@
 
 # How the Internet Works
 - relies on a packet routing network following the Internet Protocol (IP)
-- uses Transmission Control Protocol (TCP) to ensure data is reliably transmitted
-- data travels through networks via routers and switches, finding the most efficient path
+- uses Transmission Control Protocol (TCP) to ensure [[data]] is reliably transmitted
+- [[data]] travels through networks via routers and switches, finding the most efficient path
 
 # Key Components of the Internet
 - Internet Service Providers (ISPs): companies that provide internet access to consumers and businesses
-- Routers and switches: hardware that directs data packets across the network
+- Routers and switches: hardware that directs [[data]] packets across the network
 - IP addresses: unique identifiers for devices on the internet
 - Domain Name System (DNS): translates human-friendly domain names (like www.example.com) into IP addresses
 
@@ -32,7 +32,7 @@
 
 # The Web: A Layer on the Internet
 - developed by Tim Berners-Lee in 1989 at CERN
-- uses Hypertext Transfer Protocol (HTTP) to transmit data
+- uses Hypertext Transfer Protocol (HTTP) to transmit [[data]]
 - consists of web pages that are linked via hyperlinks and URLs
 - web pages are written in HTML, styled with CSS, and often include JavaScript for interactivity
 

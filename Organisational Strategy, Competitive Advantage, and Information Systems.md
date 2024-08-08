@@ -46,7 +46,7 @@
 > 	this includes, but is not limited to, increasing profitability, efficiency, speed, or quality of product. 
 - [[information systems]] play critical roles in 3 areas:
 	- executing the process
-	- capturing and storing process data
+	- capturing and storing process [[data]]
 	- monitoring process performance. 
 ## Business IT Alignment 
 - ensuring there is a tight integration of IT systems to the existing business [[processes]] within an organisation

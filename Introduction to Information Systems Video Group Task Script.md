@@ -23,9 +23,9 @@ Against this backdrop, where [[AI]]'s raw power teeters on the brink of becoming
 
 Cut to Mark, flanked by an interactive digital board showcasing the infographic's solutions
 
-Mark: "From this vantage point, the horizon holds promise. The solutions are within reach — not just in thought but in action. (Graphs highlight solution statistics) To harness [[AI]]'s might, a data quality team emerges as the lighthouse, guiding through murky waters of uncertainty, ensuring that the predictions [[AI]] churns out are not just numbers, but narratives that propel progress.
+Mark: "From this vantage point, the horizon holds promise. The solutions are within reach — not just in thought but in action. (Graphs highlight solution statistics) To harness [[AI]]'s might, a [[data]] quality team emerges as the lighthouse, guiding through murky waters of uncertainty, ensuring that the predictions [[AI]] churns out are not just numbers, but narratives that propel progress.
 
-Operational procedures aren’t set in stone; they are the living, breathing scripts that [[AI]] can rewrite — only with frequent reviews and adaptability can we turn the tide. And when power shifts, so must our perspective. (Flowcharts and illustrations from the infographic come to life) It’s about restructuring not just the framework but the very fabric of our companies, enabling a fluid dance with digital destiny where flexibility reigns supreme. This is our blueprint — our map for navigating the [[AI]] landscape, where data doesn’t just speak but sings in harmony with human intent."
+Operational procedures aren’t set in stone; they are the living, breathing scripts that [[AI]] can rewrite — only with frequent reviews and adaptability can we turn the tide. And when power shifts, so must our perspective. (Flowcharts and illustrations from the infographic come to life) It’s about restructuring not just the framework but the very fabric of our companies, enabling a fluid dance with digital destiny where flexibility reigns supreme. This is our blueprint — our map for navigating the [[AI]] landscape, where [[data]] doesn’t just speak but sings in harmony with human intent."
 
 ---
 
@@ -58,12 +58,12 @@ Against this backdrop, where [[AI]]'s raw power teeters on the brink of becoming
 
 **KNOWLEDGE REPRESENTATION (MARK)**
 
-Mark: "From this vantage point, the horizon holds promise. The solutions are within reach — not just in thought but in action. To harness [[AI]]'s might, a data quality team emerges as the lighthouse, guiding through murky waters of uncertainty, ensuring that the predictions [[AI]] churns out are not just numbers, but narratives that propel progress.
+Mark: "From this vantage point, the horizon holds promise. The solutions are within reach — not just in thought but in action. To harness [[AI]]'s might, a [[data]] quality team emerges as the lighthouse, guiding through murky waters of uncertainty, ensuring that the predictions [[AI]] churns out are not just numbers, but narratives that propel progress.
 
 Operational procedures aren’t set in stone; they are the living, breathing scripts that [[AI]] can rewrite — only with frequent reviews and adaptability can we turn the tide. And when power shifts, so must our perspective. It’s about restructuring not just the framework but the very fabric of our companies, enabling a fluid dance with digital destiny where flexibility reigns supreme. This is our blueprint — our map for 
 
 
-navigating the [[AI]] landscape, where data doesn’t just speak but sings in harmony with human intent."
+navigating the [[AI]] landscape, where [[data]] doesn’t just speak but sings in harmony with human intent."
 
 ---
 

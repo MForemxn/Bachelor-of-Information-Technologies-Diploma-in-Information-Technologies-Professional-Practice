@@ -1,11 +1,11 @@
 # Finding Information
 ## **Utilizing Multiple Sources**: 
-To locate relevant data efficiently, explore a range of sources including libraries, databases, search engines, experts, and primary resources. Each source offers unique advantages:
+To locate relevant [[data]] efficiently, explore a range of sources including libraries, databases, search engines, experts, and primary resources. Each source offers unique advantages:
 - Libraries provide access to an extensive collection of physical and digital materials, as well as expert assistance from librarians
-- Databases often offer specialized, curated collections of research articles, data sets, and other scholarly resources.
+- Databases often offer specialized, curated collections of research articles, [[data]] sets, and other scholarly resources.
 - Search engines like Google Scholar or JSTOR can help you quickly locate relevant information on the web.
 - Experts in your field can provide valuable insights and unique perspectives based on their expertise and experience.
-- Primary sources, such as interviews, surveys, or original data, offer firsthand accounts of events or phenomena.
+- Primary sources, such as interviews, surveys, or original [[data]], offer firsthand accounts of events or phenomena.
 ## Developing Search Strategies: 
 To effectively find the information you need, create well-planned search strategies using keywords, Boolean operators, quotation marks, and filters:
 - Keywords are specific words or phrases related to your research topic that help narrow down search results.
@@ -19,7 +19,7 @@ To ensure the accuracy and trustworthiness of your sources, consider their autho
 - Purpose examines the intended audience and goal of the source. Sources aimed at academic audiences are more likely to provide accurate and unbiased information.
 - Currency refers to the timeliness of the information. Ensure that your sources are up-to-date with the most recent research in your field.
 ## Cross-Reference Information: 
-To verify facts and minimize bias, cross-reference data from multiple reliable sources. Compare and contrast their findings to gain a more comprehensive understanding of the topic.
+To verify facts and minimize bias, cross-reference [[data]] from multiple reliable sources. Compare and contrast their findings to gain a more comprehensive understanding of the topic.
 - Identifying Potential Bias: Be aware of potential biases or hidden agendas in your sources. Sources with clear biases may intentionally skew information to support a particular viewpoint. Evaluate these sources critically and consider their credibility based on the factors mentioned above.
 # Referencing Information
 ## Properly Citing Sources: 
@@ -28,7 +28,7 @@ Properly cite sources in your research to acknowledge their original creators, m
 ## Using Reference Management Tools:
 - Utilise reference management tools such as Mendeley, EndNote, or Zotero to efficiently organize, manage, and store your sources. These tools can help you easily access, format citations, and create bibliographies for your projects.
 ## Effective Information Management
-- Organizing Data**: Organize and store data in a logical and accessible manner to facilitate retrieval, analysis, and collaboration:
+- Organizing [[Data]]**: Organize and store [[data]] in a logical and accessible manner to facilitate retrieval, analysis, and collaboration:
 - Create a clear and consistent system for organizing information based on its relevance, importance, and format (e.g., text files, PDFs, images).
 - Implement a naming convention that accurately describes the contents of each file or folder.
 ## Creating Summaries: 

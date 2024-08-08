@@ -10,7 +10,7 @@ The so called "four pillars" codify the central ideas of OOP:
 
 1. Abstraction - the separation of implementation from interface.
     
-2. Encapsulation - data should normally be hidden and access controlled via methods.
+2. Encapsulation - [[data]] should normally be hidden and access controlled via methods.
     
 3. Inheritance - objects should be able to exhibit multiple (appropriate) types, in a structured way.
     
@@ -109,9 +109,9 @@ The nature of "contains" here is a little subtle though:
 
 ## Expert
 
-The expert principle tells us that when choosing where to place functionality, we should place it as close to the necessary data as possible. So if a single class has all the information needed to compute some function, the function should be a member of that class.
+The expert principle tells us that when choosing where to place functionality, we should place it as close to the necessary [[data]] as possible. So if a single class has all the information needed to compute some function, the function should be a member of that class.
 
-If the data is spread over several classes, we should look for the class with most of the information, or consider if the spread of the data actually makes sense.
+If the [[data]] is spread over several classes, we should look for the class with most of the information, or consider if the spread of the [[data]] actually makes sense.
 
 
 ## Low Coupling
@@ -123,7 +123,7 @@ This also means that we may also consider routing functionality through intermed
 
 ## Controller
 
-The responsibility for deciding how to fulfill information requests (including literal requests for data, changes of state in the system, etc.) should be mediated by controller classes.
+The responsibility for deciding how to fulfill information requests (including literal requests for [[data]], changes of state in the system, etc.) should be mediated by controller classes.
 
 For example, the UI shouldn't talk directly to the back-end logic, it should talk to a controller, and the controller should decide how to engage the other components of the program (possibly via other controllers, though this can get a bit silly).
 

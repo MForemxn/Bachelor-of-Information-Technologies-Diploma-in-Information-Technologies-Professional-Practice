@@ -49,13 +49,13 @@ Fabric offers a variety of Patterns, each designed for a specific task:
 |**create_security_update**|Forms updates based on [[security]] developments|IT [[security]], system admin|
 |**write_essay**|Writes comprehensive essays from prompts|Education, content creation|
 |**extract_article_wisdom**|Pulls insightful concepts from articles|Research, academic study|
-|**create_visualization**|Creates visual representations of data|Data analysis, reporting|
+|**create_visualization**|Creates visual representations of [[data]]|[[Data]] analysis, reporting|
 |**improve_academic_writing**|Enhances the quality of academic writing|Thesis writing, publication preparation|
 |**rate_content**|Evaluates the quality of content|Editing, content management|
 |**extract_recommendations**|Gathers actionable recommendations from text|Business strategy, personal development|
 |**analyze_technology_impact**|Assesses the effects of technology|Tech research, policy making|
 |**create_quiz**|Generates quizzes from educational material|Teaching, e-learning|
-|**extract_predictions**|Extracts forecasts from textual data|Market analysis, trend forecasting|
+|**extract_predictions**|Extracts forecasts from textual [[data]]|Market analysis, trend forecasting|
 
 ## Creating Custom Patterns
 
@@ -75,7 +75,7 @@ Fabric's [[CLI]] supports complex functionalities, such as adjusting [[AI]] para
 
 Fabric is compatible with several utilities that augment its capabilities:
 
-- **yt**: Retrieves transcripts and other data from YouTube.
+- **yt**: Retrieves transcripts and other [[data]] from YouTube.
 - **ts**: Uses the Whisper [[API]] to transcribe audio files.
 - **save**: Saves outputs while maintaining terminal display.
 

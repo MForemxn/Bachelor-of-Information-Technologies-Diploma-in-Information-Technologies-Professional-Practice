@@ -5,7 +5,7 @@
 	- intelligence
 		- managers examine a situation and identify and define the problem or opportunity
 	- design
-		- decision makers construct a model for the situation. they do this by making assumptions that simplify reality and by expressing the relationships among all the relevant variables. managers then validate the model by using test data.
+		- decision makers construct a model for the situation. they do this by making assumptions that simplify reality and by expressing the relationships among all the relevant variables. managers then validate the model by using test [[data]].
 	- choice
 		- involves selecting a solution or course of action that seems best suited to resolve the problem.
 ![[Screenshot 2024-03-25 at 11.00.10 am.png]]

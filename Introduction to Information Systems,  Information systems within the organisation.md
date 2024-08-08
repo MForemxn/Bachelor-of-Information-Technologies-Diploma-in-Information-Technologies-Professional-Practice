@@ -28,7 +28,7 @@
 		- for example, google apps, dropbox, etc.
 # [[Processes]] for Generating Information
 - Three activities for producing the information:
-	- Input: Capturing raw data or information
+	- Input: Capturing raw [[data]] or information
 	- Processing : Converting input into a meaningful form
 	- Output : Transferring the processed information to the  people who will use it or to the activities for which it will  be used
 	- Example: a hotel reservation information system:
@@ -53,25 +53,25 @@
 	- some workers may feel overwhelmed by the tracking of their performance metrics by their managers 
 	- also, a higher workload and a less clear boundary of work and non-work time contributes to a poor mental health from employees.
 # Transaction Processing Systems
-- A transaction is any event which generates data worthy of being captures
+- A transaction is any event which generates [[data]] worthy of being captures
 	- this means that transaction processing systems support the:
-		- monitoring, collection, storage, and processing of data from an organisations basic business transactions
-- TPS collects data continuously, usually in real time
+		- monitoring, collection, storage, and processing of [[data]] from an organisations basic business transactions
+- TPS collects [[data]] continuously, usually in real time
 	- ![[Pasted image 20240226211136.png]]
 	- ![[Pasted image 20240226211147.png]]
 	- ![[Pasted image 20240226211154.png]]
-## Complexities of transactional data
-- transactional data often involve more than one computer
+## Complexities of transactional [[data]]
+- transactional [[data]] often involve more than one computer
 	- the links between these computers often create a weak point for TPS systems
 	- any component failure at any time could cause a catastrophic failure
 		- •E.g an error at some point in an ATM withdrawal can enable a customer to receive cash, although the bank’s computer indicates that he or she did not.
-	- transactional data can be processed online in real time or in batch.
+	- transactional [[data]] can be processed online in real time or in batch.
 		- batch: transactions are accumulated over a period of time and are processed as a group
 		- online real time: each transaction is processed immediately and changes are reflected across all systems almost instantly.
 	- 
 # [[Decision Support Systems]]
-- DSS allows middle managers to analyse a large amount of raw data to support their [[decision]] making. 
-	- this allows them to analyse complex environments between (sometimes) millions of raw data points with ease
+- DSS allows middle managers to analyse a large amount of raw [[data]] to support their [[decision]] making. 
+	- this allows them to analyse complex environments between (sometimes) millions of raw [[data]] points with ease
 # Executive Support Systems
 - ESS allow higher, more senior managers to make large scale, strategic decisions.
 	- this may include "what products should we make in 5 years?"
@@ -79,7 +79,7 @@
 - allows the macro tracking and analysing of KPI's and other metrics
 # Reporting Options
 - there are 3 types of reports which all [[information systems]] are able to produce
-	- routine reports: anything from hourly to yearly reports on all types of key data points
+	- routine reports: anything from hourly to yearly reports on all types of key [[data]] points
 	- ad-hoc (on demand) reports: [[Drill Down Reports|drill-down]], [[Key-Indicator Reports|key indicator]], and [[Comparative Reporting|comparative reports]]
 	- [[Exception Reports|exception reports]]: all information which falls outside a certain threshold (outliers)
 # Expert Systems
@@ -93,7 +93,7 @@
 	- highly effective
 	- understandable
 	- reliable
-	- able to process data quickly
+	- able to process [[data]] quickly
 	- capable of critical [[decision]] making
 - three key people are needed for expert systems development
 	- Domain expert: person or group with the expertise or knowledge the expert system is trying to capture

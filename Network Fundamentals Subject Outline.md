@@ -18,7 +18,7 @@ Subject coordinator
 
 Professor Ren Ping Liu
 
-School of Electrical and Data Engineering
+School of Electrical and [[Data]] Engineering
 
 Email: renping.liu@uts.edu.au
 
@@ -44,11 +44,11 @@ Nav Phokela <Navaldeep.Phokela1@uts.edu.au>
 
 Subject description
 
-Today's internet is arguably the largest engineered system ever created by humanity, carrying petabytes of data every
+Today's internet is arguably the largest engineered system ever created by humanity, carrying petabytes of [[data]] every
 
-minute. It is important for data engineers to understand how data is transferred through the internet, and the guiding
+minute. It is important for [[data]] engineers to understand how [[data]] is transferred through the internet, and the guiding
 
-principles and structures of data transportation designs.
+principles and structures of [[data]] transportation designs.
 
 This subject provides students with a modern introduction to the dynamic field of computer networking, including
 
@@ -62,7 +62,7 @@ By developing problem-solving and design skills in this subject, students also a
 
 appropriate [[network services]], and design and develop network applications, e.g. web server and client, to achieve the
 
-best data performance.
+best [[data]] performance.
 
 Subject learning objectives (SLOs)
 
@@ -70,7 +70,7 @@ Upon successful completion of this subject students should be able to:
 
 1. Understand the key architectural principles of the Internet, namely protocol layering and service [[models]]. (D.1)
 
-2. Analyse various components of the Internet, including Applications, Transport, Network, Addressing, and Data
+2. Analyse various components of the Internet, including Applications, Transport, Network, Addressing, and [[Data]]
 
 Link, to select the most appropriate [[network services]]. (C.1)
 
@@ -166,13 +166,13 @@ Introduction of transport-layer services
 
 Connectionless transport: UDP
 
-Principles of reliable data transfer
+Principles of reliable [[data]] transfer
 
 Connection oriented transport: TCP
 
 Principles of Congestion Control
 
-4. The Network Layer: Data Plane
+4. The Network Layer: [[Data]] Plane
 
 Network service [[models]]
 
@@ -280,7 +280,7 @@ Notes:
 
 3.3 connectionless transport: UDP
 
-3.4 principles of reliable data transfer
+3.4 principles of reliable [[data]] transfer
 
 Tutorial, Lab
 
@@ -300,7 +300,7 @@ Tutorial, Lab
 
 Assignment2
 
-7 16-20/9 Network layer: data plane
+7 16-20/9 Network layer: [[data]] plane
 
 Notes:
 
@@ -398,7 +398,7 @@ enable students to actually observe the sequence of messages exchanged between t
 
 entities and build simple networks. Students are expected to test the network connectivity, explain
 
-and analyse the observed data during the labs.
+and analyse the observed [[data]] during the labs.
 
 Due: Ten labs are marked in lab classes in weeks 1-4, 6-11. Each lab is marked by responsible tutor
 
@@ -678,9 +678,9 @@ Create something original. This means doing all your own work from start to fini
 
 21/07/2024 (Spring 2024) © University of Technology Sydney Page 9 of 11Create something original. This means doing all your own work from start to finish, submitting work that is original
 
-for that assessment and being honest about any data or results.
+for that assessment and being honest about any [[data]] or results.
 
-Credit others. You need to acknowledge and reference the source of any ideas, data or materials you use or adapt
+Credit others. You need to acknowledge and reference the source of any ideas, [[data]] or materials you use or adapt
 
 in your work.
 

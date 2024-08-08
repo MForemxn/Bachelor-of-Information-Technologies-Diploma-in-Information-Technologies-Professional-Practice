@@ -16,7 +16,7 @@
 # Common Types of Social Engineering Attacks
 
 ## Pretexting
-- Pretexting involves creating a fabricated scenario (the pretext) to engage a target in a manner that increases the chance of scam success. The attacker usually pretends to need certain information from the target to confirm their identity, thereby gaining access to sensitive data.
+- Pretexting involves creating a fabricated scenario (the pretext) to engage a target in a manner that increases the chance of scam success. The attacker usually pretends to need certain information from the target to confirm their identity, thereby gaining access to sensitive [[data]].
 
 ## Phishing/Spear Phishing
 - Phishing is a technique that involves sending fraudulent emails that mimic those from reputable sources to steal sensitive information. Spear phishing is a more targeted version, where the attacker has done research on their victim to make the attack more personalized and convincing.
@@ -54,7 +54,7 @@ Tailgating and quid pro quo are social engineering techniques that exploit human
 # How Social Engineering Works
 
 - The success of social engineering relies on psychological manipulation, exploiting common human traits such as trust, fear, and the desire to be helpful.
-- Attackers often do extensive research on their targets to find vulnerabilities. They may gather preliminary data from social media, company websites, and other public sources to make their attack more credible.
+- Attackers often do extensive research on their targets to find vulnerabilities. They may gather preliminary [[data]] from social media, company websites, and other public sources to make their attack more credible.
 - The actual attack is then carried out using one or more of the methods mentioned above, tailored to exploit the identified vulnerabilities.
 
 # Preventing Social Engineering Attacks

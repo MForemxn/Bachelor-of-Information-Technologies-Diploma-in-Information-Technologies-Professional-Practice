@@ -1,7 +1,7 @@
 # What is Polymorphism?
 
 - Polymorphism, a core concept in Object-Oriented Programming (OOP), refers to the ability of different objects to respond to the same message—or method call—in different ways. The term originates from Greek, meaning "many forms".
-- It allows for flexibility and scalability in programming by enabling a single interface to represent different underlying forms (data types).
+- It allows for flexibility and scalability in programming by enabling a single interface to represent different underlying forms ([[data]] types).
 
 # How Polymorphism Works in OOP
 
@@ -33,4 +33,4 @@
 
 # Conclusion
 
-- Polymorphism enriches the OOP paradigm by enabling actions to be performed in ways that vary according to the objects' data types or classes. This capability is fundamental to creating flexible and maintainable code, allowing developers to write more general and reusable software components.
+- Polymorphism enriches the OOP paradigm by enabling actions to be performed in ways that vary according to the objects' [[data]] types or classes. This capability is fundamental to creating flexible and maintainable code, allowing developers to write more general and reusable software components.

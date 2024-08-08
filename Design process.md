@@ -12,7 +12,7 @@ involves gaining insights into their needs, behaviours, motivations, and pain po
 #### Research Methods
 There are various research methods that can be employed during the empathise stage, including:
 1. Interviews: One-on-one conversations with users that help gather in-depth insights into their thoughts, feelings, and motivations.
-2. Surveys: Structured questionnaires used to collect quantitative data from a larger sample size.
+2. Surveys: Structured questionnaires used to collect quantitative [[data]] from a larger sample size.
 3. Observation: Watching users interact with a product or system can reveal valuable insights into their needs and behaviours.
 4. Context mapping: A visual representation of the user's environment, tasks, and experiences that helps designers better understand their context.
 ### 2. Define
@@ -49,7 +49,7 @@ There are several prototyping tools available to suit various design needs and s
 #### Gathering Feedback from Users
 The test and iterate stage involves gathering user feedback on your prototype to refine and improve the design. User testing can take various forms, from formal laboratory studies to informal usability tests in the real world.
 - **Usability testing:** Observe users as they interact with your prototype, identifying areas for improvement based on their actions and comments.
-- **Surveys and questionnaires:** Gather quantitative data about user preferences and satisfaction through structured surveys or questionnaires.
+- **Surveys and questionnaires:** Gather quantitative [[data]] about user preferences and satisfaction through structured surveys or questionnaires.
 - **Interviews and debriefs:** Conduct in-depth interviews with users to gain insights into their thoughts, motivations, and experiences.
 #### Refining Your Design
 Use the feedback gathered during testing to refine your design and create a more effective solution for your users. Repeat the process of ideating, prototyping, and testing until you've developed a design that truly meets the needs of your users.

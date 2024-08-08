@@ -10,7 +10,7 @@ Thus methods are the basic element of _code reuse_ in Java.
 
 As Java is an object oriented language, methods are also the primary mode through which we interact with classes and objects. Normally a class (and hence its objects) will have member variables, but we don't usually want other parts of the program accessing these variables - methods mediate the access, and define the behaviour of classes their objects. Of course because Java is rather strictly object oriented (not perfectly though), methods must be declared inside a class (they can't just be off by themselves).
 
-Or put another way, methods are the _actions_ a class or object can take. Data are the nouns, methods are the verbs.
+Or put another way, methods are the _actions_ a class or object can take. [[Data]] are the nouns, methods are the verbs.
 
 ## Basic Method Syntax in Java
 
@@ -39,7 +39,7 @@ The basic components are (each of these are discussed in more detail in the next
     
 4. `<name>`: 'every ' method needs a name (there is an exception to this, but you won't officially see that until next semester - _lambda functions_). This is no different to a variable and when writing methods, you should choose a descriptive name that indicates what the method does, usually in a question or verb-like form. Method names in Java should start with a lowercase letter, with every subsequent word in the name starting with an uppercase letter (again, the same as variable names).
     
-5. `<parameter list>`: A method has a comma separated list of parameters that gives the definition of the data that's passed _in_ to the method. These look like variable declarations (effectively they are).
+5. `<parameter list>`: A method has a comma separated list of parameters that gives the definition of the [[data]] that's passed _in_ to the method. These look like variable declarations (effectively they are).
     
 
 To get a better idea, let's look at concrete example:
@@ -125,7 +125,7 @@ public class Add {
 
 The return value of a method is the primary tool for getting information out of a method. While it is certainly possible for methods to modify values outside the method, this is not a good way of transferring information. Some methods exist precisely to change values outside the method, but these will typically have return type `void`. Normally, as a Java programmer, a method either returns a value or modifies something, not both. Of course there are always exceptions.
 
-A method in Java can only return a single value. It may be a complex value (e.g. a list of objects, each containing their own data), but it has to be returned as a single entity. Underlying this is an OO design principle. If you have written a method that needs to return two separate things, you may be writing the wrong method and should break the problem down further (or work out why they have to be together and put them together).
+A method in Java can only return a single value. It may be a complex value (e.g. a list of objects, each containing their own [[data]]), but it has to be returned as a single entity. Underlying this is an OO design principle. If you have written a method that needs to return two separate things, you may be writing the wrong method and should break the problem down further (or work out why they have to be together and put them together).
 
 The existence of a return type that isn't `void` also requires a method to have at least one (provably reachable) `return` statement. The `return` statement is the actual point where the return value is generated, the method terminated and control (along with the return value) given back (_returned_) to whatever piece of code called the method. The value returned must, of course, have the same type as the declared return type.
 
@@ -300,13 +300,13 @@ And this example, which is both missing an access modifier and ridiculous:
 
 ## Parameters and Parameter Lists
 
-The parameter list defines what data the method expects, particularly in terms of the types, and also declares what variable names will be used inside the method to refer to that data.
+The parameter list defines what [[data]] the method expects, particularly in terms of the types, and also declares what variable names will be used inside the method to refer to that [[data]].
 
-The list is effectively a comma separated set of variable declarations. The variables declared exist only inside the method (though the data may exist outside as well), and they are removed once the method terminates.
+The list is effectively a comma separated set of variable declarations. The variables declared exist only inside the method (though the [[data]] may exist outside as well), and they are removed once the method terminates.
 
 The number and ordering of the parameters is strict, and the compiler will only allow a method call if the values pass to the method match in order, number and type. The compiler will not fill in any blanks, and unlike several other languages, Java does not allow default values for parameters.
 
-In fact, the type, order and number are how Java figures out which method to run, because something Java does allow is reusing the same method name, this is called _method overloading_ or _ad-hoc polymorphism_. You have actually already seen this repeatedly, though didn't know it - if you call `System.out.println(...)` with data of different types in place of the `...`, you're actually calling different version of the method. In fact `PrintStream` (that's the actual class that gives `System.out` it's type) has [10 versions](https://docs.oracle.com/javase/10/docs/api/java/io/PrintStream.html) of `println` for different parameter lists.
+In fact, the type, order and number are how Java figures out which method to run, because something Java does allow is reusing the same method name, this is called _method overloading_ or _ad-hoc polymorphism_. You have actually already seen this repeatedly, though didn't know it - if you call `System.out.println(...)` with [[data]] of different types in place of the `...`, you're actually calling different version of the method. In fact `PrintStream` (that's the actual class that gives `System.out` it's type) has [10 versions](https://docs.oracle.com/javase/10/docs/api/java/io/PrintStream.html) of `println` for different parameter lists.
 
 Building on our previous example, we can overload the `isFactor` and `printFactors` methods to do a common factor computation:
 
@@ -390,9 +390,9 @@ public class Add {
 
 Since version 5, Java has also had a limited ability to handle methods with a variable number of parameters.
 
-While a lot of the sensible cases can be handled with overloading, sometimes it is useful to assemble a collection of data in a more ad-hoc way. This is achieved via a bit of syntactic sugar called _variable arguments_ or _varargs_ for short.
+While a lot of the sensible cases can be handled with overloading, sometimes it is useful to assemble a collection of [[data]] in a more ad-hoc way. This is achieved via a bit of syntactic sugar called _variable arguments_ or _varargs_ for short.
 
-If desired, the final (and only the final) parameter in the parameter list can be specified with `<type> ... <name>`, indicating the method should accept a sequence of parameters of type `<type>` of unknown length (perhaps even length zero). This limits the possibilities to data of the same type, and they can't be jumbled in with the initial parameters.
+If desired, the final (and only the final) parameter in the parameter list can be specified with `<type> ... <name>`, indicating the method should accept a sequence of parameters of type `<type>` of unknown length (perhaps even length zero). This limits the possibilities to [[data]] of the same type, and they can't be jumbled in with the initial parameters.
 
 In the background, what happens is Java effectively collects these in an array, and the parameter effectively works as such, but in the code you get to avoid declaring and initialising an array.
 
@@ -429,7 +429,7 @@ public class Sum {
 
 ## A Message From Our Sponsor
 
-There's a little more to say about how parameters are handled, particularly how the values relate to the values outside the method, however it is helpful to understand a little more about how variables and their data are handled in memory first.
+There's a little more to say about how parameters are handled, particularly how the values relate to the values outside the method, however it is helpful to understand a little more about how variables and their [[data]] are handled in memory first.
 
 These two things will be dealt with in the following two lessons.
 
@@ -437,14 +437,14 @@ These two things will be dealt with in the following two lessons.
 
 Methods can be broken down into two categories: functions and procedures. Of course in practice the terminology gets mixed up all the time, but being aware of the concepts is an important component of understanding good programming:
 
-1. _(pure) functions_ have no side-effects and no hidden inputs. That is, they don't change data outside the function, and if you give it the same parameter values, it will always return the same result.
+1. _(pure) functions_ have no side-effects and no hidden inputs. That is, they don't change [[data]] outside the function, and if you give it the same parameter values, it will always return the same result.
     
 2. _procedures_ have side-effects. In general this is their purpose, and will often have return type `void` because their job is to change something about the object they're run on, or something similar.
     
 
 Java has no (syntactical) way to distinguish between functions and procedures, but as a programmer, you should think about what you're trying to implement. In general, implement things as functions, and only write procedures when you're sure that's what needs to be done. The key point here is clarity in intent - if you don't know what you mean to do, you may end up with bad code.
 
-In the following code, the `getValue` method is a function, it changes nothing, and just returns a value. The `setValue` method changes the data in the class, and is a procedure:
+In the following code, the `getValue` method is a function, it changes nothing, and just returns a value. The `setValue` method changes the [[data]] in the class, and is a procedure:
 
 
 ```
@@ -470,9 +470,9 @@ public class Example {
 
 ## Is there anything that Java makes easy?
 
-So far we've seen that Python has a number of convenient built-in data structures for simple but common use-cases (`list`, `dict`, `tuple`, `set`).
+So far we've seen that Python has a number of convenient built-in [[data]] structures for simple but common use-cases (`list`, `dict`, `tuple`, `set`).
 
-Java, being Java, never makes anything quite this simple. We will soon see how Java handles the idea of a list and touch on how things like sets and hashmaps are implements in doing so, but that still leaves the question of what do you do if you just want a simple data structure to hold a small collection of data of different types, but you don't need all the fancy bits to make it function - in short, it's just **Plain Old Data**.
+Java, being Java, never makes anything quite this simple. We will soon see how Java handles the idea of a list and touch on how things like sets and hashmaps are implements in doing so, but that still leaves the question of what do you do if you just want a simple [[data]] structure to hold a small collection of [[data]] of different types, but you don't need all the fancy bits to make it function - in short, it's just **Plain Old [[Data]]**.
 
 Recently, Java has added a tool to fulfill this requirement - _records_.
 
@@ -502,7 +502,7 @@ So a simple record representing a point in 2D space might be something like:
 
 public record Point(double x, double y){}
 
-Or a record that gives student data:
+Or a record that gives student [[data]]:
 
 public record Student(String name, int studentID, int courseID){}
 
@@ -638,7 +638,7 @@ print(add([1,2,3], {'a' : 'first'}))
 
 This is a particular demonstration of the importance of good documentation. In a language like Python, documentation is often the only (practical) way to discern how to use a function.
 
-The obverse of this however is that, as long as the function caller passes in data that works with whatever happens in the function, the code will still run, which is occasionally useful.
+The obverse of this however is that, as long as the function caller passes in [[data]] that works with whatever happens in the function, the code will still run, which is occasionally useful.
 
 
 ## Type Hints
@@ -647,7 +647,7 @@ Although Python is dynamically typed, and thus we have no control over variable 
 
 These are not enforceable in any way (while the future is uncertain in general, making them enforceable would be very un-Pythonic), but they can help provided a degree of readability and structure when writing functions.
 
-The basic syntax of type hints is to follow each parameter name with `: <type>`, where `<type>` is the expected type of the data, and the function definition with `-> <type>` to indicate the expected return type.
+The basic syntax of type hints is to follow each parameter name with `: <type>`, where `<type>` is the expected type of the [[data]], and the function definition with `-> <type>` to indicate the expected return type.
 
 Taking an example from the previous slide, and adding type hints, we get:
 
@@ -677,7 +677,7 @@ print(add('1','2'))  # Pass in a str, get a str out, the type hints
 
 Python uses a parameter passing model called "Call-by-Object", which, in practice, turns out somewhat similar to Java.
 
-If a immutable data like integers, floats, strings or tuples are passed, it works like pass-by-value - essentially the function gets a copy of the data:
+If a immutable [[data]] like integers, floats, strings or tuples are passed, it works like pass-by-value - essentially the function gets a copy of the [[data]]:
 
 
 ```
@@ -693,7 +693,7 @@ print(n)
 ```
 
 
-If mutable data like lists are passed, it works like pass-by-reference, and the original data can be modified (but note that the variables inside the function are not the same as the ones outside):
+If mutable [[data]] like lists are passed, it works like pass-by-reference, and the original [[data]] can be modified (but note that the variables inside the function are not the same as the ones outside):
 
 ```
 
@@ -723,7 +723,7 @@ print(list)
 
 ```
 
-In the second example, `list` and `l` are two separate variables, and the assignment operation on line 2 just points `l` at different data. `list` is still point at the original list data, and remains unchanged. In the first example however, `l` and `list` are still different variables, but the append operation is invoked on the data that they are both pointing to, rather than modifying the value of the variables (remember Python variables are actually references - they indicate where some data is in memory, so their value is an address, rather than the data itself).
+In the second example, `list` and `l` are two separate variables, and the assignment operation on line 2 just points `l` at different [[data]]. `list` is still point at the original list [[data]], and remains unchanged. In the first example however, `l` and `list` are still different variables, but the append operation is invoked on the [[data]] that they are both pointing to, rather than modifying the value of the variables (remember Python variables are actually references - they indicate where some [[data]] is in memory, so their value is an address, rather than the [[data]] itself).
 
 
 ## Fancy Things with Parameters
@@ -777,7 +777,7 @@ Finally, we can supply what's called _keyword arguments_, which look like named 
 ```
 def record(**data):
 
-    print(data)
+    print([[[[data]]]])
 
 record(name="Luke", job="Lecturer", employer="UTS")
 ```

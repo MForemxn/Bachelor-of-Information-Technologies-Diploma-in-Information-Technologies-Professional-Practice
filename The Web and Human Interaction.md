@@ -4,7 +4,7 @@
 
 ### Web Servers
 
-- Web servers are programs that accept requests from browsers via a network connection and return content, such as HTML pages or other data. This process involves an HTTP request from the browser, which the server responds to by sending the requested content back to the browser.
+- Web servers are programs that accept requests from browsers via a network connection and return content, such as HTML pages or other [[data]]. This process involves an HTTP request from the browser, which the server responds to by sending the requested content back to the browser.
 
 ### Web Content Management
 

@@ -1,5 +1,5 @@
 # What is Editing Using Unix?
-- Editing in Unix refers to modifying [[text files]], configuration files, or any data within files using text editors available in the [[Unix operating system]] and its derivatives, including Linux distributions.
+- Editing in Unix refers to modifying [[text files]], configuration files, or any [[data]] within files using text editors available in the [[Unix operating system]] and its derivatives, including Linux distributions.
 - Unix provides a variety of text editors, ranging from simple, command-line editors to more complex, graphical ones, catering to different user preferences and editing needs.
 
 # Common Unix Text Editors

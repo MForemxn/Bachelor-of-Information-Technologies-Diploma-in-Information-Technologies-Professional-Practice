@@ -1,10 +1,10 @@
 # What is the Web and [[Cybersecurity]]?
 - the web refers to the vast network of interconnected documents and resources, linked by hyperlinks and URLs, accessible via the internet
-- [[cybersecurity]] involves protecting those internet-connected systems, including hardware, software, and data, from cyberattacks or unauthorized access
+- [[cybersecurity]] involves protecting those internet-connected systems, including hardware, software, and [[data]], from cyberattacks or unauthorized access
 
 # Importance of [[Cybersecurity]] on the Web
 - as the web has become integral to personal, educational, and business activities, its [[security]] is paramount
-	- protects sensitive data from theft or damage
+	- protects sensitive [[data]] from theft or damage
 	- ensures privacy for users
 	- maintains trust in digital transactions and communications
 - a breach in [[cybersecurity]] can lead to:
@@ -25,7 +25,7 @@
 ### [[Integrity]]
 
 - Safeguarding the accuracy and completeness of information and its processing methods.
-- Measures include ensuring data can only be altered by authorized users and employing audit trails, hashes, checksums, and message digests for detection.
+- Measures include ensuring [[data]] can only be altered by authorized users and employing audit trails, hashes, checksums, and message digests for detection.
 
 ### [[Availability]]
 
@@ -45,7 +45,7 @@
 
 ### Hashing
 
-- Hashing ensures data [[integrity]] by applying a code on data, such as emails or electronic documents, to verify it hasn't been modified.
+- Hashing ensures [[data]] [[integrity]] by applying a code on [[data]], such as emails or electronic documents, to verify it hasn't been modified.
 - This is typically used in secure email, digital signatures on documents, and software validation.
 
 ### [[Authentication]]
@@ -68,13 +68,13 @@
 - phishing
 	- fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity in an electronic communication
 - ransomware
-	- a type of malware that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid
+	- a type of malware that threatens to publish the victim's [[data]] or perpetually block access to it unless a ransom is paid
 - DDoS attacks (Distributed Denial of Service)
 	- attempts to disrupt normal web traffic of a targeted server, service, or network by overwhelming the target or its surrounding infrastructure with a flood of internet traffic
 
 # [[Cybersecurity]] Measures
 - [[encryption]]
-	- converting information or data into a code, especially to prevent unauthorized access
+	- converting information or [[data]] into a code, especially to prevent unauthorized access
 - firewalls
 	- network [[security]] systems that monitor and control incoming and outgoing network traffic based on predetermined [[security]] rules
 - antivirus software
@@ -88,7 +88,7 @@
 - HTTPS (Hypertext Transfer Protocol Secure)
 	- an extension of HTTP, used for secure communication over a computer network, and widely used on the internet
 - importance
-	- encrypts data exchanged between a user's browser and the website they are visiting, protecting against eavesdropping and tampering
+	- encrypts [[data]] exchanged between a user's browser and the website they are visiting, protecting against eavesdropping and tampering
 	- provides [[authentication]] of the accessed website, preventing [[man]]-in-the-middle attacks
 
 # [[Cybersecurity]] Education and Awareness

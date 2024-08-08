@@ -4,7 +4,7 @@ The Harvard Business Review IdeaCast episode, hosted by Curt Nickisch, features 
 
 Key points from the episode include:
 
-- The recent hype around [[AI]] led businesses to invest in leveraging their data for [[AI]], but challenges emerged due to the need for comprehensive coordination across the entire organizational system, highlighting the "[[AI]] bullwhip effect."
+- The recent hype around [[AI]] led businesses to invest in leveraging their [[data]] for [[AI]], but challenges emerged due to the need for comprehensive coordination across the entire organizational system, highlighting the "[[AI]] bullwhip effect."
 - Despite the slow adoption of [[AI]] beyond major tech firms, there's a consensus that [[AI]]'s transformative impact requires a system-wide adjustment rather than isolated implementations.
 - Gans provides an example of Team New Zealand in the America's Cup, demonstrating how [[AI]] can accelerate innovation in technology and design through enhanced prediction and simulation capabilities.
 - The conversation also addresses the difficulty organizations face in adapting to [[AI]], often hindered by established rules and procedures developed in response to uncertainty. Gans suggests that startups and new entrants, unencumbered by legacy systems, are better positioned to harness [[AI]] from the outset.

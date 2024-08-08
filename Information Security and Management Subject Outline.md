@@ -12,7 +12,7 @@ Credit points 6cp
 
 Requisite(s) (31268 [[Web Systems]] OR 48410 Introduction to ICT Engineering OR 41082
 
-Introduction to Data Engineering OR 65325 Digital Trace and Identity OR 31257
+Introduction to [[Data]] Engineering OR 65325 Digital Trace and Identity OR 31257
 
 Information System Development Methodologies OR 41092 Network
 
@@ -304,7 +304,7 @@ rescheduled in STUVAC 2.
 
 Workshop:
 
-1. Challenges to Data [[Security]]
+1. Challenges to [[Data]] [[Security]]
 
 2. In-[[class]] [[feedback]] for Assessment 3
 
@@ -626,9 +626,9 @@ As a UTS student, when you create something original, credit others and collabor
 
 Create something original. This means doing all your own work from start to finish, submitting work that is original
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 8 of 10for that assessment and being honest about any data or results.
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 8 of 10for that assessment and being honest about any [[data]] or results.
 
-Credit others. You need to acknowledge and reference the source of any ideas, data or materials you use or adapt
+Credit others. You need to acknowledge and reference the source of any ideas, [[data]] or materials you use or adapt
 
 in your work.
 

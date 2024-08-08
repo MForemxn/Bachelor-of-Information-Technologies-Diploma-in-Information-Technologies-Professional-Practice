@@ -4,7 +4,7 @@
 	- network
 	- software
 	- infrastructure
-- data
+- [[data]]
 - [[processes]]
 - people
 ![[Pasted image 20240806134440.png]]
