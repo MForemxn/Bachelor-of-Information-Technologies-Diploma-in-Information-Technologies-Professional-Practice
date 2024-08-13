@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "State Management.md",
+                "file": "Homepage/Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "State Management.md",
+            "file": "Homepage/Home.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "State Management.md",
+            "file": "Homepage/Home.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "State Management.md"
+            "file": "Homepage/Home.md"
           }
         }
       }
@@ -133,18 +133,25 @@
   },
   "active": "d5ec7134b795684e",
   "lastOpenFiles": [
+    "Week by Week Guidelines.md",
+    "Year 1 Spring Week By Week.md",
+    "Homepage/Home.md",
+    "Subjects.md",
+    "Network Fundamentals.md",
+    "Introduction to Network Fundamentals.md",
+    "Business Requirements Modelling.md",
+    "Introduction to Business Requirements Modelling.md",
+    "packet/circuit switching.md",
+    "\"Hello, World!\".md",
+    "State Management.md",
     "Methods, Properties and Access Control.md",
     "Programming 1.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "State Management.md",
     "Security.md",
     "Penetration Testing.md",
     "Introduction to Information Systems.md",
     "Communication for IT Professionals.md",
     "AI Behaviour Interview.md",
     "Untitled",
-    "Week by Week Guidelines.md",
     "Screenshot 2024-03-25 at 11.11.46 am 2.png",
     "MacOSX & Windows XP.md",
     "cp.md",
@@ -154,13 +161,6 @@
     "uname.md",
     "pwd.md",
     "Untitled.md",
-    "man.md",
-    "2024-03-16.md",
-    "mkdir.md",
-    "mv.md",
-    "scratch document.md",
-    "d.md",
-    "Computing Theory.md",
     "Assesment Task 1 Template.pdf",
     "APA Interactive Guide.pdf",
     "Untitled.canvas",

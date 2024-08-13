@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Network Fundamentals.md",
+                "file": "SQL Master Document.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Network Fundamentals.md",
+                "file": "SQL Master Document.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Network Fundamentals.md",
+                "file": "SQL Master Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Network Fundamentals.md",
+                "file": "SQL Master Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Network Fundamentals.md"
+                "file": "SQL Master Document.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,15 +177,27 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "fef4448d060367fa",
+  "active": "9507ccfe343282c0",
   "lastOpenFiles": [
-    "Internet Structure.md",
-    "Introduction to Network Fundamentals.md",
-    "Network Fundamentals.md",
+    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
+    "SQL Master Document.md",
+    "SQL Commands.md",
+    "Database Fundamentals.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Year 1 Spring Week By Week.md",
     "Week by Week Guidelines.md",
+    "Year 1 Spring Week By Week.md",
+    "Introduction to Network Fundamentals.md",
+    "Time Division Multiplexing (TDM).md",
+    "Frequency Division Multiplexing (FDM).md",
+    "Function.md",
+    "Internet Structure.md",
+    "packet vs circuit switching.md",
+    "Links - Physical Media.md",
+    "Network Edge.md",
+    "packet/circuit switching.md",
+    "packet",
+    "Network Fundamentals.md",
     "Data.md",
     "Other Pages.md",
     "Database Fundamentals Subject Outline.md",
@@ -194,17 +206,6 @@
     "Java Lists and Generics Programming 1 EdStem Lesson.md",
     "Input and Output Programming 1 EdStem Lesson.md",
     "Computer Networks and the Internet.md",
-    "Methods and Functions Programming 1 EdStem Lesson.md",
-    "Microsoft Windows Vista.md",
-    "Modality.md",
-    "Review and Preview of Programming 2.md",
-    "2a and 2b Group Research Report.md",
-    "Information Security and Management.md",
-    "Introduction to Management of Information Security.md",
-    "6 P's of Cyber Security Management.md",
-    "Technical Controls.md",
-    "Accountability.md",
-    "Authorisation.md",
     "Pasted image 20240806134440.png",
     "Screenshot 2024-08-06 at 11.28.15 am.png",
     "Pasted image 20240806133114.png",
@@ -224,7 +225,6 @@
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Homepage",
     "Homepages 1",
-    "General concepts, processes, storage, Input",
     "Untitled.canvas"
   ]
 }
