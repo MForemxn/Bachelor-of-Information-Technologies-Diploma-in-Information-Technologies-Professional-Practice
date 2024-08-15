@@ -12,7 +12,7 @@
 
 Attendance: 3hpw; 1hpw lecture, 2hpw computer lab
 
-Recommended studies: prior use of an operating system; able to browse and search the internet
+Recommended studies: prior use of an operating system; able to browse and search [[the internet]]
 
 # Subject coordinator
 
@@ -50,8 +50,8 @@ Upon successful completion of this subject students should be able to:
 1. Demonstrate understanding of the basic concepts of hardware, software, [[cybersecurity]], [[processes]] and the components of
 an Operating System including how to work on the command line and create simple scripts. (D.1)
 
-2. Identify and explain the role and function of the Internet, the World Wide Web, and their components. Describe and
-make use of distributed applications on the Internet. (D.1)
+2. Identify and explain the role and function of [[the Internet]], the World Wide Web, and their components. Describe and
+make use of distributed applications on [[the Internet]]. (D.1)
 
 3. Design and implement a simple web site to a given specification. (C.1)
 

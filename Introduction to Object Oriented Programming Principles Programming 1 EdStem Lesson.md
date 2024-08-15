@@ -48,7 +48,7 @@ Caveats aside, the principles are:
 
 The Single Responsibility Principle is often expressed as "a class should have one, and only one, reason to change".
 
-This is a rather gnomic and unhelpful way of phrasing it, but is often used "knowingly" on the internet.
+This is a rather gnomic and unhelpful way of phrasing it, but is often used "knowingly" on [[the internet]].
 
 What is actually meant is that a class should correspond to a well defined part of the specification, and should only change if that part of the specification changes. In particular, it shouldn't change if _some other_ part of the specification changes.
 

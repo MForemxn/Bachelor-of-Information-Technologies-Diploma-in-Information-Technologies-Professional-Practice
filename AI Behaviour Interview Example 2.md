@@ -1261,7 +1261,7 @@ If the initial setup didn't complete correctly, it might be beneficial to start 
         `npx react-native init SortWiseAI --use-yarn`
         
     
-    This step will create a new React Native project named `SortWiseAI`. Ensure you have a stable internet connection, as the initialization process downloads dependencies from the internet.
+    This step will create a new React Native project named `SortWiseAI`. Ensure you have a stable internet connection, as the initialization process downloads dependencies from [[the internet]].
     
 
 ### Step 3: Verify Complete Project Structure

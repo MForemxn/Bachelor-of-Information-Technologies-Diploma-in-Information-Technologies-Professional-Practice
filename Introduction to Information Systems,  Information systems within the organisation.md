@@ -21,7 +21,7 @@
 	- photo distribution moving from physically printed photos to instagram and facebook for online sharing
 - this means that major businesses and industries are being run by and relying on software
 ## [[Concepts of Information Systems - Software]] as a service
-- the concept of delivering applications over the internet, as a service
+- the concept of delivering applications over [[the internet]], as a service
 - local software moving to web based systems
 	- removes need for widespread maintenance 
 	- free from complexity, for both users and devs

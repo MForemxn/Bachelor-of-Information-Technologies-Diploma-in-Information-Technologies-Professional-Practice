@@ -700,7 +700,7 @@ information:
 
 Students will be given ample opportunity to practice doing tests with the online software in the week
 
-prior to the formal test. The practice online test is accessible via the Internet and can be done any
+prior to the formal test. The practice online test is accessible via [[the Internet]] and can be done any
 
 time at the student’s convenience, as often as they wish.
 

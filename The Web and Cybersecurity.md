@@ -1,5 +1,5 @@
 # What is the Web and [[Cybersecurity]]?
-- the web refers to the vast network of interconnected documents and resources, linked by hyperlinks and URLs, accessible via the internet
+- the web refers to the vast network of interconnected documents and resources, linked by hyperlinks and URLs, accessible via [[the internet]]
 - [[cybersecurity]] involves protecting those internet-connected systems, including hardware, software, and [[data]], from cyberattacks or unauthorized access
 
 # Importance of [[Cybersecurity]] on the Web
@@ -14,7 +14,7 @@
 	- national [[security]] threats
 ### [[Security]] & [[Encryption]] Principles
 
-- The internet is inherently insecure, highlighting the importance of web [[security]].
+- [[The internet]] is inherently insecure, highlighting the importance of web [[security]].
 - Basic [[security]] principles include [[Confidentiality]], [[Integrity]], and [[Availability]] (CIA).
 
 ### [[Confidentiality]]
@@ -86,7 +86,7 @@
 
 # The Role of HTTPS in Web [[Security]]
 - HTTPS (Hypertext Transfer Protocol Secure)
-	- an extension of HTTP, used for secure communication over a computer network, and widely used on the internet
+	- an extension of HTTP, used for secure communication over a computer network, and widely used on [[the internet]]
 - importance
 	- encrypts [[data]] exchanged between a user's browser and the website they are visiting, protecting against eavesdropping and tampering
 	- provides [[authentication]] of the accessed website, preventing [[man]]-in-the-middle attacks

@@ -52,8 +52,8 @@
 | Week  | Date         | Description                                                                                                 |
 |-------|--------------|-------------------------------------------------------------------------------------------------------------|
 | 0     | 29/7-2/8     | **Orientation week**<br>**Notes:**<br>1. Join welcome session online<br>2. Watch welcome video message in UTS Canvas<br>3. Learn Python if you don't have programming skills |
-| 1     | 5-9/8        | **Introduction to Internet**<br>**Notes:**<br>1.1 What is the Internet?<br>1.2 Network edge<br>1.3 Network core<br>**Tutorial, Lab**                                      |
-| 2     | 12-16/8      | **Computer Networks and the Internet**<br>**Notes:**<br>1.4 Performance: delay, loss, throughput<br>1.5 Protocol layers, service [[models]]<br>1.7 History<br>**Tutorial, Lab**<br>**Assignment 1** |
+| 1     | 5-9/8        | **Introduction to Internet**<br>**Notes:**<br>1.1 What is [[the Internet]]?<br>1.2 Network edge<br>1.3 [[Network core]]<br>**Tutorial, Lab**                                      |
+| 2     | 12-16/8      | **Computer Networks and [[the Internet]]**<br>**Notes:**<br>1.4 Performance: delay, loss, throughput<br>1.5 Protocol layers, service [[models]]<br>1.7 History<br>**Tutorial, Lab**<br>**Assignment 1** |
 | 3     | 19-23/8      | **Application layer**<br>**Notes:**<br>2.1 Principles of network applications<br>2.2 Web and HTTP<br>**Tutorial, Lab**                                            |
 | 4     | 26-30/8      | **Application development**<br>**Notes:**<br>2.3 Email<br>2.4 DNS<br>2.7 Socket programming with UDP and TCP<br>**Tutorial, Lab**<br>**Project 1 - socket programming**<br>**Quiz** |
 | 5     | 2-6/9        | **Transport layer**<br>**Notes:**<br>3.1 Transport-layer services<br>3.2 Multiplexing and demultiplexing<br>3.3 Connectionless transport: UDP<br>3.4 Principles of reliable [[data]] transfer<br>**Tutorial, Lab**<br>**Project 1 due in your lab class** |
@@ -62,6 +62,6 @@
 | 8     | 23-27/9      | **Network layer: IP**<br>**Notes:**<br>4.3 IP: Internet Protocol<br>**Tutorial, Lab**                                                                       |
 | 9     | 30/9-4/10    | **StuVac Week**<br>No lecture, no tutorial/lab.                                                                                                               |
 | 9     | 7-11/10      | **Network layer: routing algorithms**<br>**Notes:**<br>5.1 Introduction<br>5.2 Routing algorithms<br>**Tutorial, Lab**<br>**Assignment 3**                             |
-| 10    | 14-18/10     | **Network layer: routing protocols**<br>**Notes:**<br>5.3 Intra-AS routing in the Internet: OSPF<br>5.4 Routing among the ISPs: BGP<br>5.6 ICMP<br>5.7 SNMP<br>**Tutorial, Lab** |
+| 10    | 14-18/10     | **Network layer: routing protocols**<br>**Notes:**<br>5.3 Intra-AS routing in [[the Internet]]: OSPF<br>5.4 Routing among the ISPs: BGP<br>5.6 ICMP<br>5.7 SNMP<br>**Tutorial, Lab** |
 | 11    | 21-25/10     | **Link Layer**<br>**Notes:**<br>6.1 Introduction, services<br>6.2 Error detection, correction<br>6.3 Multiple access protocols<br>**Tutorial, Lab**                   |
 | 12    | 28/10-1/11   | **Link Layer - LANs**<br>**Notes:**<br>6.4 Switched LANs<br>6.7 Retrospective: a day in the life of a web request<br>**Tutorial, Lab:** Project 2, assessment in lab class |

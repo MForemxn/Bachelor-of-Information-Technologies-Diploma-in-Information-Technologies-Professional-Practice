@@ -3,11 +3,11 @@
 # Types of Cloud Computing Services
 - cloud services are generally categorised into three main types:
 	- Infrastructure as a Service (IaaS)
-		- provides virtualised computing resources over the internet
+		- provides virtualised computing resources over [[the internet]]
 	- Platform as a Service (PaaS)
-		- offers hardware and software tools over the internet, typically for application development
+		- offers hardware and software tools over [[the internet]], typically for application development
 	- [[Software as a Service (SaaS)]]
-		- delivers software applications over the internet, on a subscription basis
+		- delivers software applications over [[the internet]], on a subscription basis
 # Deployment [[Models]]
 - cloud computing can be deployed in different [[models]] based on the requirements:
 	- Public Cloud

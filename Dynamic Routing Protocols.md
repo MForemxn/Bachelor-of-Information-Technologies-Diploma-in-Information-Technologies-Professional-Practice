@@ -42,7 +42,7 @@
 - a Cisco proprietary protocol that combines features of both distance vector and link-state protocols
 - uses a composite metric based on bandwidth, delay, load, and reliability
 ## BGP (Border Gateway Protocol)
-- the de facto standard for routing between autonomous systems on the internet
+- the de facto standard for routing between autonomous systems on [[the internet]]
 - uses a path vector protocol
 - considers multiple attributes, including path length, policy decisions, and rule sets, to determine the best path
 

@@ -25,7 +25,7 @@ A WAN (Wide Area Network) connects devices across large geographical areas, enab
 
 ### MAIN POINTS:
 1. WANs cover larger geographical areas than LANs, connecting multiple smaller networks.
-2. The Internet is the largest example of a WAN, connecting networks globally.
+2. [[The Internet]] is the largest example of a WAN, connecting networks globally.
 3. VPNs secure [[data]] transmission across WANs by creating encrypted connections.
 4. MPLS enhances [[data]] flow efficiency across WANs for high-performance telecommunications.
 5. SD-WAN technology allows for more flexible and efficient WAN management.

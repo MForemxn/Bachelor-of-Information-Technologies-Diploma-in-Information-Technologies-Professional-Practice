@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL Master Document.md",
+                "file": "Computer Networks and the Internet.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL Master Document.md",
+                "file": "Computer Networks and the Internet.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL Master Document.md",
+                "file": "Computer Networks and the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL Master Document.md",
+                "file": "Computer Networks and the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL Master Document.md"
+                "file": "Computer Networks and the Internet.md"
               }
             }
           },
@@ -177,35 +177,35 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9507ccfe343282c0",
+  "active": "a85eadc5790b4a05",
   "lastOpenFiles": [
-    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
-    "SQL Master Document.md",
-    "SQL Commands.md",
-    "Database Fundamentals.md",
-    "Subjects.md",
-    "Homepage/Home.md",
-    "Week by Week Guidelines.md",
-    "Year 1 Spring Week By Week.md",
-    "Introduction to Network Fundamentals.md",
-    "Time Division Multiplexing (TDM).md",
-    "Frequency Division Multiplexing (FDM).md",
-    "Function.md",
-    "Internet Structure.md",
-    "packet vs circuit switching.md",
-    "Links - Physical Media.md",
-    "Network Edge.md",
-    "packet/circuit switching.md",
-    "packet",
-    "Network Fundamentals.md",
-    "Data.md",
-    "Other Pages.md",
-    "Database Fundamentals Subject Outline.md",
-    "Ethics relating to IT issues.md",
-    "Lisa.md",
-    "Java Lists and Generics Programming 1 EdStem Lesson.md",
-    "Input and Output Programming 1 EdStem Lesson.md",
+    "Queuing Delay.md",
     "Computer Networks and the Internet.md",
+    "Propagation Delay.md",
+    "Transmission Delay.md",
+    "Nodal Delay.md",
+    "buffer.md",
+    "network core.md",
+    "The network edge and core.md",
+    "Network Edge.md",
+    "The Internet.md",
+    "Network Fundamentals.md",
+    "Subjects.md",
+    "Information Security and Management.md",
+    "Security Governance and Compliance.md",
+    "Homepage/Home.md",
+    "SQL Master Document.md",
+    "Business Requirements Modelling.md",
+    "Process.md",
+    "Requirements engineering processes.md",
+    "System development processes (traditional and agile).md",
+    "Introduction to Business Requirements Modelling.md",
+    "Database Fundamentals.md",
+    "The Role of Databases in Information Systems.md",
+    "Time Division Multiplexing (TDM).md",
+    "Data Types.md",
+    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
+    "packet",
     "Pasted image 20240806134440.png",
     "Screenshot 2024-08-06 at 11.28.15 am.png",
     "Pasted image 20240806133114.png",

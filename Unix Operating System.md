@@ -1,6 +1,6 @@
 # Where is Unix Used
 - used since 1969
-- used on most of the computers which run the internet (background)
+- used on most of the computers which run [[the internet]] (background)
 - MacOS and iOS are based on unix
 	- so are android phones
 - versions

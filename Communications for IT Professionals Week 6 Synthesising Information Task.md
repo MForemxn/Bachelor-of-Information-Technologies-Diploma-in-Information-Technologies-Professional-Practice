@@ -65,7 +65,7 @@ Based on the provided context, here are the evaluations of the statements regard
 
 4. proliferation of misinformation and the advent of deepfake technology challenge the ethical responsibility of IT in ensuring the integrity and trustworthiness of information disseminated online.
 
-5. unequal access to technology and the internet across different socio-economic groups presents an ethical dilemma in ensuring equitable opportunities for all.
+5. unequal access to technology and [[the internet]] across different socio-economic groups presents an ethical dilemma in ensuring equitable opportunities for all.
 
 ### Conclusions and recommendations (Zafran and Mark)
 
@@ -74,4 +74,4 @@ Based on the provided context, here are the evaluations of the statements regard
 	- Companies should be transparent about their data practices and [[AI]] algorithms, and there should be mechanisms in place to hold them accountable for ethical breaches.
 	- Efforts should be made to develop [[AI]] in an ethical manner, including measures to eliminate biases and ensure fairness in [[AI]] outcomes.
 	- To combat misinformation and ensure informed consent, digital literacy should be promoted, enabling individuals to navigate the digital world critically and safely.
-	- Policies and initiatives should be implemented to ensure equitable access to technology and the internet for all individuals, regardless of socio-economic status.
+	- Policies and initiatives should be implemented to ensure equitable access to technology and [[the internet]] for all individuals, regardless of socio-economic status.

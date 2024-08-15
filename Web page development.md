@@ -1,7 +1,7 @@
 # CSS and HTML
 ### Overview
 
-- The presentation starts by situating CSS within the broader context of [[web page development]], alongside HTML/XHTML, [[web applications]], online media, file sharing, communications, search engines, human-computer interaction (HCI), the history of the internet, and [[security]] and [[encryption]].
+- The presentation starts by situating CSS within the broader context of [[web page development]], alongside HTML/XHTML, [[web applications]], online media, file sharing, communications, search engines, human-computer interaction (HCI), the history of [[the internet]], and [[security]] and [[encryption]].
 
 ### Problem with HTML
 

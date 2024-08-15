@@ -7,12 +7,12 @@
 - facilitate seamless communication and [[data]] exchange between devices across different networks
 - enable efficient resource utilisation by allowing multiple devices to share hardware, software, and [[data]] resources
 - critical for maintaining network infrastructure, ensuring devices can connect, communicate, and access network resources
-- support the delivery of content and services over the internet, underpinning modern digital experiences
+- support the delivery of content and services over [[the internet]], underpinning modern digital experiences
 
 # Types of Network Services
 - directory services: manage user and device information, enabling network [[authentication and authorisation]]
 - file services: allow for the storage, retrieval, and sharing of files over a network
-- web services: deliver content and applications over the internet using protocols like HTTP and HTTPS
+- web services: deliver content and applications over [[the internet]] using protocols like HTTP and HTTPS
 - email services: facilitate the sending and receiving of electronic messages through protocols such as SMTP, IMAP, and POP3
 
 # Network Service Protocols

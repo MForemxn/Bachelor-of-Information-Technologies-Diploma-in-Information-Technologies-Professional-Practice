@@ -32,7 +32,7 @@
 - Ethics and privacy are intertwined concepts, especially in the digital age. 
 - Ethics refers to the moral principles that govern a person's behaviour or the conducting of an activity. 
 - Privacy, on the other hand, is the right of individuals to keep their personal information secure and free from unauthorized access.
-- In the context of technology and the internet, these concepts become crucial as they address how personal information is collected, used, and shared.
+- In the context of technology and [[the internet]], these concepts become crucial as they address how personal information is collected, used, and shared.
 # Ethical issues: From programing perspective
 ## Recognise an ethical issue
 - Could this [[decision]] or situation damage someone or some group?

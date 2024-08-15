@@ -46,7 +46,7 @@ Subject description
 
 Today's internet is arguably the largest engineered system ever created by humanity, carrying petabytes of [[data]] every
 
-minute. It is important for [[data]] engineers to understand how [[data]] is transferred through the internet, and the guiding
+minute. It is important for [[data]] engineers to understand how [[data]] is transferred through [[the internet]], and the guiding
 
 principles and structures of [[data]] transportation designs.
 
@@ -68,15 +68,15 @@ Subject learning objectives (SLOs)
 
 Upon successful completion of this subject students should be able to:
 
-1. Understand the key architectural principles of the Internet, namely protocol layering and service [[models]]. (D.1)
+1. Understand the key architectural principles of [[the Internet]], namely protocol layering and service [[models]]. (D.1)
 
-2. Analyse various components of the Internet, including Applications, Transport, Network, Addressing, and [[Data]]
+2. Analyse various components of [[the Internet]], including Applications, Transport, Network, Addressing, and [[Data]]
 
 Link, to select the most appropriate [[network services]]. (C.1)
 
 3. Examine and explain end-to-end packet delivery throughout the network system to gain insight into the behaviour
 
-of the Internet. (D.1)
+of [[the Internet]]. (D.1)
 
 4. Design and implement network applications to provide a service, such as web and email. (C.1)
 
@@ -140,7 +140,7 @@ Content (topics)
 
 1. [[Computer Networks and the Internet]]
 
-What is the Internet
+What is [[the Internet]]
 
 The network edge and core
 
@@ -148,7 +148,7 @@ Network performance measures
 
 Protocol layers
 
-History of the Internet
+History of [[the Internet]]
 
 2. [[Application Layer]]
 
@@ -178,7 +178,7 @@ Network service [[models]]
 
 21/07/2024 (Spring 2024) © University of Technology Sydney Page 2 of 11What’s inside a router
 
-The Internet Protocol (IP)
+[[The Internet]] Protocol (IP)
 
 IPv4 and IPv6 addressing
 
@@ -222,11 +222,11 @@ learn [[Python]] if you don't have programming skills
 
 Notes:
 
-1.1 what is the Internet?
+1.1 what is [[the Internet]]?
 
 1.2 network edge
 
-1.3 network core
+1.3 [[network core]]
 
 Tutorial, Lab
 
@@ -336,7 +336,7 @@ Assignment3
 
 Notes:
 
-5.3 intra-AS routing in the Internet: OSPF
+5.3 intra-AS routing in [[the Internet]]: OSPF
 
 5.4 routing among the ISPs: BGP
 

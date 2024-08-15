@@ -1,4 +1,4 @@
-Computer security in [[Web Systems]] focuses on protecting websites, [[web applications]], and web services from unauthorised access, use, disclosure, disruption, modification, or destruction. It is a critical aspect of [[cybersecurity]], given the internet's role in modern business and personal activities.
+Computer security in [[Web Systems]] focuses on protecting websites, [[web applications]], and web services from unauthorised access, use, disclosure, disruption, modification, or destruction. It is a critical aspect of [[cybersecurity]], given [[the internet]]'s role in modern business and personal activities.
 
 
 ## Key Concepts

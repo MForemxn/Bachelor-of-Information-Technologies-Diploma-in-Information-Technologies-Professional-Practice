@@ -8,7 +8,7 @@
 	- [[data]] privacy and protection: handling personal information responsibly and respecting user consent
 	- [[cybersecurity]]: protecting systems and networks from theft, damage, or unauthorized access
 	- intellectual property: respecting copyright laws and the rights of creators while fostering innovation and access to information
-	- digital divide: addressing inequalities in access to technology and the internet
+	- digital divide: addressing inequalities in access to technology and [[the internet]]
 	- artificial intelligence: ensuring [[AI]] is developed and used in a way that is fair, transparent, and accountable
 
 # Ethical Frameworks in IT

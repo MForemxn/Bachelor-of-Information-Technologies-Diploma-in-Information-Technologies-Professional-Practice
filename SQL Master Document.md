@@ -81,6 +81,7 @@ NULL values represent missing or undefined [[data]]. You can use `IS NULL` or `I
 SELECT * FROM orders WHERE delivery_date IS NULL;
 ```
 
+
 ## SQL Update
 The `UPDATE` statement is used to modify existing records in a table.
 

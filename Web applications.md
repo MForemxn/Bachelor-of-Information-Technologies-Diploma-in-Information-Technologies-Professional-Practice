@@ -1,5 +1,5 @@
 # What are Web Applications?
-- web applications are software programs that run on a web server and are accessed through a web browser over a network, such as the internet or an intranet
+- web applications are software programs that run on a web server and are accessed through a web browser over a network, such as [[the internet]] or an intranet
 - they are built using web technologies like HTML, CSS, and JavaScript, and can range from simple static web pages to complex, dynamic, and interactive applications
 - unlike traditional desktop applications, web applications do not require installation on the user's device and offer cross-platform compatibility
 

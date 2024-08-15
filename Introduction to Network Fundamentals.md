@@ -1,12 +1,12 @@
-# What is the Internet?
+# What is [[the Internet]]?
 ## [[Internet Structure]]
-The [[network edge]] consists of hosts like clients and servers, access networks use wired and wireless links, and the network core comprises interconnected routers forming a network of networks.
+The [[network edge]] consists of hosts like clients and servers, access networks use wired and wireless links, and the [[network core]] comprises interconnected routers forming a network of networks.
 # [[Network Edge]]
 - hosts: clients and servers
 - servers often in [[data]] centers
 ### Access Networks, Physical Media
 - wired, wireless communication links
-### Network Core
+### [[Network Core]]
 - interconnected routers
 - network of networks
 ## [[Links - Physical Media]]
@@ -48,7 +48,7 @@ The [[network edge]] consists of hosts like clients and servers, access networks
 	- up to 45 Mbps per channel
 	- 270 msec end-end delay
 	- geosynchronous versus low-earth-orbit
-# Network core: [[packet vs circuit switching]], [[internet structure]]
+# [[Network core]]: [[packet vs circuit switching]], [[internet structure]]
 - mesh of interconnected routers
 - packet-switching: hosts break application-layer messages into packets
 	- forward packets from one router to the next, across links on path from source to destination
@@ -61,7 +61,7 @@ The [[network edge]] consists of hosts like clients and servers, access networks
 ## Packet-switching: store-and-forward
 - Transmission delay: takes L/R seconds to transmit (push out) L-bit packet into link at R bps
 	- Store and forward: entire packet must  arrive at router before it can be transmitted on next link
-	- End-end delay: 2L/R (above), assuming zero propagation delay (more on delay shortly)
+	- End-end delay: 2L/R (above), assuming zero [[propagation delay]] (more on delay shortly)
 - Packet queuing and loss: if arrival rate (in bps) to link exceeds transmission rate (bps) of link for a period of time:
 	- packets will queue, waiting to be transmitted on [[output]] link
 	- packets can be dropped (lost) if memory (buffer) in router fills up

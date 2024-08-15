@@ -36,7 +36,7 @@ Telecommunications and networking enable global connectivity and [[data]] exchan
 ### MAIN POINTS:
 1. Telecommunications involve the transmission of [[data]] over distances for communication purposes.
 2. Networking connects multiple devices or nodes to share resources and [[data]].
-3. The Internet is a global network of networks enabling worldwide communication.
+3. [[The Internet]] is a global network of networks enabling worldwide communication.
 4. 5G technology promises faster speeds, lower latency, and increased connectivity for devices.
 5. Fiber optics technology enables high-speed [[data]] transmission over long distances.
 6. Wi-Fi provides wireless connectivity within a limited area, like homes or businesses.

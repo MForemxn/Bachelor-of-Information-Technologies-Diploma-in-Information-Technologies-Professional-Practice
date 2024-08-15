@@ -14,7 +14,7 @@ Many things that can be done Linux operating system can be done via command line
 
 - [[Editing]] files
 - Adjusting the volume of the operating system
-- Fetching web pages from the internet
+- Fetching web pages from [[the internet]]
 - Automating work you do every day
 
 You can read more about bash [here](https://www.gnu.org/software/bash/), via the [GNU Documentation](https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents), and via the [tldp guide](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc10).

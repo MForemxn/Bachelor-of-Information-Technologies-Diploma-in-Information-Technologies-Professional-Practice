@@ -181,7 +181,7 @@ Personal information is the new gold, as the saying goes. We have commoditized d
 
 One thing that became evident during the 2016 and 2020 U.S. presidential elections was the potential of misinformation to gain a wider support base. The effect created polarization that has had wide-reaching effects on global economic and political environments.
 
-In contrast to how information was accessed prior to the internet, we are constantly flooded with real-time events and news as it breaks. Celebrities and political figures can disseminate opinions on social media without fact checking, which is then aggregated and further spread despite its accuracy—or inaccuracy. Information no longer undergoes the strenuous validation process that we formerly used to publish newspapers and books.
+In contrast to how information was accessed prior to [[the internet]], we are constantly flooded with real-time events and news as it breaks. Celebrities and political figures can disseminate opinions on social media without fact checking, which is then aggregated and further spread despite its accuracy—or inaccuracy. Information no longer undergoes the strenuous validation process that we formerly used to publish newspapers and books.
 
 Similarly, we used to believe that video told a story that was undeniably rooted in truth. But deepfake technology now allows such a sophisticated manipulation of digital imagery that people appear to be saying and doing things that never happened. The potential for privacy invasion and misuse of identity is very high with the use of this technology.
 

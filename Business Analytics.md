@@ -8,7 +8,7 @@
 # Why do Managers need [[IT Support]]?
 > Making good decisions is very difficult without solid information. 
 - [[Decision]] making is difficult due to the following trends:
-	- The number of alternatives is constantly increasing, due to innovations in technology, improved communications, the development of global markets, and the use of the Internet and e-business.
+	- The number of alternatives is constantly increasing, due to innovations in technology, improved communications, the development of global markets, and the use of [[the Internet]] and e-business.
 	- Most decisions must be made under time pressure. It often is not possible to manually process information fast enough to be effective.
 	- It often is necessary to rapidly access remote information, consult with experts, or conduct a group [[decision]]-making session, all without incurring large expenses.
 # What is [[Business Intelligence]]

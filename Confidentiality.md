@@ -36,7 +36,7 @@
 - role-based access control (RBAC): access is based on the roles assigned to users within an organisation
 
 # Secure Communication Protocols
-- SSL/TLS: secures [[data]] transmitted over the internet, used for web browsing, email, and more
+- SSL/TLS: secures [[data]] transmitted over [[the internet]], used for web browsing, email, and more
 - VPN: creates a secure, encrypted tunnel between a device and a network, protecting [[data]] in transit
 - SSH: provides a secure channel over an unsecured network, commonly used for remote server access
 

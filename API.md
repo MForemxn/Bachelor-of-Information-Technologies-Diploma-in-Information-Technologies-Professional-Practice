@@ -5,7 +5,7 @@
 # Common Uses of APIs
 - APIs are used in virtually every part of modern digital life:
 	- [[web applications]] use APIs to connect with databases and servers
-	- mobile apps use APIs to fetch [[data]] from the internet
+	- mobile apps use APIs to fetch [[data]] from [[the internet]]
 	- cloud services use APIs for users to interact with different cloud resources
 # Types of APIs
 - there are several types of APIs, based on their accessibility and purpose:
