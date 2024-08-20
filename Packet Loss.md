@@ -1,0 +1,1 @@
+When a packet buffer is full, subsequent packets are ’lost’ or dropped. It is something we need to account for in program design. 

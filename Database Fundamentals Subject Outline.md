@@ -70,7 +70,7 @@ Subject learning objectives (SLOs)
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 1 of 14Upon successful completion of this subject students should be able to:
 
-1. Construct conceptual data [[models]] using appropriate [[database]] design, and [[data]] [[modelling]] principles. (C.1)
+1. Construct conceptual data [[models]] using appropriate [[database]] design, and [[data]] [[Requirements Modelling]] principles. (C.1)
 
 2. Identify [[data]] redundancy levels and their impact on [[database]] [[integrity]] and maintainability using [[data]] normalisation principles. (D.1)
 
@@ -198,7 +198,7 @@ Review the lecture notes and related concepts in Chapter 2 of the "Modern
 
 [[Database]] Management" textbook.
 
-Lecture and Tutorial 3: [[Data]] [[modelling]] II: Associative Entity, Weak Entity, etc.
+Lecture and Tutorial 3: [[Data]] [[Requirements Modelling]] II: Associative Entity, Weak Entity, etc.
 
 Assessments:
 
@@ -590,7 +590,7 @@ An electronic copy of each of the assignment parts must also be submitted to the
 
 site by the due dates and times. Part C will be an online Quiz on Ed, and Part D of the assignment
 
-needs to be submitted on Ed as well (more details will be provided in the assignment [[specification]]).
+needs to be submitted on Ed as well (more details will be provided in the assignment [[Requirements Specification]]).
 
 Please note that only the assignment deliverable that has an electronic copy submitted to the correct
 

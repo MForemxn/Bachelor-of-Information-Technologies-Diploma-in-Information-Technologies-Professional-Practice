@@ -48,15 +48,15 @@ Tutors: Your tutor will be your first point of contact. Please see Canvas Your T
 
 Subject description
 
-This subject introduces information system concepts and describes how these concepts can be used to model [[business requirements]]. It outlines how the ability to capture information about the system in ways understood by its eventual users improves the final quality of the system. An overview of agile and non-agile [[software engineering]] principles, methods, tools and techniques is presented and practised in small teams. The subject introduces various analysis approaches found in contemporary system development including [[object]]-oriented methods, agile methods, business [[process]] [[modelling]] and entity-relationship [[modelling]]. It explores the relationships between these techniques and their application, and how they are used to capture and model the [[business requirements]]. Students apply various requirements [[elicitation]], analysis, [[modelling]] and [[specification]] techniques to case studies in small teams. Subject learning objectives (SLOs)
+This subject introduces information system concepts and describes how these concepts can be used to model [[business requirements]]. It outlines how the ability to capture information about the system in ways understood by its eventual users improves the final quality of the system. An overview of agile and non-agile [[software engineering]] principles, methods, tools and techniques is presented and practised in small teams. The subject introduces various analysis approaches found in contemporary system development including [[object]]-oriented methods, agile methods, business [[Process]] [[Requirements Modelling]] and entity-relationship [[Requirements Modelling]]. It explores the relationships between these techniques and their application, and how they are used to capture and model the [[business requirements]]. Students apply various requirements [[Requirements Elicitation]], analysis, [[Requirements Modelling]] and [[Requirements Specification]] techniques to case studies in small teams. Subject learning objectives (SLOs)
 
 Upon successful completion of this subject students should be able to:
 
-1. Identify stakeholders, understand their needs, and learn what/how to capture requirements in the system development [[process]]. (B.1)
+1. Identify stakeholders, understand their needs, and learn what/how to capture requirements in the system development [[Process]]. (B.1)
 
-2. Apply [[modelling]] and [[systems analysis]] techniques that [[help]] understand the working of a business system. (D.1)
+2. Apply [[Requirements Modelling]] and [[systems analysis]] techniques that [[help]] understand the working of a business system. (D.1)
 
-3. Document and specify various requirements via Software Requirements [[Specification]] (SRS). (C.1)
+3. Document and specify various requirements via Software Requirements [[Requirements Specification]] (SRS). (C.1)
    
 4. Develop various [[models]] using a range of [[systems analysis]] techniques to analyse and specify system and user requirements. (C.1)
 
@@ -126,23 +126,23 @@ System development [[processes]] (traditional and agile)
 
 Requirements engineering [[processes]]
 
-2. [[Elicitation]]
+2. [[Requirements Elicitation]]
 
 Stakeholders [[identification]]
 
 Understanding the application domain
 
-Requirements [[elicitation]] tools and techniques
+Requirements [[Requirements Elicitation]] tools and techniques
 
-3. [[Modelling]]
+3. [[Requirements Modelling]]
 
-[[Process]] [[modelling]] with BPMN
+[[Process]] [[Requirements Modelling]] with BPMN
 
-Data [[modelling]] with ERD
+Data [[Requirements Modelling]] with ERD
 
-[[Object]]-oriented [[modelling]] with several OO [[models]] using UML
+[[Object]]-oriented [[Requirements Modelling]] with several OO [[models]] using UML
 
-4. [[Specification]]
+4. [[Requirements Specification]]
 
 Software requirements specifications
 
@@ -162,7 +162,7 @@ Practice Quiz "Introduction to BRM"
 
 Week 2 Activity Due on Canvas ( date/day depends on the tutorial date/day)
 
-3 19 Aug "Requirements [[Elicitation]]"
+3 19 Aug "Requirements [[Requirements Elicitation]]"
 
 Quiz 1 Due on Canvas
 
@@ -170,13 +170,13 @@ Week 3 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-4 26 Aug "Requirements Analysis - [[Process]] [[Modelling]]"
+4 26 Aug "Requirements Analysis - [[Process]] [[Requirements Modelling]]"
 
 Week 4 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 3 of 125 02 Sep "Requirements Analysis - Data [[Modelling]]"
+29/07/2024 (Spring 2024) © University of Technology Sydney Page 3 of 125 02 Sep "Requirements Analysis - Data [[Requirements Modelling]]"
 
 Quiz 2 Due on Canvas
 
@@ -184,7 +184,7 @@ Week 5 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-6 09 Sep " Software Requirement [[Specification]] (SRS) and Agile Development"
+6 09 Sep " Software Requirement [[Requirements Specification]] (SRS) and Agile Development"
 
 Week 6 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
@@ -202,7 +202,7 @@ Week 7 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-8 23 Sep "[[Object]]-Oriented [[Models]] with UML - Use Case [[Modelling]]"
+8 23 Sep "[[Object]]-Oriented [[Models]] with UML - Use Case [[Requirements Modelling]]"
 
 Week 8 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
@@ -210,7 +210,7 @@ date/day)
 
 StuVac 30 Sep No Lectures and tutorial classes
 
-9 07 Oct "[[Object]]-Oriented [[Models]] with UML - [[Class]] [[Modelling]]" ( Due to Public holiday on
+9 07 Oct "[[Object]]-Oriented [[Models]] with UML - [[Class]] [[Requirements Modelling]]" ( Due to Public holiday on
 
 7th Oct, recorded lecture is posted on Canvas Instead of live online lecture)
 
@@ -220,13 +220,13 @@ Week 9 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-10 14 Oct "[[Object]]-Oriented [[Models]] with UML - Interaction [[Modelling]]"
+10 14 Oct "[[Object]]-Oriented [[Models]] with UML - Interaction [[Requirements Modelling]]"
 
 Week 10 Activity and Reflection Due on Canvas ( date/day depends on the tutorial
 
 date/day)
 
-11 21 Oct "[[Object]]-Oriented [[Models]] with UML - [[State]] and Event [[Modelling]]"
+11 21 Oct "[[Object]]-Oriented [[Models]] with UML - [[State]] and Event [[Requirements Modelling]]"
 
 Quiz 5 Due on Canvas
 
@@ -372,7 +372,7 @@ email.
 
 Assessment task 3: Requirements Analysis Report
 
-Intent: To analyse business [[processes]] and capture data via the business [[process]] and data [[models]].
+Intent: To analyse business [[processes]] and capture data via the business [[Process]] and data [[models]].
 
 Objective(s): This assessment task addresses the following subject learning objectives (SLOs):
 
@@ -410,7 +410,7 @@ and receive further [[feedback]] from their tutor in preparation for submission.
 
 Additional information about the Case Study and detailed assessment criteria and other details will
 
-be provided in the assignment [[specification]].
+be provided in the assignment [[Requirements Specification]].
 
 The recommended word limit for this assignment is maximum 1000 words excluding diagrams,
 
@@ -432,7 +432,7 @@ students enrolled in the same tutorial group.
 
 Students will work in a team but be assessed as an individual based on SPARKPLUS and the
 
-Contributions Table to be provided in the assignment [[specification]]. Hence each member of the team
+Contributions Table to be provided in the assignment [[Requirements Specification]]. Hence each member of the team
 
 may receive a different mark for this assignment based on the peer assessment reports.
 
@@ -444,9 +444,9 @@ members. The group should be finalised in the first tutorial [[class]] and infor
 
 Additional information about the case study and detailed assessment criteria and other details will be
 
-provided in the assignment [[specification]].
+provided in the assignment [[Requirements Specification]].
 
-Assessment task 4: OO Requirements Analysis and [[Specification]] Report
+Assessment task 4: OO Requirements Analysis and [[Requirements Specification]] Report
 
 Intent: To analyse and capture the functional and non-functional requirements via the SRS, agile artifacts
 
@@ -494,7 +494,7 @@ and receive further [[feedback]] from their tutor in preparation for submission.
 
 Additional information about the case study and detailed assessment criteria and other details will be
 
-provided in the assignment [[specification]].
+provided in the assignment [[Requirements Specification]].
 
 This task includes a milestone assessment component that evaluates your academic and
 
@@ -522,7 +522,7 @@ students enrolled in the same tutorial and the same group as your assessment 3. 
 
 in a team but be assessed as an individual based on SPARKPLUS results and the Contributions
 
-Table to be provided in the assignment [[specification]]. Hence each member of the team may receive a
+Table to be provided in the assignment [[Requirements Specification]]. Hence each member of the team may receive a
 
 different mark for this assignment based on SPARKPLUS results.
 

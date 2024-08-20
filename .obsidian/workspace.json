@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Business Requirements Modelling.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Business Requirements Modelling.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Business Requirements Modelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "Business Requirements Modelling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks and the Internet.md"
+                "file": "Business Requirements Modelling.md"
               }
             }
           },
@@ -177,10 +177,30 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "a85eadc5790b4a05",
+  "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
-    "Queuing Delay.md",
+    "Requirements Specification.md",
+    "Business Requirements Modelling.md",
+    "Requirements Modelling.md",
+    "Requirements Elicitation.md",
+    "Process.md",
+    "Pasted image 20240820114544.png",
+    "Week 3 Requirements Elicitation Techniques 1.pptx",
+    "Week 3 Requirements Elicitation Techniques.pptx",
+    "Pasted image 20240820113642.png",
+    "Subjects.md",
+    "Information Security and Management.md",
+    "Risk Analysis and Management.md",
+    "Risk Treatment.md",
+    "Risk Evaluation.md",
+    "Risk Identification.md",
+    "BRM Group Work Names.md",
+    "Homepage/Home.md",
     "Computer Networks and the Internet.md",
+    "Packet Loss.md",
+    "Packet delay.md",
+    "OSI model.md",
+    "Queuing Delay.md",
     "Propagation Delay.md",
     "Transmission Delay.md",
     "Nodal Delay.md",
@@ -189,22 +209,6 @@
     "The network edge and core.md",
     "Network Edge.md",
     "The Internet.md",
-    "Network Fundamentals.md",
-    "Subjects.md",
-    "Information Security and Management.md",
-    "Security Governance and Compliance.md",
-    "Homepage/Home.md",
-    "SQL Master Document.md",
-    "Business Requirements Modelling.md",
-    "Process.md",
-    "Requirements engineering processes.md",
-    "System development processes (traditional and agile).md",
-    "Introduction to Business Requirements Modelling.md",
-    "Database Fundamentals.md",
-    "The Role of Databases in Information Systems.md",
-    "Time Division Multiplexing (TDM).md",
-    "Data Types.md",
-    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
     "packet",
     "Pasted image 20240806134440.png",
     "Screenshot 2024-08-06 at 11.28.15 am.png",
@@ -215,16 +219,12 @@
     "Screenshot 2024-03-25 at 11.27.28 am.png",
     "Screenshot 2024-03-25 at 11.11.46 am.png",
     "Screenshot 2024-03-25 at 11.10.38 am.png",
-    "Screenshot 2024-03-25 at 11.00.10 am.png",
-    "Pasted image 20240318112947.png",
     "Assesment Task 1 Template.pdf",
     "timetable-25277308.pdf",
     "APA Interactive Guide.pdf",
     "Assesement Task 1 Checklist.docx",
     "FullSizeRender.heic",
     "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
-    "Homepage",
-    "Homepages 1",
     "Untitled.canvas"
   ]
 }

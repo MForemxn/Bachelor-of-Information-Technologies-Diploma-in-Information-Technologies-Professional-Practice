@@ -2,8 +2,8 @@
 # Topics
 [[Introduction to Business Requirements Modelling]]
 [[Process]]
-[[Elicitation]]
-[[Modelling]]
-[[Specification]]
+[[Requirements Elicitation]]
+[[Requirements Modelling]]
+[[Requirements Specification]]
 # In Class Activities
 # Assessment Tasks

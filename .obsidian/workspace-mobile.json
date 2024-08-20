@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Computer Networks and the Internet.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Homepage/Home.md",
+            "file": "Computer Networks and the Internet.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,9 +102,9 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Homepage/Home.md",
+            "file": "Computer Networks and the Internet.md",
             "linksCollapsed": false,
-            "unlinkedCollapsed": true
+            "unlinkedCollapsed": false
           }
         }
       },
@@ -114,12 +114,12 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Homepage/Home.md"
+            "file": "Computer Networks and the Internet.md"
           }
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -133,11 +133,17 @@
   },
   "active": "d5ec7134b795684e",
   "lastOpenFiles": [
+    "The Internet.md",
+    "Computer Networks and the Internet.md",
+    "OSI model.md",
+    "Packet Loss.md",
+    "Packet delay.md",
+    "Network Fundamentals.md",
+    "Nodal Delay.md",
+    "Subjects.md",
+    "Homepage/Home.md",
     "Week by Week Guidelines.md",
     "Year 1 Spring Week By Week.md",
-    "Homepage/Home.md",
-    "Subjects.md",
-    "Network Fundamentals.md",
     "Introduction to Network Fundamentals.md",
     "Business Requirements Modelling.md",
     "Introduction to Business Requirements Modelling.md",
@@ -155,12 +161,6 @@
     "Screenshot 2024-03-25 at 11.11.46 am 2.png",
     "MacOSX & Windows XP.md",
     "cp.md",
-    ">.md",
-    "readme.md",
-    "Untitled 1.md",
-    "uname.md",
-    "pwd.md",
-    "Untitled.md",
     "Assesment Task 1 Template.pdf",
     "APA Interactive Guide.pdf",
     "Untitled.canvas",

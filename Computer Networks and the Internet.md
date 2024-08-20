@@ -9,6 +9,9 @@
 > When the [[input]] is higher than total throughput. This often happens when multiple devices share a link. 
 - packets collect in a [[buffer]]
 - delay = **(packets in [[buffer]] * [[transmission delay]]) + [[transmission delay]]**
+
+## [[Packet Loss]]
+When a packet buffer is full, subsequent packets are ’lost’ or dropped. It is something we need to account for in program design. 
 ## Sources of Delay
 > Delay can be broken into 4 key sources:
 1. [[Nodal Delay]] - [[Nodal delay]] is the total time a [[data]] packet spends at a network node, including processing, queuing, transmission, and propagation delays.
@@ -17,6 +20,7 @@
 4. [[Propagation Delay]] - [[Propagation delay]] is the time it takes for a [[data]] packet to travel from one network node to another, determined by the physical distance and the speed of signal transmission.
 
 # Protocol layers
+*im not sure why, but we don’t use the [[OSI model]]*
 > There are five layers to [[the internet]] protocol stack:
 
 |Layer Number|Layer Name|Common Protocols|What They Carry|Examples|

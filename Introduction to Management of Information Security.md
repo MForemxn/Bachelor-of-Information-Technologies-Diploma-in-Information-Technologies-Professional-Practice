@@ -51,7 +51,7 @@
 	- detective
 	- responsive
 # Current Challenges
-- insufficient commitment to the [[process]] 
+- insufficient commitment to the [[Process]] 
 - [[security]] controls and business objectives are not aligned
 - excessively restrictive policies
 - required monitoring tools are not available (due to ever changing landscape of threats ands attacks)

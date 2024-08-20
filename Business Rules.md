@@ -38,7 +38,7 @@ Business rules (BR) are formal statements that describe the operations, definiti
 
 ## TAKEAWAYS:
 1. Business rules guide behaviour and decisions within an organisation.
-2. They ensure [[process]] consistency and efficiency.
+2. They ensure [[Process]] consistency and efficiency.
 3. Automation and error [[reduction]] are key benefits.
 4. Regular updates are necessary for relevance.
 5. Alignment with organisational goals is crucial.

@@ -2,7 +2,7 @@
 System development [[processes]] encompass traditional and agile methodologies, each with distinct approaches to planning, execution, and delivery.
 
 ## OVERVIEW:
-System development [[processes]] are frameworks used to structure, plan, and control the [[process]] of developing [[information systems]]. Traditional methodologies, such as the Waterfall model, follow a linear and sequential approach where each phase must be completed before the next begins. This method is highly structured, with extensive documentation and clear milestones. In contrast, agile methodologies, such as Scrum and Kanban, focus on iterative development, [[flexibility]], and customer collaboration. Agile [[processes]] break down projects into small, manageable increments, allowing for continuous [[feedback]] and adaptation. This approach aims to deliver functional software more quickly and efficiently, accommodating changes even late in the development cycle. Both methodologies have their strengths and weaknesses, and the choice between them depends on project requirements, team dynamics, and organisational goals.
+System development [[processes]] are frameworks used to structure, plan, and control the [[Process]] of developing [[information systems]]. Traditional methodologies, such as the Waterfall model, follow a linear and sequential approach where each phase must be completed before the next begins. This method is highly structured, with extensive documentation and clear milestones. In contrast, agile methodologies, such as Scrum and Kanban, focus on iterative development, [[flexibility]], and customer collaboration. Agile [[processes]] break down projects into small, manageable increments, allowing for continuous [[feedback]] and adaptation. This approach aims to deliver functional software more quickly and efficiently, accommodating changes even late in the development cycle. Both methodologies have their strengths and weaknesses, and the choice between them depends on project requirements, team dynamics, and organisational goals.
 
 ## MAIN POINTS:
 1. Traditional methodologies follow a linear, sequential approach.
@@ -19,6 +19,6 @@ System development [[processes]] are frameworks used to structure, plan, and con
 ## TAKEAWAYS:
 1. Traditional and agile methodologies offer different approaches to system development.
 2. Agile methods are more flexible and adaptive to change.
-3. Traditional methods provide a structured, linear [[process]].
+3. Traditional methods provide a structured, linear [[Process]].
 4. Customer collaboration is a key aspect of agile methodologies.
 5. The choice of methodology depends on project needs and organisational goals.

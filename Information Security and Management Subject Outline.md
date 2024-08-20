@@ -398,7 +398,7 @@ Intent: This assessment requires students to prepare a [[security]] management r
 
 of their investigation by using knowledge of IT [[security]] policies, risk assessment and management
 
-[[process]], to identify personnel [[security]], training, [[security]] education needs, and associated legal and
+[[Process]], to identify personnel [[security]], training, [[security]] education needs, and associated legal and
 
 ethical awareness.
 
