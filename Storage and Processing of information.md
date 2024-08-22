@@ -23,7 +23,7 @@
 - Internet Service Providers (ISPs): companies that provide internet access to consumers and businesses
 - Routers and switches: hardware that directs [[data]] packets across the network
 - IP addresses: unique identifiers for devices on [[the internet]]
-- Domain Name System (DNS): translates human-friendly domain names (like www.example.com) into IP addresses
+- Domain Name System ([[DNS]]): translates human-friendly domain names (like www.example.com) into IP addresses
 
 # The Evolution of [[the Internet]]
 - originated from ARPANET in the late 1960s, a project by the U.S. Department of Defense

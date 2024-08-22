@@ -1,9 +1,9 @@
-Introduction of transport-layer services
+# Introduction of transport-layer services
 
-Connectionless transport: UDP
+# Connectionless transport - UDP
 
-Principles of reliable [[data]] transfer
+# Principles of reliable data transfer
 
-Connection oriented transport: TCP
+# Connection oriented transport: TCP
 
-Principles of Congestion Control
+# Principles of Congestion Control

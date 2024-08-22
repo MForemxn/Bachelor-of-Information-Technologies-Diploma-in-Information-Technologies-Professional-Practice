@@ -12,7 +12,7 @@
 	- **Servers**: powerful computers that store and serve [[data]] and web pages to users
 	- **[[Data]] Centres**: facilities that house servers and related equipment, providing the physical or virtual infrastructure required for internet services
 	- **Cables and Connectivity**: includes undersea cables, fibre optic cables, and wireless connections that link continents, countries, and local networks
-	- **Protocols**: rules and standards (e.g., TCP/IP, HTTP, DNS) that enable different parts of [[the internet]] to communicate effectively
+	- **Protocols**: rules and standards (e.g., TCP/IP, HTTP, [[DNS]]) that enable different parts of [[the internet]] to communicate effectively
 
 # Connectivity Providers
 - internet service providers (ISPs) play a crucial role in internet infrastructure

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Subjects.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Subjects.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Subjects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Business Requirements Modelling.md",
+                "file": "Subjects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Business Requirements Modelling.md"
+                "file": "Subjects.md"
               }
             }
           },
@@ -159,8 +159,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,36 +178,36 @@
   },
   "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
-    "Requirements Specification.md",
-    "Business Requirements Modelling.md",
-    "Requirements Modelling.md",
-    "Requirements Elicitation.md",
-    "Process.md",
+    "Network Fundamentals.md",
+    "Transport Layer.md",
+    "Computer Networks and the Internet.md",
+    "Application Layer.md",
+    "DNS.md",
+    "Socket Programming - Creating Network Applications.md",
+    "Email and DNS.md",
+    "Web and HTTP.md",
+    "Security.md",
+    "Scalability.md",
+    "Principles of network applications.md",
+    "Introduction to Network Fundamentals.md",
+    "Subjects.md",
+    "Information Security and Management.md",
+    "Security Management Models and Practices.md",
+    "Risk Analysis and Management.md",
+    "Security Governance and Compliance.md",
+    "Introduction to Management of Information Security.md",
+    "Database Fundamentals.md",
+    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
+    "Normalisation and set operators.md",
+    "Logical design - ER conversion to a relational model.md",
+    "Conceptual database design (ER modeling).md",
+    "The Relational Data Model.md",
+    "The Role of Databases in Information Systems.md",
+    "Introduction to Database Management Systems.md",
     "Pasted image 20240820114544.png",
     "Week 3 Requirements Elicitation Techniques 1.pptx",
     "Week 3 Requirements Elicitation Techniques.pptx",
     "Pasted image 20240820113642.png",
-    "Subjects.md",
-    "Information Security and Management.md",
-    "Risk Analysis and Management.md",
-    "Risk Treatment.md",
-    "Risk Evaluation.md",
-    "Risk Identification.md",
-    "BRM Group Work Names.md",
-    "Homepage/Home.md",
-    "Computer Networks and the Internet.md",
-    "Packet Loss.md",
-    "Packet delay.md",
-    "OSI model.md",
-    "Queuing Delay.md",
-    "Propagation Delay.md",
-    "Transmission Delay.md",
-    "Nodal Delay.md",
-    "buffer.md",
-    "network core.md",
-    "The network edge and core.md",
-    "Network Edge.md",
-    "The Internet.md",
     "packet",
     "Pasted image 20240806134440.png",
     "Screenshot 2024-08-06 at 11.28.15 am.png",

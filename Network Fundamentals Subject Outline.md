@@ -156,7 +156,7 @@ Principles of network applications
 
 Web and HTTP
 
-Email and DNS
+Email and [[DNS]]
 
 Socket Programming: Creating Network Applications
 
@@ -260,7 +260,7 @@ Notes:
 
 2.3 email
 
-2.4 DNS
+2.4 [[DNS]]
 
 2.7 socket programming with UDP and TCP
 

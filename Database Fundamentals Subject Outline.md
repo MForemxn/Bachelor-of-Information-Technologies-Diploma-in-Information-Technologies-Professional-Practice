@@ -42,31 +42,23 @@ Questions regarding assessment or content within the subject are welcome in lect
 
 them to the discussion board in Canvas. This helps ensure that all students get the benefit of the answers given.
 
-The Subject Coordinator may be contacted by email through 31271@uts.edu.au if you have matters of a personal
-
-nature to discuss, e.g., illness, study problems, and for issues to do with extensions, group problems, or other matters
-
-of importance.
+The Subject Coordinator may be contacted by email through 31271@uts.edu.au if you have matters of a personal nature to discuss, e.g., illness, study problems, and for issues to do with extensions, group problems, or other matters of importance.
 
 All emails sent to subject coordinators, tutors, or lecturers must have a clear subject line that states the subject number
 
-followed by the subject of the email [e.g. Subject 31271, Request for Extension], and must be sent from your UTS
+followed by the subject of the email [e.g. Subject 31271, Request for Extension], and must be sent from your UTS email address.
 
-email address.
-
-Consultation hours: Students will be informed about the consultation hours during the semester through
-
-announcements or updated news on Ed. Requests for appointments outside the given consultation hours may be arranged where circumstances require, and to do so please contact the subject coordinator by email.
+Consultation hours: Students will be informed about the consultation hours during the semester through announcements or updated news on Ed. Requests for appointments outside the given consultation hours may be arranged where circumstances require, and to do so please contact the subject coordinator by email.
 
 Bring your own device (BYOD)
 
 Students need to bring their laptops to the [[class]]. They can also borrow laptops that are provided by the university.
 
-Subject description
+## Subject description
 
 This subject introduces students to the fundamentals of effective [[database]] systems. Students are taught how data is structured and managed in an organisation in a way that can be used effectively by applications and users. They also learn to use the language SQL for effective data retrieval and modification. This subject teaches students to appreciate the significance and challenges of good [[database]] design and management, which underpin the development of functional [[software applications]].
 
-Subject learning objectives (SLOs)
+## Subject learning objectives (SLOs)
 
 29/07/2024 (Spring 2024) © University of Technology Sydney Page 1 of 14Upon successful completion of this subject students should be able to:
 
@@ -108,7 +100,7 @@ In tutorials, students will be involved in discussions about provided tasks to a
 
 During the session, students will receive [[feedback]] on their progress and performance through weekly quizzes, tutorial discussions and reviewed assignments.
 
-Content (topics)
+## Content (topics)
 
 1.
 
@@ -468,9 +460,9 @@ Students are strongly advised to purchase the customised, prescribed textbook fo
 
 'Required texts'.
 
-Assessment
+## Assessment
 
-Assessment task 1: Weekly Quiz
+### Assessment task 1: Weekly Quiz
 
 Intent: To assess the individual student's understanding of four or five specified concepts covered in the
 
@@ -506,43 +498,27 @@ classes OR will be available from Friday of each week at 11:59 PM till Sunday ni
 
 at 11:59 PM. Each quiz has a limited time (between 10 to 20 minutes) to be completed and they are
 
-single-attempt assessments. We may not have a quiz for each week. Assessment Challenge:
+single-attempt assessments. We may not have a quiz for each week. 
 
-Assessment Challenge will be available from Friday, 16/08/2024 (Week 2) till 22/09/2024 at 11:59
+### Assessment Challenge:
 
-pm (Week 7).
+Assessment Challenge will be available from Friday, 16/08/2024 (Week 2) till 22/09/2024 at 11:59 pm (Week 7).
 
-See also Further information.
+Further information:
 
-Further This assessment is redesigned and has two parts: each week, students will have some
+This assessment is redesigned and has two parts: each week, students will have some Multiple-choice questions (on Canvas or Ed) and a challenge on Ed.
 
-29/07/2024 (Spring 2024) © University of Technology Sydney Page 7 of 14Further
-
-information:
-
-This assessment is redesigned and has two parts: each week, students will have some
-
-Multiple-choice questions (on Canvas or Ed) and a challenge on Ed.
-
-MCQs (15%): Students may score 0 to 4 for each quiz. The best 5 to 7 quiz scores (based on the
-
-number of offered quizzes) will be added together to give the student's total quiz mark.
+MCQs (15%): Students may score 0 to 4 for each quiz. The best 5 to 7 quiz scores (based on the number of offered quizzes) will be added together to give the student's total quiz mark.
 
 As such, if you miss a quiz there will be no option to retake it later.
 
-Challenges (15%): Students need to resolve the designed challenges on Ed to receive the allocated
-
-marks. Challenges may not be released for every week. The challenges will be titled as “Assessment
-
-Challenge x”.
+Challenges (15%): Students need to resolve the designed challenges on Ed to receive the allocated marks. Challenges may not be released for every week. The challenges will be titled as “Assessment Challenge x”.
 
 Students will receive their mark within two weeks after they complete their assessment.
 
-Students need to check their “weekly plan” and the "News Page" on Ed to get weekly information
+Students need to check their “weekly plan” and the "News Page" on Ed to get weekly information about this assessment.
 
-about this assessment.
-
-Assessment task 2: [[Data]] Modeling and [[Database]] Design Assignment
+## Assessment task 2: [[Data]] Modeling and [[Database]] Design Assignment
 
 Intent: The assignment assesses the student's ability to analyse and interpret [[data]] requirements, and to
 
@@ -620,7 +596,7 @@ Students need to check their "weekly plan" and the "News Page" on Ed to get more
 
 about this assessment.
 
-Assessment task 3: Preparation SQL Quiz for the Online SQL Test
+## Assessment task 3: Preparation SQL Quiz for the Online SQL Test
 
 Intent: Objective(s): The online test assesses the student's practical ability to construct appropriate SQL statements to
 
@@ -660,7 +636,7 @@ More details about the quiz will be released separately.
 
 [[Feedback]]: The SQL Quiz mark will be released within three weeks after the test.
 
-Assessment task 4: Online SQL Test
+## Assessment task 4: Online SQL Test
 
 Intent: Objective(s): The online test assesses the student's practical ability to construct appropriate SQL statements to
 

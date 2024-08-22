@@ -55,7 +55,7 @@
 | 1     | 5-9/8        | **Introduction to Internet**<br>**Notes:**<br>1.1 What is [[the Internet]]?<br>1.2 Network edge<br>1.3 [[Network core]]<br>**Tutorial, Lab**                                      |
 | 2     | 12-16/8      | **Computer Networks and [[the Internet]]**<br>**Notes:**<br>1.4 Performance: delay, loss, throughput<br>1.5 Protocol layers, service [[models]]<br>1.7 History<br>**Tutorial, Lab**<br>**Assignment 1** |
 | 3     | 19-23/8      | **Application layer**<br>**Notes:**<br>2.1 Principles of network applications<br>2.2 Web and HTTP<br>**Tutorial, Lab**                                            |
-| 4     | 26-30/8      | **Application development**<br>**Notes:**<br>2.3 Email<br>2.4 DNS<br>2.7 Socket programming with UDP and TCP<br>**Tutorial, Lab**<br>**Project 1 - socket programming**<br>**Quiz** |
+| 4     | 26-30/8      | **Application development**<br>**Notes:**<br>2.3 Email<br>2.4 [[DNS]]<br>2.7 Socket programming with UDP and TCP<br>**Tutorial, Lab**<br>**Project 1 - socket programming**<br>**Quiz** |
 | 5     | 2-6/9        | **Transport layer**<br>**Notes:**<br>3.1 Transport-layer services<br>3.2 Multiplexing and demultiplexing<br>3.3 Connectionless transport: UDP<br>3.4 Principles of reliable [[data]] transfer<br>**Tutorial, Lab**<br>**Project 1 due in your lab class** |
 | 6     | 9-13/9       | **TCP and congestion control**<br>**Notes:**<br>3.5 Connection-oriented transport: TCP<br>3.6 Principles of congestion control<br>3.7 TCP congestion control<br>**Tutorial, Lab**<br>**Assignment 2** |
 | 7     | 16-20/9      | **Network layer: [[data]] plane**<br>**Notes:**<br>4.1 Overview of Network layer<br>4.2 What’s inside a router<br>**Tutorial, Lab**                                        |
