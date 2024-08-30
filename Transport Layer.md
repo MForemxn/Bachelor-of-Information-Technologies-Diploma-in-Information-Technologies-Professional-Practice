@@ -4,6 +4,6 @@
 
 # Principles of reliable data transfer
 
-# Connection oriented transport: TCP
+# Connection oriented transport - TCP
 
 # Principles of Congestion Control

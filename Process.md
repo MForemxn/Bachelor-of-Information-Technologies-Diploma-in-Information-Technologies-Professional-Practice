@@ -3,6 +3,15 @@
 ## ONE SENTENCE SUMMARY:
 System development [[processes]], including traditional and agile methodologies, and [[requirements engineering processes]] are crucial for effective [[software development]] and project management.
 
+# [[System development processes (traditional and agile)]]
+> System development [[processes]] encompass traditional and agile methodologies, each with distinct approaches to planning, execution, and delivery.
+
+# [[Requirements engineering processes]]
+> The process of seeking, uncovering, aquiring, and elaborating requirements for computer based systems. These are elicited rather than captured or collected. 
+
+Requirements engineering [[processes]] involve the systematic [[identification]], documentation, and management of system requirements to ensure successful project outcomes.
+
+
 ## OVERVIEW:
 System development [[processes]] encompass various methodologies used to design, develop, and maintain software systems. Traditional methodologies, such as the Waterfall model, follow a linear and sequential approach, emphasizing thorough documentation and upfront planning. Agile methodologies, on the other hand, prioritize [[flexibility]], iterative development, and customer collaboration, allowing for rapid adjustments based on [[feedback]]. Requirements engineering [[processes]] involve the systematic [[identification]], documentation, and management of software requirements. This phase is critical as it ensures that the final product meets the needs and expectations of stakeholders. Effective requirements engineering includes activities such as [[Requirements Elicitation]], analysis, [[Requirements Specification]], validation, and management. Both traditional and agile methodologies incorporate requirements engineering, but they approach it differently. Traditional methods often involve detailed requirements documentation early in the project, while agile methods focus on continuous requirements gathering and refinement throughout the development cycle. Understanding these [[processes]] is essential for successful project execution, ensuring that software solutions are delivered on time, within budget, and meet quality standards.
 
@@ -25,10 +34,3 @@ System development [[processes]] encompass various methodologies used to design,
 4. Continuous requirements gathering is a hallmark of agile methodologies.
 5. Effective project execution relies on understanding and applying these [[processes]].
 
-# [[System development processes (traditional and agile)]]
-> System development [[processes]] encompass traditional and agile methodologies, each with distinct approaches to planning, execution, and delivery.
-
-# [[Requirements engineering processes]]
-> The process of seeking, uncovering, aquiring, and elaborating requirements for computer based systems. These are elicited rather than captured or collected. 
-
-Requirements engineering [[processes]] involve the systematic [[identification]], documentation, and management of system requirements to ensure successful project outcomes.

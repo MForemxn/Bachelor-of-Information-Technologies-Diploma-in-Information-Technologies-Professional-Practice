@@ -1,9 +1,9 @@
-Link layer services and implementations
+## Link layer services and implementations
 
-Error Detection and Correction Techniques
+## Error Detection and Correction Techniques
 
-Multiple access links and protocols
+## Multiple access links and protocols
 
-Switched LAN: Ethernet and VLANs
+## Switched LAN - Ethernet and VLANs
 
-Retrospective: A Day in the Life of a Web Page Request
+## Retrospective - A Day in the Life of a Web Page Request

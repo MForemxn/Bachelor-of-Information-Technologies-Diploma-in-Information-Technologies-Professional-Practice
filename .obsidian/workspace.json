@@ -6,7 +6,7 @@
       {
         "id": "2f1196a50f8e554b",
         "type": "tabs",
-        "dimension": 55.45808966861598,
+        "dimension": 57.682403433476395,
         "children": [
           {
             "id": "9507ccfe343282c0",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjects.md",
+                "file": "Information Security and Management.md",
                 "mode": "source",
                 "source": true
               }
@@ -26,7 +26,7 @@
       {
         "id": "d8460e51f44df422",
         "type": "tabs",
-        "dimension": 44.54191033138402,
+        "dimension": 42.317596566523605,
         "children": [
           {
             "id": "2672adc29ec67e4e",
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjects.md",
+                "file": "Information Security and Management.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjects.md",
+                "file": "Information Security and Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjects.md",
+                "file": "Information Security and Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subjects.md"
+                "file": "Information Security and Management.md"
               }
             }
           },
@@ -159,7 +159,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,32 +179,34 @@
   },
   "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
+    "Security Policy, Law and Ethics.md",
+    "Information Security and Management.md",
+    "Subjects.md",
+    "Business Requirements Modelling.md",
+    "Process.md",
     "Network Fundamentals.md",
+    "Application Layer.md",
+    "Email and DNS.md",
+    "Screenshot 2024-08-27 at 4.53.06 pm.png",
+    "Socket Programming.md",
+    "Screenshot 2024-08-27 at 4.36.13 pm.png",
+    "Web and HTTP.md",
+    "Homepage/Home.md",
+    "Database Fundamentals.md",
+    "SQL Master Document.md",
+    "Data Types.md",
+    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
+    "SQL Commands.md",
+    "Network Fundamentals Subject Outline.md",
+    "Requirements Elicitation.md",
     "Transport Layer.md",
     "Computer Networks and the Internet.md",
-    "Application Layer.md",
     "DNS.md",
     "Socket Programming - Creating Network Applications.md",
-    "Email and DNS.md",
-    "Web and HTTP.md",
     "Security.md",
     "Scalability.md",
     "Principles of network applications.md",
     "Introduction to Network Fundamentals.md",
-    "Subjects.md",
-    "Information Security and Management.md",
-    "Security Management Models and Practices.md",
-    "Risk Analysis and Management.md",
-    "Security Governance and Compliance.md",
-    "Introduction to Management of Information Security.md",
-    "Database Fundamentals.md",
-    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
-    "Normalisation and set operators.md",
-    "Logical design - ER conversion to a relational model.md",
-    "Conceptual database design (ER modeling).md",
-    "The Relational Data Model.md",
-    "The Role of Databases in Information Systems.md",
-    "Introduction to Database Management Systems.md",
     "Pasted image 20240820114544.png",
     "Week 3 Requirements Elicitation Techniques 1.pptx",
     "Week 3 Requirements Elicitation Techniques.pptx",
@@ -216,8 +219,6 @@
     "Pasted image 20240226205207.png",
     "Pasted image 20240226205200.png",
     "Screenshot 2024-03-25 at 11.27.28 am.png",
-    "Screenshot 2024-03-25 at 11.11.46 am.png",
-    "Screenshot 2024-03-25 at 11.10.38 am.png",
     "Assesment Task 1 Template.pdf",
     "timetable-25277308.pdf",
     "APA Interactive Guide.pdf",

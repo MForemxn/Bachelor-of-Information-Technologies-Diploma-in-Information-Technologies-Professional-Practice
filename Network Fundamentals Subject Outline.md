@@ -94,7 +94,7 @@ Technically Proficient: FEIT graduates apply [[abstraction]], mathematics and di
 
 and techniques to evaluate, implement and operate systems. (D.1)
 
-Contribution to the development of graduate attributes
+Contribution to the development of graduate [[attributes]]
 
 Engineers Australia Stage 1 Competencies
 
@@ -142,7 +142,7 @@ Content (topics)
 
 What is [[the Internet]]
 
-The network edge and core
+[[The network edge and core]]
 
 Network performance measures
 
@@ -152,9 +152,9 @@ History of [[the Internet]]
 
 2. [[Application Layer]]
 
-Principles of network applications
+[[Principles of network applications]]
 
-Web and HTTP
+[[Web and HTTP]]
 
 Email and [[DNS]]
 
@@ -224,7 +224,7 @@ Notes:
 
 1.1 what is [[the Internet]]?
 
-1.2 network edge
+1.2 [[network edge]]
 
 1.3 [[network core]]
 
@@ -248,9 +248,9 @@ Assignment1
 
 Notes:
 
-2.1 principles of network applications
+2.1 [[principles of network applications]]
 
-2.2 Web and HTTP
+2.2 [[Web and HTTP]]
 
 Tutorial, Lab
 
@@ -396,7 +396,7 @@ Task: There are twelve labs, including Wireshark, network hands-on, and project 
 
 enable students to actually observe the sequence of messages exchanged between two protocol
 
-entities and build simple networks. Students are expected to test the network connectivity, explain
+[[entities]] and build simple networks. Students are expected to test the network connectivity, explain
 
 and analyse the observed [[data]] during the labs.
 
@@ -576,11 +576,11 @@ Graduate attribute development
 
 21/07/2024 (Spring 2024) © University of Technology Sydney Page 8 of 11Graduate attribute development
 
-For a full list of the faculty's graduate attributes refer to the FEIT Graduate Attributes webpage.
+For a full list of the faculty's graduate [[attributes]] refer to the FEIT Graduate [[Attributes]] webpage.
 
 For the contribution of [[subjects]] taken in the Bachelor of Engineering (Honours) or Master of Professional Engineering
 
-to the Engineers Australia Stage 1 Competencies, see the faculty's Graduate Attributes and the Engineers Australia
+to the Engineers Australia Stage 1 Competencies, see the faculty's Graduate [[Attributes]] and the Engineers Australia
 
 Stage 1 Competencies webpage.
 

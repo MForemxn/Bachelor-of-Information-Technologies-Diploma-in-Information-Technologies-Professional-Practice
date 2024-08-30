@@ -1,7 +1,7 @@
-Routing algorithms
+## Routing algorithms
 
-Intra-AS routing: OSPF
+## Intra-AS routing - OSPF
 
-Inter-AS routing: BGP
+## Inter-AS routing - BGP
 
-ICMP and SNMP
+## ICMP and SNMP
