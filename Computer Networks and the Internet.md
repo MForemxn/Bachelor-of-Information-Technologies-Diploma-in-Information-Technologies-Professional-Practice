@@ -11,7 +11,7 @@
 - delay = **(packets in [[buffer]] * [[transmission delay]]) + [[transmission delay]]**
 
 ## [[Packet Loss]]
-When a packet buffer is full, subsequent packets are ’lost’ or dropped. It is something we need to account for in program design. 
+When a packet [[buffer]] is full, subsequent packets are ’lost’ or dropped. It is something we need to account for in program design. 
 ## Sources of Delay
 > Delay can be broken into 4 key sources:
 1. [[Nodal Delay]] - [[Nodal delay]] is the total time a [[data]] packet spends at a network node, including processing, queuing, transmission, and propagation delays.
