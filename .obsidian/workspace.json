@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Relational Data Model.md",
+                "file": "Requirements Modelling.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Relational Data Model.md",
+                "file": "Requirements Modelling.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Relational Data Model.md",
+                "file": "Requirements Modelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Relational Data Model.md",
+                "file": "Requirements Modelling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Relational Data Model.md"
+                "file": "Requirements Modelling.md"
               }
             }
           },
@@ -177,16 +177,22 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "9507ccfe343282c0",
+  "active": "a85eadc5790b4a05",
   "lastOpenFiles": [
+    "Business Requirements Modelling.md",
+    "Requirements Modelling.md",
+    "Subjects.md",
+    "Information Security and Management.md",
+    "Security Contingencies and Maintenance.md",
+    "Pasted image 20240903104110.png",
+    "Contingency Plan.md",
+    "Homepage/Home.md",
     "The Relational Data Model.md",
     "Database Fundamentals.md",
     "Logical design - ER conversion to a relational model.md",
     "Conceptual database design (ER modeling).md",
     "The Role of Databases in Information Systems.md",
     "Introduction to Database Management Systems.md",
-    "Subjects.md",
-    "Homepage/Home.md",
     "Keys.md",
     "Foreign Keys.md",
     "Primary Keys.md",
@@ -199,12 +205,9 @@
     "Screenshot 2024-09-03 at 10.03.47 am.png",
     "Screenshot 2024-09-03 at 10.04.13 am.png",
     "Screenshot 2024-09-03 at 10.02.11 am.png",
-    "Screenshot 2024-09-03 at 10.02.02 am.png",
     "Computer Networks and the Internet.md",
     "Network Fundamentals.md",
-    "Information Security and Management.md",
     "Security Policy, Law and Ethics.md",
-    "Business Requirements Modelling.md",
     "Process.md",
     "Application Layer.md",
     "Email and DNS.md",
@@ -212,9 +215,6 @@
     "Web and HTTP.md",
     "SQL Master Document.md",
     "Data Types.md",
-    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
-    "SQL Commands.md",
-    "Network Fundamentals Subject Outline.md",
     "Week 3 Requirements Elicitation Techniques 1.pptx",
     "Week 3 Requirements Elicitation Techniques.pptx",
     "packet",
