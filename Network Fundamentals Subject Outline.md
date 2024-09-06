@@ -192,7 +192,7 @@ Inter-AS routing: BGP
 
 ICMP and SNMP
 
-6. [[The Link Layer]]
+6. [[Link Layer]]
 
 Link layer services and implementations
 

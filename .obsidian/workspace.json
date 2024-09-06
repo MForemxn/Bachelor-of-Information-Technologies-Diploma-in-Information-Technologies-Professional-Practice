@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requirements Modelling.md",
+                "file": "Network Fundamentals.md",
                 "mode": "source",
                 "source": true
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Requirements Modelling.md",
+                "file": "Network Fundamentals.md",
                 "mode": "preview",
                 "source": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Requirements Modelling.md",
+                "file": "Network Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Requirements Modelling.md",
+                "file": "Network Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Requirements Modelling.md"
+                "file": "Network Fundamentals.md"
               }
             }
           },
@@ -177,16 +177,31 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "a85eadc5790b4a05",
+  "active": "2672adc29ec67e4e",
   "lastOpenFiles": [
-    "Business Requirements Modelling.md",
-    "Requirements Modelling.md",
+    "Transport Layer.md",
+    "Screenshot 2024-09-03 at 5.02.15 pm 1.png",
+    "Screenshot 2024-09-03 at 5.02.15 pm.png",
+    "Screenshot 2024-09-03 at 4.56.22 pm.png",
+    "Screenshot 2024-09-03 at 4.55.07 pm.png",
+    "Demultiplexing.md",
+    "Multiplexing.md",
+    "Network Fundamentals.md",
+    "Computer Networks and the Internet.md",
+    "Network Layer.md",
+    "Physical Layer.md",
+    "Link Layer.md",
+    "Application Layer.md",
+    "The Network Layer Data Plane.md",
+    "Introduction to Network Fundamentals.md",
     "Subjects.md",
+    "Homepage/Home.md",
+    "Requirements Modelling.md",
+    "Business Requirements Modelling.md",
     "Information Security and Management.md",
     "Security Contingencies and Maintenance.md",
     "Pasted image 20240903104110.png",
     "Contingency Plan.md",
-    "Homepage/Home.md",
     "The Relational Data Model.md",
     "Database Fundamentals.md",
     "Logical design - ER conversion to a relational model.md",
@@ -194,27 +209,11 @@
     "The Role of Databases in Information Systems.md",
     "Introduction to Database Management Systems.md",
     "Keys.md",
-    "Foreign Keys.md",
-    "Primary Keys.md",
     "Screenshot 2024-09-03 at 10.15.57 am.png",
     "Screenshot 2024-09-03 at 10.06.49 am.png",
     "Screenshot 2024-09-03 at 10.06.28 am.png",
     "Screenshot 2024-09-03 at 10.04.02 am.png",
     "Screenshot 2024-09-03 at 10.03.28 am.png",
-    "Screenshot 2024-09-03 at 10.03.35 am.png",
-    "Screenshot 2024-09-03 at 10.03.47 am.png",
-    "Screenshot 2024-09-03 at 10.04.13 am.png",
-    "Screenshot 2024-09-03 at 10.02.11 am.png",
-    "Computer Networks and the Internet.md",
-    "Network Fundamentals.md",
-    "Security Policy, Law and Ethics.md",
-    "Process.md",
-    "Application Layer.md",
-    "Email and DNS.md",
-    "Socket Programming.md",
-    "Web and HTTP.md",
-    "SQL Master Document.md",
-    "Data Types.md",
     "Week 3 Requirements Elicitation Techniques 1.pptx",
     "Week 3 Requirements Elicitation Techniques.pptx",
     "packet",

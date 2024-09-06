@@ -6,6 +6,7 @@
 [[Transport Layer]]
 [[The Network Layer Data Plane]]
 [[The Network Layer Control Plane]]
-[[The Link Layer]]
+[[Link Layer]]
+[[Physical Layer]]
 # In Class Activities
 # Assessment Tasks

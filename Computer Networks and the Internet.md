@@ -25,11 +25,11 @@ When a packet [[buffer]] is full, subsequent packets are ’lost’ or dropped. 
 
 |Layer Number|Layer Name|Common Protocols|What They Carry|Examples|
 |---|---|---|---|---|
-|5|Application|SMTP, HTTP, HTTPS|Message|Netflix, WeChat|
-|4|Transport|TCP, UDP|Segment|Windows, MacOS, Linux|
-|3|Network|IPv4, IPv6|Datagram|Telstra, Optus|
-|2|Link|Ethernet, 802.11 (wifi)|Frame|NBN, Intel Wifi Chipset|
-|1|Physical|bits 'on the wire'|Bit|CommScope, Corning|
+|5|[[Application Layer]]|SMTP, HTTP, HTTPS|Message|Netflix, WeChat|
+|4|[[Transport Layer]]|TCP, UDP|Segment|Windows, MacOS, Linux|
+|3|[[Network Layer]]|IPv4, IPv6|Datagram|Telstra, Optus|
+|2|[[Link Layer]]|Ethernet, 802.11 (wifi)|Frame|NBN, Intel Wifi Chipset|
+|1|[[Physical Layer]]|bits 'on the wire'|Bit|CommScope, Corning|
 
 
 
