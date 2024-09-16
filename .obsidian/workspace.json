@@ -4,42 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "2f1196a50f8e554b",
+        "id": "56d7826bf118b5b0",
         "type": "tabs",
-        "dimension": 44.63519313304722,
         "children": [
           {
-            "id": "9507ccfe343282c0",
+            "id": "bfb240b40ebdbec6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Fundamentals.md",
+                "file": "Homepage/Home.md",
                 "mode": "source",
                 "source": true
               }
             },
-            "group": "ddf66f6049f01f20"
+            "group": "4f333715cadaaa4b"
           }
         ]
       },
       {
-        "id": "d8460e51f44df422",
+        "id": "c2183fb0153a4878",
         "type": "tabs",
-        "dimension": 55.36480686695278,
         "children": [
           {
-            "id": "2672adc29ec67e4e",
+            "id": "82b694c4004cf527",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Fundamentals.md",
+                "file": "Homepage/Home.md",
                 "mode": "preview",
                 "source": true
               }
             },
-            "group": "ddf66f6049f01f20"
+            "group": "4f333715cadaaa4b"
           }
         ]
       }
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Fundamentals.md",
+                "file": "Homepage/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Fundamentals.md",
+                "file": "Homepage/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Fundamentals.md"
+                "file": "Homepage/Home.md"
               }
             }
           },
@@ -177,8 +175,19 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "2672adc29ec67e4e",
+  "active": "82b694c4004cf527",
   "lastOpenFiles": [
+    "Requirements Specification.md",
+    "Normalisation and set operators.md",
+    "Untitled.md",
+    "Business Requirements Modelling.md",
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Business Continuity Management.md",
+    "Information Security and Management.md",
+    "Security Contingencies and Maintenance.md",
+    "Database Fundamentals.md",
+    "Network Fundamentals.md",
     "Transport Layer.md",
     "Screenshot 2024-09-03 at 5.02.15 pm 1.png",
     "Screenshot 2024-09-03 at 5.02.15 pm.png",
@@ -186,7 +195,6 @@
     "Screenshot 2024-09-03 at 4.55.07 pm.png",
     "Demultiplexing.md",
     "Multiplexing.md",
-    "Network Fundamentals.md",
     "Computer Networks and the Internet.md",
     "Network Layer.md",
     "Physical Layer.md",
@@ -194,21 +202,12 @@
     "Application Layer.md",
     "The Network Layer Data Plane.md",
     "Introduction to Network Fundamentals.md",
-    "Subjects.md",
-    "Homepage/Home.md",
     "Requirements Modelling.md",
-    "Business Requirements Modelling.md",
-    "Information Security and Management.md",
-    "Security Contingencies and Maintenance.md",
     "Pasted image 20240903104110.png",
     "Contingency Plan.md",
     "The Relational Data Model.md",
-    "Database Fundamentals.md",
     "Logical design - ER conversion to a relational model.md",
     "Conceptual database design (ER modeling).md",
-    "The Role of Databases in Information Systems.md",
-    "Introduction to Database Management Systems.md",
-    "Keys.md",
     "Screenshot 2024-09-03 at 10.15.57 am.png",
     "Screenshot 2024-09-03 at 10.06.49 am.png",
     "Screenshot 2024-09-03 at 10.06.28 am.png",

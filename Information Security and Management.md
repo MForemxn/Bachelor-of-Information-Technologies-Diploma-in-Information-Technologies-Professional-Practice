@@ -7,5 +7,6 @@
 [[Security Management Models and Practices]]
 [[Protection Mechanisms]]
 [[Security Contingencies and Maintenance]]
+[[Business Continuity Management]]
 # In Class Activities
 # Assessment Tasks
