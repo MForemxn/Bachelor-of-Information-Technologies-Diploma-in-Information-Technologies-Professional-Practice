@@ -17,7 +17,7 @@ A LAN (Local Area Network) connects computers and devices within a limited area,
 13. Network Cable
 14. Wireless Access Point (WAP)
 15. Network Management
-16. Firewall
+16. [[Firewall]]
 17. VPN (Virtual Private Network)
 18. Peer-to-Peer Network
 19. Client-Server Model

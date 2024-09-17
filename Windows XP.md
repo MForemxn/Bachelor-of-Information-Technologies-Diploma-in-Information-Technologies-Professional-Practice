@@ -13,9 +13,9 @@
 - included new wallpapers, with "Bliss" becoming iconic
 # [[Security]]
 - marked a significant focus on [[security]] with the introduction of:
-	- Windows Firewall
+	- Windows [[Firewall]]
 	- [[Security]] Center
-	- Internet Connection Firewall (ICF)
+	- Internet Connection [[Firewall]] (ICF)
 - despite improvements, faced criticism for vulnerabilities and became a prime target for viruses and malware
 # Support and Legacy
 - Microsoft ended mainstream support for Windows XP in 2009

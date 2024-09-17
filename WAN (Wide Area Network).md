@@ -6,7 +6,7 @@ A WAN (Wide Area Network) connects devices across large geographical areas, enab
 2. VPN (Virtual Private Network)
 3. MPLS (Multiprotocol Label Switching)
 4. Router
-5. Firewall
+5. [[Firewall]]
 6. Leased Line
 7. SD-WAN (Software-Defined Wide Area Network)
 8. Satellite Communication

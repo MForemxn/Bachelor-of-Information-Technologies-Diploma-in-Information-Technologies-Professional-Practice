@@ -111,7 +111,7 @@ Whereas prior releases of Windows supported per-file [[encryption]] using Encryp
 
 A variety of other privilege-restriction techniques are also built into Vista. An example is the concept of "integrity levels" in user processes, whereby a process with a lower integrity level cannot interact with processes of a higher integrity level and cannot perform DLL–injection to processes of a higher integrity level. The [[Security]] restrictions of Windows services are more fine-grained, so that services (especially those listening on the network) cannot interact with parts of the operating system they do not need to. Obfuscation techniques such as address space layout randomization are used to increase the amount of effort required of malware before successful infiltration of a system. Code integrity verifies that system binaries have not been tampered with by malicious code.
 
-As part of the redesign of the network stack, Windows Firewall has been upgraded, with new support for filtering both incoming and outgoing traffic. Advanced packet filter rules can be created that can grant or deny communications to specific services.
+As part of the redesign of the network stack, Windows [[Firewall]] has been upgraded, with new support for filtering both incoming and outgoing traffic. Advanced packet filter rules can be created that can grant or deny communications to specific services.
 
 The 64-bit versions of Vista require that all device drivers be digitally signed, so that the creator of the driver can be identified.[85]
 

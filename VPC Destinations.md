@@ -24,8 +24,8 @@
 
 # [[Security]] in AWS VPC
 
-- **[[Security]] Groups**: Act as a virtual firewall for your instances to control inbound and outbound traffic.
-- **Network ACLs**: An additional layer of [[security]] for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+- **[[Security]] Groups**: Act as a virtual [[firewall]] for your instances to control inbound and outbound traffic.
+- **Network ACLs**: An additional layer of [[security]] for your VPC that acts as a [[firewall]] for controlling traffic in and out of one or more subnets.
 - **Flow Logs**: Capture information about the IP traffic going to and from network interfaces in your VPC.
 
 # Connectivity Options

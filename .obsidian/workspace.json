@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "The Network Layer Data Plane.md",
                 "mode": "source",
                 "source": true
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "The Network Layer Data Plane.md",
                 "mode": "preview",
                 "source": true
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "The Network Layer Data Plane.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "The Network Layer Data Plane.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage/Home.md"
+                "file": "The Network Layer Data Plane.md"
               }
             }
           },
@@ -175,24 +175,35 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "82b694c4004cf527",
+  "active": "a85eadc5790b4a05",
   "lastOpenFiles": [
-    "Requirements Specification.md",
-    "Normalisation and set operators.md",
-    "Untitled.md",
-    "Business Requirements Modelling.md",
+    "Network Fundamentals.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Business Continuity Management.md",
+    "Protection Mechanisms.md",
+    "Screenshot 2024-09-17 at 11.24.13 am.png",
+    "Screenshot 2024-09-17 at 11.21.42 am.png",
+    "Intrusion Detection Technology.md",
+    "Screenshot 2024-09-17 at 11.20.02 am.png",
+    "Screenshot 2024-09-17 at 11.13.58 am.png",
+    "Screenshot 2024-09-17 at 11.12.16 am.png",
+    "Screenshot 2024-09-17 at 11.11.03 am.png",
     "Information Security and Management.md",
-    "Security Contingencies and Maintenance.md",
+    "Firewall.md",
+    "MacOSX.md",
+    "Screenshot 2024-09-17 at 11.09.18 am.png",
+    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
     "Database Fundamentals.md",
-    "Network Fundamentals.md",
+    "UTSME.md",
+    "Requirements Specification.md",
+    "Normalisation and set operators.md",
+    "Business Requirements Modelling.md",
+    "Business Continuity Management.md",
+    "Security Contingencies and Maintenance.md",
     "Transport Layer.md",
     "Screenshot 2024-09-03 at 5.02.15 pm 1.png",
     "Screenshot 2024-09-03 at 5.02.15 pm.png",
     "Screenshot 2024-09-03 at 4.56.22 pm.png",
-    "Screenshot 2024-09-03 at 4.55.07 pm.png",
     "Demultiplexing.md",
     "Multiplexing.md",
     "Computer Networks and the Internet.md",
@@ -201,18 +212,6 @@
     "Link Layer.md",
     "Application Layer.md",
     "The Network Layer Data Plane.md",
-    "Introduction to Network Fundamentals.md",
-    "Requirements Modelling.md",
-    "Pasted image 20240903104110.png",
-    "Contingency Plan.md",
-    "The Relational Data Model.md",
-    "Logical design - ER conversion to a relational model.md",
-    "Conceptual database design (ER modeling).md",
-    "Screenshot 2024-09-03 at 10.15.57 am.png",
-    "Screenshot 2024-09-03 at 10.06.49 am.png",
-    "Screenshot 2024-09-03 at 10.06.28 am.png",
-    "Screenshot 2024-09-03 at 10.04.02 am.png",
-    "Screenshot 2024-09-03 at 10.03.28 am.png",
     "Week 3 Requirements Elicitation Techniques 1.pptx",
     "Week 3 Requirements Elicitation Techniques.pptx",
     "packet",
