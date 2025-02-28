@@ -1,6 +1,6 @@
 # Introduction
 An effective design proposal can succinctly communicate a creative process to its intended audience. Throughout the proposal, various project specifications and objectives for the proposed design solution are elaborated upon. The aim of this report is to convince EWB to authorise the continuation of this design process.  
-The 2018 EWB Challenge program is focused on the community development and resource management throughout three adjacent communities: Ksach Leav, Koh Khnear, and Puntha Chea. During the research phase of the EWB Challenge, valuable information about the Kratie Province was attained. Through an examination of this crucial content, an appropriate design area was chosen with several potential programs that aim to improve the local communities’ quality of life. Ultimately, this proposal will suggest a design solution that is the most practical and beneficial for the Cambodian people.
+The 2018 EWB Challenge program is focused on the community development and [[resource management]] throughout three adjacent communities: Ksach Leav, Koh Khnear, and Puntha Chea. During the research phase of the EWB Challenge, valuable information about the Kratie Province was attained. Through an examination of this crucial content, an appropriate design area was chosen with several potential programs that aim to improve the local communities’ quality of life. Ultimately, this proposal will suggest a design solution that is the most practical and beneficial for the Cambodian people.
 
 ## 1.1 Background  Target Community – Kratie Province
 

@@ -16,7 +16,7 @@
 - email services: facilitate the sending and receiving of electronic messages through protocols such as SMTP, IMAP, and POP3
 
 # Network Service Protocols
-- DHCP (Dynamic Host Configuration Protocol): automatically assigns IP addresses to devices on a network, simplifying network management
+- [[DHCP]] (Dynamic Host Configuration Protocol): automatically assigns IP addresses to devices on a network, simplifying network management
 - [[DNS]] (Domain Name System): translates human-readable domain names to IP addresses, enabling users to access websites using familiar names
 - FTP (File Transfer Protocol): used for transferring files between computers on a network, supporting both upload and download operations
 - SNMP (Simple Network Management Protocol): allows for the monitoring and management of network devices, providing insights into network performance

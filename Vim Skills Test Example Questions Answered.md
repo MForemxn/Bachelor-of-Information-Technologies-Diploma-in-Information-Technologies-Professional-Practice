@@ -83,7 +83,7 @@ The file seats_2019.txt is a text file containing electoral [[data]] just prior 
 
 Note the **major** parties are : 
 - ALP (Australian Labor Party) LIB (Liberal Party)
-- NAT (National Party)
+- [[NAT]] (National Party)
 - LNP (Liberal-National Party, a joint Liberal and National Party in Queensland) GRN (The Greens)  
 
 The **minor** parties are:  
@@ -170,7 +170,7 @@ grep "$state$" seats_2019.txt | awk -v party="$party" '$3 == party {print $1, $4
 	- Usage :` get_seats.sh <party_name> <state>`
 - (b) Check that the party initials are valid. If they are invalid print “Invalid Party” and exit. 
 - (c) Check that the state initials are valid. If they are invalid print “Invalid State” and exit.
-- (d) If your script has passed the error checking in (a), (b) and (c), but there are no actual electorates held for the party and state/territory supplied as arguments (for example there are no NAT members in WA) then the script should print:
+- (d) If your script has passed the error checking in (a), (b) and (c), but there are no actual electorates held for the party and state/territory supplied as arguments (for example there are no [[NAT]] members in WA) then the script should print:
 	- No electorates held by `<party name`> in `<state/territory name>`
 ```
 #!/bin/bash

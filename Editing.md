@@ -35,5 +35,5 @@
 - Editors like [[Vim]] and Emacs offer plugins and extensions to support programming languages and development tools, streamlining the coding process.
 
 # Future of Editing in Unix
-- As Unix and its derivatives continue to evolve, so do the text editors and editing tools, with ongoing improvements in user interface design, performance, and integration with other software development tools.
+- As Unix and its derivatives continue to evolve, so do the text editors and editing tools, with ongoing improvements in [[user interface]] design, performance, and integration with other software development tools.
 - The Unix philosophy of using simple, modular tools for complex tasks ensures that text editing remains a fundamental and adaptable part of working in Unix environments.

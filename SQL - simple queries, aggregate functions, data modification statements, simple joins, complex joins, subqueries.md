@@ -58,6 +58,273 @@ it do not require memory space.
 - Create View
 # [[SQL Master Document]]
 
+# SQL II: Multiple Table Queries
+
+## 1. Lecture Overview
+
+The lecture focuses on advanced SQL topics, particularly the different types of joins and multiple table queries. The key objective is to understand how to combine data from multiple tables effectively.
+
+## 2. Types of Joins
+
+### 2.1 Inner Join
+
+- **Inner Join**: Combines rows from two or more tables based on a related column, typically with matching values in the common columns.
+- The result includes only rows that have matching values in both tables.
+
+**Example:**
+
+sql
+
+Copy code
+
+`SELECT * FROM TableA INNER JOIN TableB ON TableA.column_name = TableB.column_name;`
+
+### 2.2 Cross Join
+
+- **Cross Join**: Returns the Cartesian product of rows from two tables. Every row from the first table is combined with every row from the second table.
+
+**Example:**
+
+sql
+
+Copy code
+
+`SELECT * FROM TableA CROSS JOIN TableB;`
+
+### 2.3 Outer Join
+
+- **Left Outer Join**: Returns all rows from the left table, and the matched rows from the right table. If no match is found, NULL values are returned from the right table.
+- **Right Outer Join**: Returns all rows from the right table, and the matched rows from the left table. If no match is found, NULL values are returned from the left table.
+- **Full Outer Join**: Returns all rows when there is a match in either table. If there is no match, the result will contain NULL values on the side where the match is missing.
+
+**Example:**
+
+sql
+
+Copy code
+
+`SELECT * FROM TableA LEFT OUTER JOIN TableB ON TableA.column_name = TableB.column_name;`
+
+### 2.4 Self Join
+
+- **Self Join**: A table is joined with itself. This is useful when querying hierarchical data (e.g., employee-supervisor relationships).
+
+**Example:**
+
+sql
+
+Copy code
+
+`SELECT E.EmployeeID, E.EmployeeName, M.EmployeeName AS Manager FROM Employee E, Employee M WHERE E.EmployeeSupervisorID = M.EmployeeID;`
+
+### 2.5 Natural Join (Not recommended)
+
+- **Natural Join**: An implicit inner join where matching columns are automatically found based on their names. This is discouraged because it may introduce ambiguity or unexpected results.
+
+## 3. Unions
+
+- **Union**: Combines the result sets of two queries and removes duplicate rows.
+- **Union All**: Combines the result sets of two queries without removing duplicates.
+
+**Example:**
+
+sql
+
+Copy code
+
+`SELECT column1, column2 FROM TableA UNION SELECT column1, column2 FROM TableB;`
+
+### Rules for Unions:
+
+- Both queries must return the same number of columns.
+- The data types of corresponding columns must be compatible.
+
+## 4. Example Queries
+
+### Inner Join Example:
+
+sql
+
+Copy code
+
+`SELECT order_t.customerid, customername, orderid, orderdate FROM customer_t INNER JOIN order_t ON customer_t.customerid = order_t.customerid WHERE customername = 'Eastern Furniture';`
+
+### Cross Join Example:
+
+sql
+
+Copy code
+
+`SELECT orderid, customername FROM customer_t CROSS JOIN order_t;`
+
+### Outer Join Example:
+
+sql
+
+Copy code
+
+`SELECT customer_t.customerid, customername, orderid FROM customer_t LEFT OUTER JOIN order_t ON customer_t.customerid = order_t.customerid;`
+
+### Self Join Example:
+
+sql
+
+Copy code
+
+`SELECT E.EmployeeID, E.EmployeeName, M.EmployeeName AS Manager FROM Employee E INNER JOIN Employee M ON E.ManagerID = M.EmployeeID;`
+
+## 5. Class Activities
+
+- **Activity 8.1**: Perform an inner join to find customer names and their order IDs.
+- **Activity 8.2**: Use a cross join to find customer names and order numbers for all customers who placed an order.
+- **Activity 8.3**: Use an inner join to find order details for customer 'Eastern Furniture'.
+- **Activity 8.4**: Use multiple table joins to find order, product, and customer details.
+
+## 6. Summary of Joins
+
+- **Inner Join**: Returns only matching rows.
+- **Cross Join**: Returns the Cartesian product.
+- **Outer Join**: Returns all rows from one table and matching rows from the other, or NULLs if there is no match.
+- **Self Join**: Joins a table with itself, useful for hierarchical data.
+- **Natural Join**: Automatically joins tables based on column names but is not recommended.
+- **Union**: Combines the results of two queries, removing duplicates unless UNION ALL is used.
+## Subqueries Overview
+
+A **subquery** is an inner query inside an outer query (can be in the `WHERE`, `FROM`, or `HAVING` clause).
+
+### Subquery Types:
+
+1. **Non-Correlated (Simple)**: Executed once for the entire outer query.
+2. **Correlated**: Executed once for each row returned by the outer query.
+
+---
+
+## Subquery Example
+
+**Question**: List all products whose price is above the average price of products with an 'Oak' finish.
+
+```sql
+SELECT productdescription, productstandardprice, productfinish  FROM product_t Table_a  WHERE productstandardprice >      (SELECT avg(productstandardprice)       FROM product_t Table_b       WHERE Table_b.productfinish= 'Oak') ORDER BY productfinish;
+```
+
+Example results:
+
+|productdescription|productstandardprice|productfinish|
+|---|---|---|
+|8-Drawer Dresser|750.00|Birch|
+|Entertainment Center|1650.00|Cherry|
+|6' Grandfather Clock|890.00|Oak|
+
+---
+
+## Correlated Subquery Example
+
+**Question**: List all products with a standard price above the average price of products with the same finish.
+
+```sql
+SELECT productdescription, productstandardprice, productfinish  FROM product_t Table_a  WHERE productstandardprice >      (SELECT avg(productstandardprice)       FROM product_t Table_b       WHERE Table_b.productfinish = Table_a.productfinish) ORDER BY productfinish;
+```
+
+### Processing Steps:
+
+1. SQL engine processes the outer query row by row.
+2. For each row in the outer query (`Table_a`), the product finish is passed to the subquery.
+3. The subquery calculates the average price for products with the same finish and returns it to the outer query.
+
+---
+
+## Correlated vs. Non-Correlated Subqueries
+
+- **Non-Correlated Subqueries**:
+    - Do not depend on the outer query's data.
+    - Executed once for the entire outer query.
+- **Correlated Subqueries**:
+    - Depend on the outer query's data.
+    - Executed once for each row in the outer query.
+    - Can use the `EXISTS` operator.
+
+---
+
+## Examples Using Different Subquery Techniques
+
+### Question 1: Show all orders that include furniture finished in Oak using a **Join**.
+
+```sql
+SELECT orderid, product_t.productid, productdescription, productfinish  FROM orderline_t, product_t  WHERE product_t.productid = orderline_t.productid    AND productfinish='Oak';
+```
+
+### Question 2: Show all orders that include furniture finished in Oak using a **Simple Subquery**.
+
+```sql
+SELECT DISTINCT(orderid)  FROM orderline_t  WHERE productid IN      (SELECT productid       FROM product_t       WHERE productfinish='Oak');
+```
+
+### Question 3: Show all orders that include furniture finished in Oak using a **Correlated Subquery**.
+```sql
+SELECT DISTINCT(orderid)  FROM orderline_t  WHERE EXISTS      (SELECT *       FROM product_t       WHERE productid = orderline_t.productid       AND productfinish='Oak');
+```
+
+---
+
+## Subquery in `FROM` Clause
+
+**Question**: Calculate the average price of products finished in Oak, Pine, and Walnut.
+
+```
+SELECT avg(AveragePrice)  FROM      (SELECT productfinish, round(avg(productstandardprice)) as AveragePrice       FROM product_t       GROUP BY productfinish) MyTable WHERE productfinish IN ('Oak', 'Pine', 'Walnut');
+```
+
+---
+
+## Complex Query Example
+
+**Question**: Produce a list of all products and the number of times each product has been ordered.
+
+```sql
+SELECT productdescription, productid,         (SELECT count(*)          FROM orderline_t          WHERE productid = p.productid) as number_of_orders FROM product_t p;
+```
+
+---
+
+## Guidelines for Writing Efficient Queries
+
+- Understand the data model (entities and relationships).
+- Know the desired attributes for results.
+- Use `GROUP BY` and `HAVING` clauses to fine-tune results.
+- **Avoid**:
+    - Using `SELECT *`; specify attributes instead.
+    - Overusing subqueries; try to minimize them.
+    - Complex nesting of queries.
+
+### Query Design Tips:
+
+1. Write simple, clear queries.
+2. Avoid self-joins where possible.
+3. Retrieve only the data you need.
+
+---
+
+## Triggers and Stored Procedures
+
+- **Routines**: Program modules executed on demand.
+    - **Functions**: Routines that return values.
+    - **Procedures**: Routines that do not return values.
+- **Triggers**: Execute in response to an event (e.g., `INSERT`, `UPDATE`, or `DELETE`).
+
+---
+
+## Embedded and Dynamic SQL
+
+- **Embedded SQL**: Hard-coded SQL statements in another language (e.g., C, Java).
+- **Dynamic SQL**: Generated at runtime by the application.
+
+### Advantages:
+
+1. Flexible user interfaces.
+2. Potential performance improvements.
+3. Enhanced database security.
+
+
 ## ONE SENTENCE SUMMARY:
 SQL enables [[data]] retrieval, manipulation, and analysis through simple queries, aggregate functions, [[data]] modification statements, joins, and subqueries.
 

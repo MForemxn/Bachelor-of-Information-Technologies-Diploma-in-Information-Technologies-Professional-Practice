@@ -34,6 +34,6 @@
 
 # PowerShell ISE (Integrated Scripting Environment)
 - an application for developing, testing, and debugging PowerShell scripts and modules
-- provides a graphical user interface with syntax highlighting, tab completion, and context-sensitive help
+- provides a graphical [[user interface]] with syntax highlighting, tab completion, and context-sensitive help
 - allows for multiple script execution and testing in a single interface
 - although PowerShell ISE is a powerful tool, with the introduction of Visual Studio Code and its PowerShell extension, many developers and IT professionals have shifted towards using VS Code for PowerShell scripting due to its advanced features and support for a wide range of programming languages and file types

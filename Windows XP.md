@@ -1,11 +1,11 @@
 - released in 2001 by Microsoft
-- known for its improved user interface over its predecessors
+- known for its improved [[user interface]] over its predecessors
 - introduced features like:
 	- ClearType font rendering for smoother fonts on LCD screens
 	- Fast user switching
 	- Remote desktop functionality
 	- System Restore and Automatic Updates
-# User Interface
+# [[User Interface]]
 - featured the Luna theme, offering a more colourful and friendly interface
 - Start menu and taskbar received significant redesigns
 	- easier access to frequently used programs

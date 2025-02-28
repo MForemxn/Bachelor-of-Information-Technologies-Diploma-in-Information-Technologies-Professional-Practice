@@ -1,7 +1,7 @@
 # What is Windows 1.0?
 - Windows 1.0 was the very first version of the Microsoft Windows line of [[operating systems]].
 - officially released on November 20, 1985, by Microsoft Corporation.
-- designed to be a graphical user interface ([[GUI]]) for the [[MS-DOS]] operating system, which was command-line based.
+- designed to be a graphical [[user interface]] ([[GUI]]) for the [[MS-DOS]] operating system, which was command-line based.
 - it allowed users to point and click to access programs and manage files, rather than typing commands.
 
 # Features of Windows 1.0
@@ -29,4 +29,4 @@
 # Legacy
 - Windows 1.0 is often remembered more for its historical significance than for its technical prowess.
 - it marked the beginning of the Windows operating system, which would go on to become one of the most widely used [[operating systems]] in the world.
-- the evolution from Windows 1.0 to the sophisticated, feature-rich versions of Windows available today showcases the rapid advancement in computer technology and user interface design over the past few decades.
+- the evolution from Windows 1.0 to the sophisticated, feature-rich versions of Windows available today showcases the rapid advancement in computer technology and [[user interface]] design over the past few decades.

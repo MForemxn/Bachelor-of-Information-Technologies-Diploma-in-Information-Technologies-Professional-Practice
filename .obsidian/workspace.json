@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "56d7826bf118b5b0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bfb240b40ebdbec6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Network Layer Data Plane.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "4f333715cadaaa4b"
-          }
-        ]
-      },
-      {
         "id": "c2183fb0153a4878",
         "type": "tabs",
         "children": [
@@ -32,12 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Network Layer Data Plane.md",
+                "file": "Swift.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Swift"
+            },
+            "group": "3010b473ddc1f63a"
+          }
+        ]
+      },
+      {
+        "id": "b4b9a47b057ea9ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09a2359bf8ff92a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Swift.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Swift"
             },
-            "group": "4f333715cadaaa4b"
+            "group": "3010b473ddc1f63a"
           }
         ]
       }
@@ -58,8 +62,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTime"
-              }
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -74,7 +81,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "byCreatedTime"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -82,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -105,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Network Layer Data Plane.md",
+                "file": "Swift.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +124,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Swift"
             }
           },
           {
@@ -122,10 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Network Layer Data Plane.md",
+                "file": "Swift.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Swift"
             }
           },
           {
@@ -136,7 +151,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -145,8 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Network Layer Data Plane.md"
-              }
+                "file": "Swift.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Swift"
             }
           },
           {
@@ -154,7 +176,9 @@
             "type": "leaf",
             "state": {
               "type": "copilot-chat-view",
-              "state": {}
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ],
@@ -175,53 +199,54 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "a85eadc5790b4a05",
+  "active": "09a2359bf8ff92a4",
   "lastOpenFiles": [
-    "Network Fundamentals.md",
+    "Application Development in the iOS Environment.md",
     "Subjects.md",
+    "Cybersecurity.md",
+    "Web Security.md",
+    "CSRF and XSS Attack.md",
+    "SQL Injection.md",
+    "DNSSEC.md",
+    "Swift.md",
+    "How to Swift eef3e4ee05884404b006abdc157cb9f8/Screenshot_2022-11-30_at_2.07.04_pm.png.md",
+    "How to Swift eef3e4ee05884404b006abdc157cb9f8",
     "Homepage/Home.md",
-    "Protection Mechanisms.md",
-    "Screenshot 2024-09-17 at 11.24.13 am.png",
-    "Screenshot 2024-09-17 at 11.21.42 am.png",
-    "Intrusion Detection Technology.md",
-    "Screenshot 2024-09-17 at 11.20.02 am.png",
-    "Screenshot 2024-09-17 at 11.13.58 am.png",
-    "Screenshot 2024-09-17 at 11.12.16 am.png",
-    "Screenshot 2024-09-17 at 11.11.03 am.png",
-    "Information Security and Management.md",
-    "Firewall.md",
-    "MacOSX.md",
-    "Screenshot 2024-09-17 at 11.09.18 am.png",
-    "SQL - simple queries, aggregate functions, data modification statements, simple joins, complex joins, subqueries.md",
-    "Database Fundamentals.md",
-    "UTSME.md",
-    "Requirements Specification.md",
-    "Normalisation and set operators.md",
-    "Business Requirements Modelling.md",
-    "Business Continuity Management.md",
-    "Security Contingencies and Maintenance.md",
-    "Transport Layer.md",
-    "Screenshot 2024-09-03 at 5.02.15 pm 1.png",
-    "Screenshot 2024-09-03 at 5.02.15 pm.png",
-    "Screenshot 2024-09-03 at 4.56.22 pm.png",
-    "Demultiplexing.md",
-    "Multiplexing.md",
-    "Computer Networks and the Internet.md",
-    "Network Layer.md",
-    "Physical Layer.md",
-    "Link Layer.md",
-    "Application Layer.md",
-    "The Network Layer Data Plane.md",
+    "DNS.md",
+    "How DNS Attacks Work.md",
+    "Cross Site Scripting.md",
+    "Data type.md",
+    "Classes, inheritance, polymorphism.md",
+    "System Security.md",
+    "OS Security.md",
+    "macOS High Sierra Blank Password Flaw.md",
+    "Linux Rootkit Infections.md",
+    "Windows WannaCry Ransomware Attack.md",
+    "STRIDE.md",
+    "non-repudiation.md",
+    "User Interface.md",
+    "Microsoft Windows Metro.md",
+    "Security and Access Control.md",
+    "File System Management.md",
+    "Screenshot 2025-02-28 at 8.00.46 am.png",
+    "Screenshot 2025-02-27 at 9.23.22 am.png",
+    "Screenshot 2025-02-27 at 9.49.45 am.png",
+    "Screenshot 2025-02-27 at 9.40.39 am.png",
+    "Screenshot 2025-02-27 at 9.40.50 am.png",
+    "Screenshot 2025-02-27 at 9.39.35 am.png",
+    "Screenshot 2025-02-27 at 9.39.45 am.png",
+    "Week 2 Lab 1 (Contd) Part 2.pdf",
+    "Screenshot 2025-02-23 at 12.00.51 pm.png",
+    "Screenshot 2025-02-23 at 11.56.27 am.png",
+    "Screenshot 2025-02-23 at 11.52.45 am.png",
+    "Cybersec-Week 1- Lab 1, Part 1- Handout.pdf",
+    "File I",
     "Week 3 Requirements Elicitation Techniques 1.pptx",
     "Week 3 Requirements Elicitation Techniques.pptx",
     "packet",
     "copilot-conversations",
     "Assesment Task 1 Template.pdf",
     "timetable-25277308.pdf",
-    "APA Interactive Guide.pdf",
-    "Assesement Task 1 Checklist.docx",
-    "FullSizeRender.heic",
-    "Bachelor-of-IT--Diploma-of-IT-Professional-Practice--Cybersecurity-and-Networking-Major",
     "Untitled.canvas"
   ]
 }

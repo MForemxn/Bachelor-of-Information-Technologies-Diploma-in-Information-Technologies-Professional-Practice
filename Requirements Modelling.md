@@ -112,3 +112,346 @@
 - **Standardization**: As a standard modeling language, UML is widely used and understood, making it easier to communicate designs across teams.
 - **[[Flexibility]]**: UML can model both the static and dynamic aspects of a system, making it versatile for different stages of development.
 
+# Week 8: Use Case Modelling
+
+## Objectives
+By the end of this lecture, you will:
+- Understand how [[Object]]-Oriented (OO) modelling techniques can [[help]] in understanding business systems.
+- Learn how OO modelling can be used to specify systems and user requirements.
+- Use OO system analysis techniques to develop a system model (Use Case Model) and Use Case Narrative.
+
+## Structured Approach vs [[Object]]-Oriented Approach
+
+### Structured Approach
+- Focuses on **[[Processes]]**:
+  - **BPMN** to describe actions and transformations.
+  - **ERD** to describe [[data]] consumed and produced by the system.
+  - [[Processes]] interact via [[data]] flows and produce outputs from inputs.
+  
+### [[Object]]-Oriented Approach
+- Focuses on **Objects**:
+  - Objects represent real-world things, containing methods and [[attributes]].
+  - Objects interact with each other and people, sending and responding to messages.
+  
+## Unified Modelling Language (UML)
+- **UML** is a standard language for specifying, visualizing, constructing, and documenting software system artifacts.
+- UML is industry-standard (version 2.X) and supports OO analysis and design.
+- UML diagrams are useful not only for developers but also for business users and stakeholders.
+
+## Use Case Model and Narratives
+
+### Development Steps
+1. **User Stories**
+2. **Use Case Diagram**: Shows the use cases within the system and the actors interacting with them.
+3. **Use Case Scenarios/Narratives**
+4. **User [[Interface]], Wireframe, or Screenshot**
+
+### Use Case Model Components
+- **Actors**: Represent people, organizations, or systems interacting with the system.
+- **Use Cases**: Generalized descriptions of a set of interactions between the system and one or more actors.
+- **System Boundary**: Indicates the scope of the system.
+- **Relationships**: Links between actors and use cases, which can include associations, generalizations, and include/extend relationships.
+
+## Identifying Use Cases
+Two main techniques:
+1. **User Goal Technique**
+   - Identify users, classify them by roles and organizational level.
+   - For each type of user, identify their goals and create preliminary use cases.
+2. **Event Decomposition Technique**
+   - Focuses on identifying system events that trigger specific use cases.
+
+## Example Use Case Model: Online Sales System
+**Actors**:
+- Customer, Customer Service Representative, Store Sales Representative.
+
+**Use Cases**:
+- Search for Item
+- View Product [[Comments]] and Ratings
+- Fill Shopping Cart
+- Checkout Shopping Cart
+- Create/Update Customer Account
+
+## Relationships in Use Case Diagrams
+- **Association**: A relationship between an actor and a use case.
+- **Include**: A use case that includes common behavior from another use case.
+- **Extend**: A use case that extends a base use case with additional behavior.
+- **Generalization**: A link between a general and a more specific use case or actor.
+
+## Use Case Diagram Example
+An example of a use case diagram might involve an **Online Ticketing System**, where actors interact with use cases like "Buy Ticket" or "View [[Timetable]]."
+
+## Use Case Narratives
+A **use case narrative** details the interactions between an actor and the system. It includes:
+- **Main Flow**: The main sequence of actions and responses.
+- **Alternatives**: Other paths leading to successful outcomes.
+- **[[Exceptions]]**: What happens when the main flow fails.
+
+### Use Case Narrative Template
+- **Header**: Pre-main flow details.
+- **Main Flow**: User actions and system responses.
+- **Footer**: Post-main flow details.
+- **Alternatives**: Secondary successful paths.
+- **[[Exceptions]]**: Points where the main flow can fail and how the system handles it.
+
+## Difference Between User Stories and Use Cases
+- **User Story**: A simple statement of the user’s feature needs, typically smaller in scope and used in agile development for planning and prioritization.
+- **Use Case**: A more structured narrative that describes the interactions and system responses in detail.
+- **Longevity**: Use cases often exist as long as the product is under development, whereas user stories are temporary artifacts used for planning iterations.
+
+## [[Object]]-Oriented Modelling Tools
+Common tools for OO modelling:
+- **Visual Paradigm**
+- **IBM Rational Modeler**
+- **MS Visio**
+- **Sparx Enterprise Architect**
+
+## Assessment 4: Improved CC System
+- The assignment requires the use of:
+  - **User Story Map**
+  - **User Stories, Use Cases, and Use Case Diagram**
+  - **Sequence Diagram**
+  - **[[Class]] Diagram**
+  - **[[State]] Transition Diagram**
+  - **Wireframes for UI Requirements**
+
+### Steps for Developing the Use Case Diagram
+- Identify user stories and match them to one or more use cases.
+- Develop a **Project Boundary Diagram** showing all the use cases.
+- Narrate each use case using the provided template, including any **included** or **extended** use cases.
+
+## Conclusion
+- Use case modelling is a crucial part of understanding and documenting system requirements and interactions.
+- A combination of user stories, use case diagrams, and narratives can [[help]] both developers and business stakeholders to capture the system's functionality and user needs effectively.
+
+## [[Class]] Diagram
+
+A **[[Class]] Diagram** is a type of static structure diagram that depicts the system's classes, [[attributes]], methods, and relationships.
+
+### Key Points:
+
+- **Purpose**: Conceptual modeling of an application and detailed modeling for code generation.
+- **Components**:
+    - **Classes**: Blueprints for creating objects, sharing the same [[attributes]] and methods.
+    - **[[Attributes]]**: Properties describing the [[class]] [[state]].
+    - **Methods**: Describe [[class]] behavior.
+    - **Relationships**: Associations between classes.
+    - **Multiplicity**: Defines the numerical relationship between two classes.
+
+### Example:
+
+- **[[Class]]**: A plan/blueprint for creating objects.
+    - A **Doctor** system might have classes like `Doctor`, `Patient`, and `Appointment`.
+    - Each `Patient` (e.g., Jim Maloney, Mary Wilson) is an **instance** of the `Patient` [[class]].
+
+---
+
+## Steps in Developing a Class Diagram
+
+1. **Identify Classes**: Look for nouns in the narrative (e.g., Subject, Teacher).
+2. **Identify [[Attributes]]**: Phrases indicating possession (e.g., Student’s name).
+3. **Identify Methods**: Look for verbs indicating what a [[class]]/[[object]] can do (e.g., Student can enrol).
+4. **Define Relationships**: Associations, aggregation, composition, and generalisation.
+5. **Set Multiplicities**: Define numerical relationships between classes.
+
+---
+
+## Class Structure
+
+- **Attributes**: Describe characteristics in the second compartment.
+- **Operations/Methods**: Describe actions in the third compartment. Format:
+    
+    java
+    
+    Copy code
+    
+    `Modifier  ReturnType  MethodName  (Parameters) public void setExchange(double rate) {    exchangeRate = rate; }`
+    
+
+### Example:
+
+plaintext
+
+Copy code
+
+`Person - Attributes:      name      : String     address   : [[String]]     birthdate : Date     age       : Int - Methods:     eat(), sleep(), work(), play()`
+
+---
+
+## Relationships Between Classes
+
+### Types of Relationships:
+
+1. **Association**: A meaningful connection between classes.
+    - Example: “A person works for a company.”
+    - Represented as a bold unbroken line between two classes.
+    - **Multiplicity**: Shown at the ends of the association (e.g., 1..*, 0..1).
+2. **Aggregation**:
+    - A "has-a" relationship. Weak association.
+    - If the whole is removed, the part may still exist (e.g., Library and Books).
+    - Represented by a hollow diamond.
+3. **Composition**:
+    - Stronger relationship. Parts cannot exist independently (e.g., Building and Room).
+    - Represented by a filled black diamond.
+4. **Generalization**:
+    - [[Inheritance]] relationship.
+    - Subclasses inherit [[attributes]] and methods from the [[superclass]] (e.g., `Employee` and `Part-time Employee`).
+
+---
+
+## Examples of [[Class]] Diagrams
+
+- **Customer Ordering System**: Includes common classes like `Customer`, `Order`, `Product`, etc.
+- **Online Order Processing System**: Involves customer, order, payment, and shipment-related classes.
+
+---
+
+## Summary
+
+- **[[Class]] Diagram**: Foundation of [[object]]-oriented [[software development]]. It is used for both visualizing and documenting a system, as well as constructing executable code.
+- **Relationships**: Four main types—Association, Aggregation, Composition, Generalisation.
+- **Use Case Integration**: Combine Use Case Narratives with identified classes, [[attributes]], and methods to create comprehensive system [[models]].
+
+---
+
+## Steps for Developing a [[Class]] Diagram for the Ticketing System
+
+1. **Use Case**: Start with the `Buy Ticket` use case narrative.
+2. **Identify Classes**: Look for nouns in the use case (e.g., Ticket, Purchase).
+3. **Define [[Attributes]] and Methods** for each [[class]].
+4. **Identify Relationships**: Use appropriate multiplicities for the relationships.
+
+---
+
+## [[Class]] Diagram for Assessment 4 (Improved CC System)
+
+- You should have completed user stories and use case narratives.
+- **Approach 1**: Convert ERD into a [[Class]] Diagram.
+- **Approach 2**: Read the narratives, identify classes, [[attributes]], methods, and relationships with multiplicity.
+
+---
+
+## Interaction Diagrams
+
+- **Interaction Diagrams** in UML illustrate how objects interact via messages.
+- These diagrams model how a group of objects collaborate to perform specific behavior.
+- **Two types of Interaction Diagrams**:
+    1. **Sequence Diagram**: Shows interactions over time.
+    2. **Collaboration Diagram**: Focuses on [[object]] collaborations.
+
+---
+
+## Sequence Diagram: Purpose
+
+- A **Sequence Diagram** is a visual representation of a use case scenario.
+- It captures one use case and shows the communication between objects using messages over time.
+- **Components**:
+    - **Lifeline box**: Represents an [[object]], system, or actor.
+    - **Messages**: Passed between lifelines to represent interactions.
+
+---
+
+## Relationship between Use Cases and Sequence Diagrams
+
+- Each use case can have a sequence diagram to show its main flow, [[exceptions]], or alternative paths.
+- Sequence diagrams map the [[process]] flow to the use case and show the interaction between objects for that flow.
+
+---
+
+## Sequence Diagram Notations
+
+- **Lifeline box**: Represents an [[object]] or actor.
+- **Message line**: Horizontal arrows representing messages sent between classes.
+    - **Synchronous messages**: Full arrowheads, sender waits for a response.
+    - **Asynchronous messages**: Half arrowheads, sender does not wait for a response.
+- **Activation bar**: Indicates how long an [[object]] is active or when a method executes.
+- **Lifeline**: Dashed vertical line showing the life of the [[object]] during the interaction.
+- **Destruction (optional)**: Indicated by an "X" at the bottom of the activation bar.
+
+---
+
+## Components of a Sequence Diagram
+
+1. **Columns**:
+    - **Lifeline boxes**: Represent objects, actors, or systems.
+    - **Activation bar**: Shows how long an [[object]] is active in an interaction.
+2. **Rows**:
+    - **Messages**: Shown in time order from top to bottom, representing communication between objects.
+
+### Message Types:
+
+- **Synchronous messages**: Sender waits for a return value.
+- **Asynchronous messages**: Sender does not wait for a return value.
+- **Self-messages**: A message sent to the same [[object]].
+- **Conditional messages**: Messages based on conditions.
+- **Loops/Iterations**: Repeated interactions.
+- **Alternative and Optional fragments**: Represent conditional and optional paths.
+
+---
+
+## Steps in Creating a Sequence Diagram
+
+1. **Identify Participants**:
+    - Read the use case narrative and identify classes, objects, and actors (nouns).
+2. **Identify Messages**:
+    - Look for actions (verbs) that represent the interactions or methods between objects.
+3. **Arrange Participants and Messages**:
+    - Lifelines are placed in columns, and messages flow horizontally across rows in time order.
+
+---
+
+## Example: Booking a Room
+
+**Narrative Steps**:
+
+1. Customer queries available rooms.
+2. Store customer details.
+3. Check room [[availability]] in the diary.
+4. Room is available; advise the customer.
+5. Customer requests a reservation.
+6. Provisionally book the room.
+7. Calculate price and advise the customer.
+8. Check customer credit and finalize the booking if credit is valid.
+
+---
+
+## Conditional and Iterative Messages in Sequence Diagrams
+
+- **Conditional fragments (`alt`)**: Represent choices based on conditions (e.g., if a room is available).
+- **Loop fragments (`loop`)**: Represent iterations or repeated actions (e.g., multiple rooms).
+- **Optional fragments (`opt`)**: Optional interactions that only occur if certain conditions are true.
+
+---
+
+## System Sequence Diagram vs. [[Object]] Sequence Diagram
+
+- **System Sequence Diagram**: Represents interactions between the actor and system as a black box.
+- **[[Object]] Sequence Diagram**: Focuses on interactions between internal objects within the system.
+
+---
+
+## Relation to [[Class]] Diagrams
+
+- Sequence diagrams are closely related to [[class]] diagrams:
+    - They can reveal new methods or classes that need to be added to the [[class]] diagram.
+    - Sequence diagrams [[help]] refine [[class]] diagrams by updating relationships and methods based on [[object]] interactions.
+
+---
+
+## Example Use Case: Online Booking System (OBS) Registration
+
+**Use Case Steps**:
+
+1. User clicks "Register Online" on the OBS.
+2. OBS displays the registration page.
+3. Customer fills out the required fields.
+4. OBS validates the [[input]] and either creates a new user or displays an error.
+5. OBS stores the [[data]] and shows "Registration Complete."
+
+---
+
+## Summary of Sequence Diagrams
+
+- **Lifeline boxes** represent participants (actors, systems, objects).
+- **Messages** show interactions between participants over time.
+- **Activation bars** indicate when an [[object]] is active in the [[process]].
+- Sequence diagrams provide a visual representation of interactions within a system and [[help]] refine [[class]] diagrams.

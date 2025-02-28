@@ -16,7 +16,7 @@
   - **Fragmentation**: IP datagrams can be fragmented into smaller packets.
 - **Addressing**:
   - IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses.
-  - **NAT (Network Address Translation)**: Maps private IP addresses to a public IP.
+  - **[[NAT]] ([[Network Address Translation]])**: Maps private IP addresses to a public IP.
 
 ## 4.4 Generalized Forwarding and SDN (Software-Defined Networking)
 - **Match + Action**:
@@ -87,11 +87,11 @@
 
 ## Subnetting
 - A subnet is a logical subdivision of an IP network. Devices within a subnet can communicate without passing through a router.
-- **Subnet Masks**: Define the network and host parts of an IP address.
+- **Subnet Masks**: Define the network and host parts of an [[IP address]].
 
 ---
 
-# IP Address Classes and CIDR
+# [[IP Address]] Classes and CIDR
 
 ## Classful Addressing
 - **[[Class]] A**: /8 mask, for large networks.

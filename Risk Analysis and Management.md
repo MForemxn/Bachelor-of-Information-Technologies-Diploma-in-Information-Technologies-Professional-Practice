@@ -17,7 +17,7 @@
 - improvement
 - planning
 # [[Risk Identification]]
-Risk [[[identification]]](app://obsidian.md/identification) in [cybersecurity](app://obsidian.md/cybersecurity) involves recognising potential threats and vulnerabilities to protect [information systems](app://obsidian.md/information%20systems) and [data](app://obsidian.md/[[data]]) from cyber attacks.
+Risk [[[identification]]](app://obsidian.md/identification) in [[[cybersecurity]]](app://obsidian.md/[[cybersecurity]]) involves recognising potential threats and vulnerabilities to protect [information systems](app://obsidian.md/information%20systems) and [data](app://obsidian.md/[[data]]) from cyber attacks.
 ## Asset [[Identification]] 
 > Asset [[Identification]] refers to the [[Process]] of cataloguing and understanding all assets within an organisation that need protection from [[cybersecurity]] threats.  
 ## Threat [[Identification]] 

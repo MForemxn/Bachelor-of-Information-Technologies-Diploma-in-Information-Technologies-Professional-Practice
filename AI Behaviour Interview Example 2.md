@@ -571,7 +571,7 @@ Start by detailing what features your app will have. For the "Recycling Helper" 
 - **Location Services**: To show nearby recycling points based on the user's location.
 - **User Account and History**: To track user recycling habits and perhaps reward them for consistent recycling.
 
-### Step 2: Sketch the User Interface
+### Step 2: Sketch the [[User Interface]]
 
 Draw up wireframes or sketches of how you want your app to look. This helps in visualizing the user flow and the overall design of the app. Tools like Figma, Sketch, or even paper sketches can be effective for this phase.
 

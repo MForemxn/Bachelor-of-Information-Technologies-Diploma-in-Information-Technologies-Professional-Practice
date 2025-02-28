@@ -17,7 +17,7 @@
 
 # Web Application Architecture
 - client-server architecture: separates the application into two main components, the client (front-end) and the server (back-end)
-- front-end: the user interface and interaction layer, built using HTML, CSS, and JavaScript
+- front-end: the [[user interface]] and interaction layer, built using HTML, CSS, and JavaScript
 - back-end: the server, [[database]], and application logic layer, responsible for processing requests, storing [[data]], and generating responses
 - communication between the client and server typically occurs over the HTTP/HTTPS protocol
 

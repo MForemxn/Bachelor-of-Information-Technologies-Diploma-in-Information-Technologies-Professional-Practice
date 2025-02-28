@@ -27,7 +27,7 @@ For instance, to go to a particular folder, you'd type:
 
 The command line interface (or [[CLI]] for short) is similar to DOS in that it uses commands to perform various operations, like creating files, creating folders, installing programs, and what have you.
 
-The advancement of technology over the years brought about the popular GUI (Graphical User Interface) and made [[Operating Systems]] less stressful to use.
+The advancement of technology over the years brought about the popular GUI (Graphical [[User Interface]]) and made [[Operating Systems]] less stressful to use.
 
 Although developers (and non-technical users) often use the GUI these days, sometimes working directly from the [[CLI]] is useful or necessary, irrespective of your stack.
 
@@ -189,7 +189,7 @@ GUI vs [[CLI]] image
 
 As we've discussed, the [[CLI]] uses commands to generally interact with the computer.
 
-On the other hand, the Graphical User Interface (GUI) is a method of interacting with the computer using icons, menus, mouse clicks, and pointers. 
+On the other hand, the Graphical [[User Interface]] (GUI) is a method of interacting with the computer using icons, menus, mouse clicks, and pointers. 
 
 An Operating System that is GUI-based allows users to freely operate the computer by clicking, dragging, dropping, and other visual methods of interacting with the computer.
 

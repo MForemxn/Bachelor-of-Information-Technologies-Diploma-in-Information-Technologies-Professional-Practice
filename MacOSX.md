@@ -12,7 +12,7 @@ Mac OS X Leopard is the first version of Mac OS X to run on the [MacBook Air](h
 
 ## New and changed features
 
-### User interface
+### [[User interface]]
 
 Mac OS X Leopard made many changes to the [user interface](https://en.wikipedia.org/wiki/User_interface "User interface"). This includes a more detailed, transparent menu bar, [skeuomorphic](https://en.wikipedia.org/wiki/Skeuomorphism "Skeuomorphism") system icons, and a glossy, reflective, 3D Dock. Windows lost their metallic, lined look they had previously. As well as this, the Apple icon is now black instead of blue. This is notably very similar to [IPhone OS 1](https://en.wikipedia.org/wiki/IPhone_OS_1 "IPhone OS 1")'s user interface. Rory Prior, on the ThinkMac blog, criticized a number of changes to Leopard's user interface, including the transparent menu bar and the new folder icons.[13] Decreased transparency of the menu bar, along with the ability to disable the menu bar transparency were added with the 10.5.2 release on February 11, 2008.[14]
 

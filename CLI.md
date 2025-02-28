@@ -14,7 +14,7 @@
 - often preferred by more advanced users due to its precision and the ability to automate tasks
 
 # Advantages of CLI
-- **Efficiency and Speed**: executing commands through CLI can be much faster than navigating through a graphical user interface ([[GUI]])
+- **Efficiency and Speed**: executing commands through CLI can be much faster than navigating through a graphical [[user interface]] ([[GUI]])
 - **Scripting and Automation**: allows for the creation of scripts to automate repetitive tasks, saving time and reducing the potential for human error
 - **Resource Consumption**: generally consumes fewer system resources than GUIs, making it ideal for older hardware or systems with limited resources
 - **[[Remote Access]]**: CLI is particularly useful for remote system management, as it can be accessed and used effectively over low-bandwidth connections

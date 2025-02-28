@@ -2,7 +2,7 @@
 
 - AWS VPC (Amazon Web Services Virtual Private Cloud) is a service that allows users to launch AWS resources in a logically isolated virtual network.
 - This virtual network closely resembles a traditional network that you'd operate in your own [[data]] centre, but with the benefits of using the scalable infrastructure of AWS.
-- Users have complete control over their virtual networking environment, including selection of IP address range, creation of subnets, and configuration of route tables and network gateways.
+- Users have complete control over their virtual networking environment, including selection of [[IP address]] range, creation of subnets, and configuration of route tables and network gateways.
 
 # Key Features of AWS VPC
 
@@ -13,14 +13,14 @@
 
 # AWS VPC Destinations
 
-- **Subnets**: Divisions of a VPC's IP address range where you can place groups of isolated resources.
+- **Subnets**: Divisions of a VPC's [[IP address]] range where you can place groups of isolated resources.
 - **Internet Gateway (IGW)**: A gateway that you attach to your VPC to enable communication between resources in your VPC and [[the internet]].
-- **NAT Gateways and Instances**: These allow instances in a private subnet to connect to [[the internet]] or other AWS services, but prevent [[the internet]] from initiating a connection with those instances.
+- **[[NAT]] Gateways and Instances**: These allow instances in a private subnet to connect to [[the internet]] or other AWS services, but prevent [[the internet]] from initiating a connection with those instances.
 - **VPC Peering**: A networking connection between two VPCs that enables you to route traffic between them using private IPv4 or IPv6 addresses.
 - **Virtual Private Gateway (VGW)**: The Amazon VPC side of a VPN connection.
 - **Customer Gateway (CGW)**: The customer side of a VPN connection.
 - **Transit Gateway**: A service that enables customers to connect their Amazon VPCs and their on-premises networks to a single gateway.
-- **Endpoint Services**: Private connections between your VPC and supported AWS services, without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection.
+- **Endpoint Services**: Private connections between your VPC and supported AWS services, without requiring an internet gateway, [[NAT]] device, VPN connection, or AWS Direct Connect connection.
 
 # [[Security]] in AWS VPC
 

@@ -18,14 +18,14 @@
 ### [[Firewall]] Rule Example
 - Here is an example of a rule for a [[firewall]] that only examines the incoming traffics
 ![[Screenshot 2024-09-17 at 11.09.18 am.png]]
-- The above rule states that any packet destined to IP address 120.10.10.0 with port number greater than 1023 should be allowed to pass through.
+- The above rule states that any packet destined to [[IP address]] 120.10.10.0 with port number greater than 1023 should be allowed to pass through.
 - As a misconfigured [[firewall]] may put the entire network at risk, [[firewall]] rules must be carefully crafted, placed into the list in the proper sequence, debugged, and tested.
 ## Firewall Types
 - One way to differentiate the various firewall types is to look at where in the Open Systems Interconnection (OSI) model the firewall processing modes inspects data.
 ![[Screenshot 2024-09-17 at 11.11.03 am.png]]
 
 ## Packet Filtering Firewall
-- ﻿﻿Packet filtering is a network security solution that can be configured to block or allow transmission of packets based on criteria such as port, IP address, protocol, etc.
+- ﻿﻿Packet filtering is a network security solution that can be configured to block or allow transmission of packets based on criteria such as port, [[IP address]], protocol, etc.
 - ﻿﻿Capable of both incoming (traffic that originates elsewhere) and outgoing (traffic that originates within the network)
 - ﻿﻿A variety of hardware devices and software programs perform packet filtering:
 	- ﻿﻿Routers: probably most common packet filters

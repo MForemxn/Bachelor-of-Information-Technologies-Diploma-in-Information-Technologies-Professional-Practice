@@ -5,7 +5,7 @@ Learning the [[Bash]] command-line interface will enable you to quickly and effe
 
 ## 1. Working directory
 
-The most elementary concept which distinguishes the shell from the graphical user interface is the fact that at any given time you, the user, are located in a directory/folder of the file system.
+The most elementary concept which distinguishes the shell from the graphical [[user interface]] is the fact that at any given time you, the user, are located in a directory/folder of the file system.
 
 ##   
 1.1. Executing a command

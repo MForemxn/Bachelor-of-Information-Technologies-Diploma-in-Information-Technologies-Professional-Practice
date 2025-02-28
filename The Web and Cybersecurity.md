@@ -36,7 +36,7 @@
 
 - [[Security]] services utilize mechanisms to protect against attacks that compromise the [[security]] of information.
 - Types of attacks include those against [[availability]], [[confidentiality]], [[integrity]], and authenticity.
-- Typical [[security]] services include [[confidentiality]] ([[encryption]]), [[authentication]], [[integrity]] verification, non-repudiation, access control, and ensuring [[availability]].
+- Typical [[security]] services include [[confidentiality]] ([[encryption]]), [[authentication]], [[integrity]] verification, [[non-repudiation]], access control, and ensuring [[availability]].
 
 ### [[Encryption]]
 
@@ -50,7 +50,7 @@
 
 ### [[Authentication]]
 
-- [[Authentication]] verifies identity and is key for non-repudiation and access control.
+- [[Authentication]] verifies identity and is key for [[non-repudiation]] and access control.
 - It involves verifying something the user knows (e.g., a password), has (e.g., a token), or is ([[Biometric|biometric data]]).
 
 ### Access Controls

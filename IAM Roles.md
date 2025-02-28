@@ -26,7 +26,7 @@
 - enable multi-factor [[authentication]] (MFA) for sensitive accounts and roles to add an extra layer of [[security]].
 
 # Advanced Features
-- iam policies support condition elements that allow permissions to be fine-tuned based on various factors like IP address, date/time, etc.
+- iam policies support condition elements that allow permissions to be fine-tuned based on various factors like [[IP address]], date/time, etc.
 - service-linked roles are pre-defined by AWS services and are designed to grant permissions that the service requires to call other AWS services on your behalf.
 - iam Access Analyser helps identify resources in your AWS accounts and public and cross-account access to them to ensure that policies grant only the intended access.
 

@@ -45,7 +45,7 @@
 | 9     | 7 October 2024 | **No lecture this week due to public holiday**<br>**Workshop:**<br>1. Assessment task 3: Midterm Quiz<br>2. In-class feedback for Assessment 1<br>**Notes:**<br>Attendance required for the in-class open book Quiz.<br>7 October is a public holiday. The make-up quiz for Monday classes is rescheduled in STUVAC 2. |
 | 10    | 14 October 2024 | **Security Management Practices**<br>**Workshop:**<br>1. Challenges to Data Security<br>2. In-class feedback for Assessment 3                                                                                       |
 | 11    | 21 October 2024 | **Law and Ethics**<br>**Workshop:**<br>1. Monitoring and Observability<br>2. In-class feedback to individual report                                                                                                  |
-| 12    | 28 October 2024 | **Personnel Cybersecurity**<br>**Workshop:** 3MT Presentation<br>**Notes:**<br>Deliverables: Assessment task 2: Security Management Report due at 11:59 AM 28/10/2024                                            |
+| 12    | 28 October 2024 | **Personnel [[Cybersecurity]]**<br>**Workshop:** 3MT Presentation<br>**Notes:**<br>Deliverables: Assessment task 2: Security Management Report due at 11:59 AM 28/10/2024                                            |
 | STUVAC 2 | 4 November 2024 | **Make-up quiz for Monday classes**<br>**Notes:**<br>Peer-review for Assessment 2 due at 11:59 AM 11/11/2024                                                                                                        |
 
 ## [[Network Fundamentals]]

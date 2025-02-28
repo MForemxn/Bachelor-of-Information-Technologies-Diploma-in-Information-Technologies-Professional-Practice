@@ -47,14 +47,14 @@ UDP: User Datagram Protocol
 
 How [[demultiplexing]] works
 - host receives IP datagrams
-- each datagram has source IP address, destination IP address
+- each datagram has source [[IP address]], destination [[IP address]]
 - each datagram carries one transport-layer segment
 - each segment has source, destination port number
 - host uses IP addresses & port numbers to direct segment to appropriate socket
 ## Connectionless (UDP) [[demultiplexing]]
 - when creating socket, must specify host-local port #: `serverSock.bind((’’, 12000));`
 - when creating datagram to send into UDP socket, must specify 
-	- destination IP address 
+	- destination [[IP address]] 
 	- destination port #
 - when receiving host receives UDP segment:
 	- checks destination port # in segment
@@ -64,9 +64,9 @@ How [[demultiplexing]] works
 ![[Screenshot 2024-09-03 at 4.55.07 pm.png]]
 ## Connection-oriented (TCP) [[demultiplexing]]
 - TCP socket identified by 4-tuple:
-	- source IP address
+	- source [[IP address]]
 	- source port number
-	- dest IP address
+	- dest [[IP address]]
 	- dest port number
 - demux: receiver uses all four values (4-tuple) to direct segment to appropriate socket
 - server may support many simultaneous TCP sockets:

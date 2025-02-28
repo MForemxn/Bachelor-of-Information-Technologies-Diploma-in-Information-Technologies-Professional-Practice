@@ -12,7 +12,7 @@
 # Methods to Ensure Integrity
 - cryptographic hash functions: generate a unique hash value for [[data]], which changes if the [[data]] is altered
 	- used to verify [[data integrity]] by comparing hash values before and after transmission or storage
-- digital signatures: provide [[authentication]] and non-repudiation, ensuring that a message or document is not tampered with
+- digital signatures: provide [[authentication]] and [[non-repudiation]], ensuring that a message or document is not tampered with
 	- involves encrypting a hash of the message with a private key, which can be verified with the corresponding public key
 - access controls: limit who can modify [[data]], reducing the risk of unauthorised alterations
 	- includes mechanisms for [[authentication and authorisation]]
@@ -29,7 +29,7 @@
 
 # Digital Signature Schemes
 - RSA, DSA, and ECDSA are popular algorithms used for digital signatures
-- digital signatures not only ensure integrity but also provide [[authentication]] and non-repudiation
+- digital signatures not only ensure integrity but also provide [[authentication]] and [[non-repudiation]]
 
 # Access Control Mechanisms
 - role-based access control (RBAC): restricts system access to authorised users based on their roles

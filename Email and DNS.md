@@ -77,12 +77,12 @@
 	- people: many identifiers:
 	- SSN, name, passport #
 	- Internet hosts, routers:
-		- IP address (32 bit) - used for addressing datagrams
+		- [[IP address]] (32 bit) - used for addressing datagrams
 		- “name”, e.g., cs.umass.edu - used by humans
 ## [[DNS]] Services
-- hostname to IP address translation
+- hostname to [[IP address]] translation
 - host aliasing
-	- canonical, alias names: one IP address corresponds to multiple host names
+	- canonical, alias names: one [[IP address]] corresponds to multiple host names
 - mail server aliasing
 - load distribution
 	- replicated Web servers: many IP addresses correspond to one name
@@ -93,16 +93,16 @@
 - distant centralised [[database]]
 - [[maintenance]]
 ## [[DNS]]: a distributed, hierarchical [[database]]
-- Client wants IP address for www.amazon.com; 1st approximation:
+- Client wants [[IP address]] for www.amazon.com; 1st approximation:
 - client queries root server to find .com [[DNS]] server
 - client queries .com [[DNS]] server to get amazon.com [[DNS]] server
-- client queries amazon.com [[DNS]] server to get  IP address for www.amazon.com
+- client queries amazon.com [[DNS]] server to get  [[IP address]] for www.amazon.com
 ![[Screenshot 2024-08-27 at 4.36.13 pm.png]]
 ## [[DNS]]: root name servers
 - official, contact-of-last-resort by name servers that can not resolve name
 - incredibly important Internet [[function]]
 	- Internet couldn’t [[function]] without it!
-	- DNSSEC – provides [[security]] ([[authentication]] and message [[integrity]])
+	- [[DNSSEC]] – provides [[security]] ([[authentication]] and message [[integrity]])
 - ICANN (Internet Corporation for Assigned Names and Numbers) manages root [[DNS]] domain
 ## TLD: authoritative servers
 ### Top-Level Domain (TLD) servers:
@@ -126,7 +126,7 @@
 	- server [[process]] must first be running
 	- server must have created socket (door) that welcomes client’s contact
 - Client contacts server by:
-	- Creating TCP socket, specifying IP address, port number of server [[process]]
+	- Creating TCP socket, specifying [[IP address]], port number of server [[process]]
 	- when client creates socket: client TCP establishes connection to server TCP
 - when contacted by client, server TCP creates new socket for server [[process]] to communicate with that particular client
 	- allows server to talk with multiple clients

@@ -140,7 +140,7 @@ The software development and consulting companies Intevation GmbH of Germany and
 
 KDE participates in [freedesktop.org](https://en.wikipedia.org/wiki/Freedesktop.org "Freedesktop.org"), an effort to standardize Unix desktop interoperability.
 
-In 2009 and 2011, [GNOME](https://en.wikipedia.org/wiki/GNOME "GNOME") and KDE co-hosted their conferences [Akademy](https://en.wikipedia.org/wiki/Akademy "Akademy") and [GUADEC](https://en.wikipedia.org/wiki/GNOME_Users_And_Developers_European_Conference "GNOME Users And Developers European Conference") under the _Desktop Summit_ label.
+In 2009 and 2011, [[[GNOME]]](https://en.wikipedia.org/wiki/GNOME "GNOME") and KDE co-hosted their conferences [Akademy](https://en.wikipedia.org/wiki/Akademy "Akademy") and [GUADEC](https://en.wikipedia.org/wiki/GNOME_Users_And_Developers_European_Conference "GNOME Users And Developers European Conference") under the _Desktop Summit_ label.
 
 In December 2010 KDE e.V. became a licensee of the [Open Invention Network](https://en.wikipedia.org/wiki/Open_Invention_Network "Open Invention Network").[44]
 

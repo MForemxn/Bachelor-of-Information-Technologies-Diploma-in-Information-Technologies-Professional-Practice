@@ -12,7 +12,7 @@ A WAN (Wide Area Network) connects devices across large geographical areas, enab
 8. Satellite Communication
 9. Fiber Optics
 10. 4G/5G Cellular Networks
-11. IP Address
+11. [[IP Address]]
 12. Network Protocol
 13. TCP/IP (Transmission Control Protocol/Internet Protocol)
 14. Network [[Security]]

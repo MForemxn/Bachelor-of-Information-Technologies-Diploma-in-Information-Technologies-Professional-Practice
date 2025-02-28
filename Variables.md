@@ -52,7 +52,7 @@ Variables are storage for information
 - **Object-oriented programming (OOP)**: variables are often attributes of objects, representing the object's [[state]]
 - **Functional programming**: variables are used less frequently in the traditional sense, as this paradigm emphasises immutability and functions over [[state]]
 
-# Memory Management
+# [[Memory Management]]
 - understanding how variables are stored in memory is crucial for efficient programming
 - stack and heap are two key areas where variables can be stored:
 	- **Stack**: stores local variables and function call information; has faster access but limited size

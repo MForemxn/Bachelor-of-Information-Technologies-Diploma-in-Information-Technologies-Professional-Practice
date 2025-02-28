@@ -33,7 +33,7 @@
 # UNIX Architecture
 - The UNIX operating system architecture is layered and includes the following components from lowest to highest:
 	- Hardware (CPU, memory, I/O devices)
-	- Kernel (core part of the OS, manages hardware resources, process and memory management)
+	- Kernel (core part of the OS, manages hardware resources, process and [[memory management]])
 		- Manages file systems, networking, and system calls
 		- Acts as an interface between hardware and user applications
 	- Shell (command-line interface or [[CLI]])
