@@ -61,7 +61,7 @@
 | 7     | 16-20/9      | **Network layer: [[data]] plane**<br>**Notes:**<br>4.1 Overview of Network layer<br>4.2 What’s inside a router<br>**Tutorial, Lab**                                        |
 | 8     | 23-27/9      | **Network layer: IP**<br>**Notes:**<br>4.3 IP: Internet Protocol<br>**Tutorial, Lab**                                                                       |
 | 9     | 30/9-4/10    | **StuVac Week**<br>No lecture, no tutorial/lab.                                                                                                               |
-| 9     | 7-11/10      | **Network layer: routing algorithms**<br>**Notes:**<br>5.1 Introduction<br>5.2 Routing algorithms<br>**Tutorial, Lab**<br>**Assignment 3**                             |
-| 10    | 14-18/10     | **Network layer: routing protocols**<br>**Notes:**<br>5.3 Intra-AS routing in [[the Internet]]: OSPF<br>5.4 Routing among the ISPs: BGP<br>5.6 ICMP<br>5.7 SNMP<br>**Tutorial, Lab** |
+| 9     | 7-11/10      | **Network layer: [[routing]] algorithms**<br>**Notes:**<br>5.1 Introduction<br>5.2 [[Routing]] algorithms<br>**Tutorial, Lab**<br>**Assignment 3**                             |
+| 10    | 14-18/10     | **Network layer: [[routing]] protocols**<br>**Notes:**<br>5.3 Intra-AS [[routing]] in [[the Internet]]: OSPF<br>5.4 [[Routing]] among the ISPs: BGP<br>5.6 ICMP<br>5.7 SNMP<br>**Tutorial, Lab** |
 | 11    | 21-25/10     | **Link Layer**<br>**Notes:**<br>6.1 Introduction, services<br>6.2 Error detection, correction<br>6.3 Multiple access protocols<br>**Tutorial, Lab**                   |
 | 12    | 28/10-1/11   | **Link Layer - LANs**<br>**Notes:**<br>6.4 Switched LANs<br>6.7 Retrospective: a day in the life of a web request<br>**Tutorial, Lab:** Project 2, assessment in lab class |

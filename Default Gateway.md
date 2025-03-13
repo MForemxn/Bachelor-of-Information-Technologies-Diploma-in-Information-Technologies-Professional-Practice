@@ -13,12 +13,12 @@ A default gateway serves as an access point or IP router that a networked comput
 6. Enables communication with external servers and services.
 7. Critical for network connectivity and functionality.
 8. Without it, external network access is impossible.
-9. Configuring it ensures proper [[data]] packet routing.
+9. Configuring it ensures proper [[data]] packet [[routing]].
 10. Vital for both [[home]] and enterprise networks.
 
 # TAKEAWAYS:
 1. Default gateways are crucial for network communication.
 2. They enable access to external networks and [[the internet]].
-3. Proper configuration ensures seamless [[data]] routing.
+3. Proper configuration ensures seamless [[data]] [[routing]].
 4. They are typically the first address in a subnet.
 5. Essential for maintaining network connectivity and functionality.

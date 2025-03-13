@@ -11,4 +11,6 @@
 # In Class Activities
 [[Cybersecurity Lab 1, Part 1]]
 [[Cybersecurity Lab 1, Part 2]]
+[[Cybersecurity Lab 2, Part 1]]
+[[Cybersecurity Lab 3, Part 1]]
 # Assessment Tasks

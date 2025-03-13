@@ -5,26 +5,82 @@
   "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "line:\"network\" OR line:\"tcp/ip\" OR line:\"routing\" OR line:\"switching\" OR line:\"protocols\" OR line:\"osi\" OR line:\"subnet\" OR line:\"vlan\" OR line:\"dhcp\" OR line:\"dns\" OR line:\"nat\" OR line:\"wan\" OR line:\"lan\" OR line:\"gateway\" OR line:\"router\" OR line:\"firewall\" OR line:\"packet\" OR line:\"ethernet\" OR line:\"wifi\" OR line:\"wireless\" OR line:\"topology\" OR line:\"cisco\" OR line:\"juniper\" OR line:\"bgp\" OR line:\"ospf\" OR line:\"rip\" OR line:\"ipv4\" OR line:\"ipv6\" OR line:\"arp\" OR line:\"mac address\"",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
+    },
+    {
+      "query": "line:\"security\" OR line:\"encryption\" OR line:\"vulnerability\" OR line:\"threat\" OR line:\"exploit\" OR line:\"mitigation\" OR line:\"malware\" OR line:\"virus\" OR line:\"trojan\" OR line:\"ransomware\" OR line:\"phishing\" OR line:\"social engineering\" OR line:\"penetration testing\" OR line:\"pentest\" OR line:\"hack\" OR line:\"attack\" OR line:\"defense\" OR line:\"firewall\" OR line:\"ids\" OR line:\"ips\" OR line:\"siem\" OR line:\"incident response\" OR line:\"forensics\" OR line:\"authentication\" OR line:\"authorization\" OR line:\"access control\" OR line:\"cryptography\" OR line:\"hash\" OR line:\"key\" OR line:\"certificate\" OR line:\"vpn\" OR line:\"zero trust\" OR line:\"breach\" OR line:\"cyber\" OR line:\"risk\" OR line:\"compliance\" OR line:\"security policy\"",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "line:\"infrastructure\" OR line:\"server\" OR line:\"datacenter\" OR line:\"cloud\" OR line:\"virtualization\" OR line:\"aws\" OR line:\"azure\" OR line:\"gcp\" OR line:\"vmware\" OR line:\"hypervisor\" OR line:\"esxi\" OR line:\"container\" OR line:\"docker\" OR line:\"kubernetes\" OR line:\"k8s\" OR line:\"storage\" OR line:\"san\" OR line:\"nas\" OR line:\"raid\" OR line:\"backup\" OR line:\"disaster recovery\" OR line:\"high availability\" OR line:\"load balancer\" OR line:\"proxy\" OR line:\"hosting\" OR line:\"colocation\" OR line:\"on-premises\" OR line:\"hybrid cloud\" OR line:\"iaas\" OR line:\"paas\" OR line:\"saas\" OR line:\"virtual machine\" OR line:\"vm\" OR line:\"active directory\" OR line:\"ldap\" OR line:\"dns server\" OR line:\"dhcp server\"",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "line:\"code\" OR line:\"script\" OR line:\"python\" OR line:\"bash\" OR line:\"automation\" OR line:\"programming\" OR line:\"algorithm\" OR line:\"function\" OR line:\"variable\" OR line:\"loop\" OR line:\"condition\" OR line:\"class\" OR line:\"object\" OR line:\"powershell\" OR line:\"javascript\" OR line:\"html\" OR line:\"css\" OR line:\"sql\" OR line:\"database\" OR line:\"api\" OR line:\"json\" OR line:\"xml\" OR line:\"yaml\" OR line:\"git\" OR line:\"github\" OR line:\"version control\" OR line:\"devops\" OR line:\"ci/cd\" OR line:\"jenkins\" OR line:\"ansible\" OR line:\"terraform\" OR line:\"iac\" OR line:\"infrastructure as code\" OR line:\"regex\" OR line:\"library\" OR line:\"framework\" OR line:\"ide\" OR line:\"compiler\" OR line:\"interpreter\"",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
+    },
+    {
+      "query": "line:\"certification\" OR line:\"exam\" OR line:\"comptia\" OR line:\"cisco\" OR line:\"ccna\" OR line:\"ccnp\" OR line:\"ccie\" OR line:\"security+\" OR line:\"network+\" OR line:\"a+\" OR line:\"cysa+\" OR line:\"pentest+\" OR line:\"casp+\" OR line:\"aws certified\" OR line:\"azure certified\" OR line:\"gcp certified\" OR line:\"mcsa\" OR line:\"mcse\" OR line:\"rhcsa\" OR line:\"rhce\" OR line:\"lpic\" OR line:\"ceh\" OR line:\"oscp\" OR line:\"cissp\" OR line:\"cism\" OR line:\"cisa\" OR line:\"itil\" OR line:\"pmp\" OR line:\"study\" OR line:\"training\" OR line:\"practice test\" OR line:\"question\" OR line:\"answer\" OR line:\"objective\" OR line:\"domain\"",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "line:\"project\" OR line:\"assignment\" OR line:\"lab\" OR line:\"practical\" OR line:\"exercise\" OR line:\"workshop\" OR line:\"homework\" OR line:\"task\" OR line:\"implementation\" OR line:\"case study\" OR line:\"research\" OR line:\"portfolio\" OR line:\"demonstration\" OR line:\"prototype\" OR line:\"poc\" OR line:\"development\" OR line:\"design\" OR line:\"proposal\" OR line:\"documentation\" OR line:\"report\" OR line:\"deliverable\" OR line:\"milestone\" OR line:\"deadline\" OR line:\"requirement\" OR line:\"specification\" OR line:\"test case\" OR line:\"validation\" OR line:\"verification\" OR line:\"presentation\" OR line:\"group work\" OR line:\"teamwork\"",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "line:\"tool\" OR line:\"wireshark\" OR line:\"nmap\" OR line:\"metasploit\" OR line:\"burpsuite\" OR line:\"kali\" OR line:\"parrot\" OR line:\"linux\" OR line:\"windows\" OR line:\"command line\" OR line:\"cli\" OR line:\"terminal\" OR line:\"powershell\" OR line:\"bash\" OR line:\"ssh\" OR line:\"rdp\" OR line:\"telnet\" OR line:\"ftp\" OR line:\"sftp\" OR line:\"tcpdump\" OR line:\"netstat\" OR line:\"ping\" OR line:\"traceroute\" OR line:\"dig\" OR line:\"nslookup\" OR line:\"whois\" OR line:\"snort\" OR line:\"splunk\" OR line:\"elk\" OR line:\"openvas\" OR line:\"vulnerability scanner\" OR line:\"packet analyzer\" OR line:\"packet sniffer\" OR line:\"monitoring\" OR line:\"logging\" OR line:\"hashcat\" OR line:\"john the ripper\" OR line:\"hydra\" OR line:\"aircrack\" OR line:\"autopsy\" OR line:\"volatility\" OR line:\"ghidra\" OR line:\"ida pro\" OR line:\"debugger\"",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
+    {
+      "query": "line:\"theory\" OR line:\"concept\" OR line:\"model\" OR line:\"framework\" OR line:\"architecture\" OR line:\"design\" OR line:\"principle\" OR line:\"methodology\" OR line:\"best practice\" OR line:\"standard\" OR line:\"reference\" OR line:\"diagram\" OR line:\"topology\" OR line:\"structure\" OR line:\"process\" OR line:\"procedure\" OR line:\"guideline\" OR line:\"definition\" OR line:\"explanation\" OR line:\"fundamentals\" OR line:\"basics\" OR line:\"introduction\" OR line:\"overview\" OR line:\"summary\" OR line:\"analysis\" OR line:\"comparison\" OR line:\"difference\" OR line:\"similarity\" OR line:\"advantage\" OR line:\"disadvantage\" OR line:\"limitation\" OR line:\"constraint\" OR line:\"rule\" OR line:\"algorithm\" OR line:\"protocol\" OR line:\"mechanism\"",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "line:\"standard\" OR line:\"compliance\" OR line:\"regulation\" OR line:\"iso\" OR line:\"nist\" OR line:\"cis\" OR line:\"framework\" OR line:\"benchmark\" OR line:\"control\" OR line:\"requirement\" OR line:\"policy\" OR line:\"governance\" OR line:\"audit\" OR line:\"assessment\" OR line:\"gdpr\" OR line:\"hipaa\" OR line:\"pci dss\" OR line:\"soc2\" OR line:\"soc\" OR line:\"fisma\" OR line:\"fedramp\" OR line:\"ccpa\" OR line:\"privacy\" OR line:\"data protection\" OR line:\"breach notification\" OR line:\"regulatory\" OR line:\"legal\" OR line:\"law\" OR line:\"mandate\" OR line:\"directive\" OR line:\"guideline\" OR line:\"best practice\" OR line:\"baseline\" OR line:\"maturity model\" OR line:\"capability model\" OR line:\"iso 27001\" OR line:\"iso 27002\" OR line:\"cobit\" OR line:\"itil\" OR line:\"risk management\" OR line:\"risk assessment\"",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.2,
+  "nodeSizeMultiplier": 2.60303548177083,
+  "lineSizeMultiplier": 0.603238932291667,
   "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 17.3697916666667,
-  "linkStrength": 0.707112630208333,
-  "linkDistance": 30,
-  "scale": 0.08936288605141597,
+  "centerStrength": 0.316935221354167,
+  "repelStrength": 20,
+  "linkStrength": 0.336018880208333,
+  "linkDistance": 500,
+  "scale": 0.03889386395305747,
   "close": true
 }

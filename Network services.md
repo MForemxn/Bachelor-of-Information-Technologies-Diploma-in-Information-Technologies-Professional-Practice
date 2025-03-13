@@ -13,12 +13,12 @@
 - directory services: manage user and device information, enabling network [[authentication and authorisation]]
 - file services: allow for the storage, retrieval, and sharing of files over a network
 - web services: deliver content and applications over [[the internet]] using protocols like HTTP and HTTPS
-- email services: facilitate the sending and receiving of electronic messages through protocols such as SMTP, IMAP, and POP3
+- email services: facilitate the sending and receiving of electronic messages through protocols such as [[SMTP]], [[IMAP]], and [[POP3]]
 
 # Network Service Protocols
 - [[DHCP]] (Dynamic Host Configuration Protocol): automatically assigns IP addresses to devices on a network, simplifying network management
 - [[DNS]] (Domain Name System): translates human-readable domain names to IP addresses, enabling users to access websites using familiar names
-- FTP (File Transfer Protocol): used for transferring files between computers on a network, supporting both upload and download operations
+- [[FTP]] (File Transfer Protocol): used for transferring files between computers on a network, supporting both upload and download operations
 - SNMP (Simple Network Management Protocol): allows for the monitoring and management of network devices, providing insights into network performance
 
 # Challenges in Network Services Management

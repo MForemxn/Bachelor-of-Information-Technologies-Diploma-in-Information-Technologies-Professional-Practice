@@ -126,7 +126,7 @@
 - [x] **[[Database]] Design:** Plan your MongoDB schema to handle user [[data]], expense records, and transaction logs efficiently.
 
 ### Step 3: Frontend Development
-- [ ] **Set Up Next.js:** Initialize a Next.js project as the framework provides efficient routing and SEO capabilities.
+- [ ] **Set Up Next.js:** Initialize a Next.js project as the framework provides efficient [[routing]] and SEO capabilities.
 - [ ] **React Components:** Develop reusable React components for various UI elements like buttons, forms, and expense logs.
 - [ ] **[[State]] Management:** Use React hooks like `useState` and `useEffect` for managing [[state]] within your app.
 

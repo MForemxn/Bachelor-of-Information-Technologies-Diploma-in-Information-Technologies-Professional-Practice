@@ -25,7 +25,7 @@
 ![[Screenshot 2024-09-17 at 11.11.03 am.png]]
 
 ## Packet Filtering Firewall
-- ﻿﻿Packet filtering is a network security solution that can be configured to block or allow transmission of packets based on criteria such as port, [[IP address]], protocol, etc.
+- ﻿﻿Packet filtering is a [[network security]] solution that can be configured to block or allow transmission of packets based on criteria such as port, [[IP address]], protocol, etc.
 - ﻿﻿Capable of both incoming (traffic that originates elsewhere) and outgoing (traffic that originates within the network)
 - ﻿﻿A variety of hardware devices and software programs perform packet filtering:
 	- ﻿﻿Routers: probably most common packet filters
@@ -50,7 +50,7 @@
 ![[Screenshot 2024-09-17 at 11.13.58 am.png]]
 - The client and the server communicate with each other through a proxy service running on the firewall.
 - Each application requiring the firewall support must instantiate a proxy service on the firewall. For example:
-	- a Simple Mail Transport Protocol (SMTP) proxy for e-mail,
+	- a Simple Mail Transport Protocol ([[SMTP]]) proxy for e-mail,
 	- an HTTP proxy for Web services
 - When the proxy server receive a request from a client
 	- the proxy server inspects the request
@@ -60,7 +60,7 @@
 - Often used in conjunction with filtering router
 ### Application Layer Proxy (ALP) Firewall Advantages and Disadvantages
 - Advantages:
-	- complete control over each service (FTP/HTTP…)
+	- complete control over each service ([[FTP]]/HTTP…)
 	- complete control over which services are permitted
 	- Strong user authentication (Smart Cards etc.)
 	- Easy to log and audit at the application level
@@ -139,7 +139,7 @@
 - More advanced analysis uses data correlation models often provided within Security Information and Event Management (SIEM) solutions.
 
 ## Honeypots
-- Normally network security solutions (e.g., Firewall and IPS) drop malicious packets. Instead, they are configured to redirect specific attacks to a honeypot, which is a decoy system filled with fabricated information and instrumented with monitors/event loggers
+- Normally [[network security]] solutions (e.g., Firewall and IPS) drop malicious packets. Instead, they are configured to redirect specific attacks to a honeypot, which is a decoy system filled with fabricated information and instrumented with monitors/event loggers
 - The aim is to
 	- lure a potential attacker away from critical systems
 	- collect information about the attacker’s activity without exposing production systems

@@ -322,7 +322,7 @@ SELECT productdescription, productid,         (SELECT count(*)          FROM ord
 
 1. Flexible user interfaces.
 2. Potential performance improvements.
-3. Enhanced database security.
+3. Enhanced [[database security]].
 
 
 ## ONE SENTENCE SUMMARY:

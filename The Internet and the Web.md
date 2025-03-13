@@ -15,7 +15,7 @@
 	- hyperlinking between documents and resources
 
 # How [[the Internet]] Works
-- relies on a packet routing network following [[the Internet]] Protocol (IP)
+- relies on a packet [[routing]] network following [[the Internet]] Protocol (IP)
 - uses Transmission Control Protocol (TCP) to ensure [[data]] is reliably transmitted
 - [[data]] travels through networks via routers and switches, finding the most efficient path
 

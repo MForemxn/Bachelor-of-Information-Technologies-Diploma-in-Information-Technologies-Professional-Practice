@@ -184,11 +184,11 @@ IPv4 and IPv6 addressing
 
 5. The Network Layer: Control Plane
 
-Routing algorithms
+[[Routing]] algorithms
 
-Intra-AS routing: OSPF
+Intra-AS [[routing]]: OSPF
 
-Inter-AS routing: BGP
+Inter-AS [[routing]]: BGP
 
 ICMP and SNMP
 
@@ -320,25 +320,25 @@ Tutorial, Lab
 
 StuVac 30/9-4/10 StuVac Week: No lecture, no tutorial/lab.
 
-9 7-11/10 Network layer: routing algorithms
+9 7-11/10 Network layer: [[routing]] algorithms
 
 Notes:
 
 5.1 introduction
 
-5.2 routing algorithms
+5.2 [[routing]] algorithms
 
 Tutorial, Lab
 
 Assignment3
 
-10 14-18/10 Network layer: routing protocols
+10 14-18/10 Network layer: [[routing]] protocols
 
 Notes:
 
-5.3 intra-AS routing in [[the Internet]]: OSPF
+5.3 intra-AS [[routing]] in [[the Internet]]: OSPF
 
-5.4 routing among the ISPs: BGP
+5.4 [[routing]] among the ISPs: BGP
 
 5.6 ICMP
 
@@ -442,7 +442,7 @@ You will build your own network using Cisco switch and router. Your job is to in
 
 router, complete basic configurations in hosts, switch and router. You will demonstrate the network
 
-routing status and connectivity, and analyse the network traffic.
+[[routing]] status and connectivity, and analyse the network traffic.
 
 In [[class]] in Week 5 and Week 12, in your allocated lab
 
@@ -476,7 +476,7 @@ Assignment 1. Network performance analysis.
 
 Assignment 2. Transport analysis.
 
-Assignment 3. Routing protocols.
+Assignment 3. [[Routing]] protocols.
 
 Length: Short-answer questions
 

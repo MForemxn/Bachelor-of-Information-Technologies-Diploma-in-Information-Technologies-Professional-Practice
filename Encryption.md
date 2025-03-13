@@ -4,7 +4,7 @@ Encryption is a method of converting plaintext into a coded form (ciphertext) to
 
 - **Symmetric Encryption**: Uses the same key for both encryption and decryption. It's fast and efficient for large volumes of [[data]] but requires secure key exchange.
 - **Asymmetric Encryption**: Utilizes a pair of keys – a public key for encryption and a private key for decryption. It facilitates secure key exchange and digital signatures but is slower than symmetric encryption.
-- **Public Key Infrastructure (PKI)**: A framework for managing encryption keys and digital certificates to authenticate the identity of parties in electronic transactions.
+- **Public Key Infrastructure (PKI)**: A framework for managing encryption keys and [[digital certificates]] to authenticate the identity of parties in electronic transactions.
 - **Encryption Algorithms**: Procedures for encrypting and decrypting information. Examples include AES (Advanced Encryption Standard) for symmetric encryption and RSA (Rivest-Shamir-Adleman) for asymmetric encryption.
 
 ## Applications

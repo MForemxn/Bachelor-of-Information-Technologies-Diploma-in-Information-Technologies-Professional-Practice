@@ -9,7 +9,7 @@
 	- symmetric-key cryptography
 		- uses the same key for both encryption and decryption
 		- examples include AES (Advanced Encryption Standard) and DES (Data Encryption Standard)
-	- asymmetric-key cryptography (public key cryptography)
+	- asymmetric-key cryptography ([[public key cryptography]])
 		- uses two different keys, one for encryption (public key) and one for decryption (private key)
 		- examples include RSA, ECC (Elliptic Curve Cryptography)
 	- hash functions

@@ -118,7 +118,7 @@ If the [[data]] is spread over several classes, we should look for the class wit
 
 Components should require as little as possible from other components to function correctly. Of course not all coupling can be eliminated (there would be no program then), but we shouldn't spread related functionality across lots of objects (you may be detecting a theme here), and everything should be as self contained as is reasonable.
 
-This also means that we may also consider routing functionality through intermediate classes to reduce dependency on more classes than is necessary (i.e. a class should talk to as few other classes as possible).
+This also means that we may also consider [[routing]] functionality through intermediate classes to reduce dependency on more classes than is necessary (i.e. a class should talk to as few other classes as possible).
 
 
 ## Controller

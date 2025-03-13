@@ -9,7 +9,7 @@ Address Resolution Protocol (ARP) is a crucial component of network communicatio
 2. It operates at the [[data]] [[link layer]] of the [[OSI model]].
 3. ARP requests are broadcasted to all devices on the network.
 4. Devices respond with their [[MAC address]] if they match the requested IP.
-5. Essential for efficient network communication and [[data]] packet routing.
+5. Essential for efficient network communication and [[data]] packet [[routing]].
 6. ARP is used in IPv4 networks; IPv6 uses Neighbor Discovery Protocol.
 7. ARP cache stores recently resolved IP-to-[[MAC address]] mappings.
 8. ARP spoofing can be a [[security]] risk, leading to [[data]] interception.

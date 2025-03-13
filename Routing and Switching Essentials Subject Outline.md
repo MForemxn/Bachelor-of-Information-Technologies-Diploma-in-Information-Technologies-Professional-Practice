@@ -8,13 +8,13 @@ Undergraduate
 _Result type_: Grade and marks  
   
 _Requisite(s): [31270](https://www.handbook.uts.edu.au/2014_1/subjects/31270.html) Networking Essentials OR 31467 Networking 1 OR 31486 Data Communications OR [48720](https://www.handbook.uts.edu.au/2014_1/subjects/48720.html) Network Fundamentals_  
-_Anti-requisite(s): 31471 Networking 2 AND [32524](https://www.handbook.uts.edu.au/2014_1/subjects/32524.html) LANS and Routing_
+_Anti-requisite(s): 31471 Networking 2 AND [32524](https://www.handbook.uts.edu.au/2014_1/subjects/32524.html) LANS and [[Routing]]_
 
-Recommended studies: open system interconnection (OSI); transmission control protocol/internet protocol (TCP/IP) and data network models; knowledge of networking terminology, data transmission media, data networking components and devices; internet protocol addressing and variable-length sub-nettinng mask (VLSM)
+Recommended studies: open system interconnection (OSI); transmission control protocol/internet protocol (TCP/IP) and data network models; knowledge of networking terminology, data transmission media, data networking components and devices; internet protocol addressing and variable-length sub-nettinng mask ([[VLSM]])
 
 ### Handbook description
 
-This subject extends the work done in the prerequisite subject. Students who are not interested in networking as a career develop a clear model of how networks can impact network based applications. Students who are interested in a career in networking practice or research develop sound knowledge and skills to pursue a networking specialisation. Students learn the role of routing protocols and how to compare them; how to design construct and implement small to medium-sized intranets; and how to perform basic management and security tasks. The role of TCP/IP, ICMP and other protocols in IP networks are evaluated. Students also learn how Cisco routers are used for the practical work.
+This subject extends the work done in the prerequisite subject. Students who are not interested in networking as a career develop a clear model of how networks can impact network based applications. Students who are interested in a career in networking practice or research develop sound knowledge and skills to pursue a networking specialisation. Students learn the role of [[routing]] protocols and how to compare them; how to design construct and implement small to medium-sized intranets; and how to perform basic management and security tasks. The role of TCP/IP, ICMP and other protocols in IP networks are evaluated. Students also learn how Cisco routers are used for the practical work.
 
 ### Subject objectives
 
@@ -30,12 +30,12 @@ Upon successful completion of this subject students should be able to:
 |06.|Configure and troubleshoot [[NAT]] operations|
 |07.|Understand and describe enhanced switching technologies such as VLANs and 802.1q|
 |08.|Configure and troubleshoot basic operations of a small switched network|
-|09.|Understand and describe the purpose, nature, and operations of a router, routing tables, and the route lookup process|
-|10.|Configure and verify static routing and default routing|
-|11.|Understand and describe how VLANs create logically separate networks and how routing occurs between them|
-|12.|Understand and describe dynamic routing protocols, distance vector routing protocols, and link-state routing protocols|
-|13.|Configure and troubleshoot basic operations of routers in a small routed network: ? Routing Information Protocol (RIPv1 and RIPv2) ? Open Shortest Path First (OSPF) protocol (single-area OSPF)|
-|14.|Configure and troubleshoot VLANs and inter-VLAN routing|
+|09.|Understand and describe the purpose, nature, and operations of a router, [[routing]] tables, and the route lookup process|
+|10.|Configure and verify static [[routing]] and default [[routing]]|
+|11.|Understand and describe how VLANs create logically separate networks and how [[routing]] occurs between them|
+|12.|Understand and describe dynamic [[routing]] protocols, distance vector [[routing]] protocols, and link-state [[routing]] protocols|
+|13.|Configure and troubleshoot basic operations of routers in a small routed network: ? [[Routing]] Information Protocol (RIPv1 and RIPv2) ? Open Shortest Path First (OSPF) protocol (single-area OSPF)|
+|14.|Configure and troubleshoot VLANs and inter-VLAN [[routing]]|
 
 ### Teaching and learning strategies
 
@@ -104,13 +104,13 @@ Whilst there is no requirement to pass any individual assessment component, **s
 ### Required texts
 
 1. The primary source of information for this subject will be **online course material**.
-2. All students enrolled for this subject will be given access to _CCNA Routing and Switching 5.0: [[Routing and Switching Essentials]]_. through the Cisco Networking Academy website ([http://www.netacad.com](http://www.netacad.com/)). Note that Cisco Networking Academy website site contain all the online course material. The Cisco Networking Academy site also contains additional learning resources, However, both the Online Chapter Quizzes and the Online Final Exam will only be available via the Cisco Networking Academy website.
+2. All students enrolled for this subject will be given access to _CCNA [[Routing]] and Switching 5.0: [[Routing and Switching Essentials]]_. through the Cisco Networking Academy website ([http://www.netacad.com](http://www.netacad.com/)). Note that Cisco Networking Academy website site contain all the online course material. The Cisco Networking Academy site also contains additional learning resources, However, both the Online Chapter Quizzes and the Online Final Exam will only be available via the Cisco Networking Academy website.
 3. Other subject documents and course materials, such as subject outlines, lecture notes, assignments, additional information about labs and assessments, as well as comments and answers to questions common to all students, will be distributed via **UTS Online** ([http://online.uts.edu.au](http://online.uts.edu.au/)) under corresponding titles.
 4. Hard copy text books which cover essentially the same contents (but without animations and other activities) as the online curriculum may be purchased at the Co-op Bookshop or any other places.
 
 ### Recommended texts
 
-**CCNA Routing and Switching: [[Routing and Switching Essentials]]**
+**CCNA [[Routing]] and Switching: [[Routing and Switching Essentials]]**
 
 [[Routing and Switching Essentials]] Companion Guide  
 ISBN-10: 1-58713-318-0  
@@ -122,12 +122,12 @@ Published Feb 20, 2014 by Cisco Press. Part of the Companion Guide series.
 
 **1. UTS mirror website for online course material:**  
 [http://www.iwork.uts.edu.au/enrolled/cisco/](http://www.iwork.uts.edu.au/enrolled/cisco/)  
-_CCNA Exploration 4.0: Routing Protocols and Concepts_ (pervious CCNA course material)
+_CCNA Exploration 4.0: [[Routing]] Protocols and Concepts_ (pervious CCNA course material)
 
 **2. Cisco** **Networking Academy** **website for online course material:**  
 [http://www.netacad.com](http://www.netacad.com/)
 
-CCNA Routing and Switching: [[Routing and Switching Essentials]]
+CCNA [[Routing]] and Switching: [[Routing and Switching Essentials]]
 
 **3.** **Cisco’s assessment server for online quizzes and examinations****:**  
 [http://www.netacad.com](http://www.netacad.com/)

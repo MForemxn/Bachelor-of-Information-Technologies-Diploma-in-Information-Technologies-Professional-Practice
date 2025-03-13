@@ -509,7 +509,7 @@ By following these steps, you should be able to resolve the issues and proceed w
 
 You
 
-masonforeman@Masons-MacBook-Pro SortWiseAI % npm install --save-dev react-native-babel-transformer npm ERR! code E404 npm ERR! 404 Not Found - GET https://registry.npmjs.org/react-native-babel-transformer - Not found npm ERR! 404 npm ERR! 404 'react-native-babel-transformer@*' is not in this registry. npm ERR! 404 npm ERR! 404 Note that you can also install from a npm ERR! 404 tarball, folder, http url, or git url.
+masonforeman@Masons-MacBook-Pro SortWiseAI % npm install --save-dev react-native-babel-transformer npm ERR! code E404 npm ERR! 404 Not Found - GET https://registry.npmjs.org/react-native-babel-transformer - Not found npm ERR! 404 npm ERR! 404 'react-native-babel-transformer@*' is not in this registry. npm ERR! 404 npm ERR! 404 Note that you can also install from a npm ERR! 404 tarball, folder, [[http]] url, or git url.
 
 ChatGPT
 

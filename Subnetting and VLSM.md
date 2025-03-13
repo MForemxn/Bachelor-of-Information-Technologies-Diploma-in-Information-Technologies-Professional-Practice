@@ -48,7 +48,7 @@
 
 ## CIDR Notation
 
-- Classless Inter-Domain Routing
+- Classless Inter-Domain [[Routing]]
 - Network address followed by slash and prefix length
 - Example: 192.168.1.0/24
 - Prefix length = number of 1s in the subnet mask
@@ -69,14 +69,14 @@
 - Example: For /27 (255.255.255.224), increment is 256 - 224 = 32
 - Subnets will start at: 0, 32, 64, 96, 128, 160, 192, 224
 
-## Variable Length Subnet Masking (VLSM)
+## Variable Length Subnet Masking ([[VLSM]])
 
 - Allows creating subnets of different sizes from the same address block
 - Efficient use of IP addresses by matching subnet size to actual needs
 - Prevents wasting addresses in smaller networks
 - Implemented using route summarization
 
-## VLSM Implementation Steps
+## [[VLSM]] Implementation Steps
 
 1. List networks from largest to smallest (by host count)
 2. Allocate address space starting with the largest network
@@ -84,7 +84,7 @@
 4. Assign subnets sequentially to avoid overlap
 5. Document each subnet's address range, mask, and purpose
 
-## VLSM Calculation Example
+## [[VLSM]] Calculation Example
 
 - Starting block: 192.168.10.0/24
 - Requirements:
@@ -98,13 +98,13 @@
     - Network C: 192.168.10.192/27 (30 hosts)
     - Network D: 192.168.10.224/29 (6 hosts)
 
-## Benefits of Subnetting and VLSM
+## Benefits of Subnetting and [[VLSM]]
 
 - More efficient use of IP address space
 - Reduced broadcast domains
 - Improved network performance
 - Enhanced security through network segmentation
-- Simplified routing tables through route summarization
+- Simplified [[routing]] tables through route summarization
 - Easier troubleshooting with logical network boundaries
 
 ## [[Common Subnet Masks Reference]]

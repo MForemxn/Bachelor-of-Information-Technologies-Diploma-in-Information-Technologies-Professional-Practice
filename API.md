@@ -15,10 +15,10 @@
 	- **Composite APIs** combine multiple [[data]] or service APIs to perform a task or solve a complex problem
 # API Protocols and Architectures
 - APIs can be built using various protocols and architectures, each with its own use case:
-	- **REST** (Representational [[State]] Transfer) uses HTTP requests to GET, PUT, POST, and DELETE [[data]]
+	- **REST** (Representational [[State]] Transfer) uses [[HTTP]] requests to GET, PUT, POST, and DELETE [[data]]
 	- **SOAP** (Simple Object Access Protocol) is a protocol that uses XML for messaging
 	- **GraphQL** allows clients to request exactly the [[data]] they need, making it efficient for complex systems
-	- **gRPC** is a high-performance RPC (Remote Procedure Call) framework that uses HTTP/2 as its transport protocol
+	- **gRPC** is a high-performance RPC (Remote Procedure Call) framework that uses [[HTTP]]/2 as its transport protocol
 # Benefits of Using APIs
 - APIs offer numerous advantages for both developers and businesses:
 	- **Efficiency**: automation and more efficient code reuse

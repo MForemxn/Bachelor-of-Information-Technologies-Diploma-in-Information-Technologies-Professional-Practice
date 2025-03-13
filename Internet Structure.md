@@ -20,5 +20,5 @@ The [[network edge]] includes hosts, which are primarily clients and servers. Se
 1. Hosts at the [[network edge]] are crucial for client-server interactions.
 2. [[Data]] centres house servers for enhanced service delivery.
 3. Wired and wireless links are essential for access networks.
-4. Interconnected routers in the [[network core]] ensure efficient [[data]] routing.
+4. Interconnected routers in the [[network core]] ensure efficient [[data]] [[routing]].
 5. The [[network core]]'s complexity supports robust and scalable communication.

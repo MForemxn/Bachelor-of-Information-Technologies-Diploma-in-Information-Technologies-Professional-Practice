@@ -12,4 +12,7 @@
 # In Class Activities
 [[Lab 1.1 Converting IPv4 Addresses to Binary]]
 [[Lab 1.2 Identifying IPv4 Addresses]]
+[[Lab 2.1 Calculating IPv4 Subnets]]
+[[Lab 2.2 VLSM Practice]]
+[[Lab 3.1 Configuring Basic Router Settings with IOS CLI]]
 # Assessment Tasks

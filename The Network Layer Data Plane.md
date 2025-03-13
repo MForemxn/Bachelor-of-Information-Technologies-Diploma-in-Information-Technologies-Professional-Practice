@@ -1,6 +1,6 @@
 ## 4.1 [[Network Layer]] Overview
 - **[[Data]] Plane**: Handles forwarding packets from [[input]] to [[output]] ports within routers.
-- **Control Plane**: Determines the routing of packets across the network between the source and destination.
+- **Control Plane**: Determines the [[routing]] of packets across the network between the source and destination.
 
 ## 4.2 Inside a Router
 - **Key Components**:
@@ -29,9 +29,9 @@
 
 # Key Functions of the [[Network Layer]]
 
-## Routing
+## [[Routing]]
 - Determines the path packets take from source to destination based on network topology.
-- **Routing Algorithms**: Include traditional algorithms and SDN-based approaches.
+- **[[Routing]] Algorithms**: Include traditional algorithms and SDN-based approaches.
 
 ## Forwarding
 - Transfers packets from the [[input]] to the appropriate [[output]] port within a router.
@@ -51,7 +51,7 @@
 - Operates on a per-packet basis to forward packets.
 
 ## Control Plane (Software)
-- Executes routing protocols and determines the forwarding rules.
+- Executes [[routing]] protocols and determines the forwarding rules.
 
 ---
 
@@ -98,7 +98,7 @@
 - **[[Class]] B**: /16 mask, for medium-sized networks.
 - **[[Class]] C**: /24 mask, for small networks.
 
-## CIDR (Classless InterDomain Routing)
+## CIDR (Classless InterDomain [[Routing]])
 - Allows flexible subnet masks, written as `a.b.c.d/x` where `x` is the number of bits used for the network portion.
 
 ---

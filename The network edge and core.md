@@ -15,12 +15,12 @@ The [[network core]], on the other hand, is the central part of the network that
 6. [[Network core]] provides high-speed [[data]] transmission.
 7. Consists of high-capacity routers and switches.
 8. Handles large volumes of [[data]] with minimal latency.
-9. Ensures efficient routing between edge networks and [[data]] centres.
+9. Ensures efficient [[routing]] between edge networks and [[data]] centres.
 10. Supports seamless communication and [[data]] exchange.
 
 # TAKEAWAYS:
 1. The [[network edge]] is where end-user devices connect.
 2. It manages initial [[data]] traffic and [[security]].
 3. The [[network core]] handles high-speed [[data]] transmission.
-4. Core components ensure efficient [[data]] routing.
+4. Core components ensure efficient [[data]] [[routing]].
 5. Both edge and core are essential for network performance and stability.
