@@ -14,7 +14,7 @@
 ## Value Statements
  - Establishes organisational principles and makes organisation’s conduct standards clear.
  - Typically one sentence. An example of a value statement is:
-> Our value is to be a professional web service provider maintaining the highest standards of professional integrity.
+> Our value is to be a professional [[web service]] provider maintaining the highest standards of professional integrity.
  - Effective organisations identify and develop a clear, concise and shared meaning of values/beliefs, priorities, and direction so that everyone understands and can contribute.
  - Once defined, values impact every aspect of your organisation
 

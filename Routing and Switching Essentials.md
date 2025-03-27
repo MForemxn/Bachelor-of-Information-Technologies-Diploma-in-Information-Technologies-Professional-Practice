@@ -15,4 +15,7 @@
 [[Lab 2.1 Calculating IPv4 Subnets]]
 [[Lab 2.2 VLSM Practice]]
 [[Lab 3.1 Configuring Basic Router Settings with IOS CLI]]
+[[Lab 4.1 Configuring IPv4 Static and Default Routes]]
+[[Lab 16.3.1 Packet Tracer - Troubleshoot Static and Default Routes]]
+[[Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode]]
 # Assessment Tasks

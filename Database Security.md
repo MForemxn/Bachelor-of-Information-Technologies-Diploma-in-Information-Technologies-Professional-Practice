@@ -37,7 +37,7 @@ SQL, while powerful, poses risks such as [[SQL injection]] attacks, which exploi
 An [[SQL injection]] attack typically involves identifying a vulnerable [[input]] field, injecting malicious SQL code, and executing it to manipulate the [[database]]. This can result in [[data]] theft, modification, or deletion.
 
 1. Identify a vulnerable [[input]] field.
-2. Inject malicious SQL code.
+2. Inject malicious [[SQL]] code.
 3. Execute code to manipulate the [[database]].
 
 ## Countermeasures for [[SQL Injection]]

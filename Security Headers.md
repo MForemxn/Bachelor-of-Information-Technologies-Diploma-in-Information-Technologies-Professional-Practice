@@ -1,4 +1,4 @@
-[[Security]] headers are HTTP response headers that, when properly configured, can help enhance the [[security]] of a website by instructing browsers on how to behave when handling the site's content. They are an essential part of web [[security]], helping to mitigate various types of attacks such as cross-site scripting (XSS), clickjacking, and other code injection attacks.
+[[Security]] headers are HTTP response headers that, when properly configured, can help enhance the [[security]] of a website by instructing browsers on how to behave when handling the site's content. They are an essential part of web [[security]], helping to mitigate various types of attacks such as [[cross-site scripting (XSS)]], clickjacking, and other code injection attacks.
 
 ## Common [[Security]] Headers
 
@@ -20,7 +20,7 @@
 
 ### 5. X-XSS-Protection
 - **Note**: This header is deprecated and not recommended for use, as modern browsers have built-in protection against XSS.
-- **Purpose**: Was used to enable the cross-site scripting (XSS) filter in the browser.
+- **Purpose**: Was used to enable the [[cross-site scripting (XSS)]] filter in the browser.
 
 ### 6. Referrer-Policy
 - **Purpose**: Controls how much referrer information (the URL of the previous page) is passed along with requests.

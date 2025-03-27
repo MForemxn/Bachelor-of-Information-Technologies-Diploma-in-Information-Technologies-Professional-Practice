@@ -97,14 +97,14 @@
 - Primary benefit to this model is that an intercepted packet reveals nothing about true destination system
 - Example of tunnel mode VPN: Microsoft’s Internet Security and Acceleration (ISA) Server
 # [[Intrusion Detection Technology]]
-- IDS is a passive system that plays the role of monitoring the incoming traffic according to predefined rules
+- [[IDS]] is a passive system that plays the role of monitoring the incoming traffic according to predefined rules
 ![[Screenshot 2024-09-17 at 11.20.02 am.png]]
 - It watches traffic inside the DMZ or firewall and matches it to a pre-configured rules.
-- If it detects anything suspicious, the IDS sets off an alarm alerting administrators and records the event in a database.
+- If it detects anything suspicious, the [[IDS]] sets off an alarm alerting administrators and records the event in a database.
 ## Types of Intrusion Detection Systems
-- **Host-based IDS**: deployed on individual machine (host) to detect intrusion on the machine.
-- **Network-based IDS**: Resides on computer or appliance connected to segment of an organisation’s network
-- **Application-based IDS**: Detects abnormal application events (e.g., looks for files created by application)
+- **Host-based [[IDS]]**: deployed on individual machine (host) to detect intrusion on the machine.
+- **Network-based [[IDS]]**: Resides on computer or appliance connected to segment of an organisation’s network
+- **Application-based [[IDS]]**: Detects abnormal application events (e.g., looks for files created by application)
 ### Types of Intrusion Detection Systems
 |                  | **Host-based**                                                                                                  | **Network-based**                                                                                                      | **Application-based**                                        |
 |------------------|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
@@ -118,9 +118,9 @@
 |                  |                                                                                                                 | - Cannot ascertain if an attack was successful                                                                         |                                                             |
 |                  |                                                                                                                 | - Some attacks (e.g., fragmented packets and malformed packets) are not easily discerned                               |                                                             |
 ## Intrusion Prevention Systems
-- IPS ( e.g., Fail2ban) is an active system that sit in the path of incoming data (need real-time access to data designed to prevent incoming attacks and stop attacks in progress.
+- [[IPS]] ( e.g., Fail2ban) is an active system that sit in the path of incoming data (need real-time access to data designed to prevent incoming attacks and stop attacks in progress.
 ![[Screenshot 2024-09-17 at 11.24.13 am.png]]
-- An IPS has all the capabilities of IDS and that of a firewall giving it the added benefit of being active and able to
+- An [[IPS]] has all the capabilities of [[IDS]] and that of a firewall giving it the added benefit of being active and able to
 	- stop suspect traffic from being transmitted,
 	- terminating a session and blocking IP addresses
 	- reconfiguring firewall or router security controls to deter an attack.
@@ -139,7 +139,7 @@
 - More advanced analysis uses data correlation models often provided within Security Information and Event Management (SIEM) solutions.
 
 ## Honeypots
-- Normally [[network security]] solutions (e.g., Firewall and IPS) drop malicious packets. Instead, they are configured to redirect specific attacks to a honeypot, which is a decoy system filled with fabricated information and instrumented with monitors/event loggers
+- Normally [[network security]] solutions (e.g., Firewall and [[IPS]]) drop malicious packets. Instead, they are configured to redirect specific attacks to a honeypot, which is a decoy system filled with fabricated information and instrumented with monitors/event loggers
 - The aim is to
 	- lure a potential attacker away from critical systems
 	- collect information about the attacker’s activity without exposing production systems

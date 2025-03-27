@@ -7,7 +7,7 @@ Session management is a critical aspect of web [[security]], enabling [[web appl
 - When a user logs in, the server creates a session to track the user's interactions. This session is identified by a unique session ID.
 
 ### 2. **Session ID**
-- A unique identifier assigned to a user's session. It is crucial that this ID is securely generated to prevent session hijacking or fixation attacks.
+- A unique identifier assigned to a user's session. It is crucial that this ID is securely generated to prevent [[session hijacking]] or fixation attacks.
 
 ### 3. **Session Storage**
 - Sessions can be stored on the server-side (e.g., in-memory, databases) or client-side (e.g., cookies). The choice depends on the application's requirements and [[security]] considerations.
@@ -16,20 +16,20 @@ Session management is a critical aspect of web [[security]], enabling [[web appl
 - Sessions should have a defined lifetime after which they expire to reduce the risk of unauthorized access. Both server-side and client-side expiration mechanisms should be implemented.
 
 ### 5. **Session Cookies**
-- Most [[web applications]] use cookies to store session IDs on the client's browser. Secure attributes (Secure, HttpOnly, SameSite) should be set to protect these cookies.
+- Most [[web applications]] use cookies to store session [[IDs]] on the client's browser. Secure attributes (Secure, HttpOnly, SameSite) should be set to protect these cookies.
 
 ## [[Security]] Considerations
 
-### 1. **Session Hijacking**
+### 1. **[[Session Hijacking]]**
 - Attackers may steal or predict session IDs to impersonate a user. Secure generation and transmission of session IDs are vital to prevent this.
 
 ### 2. **Session Fixation**
 - An attacker sets a user's session ID to one known to them, allowing them to hijack the session after the user logs in. Regenerating session IDs upon login can mitigate this risk.
 
-### 3. **Cross-Site Scripting (XSS)**
+### 3. **[[Cross-Site Scripting (XSS)]]**
 - XSS vulnerabilities can be exploited to steal session cookies. Setting the HttpOnly flag on cookies helps mitigate this by preventing access to the cookie via JavaScript.
 
-### 4. **Cross-Site Request Forgery (CSRF)**
+### 4. **[[Cross-Site Request Forgery]] (CSRF)**
 - While not directly a session management issue, CSRF exploits the fact that a user is authenticated by their session. Implementing anti-CSRF tokens is a common mitigation strategy.
 
 ## Best Practices

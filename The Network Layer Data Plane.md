@@ -83,7 +83,7 @@
 # IP Addressing and Subnetting
 
 ## IP Datagram Format
-- **Header Fields**: Includes fields like version, TTL, source/destination IPs, and protocol.
+- **Header Fields**: Includes fields like version, TTL, source/destination [[IPs]], and protocol.
 
 ## Subnetting
 - A subnet is a logical subdivision of an IP network. Devices within a subnet can communicate without passing through a router.

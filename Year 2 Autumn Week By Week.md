@@ -25,7 +25,7 @@
 |3|3 Mar|[[Public Key Infrastructure and User Authentication]]<br><br>**Notes:**  <br>Lab material at UTS Canvas|
 |4|10 Mar|[[Transport Layer Security]]<br><br>**Notes:**  <br>Lab material at UTS Canvas<br><br>**Assessment Task-4 (Only for students enrolled in 32548): Research Project specification and research group formation will be released**|
 |5|17 Mar|Operating [[System Security]]<br><br>**Assessment Quiz-1 during lab session, 10% of assessment tasks**<br><br>**Feedback will be provided to the students after the Quiz.**<br><br>**Notes:**  <br>Lab material at UTS Canvas|
-|6|24 Mar|Intrusion Detection and Prevention<br><br>**Notes:**  <br>Lab material at UTS Canvas|
+|6|24 Mar|[[Intrusion Detection and Prevention]]<br><br>**Notes:**  <br>Lab material at UTS Canvas|
 |7|31 Mar|Email Security<br><br>**Notes:**  <br>Lab material at UTS Canvas|
 |8|7 Apr|VPN Security and Firewall<br><br>**Notes:**  <br>Lab material at UTS CANVAS|
 |-|14 Apr|**Mid-session STUVAC - No classes**|

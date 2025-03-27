@@ -7,7 +7,7 @@
 - network [[security]] is a broad term that covers a multitude of technologies, devices, and [[processes]]. It's fundamentally about:
 	- **Firewalls**: act as a barrier between your trusted internal network and untrusted outside networks
 	- **Antivirus and Anti-malware Software**: protects against malicious software threats
-	- **Intrusion Prevention Systems (IPS)**: examines network traffic to prevent vulnerability exploits
+	- **Intrusion Prevention Systems ([[IPS]])**: examines network traffic to prevent vulnerability exploits
 	- **Virtual Private Networks (VPNs)**: provide secure [[remote access]] to the network
 	- **[[Data]] Loss Prevention (DLP)**: ensures users do not send sensitive information outside the network
 

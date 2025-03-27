@@ -15,19 +15,19 @@
 - Any action that can be performed through a web request
 
 ## Prevention Techniques
-1. **CSRF Tokens**: Unique tokens that are verified for each request, ensuring the request originates from the application's own interface.
+1. **CSRF Tokens**: Unique tokens that are verified for each request, ensuring the request originates from the application's own [[interface]].
 2. **SameSite Cookie Attribute**: Prevents the browser from sending cookies along with cross-site requests.
 3. **Double Submit Cookies**: Requires that a cookie and a request parameter contain the same value, verifying that the request originated from the site.
 4. **Custom Headers**: Leveraging AJAX requests with custom headers that are not shared across domains.
 5. **Re-[[authentication]]**: For critical actions, requiring the user to re-enter their credentials or provide additional verification.
 
 ## Impact
-- Unauthorized actions can compromise user data and access.
-- Can lead to financial loss, data breaches, and erosion of trust in the application.
+- Unauthorized actions can compromise user [[data]] and access.
+- Can lead to financial loss, [[data]] breaches, and erosion of trust in the application.
 
 ## Mitigation
-- Implementing robust CSRF protection mechanisms.
+- Implementing robust CSRF [[protection mechanisms]].
 - Educating users on the risks of phishing and social engineering attacks.
 - Regularly updating and auditing [[web applications]] for vulnerabilities.
 
-Understanding and mitigating CSRF attacks are crucial for maintaining the [[security]] and [[integrity]] of [[web applications]]. Developers and website administrators should prioritize CSRF protection to safeguard user data and prevent unauthorized actions.
+Understanding and mitigating CSRF attacks are crucial for maintaining the [[security]] and [[integrity]] of [[web applications]]. Developers and website administrators should prioritize CSRF protection to safeguard user [[data]] and prevent unauthorized actions.

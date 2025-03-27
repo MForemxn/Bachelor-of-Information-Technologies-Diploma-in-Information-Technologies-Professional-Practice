@@ -1,5 +1,5 @@
 ## What is CSP?
-Content [[Security]] Policy (CSP) is a [[security]] standard introduced to prevent Cross-Site Scripting (XSS), clickjacking, and other code injection attacks resulting from the execution of malicious content in the trusted web page context.
+Content [[Security]] Policy (CSP) is a [[security]] standard introduced to prevent [[Cross-Site Scripting (XSS)]], clickjacking, and other code injection attacks resulting from the execution of malicious content in the trusted web page context.
 
 ## How Does CSP Work?
 CSP works by allowing web developers to control the resources that a webpage is allowed to load or execute. This is achieved through the delivery of a CSP HTTP header from the server to the browser, which specifies the approved sources of content.

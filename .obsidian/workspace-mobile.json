@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks and the Internet.md",
+                "file": "System Security Assignment 1 Presentation.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "System Security Assignment 1 Presentation"
             }
           }
         ]
@@ -34,8 +36,11 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
-          }
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
         }
       },
       {
@@ -50,7 +55,9 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "Search"
         }
       },
       {
@@ -60,8 +67,12 @@
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true
-          }
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
         }
       },
       {
@@ -69,7 +80,9 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
         }
       }
     ],
@@ -93,7 +106,9 @@
             "searchQuery": "",
             "backlinkCollapsed": true,
             "unlinkedCollapsed": false
-          }
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
         }
       },
       {
@@ -102,10 +117,12 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Computer Networks and the Internet.md",
+            "file": "System Security Assignment 1 Presentation.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
-          }
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
         }
       },
       {
@@ -114,12 +131,17 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Computer Networks and the Internet.md"
-          }
+            "file": "System Security Assignment 1 Presentation.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -133,16 +155,18 @@
   },
   "active": "d5ec7134b795684e",
   "lastOpenFiles": [
+    "System Security Assignment 1.md",
+    "System Security.md",
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Computer Networks and the Internet.md",
     "Network Fundamentals.md",
     "Introduction to Network Fundamentals.md",
-    "Computer Networks and the Internet.md",
     "Application Layer.md",
     "Transport Layer.md",
     "The Network Layer Data Plane.md",
     "The Network Layer Control Plane.md",
     "The Link Layer.md",
-    "Subjects.md",
-    "Homepage/Home.md",
     "OSI model.md",
     "The Internet.md",
     "Packet Loss.md",
@@ -157,8 +181,6 @@
     "State Management.md",
     "Methods, Properties and Access Control.md",
     "Programming 1.md",
-    "Security.md",
-    "Penetration Testing.md",
     "Untitled",
     "Screenshot 2024-03-25 at 11.11.46 am 2.png",
     "Assesment Task 1 Template.pdf",

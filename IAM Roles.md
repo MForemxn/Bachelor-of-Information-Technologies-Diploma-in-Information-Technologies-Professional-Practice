@@ -1,5 +1,5 @@
 # What is IAM?
-- Amazon AWS iam (Identity and Access Management) is a web service that helps securely control access to AWS resources.
+- Amazon AWS iam (Identity and Access Management) is a [[web service]] that helps securely control access to AWS resources.
 - users can manage users, [[security]] credentials such as access keys, and permissions that control which AWS resources users and applications can access.
 - iam roles are a secure way to grant permissions that applications or services running on AWS need without using permanent access credentials.
 - permissions are attached to roles in the form of policy documents that explicitly list allowed or denied actions on AWS resources.

@@ -54,7 +54,7 @@ var [variableName]: [type] = [value]
 var highScore: Int = 0
 ```
 
-## Define Constant
+## Define [[Constant]]
 
 ```swift
 let [variableName]: [type] = [value]
@@ -135,7 +135,7 @@ collection of items
     - don’t need to worry about it until building custom classes
     
     - works well for “Constant Time Lookup”
-        - means that anytime an array is questioned, the result time will always be the same, no matter the size of the array
+        - means that anytime an [[array]] is questioned, the result time will always be the same, no matter the size of the [[array]]
             - doesn’t matter if a set has 10 or 1,000,000,000 items
 
 - Sets don’t have an append feature because there is no order
