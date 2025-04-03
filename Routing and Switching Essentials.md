@@ -19,3 +19,4 @@
 [[Lab 16.3.1 Packet Tracer - Troubleshoot Static and Default Routes]]
 [[Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode]]
 # Assessment Tasks
+[[Routing and Switching Essentials Case Study]]

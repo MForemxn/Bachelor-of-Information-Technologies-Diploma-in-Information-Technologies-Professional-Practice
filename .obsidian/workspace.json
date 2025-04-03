@@ -6,6 +6,7 @@
       {
         "id": "3b5ae3940e4a315b",
         "type": "tabs",
+        "dimension": 49.5704467353952,
         "children": [
           {
             "id": "80cea5f79fbf2f0c",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Step by Step.md",
+                "file": "Routing and Switching Essentials.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Step by Step"
+              "title": "Routing and Switching Essentials"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -27,6 +28,7 @@
       {
         "id": "63ae5e5d5359f3ed",
         "type": "tabs",
+        "dimension": 50.4295532646048,
         "children": [
           {
             "id": "7f8c1c404bd734a7",
@@ -34,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Step by Step.md",
+                "file": "Routing and Switching Essentials.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Step by Step"
+              "title": "Routing and Switching Essentials"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -116,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Step by Step.md",
+                "file": "Routing and Switching Essentials Case Study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Step by Step"
+              "title": "Backlinks for Routing and Switching Essentials Case Study"
             }
           },
           {
@@ -135,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Step by Step.md",
+                "file": "Routing and Switching Essentials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Step by Step"
+              "title": "Outgoing links from Routing and Switching Essentials"
             }
           },
           {
@@ -203,10 +205,15 @@
   },
   "active": "7f8c1c404bd734a7",
   "lastOpenFiles": [
+    "Switched Networks and Configurations.md",
+    "Routing and Switching Essentials.md",
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Routing and Switching Essentials Case Study.md",
+    "Routing and Switching Essentials Case Study Report Outline.md",
+    "Application Development in the iOS Environment.md",
     "Application Development in the iOS Environment Assignment 2 - Bubblepop Game.md",
     "Step by Step.md",
-    "Application Development in the iOS Environment.md",
-    "Subjects.md",
     "System Security.md",
     "The Web Security.md",
     "Cross-Site Scripting (XSS).md",
@@ -216,7 +223,6 @@
     "Cross-Site Scripting.md",
     "Cross-Site Request Forgery.md",
     "Cybersecurity.md",
-    "Homepage/Home.md",
     "Cybersecurity Lab 4, Part 2.md",
     "Screenshot 2025-03-27 at 9.36.10 am.png",
     "Screenshot 2025-03-27 at 9.35.56 am.png",
@@ -235,10 +241,6 @@
     "SQL Master Document.md",
     "SQL.md",
     "System Security Assignment 1 Presentation.md",
-    "System Security Assignment 1.md",
-    "System Security Assignment 1 Report.md",
-    "Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode.md",
-    "Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode (Instructions).md",
     "Week 5 Lab 4 (Understanding TCPIP based Attacks).pdf",
     "Lab4 - Configuring IPv4 Static and Default Routes.pdf",
     "Untitled.canvas",
