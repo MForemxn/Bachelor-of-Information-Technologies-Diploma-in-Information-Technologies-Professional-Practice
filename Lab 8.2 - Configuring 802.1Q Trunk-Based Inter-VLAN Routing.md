@@ -194,7 +194,26 @@ R1(config-if)# no shutdown
 
 Enter the command to view the routing table on R1. What networks are listed?
 
-From PC-A, is it possible to ping the default gateway for VLAN 10? YES From PC-A, is it possible to ping PC-B? YES From PC-A, is it possible to ping Lo0? YES From PC-A, is it possible to ping S2? YES
+> - **192.168.1.0/24**: Connected via subinterface F0/1.99 (VLAN 99, Management).
+> - **192.168.10.0/24**: Connected via subinterface F0/1.10 (VLAN 10, Students).
+> - **192.168.20.0/24**: Connected via subinterface F0/1.20 (VLAN 20, Faculty).
+> - **209.165.200.224/27**: Connected via Loopback0.
+
+From PC-A, is it possible to ping the default gateway for VLAN 10? 
+
+> YES 
+
+From PC-A, is it possible to ping PC-B? 
+
+> YES 
+
+From PC-A, is it possible to ping Lo0? 
+
+> YES 
+
+From PC-A, is it possible to ping S2? 
+
+> YES
 
 If the answer is no to any of these questions, troubleshoot the configurations and correct any errors.
 

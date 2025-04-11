@@ -47,7 +47,8 @@ Attach the devices as shown in the topology diagram, and cable as necessary.
 
 ### Step 3: Configure basic settings for each switch.
 
-a. Console into the switch and enter global configuration mode. b. Copy the following basic configuration and paste it to the running-configuration on the switch.
+a. Console into the switch and enter global configuration mode. 
+b. Copy the following basic configuration and paste it to the running-configuration on the switch.
 
 ```
 no ip domain-lookup
@@ -90,9 +91,37 @@ Verify that the PC hosts can ping one another.
 
 Note: It may be necessary to disable the PCs firewall to ping between PCs.
 
-Can PC-A ping PC-B? YES Can PC-A ping PC-C? NO Can PC-A ping S1? NO Can PC-B ping PC-C? NO Can PC-B ping S2? NO Can PC-C ping S2? NO Can S1 ping S2? YES
+Can PC-A ping PC-B? 
+
+> YES 
+
+Can PC-A ping PC-C? 
+
+> NO 
+
+Can PC-A ping S1? 
+
+> NO 
+
+Can PC-B ping PC-C? 
+
+> NO 
+
+Can PC-B ping S2? 
+
+> NO 
+
+Can PC-C ping S2? 
+
+> NO 
+
+Can S1 ping S2? 
+
+> YES
 
 If you answered no to any of the above questions, why were the pings unsuccessful?
+
+> Because the devices that cannot ping each other are in different VLAN's, 2 different networks. 
 
 ## Part 2: Create VLANs and Assign Switch Ports
 
@@ -118,9 +147,13 @@ c. Issue the show vlan command to view the list of VLANs on S1.
 S1# show vlan
 ```
 
-What is the default VLAN? VLAN1
+What is the default VLAN? 
+
+> VLAN1
 
 What ports are assigned to the default VLAN?
+
+> Fa0/1 -> Fa0/24, G0/1 and G0/2
 
 ### Step 2: Assign VLANs to the correct switch interfaces.
 
@@ -154,6 +187,8 @@ c. Issue the show ip interface brief command.
 
 What is the status of VLAN 99? Why?
 
+> Up, as we assigned an ip address to the interface
+
 d. Use the Topology to assign VLANs to the appropriate ports on S2.
 
 ```
@@ -181,9 +216,13 @@ f. Use the show vlan brief command to verify that the VLANs are assigned to the 
 S2# show vlan brief
 ```
 
-Is PC-A able to ping PC-B? Why? NO
+Is PC-A able to ping PC-B? Why? 
 
-Is S1 able to ping S2? Why? NO
+> NO, there is no trunk link between the 2
+
+Is S1 able to ping S2? Why? 
+
+> NO, there is no trunk link between the 2
 
 ## Part 3: Maintain VLAN Port Assignments and the VLAN Database
 
@@ -216,7 +255,10 @@ S1(config-if)# end
 
 b. Verify that the VLAN change was made.
 
-Which VLAN is F0/24 now associated with? VLAN 1, the default VLAN
+Which VLAN is F0/24 now associated with? 
+
+> VLAN 1, the default VLAN
+
 
 ### Step 3: Remove a VLAN ID from the VLAN database.
 
@@ -238,6 +280,8 @@ S1# show vlan brief
 
 What is the default name of VLAN 30?
 
+> VLAN0030
+
 c. Use the no vlan 30 command to remove VLAN 30 from the VLAN database.
 
 ```
@@ -247,7 +291,9 @@ S1(config)# end
 
 d. Issue the show vlan brief command. F0/24 was assigned to VLAN 30.
 
-After deleting VLAN 30, what VLAN is port F0/24 assigned to? What happens to the traffic destined to the host attached to F0/24? HINT: Port F0/24 is not assigned to any VLAN. This port will not transfer any traffic.
+After deleting VLAN 30, what VLAN is port F0/24 assigned to? What happens to the traffic destined to the host attached to F0/24? HINT: Port F0/24 is not assigned to any VLAN. 
+
+> This port will not transfer any traffic.
 
 e. Issue the no switchport access vlan command on interface F0/24.
 
@@ -259,9 +305,13 @@ S1(config-if)# end
 
 f. Issue the show vlan brief command to determine the VLAN assignment for F0/24. To which VLAN is F0/24 assigned? HINT: VLAN 1
 
+> VLAN 1, Default VLAN
+
 Note: Before removing a VLAN from the database, it is recommended that you reassign all the ports assigned to that VLAN.
 
 Why should you reassign a port to another VLAN before removing the VLAN from the VLAN database?
+
+> Prevents connectivity loss for that port. 
 
 ## Part 4: Configure an 802.1Q Trunk Between the Switches
 
@@ -292,9 +342,37 @@ Note: By default, all VLANs are allowed on a trunk. The switchport trunk command
 
 d. Verify that VLAN traffic is traveling over trunk interface F0/1.
 
-Can S1 ping S2? YES Can PC-A ping PC-B? YES Can PC-A ping PC-C? NO Can PC-B ping PC-C? NO Can PC-A ping S1? NO Can PC-B ping S2? NO Can PC-C ping S2? NO
+Can S1 ping S2? 
+
+> YES 
+
+Can PC-A ping PC-B? 
+
+> YES 
+
+Can PC-A ping PC-C? 
+
+> NO 
+
+Can PC-B ping PC-C? 
+
+> NO 
+
+Can PC-A ping S1? 
+
+> NO 
+
+Can PC-B ping S2? 
+
+> NO 
+
+Can PC-C ping S2? 
+
+> NO
 
 If you answered no to any of the above questions, explain below.
+
+> Devices on different VLANS and/or subnets 
 
 ### Step 2: Manually configure trunk interface F0/1.
 
@@ -314,6 +392,8 @@ S2# show interfaces trunk
 ```
 
 Why might you want to manually configure an interface to trunk mode instead of using DTP?
+
+> manual control and predictability
 
 ## Part 5: Delete the VLAN Database
 

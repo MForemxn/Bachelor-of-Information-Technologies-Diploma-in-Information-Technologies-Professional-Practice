@@ -23,3 +23,5 @@
 [[Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing]]
 # Assessment Tasks
 [[Routing and Switching Essentials Case Study]]
+
+# [[Cisco Router and Switch Config Cheat Sheet]]
