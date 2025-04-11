@@ -11,14 +11,10 @@
             "id": "d5ec7134b795684e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Security Assignment 1 Presentation.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "System Security Assignment 1 Presentation"
+              "title": "New tab"
             }
           }
         ]
@@ -155,10 +151,12 @@
   },
   "active": "d5ec7134b795684e",
   "lastOpenFiles": [
-    "System Security Assignment 1.md",
-    "System Security.md",
+    "Routing and Switching Essentials.md",
     "Subjects.md",
     "Homepage/Home.md",
+    "System Security Assignment 1 Presentation.md",
+    "System Security Assignment 1.md",
+    "System Security.md",
     "Computer Networks and the Internet.md",
     "Network Fundamentals.md",
     "Introduction to Network Fundamentals.md",
@@ -179,8 +177,6 @@
     "packet/circuit switching.md",
     "\"Hello, World!\".md",
     "State Management.md",
-    "Methods, Properties and Access Control.md",
-    "Programming 1.md",
     "Untitled",
     "Screenshot 2024-03-25 at 11.11.46 am 2.png",
     "Assesment Task 1 Template.pdf",

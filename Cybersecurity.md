@@ -15,4 +15,5 @@
 [[Cybersecurity Lab 3, Part 1]]
 [[Cybersecurity Lab 4, Part 1]]
 [[Cybersecurity Lab 4, Part 2]]
+[[Cybersecurity Lab 5, Part 1]]
 # Assessment Tasks

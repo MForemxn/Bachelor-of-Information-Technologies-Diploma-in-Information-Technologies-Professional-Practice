@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing and Switching Essentials.md",
+                "file": "Routing and Switching Essentials Case Study Routing Table.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Routing and Switching Essentials"
+              "title": "Routing and Switching Essentials Case Study Routing Table"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing and Switching Essentials.md",
+                "file": "Routing and Switching Essentials Case Study Routing Table.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Routing and Switching Essentials"
+              "title": "Routing and Switching Essentials Case Study Routing Table"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -137,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Routing and Switching Essentials.md",
+                "file": "Routing and Switching Essentials Case Study Routing Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Routing and Switching Essentials"
+              "title": "Outgoing links from Routing and Switching Essentials Case Study Routing Table"
             }
           },
           {
@@ -203,13 +203,29 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7f8c1c404bd734a7",
+  "active": "80cea5f79fbf2f0c",
   "lastOpenFiles": [
-    "Switched Networks and Configurations.md",
-    "Routing and Switching Essentials.md",
-    "Subjects.md",
-    "Homepage/Home.md",
     "Routing and Switching Essentials Case Study.md",
+    "Routing and Switching Essentials.md",
+    "Routing and Switching Essentials Case Study Routing Table.md",
+    "Lab 7 - Configuring Basic Switch Settings and Security Features.md",
+    "Subjects.md",
+    "Cybersecurity.md",
+    "Cybersecurity Lab 5, Part 1.md",
+    "Screenshot 2025-04-05 at 8.41.31 am.png",
+    "Screenshot 2025-04-05 at 8.41.43 am.png",
+    "Screenshot 2025-04-05 at 8.36.58 am.png",
+    "Screenshot 2025-04-05 at 8.37.08 am.png",
+    "Screenshot 2025-04-05 at 8.31.05 am.png",
+    "Screenshot 2025-04-05 at 8.24.29 am.png",
+    "Screenshot 2025-04-05 at 8.24.38 am.png",
+    "Screenshot 2025-04-05 at 8.16.55 am.png",
+    "Homepage/Home.md",
+    "Switched Networks and Configurations.md",
+    "Lab 3.1 Configuring Basic Router Settings with IOS CLI.md",
+    "Email Security and Social Engineering Attack.md",
+    "SPF.md",
+    "DKIM.md",
     "Routing and Switching Essentials Case Study Report Outline.md",
     "Application Development in the iOS Environment.md",
     "Application Development in the iOS Environment Assignment 2 - Bubblepop Game.md",
@@ -222,25 +238,9 @@
     "Web Service.md",
     "Cross-Site Scripting.md",
     "Cross-Site Request Forgery.md",
-    "Cybersecurity.md",
     "Cybersecurity Lab 4, Part 2.md",
     "Screenshot 2025-03-27 at 9.36.10 am.png",
     "Screenshot 2025-03-27 at 9.35.56 am.png",
-    "Screenshot 2025-03-27 at 9.36.42 am.png",
-    "Screenshot 2025-03-27 at 9.22.49 am.png",
-    "Screenshot 2025-03-27 at 9.19.28 am.png",
-    "Screenshot 2025-03-27 at 9.18.24 am.png",
-    "Screenshot 2025-03-27 at 9.17.39 am.png",
-    "Screenshot 2025-03-27 at 9.15.51 am.png",
-    "Screenshot 2025-03-27 at 9.10.28 am.png",
-    "Screenshot 2025-03-27 at 9.08.08 am.png",
-    "Intrusion Detection and Prevention.md",
-    "IPS.md",
-    "IDS.md",
-    "Email Security and Social Engineering Attack.md",
-    "SQL Master Document.md",
-    "SQL.md",
-    "System Security Assignment 1 Presentation.md",
     "Week 5 Lab 4 (Understanding TCPIP based Attacks).pdf",
     "Lab4 - Configuring IPv4 Static and Default Routes.pdf",
     "Untitled.canvas",

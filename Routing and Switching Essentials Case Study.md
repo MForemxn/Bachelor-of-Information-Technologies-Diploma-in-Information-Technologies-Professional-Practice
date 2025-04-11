@@ -10,3 +10,8 @@
 
 
 # [[Routing and Switching Essentials Case Study Report Outline]]
+
+ # [[Routing and Switching Essentials Case Study Routing Table]]
+ 
+
+---

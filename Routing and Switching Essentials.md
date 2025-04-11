@@ -18,5 +18,6 @@
 [[Lab 4.1 Configuring IPv4 Static and Default Routes]]
 [[Lab 16.3.1 Packet Tracer - Troubleshoot Static and Default Routes]]
 [[Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode]]
+[[Lab 7 - Configuring Basic Switch Settings and Security Features]]
 # Assessment Tasks
 [[Routing and Switching Essentials Case Study]]
