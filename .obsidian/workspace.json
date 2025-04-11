@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing and Switching Essentials.md",
+                "file": "Lab 8.1 - Configuring VLANs and Trunking.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Routing and Switching Essentials"
+              "title": "Lab 8.1 - Configuring VLANs and Trunking"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Routing and Switching Essentials.md",
+                "file": "Lab 8.1 - Configuring VLANs and Trunking.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Routing and Switching Essentials"
+              "title": "Lab 8.1 - Configuring VLANs and Trunking"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -137,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Routing and Switching Essentials.md",
+                "file": "Lab 8.1 - Configuring VLANs and Trunking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Routing and Switching Essentials"
+              "title": "Outgoing links from Lab 8.1 - Configuring VLANs and Trunking"
             }
           },
           {
@@ -205,9 +205,9 @@
   },
   "active": "7f8c1c404bd734a7",
   "lastOpenFiles": [
+    "Routing and Switching Essentials.md",
     "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
-    "Routing and Switching Essentials.md",
     "Lab 8.1 - Configuring VLANs and Trunking.md",
     "Screenshot 2025-04-11 at 6.03.52 pm.png",
     "Routing and Switching Essentials Case Study.md",
