@@ -19,5 +19,7 @@
 [[Lab 16.3.1 Packet Tracer - Troubleshoot Static and Default Routes]]
 [[Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode]]
 [[Lab 7 - Configuring Basic Switch Settings and Security Features]]
+[[Lab 8.1 - Configuring VLANs and Trunking]]
+[[Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing]]
 # Assessment Tasks
 [[Routing and Switching Essentials Case Study]]
