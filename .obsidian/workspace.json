@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
+                "file": "System Security Assessment Task 2.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing"
+              "title": "System Security Assessment Task 2"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
+                "file": "System Security Assessment Task 2.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing"
+              "title": "System Security Assessment Task 2"
             },
             "group": "47d43a68ae4bb984"
           }
@@ -98,8 +98,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
+                "file": "System Security Assessment Task 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing"
+              "title": "Outgoing links from System Security Assessment Task 2"
             }
           },
           {
@@ -167,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
+                "file": "System Security Assessment Task 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing"
+              "title": "Outline of System Security Assessment Task 2"
             }
           },
           {
@@ -204,11 +203,15 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7f8c1c404bd734a7",
+  "active": "12373b899523f38b",
   "lastOpenFiles": [
+    "System Security.md",
+    "System Security Assessment Task 2.md",
+    "Subjects.md",
+    "Homepage/Home.md",
+    "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
     "Routing and Switching Essentials.md",
     "Lab 8.1 - Configuring VLANs and Trunking.md",
-    "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
     "Cisco Router and Switch Config Cheat Sheet.md",
     "Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode.md",
     "Lab 7 - Configuring Basic Switch Settings and Security Features.md",
@@ -216,7 +219,6 @@
     "Screenshot 2025-04-11 at 6.03.52 pm.png",
     "Routing and Switching Essentials Case Study.md",
     "Routing and Switching Essentials Case Study Routing Table.md",
-    "Subjects.md",
     "Cybersecurity.md",
     "Cybersecurity Lab 5, Part 1.md",
     "Screenshot 2025-04-05 at 8.41.31 am.png",
@@ -227,7 +229,6 @@
     "Screenshot 2025-04-05 at 8.24.29 am.png",
     "Screenshot 2025-04-05 at 8.24.38 am.png",
     "Screenshot 2025-04-05 at 8.16.55 am.png",
-    "Homepage/Home.md",
     "Switched Networks and Configurations.md",
     "Lab 3.1 Configuring Basic Router Settings with IOS CLI.md",
     "Email Security and Social Engineering Attack.md",
@@ -237,11 +238,9 @@
     "Application Development in the iOS Environment.md",
     "Application Development in the iOS Environment Assignment 2 - Bubblepop Game.md",
     "Step by Step.md",
-    "System Security.md",
     "The Web Security.md",
     "Cross-Site Scripting (XSS).md",
     "Session Hijacking.md",
-    "Cross-Site Request Forgery (CSRF).md",
     "Week 5 Lab 4 (Understanding TCPIP based Attacks).pdf",
     "Lab4 - Configuring IPv4 Static and Default Routes.pdf",
     "Untitled.canvas",

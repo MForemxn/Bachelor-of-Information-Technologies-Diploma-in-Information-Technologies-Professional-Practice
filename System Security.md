@@ -15,3 +15,4 @@
 
 # Assessment Tasks
 [[System Security Assignment 1]]
+[[System Security Assessment Task 2]]

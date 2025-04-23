@@ -1,4 +1,4 @@
-# Lab - Configuring VLANs and Trunking
+# Lab - Configuring [[VLANs]] and Trunking
 
 ## Topology
 
@@ -6,7 +6,7 @@
 
 ## Addressing Table
 
-|Device|Interface|IP Address|Subnet Mask|Default Gateway|
+|Device|[[Interface]]|[[IP Address]]|[[Subnet Mask]]|[[Default Gateway]]|
 |---|---|---|---|---|
 |S1|VLAN 1|192.168.1.11|255.255.255.0|N/A|
 |S2|VLAN 1|192.168.1.12|255.255.255.0|N/A|
@@ -17,10 +17,10 @@
 ## Objectives
 
 - Part 1: Build the Network and Configure Basic Device Settings
-- Part 2: Create VLANs and Assign Switch Ports
-- Part 3: Maintain VLAN Port Assignments and the VLAN Database
+- Part 2: Create [[VLANs]] and Assign Switch Ports
+- Part 3: Maintain VLAN Port Assignments and the VLAN [[Database]]
 - Part 4: Configure an 802.1Q Trunk between the Switches
-- Part 5: Delete the VLAN Database
+- Part 5: Delete the VLAN [[Database]]
 
 ## Background / Scenario
 
@@ -200,7 +200,7 @@ S2(config-if)# switchport mode access
 S2(config-if)# switchport access vlan 20
 ```
 
-e. Remove the IP address for VLAN 1 on S2 and Configure an IP address for VLAN 99 on S2 according to the Addressing Table.
+e. Remove the [[IP address]] for VLAN 1 on S2 and Configure an [[IP address]] for VLAN 99 on S2 according to the Addressing Table.
 
 ```
 S2(config)# interface vlan 1
@@ -210,7 +210,7 @@ S2(config-if)# ip address 192.168.1.12 255.255.255.0
 S2(config-if)# end
 ```
 
-f. Use the show vlan brief command to verify that the VLANs are assigned to the correct interfaces.
+f. Use the show vlan brief command to verify that the [[VLANs]] are assigned to the correct interfaces.
 
 ```
 S2# show vlan brief
@@ -224,7 +224,7 @@ Is S1 able to ping S2? Why?
 
 > NO, there is no trunk link between the 2
 
-## Part 3: Maintain VLAN Port Assignments and the VLAN Database
+## Part 3: Maintain VLAN Port Assignments and the VLAN [[Database]]
 
 ### Step 1: Assign a VLAN to multiple interfaces.
 
@@ -243,7 +243,7 @@ c. Reassign F0/11 and F0/21 to VLAN 20.
 
 d. Verify that VLAN assignments are correct.
 
-### Step 2: Remove a VLAN assignment from an interface.
+### Step 2: Remove a VLAN assignment from an [[interface]].
 
 a. Use the no switchport access vlan command to remove the VLAN 10 assignment to F0/24.
 
@@ -260,9 +260,9 @@ Which VLAN is F0/24 now associated with?
 > VLAN 1, the default VLAN
 
 
-### Step 3: Remove a VLAN ID from the VLAN database.
+### Step 3: Remove a VLAN ID from the VLAN [[database]].
 
-a. Add VLAN 30 to interface F0/24 without issuing the VLAN command.
+a. Add VLAN 30 to [[interface]] F0/24 without issuing the VLAN command.
 
 ```
 S1(config)# interface f0/24
@@ -270,7 +270,7 @@ S1(config-if)# switchport access vlan 30
 % Access VLAN does not exist. Creating vlan 30
 ```
 
-Note: Current switch technology no longer requires that the vlan command be issued to add a VLAN to the database. By assigning an unknown VLAN to a port, the VLAN adds to the VLAN database.
+Note: Current switch technology no longer requires that the vlan command be issued to add a VLAN to the [[database]]. By assigning an unknown VLAN to a port, the VLAN adds to the VLAN [[database]].
 
 b. Verify that the new VLAN is displayed in the VLAN table.
 
@@ -282,7 +282,7 @@ What is the default name of VLAN 30?
 
 > VLAN0030
 
-c. Use the no vlan 30 command to remove VLAN 30 from the VLAN database.
+c. Use the no vlan 30 command to remove VLAN 30 from the VLAN [[database]].
 
 ```
 S1(config)# no vlan 30
@@ -295,7 +295,7 @@ After deleting VLAN 30, what VLAN is port F0/24 assigned to? What happens to the
 
 > This port will not transfer any traffic.
 
-e. Issue the no switchport access vlan command on interface F0/24.
+e. Issue the no switchport access vlan command on [[interface]] F0/24.
 
 ```
 S1(config)# interface f0/24
@@ -307,9 +307,9 @@ f. Issue the show vlan brief command to determine the VLAN assignment for F0/24.
 
 > VLAN 1, Default VLAN
 
-Note: Before removing a VLAN from the database, it is recommended that you reassign all the ports assigned to that VLAN.
+Note: Before removing a VLAN from the [[database]], it is recommended that you reassign all the ports assigned to that VLAN.
 
-Why should you reassign a port to another VLAN before removing the VLAN from the VLAN database?
+Why should you reassign a port to another VLAN before removing the VLAN from the VLAN [[database]]?
 
 > Prevents connectivity loss for that port. 
 
@@ -317,7 +317,7 @@ Why should you reassign a port to another VLAN before removing the VLAN from the
 
 ### Step 1: Use DTP to initiate trunking on F0/1.
 
-The default DTP mode of a 2960 switch port is dynamic auto. This allows the interface to convert the link to a trunk if the neighboring interface is set to trunk or dynamic desirable mode.
+The default DTP mode of a 2960 switch port is dynamic auto. This allows the [[interface]] to convert the link to a trunk if the neighboring [[interface]] is set to trunk or dynamic desirable mode.
 
 a. Set F0/1 on S1 to negotiate trunk mode.
 
@@ -326,7 +326,7 @@ S1(config)# interface f0/1
 S1(config-if)# switchport mode dynamic desirable
 ```
 
-b. Issue the show vlan brief command on S1 and S2. Interface F0/1 is no longer assigned to VLAN 1. Trunked interfaces are not listed in the VLAN table.
+b. Issue the show vlan brief command on S1 and S2. [[Interface]] F0/1 is no longer assigned to VLAN 1. Trunked interfaces are not listed in the VLAN table.
 
 ```
 S1# show vlan brief
@@ -338,9 +338,9 @@ c. Issue the show interfaces trunk command to view trunked interfaces. Notice th
 S1# show interfaces trunk
 ```
 
-Note: By default, all VLANs are allowed on a trunk. The switchport trunk command allows you to control what VLANs have access to the trunk. For this lab, keep the default settings which allows all VLANs to traverse F0/1.
+Note: By default, all [[VLANs]] are allowed on a trunk. The switchport trunk command allows you to control what [[VLANs]] have access to the trunk. For this lab, keep the default settings which allows all [[VLANs]] to traverse F0/1.
 
-d. Verify that VLAN traffic is traveling over trunk interface F0/1.
+d. Verify that VLAN traffic is traveling over trunk [[interface]] F0/1.
 
 Can S1 ping S2? 
 
@@ -372,13 +372,13 @@ Can PC-C ping S2?
 
 If you answered no to any of the above questions, explain below.
 
-> Devices on different VLANS and/or subnets 
+> Devices on different [[VLANS]] and/or subnets 
 
-### Step 2: Manually configure trunk interface F0/1.
+### Step 2: Manually configure trunk [[interface]] F0/1.
 
 The switchport mode trunk command is used to manually configure a port as a trunk. This command should be issued on both ends of the link.
 
-a. Change the switchport mode on interface F0/1 to force trunking. Make sure to do this on both switches.
+a. Change the switchport mode on [[interface]] F0/1 to force trunking. Make sure to do this on both switches.
 
 ```
 S1(config)# interface f0/1
@@ -391,13 +391,13 @@ b. Issue the show interfaces trunk command to view the trunk mode. Notice that t
 S2# show interfaces trunk
 ```
 
-Why might you want to manually configure an interface to trunk mode instead of using DTP?
+Why might you want to manually configure an [[interface]] to trunk mode instead of using DTP?
 
 > manual control and predictability
 
-## Part 5: Delete the VLAN Database
+## Part 5: Delete the VLAN [[Database]]
 
-### Step 1: Determine if the VLAN database exists.
+### Step 1: Determine if the VLAN [[database]] exists.
 
 Issue the show flash command to determine if a vlan.dat file exists in flash.
 
@@ -405,11 +405,11 @@ Issue the show flash command to determine if a vlan.dat file exists in flash.
 S1# show flash
 ```
 
-Note: If there is a vlan.dat file located in flash, then the VLAN database does not contain its default settings.
+Note: If there is a vlan.dat file located in flash, then the VLAN [[database]] does not contain its default settings.
 
-### Step 2: Delete the VLAN database.
+### Step 2: Delete the VLAN [[database]].
 
-a. Issue the delete vlan.dat command to delete the vlan.dat file from flash and reset the VLAN database back to its default settings. You will be prompted twice to confirm that you want to delete the vlan.dat file. Press Enter both times.
+a. Issue the delete vlan.dat command to delete the vlan.dat file from flash and reset the VLAN [[database]] back to its default settings. You will be prompted twice to confirm that you want to delete the vlan.dat file. Press Enter both times.
 
 ```
 S1# delete vlan.dat
@@ -423,9 +423,9 @@ S1# show flash
 
 To initialize a switch back to its default settings, what other commands are needed?
 
-## Take-Home Message
+## Take-[[Home]] Message
 
 1. Summarize the code snippet for access vlan and trunk vlan setting.
 2. Summarize what you have learned through the whole operation to F0/24 in S1.
-3. There are two ways to set Trunking function? What are they? What is the difference?
+3. There are two ways to set Trunking [[function]]? What are they? What is the difference?
 4. Try to repeat this lab using Packet Tracer.
