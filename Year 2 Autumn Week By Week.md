@@ -29,7 +29,7 @@
 |7|31 Mar|Email Security<br><br>**Notes:**  <br>Lab material at UTS Canvas|
 |8|7 Apr|VPN Security and Firewall<br><br>**Notes:**  <br>Lab material at UTS CANVAS|
 |-|14 Apr|**Mid-session STUVAC - No classes**|
-|9|21 Apr|Lecture: Mobile and Wireless Security<br><br>**Assessment, Quiz 2 during Lab Session, 10% of assessment tasks**<br><br>**Feedback will be provided to the students after the Quiz.**<br><br>**Notes:**  <br>Lab material at UTS Canvas|
+|9|21 Apr|Lecture: [[Mobile and Wireless Security]]<br><br>**Assessment, Quiz 2 during Lab Session, 10% of assessment tasks**<br><br>**Feedback will be provided to the students after the Quiz.**<br><br>**Notes:**  <br>Lab material at UTS Canvas|
 |10|28 Apr|Lecture: Guest Lecture (more information will be provided later)<br><br>**Notes:**  <br>Lab material at UTS Canvas|
 |11|5 May|Lecture: Guest Lecture (more information will be provided later)<br><br>**Assessment Task 2 : Skills based assessment during lab session, 30% of assessment tasks**<br><br>**Feedback will be provided after 2 weeks from the completion of the assessment Task-2**|
 |12|12 May|Lecture: Subject Revision and Final Exam Information<br><br>**Notes:**  <br>**Assessment Task 4 (Only for Students enrolled in 32548) : Research Project Report due, 10% of assessment tasks**<br><br>**Feedback on Assessment Task 4 will be provided to the students after 2 weeks from the date of submission of the assessment task.**|

@@ -1,0 +1,21 @@
+# [[Cloud Computing and Software as a Service Subject Outline|Subject Outline]]
+# Topics
+- [[Cloud computing fundamentals]]
+- [[Cloud architecture model]]
+- [[Infrastructure as a Service - IaaS]]
+- [[Platform as a Service - PaaS]]
+- [[Software as a Service - SaaS]]
+- [[Virtualization and multi-tenancy in cloud computing]]
+- [[Cloud data objects and validations]]
+- [[Cloud application and data security management]]
+- [[Cloud application workflow development]]
+- [[Force.com]]
+- [[Amazon Web Services (AWS)]]
+# In Class Activities
+- [[Cloud Computing and Software as a Service Prework]]
+# Assessment Tasks
+- [[Cloud Computing and Software as a Service Assessment task 1 - Research Essay]]
+- [[Cloud Computing and Software as a Service Assessment task 2 - Software as a Service (SaaS) Development]]
+- [[Cloud Computing and Software as a Service Assessment task 3 - Report on Software as a Service (SaaS) Development]]
+- [[Cloud Computing and Software as a Service Assessment task 4 - Presentation]]
+- [[Cloud Computing and Software as a Service Assessment task 5 - Final Assessment]]

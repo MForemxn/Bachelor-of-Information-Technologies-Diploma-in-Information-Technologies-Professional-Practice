@@ -4,31 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "3b5ae3940e4a315b",
-        "type": "tabs",
-        "dimension": 49.5704467353952,
-        "children": [
-          {
-            "id": "80cea5f79fbf2f0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Security Assessment Task 2.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "System Security Assessment Task 2"
-            },
-            "group": "47d43a68ae4bb984"
-          }
-        ]
-      },
-      {
         "id": "63ae5e5d5359f3ed",
         "type": "tabs",
-        "dimension": 50.4295532646048,
         "children": [
           {
             "id": "7f8c1c404bd734a7",
@@ -36,14 +13,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Security Assessment Task 2.md",
+                "file": "Cloud Computing and Software as a Service.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Cloud Computing and Software as a Service"
+            },
+            "group": "139b7aa82caa4ecc"
+          }
+        ]
+      },
+      {
+        "id": "54ecd81501f90e7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33e6025a2030ef58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Computing and Software as a Service.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "System Security Assessment Task 2"
+              "title": "Cloud Computing and Software as a Service"
             },
-            "group": "47d43a68ae4bb984"
+            "group": "139b7aa82caa4ecc"
           }
         ]
       }
@@ -102,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5
   },
   "right": {
     "id": "8150062bcafd6099",
@@ -113,36 +111,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30154b4d092bd100",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Routing and Switching Essentials Case Study.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Routing and Switching Essentials Case Study"
-            }
-          },
-          {
             "id": "a85eadc5790b4a05",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Security Assessment Task 2.md",
+                "file": "Cloud Computing and Software as a Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from System Security Assessment Task 2"
+              "title": "Outgoing links from Cloud Computing and Software as a Service"
             }
           },
           {
@@ -166,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Security Assessment Task 2.md",
+                "file": "Cybersecurity Lab 5, Part 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of System Security Assessment Task 2"
+              "title": "Outline of Cybersecurity Lab 5, Part 1"
             }
           },
           {
@@ -184,13 +163,31 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "f98fb763ae11cab3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cloud Computing and Software as a Service.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Cloud Computing and Software as a Service"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 232.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,25 +200,38 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "12373b899523f38b",
+  "active": "33e6025a2030ef58",
   "lastOpenFiles": [
-    "System Security.md",
-    "System Security Assessment Task 2.md",
+    "Cloud architecture model.md",
+    "Cloud Computing and Software as a Service.md",
+    "Cloud computing fundamentals.md",
+    "Amazon Web Services (AWS).md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Lab 8.2 - Configuring 802.1Q Trunk-Based Inter-VLAN Routing.md",
-    "Routing and Switching Essentials.md",
-    "Lab 8.1 - Configuring VLANs and Trunking.md",
-    "Cisco Router and Switch Config Cheat Sheet.md",
-    "Lab 2.7.2 Configure Single-Area OSPFv2 - Physical Mode.md",
-    "Lab 7 - Configuring Basic Switch Settings and Security Features.md",
+    "Quantum Computing.md",
+    "Software Service.md",
+    "Infrastructure as a Service (IaaS).md",
+    "Platform as a Service (PaaS).md",
+    "Service Oriented Architectures.md",
+    "Object-Oriented Architecture.md",
+    "Process-Oriented Architecture.md",
+    "World Wide Web.md",
+    "Commercial Mainframes.md",
+    "Personal Computer (PC).md",
+    "TCP/IP.md",
+    "TCP",
+    "Cloud Computing and Software as a Service Prework.md",
+    "Prework.md",
+    "Career Management for IT Professionals.md",
+    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
+    "Career Management for IT Professionals Subject Outline.md",
+    "Career Management for IT Professionals Assessment task 4 - Individual Reflection.md",
+    "Career Management for IT Professionals Assessment task 3 - Working in Teams.md",
+    "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
+    "Building and maintaining a professional network.md",
+    "Screenshot 2025-04-05 at 8.41.31 am.png",
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
     "Screenshot 2025-04-11 at 6.03.52 pm.png",
-    "Routing and Switching Essentials Case Study.md",
-    "Routing and Switching Essentials Case Study Routing Table.md",
-    "Cybersecurity.md",
-    "Cybersecurity Lab 5, Part 1.md",
-    "Screenshot 2025-04-05 at 8.41.31 am.png",
     "Screenshot 2025-04-05 at 8.41.43 am.png",
     "Screenshot 2025-04-05 at 8.36.58 am.png",
     "Screenshot 2025-04-05 at 8.37.08 am.png",
@@ -229,18 +239,6 @@
     "Screenshot 2025-04-05 at 8.24.29 am.png",
     "Screenshot 2025-04-05 at 8.24.38 am.png",
     "Screenshot 2025-04-05 at 8.16.55 am.png",
-    "Switched Networks and Configurations.md",
-    "Lab 3.1 Configuring Basic Router Settings with IOS CLI.md",
-    "Email Security and Social Engineering Attack.md",
-    "SPF.md",
-    "DKIM.md",
-    "Routing and Switching Essentials Case Study Report Outline.md",
-    "Application Development in the iOS Environment.md",
-    "Application Development in the iOS Environment Assignment 2 - Bubblepop Game.md",
-    "Step by Step.md",
-    "The Web Security.md",
-    "Cross-Site Scripting (XSS).md",
-    "Session Hijacking.md",
     "Week 5 Lab 4 (Understanding TCPIP based Attacks).pdf",
     "Lab4 - Configuring IPv4 Static and Default Routes.pdf",
     "Untitled.canvas",
@@ -254,7 +252,6 @@
     "Lab 2.2 VLSM Practice.pdf",
     "Lab 2.1 - Calculating IPv4 Subnets.pdf",
     "How to Swift eef3e4ee05884404b006abdc157cb9f8",
-    "Week 2 Lab 1 (Contd) Part 2.pdf",
-    "Cybersec-Week 1- Lab 1, Part 1- Handout.pdf"
+    "Week 2 Lab 1 (Contd) Part 2.pdf"
   ]
 }
