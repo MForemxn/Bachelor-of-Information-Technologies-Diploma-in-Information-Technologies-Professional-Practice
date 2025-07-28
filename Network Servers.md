@@ -6,6 +6,7 @@
 - [[VMware Workstation Player]]
 - [[VMware Fusion]]
 # In Class Activities
+[[Network Servers Learning Journal Working]]
 # Assessment Tasks
 - [[Network Servers Assessment task 1 Networking Skills Test]]
 - [[Network Servers Assessment task 2 Quiz]]
