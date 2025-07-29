@@ -104,8 +104,6 @@
         
 
 ---
-
-Let me know if you'd like this formatted for a digital or paper learning journal, or if you want help answering any of the embedded questions.
 ## Lab 1b
 ![[Lab 01b - System startup, runlevels and log files 1.pdf]]
 ### Single-User Mode Boot Process

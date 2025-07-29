@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction and Wireless data transmission principles.md",
+                "file": "Network Servers.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Introduction and Wireless data transmission principles"
+              "title": "Network Servers"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction and Wireless data transmission principles.md",
+                "file": "Network Servers.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Introduction and Wireless data transmission principles"
+              "title": "Network Servers"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction and Wireless data transmission principles.md",
+                "file": "Network Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Introduction and Wireless data transmission principles"
+              "title": "Outgoing links from Network Servers"
             }
           },
           {
@@ -145,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction and Wireless data transmission principles.md",
+                "file": "Network Servers.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction and Wireless data transmission principles"
+              "title": "Outline of Network Servers"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction and Wireless data transmission principles.md",
+                "file": "Network Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction and Wireless data transmission principles"
+              "title": "Backlinks for Network Servers"
             }
           }
         ]
@@ -200,12 +200,19 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "a85eadc5790b4a05",
+  "active": "33e6025a2030ef58",
   "lastOpenFiles": [
-    "Mobile Networking.md",
-    "Subjects.md",
-    "Network Servers.md",
     "Network Servers Learning Journal Working.md",
+    "Network Servers.md",
+    "Subjects.md",
+    "Career Management for IT Professionals.md",
+    "Preparing cover letters and resumes for job applications.md",
+    "resume.md",
+    "Cover Letter.md",
+    "Technical vs Transferable Skills.md",
+    "Homepage/Home.md",
+    "Introduction and Wireless data transmission principles.md",
+    "Mobile Networking.md",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",
@@ -221,7 +228,6 @@
     "Cloud architecture model.md",
     "Cloud computing fundamentals.md",
     "Amazon Web Services (AWS).md",
-    "Homepage/Home.md",
     "Quantum Computing.md",
     "Software Service.md",
     "Platform as a Service (PaaS).md",
@@ -231,13 +237,7 @@
     "World Wide Web.md",
     "Commercial Mainframes.md",
     "Personal Computer (PC).md",
-    "TCP/IP.md",
     "TCP",
-    "Cloud Computing and Software as a Service Prework.md",
-    "Prework.md",
-    "Career Management for IT Professionals.md",
-    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
-    "Career Management for IT Professionals Subject Outline.md",
     "Screenshot 2025-04-05 at 8.41.31 am.png",
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
     "Screenshot 2025-04-11 at 6.03.52 pm.png",
