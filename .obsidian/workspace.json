@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Career Management for IT Professionals Assessment task 1 - Job Application.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers"
+              "title": "Career Management for IT Professionals Assessment task 1 - Job Application"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Career Management for IT Professionals Assessment task 1 - Job Application.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers"
+              "title": "Career Management for IT Professionals Assessment task 1 - Job Application"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Career Management for IT Professionals Assessment task 1 - Job Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Network Servers"
+              "title": "Outgoing links from Career Management for IT Professionals Assessment task 1 - Job Application"
             }
           },
           {
@@ -145,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Career Management for IT Professionals Assessment task 1 - Job Application.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network Servers"
+              "title": "Outline of Career Management for IT Professionals Assessment task 1 - Job Application"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Career Management for IT Professionals Assessment task 1 - Job Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Network Servers"
+              "title": "Backlinks for Career Management for IT Professionals Assessment task 1 - Job Application"
             }
           }
         ]
@@ -202,11 +202,22 @@
   },
   "active": "33e6025a2030ef58",
   "lastOpenFiles": [
-    "Network Servers Learning Journal Working.md",
-    "Network Servers.md",
-    "Subjects.md",
+    "Career Management for IT Professionals Assessment Task 1 Key Company Facts.md",
+    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
+    "Career Management for IT Professionals Assessment Task 1 Job Listing.md",
+    "IT Support Specialist (L2) Job in Macquarie Park, Sydney NSW - SEEK.pdf",
+    "Career Management for IT Professionals Assessment Task 1 Cover Letter.md",
+    "Career Management for IT Professionals Assessment Task 1 Resume.md",
     "Career Management for IT Professionals.md",
+    "Subjects.md",
+    "Cloud Computing and Software as a Service.md",
+    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
+    "Cloud computing fundamentals.md",
     "Preparing cover letters and resumes for job applications.md",
+    "Cloud Computing and Software as a Service Assessment task 3 - Report on Software as a Service (SaaS) Development.md",
+    "Cloud Computing and Software as a Service Assessment task 2 - Software as a Service (SaaS) Development.md",
+    "Network Servers.md",
+    "Network Servers Learning Journal Working.md",
     "resume.md",
     "Cover Letter.md",
     "Technical vs Transferable Skills.md",
@@ -221,22 +232,12 @@
     "Lab 01b - System startup, runlevels and log files 1.pdf",
     "Lab 01b - System startup, runlevels and log files.pdf",
     "lab 1a.pdf",
-    "Cloud Computing and Software as a Service.md",
     "Infrastructure as a Service - IaaS.md",
     "Pasted image 20250728153149.png",
     "Infrastructure as a Service (IaaS).md",
     "Cloud architecture model.md",
-    "Cloud computing fundamentals.md",
     "Amazon Web Services (AWS).md",
     "Quantum Computing.md",
-    "Software Service.md",
-    "Platform as a Service (PaaS).md",
-    "Service Oriented Architectures.md",
-    "Object-Oriented Architecture.md",
-    "Process-Oriented Architecture.md",
-    "World Wide Web.md",
-    "Commercial Mainframes.md",
-    "Personal Computer (PC).md",
     "TCP",
     "Screenshot 2025-04-05 at 8.41.31 am.png",
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
@@ -251,7 +252,6 @@
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Week3 DNS Pharming-1-1.pdf",
-    "Completed - Lab 2.2 VLSM Practice.pdf"
+    "Week3 DNS Pharming-1-1.pdf"
   ]
 }
