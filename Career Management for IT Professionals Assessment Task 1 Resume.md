@@ -2,6 +2,7 @@
 
 0452 466 778 [professional@masonforeman.me](mailto:professional@masonforeman.me)
 
+## **Should add a Career Objective**
 ## Education
 
 **Bachelor of IT, Diploma of IT Professional Practice**
@@ -10,13 +11,13 @@
 
 **Major in Networking and Cybersecurity | Sub-Major in Information Security | Sub-Major in iOS Industry**
 
-I am currently in my second year at University of Technology Sydney, maintaining exceptional academic performance with a 6.00 GPA and 78.83 WAM across 72 credit points. My coursework encompasses critical IT disciplines including cybersecurity, network infrastructure, mobile application development, cloud computing, and system security. Key areas of study include Programming, Information Security Management, Web Systems, Database Fundamentals, Network Fundamentals, iOS Application Development, System Security, and Routing and Switching Essentials.
+I am currently in my second year at University of Technology Sydney, maintaining exceptional academic performance with a distinction average across 72 credit points. My coursework encompasses critical IT disciplines including cybersecurity, network infrastructure, mobile application development, cloud computing, and system security. Key areas of study include Programming, Information Security, Web Systems and Servers, Databases, Enterprise Networking, and System Security
 
 **William Clarke College**
 
 **January 2018 - December 2023**
 
-I completed the NSW Higher School Certificate (HSC) at William Clarke College in 2023 with a strong focus on subjects relevant to the IT field, including Software Design and Development, Investigating Science, and Mathematics. In year 11 I gained early entry to Macquarie University and Western Sydney University for degrees in Cyber Security, and to UTS for Computer Science. I subsequently gained the required ATAR to accept an offer at UTS for a Bachelor of IT, Diploma of IT Professional Practice.
+I completed the NSW Higher School Certificate (HSC) at William Clarke College in 2023 with a strong focus on subjects relevant to the IT field, including Software Design, Science, and Mathematics. In year 11 I gained early entry to Macquarie University and Western Sydney University for degrees in Cyber Security, and to UTS for Computer Science and Cyber Security. I subsequently gained the required ATAR to accept an offer at UTS for a Bachelor of IT, Diploma of IT Professional Practice.
 
 ## Work Experience
 
@@ -70,6 +71,8 @@ Active Directory · IT Troubleshooting · IT Support · Computer Hardware Instal
 ## Referees
 
 _(contact details available on request)_
+
+Mark Cassidy (Owner, CDM Computer Services)
 
 Yolanda Colosimo (Founder, Sweet Chocolate Warehouse)
 

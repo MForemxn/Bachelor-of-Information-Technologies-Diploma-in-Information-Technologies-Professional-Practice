@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Features, installation, and deployment of network servers.md",
+                "file": "Career Management for IT Professionals Assessment Task 1 Resume.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Features, installation, and deployment of network servers"
+              "title": "Career Management for IT Professionals Assessment Task 1 Resume"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Features, installation, and deployment of network servers.md",
+                "file": "Career Management for IT Professionals Assessment Task 1 Resume.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Features, installation, and deployment of network servers"
+              "title": "Career Management for IT Professionals Assessment Task 1 Resume"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Features, installation, and deployment of network servers.md",
+                "file": "Career Management for IT Professionals Assessment Task 1 Resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Features, installation, and deployment of network servers"
+              "title": "Outgoing links from Career Management for IT Professionals Assessment Task 1 Resume"
             }
           },
           {
@@ -200,27 +200,31 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7f8c1c404bd734a7",
+  "active": "33e6025a2030ef58",
   "lastOpenFiles": [
-    "Network Servers.md",
+    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
+    "Career Management for IT Professionals.md",
+    "Preparing cover letters and resumes for job applications.md",
+    "Career Management for IT Professionals Assessment Task 1 Resume.md",
+    "Career Management for IT Professionals - Roast My Resume.md",
+    "Be-the-Recruiter-FINAL Activity.pdf",
+    "Career Management for IT Professionals - Decoding a Job Listing.md",
+    "Sample Job Ad.pdf",
     "Subjects.md",
+    "Homepage/Home.md",
+    "Features, installation, and deployment of network servers.md",
+    "Network Servers.md",
     "Mobile Networking.md",
     "Introduction and Wireless data transmission principles.md",
     "Identification.md",
-    "Homepage/Home.md",
     "Network Servers Learning Journal Working.md",
-    "Features, installation, and deployment of network servers.md",
-    "Career Management for IT Professionals.md",
-    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
     "Career Management for IT Professionals Assessment Task 1 Cover Letter.md",
     "Career Management for IT Professionals Assessment Task 1 Key Company Facts.md",
     "Career Management for IT Professionals Assessment Task 1 Job Listing.md",
     "IT Support Specialist (L2) Job in Macquarie Park, Sydney NSW - SEEK.pdf",
-    "Career Management for IT Professionals Assessment Task 1 Resume.md",
     "Cloud Computing and Software as a Service.md",
     "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
     "Cloud computing fundamentals.md",
-    "Preparing cover letters and resumes for job applications.md",
     "Cloud Computing and Software as a Service Assessment task 3 - Report on Software as a Service (SaaS) Development.md",
     "Cloud Computing and Software as a Service Assessment task 2 - Software as a Service (SaaS) Development.md",
     "resume.md",
@@ -234,10 +238,7 @@
     "Lab 01b - System startup, runlevels and log files 1.pdf",
     "Lab 01b - System startup, runlevels and log files.pdf",
     "lab 1a.pdf",
-    "Infrastructure as a Service - IaaS.md",
     "Pasted image 20250728153149.png",
-    "Infrastructure as a Service (IaaS).md",
-    "Cloud architecture model.md",
     "TCP",
     "Screenshot 2025-04-05 at 8.41.31 am.png",
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
@@ -247,11 +248,9 @@
     "Week 5 Lab 4 (Understanding TCPIP based Attacks).pdf",
     "Lab4 - Configuring IPv4 Static and Default Routes.pdf",
     "Untitled.canvas",
-    "Week 4 Lab Cryptography-SSL-X509 Certificate-3.pdf",
     "Untitled 4.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Week3 DNS Pharming-1-1.pdf"
+    "Untitled 1.canvas"
   ]
 }
