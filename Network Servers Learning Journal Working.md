@@ -201,6 +201,430 @@
 - **Shutdown Process**: Requires entering reason for shutdown (audit trail for administrators)
 - **VM Management**: VMware suspend feature saves system state to .vmem and .vmss files
 # Week 2
+## Lab 2a
+![[Lab 02a - System documentation.pdf]]
+
+### **1. Aims of the Lab**
+
+- Use and configure the UNIX manual system
+- Find installed package documentation and documentation on the Internet
+
+---
+
+### **2. Man Pages and Manual System**
+
+#### **Manual Database Setup**
+
+```bash
+mandb -cqs &
+```
+
+#### **Manual Sections**
+
+- `man 1 passwd` - Shows user command (section 1)
+- `man 5 passwd` - Shows file formats (section 5)
+- `man passwd` - Shows section 1 by default (user commands have priority)
+
+#### **Manual Configuration**
+
+- Configuration file: `/etc/man_db.conf`
+- **SECTION** entry defines search order
+- **MANDATORY_MANPATH** defines default search directories
+
+#### **Info vs Man Pages**
+
+- `man grep` - Concise reference format
+- `info grep` - More detailed, hyperlinked documentation
+- Info pages generally more comprehensive than man pages
+
+#### **Manual Database Commands**
+
+```bash
+whatis passwd    # Brief description only
+apropos passwd   # Searches all descriptions (returns more results)
+```
+
+---
+
+### **3. Package Documentation**
+
+#### **Documentation Location**
+
+- Installed packages: `/usr/share/doc`
+- Example: `/usr/share/doc/sed*/`
+
+#### **Viewing Compressed Documentation**
+
+```bash
+zless sedfaq.txt.gz
+```
+
+---
+
+### **4. Online Documentation Resources**
+
+#### **Key Linux Documentation Sites**
+
+- **www.tldp.org** - The Linux Documentation Project
+- Microsoft IT Academy for Windows documentation
+
+#### **Essential Documents to Locate**
+
+- Linux Clock HOWTO
+- Main Linux FAQ
+- Linux System Administrator's Guide (SAG)
+## Lab 2b
+![[Lab 02b - System updates.pdf]]
+
+### **1. Aims of the Lab**
+
+- Update system software while maintaining stability
+- Understand update management for both Linux and Windows
+
+---
+
+### **2. Linux Networking Setup**
+
+#### **Enable NetworkManager**
+
+```bash
+systemctl start NetworkManager.service
+systemctl enable NetworkManager.service
+```
+
+#### **Network Verification**
+
+- Enable Ethernet "ens33" via GUI (top-right network icon)
+- Test connectivity: `ping www.uts.edu.au`
+
+---
+
+### **3. Linux Updates**
+
+#### **GUI Method - Gnome Software Manager**
+
+```bash
+gnome-software
+```
+
+- Use "Updates" tab
+- Click refresh (circular arrow icon)
+- **CAUTION**: Avoid kernel or GLIB updates (can cause system issues)
+
+#### **Command Line Method - YUM**
+
+```bash
+yum check-update        # Check for available updates
+yum search XXXXX        # Search for packages
+yum install XXXXX       # Install specific package
+yum update XXXXX        # Update specific package
+yum remove XXXXX        # Remove package
+```
+
+**Advantages**: Better dependency management and warnings
+
+---
+
+### **4. Windows Updates**
+
+#### **Why Avoid Automatic Updates on Servers**
+
+- Potential service disruption
+- Uncontrolled restart timing
+- Compatibility issues with running applications
+
+#### **GUI Method**
+
+- Access via Server Manager → Local Server
+- Or Settings → Update & Security → Windows Update
+
+#### **PowerShell Method**
+
+```powershell
+Install-Module PSWindowsUpdate
+
+Get-WindowsUpdate      # Check for updates
+Get-WULastResults     # Show last update results
+Get-WUHistory         # Show update history
+Get-WURebootStatus    # Check if reboot needed
+```
+## Lab 2c
+![[Lab 02c - Manage processes.pdf]]
+
+### **1. Aims of the Lab**
+
+- View process information in Linux and Windows
+- Manage process priorities in Linux
+- Use shell job control in Linux
+
+---
+
+### **2. Linux Process Viewing**
+
+#### **Process Commands**
+
+```bash
+ps                    # Current user processes only
+ps -ef               # All processes, full format
+ps -ef --forest      # Tree view showing parent-child relationships
+```
+
+**Key Observations**:
+
+- `init` process always has PID = 1
+- Parent-child relationships visible with `--forest`
+
+#### **Real-time Process Monitoring**
+
+```bash
+top
+```
+
+**Information displayed**:
+
+- Active processes sorted by CPU usage
+- Physical memory usage
+- Swap space usage and availability
+
+---
+
+### **3. Process Priorities in Linux**
+
+#### **CPU-Intensive Test Process**
+
+```bash
+dd if=/dev/zero of=/dev/null
+```
+
+#### **Nice Values**
+
+- Default nice value: 0
+- Range: -20 (highest priority) to +19 (lowest priority)
+- Lower numbers = higher priority
+
+#### **Setting Priority at Launch**
+
+```bash
+nice -n 15 dd if=/dev/zero of=/dev/null
+```
+
+#### **Changing Running Process Priority**
+
+```bash
+renice -20 XXXXX    # Highest priority (system sluggish)
+renice 19 XXXXX     # Lowest priority (system responsive)
+```
+
+---
+
+### **4. Linux Job Control**
+
+#### **Job Control Commands**
+
+- **Ctrl+Z**: Suspend foreground process (doesn't kill it)
+- **Ctrl+C**: Terminate foreground process
+- `jobs`: List all jobs associated with current shell
+- `bg 1`: Move job 1 to background
+- `fg 1`: Bring job 1 to foreground
+
+#### **Important Notes**
+
+- **Never use Ctrl+Z to exit editors** - this suspends them, doesn't close them
+- Background processes run with `&` or moved with `bg`
+- Suspended processes still consume resources
+
+---
+
+### **5. Windows Process Management**
+
+#### **GUI - Task Manager**
+
+- Access: Right-click taskbar → Task Manager OR Ctrl+Shift+Esc
+- **Processes tab**: Applications and background processes
+- **Details tab**: More technical information, sortable columns
+- Right-click column headers to add more information columns
+
+#### **PowerShell Commands**
+
+```powershell
+Get-Process                           # List all processes
+Get-Process powershell               # Show specific process
+Get-Process | Where-Object {$_.WorkingSet -gt 50000000}  # Processes using >50MB
+```
+
+#### **Command Prompt**
+
+```cmd
+tasklist                             # List processes
+```
+
+#### **Killing Windows Processes**
+
+```powershell
+Stop-Process -ID XXXX               # Kill by process ID
+```
+
+```cmd
+taskkill /PID XXXX                  # Alternative method
+```
+
+**Best Practice**: Use process ID rather than name to avoid killing wrong process
+## Lab 2d
+
+### **1. Aims of the Lab**
+
+- Understand disk partitioning concepts
+- Practice partitioning in both Linux and Windows
+
+---
+
+### **2. Linux Disk Partitioning Concepts**
+
+#### **Standard RedHat/CentOS Layout**
+
+- **`/boot`** partition: Contains bootloader files (not managed by LVM)
+- **LVM (Logical Volume Manager)**: Manages remaining space
+    - `cl-root`: Main system partition
+    - `cl-swap`: Virtual memory partition
+
+#### **Why `/boot` is Separate**
+
+- Bootloader must access files before LVM starts
+- Required for single-user mode and system recovery
+- Simple filesystem needed for early boot process
+
+---
+
+### **3. Linux Disk Analysis Commands**
+
+#### **Viewing Current Mounts**
+
+```bash
+mount                    # All mounted filesystems
+mount | grep '^/dev/'   # Filter to show only device mounts
+df                      # Disk space usage
+df -h                   # Human-readable format (MB/GB)
+```
+
+#### **Partition Information**
+
+```bash
+parted /dev/sda print   # Show partition table
+lvs                     # Show logical volumes
+swapon                  # Show swap usage and devices
+```
+
+#### **Monitoring Swap Usage**
+
+```bash
+top                     # Shows "MiB Swap" line
+swapoff -a             # Disable all swap
+swapon -a              # Enable all swap
+```
+
+---
+
+### **4. GUI Disk Management - Linux**
+
+#### **Installing Required Packages**
+
+```bash
+# Install packages:
+epel-release
+blivet-gui
+```
+
+#### **Using blivet-gui**
+
+- Graphical view of disk layout
+- Shows VMware virtual storage devices
+- **Pending actions** system - changes queued until applied
+- Apply changes with tick button (top-right)
+
+---
+
+### **5. Creating Partitions (USB Drive)**
+
+#### **⚠️ WARNING: THIS DESTROYS ALL DATA ON USB DRIVE**
+
+#### **Partition Creation Process**
+
+1. Insert USB drive, attach to Linux VM
+2. Open blivet-gui, locate flash drive (usually `sdb`)
+3. Unmount if mounted (eject icon)
+4. Create partitions:
+    - **1GB EXT4 partition** labeled "opt"
+    - **1GB swap partition** labeled "swap2"
+
+#### **Using New Partitions**
+
+##### **Swap Partition**
+
+```bash
+mkswap /dev/sdb2        # Format as swap
+swapon /dev/sdb2        # Activate swap
+swapon                  # Verify swap active
+```
+
+##### **EXT4 Partition**
+
+```bash
+touch /opt/hello.txt            # Create test file
+mount /dev/sdb1 /opt           # Mount partition
+# hello.txt now hidden by mount
+touch /opt/world.txt           # Create file on mounted partition
+umount /dev/sdb1               # Unmount
+# hello.txt reappears, world.txt hidden
+```
+
+#### **Key Concept: Mount Points**
+
+- Mounting **overlays** the directory content
+- Original files hidden while partition mounted
+- Original files reappear when unmounted
+- Files created while mounted exist on the mounted partition
+
+#### **Cleanup**
+
+```bash
+swapoff /dev/sdb2       # Deactivate swap
+umount /dev/sdb1        # Unmount partition
+```
+
+---
+
+### **6. Windows Server Disk Management**
+
+#### **Accessing Disk Management**
+
+- Server Manager → File and Storage Services → Disks
+- Shows disk capacity, partitions, and volumes
+- Main system volume typically labeled "C:"
+
+#### **USB Drive Management**
+
+1. Insert USB drive, connect to Windows VM
+2. **Tasks** menu → "Rescan Storage" to detect drive
+3. Previous Linux partitions visible but unreadable
+4. Right-click drive → "Reset disk" to clear all partitions
+5. Right-click → "New Volume..." to create Windows partition
+6. Assign drive letter (e.g., "N:")
+
+#### **Desktop Windows Disk Management**
+
+- Settings → search "disk" → "Create and format hard disk partitions"
+- Same functionality as Server Manager tool
+- Available on both server and desktop Windows versions
+
+---
+
+### **Key Learning Points**
+
+- **Linux**: Mount points overlay directories, LVM provides flexibility
+- **Windows**: Drive letters provide direct access, simpler partition model
+- **Both systems**: Can recognize but not necessarily read each other's filesystems
+- **Best practice**: Always unmount properly before removing removable media
+![[Lab 02d - Disk partitioning.pdf]]
 # Week 3
 # Week 4
 # Week 5

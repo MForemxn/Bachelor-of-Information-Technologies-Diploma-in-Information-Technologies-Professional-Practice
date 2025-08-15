@@ -2,80 +2,76 @@
 
 0452 466 778 [professional@masonforeman.me](mailto:professional@masonforeman.me)
 
-## **Should add a Career Objective**
+## Career Objective
+
+Second-year IT student at UTS, leveraging expertise in networking, cybersecurity, and IT support to secure a role driving innovative technology solutions. Skilled in problem-solving and technical support, I aim to contribute to efficient IT systems through continuous learning.
+
+## Transferable Skills
+
+- **Problem Solving**: At CDM Computer Services, resolved a client’s recurring network outage by diagnosing the issue. Analysed logs and reconfigured router settings, restoring stable connectivity and contributed to 99.5% uptime.
+- **Communication**: At Code Camp, taught coding to children aged 5-12 requiring clear explanations. Adapted technical concepts into engaging lessons, improving student comprehension and earning positive parental feedback.
+- **Teamwork**: At Sweet Chocolate Warehouse, collaborated on IT system upgrades to enhance e-commerce and in-store inventory management efficiency. Coordinated with staff to implement solutions, boosting order processing speed by 30%.
+- **Initiative**: Identified inefficiencies in Sweet Chocolate Warehouse’s order system needing optimisation. Proposed and implemented a new IT workflow, saving 10 hours weekly.
+- **Organisation**: At CDM, managed multiple client support tickets requiring prioritisation. Used ticketing software to track and resolve issues, maintaining 95% on-time resolution rate.
+- **Adaptability**: At Code Camp, adjusted curricula for diverse student skill levels to ensure engagement. Tailored lessons dynamically, increasing parent satisfaction by 15%.
+
 ## Education
 
 **Bachelor of IT, Diploma of IT Professional Practice**
 
-**University of Technology Sydney (currently studying)**
+**University of Technology Sydney (2024 - Present)**
 
-**Major in Networking and Cybersecurity | Sub-Major in Information Security | Sub-Major in iOS Industry**
+**Major: Networking and Cybersecurity | Sub-Major: Information Security, iOS Industry**
 
-I am currently in my second year at University of Technology Sydney, maintaining exceptional academic performance with a distinction average across 72 credit points. My coursework encompasses critical IT disciplines including cybersecurity, network infrastructure, mobile application development, cloud computing, and system security. Key areas of study include Programming, Information Security, Web Systems and Servers, Databases, Enterprise Networking, and System Security
+Second-year student with a distinction average across 72 credit points. Studying cybersecurity, networking, mobile app development, and system security, including Programming, Web Systems, Databases, and Enterprise Networking.
 
 **William Clarke College**
 
 **January 2018 - December 2023**
 
-I completed the NSW Higher School Certificate (HSC) at William Clarke College in 2023 with a strong focus on subjects relevant to the IT field, including Software Design, Science, and Mathematics. In year 11 I gained early entry to Macquarie University and Western Sydney University for degrees in Cyber Security, and to UTS for Computer Science and Cyber Security. I subsequently gained the required ATAR to accept an offer at UTS for a Bachelor of IT, Diploma of IT Professional Practice.
+Completed NSW HSC with focus on Software Design, Science, and Mathematics. Gained early entry to Macquarie University, Western Sydney University, and UTS for IT degrees, accepting UTS offer for Bachelor of IT based on ATAR.
 
 ## Work Experience
 
 **IT Support Consultant** **CDM Computer Services - March 2025 - Present**
 
-As an IT Support Consultant at CDM Computer Services, I provide comprehensive onsite, remote, and helpdesk support to businesses across Australia. My role demonstrates strong communication skills, teamwork, and technical problem-solving abilities—key attributes valued by employers. Key responsibilities include:
+- Resolved complex technical issues across client environments, supporting Microsoft systems in Active Directory networks.
+- Installed and maintained hardware/software, managing multiple client relationships.
+- Created IT documentation and managed support tickets, ensuring excellent customer service.
 
-- Diagnosing and resolving complex technical issues across diverse client environments, showcasing initiative and enterprise in problem-solving approaches
-- Supporting Microsoft desktop operating systems in Active Directory networks, comprising of both on prem, cloud, and hybrid infrastructures, requiring deep understanding of organisational IT
-- Installing, upgrading, and maintaining hardware, software, and peripherals while managing multiple client relationships simultaneously
-- Creating comprehensive IT documentation and managing support ticket systems, demonstrating planning and organisational capabilities
-- Delivering exceptional customer service and technical guidance, building strong interpersonal relationships with clients
+**IT Consultant, Business Operations Assistant** **Sweet Chocolate Warehouse - January 2021 - March 2025**
 
-I consistently demonstrate resilience and self-management while working with cutting-edge technologies, helping businesses maintain reliable and efficient IT systems.
+- Implemented IT solutions to streamline operations, improving e-commerce efficiency.
+- Managed IT infrastructure, providing ongoing technical support.
+- Coordinated online order systems, enhancing accuracy in retail operations.
 
-**IT Consultant, Business Operations Assistant** **Sweet Chocolate Warehouse, Baulkham Hills, NSW - January 2021 - March 2025**
+**IT Education Specialist** **Code Camp, Sydney - January 2021 - Present**
 
-- Consulted on and implemented IT solutions to streamline business operations, demonstrating initiative and commercial awareness in identifying efficiency improvements
-- Managed IT infrastructure and systems across the organization, providing ongoing technical support and maintenance
-- Coordinated online order processing systems, ensuring accuracy and efficiency in e-commerce operations
-- Developed and maintained organizational processes, showcasing planning and self-management skills in a fast-paced retail environment
-
-**IT Education Specialist** **Code Camp, Sydney, NSW - January 2021 - Present**
-
-- Led technology education programs for children aged 5-12, developing exceptional communication skills and emotional intelligence in explaining complex technical concepts
-- Designed and delivered comprehensive curricula covering coding, web design, and animation, demonstrating strong planning and organisational capabilities
-- Mentored students through technology challenges, applying advanced problem-solving methodologies and fostering resilience in learning environments
-- Collaborated with multidisciplinary teams to continuously improve educational programs, showcasing teamwork and initiative in curriculum development
+- Led coding and web design programs for children, explaining complex concepts clearly.
+- Designed curricula and mentored students, fostering problem-solving skills.
+- Collaborated to improve educational programs, enhancing learning outcomes.
 
 ## Technical Skills
 
-Active Directory · IT Troubleshooting · IT Support · Computer Hardware Installation · Software Installation · Office 365 Administration · Networking and Security · Mobile Device Support · Customer Service Excellence · Communication · IT Documentation · Ticket Management · Time Management · Problem Solving · Network Troubleshooting · Software Troubleshooting · Internet Troubleshooting
+Active Directory · IT Troubleshooting · IT Support · Hardware/Software Installation · Office 365 · Networking and Security · Mobile Device Support · Customer Service · IT Documentation · Ticket Management · Network/Software Troubleshooting
 
 ## Personal Interest Projects
 
-**Personal Portfolio Website** [www.masonforeman.me](http://www.masonforeman.me/)
-
-**Software Engineer and Marketing Coordinator** for a social media application for car enthusiasts called TurboUp [www.turboup.com](http://www.turboup.com/)
-
-**Team Member of the UTS Motorsports Team** [www.utsmotorsports.com](http://www.utsmotorsports.com/)
+- **Portfolio Website**: [www.masonforeman.me](http://www.masonforeman.me/)
+- **Software Engineer, Marketing Coordinator**: TurboUp social media app [www.turboup.com](http://www.turboup.com/)
+- **Team Member**: UTS Motorsports [www.utsmotorsports.com](http://www.utsmotorsports.com/)
 
 ## Achievements
 
 - 2023 - House Captain
 - 2020 - Passion to Serve Award
 - 2019 - Commitment to Learning Award
-- 2019 - Recognition of Learning Progress Award
-- 2019 - Head of Secondary College Award
 - 2017 - School Medal for Commitment to Learning
 
 ## Referees
 
-_(contact details available on request)_
+_(Contact details available on request)_
 
 Mark Cassidy (Owner, CDM Computer Services)
 
 Yolanda Colosimo (Founder, Sweet Chocolate Warehouse)
-
-Rob Stammers (Owner, Tom Sparkes Instrument Repairs)
-
-Corianda Goldbach (Staff Coordinator, Code Camp)

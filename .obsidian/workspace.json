@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Career Management for IT Professionals Assessment Task 1 Resume.md",
+                "file": "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Career Management for IT Professionals Assessment Task 1 Resume"
+              "title": "Career Management for IT Professionals Assessment task 2 - Video Interview"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Career Management for IT Professionals Assessment Task 1 Resume.md",
+                "file": "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Career Management for IT Professionals Assessment Task 1 Resume"
+              "title": "Career Management for IT Professionals Assessment task 2 - Video Interview"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Career Management for IT Professionals Assessment Task 1 Resume.md",
+                "file": "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Career Management for IT Professionals Assessment Task 1 Resume"
+              "title": "Outgoing links from Career Management for IT Professionals Assessment task 2 - Video Interview"
             }
           },
           {
@@ -145,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Design, implementation and integration of network server infrastructure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Network Servers"
+              "title": "Outline of Design, implementation and integration of network server infrastructure"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Design, implementation and integration of network server infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Network Servers"
+              "title": "Backlinks for Design, implementation and integration of network server infrastructure"
             }
           }
         ]
@@ -202,34 +202,39 @@
   },
   "active": "33e6025a2030ef58",
   "lastOpenFiles": [
-    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
+    "Career Management for IT Professionals Assessment Task 2 Feedback Recieved.md",
+    "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
+    "Career Management for IT Professionals Assessment Task 2 Mock Questions.md",
     "Career Management for IT Professionals.md",
-    "Preparing cover letters and resumes for job applications.md",
-    "Career Management for IT Professionals Assessment Task 1 Resume.md",
-    "Career Management for IT Professionals - Roast My Resume.md",
-    "Be-the-Recruiter-FINAL Activity.pdf",
-    "Career Management for IT Professionals - Decoding a Job Listing.md",
-    "Sample Job Ad.pdf",
+    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
+    "Career Management for IT Professionals Assessment Task 1 Final Submission.md",
+    "Career Management for IT Professionals Assessment Task 1 Draft Submission.md",
     "Subjects.md",
     "Homepage/Home.md",
-    "Features, installation, and deployment of network servers.md",
+    "Design, implementation and integration of network server infrastructure.md",
     "Network Servers.md",
+    "Features, installation, and deployment of network servers.md",
     "Mobile Networking.md",
-    "Introduction and Wireless data transmission principles.md",
-    "Identification.md",
-    "Network Servers Learning Journal Working.md",
-    "Career Management for IT Professionals Assessment Task 1 Cover Letter.md",
-    "Career Management for IT Professionals Assessment Task 1 Key Company Facts.md",
-    "Career Management for IT Professionals Assessment Task 1 Job Listing.md",
-    "IT Support Specialist (L2) Job in Macquarie Park, Sydney NSW - SEEK.pdf",
+    "Radio frequency communications.md",
     "Cloud Computing and Software as a Service.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
-    "Cloud computing fundamentals.md",
-    "Cloud Computing and Software as a Service Assessment task 3 - Report on Software as a Service (SaaS) Development.md",
-    "Cloud Computing and Software as a Service Assessment task 2 - Software as a Service (SaaS) Development.md",
-    "resume.md",
-    "Cover Letter.md",
-    "Technical vs Transferable Skills.md",
+    "Virtualization and multi-tenancy in cloud computing.md",
+    "Career Management for IT Professionals Ranking Resume.md",
+    "Network Servers Learning Journal Working.md",
+    "Lab 02d - Disk partitioning.pdf",
+    "Lab 02c - Manage processes.pdf",
+    "Lab 02b - System updates.pdf",
+    "Lab 02a - System documentation.pdf",
+    "Introduction and Wireless data transmission principles.md",
+    "Platform as a Service - PaaS.md",
+    "Platform as a Service (PaaS).md",
+    "Software as a Service - SaaS.md",
+    "Infrastructure as a Service - IaaS.md",
+    "Career Management for IT Professionals Assessment Task 1 Job Listing.md",
+    "Career Management for IT Professionals Assessment Task 1 Cover Letter.md",
+    "Career Management for IT Professionals Assessment Task 1 Resume.md",
+    "Be-the-Recruiter-FINAL Activity.pdf",
+    "Sample Job Ad.pdf",
+    "IT Support Specialist (L2) Job in Macquarie Park, Sydney NSW - SEEK.pdf",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",
@@ -237,16 +242,12 @@
     "Lab 01c - Windows Server 2019.pdf",
     "Lab 01b - System startup, runlevels and log files 1.pdf",
     "Lab 01b - System startup, runlevels and log files.pdf",
-    "lab 1a.pdf",
     "Pasted image 20250728153149.png",
-    "TCP",
     "Screenshot 2025-04-05 at 8.41.31 am.png",
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
     "Screenshot 2025-04-11 at 6.03.52 pm.png",
     "Screenshot 2025-04-05 at 8.41.43 am.png",
     "Screenshot 2025-04-05 at 8.36.58 am.png",
-    "Week 5 Lab 4 (Understanding TCPIP based Attacks).pdf",
-    "Lab4 - Configuring IPv4 Static and Default Routes.pdf",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

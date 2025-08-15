@@ -1,5 +1,7 @@
-[[Subjects]]
-[[Useful Links]]
-[[Handbook]]
-[[Week by Week Guidelines]]
-[[Other Pages]]
+ ---
+> # [[Subjects]]
+> # [[Useful Links]]
+> # [[Handbook]]
+> # [[Week by Week Guidelines]]
+> # [[Other Pages]]
+ ---

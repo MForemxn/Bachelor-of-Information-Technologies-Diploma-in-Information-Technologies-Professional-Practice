@@ -2,3 +2,5 @@
 # [[Career Management for IT Professionals Assessment Task 1 Cover Letter|Cover Letter]]
 # [[Career Management for IT Professionals Assessment Task 1 Job Listing|Job Listing]]
 # [[Career Management for IT Professionals Assessment Task 1 Key Company Facts|About the Company]]
+# [[Career Management for IT Professionals Assessment Task 1 Draft Submission|Draft Submission]]
+# [[Career Management for IT Professionals Assessment Task 1 Final Submission|Final Submission]]
