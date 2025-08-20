@@ -626,6 +626,258 @@ umount /dev/sdb1        # Unmount partition
 - **Best practice**: Always unmount properly before removing removable media
 ![[Lab 02d - Disk partitioning.pdf]]
 # Week 3
+## Lab 3a
+![[Lab 3a - Static networking.pdf]]
+### **1. Aims of the Lab**
+
+- Use command-line tools to configure static networking
+- Make persistent network settings by editing configuration files
+
+---
+
+### **2. Network Configuration Query**
+
+#### **Initial Setup**
+
+- Change VM Network Adapter to "Custom" using VMnet2
+- Enable NetworkManager: `systemctl enable NetworkManager.service`
+
+#### **Configuration Commands**
+
+```bash
+# Linux
+ifconfig
+route -n
+
+# Windows
+ipconfig
+route print -4
+```
+
+#### **Network Interface Files (Linux)**
+
+- Global parameters: `/etc/sysconfig/network`
+- Interface-specific: `/etc/sysconfig/network-scripts/ifcfg-ens33`
+- Second interface: `/etc/sysconfig/network-scripts/ifcfg-ens37`
+
+#### **Default Network Layout**
+
+- Virtual network: `192.168.3.0/24` (VMnet8)
+- DHCP range: `192.168.3.128` to `192.168.3.254`
+- Windows APIPA: `169.254.0.0/15` (when no DHCP)
+
+---
+
+### **3. Network Design**
+
+#### **Private Network Specifications**
+
+- Network: `10.0.2.0/24`
+- Capacity: 200 machines
+- Gateway: Linux machine (`10.0.2.1`)
+
+#### **Assigned Addresses**
+
+```
+Linux ens37:     10.0.2.1/24
+Windows LAN 2:   10.0.2.2/24
+Subnet mask:     255.255.255.0
+Gateway:         10.0.2.1
+```
+
+---
+
+### **4. Command-Line Configuration**
+
+#### **Linux Server (ens37)**
+
+```bash
+ifconfig ens37 10.0.2.1 netmask 255.255.255.0
+route add default gw 10.0.2.1
+```
+
+#### **Verification**
+
+```bash
+route -n                    # View routing table
+netstat -r                  # Alternative routing view
+ping 10.0.2.1              # Test gateway
+```
+
+#### **Windows Server**
+
+- Server Manager → Local Server → Ethernet1
+- Right-click → Properties → Internet Protocol Version 4
+- Select "Use the following IP Address"
+- Enter calculated values
+
+---
+
+### **5. Firewall Configuration**
+
+#### **Windows Server**
+
+**Method 1 (Easy)**:
+
+- Start → Control Panel → Network and Internet → System and Security
+- Windows Defender Firewall → Allow an app through firewall
+- File and Print sharing → Enable checkboxes → OK
+
+**Method 2 (Advanced)**:
+
+- Server Manager → Tools → Windows Defender Firewall with Advanced Security
+- Inbound rules → File and Printer sharing (Echo request ICMPv4 IN)
+
+#### **Linux Firewall**
+
+```bash
+systemctl status firewalld          # Check firewall status
+firewall-config                     # GUI configuration tool
+```
+
+**Command Line**:
+
+```bash
+firewall-cmd --add-icmp-block=echo-reply       # Block ping
+firewall-cmd --remove-icmp-block=echo-reply    # Allow ping
+firewall-cmd --query-icmp-block=echo-reply     # Check status
+```
+
+---
+
+### **6. Persistent Linux Configuration**
+
+#### **Configuration Files**
+
+- **Global**: `/etc/sysconfig/network`
+- **Interface**: `/etc/sysconfig/network-scripts/ifcfg-ens37`
+
+#### **ens33 Configuration (DHCP)**
+
+```
+BOOTPROTO=dhcp
+DEFROUTE=yes
+ONBOOT=yes
+```
+
+#### **ens37 Configuration (Static)**
+
+```
+DEVICE=ens37
+NAME=ens37
+BOOTPROTO=none
+IPADDR=10.0.2.1
+NETMASK=255.255.255.0
+DEFROUTE=no
+ONBOOT=yes
+```
+
+#### **Interface Management**
+
+```bash
+ifdown ens37                        # Bring interface down
+ifup ens37                          # Bring interface up
+systemctl restart NetworkManager.service    # Restart all networking
+```
+
+#### **NetworkManager CLI**
+
+```bash
+nmcli con show ens37                # Show connection details
+nmcli con down ens37                # Bring connection down
+nmcli con up ens37                  # Bring connection up
+nmtui                               # Text-based UI
+```
+
+---
+
+### **Key Learning Points**
+
+- **Static vs DHCP**: Manual IP assignment vs automatic
+- **Firewall Impact**: Different defaults between Linux/Windows
+- **Persistence**: Configuration files survive reboots
+- **Multiple Tools**: GUI, command-line, and NetworkManager options available
+## Lab 3b
+![[Lab 3b - Time and date.pdf]]
+### **1. Aims of the Lab**
+
+- Set correct timezone and current time using NTP server
+- Set up NTP daemon for automatic time maintenance
+
+---
+
+### **2. Timezone Configuration**
+
+#### **Check Current Time**
+
+```bash
+date        # Local time
+date -u     # UTC time
+```
+
+#### **Change Timezone**
+
+- Configuration: `/etc/localtime` → symbolic link to `/usr/share/zoneinfo/`
+- Set to different timezone for testing
+- Reset to `Australia/Sydney`
+
+---
+
+### **3. Chrony Time Synchronization**
+
+#### **Service Management**
+
+```bash
+ps -ef | grep chronyd              # Check if running
+systemctl status chronyd           # Service status
+systemctl start chronyd            # Start service
+systemctl enable chronyd           # Enable at boot
+```
+
+#### **Chrony Client Commands**
+
+```bash
+chronyc sources                    # View time sources
+chronyc tracking                   # Show sync status
+chronyc add server time.uts.edu.au # Add time server
+```
+
+#### **Time Synchronization Test**
+
+```bash
+date 123123591999.00              # Set to Dec 31, 1999 23:59:00
+date                              # Check current time
+systemctl restart chronyd         # Restart daemon
+date                              # Check time correction
+```
+
+#### **Configuration File**
+
+- Location: `/etc/chrony.conf`
+- Contains NTP server settings and sync parameters
+
+---
+
+### **4. Windows NTP Configuration**
+
+#### **Access Time Settings**
+
+- Server Manager → Local Server → Click timezone
+- OR Control Panel → Date and Time
+
+#### **Internet Time Configuration**
+
+- Internet Time tab
+- Change server from `time.microsoft.com` to `2.pool.ntp.org`
+
+---
+
+### **Key Learning Points**
+
+- **Chrony vs ntpd**: Modern CentOS uses chrony for time sync
+- **Gradual Correction**: Chrony gradually adjusts time rather than jumping
+- **Service Persistence**: Enable services to start at boot
+- **Configuration Files**: `/etc/chrony.conf` controls sync behavior
 # Week 4
 # Week 5
 # Week 6

@@ -550,3 +550,499 @@ chronyc makestep                 # Force time synchronization
 - **ens37**: Second virtual network [[interface]]
 - **vmnet2**: Private network 10.0.2.0/24 - 10.0.2.254/24
 - **vmnet8**: Private network 192.168.3.0/24 - 192.168.3.254/24
+
+## 1. Lab 3 Recapture - Network Setup Overview
+
+### Network Topology
+
+**VM Configuration**:
+
+- Each VM has two virtual interfaces: `ens33` and `ens37`
+- **vmnet2**: Private network `10.0.2.0/24` - `10.0.2.254/24`
+- **vmnet8**: Private network `192.168.3.0/24` - `192.168.3.254/24`
+
+**Host Configuration**:
+
+- **Subnet-1** (1st network card): `IP: 192.168.3.1`
+- **Subnet-2** (2nd network card): `IP: 192.168.3.2`, `Ethernet 1: IP: 10.0.2.2`
+
+### Command-line Configuration Tasks
+
+**Temporary Network Setting**:
+
+```bash
+ifconfig ens37 10.0.2.1 255.255.255.0        # Set IP and netmask
+route add default gw 10.0.2.1                # Set default gateway
+```
+
+**Connectivity Testing**:
+
+- Linux VM → Host laptop/PC ping test
+- Host PC → `ens33` and `ens37` ping tests
+
+### Persistent Network Configuration
+
+**Dynamic Interface (ens33)**:
+
+```bash
+vim /etc/sysconfig/network-scripts/ifcfg-ens33
+```
+
+```
+BOOTPROTO=dhcp          # Dynamic IP assignment
+DEFROUTE=yes           # Use as default route (assigned by DHCP)
+ONBOOT=yes             # Enable interface at boot
+```
+
+**Static Interface (ens37)**:
+
+```bash
+vim /etc/sysconfig/network-scripts/ifcfg-ens37
+```
+
+```
+DEVICE=ens37           # Physical device name
+NAME=ens37             # Connection name
+BOOTPROTO=none         # Static configuration
+IPADDR=10.0.2.1        # Static IP address
+NETMASK=255.255.255.0  # Subnet mask
+DEFROUTE=no            # Not default route
+ONBOOT=yes             # Enable at boot
+GATEWAY=10.0.2.1       # Gateway address
+DNS1=1.1.1.1           # Primary DNS
+DNS2=2.2.2.2           # Secondary DNS
+DOMAIN=google.com.au   # Domain suffix
+```
+
+**Interface Management**:
+
+```bash
+nmcli con down/up ens37        # Restart connection
+ifdown/up ens37               # Alternative method
+```
+
+---
+
+## 2. Hostname Configuration
+
+### Temporary Hostname Change
+
+```bash
+nmcli general hostname host.uts.edu.au
+```
+
+### Persistent Hostname Change
+
+**Method 1**:
+
+```bash
+# Step 1: Modify hostname file
+vim /etc/hostname
+
+# Step 2: Update hosts file
+vim /etc/hosts
+
+# Step 3: Restart network service
+systemctl restart network
+```
+
+**Method 2**:
+
+```bash
+hostnamectl set-hostname host.uts.edu.au    # Updates /etc/hostname automatically
+```
+
+---
+
+## 3. DHCP Introduction
+
+### Purpose
+
+**Dynamic Host Configuration Protocol (DHCP)** reduces network complexity and administration overhead.
+
+### Problem with Static Configuration
+
+- **Manual configuration**: Required for each machine individually
+- **Scalability issue**: How to manage 10,000+ machines?
+- **Administrative burden**: Time-consuming and error-prone
+
+### DHCP Solution
+
+**Automatic Configuration**:
+
+- Clients automatically obtain network configuration from DHCP server
+- **Protocol**: Uses UDP ports 67 (server) and 68 (client)
+- **Communication**: Network broadcasts on local subnet (255.255.255.255)
+
+**Broadcast Definition**: IP address 255.255.255.255 allows any host to send packets to every node on the local network.
+
+---
+
+## 4. Address Allocation Methods
+
+### Dynamic IP Configuration
+
+**IP Address Pools**:
+
+- Allocate "lease" IP addresses from pool of available addresses
+- **Pools/Scopes**: Named collections of IP address ranges
+- **Lease characteristics**:
+    - Tied to specific adapter MAC address
+    - Time-limited duration
+    - Changes over time
+
+### IP Address Reservation
+
+**Static Assignment within DHCP**:
+
+- "Reserve" specific IP address for particular hosts
+- **Use cases**: Servers, printers, critical infrastructure
+- **Benefits**: Combines DHCP management with static addressing
+
+### DHCP Database Structure
+
+```
+IP Address1: Leased to DHCP Client1 (Generation)
+IP Address2: Leased to DHCP Client2 (Renewal)
+IP Address3: Available to be leased
+```
+
+**Lease Types**:
+
+- **Lease Generation**: Request new lease
+- **Lease Renewal**: Extend existing lease
+
+---
+
+## 5. DHCP Operations
+
+### 5.1 DHCP Lease Generation (DORA Process)
+
+**4-Step Process**:
+
+**Step 1: DHCPDISCOVER**
+
+- **Action**: DHCP client broadcasts DHCPDISCOVER packet
+- **Scope**: Broadcast to entire subnet
+- **Response**: Only DHCP servers or agents respond
+
+**Step 2: DHCPOFFER**
+
+- **Action**: DHCP servers broadcast DHCPOFFER packets
+- **Content**: Potential IP address lease information
+- **Multiple servers**: Client may receive multiple offers
+
+**Step 3: DHCPREQUEST**
+
+- **Action**: Client broadcasts DHCPREQUEST packet
+- **Selection**: Usually chooses fastest responding server (typically closest)
+- **Content**: Contains server identifier indicating chosen server
+- **Notification**: Informs all servers of selection decision
+
+**Step 4: DHCPACK/DHCPNAK**
+
+- **DHCPACK**: Chosen server stores client info in database and confirms lease
+- **DHCPNAK**: Sent if server cannot provide offered address
+- **Declined servers**: Use DHCPREQUEST as notification of rejection
+
+### 5.2 DHCP Lease Renewal Process
+
+**Renewal Timeline**:
+
+**50% of Lease Duration**:
+
+- Client sends DHCPREQUEST to original server
+- Server responds with DHCPACK to extend lease
+
+**87.5% of Lease Duration**:
+
+- If renewal fails at 50%, process repeats
+- Last chance to renew with original server
+
+**100% of Lease Duration (Lease Expiry)**:
+
+- If renewal fails at 87.5%, full DORA process restarts
+- Client broadcasts DHCPDISCOVER to find any available server
+
+---
+
+## 6. DHCP Scopes and Reservations
+
+### DHCP Scopes
+
+**Definition**: Range of IP addresses available for leasing to specific network segments
+
+**Multi-subnet Environment**:
+
+```
+LAN A ← DHCP Server → LAN B
+      ↓         ↓
+   Scope A   Scope B
+```
+
+**Scope Configuration**: Each LAN segment gets its own IP address range
+
+### DHCP Reservations
+
+**Purpose**: Guarantee specific IP address for particular client
+
+**Use Cases**:
+
+- **Servers**: Require consistent IP addresses
+- **Printers**: Need fixed addresses for user access
+- **Network infrastructure**: Switches, routers, access points
+
+**Implementation Process**:
+
+1. Open DHCP Server role
+2. Expand DHCP scope → click Reservations
+3. Click More Actions → New Reservation
+4. **Requirement**: Must obtain device's MAC address
+
+### DHCP High Availability (80:20 Rule)
+
+**Fault Tolerance Configuration**:
+
+```
+Scope: 192.168.1.10 – 192.168.1.254
+(Reserve .1 - .9 for servers)
+
+DHCP Server1: 80% of addresses (192.168.1.60 - 192.168.1.254)
+DHCP Server2: 20% of addresses (192.168.1.10 - 192.168.1.59)
+```
+
+**Benefits**:
+
+- Increased availability
+- Load distribution
+- Fault tolerance
+
+---
+
+## 7. DHCP Server Implementation (Linux)
+
+### 7.1 Installation and Setup
+
+**Package Installation**:
+
+```bash
+yum install dhcp-server            # Install DHCP server package
+```
+
+**Service Management**:
+
+```bash
+systemctl status dhcpd             # Check DHCP service status
+systemctl {start|restart|enable} dhcpd  # Control DHCP service
+```
+
+**Configuration Files**:
+
+```bash
+rpm -qc dhcp-server               # List configuration files
+```
+
+### 7.2 Global Configuration (/etc/dhcp/dhcpd.conf)
+
+**Copy Example Configuration**:
+
+```bash
+cp /usr/share/doc/dhcp-server/dhcpd.conf.example /etc/dhcp/dhcpd.conf
+```
+
+**Global Options Example**:
+
+```bash
+# Global options for all networks
+option domain-name "example.org";
+option domain-name-servers ns1.example.org, ns2.example.org, 8.8.8.8;
+default-lease-time 600;           # 10 minutes
+max-lease-time 7200;              # 2 hours
+```
+
+### 7.3 Subnet Configuration
+
+**Individual Subnet Setup**:
+
+```bash
+subnet 10.5.5.0 netmask 255.255.255.224 {
+    range 10.5.5.26 10.5.5.30;                    # IP range for leasing
+    option domain-name-servers ns1.internal.example.org;
+    option domain-name "internal.example.org";
+    option routers 10.5.5.1;                      # Default gateway
+    option broadcast-address 10.5.5.31;           # Broadcast address
+    default-lease-time 600;                       # 10 minutes
+    max-lease-time 7200;                          # 2 hours
+}
+```
+
+**Host Reservation Example**:
+
+```bash
+host fantasia {
+    hardware ethernet 08:00:07:26:c0:a5;         # MAC address
+    fixed-address 10.5.5.10;                     # Reserved IP
+    option domain-name-servers 8.8.8.8;          # Custom DNS
+}
+```
+
+### 7.4 DHCP Server Operations
+
+**Firewall Configuration**:
+
+```bash
+firewall-cmd --add-service=dhcp --permanent      # Allow DHCP through firewall
+firewall-cmd --reload                             # Apply firewall changes
+```
+
+**Logging and Debugging**:
+
+```bash
+/var/log/messages                                 # Check system logs for errors
+```
+
+**Client Testing (Linux)**:
+
+```bash
+dhclient -d                                       # Run DHCP client in debug mode
+ip a                                              # Check assigned IP addresses
+```
+
+**Client Testing (Windows)**:
+
+```cmd
+ipconfig /renew                                   # Request new lease
+ipconfig /release                                 # Release current lease
+ipconfig /all                                     # Show all network configuration
+```
+
+---
+
+## 8. Network Configuration Summary
+
+### Windows Configuration Requirements
+
+- **IP address and subnet mask**
+- **Default gateway**
+- **DNS server addresses**
+- **DNS suffix/search domain**
+- **Hostname**
+
+### Linux Configuration Files
+
+**Interface Configuration**:
+
+- `/etc/sysconfig/network-scripts/ifcfg-ens33` (DHCP interface)
+
+**System Configuration**:
+
+- `/etc/hostname` (hostname configuration)
+- `/etc/resolv.conf` (DNS configuration - auto-generated)
+
+### Network Verification Commands
+
+**IP Address Check**:
+
+```bash
+ip a                                              # Show all interfaces and IPs
+```
+
+**Gateway Check**:
+
+```bash
+ip route                                          # Show routing table
+```
+
+**DNS Check**:
+
+```bash
+cat /etc/resolv.conf                             # Show DNS configuration
+```
+
+**Hostname Check**:
+
+```bash
+hostname                                          # Show current hostname
+```
+
+### Hostname Configuration Methods
+
+**Method 1 (Manual)**:
+
+```bash
+vim /etc/hostname                                # Edit hostname file
+hostnamectl set-hostname myhostname.mydomain    # Apply changes
+```
+
+**Method 2 (Automatic)**:
+
+```bash
+hostnamectl set-hostname myhostname.mydomain    # Updates /etc/hostname automatically
+```
+
+### Domain Resolution Configuration
+
+**Adding domain to /etc/resolv.conf** (3 methods):
+
+1. **Manual edit**: Direct file modification
+2. **DHCP option**: Configure via DHCP server
+3. **resolvectl**: Use systemd-resolved utility
+
+---
+
+## Interface Configuration Template
+
+### Static Interface Configuration (ifcfg-ens37)
+
+```bash
+TYPE=Ethernet                     # Interface type
+BOOTPROTO=none                    # Static configuration (none) vs DHCP (dhcp)
+NAME=ens37                        # Connection name (usually same as DEVICE)
+DEVICE=ens37                      # Physical device name
+UUID=9a5b99db-9450-44c5-aece-fbfb20f28e7d  # Can be deleted
+ONBOOT=yes                        # Enable at boot
+IPADDR=10.0.2.1                   # Static IP address
+NETMASK=255.255.255.0             # Subnet mask (alternatively: PREFIX=24)
+GATEWAY=10.0.2.1                  # Default gateway
+DNS1=1.1.1.1                      # Primary DNS server
+DNS2=2.2.2.2                      # Secondary DNS server
+DOMAIN=google.com.au              # DNS search domain
+```
+
+### Applying Configuration Changes
+
+```bash
+vim /etc/sysconfig/network-scripts/ifcfg-ens37  # Edit configuration
+nmcli c reload ens37                             # Reload configuration
+nmcli c up ens37                                # Activate [[interface]]
+```
+
+---
+
+## Key Concepts Summary
+
+1. **[[DHCP]] eliminates manual [[IP]] configuration** through automated lease management
+2. **DORA [[process]]** (Discover, Offer, Request, Acknowledge) handles [[IP]] assignment
+3. **Lease renewal** occurs at 50% and 87.5% of lease duration
+4. **Scopes define [[IP]] ranges** for different network segments
+5. **Reservations provide static [[IPs]]** within [[DHCP]] framework
+6. **High [[availability]]** achieved through multiple [[DHCP]] servers (80:20 rule)
+7. **Configuration files** enable persistent network settings
+8. **Proper testing and verification** essential for network functionality
+
+---
+
+## Week 5 Skills Assessment Preparation
+
+### Topics to [[Review]]
+
+- **Basic networking setup** (static + dynamic configuration)
+- **Configuration steps, files, and commands**
+- **Testing procedures and expected results**
+- **Using blank VMs**: CentOS Stream 8 and [[Windows]] Server 2019
+
+### Required Preparation
+
+1. Download empty *.ova files
+2. Import them as *.vmx files before Week 5 assessment
+3. [[Review]] announcements from 14/8/2025 and 18/8/2025

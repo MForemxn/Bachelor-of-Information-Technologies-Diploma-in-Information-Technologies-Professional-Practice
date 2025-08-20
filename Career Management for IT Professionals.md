@@ -13,6 +13,7 @@
 # In Class Activities
 - [[Career Management for IT Professionals - Decoding a Job Listing]]
 - [[Career Management for IT Professionals - Roast My Resume]]
+- [[Career Management for IT Professionals - Build Your STAR Story]]
 # Assessment Tasks
 - [[Career Management for IT Professionals Assessment task 1 - Job Application]]
 - [[Career Management for IT Professionals Assessment task 2 - Video Interview]]

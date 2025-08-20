@@ -1,0 +1,1 @@
+![[Assignment 1_Cloud Computing and Software as a Service_41001-a15c3554-8628-4363-b03f-d5eba44c69a9.pdf]]
