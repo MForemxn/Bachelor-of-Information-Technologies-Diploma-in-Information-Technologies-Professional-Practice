@@ -470,6 +470,7 @@ taskkill /PID XXXX                  # Alternative method
 
 **Best Practice**: Use process ID rather than name to avoid killing wrong process
 ## Lab 2d
+![[Lab 02d - Disk partitioning 1.pdf]]
 
 ### **1. Aims of the Lab**
 
@@ -879,6 +880,439 @@ date                              # Check time correction
 - **Service Persistence**: Enable services to start at boot
 - **Configuration Files**: `/etc/chrony.conf` controls sync behavior
 # Week 4
+## Lab 4a
+![[Lab 04a - Configuring a DHCP client 1.pdf]]
+### **1. Aims of the Lab**
+
+- Configure a Linux machine as a DHCP client
+- Configure a Windows machine as a DHCP client
+
+---
+
+### **2. Background Information**
+
+#### **VMware DHCP Setup**
+
+- VMnet8 (NAT interface) has built-in DHCP server
+- Assigns IPs in range 192.168.3.128 – 192.168.3.254 (lab room)
+- VMnet2 network requires manual DHCP client configuration
+
+#### **NetworkManager vs dhclient**
+
+- NetworkManager has built-in DHCP support
+- No need to run separate `dhclient` program
+
+---
+
+### **3. Linux DHCP Client Configuration**
+
+#### **Command-Line Method**
+
+- **Configuration file**: `/etc/sysconfig/network-scripts/ifcfg-ens*`
+- **Key changes**:
+    - Change `BOOTPROTO` from "none" to "dhcp"
+    - Comment out static IP settings (IPADDR, NETMASK, GATEWAY) using `#`
+- **Apply changes**: Reboot or use `ifdown`/`ifup`
+- **Testing**: Use `ping`, `ssh`, `ifconfig`, or `nmcli`
+
+#### **GUI Method**
+
+- **Access**: Settings → Network or run `gnome-control-center`/`nm-connection-editor`
+- **Configuration**: Select adapter → Properties → IPv4 settings → DHCP
+- **Tip**: Enable "Connect automatically" to avoid manual activation
+
+---
+
+### **4. Windows DHCP Client Configuration**
+
+#### **GUI Method**
+
+- **Path**: Server Manager → Network Connections → Adapter Properties
+- **Setting**: Internet Protocol v4 (TCP/IPv4) → "Obtain an IP address automatically"
+
+#### **Command-Line Method using netsh**
+
+- **Show configuration**: `netsh interface ip show config`
+- **Enable DHCP**: `netsh interface ip set address "Local Area Connection" dhcp`
+- **Set static IP**: `netsh interface ip set address name="Local Area Connection" static [IP] [mask] [gateway]`
+- **View all settings**: `netsh dump`
+
+---
+
+### **5. Key Commands and Testing**
+
+#### **Linux Testing Commands**
+
+- `ifconfig` or `nmcli`: Check IP configuration
+- `ping`: Test connectivity
+- `ssh`: Test remote access
+
+#### **Windows Testing Commands**
+
+- `ipconfig`: Check IP configuration
+- `netstat /all`: View network settings
+## Lab 4b
+![[Lab 04b - Configuring a DHCP server on Linux.pdf]]
+### **1. Aims of the Lab**
+
+- Configure a Linux machine as a DHCP server
+- Test the configuration by using a Windows client
+
+---
+
+### **2. Network Design and Setup**
+
+#### **Subnet Configuration**
+
+- **Subnet**: 10.0.2.0/24
+- **Gateway**: 10.0.2.1 (Linux server)
+- **DNS**: 10.0.2.1
+- **Reserved space**: 10.0.2.2 → 10.0.2.127 (servers)
+- **Dynamic range**: 10.0.2.128 → 10.0.2.254 (workstations)
+
+#### **Virtual Network**
+
+- Uses VMnet2 virtual switch
+- Shared LAN between Linux and Windows servers
+
+---
+
+### **3. DHCP Server Installation and Configuration**
+
+#### **Installation**
+
+bash
+
+```bash
+yum install dhcp-server
+```
+
+#### **Configuration File Location**
+
+- **Main config**: `/etc/dhcp/dhcpd.conf`
+- **Sample file**: `/usr/share/doc/dhcp-server/dhcpd.conf.example`
+
+#### **Key Configuration Parameters**
+
+```
+default-lease-time 60;
+max-lease-time 600;
+authoritative;
+
+subnet 10.0.2.0 netmask 255.255.255.0 {
+    range 10.0.2.128 10.0.2.254;
+    option domain-name-servers 10.0.2.1;
+    option domain-name "localdomain";
+    option routers 10.0.2.1;
+}
+```
+
+---
+
+### **4. Interface Configuration**
+
+#### **Static IP Setup for ens37**
+
+- **Command**: `ifconfig ens37 10.0.2.1`
+- **Config file**: `/etc/sysconfig/network-scripts/ifcfg-ens37`
+- **Key setting**: `BOOTPROTO=none` (for static IP)
+
+#### **DHCP Interface Specification**
+
+- **Config file**: `/etc/sysconfig/dhcpd`
+- **Setting**: `DHCPDARGS=ens37` (listen only on ens37)
+
+---
+
+### **5. Router/Gateway Configuration**
+
+#### **IP Forwarding Setup**
+
+- **Enable IP forwarding**: Add `net.ipv4.ip_forward = 1` to `/etc/sysctl.conf`
+- **Apply changes**: `sudo sysctl -p`
+
+#### **Firewall and NAT Configuration**
+
+bash
+
+```bash
+# Enable masquerading and DHCP service
+sudo firewall-cmd --permanent --add-masquerade
+sudo firewall-cmd --permanent --add-service=dhcp
+
+# Configure NAT rules for internet access
+sudo firewall-cmd --permanent --direct --add-rule ipv4 nat POSTROUTING 0 -s 10.0.2.0/24 -o ens33 -j MASQUERADE
+sudo firewall-cmd --permanent --direct --add-rule ipv4 filter FORWARD 0 -i ens37 -o ens33 -j ACCEPT
+sudo firewall-cmd --permanent --direct --add-rule ipv4 filter FORWARD 0 -i ens33 -o ens37 -m state --state RELATED,ESTABLISHED -j ACCEPT
+
+# Apply firewall changes
+sudo firewall-cmd --reload
+```
+
+#### **Dual-Interface Setup**
+
+- **ens33**: Internet access interface (external)
+- **ens37**: Local network interface (internal DHCP server)
+- **Purpose**: Provides internet access to DHCP clients through routing
+
+---
+
+### **6. Service Management and Monitoring**
+
+#### **Service Control**
+
+bash
+
+```bash
+systemctl start dhcpd
+systemctl enable dhcpd
+systemctl status dhcpd
+```
+
+#### **Monitoring Tools**
+
+- **Live log monitoring**: `tail -f /var/log/messages` or `journalctl -u dhcpd -f`
+- **Lease database**: `/var/lib/dhcpd/dhcpd.leases`
+- **ARP table**: `arp -i ens37`
+- **DHCP listening check**: `sudo ss -ulnp | grep :67`
+
+---
+
+### **7. DHCP Protocol Process**
+
+#### **Four-Step Process**
+
+1. **DHCPDISCOVER**: Client broadcasts request for IP
+2. **DHCPOFFER**: Server offers available IP address
+3. **DHCPREQUEST**: Client requests the offered IP
+4. **DHCPACK**: Server acknowledges and assigns IP
+
+#### **Authoritative Server**
+
+- Add `authoritative;` to config to eliminate "not authoritative" messages
+- Makes server definitive for the subnet
+
+---
+
+### **8. Troubleshooting Common Issues**
+
+#### **Configuration Syntax Errors**
+
+- **Test syntax**: `sudo dhcpd -t -cf /etc/dhcp/dhcpd.conf`
+- **Common errors**: Invalid IP ranges (>255), missing semicolons
+- **Example fix**: Change `10.0.2.550` to `10.0.2.200`
+
+#### **Service Startup Issues**
+
+- **Check logs**: `sudo journalctl -u dhcpd`
+- **Interface problems**: Verify ens37 is up and configured
+- **Lease file**: `sudo touch /var/lib/dhcpd/dhcpd.leases`
+- **Permissions**: `sudo chown dhcpd:dhcpd /var/lib/dhcpd/dhcpd.leases`
+
+---
+
+### **9. Windows Client Testing**
+
+#### **Client Configuration**
+
+- Set Windows Ethernet1 to automatic IP (remove static settings)
+- Path: Network Connections → Ethernet1 → IPv4 Properties
+- **Refresh**: Disable/enable interface if needed
+
+#### **Verification Commands**
+
+- **Windows**: `ipconfig`, `netstat /all`
+- **Linux server checks**:
+    - Lease file: `/var/lib/dhcpd/dhcpd.leases`
+    - ARP table: `arp -i ens37`
+    - Log messages in `/var/log/messages`
+
+---
+
+### **10. Reserved Addresses Configuration**
+
+#### **Purpose and Method**
+
+- Assign dedicated IPs to specific servers by MAC address
+- Prevents IP reuse by workstations
+
+#### **Configuration Steps**
+
+1. **Find MAC address**: Check lease file or use `arp` command
+2. **Add host entry** to `/etc/dhcp/dhcpd.conf`:
+
+```
+host WinServer {
+    hardware ethernet 00:0c:29:xx:yy:zz;
+    fixed-address 10.0.2.20;
+}
+```
+
+3. **Restart service**: `systemctl restart dhcpd`
+4. **Testing**: Client should receive reserved IP within 60 seconds
+## Lab 4c
+![[Lab 04c - Configuring a DHCP server on Windows Server.pdf]]
+### **1. Aims of the Lab**
+
+- Configure a Windows Server machine as a DHCP server
+- Test the configuration by using a Linux client
+
+---
+
+### **2. Network Design**
+
+#### **Subnet Configuration**
+
+- **Subnet**: 10.0.3.0/24
+- **Server IP**: 10.0.3.1 (Windows Server)
+- **Scope concept**: Windows term for IP address range
+- **Dynamic range**: 10.0.3.129 → 10.0.3.254
+
+---
+
+### **3. Windows Server Interface Setup**
+
+#### **Static IP Configuration**
+
+- **Interface**: Ethernet1 (VMnet2 network)
+- **IP Address**: 10.0.3.1
+- **Configuration**: Also set as default gateway and DNS server
+- **Path**: Network Connections → Ethernet1 → IPv4 Properties
+
+---
+
+### **4. DHCP Role Installation**
+
+#### **Installation Process**
+
+1. **Server Manager** → Add Roles and Features
+2. **Installation type**: Role-based or feature-based
+3. **Server selection**: Current/only server
+4. **Role selection**: DHCP Server (with admin tools)
+5. **Complete configuration**: Follow post-installation wizard
+
+#### **Post-Installation**
+
+- New DHCP menu item appears in Server Manager
+- Warning message: "Configuration required for DHCP Server"
+- May need to restart DHCP service during setup
+
+---
+
+### **5. DHCP Scope Configuration**
+
+#### **DHCP Manager Access**
+
+- **Path**: Server Manager → DHCP → Right-click server → DHCP Manager
+- **Interface**: Microsoft Management Console with three columns
+
+#### **New Scope Wizard Settings**
+
+- **Scope Name**: Custom name (e.g., "winrange") + description
+- **IP Range**: 10.0.3.129 to 10.0.3.254 with subnet mask
+- **Exclusions**: None (leave blank)
+- **Lease Duration**: 0 days, 0 hours, 1 minute (for testing)
+- **DHCP Options**: Yes
+- **Router (Gateway)**: 10.0.3.1 (remember to press "Add")
+- **DNS**: 10.0.3.1, domain "whatever.localdomain"
+- **WINS**: None (remove any existing)
+- **Activate Scope**: Yes
+
+---
+
+### **6. Monitoring and Management**
+
+#### **DHCP Manager Tools**
+
+- **Statistics**: Right-click IPv4 → Display Statistics
+- **Shows**: DHCP traffic stats, leases in use/available
+- **Scope Properties**: Right-click scope → Properties (for editing)
+
+#### **Log Files and Database**
+
+- **Database**: `C:\WINDOWS\system32\dhcp\dhcp.mdb` (locked)
+- **Log files**: `C:\WINDOWS\system32\dhcp\Dhcp*.log` (viewable)
+- **Event Viewer**: Tools → Event Viewer → Windows Logs → System
+- **Filter**: Event Sources = "DHCP-Server"
+
+---
+
+### **7. Linux Client Configuration**
+
+#### **Disable Previous DHCP Server**
+
+bash
+
+```bash
+systemctl stop dhcpd
+systemctl disable dhcpd
+```
+
+#### **Configure ens37 for DHCP Client**
+
+- **Edit**: `/etc/sysconfig/network-scripts/ifcfg-ens37`
+- **Set**: `BOOTPROTO=dhcp`
+- **Comment out**: Static IP/netmask/gateway settings
+- **Apply**: `ifdown ens37 && ifup ens37`
+
+---
+
+### **8. Linux Client Verification**
+
+#### **Network Configuration Checks**
+
+- **IP config**: `ifconfig -a` (should show 10.0.3.x address)
+- **DNS settings**: `/etc/resolv.conf`
+- **Routing**: `route` or `netstat -r`
+- **Gateway test**: `ping 10.0.3.1`
+- **Logs**: `/var/log/messages`
+
+#### **NetworkManager DHCP Info**
+
+- **Lease storage**: `/var/lib/NetworkManager`
+- **Automatic lease management**
+
+---
+
+### **9. Reserved Address Configuration**
+
+#### **Windows DHCP Reservations**
+
+1. **Find MAC**: `ifconfig` on Linux (look for "ether")
+2. **DHCP Manager**: Expand scope → Reservations → Right-click → Add
+3. **MAC format**: Use dashes (xx-xx-xx-xx-xx-xx) not colons
+4. **IP assignment**: Set to 10.0.3.30
+5. **No confirmation**: Use Close button to continue
+6. **Application**: Wait 2 minutes or restart interface (`ifdown`/`ifup`)
+
+---
+
+### **10. Key Differences: Linux vs Windows DHCP**
+
+#### **Configuration Method**
+
+- **Linux**: Text-based config file (`/etc/dhcp/dhcpd.conf`)
+- **Windows**: GUI-based (DHCP Manager in MMC)
+
+#### **Terminology**
+
+- **Linux**: Ranges and subnets
+- **Windows**: Scopes (equivalent to ranges)
+
+#### **MAC Address Format**
+
+- **Linux**: Colon-separated (xx:xx:xx:xx:xx:xx)
+- **Windows**: Dash-separated (xx-xx-xx-xx-xx-xx)
+
+#### **Service Management**
+
+- **Linux**: `systemctl` commands
+- **Windows**: Role-based installation and MMC management
+
+#### **Monitoring**
+
+- **Linux**: Log files and command-line tools
+- **Windows**: Event Viewer and DHCP Manager statistics
 # Week 5
 # Week 6
 # Week 7
