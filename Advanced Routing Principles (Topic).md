@@ -25,9 +25,9 @@
 	- labels indicate the path packets should take through the network, allowing for fast switching and advanced traffic engineering
 	- particularly useful for managing VoIP (Voice over IP), video, and other time-sensitive traffic
 
-# Load Balancing and Redundancy
-- advanced [[routing]] principles also encompass strategies for load balancing and redundancy to ensure network reliability and performance
-	- load balancing distributes traffic evenly across multiple paths or servers to optimise resource use and avoid congestion
+# [[Load Balancing]] and Redundancy
+- advanced [[routing]] principles also encompass strategies for [[load balancing]] and redundancy to ensure network reliability and performance
+	- [[load balancing]] distributes traffic evenly across multiple paths or servers to optimise resource use and avoid congestion
 	- redundancy involves creating backup routes and mechanisms to maintain network [[availability]] in case of failures
 
 # Quality of Service (QoS)

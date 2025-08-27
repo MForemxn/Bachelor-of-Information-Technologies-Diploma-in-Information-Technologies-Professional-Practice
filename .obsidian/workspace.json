@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Amazon Web Services (AWS).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers Learning Journal Working"
+              "title": "Amazon Web Services (AWS)"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Amazon Web Services (AWS).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers Learning Journal Working"
+              "title": "Amazon Web Services (AWS)"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Amazon Web Services (AWS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Network Servers Learning Journal Working"
+              "title": "Outgoing links from Amazon Web Services (AWS)"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design, implementation and integration of network server infrastructure.md",
+                "file": "Amazon Web Services (AWS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,10 +180,11 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Design, implementation and integration of network server infrastructure"
+              "title": "Backlinks for Amazon Web Services (AWS)"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,44 +202,44 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7f8c1c404bd734a7",
+  "active": "33e6025a2030ef58",
   "lastOpenFiles": [
+    "EC2.md",
+    "Amazon Web Services (AWS).md",
+    "Load Balancing.md",
+    "Cloud Computing and Software as a Service.md",
+    "Subjects.md",
+    "Network Servers.md",
+    "Basic directory services.md",
+    "Active Directory.md",
+    "Domain Controllers.md",
+    "Mobile Networking.md",
+    "Wireless Local Area Networks - WiFi.md",
+    "Homepage/Home.md",
+    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Working Document.md",
+    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
+    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Description.md",
+    "Network Servers Learning Journal Working.md",
     "Lab 04c - Configuring a DHCP server on Windows Server.pdf",
     "Lab 04b - Configuring a DHCP server on Linux.pdf",
     "Lab 04a - Configuring a DHCP client 1.pdf",
     "Lab 04a - Configuring a DHCP client.pdf",
     "Lab 02d - Disk partitioning 1.pdf",
-    "Network Servers.md",
-    "Subjects.md",
-    "Homepage/Home.md",
     "Career Management for IT Professionals Assessment Task 2 Mock Questions.md",
     "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
     "Career Management for IT Professionals.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Working Document.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Description.md",
     "Assignment 1_Cloud Computing and Software as a Service_41001-a15c3554-8628-4363-b03f-d5eba44c69a9.pdf",
-    "Cloud Computing and Software as a Service.md",
     "Design, implementation and integration of network server infrastructure.md",
-    "Mobile Networking.md",
     "Wireless Personal Area Networks - Bluetooth.md",
     "Career Management for IT Professionals Assessment Task 2 Feedback Recieved.md",
     "Career Management for IT Professionals - Build Your STAR Story.md",
-    "Network Servers Learning Journal Working.md",
     "Lab 3b - Time and date.pdf",
     "Lab 3a - Static networking.pdf",
     "Features, installation, and deployment of network servers.md",
     "Gnome.md",
     "Career Management for IT Professionals Assessment task 1 - Job Application.md",
-    "Career Management for IT Professionals Assessment Task 1 Final Submission.md",
-    "Career Management for IT Professionals Assessment Task 1 Draft Submission.md",
-    "Radio frequency communications.md",
-    "Virtualization and multi-tenancy in cloud computing.md",
-    "Career Management for IT Professionals Ranking Resume.md",
     "Lab 02d - Disk partitioning.pdf",
     "Lab 02c - Manage processes.pdf",
-    "Lab 02b - System updates.pdf",
-    "Introduction and Wireless data transmission principles.md",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",

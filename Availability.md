@@ -24,7 +24,7 @@
 
 # Redundancy Techniques
 - [[data]] mirroring: maintaining copies of [[data]] in two or more locations to ensure availability in case one site fails
-- load balancing: distributing workloads across multiple servers to prevent any single server from becoming a bottleneck
+- [[load balancing]]: distributing workloads across multiple servers to prevent any single server from becoming a bottleneck
 - hot and cold sites: maintaining fully operational duplicate systems (hot sites) or having the capability to quickly set up a system in a new location (cold sites)
 
 # Failover Mechanisms

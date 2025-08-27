@@ -30,7 +30,7 @@
 1. CEF enhances network efficiency and [[scalability]].
 2. It uses FIB and adjacency tables for rapid forwarding.
 3. Reduces latency and increases throughput in high-traffic environments.
-4. Supports load balancing for improved performance.
+4. Supports [[load balancing]] for improved performance.
 5. Ideal for large-scale, high-performance network infrastructures.
 # [[Default Gateway]]
 - devices need the following information for network access:

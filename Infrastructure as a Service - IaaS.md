@@ -13,10 +13,10 @@ Enterprise computing infrastructure encompasses the foundational systems and ser
 - Integration supports diverse applications and services.
     
 - Automation enhances consistency and reduces manual errors.
-## Load Balancing
+## [[Load Balancing]]
 ### Web Servers
 
-Load balancing in web servers refers to the distribution of incoming [[HTTP]] or HTTPS requests across multiple web servers. This ensures that no single server becomes a bottleneck, improves response time, and increases [[availability]]. Load balancers can operate at the [[application layer]] (Layer 7) or [[transport layer]] (Layer 4), [[routing]] traffic based on factors such as request path, server health, or connection count.
+[[Load balancing]] in web servers refers to the distribution of incoming [[HTTP]] or HTTPS requests across multiple web servers. This ensures that no single server becomes a bottleneck, improves response time, and increases [[availability]]. Load balancers can operate at the [[application layer]] (Layer 7) or [[transport layer]] (Layer 4), [[routing]] traffic based on factors such as request path, server health, or connection count.
 
 - Distributes user traffic evenly to prevent overload.
     
@@ -31,7 +31,7 @@ Load balancing in web servers refers to the distribution of incoming [[HTTP]] or
 
 ### Application Servers
 
-In application servers, load balancing ensures that business logic processing is distributed evenly across multiple server instances. This reduces latency and improves the responsiveness of dynamic applications. Load balancers may account for application health, resource utilisation, or session [[data]] to decide how to route requests.
+In application servers, [[load balancing]] ensures that business logic processing is distributed evenly across multiple server instances. This reduces latency and improves the responsiveness of dynamic applications. Load balancers may account for application health, resource utilisation, or session [[data]] to decide how to route requests.
 
 - Balances execution of complex server-side logic.
     
@@ -46,7 +46,7 @@ In application servers, load balancing ensures that business logic processing is
 
 ### [[Database]] Servers
 
-Load balancing for [[database]] servers involves distributing queries and transactions to optimise performance and reliability. This typically separates read and write operations, with writes going to a primary [[database]] and reads handled by replicas. Sophisticated [[routing]] strategies are used to maintain [[data]] consistency and minimise latency.
+[[Load balancing]] for [[database]] servers involves distributing queries and transactions to optimise performance and reliability. This typically separates read and write operations, with writes going to a primary [[database]] and reads handled by replicas. Sophisticated [[routing]] strategies are used to maintain [[data]] consistency and minimise latency.
 
 - Read replicas handle high-volume read operations.
     
@@ -61,7 +61,7 @@ Load balancing for [[database]] servers involves distributing queries and transa
 
 ### Memory
 
-Memory load balancing refers to the optimal use of memory resources across nodes in a distributed system, particularly in caching or in-memory processing environments. It prevents memory hotspots and improves [[data]] retrieval speeds by spreading cache or computation load evenly.
+Memory [[load balancing]] refers to the optimal use of memory resources across nodes in a distributed system, particularly in caching or in-memory processing environments. It prevents memory hotspots and improves [[data]] retrieval speeds by spreading cache or computation load evenly.
 
 - Distributes in-memory cache [[data]] (e.g., in Redis clusters).
     
@@ -115,7 +115,7 @@ The architecture of IaaS provisioning comprises several integrated layers that e
 
 [[Amazon Web Services (AWS)]] is a leading cloud service provider offering a wide range of IaaS, PaaS, and SaaS solutions. It provides scalable, secure, and cost-effective infrastructure for computing, storage, databases, [[machine learning]], and more. AWS has a global infrastructure with [[data]] centres in multiple regions, allowing enterprises to build robust, geographically distributed systems.
 
-- Offers compute services like EC2 and Lambda.
+- Offers compute services like [[EC2]] and Lambda.
     
 - Provides scalable storage solutions (S3, EBS, Glacier).
     

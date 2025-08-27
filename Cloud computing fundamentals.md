@@ -102,7 +102,7 @@ AWS launched publicly with its first core services:
 
 - **Amazon S3 (Simple Storage Service)** for scalable storage
     
-- **Amazon EC2 (Elastic Compute Cloud)** for renting virtual servers on demand
+- **Amazon [[EC2]] (Elastic Compute Cloud)** for renting virtual servers on demand
     
 
 This marked the beginning of **[[Infrastructure as a Service (IaaS)]]** becoming mainstream.

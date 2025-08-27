@@ -16,7 +16,7 @@ The distribution layer acts as an intermediary between the access and core layer
 
 - Aggregates [[data]] from access layer devices.
 - Implements [[routing]] and filtering policies.
-- Provides redundancy and load balancing.
+- Provides redundancy and [[load balancing]].
 
 ## Core Layer
 The core layer is the backbone of the network, providing high-speed [[data]] transport and redundancy.

@@ -11,7 +11,7 @@
 
 # Significance
 - iam roles do not have permanent credentials like user accounts. Instead, they assume temporary [[security]] credentials when needed.
-- roles can be assumed by anyone who needs them, from iam users within the same AWS account, to users from a different AWS account, or even AWS services like EC2.
+- roles can be assumed by anyone who needs them, from iam users within the same AWS account, to users from a different AWS account, or even AWS services like [[EC2]].
 - this makes roles highly flexible and secure for delegating permissions to entities that require them temporarily.
 
 # Policy Documents and Permissions
@@ -22,7 +22,7 @@
 # Best Practices for IAM Roles and Permissions
 - follow the principle of least privilege: only grant permissions necessary to perform a task.
 - regularly review and audit iam roles and permissions to ensure they are up to date with current requirements.
-- use iam roles for applications running on EC2 instances to securely access other AWS services without embedding static credentials.
+- use iam roles for applications running on [[EC2]] instances to securely access other AWS services without embedding static credentials.
 - enable multi-factor [[authentication]] (MFA) for sensitive accounts and roles to add an extra layer of [[security]].
 
 # Advanced Features

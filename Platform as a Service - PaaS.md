@@ -11,7 +11,7 @@ PaaS provides the capability to create and deploy applications using [[programmi
 - Provides a [[software development]] framework for building and deploying applications.
 - Abstracts hardware and operating system management, reducing upfront capital expenses.
 - Supports multi-tenancy, allowing multiple users to share resources while maintaining [[data]] isolation.
-- Offers [[scalability]] and automatic load balancing for deployed applications.
+- Offers [[scalability]] and automatic [[load balancing]] for deployed applications.
 - Includes tools like APIs, drag-and-drop interfaces, and desktop clients for local development.
 
 ## Components of PaaS
@@ -33,7 +33,7 @@ PaaS provides the capability to create and deploy applications using [[programmi
 - Google Datastore (updated to Firestore in April 2019) stores application [[data]] as [[entities]], distinct from traditional objects.
 - Google Cloud [[SQL]] for relational [[database]] services.
 - MemoryStore (replacing Memcache) for fast caching.
-- Automatic load balancing for web requests.
+- Automatic [[load balancing]] for web requests.
 - Development using tools like Eclipse IDE.
 
 ### [[Force.com]]
@@ -47,7 +47,7 @@ PaaS provides the capability to create and deploy applications using [[programmi
 ## Benefits
 
 - Eliminates upfront costs for hardware and software platforms.
-- Simplifies application deployment with automatic scaling and load balancing.
+- Simplifies application deployment with automatic scaling and [[load balancing]].
 - Reduces infrastructure management, allowing focus on development.
 - Supports rapid application development and deployment cycles.
 - Enhances [[security]] and resource fairness through constraints.

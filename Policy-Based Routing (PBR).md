@@ -11,7 +11,7 @@
 - If the packet does not match any policy, it is then processed using the traditional [[routing]] table.
 
 # Applications of Policy-Based [[Routing]]
-- Load Balancing: PBR can be used to distribute traffic evenly across multiple links, improving bandwidth utilization and network performance.
+- [[Load Balancing]]: PBR can be used to distribute traffic evenly across multiple links, improving bandwidth utilization and network performance.
 - Traffic Segregation: PBR allows for the segregation of traffic types, ensuring that sensitive or critical traffic can be routed through more secure or reliable paths.
 - Cost Reduction: By directing traffic through less expensive links for certain types of traffic, PBR can help reduce operational costs.
 - Enhanced [[Security]]: PBR can be used to route traffic from specific sources or carrying specific types of [[data]] through firewalls or other [[security]] devices for additional scrutiny.

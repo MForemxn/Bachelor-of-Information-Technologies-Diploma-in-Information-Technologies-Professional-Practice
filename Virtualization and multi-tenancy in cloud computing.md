@@ -136,7 +136,7 @@ Shared Hardware (Direct)
 |**VMM Location**|Runs on host OS|Runs directly on hardware|
 |**Performance**|Additional OS layer overhead|Better performance (direct hardware access)|
 |**Examples**|VirtualBox, VMware Workstation|VMware ESXi, Hyper-V|
-|**Cloud Usage**|Development/testing|Production cloud environments (e.g., Amazon EC2)|
+|**Cloud Usage**|Development/testing|Production cloud environments (e.g., Amazon [[EC2]])|
 
 ## 4. Cloud Computing and Virtualization
 
@@ -273,7 +273,7 @@ Shared Hardware (Direct)
 - Hardware redundancy and clustering
 - VMM hardening and [[security]] monitoring
 - Regular backups and disaster recovery planning
-- Load balancing across multiple physical hosts
+- [[Load balancing]] across multiple physical hosts
 
 ## 7. Multi-tenancy and Virtualization
 
