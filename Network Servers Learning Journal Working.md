@@ -1314,6 +1314,404 @@ systemctl disable dhcpd
 - **Linux**: Log files and command-line tools
 - **Windows**: Event Viewer and DHCP Manager statistics
 # Week 5
+## Lab 5a
+![[Lab 05a - Managing users and groups.pdf]]
+# Lab 5a - Managing Users and Groups
+
+## 1. Creating Users with Command-Line Tools
+
+### User Creation Commands
+
+```bash
+# Peter Griffin - zsh shell
+useradd -c "Peter Griffin" -s /bin/zsh peter
+passwd peter
+
+# Stewie Griffin - bash shell  
+useradd -c "Stewie Griffin" -s /bin/bash stewie
+passwd stewie
+
+# Brian Griffin - specific uid, users group
+useradd -c "Brian Griffin" -s /bin/bash -u 200 -g users -N brian
+passwd brian
+```
+
+### Skeleton Directory Setup
+
+```bash
+# Add README to skeleton
+echo "Welcome to the system!" > /etc/skel/README
+```
+
+### Password Option Issue
+
+`useradd -p` requires pre-encrypted password - inconvenient and insecure to specify on command line. Better to use `passwd` command after account creation.
+
+### Login Testing Methods
+
+- **GUI**: System → Logout/Switch User
+- **SSH**: `ssh brian@localhost`
+- **Group verification**: `id` command
+
+## 2. Groups and User Assignment
+
+### Group Management
+
+```bash
+# Create family group
+groupadd family
+
+# Add users to family group (secondary)
+usermod -G family stewie
+usermod -G family brian
+
+# Verify membership
+id stewie
+id brian
+```
+
+### Group Switching with newgrp
+
+```bash
+# Change current group
+newgrp family
+id  # Shows family as current group
+
+# File ownership changes
+touch file1  # Before newgrp
+newgrp family
+touch file2  # After newgrp - different group owner
+```
+
+### newgrp Mechanism
+
+- Creates **new shell** with different primary group
+- Check with `ps` command - shows multiple shells
+- Exit with `exit` to return to previous shell/group
+
+### Primary vs Secondary Groups
+
+- **Primary group**: Default group for new files (`/etc/passwd` field 4)
+- **Secondary groups**: Additional memberships (`/etc/group`, `groups` command)
+- `newgrp` temporarily changes effective primary group
+
+## 3. Account Modification
+
+### Account Expiration
+
+```bash
+# Set Peter's account to expire in 5 days
+chage -E $(date -d "+5 days" +%Y-%m-%d) peter
+# Alternative: usermod -e
+
+# Check aging parameters
+chage -l peter
+```
+
+### Password Aging
+
+```bash
+# Force password change every 5 days
+chage -M 5 stewie
+chage -l stewie  # Verify settings
+```
+
+### Account Locking Methods
+
+**Method 1: usermod**
+
+```bash
+usermod -L brian  # Lock account
+usermod -U brian  # Unlock account
+```
+
+**Method 2: Password field manipulation**
+
+```bash
+vipw -s  # Edit /etc/shadow
+# Add ! or * before password hash
+```
+
+**Method 3: nologin shell**
+
+```bash
+usermod -s /sbin/nologin brian
+echo "Please contact administrator" > /etc/nologin.txt
+```
+
+## 4. Manual User Creation
+
+### Manual Steps for lois
+
+```bash
+# 1. Edit passwd file
+vipw
+# Add: lois:x:1003:1003:Lois Griffin:/home/lois:/bin/bash
+
+# 2. Edit group file  
+vigr
+# Add: lois:x:1003:
+
+# 3. Edit shadow file
+vipw -s
+# Add: lois:!!:19000:0:99999:7:::
+
+# 4. Create home directory
+mkdir /home/lois
+cp -r /etc/skel/. /home/lois/
+chown -R lois:lois /home/lois
+
+# 5. Set password
+passwd lois
+```
+
+### Manual Creation Verification
+
+- Home directory exists: `/home/lois`
+- Correct ownership: `lois:lois`
+- Skeleton files copied including dot files
+- All files owned by lois
+
+## 5. GUI Management
+
+### Settings → Details → Users
+
+**Available**: Basic user info, password, account type **Not available**: Password aging, shell selection, advanced group memberships
+
+## 6. Windows Server GUI
+
+### Computer Management → Local Users and Groups
+
+```
+Right-click Users → New User
+- Create: peter, stewie, brian, lois
+- Set full names and passwords
+
+Right-click Groups → New Group  
+- Create: family
+- Add members via "Add" button
+- Search format: workstation\user
+```
+
+## 7. Windows Command Line
+
+### PowerShell Commands
+
+```powershell
+New-LocalUser -Name "joe" -FullName "Joe Swanson"
+Get-LocalUser
+Disable-LocalUser joe
+Enable-LocalUser joe
+```
+
+### Command Prompt
+
+```cmd
+net user bonnie /add /fullname:"Bonnie Swanson"
+net user
+net user bonnie
+wmic useraccount where "name='bonnie'"
+```
+
+### Scripting Benefits
+
+Command-line tools enable **batch operations** - create hundreds of accounts from spreadsheet data vs manual GUI creation.
+
+## Key Takeaways
+
+1. **useradd** safer than manual creation but understanding manual process important
+2. **Group membership** distinction between primary and secondary crucial
+3. **newgrp** creates new shell - use `exit` to return
+4. **Account locking** has multiple methods with different use cases
+5. **CLI tools** essential for automation and bulk operations
+
+## Lab 5b
+![[Lab 05b - Superuser powers.pdf]]
+# Lab 5b - Superuser Powers
+
+## 1. Sudo Configuration and Safety
+
+### Why sudo over su
+
+- **su**: Direct root shell access - dangerous, no audit trail
+- **sudo**: Specific command execution with logging and accountability
+
+### visudo Configuration
+
+```bash
+export EDITOR=gedit  # If avoiding vi
+visudo  # Edits /etc/sudoers safely
+```
+
+### Standard Commented Permissions
+
+```bash
+## Allows members of the users group to mount and unmount the
+## cdrom as root
+# %users ALL=/sbin/mount /mnt/cdrom, /sbin/umount /mnt/cdrom
+```
+
+**Purpose**: CD mounting requires root privileges for hardware access **Specificity**: Limited to `/mnt/cdrom` prevents mounting arbitrary devices/locations
+
+### Network Interface Control
+
+```bash
+# Allow all users to control ens33 interface
+%users ALL=/sbin/ifconfig ens33 up, /sbin/ifconfig ens33 down
+```
+
+### Full Root Access
+
+```bash
+# Copy root's line for specific user
+peter ALL=(ALL) ALL
+```
+
+### sudo su - Analysis
+
+```bash
+sudo su -
+```
+
+**Effect**: Grants full root shell through sudo **Problem**: Circumvents sudo's granular control - defeats the purpose of sudo restrictions
+
+## 2. Windows UAC and runas
+
+### Basic runas Usage
+
+```cmd
+# Run cmd.exe as Administrator
+runas /user:Administrator cmd.exe
+
+# Run as domain user
+runas /user:domain\userid program
+```
+
+### Behavior Differences
+
+**As normal user running Administrator cmd**:
+
+- Window title shows "Administrator"
+- Full system access
+
+**As Administrator running normal user cmd**:
+
+- Reduced privileges
+- Limited access
+
+### Linux vs Windows Comparison
+
+**Linux**: `su peter` as root = immediate switch, no password required **Windows**: `runas` always requires target user's password, even from Administrator
+
+## 3. Linux Message Systems (Traditional)
+
+### /etc/motd (Message of the Day)
+
+```bash
+echo "Welcome to our server!" > /etc/motd
+```
+
+**Displayed**: After successful login (SSH and console) **Not displayed**: At login prompt
+
+### /etc/issue (Pre-login Message)
+
+```bash
+echo "Corporate Security Policy..." > /etc/issue
+```
+
+**Displayed**: At login prompt (console only)
+
+### /etc/issue.net (Network Pre-login)
+
+**Purpose**: Network logins (telnet, SSH with banner option) **SSH Configuration**:
+
+```bash
+# In /etc/ssh/sshd_config
+Banner /etc/issue.net
+```
+
+### Display Timing Summary
+
+|File|Graphical Login|Console Login|SSH Login|
+|---|---|---|---|
+|`/etc/issue`|No|Before prompt|No|
+|`/etc/motd`|No|After login|After login|
+|`/etc/issue.net`|No|No|Before prompt (if configured)|
+
+### Console Access
+
+- **Ctrl-Alt-F3/F4/F5**: Text console logins
+- **Ctrl-Alt-F1**: Return to graphical interface
+
+## 4. Modern Graphical Login Messages
+
+### GDM Banner Configuration
+
+**Step 1: Profile Configuration**
+
+```bash
+# /etc/dconf/profile/gdm
+user-db:user
+system-db:gdm
+file-db:/usr/share/gdm/greeter-dconf-defaults
+```
+
+**Step 2: Banner Settings**
+
+```bash
+# /etc/dconf/db/gdm.d/01-banner-message
+[org/gnome/login-screen]
+banner-message-enable=true
+banner-message-text='Greetings wonderful Linux user!'
+```
+
+**Step 3: Apply Changes**
+
+```bash
+dconf update
+systemctl restart gdm
+```
+
+### Modern vs Traditional
+
+- **Traditional**: Text-based systems only
+- **Modern**: Graphical display manager integration required
+
+## 5. Windows Server Login Messages
+
+### Group Policy Configuration
+
+**Path**: Server Manager → Tools → Local Security Policy → Local Policies → Security Options
+
+**Required Settings**:
+
+- "Interactive logon: Message title for users attempting to log on"
+- "Interactive logon: Message text for users attempting to log on"
+
+### Apply Changes
+
+```cmd
+gpupdate /force
+```
+
+**Testing**: Log out and back in to see message
+
+## Key Security Concepts
+
+1. **Principle of Least Privilege**: sudo grants minimal necessary access
+2. **Audit Trail**: sudo logs all command execution
+3. **User Notification**: Login messages for security policies and system status
+4. **Access Control**: Different mechanisms for Linux vs Windows privilege escalation
+
+## Best Practices
+
+1. **Use sudo** instead of su for specific administrative tasks
+2. **Configure specific commands** rather than blanket ALL access
+3. **Implement login banners** for security compliance
+4. **Regular review** of sudo permissions and user access
+5. **Avoid** `sudo su -` - defeats sudo's purpose
+
+
 # Week 6
 # Week 7
 # Week 8

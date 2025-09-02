@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Web Services (AWS).md",
+                "file": "Network Servers Learning Journal Working.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Amazon Web Services (AWS)"
+              "title": "Network Servers Learning Journal Working"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Web Services (AWS).md",
+                "file": "Network Servers Learning Journal Working.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Amazon Web Services (AWS)"
+              "title": "Network Servers Learning Journal Working"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amazon Web Services (AWS).md",
+                "file": "Network Servers Learning Journal Working.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Amazon Web Services (AWS)"
+              "title": "Outgoing links from Network Servers Learning Journal Working"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amazon Web Services (AWS).md",
+                "file": "Network Servers Learning Journal Working.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,11 +180,10 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Amazon Web Services (AWS)"
+              "title": "Backlinks for Network Servers Learning Journal Working"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,44 +201,44 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "33e6025a2030ef58",
+  "active": "7f8c1c404bd734a7",
   "lastOpenFiles": [
-    "EC2.md",
-    "Amazon Web Services (AWS).md",
-    "Load Balancing.md",
-    "Cloud Computing and Software as a Service.md",
-    "Subjects.md",
+    "Lab 05a - Managing users and groups.pdf",
+    "Lab 05b - Superuser powers.pdf",
     "Network Servers.md",
+    "Subjects.md",
+    "Career Management for IT Professionals.md",
+    "Career Management for IT Professionals Assessment task 4 - Individual Reflection.md",
+    "Career Management for IT Professionals Assessment Task 4 Final Submission Document.md",
+    "Career Management for IT Professionals Assessment Task 4 Planning and Working Document.md",
+    "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
+    "Career Management for IT Professionals Assessment Task 2 Mock Questions.md",
+    "Career Management for IT Professionals Assessment task 3 - Working in Teams.md",
+    "Design, implementation and integration of network server infrastructure.md",
+    "Cloud Computing and Software as a Service.md",
+    "Cloud data objects and validations.md",
+    "Mobile Networking.md",
+    "Wireless Local Area Networks - WiFi.md",
+    "Quadrature Amplitude Modulation.md",
+    "Homepage/Home.md",
+    "Amazon Web Services (AWS).md",
+    "EC2.md",
+    "Load Balancing.md",
     "Basic directory services.md",
     "Active Directory.md",
     "Domain Controllers.md",
-    "Mobile Networking.md",
-    "Wireless Local Area Networks - WiFi.md",
-    "Homepage/Home.md",
     "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Working Document.md",
     "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
     "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Description.md",
-    "Network Servers Learning Journal Working.md",
     "Lab 04c - Configuring a DHCP server on Windows Server.pdf",
     "Lab 04b - Configuring a DHCP server on Linux.pdf",
     "Lab 04a - Configuring a DHCP client 1.pdf",
     "Lab 04a - Configuring a DHCP client.pdf",
     "Lab 02d - Disk partitioning 1.pdf",
-    "Career Management for IT Professionals Assessment Task 2 Mock Questions.md",
-    "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
-    "Career Management for IT Professionals.md",
     "Assignment 1_Cloud Computing and Software as a Service_41001-a15c3554-8628-4363-b03f-d5eba44c69a9.pdf",
-    "Design, implementation and integration of network server infrastructure.md",
-    "Wireless Personal Area Networks - Bluetooth.md",
-    "Career Management for IT Professionals Assessment Task 2 Feedback Recieved.md",
-    "Career Management for IT Professionals - Build Your STAR Story.md",
     "Lab 3b - Time and date.pdf",
     "Lab 3a - Static networking.pdf",
-    "Features, installation, and deployment of network servers.md",
-    "Gnome.md",
-    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
     "Lab 02d - Disk partitioning.pdf",
-    "Lab 02c - Manage processes.pdf",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",

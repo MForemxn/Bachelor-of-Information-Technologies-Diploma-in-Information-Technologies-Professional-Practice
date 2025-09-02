@@ -687,19 +687,19 @@ hostnamectl set-hostname host.uts.edu.au    # Updates /etc/hostname automaticall
 - Allocate "lease" IP addresses from pool of available addresses
 - **Pools/Scopes**: Named collections of IP address ranges
 - **Lease characteristics**:
-    - Tied to specific adapter MAC address
+    - Tied to specific adapter [[MAC address]]
     - Time-limited duration
     - Changes over time
 
-### IP Address Reservation
+### [[IP Address]] Reservation
 
-**Static Assignment within DHCP**:
+**Static Assignment within [[DHCP]]**:
 
-- "Reserve" specific IP address for particular hosts
+- "Reserve" specific [[IP]] address for particular hosts
 - **Use cases**: Servers, printers, critical infrastructure
-- **Benefits**: Combines DHCP management with static addressing
+- **Benefits**: Combines [[DHCP]] management with static addressing
 
-### DHCP Database Structure
+### [[DHCP]] [[Database]] Structure
 
 ```
 IP Address1: Leased to DHCP Client1 (Generation)
@@ -714,22 +714,22 @@ IP Address3: Available to be leased
 
 ---
 
-## 5. DHCP Operations
+## 5. [[DHCP]] Operations
 
-### 5.1 DHCP Lease Generation (DORA Process)
+### 5.1 [[DHCP]] Lease Generation (DORA [[Process]])
 
-**4-Step Process**:
+**4-Step [[Process]]**:
 
 **Step 1: DHCPDISCOVER**
 
-- **Action**: DHCP client broadcasts DHCPDISCOVER packet
-- **Scope**: Broadcast to entire subnet
-- **Response**: Only DHCP servers or agents respond
+- **Action**: [[DHCP]] client broadcasts DHCPDISCOVER packet
+- **Scope**: Broadcast to entire [[subnet]]
+- **Response**: Only [[DHCP]] servers or agents respond
 
 **Step 2: DHCPOFFER**
 
-- **Action**: DHCP servers broadcast DHCPOFFER packets
-- **Content**: Potential IP address lease information
+- **Action**: [[DHCP]] servers broadcast DHCPOFFER packets
+- **Content**: Potential [[IP]] address lease information
 - **Multiple servers**: Client may receive multiple offers
 
 **Step 3: DHCPREQUEST**
@@ -737,15 +737,15 @@ IP Address3: Available to be leased
 - **Action**: Client broadcasts DHCPREQUEST packet
 - **Selection**: Usually chooses fastest responding server (typically closest)
 - **Content**: Contains server identifier indicating chosen server
-- **Notification**: Informs all servers of selection decision
+- **Notification**: Informs all servers of selection [[decision]]
 
 **Step 4: DHCPACK/DHCPNAK**
 
-- **DHCPACK**: Chosen server stores client info in database and confirms lease
+- **DHCPACK**: Chosen server stores client info in [[database]] and confirms lease
 - **DHCPNAK**: Sent if server cannot provide offered address
 - **Declined servers**: Use DHCPREQUEST as notification of rejection
 
-### 5.2 DHCP Lease Renewal Process
+### 5.2 [[DHCP]] Lease Renewal [[Process]]
 
 **Renewal Timeline**:
 
@@ -756,23 +756,23 @@ IP Address3: Available to be leased
 
 **87.5% of Lease Duration**:
 
-- If renewal fails at 50%, process repeats
+- If renewal fails at 50%, [[process]] repeats
 - Last chance to renew with original server
 
 **100% of Lease Duration (Lease Expiry)**:
 
-- If renewal fails at 87.5%, full DORA process restarts
+- If renewal fails at 87.5%, full DORA [[process]] restarts
 - Client broadcasts DHCPDISCOVER to find any available server
 
 ---
 
-## 6. DHCP Scopes and Reservations
+## 6. [[DHCP]] Scopes and Reservations
 
-### DHCP Scopes
+### [[DHCP]] Scopes
 
-**Definition**: Range of IP addresses available for leasing to specific network segments
+**Definition**: Range of [[IP]] addresses available for leasing to specific network segments
 
-**Multi-subnet Environment**:
+**Multi-[[subnet]] Environment**:
 
 ```
 LAN A ← DHCP Server → LAN B
@@ -1046,3 +1046,223 @@ nmcli c up ens37                                # Activate [[interface]]
 1. Download empty *.ova files
 2. Import them as *.vmx files before Week 5 assessment
 3. [[Review]] announcements from 14/8/2025 and 18/8/2025
+
+
+# Domain Name System
+
+```mermaid
+graph TD
+    A[Root Domain .] --> B[Top-Level Domain: .com]
+    A --> C[Top-Level Domain: .edu]
+    A --> D[Top-Level Domain: .au]
+    C --> E[Second-Level Domain: uts.edu]
+    D --> F[Second-Level Domain: edu.au]
+    E --> G[Third-Level Domain: uts.edu.au]
+    G --> H[Host: www.uts.edu.au]
+    G --> I[Host: mail.uts.edu.au]
+    F --> J[Third-Level Domain: it.edu.au]
+    J --> K[Host: server.it.edu.au]
+```
+
+
+## 1. Introduction
+
+- **IP address** = numeric label of a host
+    
+- **Domain names** = hostname + domain (e.g., `www.uts.edu.au`)
+    
+- **FQDN (Fully Qualified Domain Name):** `hostname.domain` (e.g., `mymail.uts.edu.au`)
+    
+- IP can change, but domain name stays the same → useful for web hosting & customer retention
+    
+- **ICANN:** manages DNS, IP addressing, protocols
+    
+    - **IANA** (Internet Assigned Numbers Authority) handles registries for domain names, IPs, and parameters
+        
+
+---
+
+## 2. Before DNS
+
+- **HOSTS.TXT** – central file of hostname → IP mappings (downloaded periodically)
+    
+- Not scalable → replaced by DNS
+    
+- Still exists locally:
+    
+    - Unix/Linux: `/etc/hosts`
+        
+    - Windows: `C:\Windows\System32\drivers\etc\hosts`
+        
+
+Example:
+
+`127.0.0.1   localhost.localdomain localhost 192.168.1.1 fang.cats.org fang 192.168.1.2 moggy.cats.org moggy`
+
+---
+
+## 3. DNS Namespace (Hierarchy)
+
+- Structured like an **inverted tree**
+    
+- **Root domain**: `.` (maintained by 12 organizations: Verisign, ICANN, RIPE, etc.)
+    
+- **Top-Level Domains (TLDs):**
+    
+    - Generic: `.com`, `.org`, `.gov`, `.edu`, `.biz`, `.info`, `.tv`, etc.
+        
+    - Country code: `.au`, `.uk`, `.us`, `.nz`, etc.
+        
+- **Second-Level domains:** `edu.au`, `uts.edu.au`
+    
+- **Third/Fourth level domains:** `it.uts.edu.au`, `ns.it.uts.edu.au`
+    
+
+---
+
+## 4. Basic DNS Concepts
+
+DNS provides multiple functions via different record types:
+
+1. **A / AAAA** – maps hostname → IPv4 / IPv6 address
+    
+2. **CNAME** – alias name (e.g., `ftp.example.com` → `www.example.com`)
+    
+3. **NS** – identifies authoritative name servers for a domain
+    
+4. **MX** – mail server records for email routing
+    
+5. **TXT** – text data, often used for verification (e.g., SPF, DKIM)
+    
+6. **SRV** – service location (e.g., SIP, LDAP)
+    
+7. **SOA (Start of Authority):** admin info for domain (email, last update, serial, refresh, retry, TTL)
+    
+8. **PTR (reverse lookup):** maps IP → domain
+    
+
+---
+
+## 5. DNS Roles and Caching
+
+- **Primary (Master) DNS:** authoritative, holds the zone file
+    
+- **Secondary (Slave) DNS:** copies zone file for redundancy & performance
+    
+- **Caching-only DNS:** stores results temporarily (commonly at ISPs)
+    
+    - **TTL (Time to Live):** defines how long cached data is valid
+        
+
+---
+
+## 6. DNS Lookup Process
+
+- Resolver queries DNS servers iteratively until it finds an IP for the requested domain.
+    
+- Uses caching to reduce repeated lookups.
+    
+
+---
+
+## 7. DNS Software: BIND
+
+- **BIND (Berkeley Internet Name Daemon):** most common DNS server implementation
+    
+    - Installed via `yum install bind` or `dnf install bind`
+        
+    - Service name: `named` (the name daemon)
+        
+- Query tools:
+    
+    - `dig` (preferred) – flexible DNS lookup
+        
+    - `nslookup` – older, legacy
+        
+    - `host` – simpler queries
+        
+
+Examples:
+
+`nslookup www.uts.edu.au dig uts.edu.au ns dig www.uts.edu.au a dig @ns.uts.edu.au www.uts.edu.au any`
+
+---
+
+## 8. BIND Server Configuration
+
+### Step 1: `/etc/named.conf`
+
+Defines zones and points to zone files. Example:
+
+`zone "it.netserv.edu.au" {     type master;   # options: master, slave, forward, hint     file "it.netserv.edu.au.zone"; };`
+
+### Step 2: Zone File (`/var/named/it.netserv.edu.au.zone`)
+
+`$TTL 3H @   IN SOA ns.it.netserv.edu.au. root.it.netserv.edu.au. (         2025050101 ; serial (yyyymmddxx)         1D         ; refresh         1H         ; retry         1W         ; expire         3H )       ; minimum TTL     IN NS   ns.it.netserv.edu.au.     IN MX   0 mail localhost   IN A   10.0.2.3 ns          IN A   10.0.2.3 site        IN A   10.0.2.3 www         IN CNAME site ftp         IN CNAME site mail        IN CNAME site`
+
+- **SOA record** defines authoritative server & refresh timings.
+    
+- **MX preference value** ranks mail servers (lower value = higher priority).
+    
+
+---
+
+## 9. Reverse Zone Configuration
+
+- Reverse lookup maps IP → hostname using **PTR records**.
+    
+
+Example (`/var/named/2.0.10.in-addr.arpa.zone`):
+
+`$TTL 3H @   IN SOA ns.it.netserv.edu.au. root@it.netserv.edu.au. (         2025050100         1D         1H         1W         3H )     IN NS ns.it.netserv.edu.au. 2   IN PTR site.netserv.edu.au. 3   IN PTR site.it.netserv.edu.au.`
+
+- Here, `10.0.2.2` → `site.netserv.edu.au`, `10.0.2.3` → `site.it.netserv.edu.au`
+    
+
+---
+
+## 10. DNS Clients
+
+- Config file: `/etc/resolv.conf`
+    
+
+`search it.uts.edu.au uts.edu.au nameserver 10.0.2.2 nameserver 10.0.2.3`
+
+- Order of resolution defined in `/etc/nsswitch.conf`
+    
+
+Example:
+
+`hosts: files dns myhostname`
+
+- Local file `/etc/hosts` checked first, then DNS
+    
+
+---
+
+## 11. Client Configuration
+
+### Traditional (not recommended)
+
+- Manual edits to `/etc/resolv.conf`
+    
+- Disable auto-config in `/etc/NetworkManager/NetworkManager.conf`
+    
+
+### Using `nmcli`
+
+`nmcli con mod ens37 ipv4.dns "10.0.2.2 10.0.2.3" nmcli con up ens37`
+
+### Recommended (NetworkManager config files)
+
+- Interface config file: `/etc/sysconfig/network-scripts/ifcfg-ens37`
+    
+
+`DEVICE=ens37 ONBOOT=yes BOOTPROTO=none IPADDR=10.0.2.3 NETMASK=255.255.255.0 GATEWAY=10.0.2.3 DNS1=1.1.1.1 DNS2=8.8.8.8 DOMAIN=google.com.au PEERDNS=no IPV4_DNS_PRIORITY=10`
+
+- `/etc/resolv.conf` then auto-generated:
+    
+
+`search google.com.au mydomain nameserver 1.1.1.1 nameserver 8.8.8.8`
+
+

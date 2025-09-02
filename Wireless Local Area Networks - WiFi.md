@@ -132,3 +132,183 @@
 - 802.11(b): PHY (PLCP/PMD with DSSS, channels), MAC (DCF/PCF).
 - Access: CSMA/CA, polling; association for connection/roaming.
 - Frames: Management, control, [[data]] for structured communication.
+## 📖 Overview
+
+- Focus: **IEEE 802.11 [[WiFi]] standards**
+    
+- Goals:
+    
+    - Understand why and how [[WiFi]] standards evolve
+        
+    - Compare major differences between versions
+        
+    - Explore backward compatibility mechanisms
+        
+    - [[Review]] **OFDM, MIMO, OFDMA, QAM, MU-MIMO, MLO**
+        
+
+---
+
+## 🔄 Evolution of [[WiFi]] Standards
+
+|Standard|Year|Frequency Bands|Bandwidth|Key Features|
+|---|---|---|---|---|
+|**802.11b**|1999|2.4 GHz|DSSS|11 Mbps|
+|**802.11a**|1999|5 GHz (U-NII)|20 MHz|OFDM, more channels, shorter range|
+|**802.11g**|2003|2.4 GHz|20 MHz|OFDM + backward compatibility with 11b|
+|**802.11n ([[WiFi]] 4)**|2009|2.4 & 5 GHz|20/40 MHz|MIMO, channel bonding, up to 600 Mbps|
+|**802.11ac ([[WiFi]] 5)**|2014|5 GHz|80/160 MHz|MU-MIMO, 256-QAM|
+|**802.11ax ([[WiFi]] 6)**|2019|2.4 & 5 GHz|160 MHz|OFDMA, MU-MIMO (UL/DL), 1024-QAM|
+|**802.11be ([[WiFi]] 7)**|2024|2.4, 5 & 6 GHz|320 MHz|MLO, 4096-QAM, expanded OFDMA/MU-MIMO|
+
+---
+
+## 📡 IEEE 802.11a
+
+- Same **MAC layer** as 802.11b, but different **PHY layer**.
+    
+- Uses **U-NII 5 GHz band**.
+    
+- **OFDM** modulation (vs DSSS in 802.11b).
+    
+- Better error correction.
+    
+- 23 channels (20 MHz wide, 52 subcarriers).
+    
+- **Shorter range** but **higher capacity**.
+    
+
+---
+
+## 🌀 OFDM (Orthogonal Frequency Division [[Multiplexing]])
+
+- Divides spectrum into many orthogonal subcarriers.
+    
+- No guard band needed → **higher spectral efficiency**.
+    
+- Resistant to multipath interference.
+    
+- Implemented via **DFT (Discrete Fourier Transform)**.
+    
+
+---
+
+## 🔢 QAM ([[Quadrature Amplitude Modulation]])
+
+- Combination of **PSK** (phase) + **ASK** (amplitude).
+    
+- Represents bits as complex values in a constellation.
+    
+- Higher-order QAM = higher throughput, but lower noise tolerance.
+    
+
+---
+
+## 📡 IEEE 802.11g
+
+- Operates in **2.4 GHz** band.
+    
+- Backward compatible with 11b.
+    
+- Mandatory support: 1, 2, 5.5, 11 Mbps (DSSS) + OFDM mode.
+    
+- Reuses PLCP frame format from 802.11b.
+    
+
+---
+
+## 📶 IEEE 802.11n ([[WiFi]] 4)
+
+- **MIMO (Multiple [[Input]] Multiple [[Output]])**
+    
+    - Spatial diversity: combats fading.
+        
+    - Beamforming: increases SNR.
+        
+    - Spatial [[multiplexing]]: higher [[data]] rates.
+        
+- Supports up to **4 Tx / 4 Rx antennas**.
+    
+- Works on both **2.4 & 5 GHz**.
+    
+- **Channel bonding** → 40 MHz (300–600 Mbps).
+    
+- Guard intervals to prevent ISI.
+    
+- Frame aggregation to boost throughput.
+    
+- 4 operating modes for **backward compatibility**.
+    
+
+---
+
+## ⚡ IEEE 802.11ac ([[WiFi]] 5)
+
+- **5 GHz only**.
+    
+- Wider channels: up to **160 MHz**.
+    
+- Supports **256-QAM**.
+    
+- Introduced **MU-MIMO** (multi-user, simultaneous transmissions).
+    
+- Backward compatible with **802.11a/n**.
+    
+
+---
+
+## 📡 IEEE 802.11ax ([[WiFi]] 6)
+
+- Operates on **2.4 & 5 GHz**.
+    
+- Wider channels: up to **160 MHz**.
+    
+- Higher modulation: **1024-QAM**.
+    
+- **OFDMA** (subcarrier [[multiplexing]] for multiple users).
+    
+- **MU-MIMO** in both uplink & downlink.
+    
+- Backward compatible with **a/b/g/n/ac**.
+    
+
+---
+
+## 🚀 IEEE 802.11be ([[WiFi]] 7)
+
+- Operates on **2.4, 5 & 6 GHz**.
+    
+- Up to **320 MHz channels**.
+    
+- **4096-QAM (4K-QAM)** → extremely high throughput.
+    
+- **MLO (Multi-Link Operation)**:
+    
+    - Uses multiple frequency bands simultaneously.
+        
+    - Reduces latency & increases throughput.
+        
+- Expanded **OFDMA & MU-MIMO**.
+    
+- Backward compatible with **all previous standards**.
+    
+
+---
+
+## 📝 Key Takeaways
+
+- **OFDM** is the foundation of modern [[WiFi]].
+    
+- **Channel bonding** and **wider bandwidths** drive higher speeds.
+    
+- **Backward compatibility** is critical for adoption.
+    
+- Newer standards add:
+    
+    - Higher-order **QAM**
+        
+    - **MIMO / MU-MIMO**
+        
+    - **OFDMA** for efficiency
+        
+    - **MLO** in [[WiFi]] 7
