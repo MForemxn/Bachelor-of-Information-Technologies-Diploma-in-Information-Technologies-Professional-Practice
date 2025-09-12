@@ -199,8 +199,360 @@
 
 | Aspect | [[Linux]] | [[Windows]] |
 |--------|-------|---------|
-| Key Files/DB | /etc/passwd, /etc/shadow, /etc/group | SAM (local), Active Directory (domain) |
+| Key Files/DB | /etc/passwd, /etc/shadow, /etc/group | SAM (local), [[Active Directory]] (domain) |
 | Add User | useradd | net user /add |
 | Centralized | N/A (file-based) | Domains with DC |
 | Decentralized | N/A | Workgroups |
 | Policies | Password aging (chage), quotas | GPO via gpedit.msc
+
+
+## 1. Filesystems Recap (from Week 2)
+
+- **Partitions:** `/dev/sdb1`, `/dev/sdb5` (SATA devices)
+    
+- **Filesystems:** `ext4`, `swap`
+    
+- **Steps:**
+    
+    1. `fdisk` – partitioning
+        
+    2. `mkfs` – create filesystem
+        
+    3. `mkswap` – create swap space
+        
+    4. `mount` – mount filesystem
+        
+- **Persistent mounts:** `/etc/fstab`
+    
+- **Recovery:** fix `/etc/fstab` if broken
+    
+- **Monitoring tools:** `df`, `du`, `lsblk`, `blkid`
+    
+
+**New concepts this week:**
+
+- Disk quotas
+    
+- File permissions (ACLs, ownership, links)
+    
+- Filesystem Hierarchy Standard (FHS)
+    
+- File locating tools
+    
+- Backup methods
+    
+
+---
+
+## 2. Filesystems Overview
+
+- **Definition:** [[Data structure]] for storing files on disk partitions
+    
+- **Linux types:**
+    
+    - `ext2` (older), `ext3` (adds journaling), `ext4` (default, 16TB support, journaling)
+        
+    - `xfs` → default in CentOS 7+
+        
+- **Non-[[Linux]] support:** NTFS, VFAT, HFS, ISO-9660, etc.
+    
+- **Swap:** not a filesystem, but managed similarly (extends RAM using disk space).
+    
+
+---
+
+## 3. Creating Partitions and [[Filesystems]]
+
+- **Partition tools:**
+    
+    - `fdisk` (MBR), `gdisk` (GPT), `parted` / `gparted` (GUI)
+        
+- **Filesystem creation:**
+    
+    - `mkfs -t ext4 /dev/sda3` → invokes `mkfs.ext4`
+        
+    - Options: `-t` type, `-c` check bad blocks
+        
+- **Swap:**
+    
+    - `mkswap /dev/sda4`
+        
+    - `swapon /dev/sda4`
+        
+
+---
+
+## 4. tmpfs (Lab 7a Task 3)
+
+- **Memory-based filesystem** (no `mkfs` needed).
+    
+- Stored in **RAM + swap**.
+    
+- Default size = 50% of RAM.
+    
+- Swap is optional if enough RAM exists.
+    
+
+---
+
+## 5. Mounting [[Filesystems]]
+
+- **Config file:** `/etc/fstab` → auto-mounts at boot
+    
+- **Example entry:**
+    
+    ```
+    /dev/sda2  /      ext3  defaults 1 1
+    /dev/sda1  /boot  ext3  defaults 1 2
+    /dev/sda5  /home  ext3  defaults 1 2
+    /dev/sda3  swap   swap  defaults 0 0
+    /dev/sdb   /media/cdrom iso9660 defaults 0 0
+    ```
+    
+- **Mount manually:**
+    
+    - `mount /media/cdrom` (if in fstab)
+        
+    - `mount -t vfat /dev/sdb1 /media/usbdisk` (not in fstab)
+        
+- **Unmount:** `umount /media/cdrom`
+    
+
+---
+
+## 6. Modern `/etc/fstab`
+
+- Uses **LABELs** or **UUIDs** instead of device names to avoid confusion.
+    
+- Example:
+    
+    ```
+    UUID=abcd1234-56ef  /      ext3  defaults 1 1
+    UUID=9876fedc-54ba  /boot  ext3  defaults 1 2
+    ```
+    
+
+---
+
+## 7. Monitoring Disk Usage
+
+- **By partition:** `df -h`
+    
+- **By directory:** `du -sh /home/user`
+    
+- **With quotas enabled:** `repquota -a`
+    
+
+---
+
+## 8. Disk Quotas
+
+### Setup (Lab 7b Task 1)
+
+1. Add `usrquota` / `grpquota` to `/etc/fstab`.
+    
+2. Remount partition.
+    
+3. `quotacheck -cugm /home` → generate quota files.
+    
+4. `quotaon -auv` → enable quotas.
+    
+5. `edquota -u peter` → set user limits.
+    
+
+### Limits
+
+- **Soft limit:** can be exceeded temporarily.
+    
+- **Hard limit:** strict maximum.
+    
+- **Grace period:** time before soft limit enforcement.
+    
+
+---
+
+## 9. File Permissions
+
+### Basics
+
+- Format: `drwxr-x--x` (10 chars).
+    
+- First char = file type (`-`, `d`, `l`).
+    
+- Permissions: user, group, others.
+    
+
+### Commands
+
+- `chmod u+x file` → add execute for user
+    
+- Octal: `755 = rwxr-xr-x`, `640 = rw-r-----`
+    
+- Special bits:
+    
+    - `setuid` (4000), `setgid` (2000), `sticky` (1000)
+        
+
+### Defaults
+
+- `umask` defines default creation perms (e.g., `022` → files `644`, dirs `755`).
+    
+
+### ACLs
+
+- `setfacl` → more fine-grained than chmod.
+    
+
+### File [[attributes]]
+
+- `chattr +i file` → make immutable
+    
+- `chattr +a file` → append-only
+    
+
+---
+
+## 10. File Ownership
+
+- `chown user file`
+    
+- `chown user:group file`
+    
+- `chown -R user:group dir` (recursive)
+    
+- `chgrp group file`
+    
+
+---
+
+## 11. Links
+
+### Hard Links
+
+- Same inode, different filenames.
+    
+- Cannot span partitions.
+    
+- Delete only when all links are removed.
+    
+- `ln file hardlink`
+    
+
+### Symbolic (Soft) Links
+
+- Points to another file.
+    
+- Can span partitions.
+    
+- Breaks if target is deleted.
+    
+- `ln -s file symlink`
+    
+
+**[[Windows]] equivalents:** `mklink` (with `/H`, `/D`, etc.), shortcuts (`.lnk`).
+
+---
+
+## 12. Filesystem Hierarchy Standard (FHS)
+
+- Defines standard [[Linux]] directory layout.
+    
+- Examples:
+    
+    - **Static + Shareable:** `/usr`, `/opt`
+        
+    - **Static + Unshareable:** `/etc`, `/boot`
+        
+    - **Variable + Shareable:** `/home`, `/var/mail`
+        
+    - **Variable + Unshareable:** `/var/run`, `/var/lock`
+        
+
+---
+
+## 13. Locating Files
+
+- `find / -name "file.txt"` → flexible search
+    
+- `locate file.txt` → faster, uses database
+    
+- `whereis perl` → locate binary, source, [[man]] pages
+    
+- `which sh` → find executable in PATH
+    
+
+---
+
+## 14. Backups
+
+### Goals
+
+- Restore whole [[filesystems]] (rare).
+    
+- Restore individual files (common).
+    
+
+### Tools
+
+- `tar` (tape archive) – most common.
+    
+    - Create: `tar cf backup.tar /usr`
+        
+    - List: `tar tvf backup.tar`
+        
+    - Extract: `tar xf backup.tar`
+        
+- `cpio` (copy in/out).
+    
+- `dd` (raw byte copy, e.g., ISO images).
+    
+
+---
+
+## 15. Backup Automation
+
+### cron
+
+- Schedule periodic tasks.
+    
+- Config: `/etc/crontab` or `crontab -e`.
+    
+- Syntax: `min hour day month weekday user command`
+    
+
+Example:
+
+```
+0 2 * * * root /bin/backup.sh
+```
+
+### anacron
+
+- Ensures periodic jobs run even if system was off at scheduled time.
+    
+- Config: `/etc/anacrontab`
+    
+
+Example:
+
+```
+7 15 test.daily /bin/sh /home/user/backup.sh
+```
+
+### at
+
+- Run a command once in the future.
+    
+- Example: `at -f script.sh 5pm Friday`
+    
+
+---
+
+## 16. Lab 7 Tasks
+
+- **7a:** tmpfs setup
+    
+- **7b:** quotas on `/home`
+    
+- **7c:** cron-based backups
+    

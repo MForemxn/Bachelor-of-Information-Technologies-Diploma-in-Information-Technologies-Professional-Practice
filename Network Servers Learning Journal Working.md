@@ -1713,7 +1713,743 @@ gpupdate /force
 
 
 # Week 6
+## Lab 6a
+![[Lab 6a - DNS server configuration.pdf]]
+## 1. DNS Design Configuration
+
+### Network Architecture
+
+- **Primary DNS**: Windows Server (10.0.2.2) - netserv.edu.au
+- **Secondary DNS**: Linux Server (10.0.2.3) - it.netserv.edu.au subdomain
+- **Forwarding**: Linux → Windows → UTS (192.168.3.2, 138.25.9.1)
+
+### DNS Record Design
+
+|DNS Name|IP Address|Type|Server|Purpose|
+|---|---|---|---|---|
+|netserv.edu.au|10.0.2.2|NS, MX|Windows|Domain pointer|
+|ns.netserv.edu.au|10.0.2.2|A|Windows|Name server|
+|mail.netserv.edu.au|10.0.2.2|A|Windows|Mail server|
+|site.netserv.edu.au|10.0.2.2|A|Windows|Web server|
+|www.netserv.edu.au|10.0.2.2|CNAME|Windows|Alias to site|
+|it.netserv.edu.au|10.0.2.3|NS, MX|Linux|Subdomain pointer|
+|ns.it.netserv.edu.au|10.0.2.3|A|Linux|Name server|
+|site.it.netserv.edu.au|10.0.2.3|A|Linux|Web/FTP server|
+|www.it.netserv.edu.au|10.0.2.3|CNAME|Linux|Alias to site|
+|ftp.it.netserv.edu.au|10.0.2.3|CNAME|Linux|Alias to site|
+
+## 2. Windows DNS Server Setup
+
+### Network Configuration
+
+```cmd
+# Set static IP on Ethernet1
+IP: 10.0.2.2
+Subnet: 255.255.255.0
+Gateway: 10.0.2.1
+```
+
+### DNS Role Installation
+
+**Server Manager** → Add Roles → DNS Server Role
+
+### Zone Configuration
+
+```
+DNS Manager → Right-click server → Configure DNS Server
+- Create forward lookup zone
+- Primary zone: netserv.edu.au
+- Zone file: netserv.edu.au.dns
+- No dynamic updates
+- Forwarders: 192.168.3.2
+```
+
+### Server Properties
+
+**Interfaces Tab**: Listen only on 10.0.2.2 (disable Ethernet0)
+
+### Zone Records Creation
+
+```
+Right-click netserv.edu.au zone:
+- New Host (A): ns → 10.0.2.2
+- New Host (A): mail → 10.0.2.2  
+- New Mail Exchanger (MX): blank host → mail
+- New Host (A): site → 10.0.2.2
+- New Alias (CNAME): www → site
+- New Delegation: it → ns.it.netserv.edu.au (10.0.2.3)
+```
+
+### Zone Transfers
+
+**Zone Properties** → Zone Transfers → Allow to any server
+
+### File Location
+
+`C:\Windows\System32\dns\netserv.edu.au.dns`
+
+## 3. Windows DNS Testing
+
+### nslookup Commands
+
+```cmd
+nslookup
+server 10.0.2.2
+set type=A
+set domain=netserv.edu.au.
+site.netserv.edu.au.
+www
+www.uts.edu.au.
+
+# Debug mode
+set debug
+ls netserv.edu.au.
+```
+
+## 4. Linux DNS Server (BIND) Setup
+
+### Network Configuration
+
+Static IP on ens37: 10.0.2.3
+
+### BIND Installation
+
+```bash
+dnf install bind
+```
+
+### Package Manager Difference
+
+- **dnf**: Next-generation package manager (Fedora 22+)
+- **yum**: Legacy package manager
+- **Best practice**: Use dnf on modern Fedora/RHEL systems
+
+### Configuration File
+
+```bash
+# /etc/named.conf modifications
+options {
+    listen-on port 53 { any; };
+    allow-query { any; };
+};
+
+zone "it.netserv.edu.au" IN {
+    type master;
+    file "it.netserv.edu.au.zone";
+};
+```
+
+### Zone File Creation
+
+```bash
+# /var/named/it.netserv.edu.au.zone
+$TTL 86400
+@ IN SOA ns.it.netserv.edu.au. root.it.netserv.edu.au. (
+    2023010101  ; Serial
+    3600        ; Refresh
+    1800        ; Retry
+    1209600     ; Expire
+    86400       ; TTL
+)
+
+@ IN NS ns.it.netserv.edu.au.
+
+; hosts
+ns IN A 10.0.2.3
+site IN A 10.0.2.3
+mail IN A 10.0.2.3
+
+; aliases
+ftp CNAME site
+www CNAME site
+```
+
+### File Permissions
+
+```bash
+chgrp named it.netserv.edu.au.zone
+ls -l  # Verify ownership
+```
+
+### Service Management
+
+```bash
+# Configuration check
+named-checkconf /etc/named.conf
+named-checkzone it.netserv.edu.au /var/named/it.netserv.edu.au.zone
+
+# Service control
+systemctl start named
+systemctl enable named
+systemctl status named
+```
+
+### Testing
+
+```bash
+# Check logs
+tail /var/log/messages
+
+# DNS queries
+dig @localhost site.it.netserv.edu.au a
+dig @localhost it.netserv.edu.au soa
+dig @localhost it.netserv.edu.au ns
+dig @localhost site.it.netserv.edu.au any
+```
+
+### Forwarding Configuration
+
+```bash
+# /etc/named.conf options block
+forwarders {
+    10.0.2.2;
+};
+
+# Disable DNSSEC for forwarding
+dnssec-enable no;
+dnssec-validation no;
+
+# Restart service
+systemctl restart named
+```
+
+## 5. Reverse Lookup Configuration
+
+### Windows Reverse Zone
+
+```
+DNS Manager → Reverse Lookup Zones → New Zone
+- Primary zone
+- IPv4 Reverse Lookup Zone  
+- Network ID: 10.0.2
+- File: 2.0.10.in-addr.arpa.dns
+- PTR Records: 2 → site.netserv.edu.au
+```
+
+### Windows Testing
+
+```cmd
+nslookup
+server 10.0.2.2
+set type=PTR
+2.2.0.10.in-addr.arpa.
+```
+
+### Linux Reverse Zone
+
+```bash
+# /etc/named.conf
+zone "2.0.10.in-addr.arpa" IN {
+    type master;
+    file "2.0.10.in-addr.arpa.zone";
+};
+```
+
+```bash
+# /var/named/2.0.10.in-addr.arpa.zone
+2 IN PTR site.it.netserv.edu.au.
+3 IN PTR ns.it.netserv.edu.au.
+
+# Set permissions
+chgrp named 2.0.10.in-addr.arpa.zone
+```
+
+### Linux Testing
+
+```bash
+dig @localhost -x 10.0.2.3
+```
+
+## 6. Advanced Configuration (Optional)
+
+### Primary/Secondary Setup
+
+**Windows Stub Zone**: it.netserv.edu.au pointing to Linux **Linux Slave Zone**: netserv.edu.au from Windows
+
+### Zone Transfer Configuration
+
+```bash
+# Linux named.conf
+zone "it.netserv.edu.au" IN {
+    type master;
+    file "it.netserv.edu.au.zone";
+    allow-transfer { 10.0.2.2; };
+};
+```
+
+**Windows**: Zone Properties → Zone Transfers → Allow to any server
+
+## Key Concepts
+
+### DNS Record Types
+
+- **A**: Address record (hostname → IP)
+- **NS**: Name server record
+- **MX**: Mail exchanger record
+- **CNAME**: Canonical name (alias)
+- **SOA**: Start of authority
+- **PTR**: Pointer record (reverse lookup)
+
+### DNSSEC Issues
+
+- Default DNSSEC validation prevents unsigned zone forwarding
+- Disable for lab environment forwarding to work
+- Production environments require proper DNSSEC implementation
+
+### Zone Transfer Security
+
+- Enable zone transfers for secondary DNS functionality
+- Production: Restrict to specific secondary servers only
+
+### File Locations
+
+- **Windows**: `C:\Windows\System32\dns\`
+- **Linux**: `/var/named/`
+- **Config**: `/etc/named.conf`
+## Lab 6b
+![[Lab 6b - DNS client configuration.pdf]]
+# Lab 6b - DNS Client Configuration
+
+## 1. DNS Resolver Fundamentals
+
+### /etc/resolv.conf Keywords
+
+- **search**: Domain list for unqualified hostname lookups
+- **nameserver**: DNS server IP addresses (priority order)
+
+### Search Domain Example
+
+```bash
+# /etc/resolv.conf
+search it.uts.edu.au iwork.uts.edu.au uts.edu.au
+```
+
+**Query**: `ping xyz` **Resolution order**:
+
+1. xyz.it.uts.edu.au
+2. xyz.iwork.uts.edu.au
+3. xyz.uts.edu.au
+4. Host not found
+
+### NetworkManager Override
+
+NetworkManager **overwrites** /etc/resolv.conf from interface configs **Source**: `/etc/sysconfig/network-scripts/ifcfg-*`
+
+## 2. Linux DNS Client Configuration
+
+### Step 1: Interface Analysis
+
+```bash
+# Test interface contributions
+# Disable ens33
+ONBOOT=no in ifcfg-ens33
+systemctl restart NetworkManager
+cat /etc/resolv.conf
+
+# Disable ens37, enable ens33  
+ONBOOT=no in ifcfg-ens37
+ONBOOT=yes in ifcfg-ens33
+systemctl restart NetworkManager
+cat /etc/resolv.conf
+
+# Re-enable both
+ONBOOT=yes in both files
+```
+
+### Step 2: DNS Server Configuration
+
+```bash
+# /etc/sysconfig/network-scripts/ifcfg-ens37
+DNS1=10.0.2.3
+DOMAIN=it.netserv.edu.au
+
+# /etc/sysconfig/network-scripts/ifcfg-ens33  
+DNS1=10.0.2.2
+DOMAIN=netserv.edu.au
+
+systemctl restart NetworkManager
+```
+
+### Step 3: DHCP DNS Exclusion
+
+```bash
+# Ignore DHCP DNS on ens33
+nmcli conn modify ens33 ipv4.ignore-auto-dns true
+
+# Alternative manual edit
+# /etc/sysconfig/network-scripts/ifcfg-ens33
+PEERDNS=no
+```
+
+**Effect**: Removes third nameserver from DHCP, leaves only configured DNS servers
+
+### Step 4: DNS Priority Control
+
+```bash
+# Set ens37 higher priority (lower number = higher priority)
+nmcli conn modify ens37 ipv4.dns-priority 5
+
+# Default priority = 100
+# /etc/sysconfig/network-scripts/ifcfg-ens37
+DNS_PRIORITY=5
+
+systemctl restart NetworkManager
+```
+
+### Step 5: DNS Query Testing
+
+```bash
+# Ensure correct order in /etc/resolv.conf
+nameserver 10.0.2.3  # Linux server first
+search it.netserv.edu.au netserv.edu.au
+
+# Test queries
+dig www.it.netserv.edu.au A
+ping www.it.netserv.edu.au
+
+# Test forwarding
+dig www.netserv.edu.au A
+ping www.netserv.edu.au
+```
+
+## 3. Windows DNS Client Configuration
+
+### Step 1: Static DNS Configuration
+
+**Path**: Server Manager → Local Server → Ethernet1 → Properties → IPv4 Properties **Settings**:
+
+- Preferred DNS server: 10.0.2.2
+- Alternative: 127.0.0.1
+
+### Step 2: Interface Priority Analysis
+
+```powershell
+# View interface metrics
+Get-NetIPInterface
+
+# Check DNS server order
+Get-DNSClientServerAddress
+```
+
+**Key Columns**:
+
+- **AddressFamily**: IPv4 focus
+- **InterfaceMetric**: Priority value
+- **ifIndex**: Interface order
+
+### Step 3: Interface Metric Modification
+
+**Path**: Network Connections → Ethernet1 → Properties → IPv4 → Advanced **Settings**:
+
+- Uncheck "Automatic metric"
+- Manual metric: 10 (lower = higher priority)
+
+### Verification
+
+```powershell
+Get-NetIPInterface  # Check metric changes
+Get-DNSClientServerAddress  # Verify DNS order
+```
+
+### Testing
+
+```cmd
+nslookup www.it.netserv.edu.au
+ping www.netserv.edu.au
+```
+
+## 4. DNS Resolution Process
+
+### Linux Resolution Order
+
+1. **Check /etc/resolv.conf** for nameserver list
+2. **Query first nameserver** (10.0.2.3 - Linux DNS)
+3. **Apply search domains** for unqualified names
+4. **Forward to next server** if local lookup fails
+5. **Fallback to secondary** nameservers if primary unavailable
+
+### Windows Resolution Order
+
+1. **Interface metric** determines DNS server priority
+2. **Primary DNS** server queried first
+3. **Secondary servers** used if primary fails
+4. **Domain suffix** search applied
+
+## 5. NetworkManager vs Manual Configuration
+
+### NetworkManager Method
+
+```bash
+# Command-line configuration
+nmcli conn modify ens37 ipv4.dns-priority 5
+nmcli conn modify ens33 ipv4.ignore-auto-dns true
+```
+
+### Manual Configuration
+
+```bash
+# Direct file editing
+# /etc/sysconfig/network-scripts/ifcfg-ens37
+DNS1=10.0.2.3
+DOMAIN=it.netserv.edu.au
+DNS_PRIORITY=5
+
+# /etc/sysconfig/network-scripts/ifcfg-ens33
+DNS1=10.0.2.2
+DOMAIN=netserv.edu.au
+PEERDNS=no
+```
+
+**Result**: Both methods achieve same configuration - multiple approaches in Linux
+
+## 6. Key Configuration Files
+
+### Linux
+
+- **Resolver config**: `/etc/resolv.conf` (auto-generated)
+- **Interface configs**: `/etc/sysconfig/network-scripts/ifcfg-*`
+- **Service**: NetworkManager
+
+### Windows
+
+- **GUI**: Network Connections → Adapter Properties
+- **PowerShell**: `Get-NetIPInterface`, `Get-DNSClientServerAddress`
+- **Registry**: Interface metric and DNS settings
+
+## 7. Testing Tools
+
+### Linux
+
+```bash
+dig @server hostname recordtype
+nslookup
+ping hostname
+cat /etc/resolv.conf
+```
+
+### Windows
+
+```cmd
+nslookup
+ping hostname
+ipconfig /all
+```
+
+```powershell
+Get-NetIPInterface
+Get-DNSClientServerAddress
+Resolve-DnsName hostname
+```
+
+## Troubleshooting Common Issues
+
+### Linux Issues
+
+- **NetworkManager override**: Edit interface files, not /etc/resolv.conf directly
+- **DNS priority**: Use dns-priority setting or manual DNS_PRIORITY
+- **DHCP interference**: Set PEERDNS=no or ipv4.ignore-auto-dns true
+
+### Windows Issues
+
+- **Interface precedence**: Check and modify interface metrics
+- **DNS server order**: Verify with Get-DNSClientServerAddress
+- **Static override**: Ensure manual DNS settings applied correctly
+
+## Key Takeaways
+
+1. **NetworkManager manages** DNS configuration from interface files
+2. **DNS priority** controlled by interface metrics (Windows) or dns-priority (Linux)
+3. **DHCP DNS** can be ignored when static DNS required
+4. **Testing tools** essential for verifying configuration changes
+5. **Multiple methods** available - choose consistent approach
 # Week 7
+## Lab 7a
+![[Lab 7a - Managing filesystems, including mounting and unmounting.pdf]]
+### **1. Aims of the Lab**
+
+- Explore filesystems of existing machines and understand their structure
+- Understand the setgid bit and file sharing among groups in UNIX
+- Add new filesystems to `/etc/fstab` and practice mounting/unmounting
+- Mount and unmount removable media
+
+---
+
+### **2. Filesystem Investigation Commands**
+
+- **Identify filesystem structure:**
+    - `/proc/partitions` - shows partition information
+    - `/etc/fstab` - filesystem table configuration
+    - `/dev/disk/by-uuid` - UUID to partition mapping
+    - `/sbin/blkid` - block device identification (requires root)
+    - `fdisk -l` - partition table listing (requires root)
+- **Determine disk types:**
+    - IDE/SATA/SCSI identification from device names
+    - Primary, extended, and logical partition identification
+
+---
+
+### **3. File Sharing with Groups and setgid**
+
+- **Required setup:** Users Stewie and Brian in secondary group `family`
+- **Directory creation:** `/share/family` for group file sharing
+- **Key components for group file sharing:**
+    - **File permissions** with setgid bit using `chmod`
+    - **Group ownership** using `chgrp` command
+    - **umask settings** in `.bashrc` for default group-writable files
+- Files created by group members become readable/editable by other group members
+
+---
+
+### **4. tmpfs Filesystem Implementation**
+
+- **Convert /tmp to tmpfs:**
+
+```
+  tmpfs /tmp tmpfs defaults 0 0
+```
+
+- **Process:**
+    - Create test file in `/tmp` before change
+    - Edit `/etc/fstab` with tmpfs entry
+    - Mount with `mount /tmp`
+    - Verify with `mount` command (no arguments)
+    - Note: Original files disappear (stored in memory, not persistent)
+
+---
+
+### **5. Removable Media Mounting**
+
+- **CD-ROM mounting:**
+
+```
+  mount -t iso9660 /dev/cdrom /media/cdrom
+```
+
+- **USB mounting:**
+
+```
+  mount -t vfat /dev/sdb1 /media/usbdisk
+```
+
+- **fstab entries:** Use `noauto` option to prevent auto-mounting at boot
+- **Mount points:** Must create `/media/cdrom` and `/media/usbdisk` directories
+## Lab 7b
+![[Lab 7b - Implementing disk quotas.pdf]]
+### **1. Aims of the Lab**
+
+- Implement disk quotas for Linux server users
+- Work with both ext4 and xfs filesystem quota systems
+- Set up quotas on `/opt` filesystem (ext4) and root filesystem (xfs)
+
+---
+
+### **2. ext4 Quota Setup (/opt filesystem)**
+
+- **Process steps:**
+    1. **Backup fstab:** `cp /etc/fstab /etc/fstab.bak`
+    2. **Edit fstab:** Add `usrquota` option for `/opt`
+    3. **Remount filesystem:** `mount -o remount /opt`
+    4. **Initialize quotas:** `quotacheck` command
+    5. **Enable quotas:** `quotaon` command
+    6. **Set user limits:** `edquota` for user peter (400KB soft, 500KB hard)
+- **Testing:** Use `dd if=/dev/zero of=junk bs=1024 count=600` to create large files
+- **Monitoring:** `quota -v` (user view), `repquota` (admin report)
+
+---
+
+### **3. xfs Quota Setup (root filesystem)**
+
+- **Additional steps for root filesystem:**
+    1. **Edit fstab:** Add `usrquota` option for `/`
+    2. **Configure GRUB:** Add `rootflags=usrquota` to `GRUB_CMDLINE_LINUX` in `/etc/default/grub`
+    3. **Rebuild GRUB config:** `grub2-mkconfig`
+    4. **Reboot system** (remount won't work for root filesystem)
+- **xfs-specific commands:**
+    - `xfs_quota -x -c state` - check quota status
+    - `xfs_quota -x -c report` - generate reports
+    - `xfs_quota -x` - interactive expert mode
+- **No quotacheck needed:** xfs manages quotas internally
+
+---
+
+### **4. Quota Testing and Verification**
+
+- **Test procedure:** Login as user peter, exceed quota limits
+- **Expected behavior:**
+    - **Soft limit:** Warning messages, temporary override allowed
+    - **Hard limit:** Absolute block, no further writes allowed
+- **Documentation requirement:** Record all command options and system responses
+
+---
+
+### **5. Advanced Concepts**
+
+- **Project quotas:** Directory-hierarchy based limits (newer concept)
+- **Traditional quotas:** User/group based, filesystem-wide
+- **Use case:** Team projects requiring shared storage limits rather than individual user limits
+## Lab 7c
+![[Lab 7c - Implementing backups with cron.pdf]]
+### **1. Aims of the Lab**
+
+- Use cron for scheduling regular automated tasks
+- Implement simple backup processes using standard UNIX tools
+- Combine cron scheduling with backup operations
+
+---
+
+### **2. Cron Job Creation and Management**
+
+- **Cron format reference:** `man 5 crontab`
+- **Two cron locations:**
+    - **System-wide:** `/etc/crontab` (requires username specification)
+    - **User-specific:** Personal crontab via `crontab` command
+- **Crontab commands:**
+    - `crontab -e` - edit personal crontab
+    - `crontab -l` - list current crontab entries
+    - `crontab -r` - remove entire crontab
+- **Editor selection:** `export EDITOR=nano` before crontab commands
+
+---
+
+### **3. Backup Implementation**
+
+- **tar backup:** `/etc` directory to `/tmp/backup-etc.tar`
+
+bash
+
+```bash
+  tar -cf /tmp/backup-etc.tar /etc
+```
+
+- **cpio backup:** `/opt` directory to `/tmp/backup-opt.cpio`
+
+bash
+
+```bash
+  find /opt -print | cpio -o > /tmp/backup-opt.cpio
+```
+
+- **Verification:** View archive contents to confirm successful backup creation
+- **Restoration testing:** Extract `/etc/hosts` from tar backup to root's home directory
+
+---
+
+### **4. Production Backup Considerations**
+
+- **Real-world differences:**
+    - Full filesystem backups rather than single directories
+    - External media (tape drives, removable storage) instead of local disk
+    - Sufficient storage space for complete system backups
+- **Backup validation:** Always test restoration capability - corrupted backups discovered during emergencies are useless
+
+---
+
+### **5. Automated Backup Scheduling**
+
+- **Weekly backup schedule:** Combine cron with backup commands
+- **Implementation:** Schedule both `/etc` and `/opt` backups via cron
+- **Verification requirement:** Check following week to confirm automation is functioning
+- **Best practice:** Regular backup schedule with automated execution reduces human error
 # Week 8
 # Week 9
 # Week 10

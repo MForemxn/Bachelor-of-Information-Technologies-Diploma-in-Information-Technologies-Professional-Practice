@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Network Servers.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers Learning Journal Working"
+              "title": "Network Servers"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Network Servers.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers Learning Journal Working"
+              "title": "Network Servers"
             },
             "group": "139b7aa82caa4ecc"
           }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Network Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Network Servers Learning Journal Working"
+              "title": "Outgoing links from Network Servers"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Servers Learning Journal Working.md",
+                "file": "Network Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,10 +180,11 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Network Servers Learning Journal Working"
+              "title": "Backlinks for Network Servers"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,12 +202,31 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7f8c1c404bd734a7",
+  "active": "33e6025a2030ef58",
   "lastOpenFiles": [
-    "Lab 05a - Managing users and groups.pdf",
-    "Lab 05b - Superuser powers.pdf",
+    "Network Servers Learning Journal Working.md",
+    "Lab 7c - Implementing backups with cron.pdf",
+    "Lab 7b - Implementing disk quotas.pdf",
+    "Lab 7a - Managing filesystems, including mounting and unmounting.pdf",
     "Network Servers.md",
     "Subjects.md",
+    "Mobile Networking.md",
+    "RFID and Near-field Communications (NFC).md",
+    "RFID.md",
+    "NFC.md",
+    "Cloud Computing and Software as a Service.md",
+    "Force.com.md",
+    "Validation Rules.md",
+    "Textual.md",
+    "Communication.md",
+    "Numeric.md",
+    "Identifiers.md",
+    "Basic directory services.md",
+    "Homepage/Home.md",
+    "Lab 6b - DNS client configuration.pdf",
+    "Lab 6a - DNS server configuration.pdf",
+    "Lab 05a - Managing users and groups.pdf",
+    "Lab 05b - Superuser powers.pdf",
     "Career Management for IT Professionals.md",
     "Career Management for IT Professionals Assessment task 4 - Individual Reflection.md",
     "Career Management for IT Professionals Assessment Task 4 Final Submission Document.md",
@@ -215,30 +235,10 @@
     "Career Management for IT Professionals Assessment Task 2 Mock Questions.md",
     "Career Management for IT Professionals Assessment task 3 - Working in Teams.md",
     "Design, implementation and integration of network server infrastructure.md",
-    "Cloud Computing and Software as a Service.md",
     "Cloud data objects and validations.md",
-    "Mobile Networking.md",
-    "Wireless Local Area Networks - WiFi.md",
-    "Quadrature Amplitude Modulation.md",
-    "Homepage/Home.md",
-    "Amazon Web Services (AWS).md",
-    "EC2.md",
-    "Load Balancing.md",
-    "Basic directory services.md",
-    "Active Directory.md",
-    "Domain Controllers.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Working Document.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay.md",
-    "Cloud Computing and Software as a Service Assessment task 1 - Research Essay - Assignment Description.md",
     "Lab 04c - Configuring a DHCP server on Windows Server.pdf",
     "Lab 04b - Configuring a DHCP server on Linux.pdf",
     "Lab 04a - Configuring a DHCP client 1.pdf",
-    "Lab 04a - Configuring a DHCP client.pdf",
-    "Lab 02d - Disk partitioning 1.pdf",
-    "Assignment 1_Cloud Computing and Software as a Service_41001-a15c3554-8628-4363-b03f-d5eba44c69a9.pdf",
-    "Lab 3b - Time and date.pdf",
-    "Lab 3a - Static networking.pdf",
-    "Lab 02d - Disk partitioning.pdf",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",

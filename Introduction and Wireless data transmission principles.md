@@ -29,7 +29,7 @@
 ### Industry Applications
 
 - **Education**: Campus-wide connectivity, cost-effective classroom transformation
-- **Healthcare**: Point-of-care systems, RFID patient tracking, medication verification
+- **Healthcare**: Point-of-care systems, [[RFID]] patient tracking, medication verification
 - **Government/Military**: Field [[data]] collection, digital battlefield systems, municipal services
 - **Business**: Mobile workforce, disaster recovery, office [[flexibility]]
 
@@ -59,7 +59,7 @@
 - **Digital Convergence**: Integration of voice, video, text processing in single devices
 - **WWAN**: Corporate [[data]] access via [[cellular]] technologies
 - **WAP2**: Standard for mobile web browsing on [[cellular]] devices
-- **RFID**: Radio frequency [[identification]] for tracking/inventory
+- **[[RFID]]**: Radio frequency [[identification]] for tracking/inventory
 
 # Performance Factors
 
