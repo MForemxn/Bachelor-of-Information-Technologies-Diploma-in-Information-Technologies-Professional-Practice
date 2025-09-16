@@ -3,8 +3,8 @@
 	- [[IP address]]
 	- [[subnet mask]]
 	- [[default gateway]]
-- when a host sends a packet to another device on the same IP network, the packet is forwarded out of the host [[interface]] to the destination device. The router is not involved
-- when a host sends a packet to a different IP network, the packet is forwarded to the [[default gateway]] because the host cannot connect directly with devices outside of the local network
+- when a host sends a packet to another device on the same [[IP]] network, the packet is forwarded out of the host [[interface]] to the destination device. The router is not involved
+- when a host sends a packet to a different [[IP]] network, the packet is forwarded to the [[default gateway]] because the host cannot connect directly with devices outside of the local network
 - the [[default gateway]] is the device that routes traffic from the local network to hosts on remote networks.
 # Network Segmentation
 ## Broadcast Domains
@@ -23,56 +23,56 @@
 - you can also determine which subnets can and can't communicate with each other, and what kind of traffic can come in and out. 
 # Communication Between Subnets
 - a router is required for devices on different networks and subnets to communicate
-- each router interface must have an IPv4 host address that belongs to the network or subnet that the router interface is connected to.
-- devices on a network and subnet use the router interface attached to their lan as their default gateway. 
+- each router [[Interface]] must have an IPv4 host address that belongs to the network or [[Subnet]] that the router [[Interface]] is connected to.
+- devices on a network and [[Subnet]] use the router [[Interface]] attached to their lan as their [[Default Gateway]]. 
 # Subnetting an IPv4 Network
 ## Basic Subnetting: Creating Two Equal Sized Subnets
-- by splitting a networks IP range in half, you can create 2 separated networks, of equal size. 
+- by splitting a networks [[IP]] range in half, you can create 2 separated networks, of equal size. 
 
 ## Basic IP Addressing Concepts
 
 - IPv4 addresses are 32-bit numbers divided into four 8-bit octets
 - Represented in dotted decimal format (e.g., 192.168.1.1)
 - Each octet ranges from 0-255
-- Original class-based addressing:
-    - Class A: First bit 0 (0.0.0.0 to 127.255.255.255) - /8 mask
-    - Class B: First bits 10 (128.0.0.0 to 191.255.255.255) - /16 mask
-    - Class C: First bits 110 (192.0.0.0 to 223.255.255.255) - /24 mask
+- Original [[Class]]-based addressing:
+    - [[Class]] A: First bit 0 (0.0.0.0 to 127.255.255.255) - /8 mask
+    - [[Class]] B: First bits 10 (128.0.0.0 to 191.255.255.255) - /16 mask
+    - [[Class]] C: First bits 110 (192.0.0.0 to 223.255.255.255) - /24 mask
 
 ## Subnetting Fundamentals
 
 - Divides larger networks into smaller subnetworks
-- Uses subnet masks to identify network vs. host portions of addresses
-- Subnet mask: consecutive 1s (network portion) followed by 0s (host portion)
+- Uses [[Subnet]] masks to identify network vs. host portions of addresses
+- [[Subnet]] mask: consecutive 1s (network portion) followed by 0s (host portion)
 - Example: 255.255.255.0 = 11111111.11111111.11111111.00000000 (binary)
 
 ## CIDR Notation
 
 - Classless Inter-Domain [[Routing]]
-- Network address followed by slash and prefix length
+- Network address followed by slash and [[Prefix length]]
 - Example: 192.168.1.0/24
-- Prefix length = number of 1s in the subnet mask
-- Simpler than writing full subnet masks
+- [[Prefix length]] = number of 1s in the [[Subnet]] mask
+- Simpler than writing full [[Subnet]] masks
 
 ## Subnetting Calculations
 
-- Network bits: identify the subnet
-- Host bits: identify hosts within a subnet
+- Network bits: identify the [[Subnet]]
+- Host bits: identify hosts within a [[Subnet]]
 - Number of possible subnets = 2^n (n = borrowed bits)
-- Number of hosts per subnet = 2^h - 2 (h = host bits)
+- Number of hosts per [[Subnet]] = 2^h - 2 (h = host bits)
 - Subtract 2 for network address (all 0s) and broadcast address (all 1s)
 
 ## Subnet Mask Increments
 
 - Look at the octet where subnetting occurs
-- Calculate increment = 256 - subnet mask octet value
+- Calculate increment = 256 - [[Subnet]] mask octet value
 - Example: For /27 (255.255.255.224), increment is 256 - 224 = 32
 - Subnets will start at: 0, 32, 64, 96, 128, 160, 192, 224
 
 ## Variable Length Subnet Masking ([[VLSM]])
 
 - Allows creating subnets of different sizes from the same address block
-- Efficient use of IP addresses by matching subnet size to actual needs
+- Efficient use of [[IP]] addresses by matching [[Subnet]] size to actual needs
 - Prevents wasting addresses in smaller networks
 - Implemented using route summarization
 
@@ -82,7 +82,7 @@
 2. Allocate address space starting with the largest network
 3. Find the closest power of 2 that satisfies each network's host requirements
 4. Assign subnets sequentially to avoid overlap
-5. Document each subnet's address range, mask, and purpose
+5. Document each [[Subnet]]'s address range, mask, and purpose
 
 ## [[VLSM]] Calculation Example
 
@@ -100,10 +100,10 @@
 
 ## Benefits of Subnetting and [[VLSM]]
 
-- More efficient use of IP address space
+- More efficient use of [[IP]] address space
 - Reduced broadcast domains
 - Improved network performance
-- Enhanced security through network segmentation
+- Enhanced [[Security]] through network segmentation
 - Simplified [[routing]] tables through route summarization
 - Easier troubleshooting with logical network boundaries
 
@@ -120,4 +120,4 @@ http://www.vlsm-calc.net
 - /30 = 255.255.255.252 (4 addresses, 2 usable)
 
 
-![[Screenshot 2025-02-28 at 8.00.46 am.png]]
+![[Screenshot 2025-02-28 at 8.00.46 [[AM]].png]]

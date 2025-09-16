@@ -66,7 +66,7 @@
 - malware (viruses, worms, trojan horses)
 	- malicious software designed to damage, disrupt, or gain unauthorized access to systems
 - phishing
-	- fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity in an electronic communication
+	- fraudulent attempts to obtain sensitive information by disguising as a trustworthy entity in an electronic [[Communication]]
 - ransomware
 	- a type of malware that threatens to publish the victim's [[data]] or perpetually block access to it unless a ransom is paid
 - DDoS attacks (Distributed Denial of Service)
@@ -86,7 +86,7 @@
 
 # The Role of HTTPS in Web [[Security]]
 - HTTPS (Hypertext Transfer Protocol Secure)
-	- an extension of HTTP, used for secure communication over a computer network, and widely used on [[the internet]]
+	- an extension of [[HTTP]], used for secure [[Communication]] over a computer network, and widely used on [[the internet]]
 - importance
 	- encrypts [[data]] exchanged between a user's browser and the website they are visiting, protecting against eavesdropping and tampering
 	- provides [[authentication]] of the accessed website, preventing [[man]]-in-the-middle attacks

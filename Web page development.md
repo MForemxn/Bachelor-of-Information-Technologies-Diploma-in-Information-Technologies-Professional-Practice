@@ -21,15 +21,15 @@
 
 ### CSS Standards and Responsibility
 
-- The World Wide Web Consortium (W3C) defines web standards, including CSS. CSS has evolved from Level 1 through CSS 2.2 to CSS 3, with the latter not being a new version but an extension of CSS 2.2 through backward-compatible specifications.
+- The [[World Wide Web]] Consortium (W3C) defines web standards, including CSS. CSS has evolved from Level 1 through CSS 2.2 to CSS 3, with the latter not being a new version but an extension of CSS 2.2 through backward-compatible specifications.
 
 ### CSS Syntax and Selectors
 
-- CSS rules are defined with selectors (tag, #id, .class, inline), properties, and values. This allows for the customization of HTML elements' styles across a webpage or the entire site.
+- CSS rules are defined with selectors (tag, #id, .[[Class]], inline), properties, and values. This allows for the customization of HTML elements' styles across a webpage or the entire site.
 
 ### Flexibility with CSS
 
-- Tags like `<div>` and `<span>` provide flexibility in styling sections of a page or inline content differently.
+- Tags like `<div>` and `<span>` provide [[Flexibility]] in styling sections of a page or inline content differently.
 
 ### Implementing CSS
 
@@ -41,11 +41,11 @@
 
 ### Cascading and Precedence
 
-- Styles cascade in a specific order of precedence, from browser default settings to user settings, external CSS, imported CSS, embedded CSS, inline CSS, and finally HTML tag attributes.
+- Styles cascade in a specific order of precedence, from browser default settings to user settings, external CSS, imported CSS, embedded CSS, inline CSS, and finally HTML tag [[Attributes]].
 
 ### Benefits of CSS
 
-- Using CSS offers benefits like separation of style from structure, cleaner code, uniformity across pages, more power and flexibility, and better code reuse.
+- Using CSS offers benefits like separation of style from structure, cleaner code, uniformity across pages, more power and [[Flexibility]], and better [[Code Reuse]].
 
 ### Resources and Further Learning
 

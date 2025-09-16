@@ -13,7 +13,7 @@ A LAN (Local Area Network) connects computers and devices within a limited area,
 9. Network Topology
 10. Network [[Security]]
 11. [[DHCP]] (Dynamic Host Configuration Protocol)
-12. TCP/IP (Transmission Control Protocol/Internet Protocol)
+12. [[TCP]]/IP (Transmission Control Protocol/Internet Protocol)
 13. Network Cable
 14. Wireless Access Point (WAP)
 15. Network Management
@@ -31,7 +31,7 @@ A LAN (Local Area Network) connects computers and devices within a limited area,
 5. VLANs can segment a LAN into smaller, isolated networks for improved [[security]] and management.
 6. Network topology defines the physical or logical arrangement of devices in a LAN.
 7. [[DHCP]] servers automatically assign IP addresses to devices on a LAN.
-8. TCP/IP protocols enable devices to communicate over the LAN.
+8. [[TCP]]/IP protocols enable devices to communicate over the LAN.
 9. Network [[security]] measures, such as firewalls and VPNs, protect [[data]] on a LAN.
 10. LANs support both wired and wireless connections, offering flexibility in network design and setup.
 

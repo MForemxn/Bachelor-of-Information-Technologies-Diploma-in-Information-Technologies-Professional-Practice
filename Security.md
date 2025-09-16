@@ -6,11 +6,11 @@ Computer security in [[Web Systems]] focuses on protecting websites, [[web appli
 - **[[Data Protection]]**: Ensuring that [[data]] transmitted between the server and the client (browser) is encrypted, typically using protocols like HTTPS.
 - **[[Authentication and Authorisation]]**: Verifying the identity of users ([[authentication]]) and ensuring they have permission to access specific resources or perform certain actions (authorization).
 - **[[Cross-Site Scripting (XSS)]]**: A [[security vulnerability]] that allows attackers to inject malicious scripts into web pages viewed by other users, potentially stealing [[data]] or compromising user accounts.
-- **[[SQL Injection]]**: A type of attack that involves inserting malicious SQL queries into [[input]] fields to manipulate or exploit the [[database]] behind a web application.
+- **[[SQL Injection]]**: A type of attack that involves inserting malicious [[SQL]] queries into [[input]] fields to manipulate or exploit the [[database]] behind a web application.
 - **[[Cross-Site Request Forgery (CSRF)]]**: An attack that tricks the victim into submitting a malicious request. It exploits the trust a web application has in the user's browser.
 - **[[Session Management]]**: Securely managing sessions to prevent attackers from hijacking or impersonating a legitimate user session.
 - **[[Input Validation]]**: Ensuring that all [[input]] from users or external systems is validated before being processed to prevent injection attacks and other vulnerabilities.
-- **[[Security Headers]]**: Implementing HTTP response headers that instruct browsers on how to behave when handling the site's content, reducing the risk of certain attacks.
+- **[[Security Headers]]**: Implementing [[HTTP]] response headers that instruct browsers on how to behave when handling the site's content, reducing the risk of certain attacks.
 - **[[Content Security Policy (CSP)]]**: An added layer of security that helps to detect and mitigate certain types of attacks, including XSS and [[data]] injection attacks.
 
 ## Best Practices

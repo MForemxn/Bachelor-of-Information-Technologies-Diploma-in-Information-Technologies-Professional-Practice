@@ -13,7 +13,7 @@
 
 ## Views
 - Tables are used to store [[data]] physically in [[database]] correspond to relations in logical [[database]] design.
-- Using SQL queries it is possible to create **virtual table** or **dynamic views.**
+- Using [[SQL]] queries it is possible to create **virtual table** or **dynamic views.**
 - **virtual table** or **dynamic views** can be manipulated like tables.
 - **Create View [[syntax]]:** Create View View_Name as Select_Statement; 
 	- **Example:** Create view P as select * from product_t;
@@ -23,7 +23,7 @@
 - Dynamic View
 	- A “virtual table” created dynamically upon request by a user.
 	- No [[data]] actually stored; instead, [[data]] from base table made available to user.
-	- Results are provided based on a SQL SELECT statement on base tables or other views.
+	- Results are provided based on a [[SQL]] SELECT statement on base tables or other views.
 - Materialized View
 	- Copy or replication of [[data]].
 	- [[Data]] actually stored.
@@ -62,7 +62,7 @@ it do not require memory space.
 
 ## 1. Lecture Overview
 
-The lecture focuses on advanced SQL topics, particularly the different types of joins and multiple table queries. The key objective is to understand how to combine data from multiple tables effectively.
+The lecture focuses on advanced [[SQL]] topics, particularly the different types of joins and multiple table queries. The key objective is to understand how to combine [[Data]] from multiple tables effectively.
 
 ## 2. Types of Joins
 
@@ -73,7 +73,7 @@ The lecture focuses on advanced SQL topics, particularly the different types of 
 
 **Example:**
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -85,7 +85,7 @@ Copy code
 
 **Example:**
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -99,7 +99,7 @@ Copy code
 
 **Example:**
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -107,11 +107,11 @@ Copy code
 
 ### 2.4 Self Join
 
-- **Self Join**: A table is joined with itself. This is useful when querying hierarchical data (e.g., employee-supervisor relationships).
+- **Self Join**: A table is joined with itself. This is useful when querying hierarchical [[Data]] (e.g., employee-supervisor relationships).
 
 **Example:**
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -128,7 +128,7 @@ Copy code
 
 **Example:**
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -137,13 +137,13 @@ Copy code
 ### Rules for Unions:
 
 - Both queries must return the same number of columns.
-- The data types of corresponding columns must be compatible.
+- The [[Data]] types of corresponding columns must be compatible.
 
 ## 4. Example Queries
 
 ### Inner Join Example:
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -151,7 +151,7 @@ Copy code
 
 ### Cross Join Example:
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -159,7 +159,7 @@ Copy code
 
 ### Outer Join Example:
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -167,7 +167,7 @@ Copy code
 
 ### Self Join Example:
 
-sql
+[[SQL]]
 
 Copy code
 
@@ -175,7 +175,7 @@ Copy code
 
 ## 5. Class Activities
 
-- **Activity 8.1**: Perform an inner join to find customer names and their order IDs.
+- **Activity 8.1**: Perform an inner join to find customer names and their order [[IDS]].
 - **Activity 8.2**: Use a cross join to find customer names and order numbers for all customers who placed an order.
 - **Activity 8.3**: Use an inner join to find order details for customer 'Eastern Furniture'.
 - **Activity 8.4**: Use multiple table joins to find order, product, and customer details.
@@ -185,7 +185,7 @@ Copy code
 - **Inner Join**: Returns only matching rows.
 - **Cross Join**: Returns the Cartesian product.
 - **Outer Join**: Returns all rows from one table and matching rows from the other, or NULLs if there is no match.
-- **Self Join**: Joins a table with itself, useful for hierarchical data.
+- **Self Join**: Joins a table with itself, useful for hierarchical [[Data]].
 - **Natural Join**: Automatically joins tables based on column names but is not recommended.
 - **Union**: Combines the results of two queries, removing duplicates unless UNION ALL is used.
 ## Subqueries Overview
@@ -315,8 +315,8 @@ SELECT productdescription, productid,         (SELECT count(*)          FROM ord
 
 ## Embedded and Dynamic SQL
 
-- **Embedded SQL**: Hard-coded SQL statements in another language (e.g., C, Java).
-- **Dynamic SQL**: Generated at runtime by the application.
+- **Embedded [[SQL]]**: Hard-coded [[SQL]] statements in another language (e.g., C, [[Java]]).
+- **Dynamic [[SQL]]**: Generated at runtime by the application.
 
 ### Advantages:
 
@@ -326,10 +326,10 @@ SELECT productdescription, productid,         (SELECT count(*)          FROM ord
 
 
 ## ONE SENTENCE SUMMARY:
-SQL enables [[data]] retrieval, manipulation, and analysis through simple queries, aggregate functions, [[data]] modification statements, joins, and subqueries.
+[[SQL]] enables [[data]] retrieval, manipulation, and analysis through simple queries, aggregate functions, [[data]] modification statements, joins, and subqueries.
 
 ## OVERVIEW:
-SQL (Structured Query Language) is a powerful tool for managing and manipulating relational databases. Simple queries allow users to retrieve specific [[data]] from one or more tables using the SELECT statement, often combined with WHERE clauses to filter results. Aggregate functions, such as COUNT, SUM, AVG, MAX, and MIN, perform calculations on a set of values to return a single value, aiding in [[data analysis]]. [[Data]] modification statements, including INSERT, UPDATE, and DELETE, enable users to add, modify, or remove [[data]] within tables. Joins are used to combine rows from two or more tables based on related columns, with simple joins (INNER JOIN) returning matching records and complex joins (LEFT JOIN, RIGHT JOIN, FULL JOIN) handling various matching scenarios. Subqueries, or nested queries, allow for more complex [[data]] retrieval by embedding one query within another. Together, these SQL features provide robust capabilities for [[data]] management and analysis.
+[[SQL]] (Structured Query Language) is a powerful tool for managing and manipulating relational databases. Simple queries allow users to retrieve specific [[data]] from one or more tables using the SELECT statement, often combined with WHERE clauses to filter results. Aggregate functions, such as COUNT, SUM, AVG, MAX, and MIN, perform calculations on a set of values to return a single value, aiding in [[data analysis]]. [[Data]] modification statements, including INSERT, UPDATE, and DELETE, enable users to add, modify, or remove [[data]] within tables. Joins are used to combine rows from two or more tables based on related columns, with simple joins (INNER JOIN) returning matching records and complex joins (LEFT JOIN, RIGHT JOIN, FULL JOIN) handling various matching scenarios. Subqueries, or nested queries, allow for more complex [[data]] retrieval by embedding one query within another. Together, these [[SQL]] features provide robust capabilities for [[data]] management and analysis.
 
 ## MAIN POINTS:
 1. Simple queries retrieve specific [[data]] using SELECT and WHERE.
@@ -339,12 +339,12 @@ SQL (Structured Query Language) is a powerful tool for managing and manipulating
 5. Simple joins (INNER JOIN) combine matching rows from tables.
 6. Complex joins: LEFT JOIN, RIGHT JOIN, FULL JOIN.
 7. Subqueries embed one query within another for complex retrieval.
-8. SQL enables comprehensive [[data]] management and analysis.
+8. [[SQL]] enables comprehensive [[data]] management and analysis.
 9. Joins handle various [[data]] matching scenarios.
 10. Aggregate functions aid in summarising [[data]].
 
 ## TAKEAWAYS:
-1. SQL retrieves and filters [[data]] with simple queries.
+1. [[SQL]] retrieves and filters [[data]] with simple queries.
 2. Aggregate functions summarise [[data]] sets for analysis.
 3. [[Data]] modification statements manage table [[data]].
 4. Joins combine [[data]] from multiple tables.

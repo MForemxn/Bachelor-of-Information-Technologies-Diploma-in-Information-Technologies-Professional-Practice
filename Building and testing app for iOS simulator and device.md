@@ -2,14 +2,14 @@
 Building and testing an app for [[iOS]] involves compiling the application for both the simulator and physical devices, ensuring functionality, performance, and user experience across different environments.
 
 # OVERVIEW:  
-Building and testing an [[iOS]] app involves several steps to ensure it functions correctly on both the [[iOS]] simulator and physical devices. The [[iOS]] simulator, part of Xcode, allows developers to test applications on various virtual devices, providing a quick and efficient way to identify and fix issues during development. Testing on a physical device is crucial for assessing real-world performance, hardware interactions, and user experience. Developers must configure their Xcode project settings, select the appropriate build target, and manage provisioning profiles and certificates for device testing. Comprehensive testing includes checking for UI responsiveness, performance metrics, and compatibility across different [[iOS]] versions and device [[models]]. By thoroughly testing in both environments, developers can ensure their app is robust, user-friendly, and ready for deployment.
+Building and testing an [[iOS]] app involves several steps to ensure it functions correctly on both the [[iOS]] simulator and physical devices. The [[iOS]] simulator, part of Xcode, allows developers to test applications on various virtual devices, providing a quick and efficient way to identify and fix issues during development. Testing on a physical device is crucial for assessing real-world performance, hardware interactions, and user experience. Developers must configure their Xcode project settings, select the appropriate build target, and manage provisioning [[profiles]] and certificates for device testing. Comprehensive testing includes checking for UI responsiveness, performance metrics, and compatibility across different [[iOS]] versions and device [[models]]. By thoroughly testing in both environments, developers can ensure their app is robust, user-friendly, and ready for deployment.
 
 # MAIN POINTS:  
 1. Building and testing ensure app functionality on simulator and devices.
 2. [[iOS]] simulator provides a virtual testing environment in Xcode.
 3. Physical device testing assesses real-world performance and interactions.
 4. Configure Xcode project settings for different build targets.
-5. Manage provisioning profiles and certificates for device testing.
+5. Manage provisioning [[profiles]] and certificates for device testing.
 6. Test for UI responsiveness and performance metrics.
 7. Ensure compatibility across [[iOS]] versions and device [[models]].
 8. Identify and fix issues efficiently during development.

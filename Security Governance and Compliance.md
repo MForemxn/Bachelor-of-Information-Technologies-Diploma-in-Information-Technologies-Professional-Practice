@@ -10,11 +10,11 @@
  - Should stretch the organisation’s capabilities and image of itself (i.e., could be bold and ambitious)
  - Typically one sentence. An example of a vision statement is:
 > Our vision is to provide outstanding services and to become a market leader as one‐stop total solution to small and large businesses worldwide.
- - Should resonate with all members of the organisation and help them feel proud, excited, and part of something much bigger than themselves
+ - Should resonate with all members of the organisation and [[Help]] them feel proud, excited, and part of something much bigger than themselves
 ## Value Statements
  - Establishes organisational principles and makes organisation’s conduct standards clear.
  - Typically one sentence. An example of a value statement is:
-> Our value is to be a professional [[web service]] provider maintaining the highest standards of professional integrity.
+> Our value is to be a professional [[web service]] provider maintaining the highest standards of professional [[Integrity]].
  - Effective organisations identify and develop a clear, concise and shared meaning of values/beliefs, priorities, and direction so that everyone understands and can contribute.
  - Once defined, values impact every aspect of your organisation
 
@@ -62,18 +62,18 @@ Effective [[organisational planning]] in [[information security]] involves strat
 - Examples of common barriers that inhibit successful planning are as follows:
 	- Physical, political and legal environments
 	- Competitive and technological environments
-	- Organisational culture ‐ Understand how the organisational culture perceives security as a whole.
+	- Organisational culture ‐ Understand how the organisational culture perceives [[Security]] as a whole.
 	- Internal policies or guideline
 
 # [[Cyber Security Governance (CSG)]]
-> Cyber Security Governance (CSG) involves establishing policies, procedures, and controls to manage and mitigate cyber risks, ensuring organisational security and compliance.
-1. Establish policies, procedures, and controls for cyber risk management.
+> Cyber [[Security]] Governance (CSG) involves establishing policies, procedures, and controls to manage and mitigate cyber risks, ensuring organisational [[Security]] and compliance.
+1. Establish policies, procedures, and controls for cyber [[Risk Management]].
 2. Define roles and responsibilities within the organisation.
-3. Set clear security objectives.
-4. Foster a culture of security awareness.
-5. Implement risk management and incident response plans.
+3. Set clear [[Security]] objectives.
+4. Foster a culture of [[Security]] awareness.
+5. Implement [[Risk Management]] and incident response plans.
 6. Ensure compliance with regulatory requirements.
 7. Conduct regular audits and assessments.
-8. Promote continuous improvement in security measures.
+8. Promote continuous improvement in [[Security]] measures.
 9. Collaborate across all organisational levels.
-10. Safeguard data and maintain stakeholder trust.
+10. Safeguard [[Data]] and maintain stakeholder trust.

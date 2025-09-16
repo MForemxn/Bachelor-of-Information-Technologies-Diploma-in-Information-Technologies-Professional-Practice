@@ -1,14 +1,14 @@
 # IT Security Performance Management
-- The process of designing, implementing and managing the use of collected data elements called measures to determine the effectiveness of the overall security program
-	- Information security measures
+- The [[Process]] of designing, implementing and managing the use of collected [[Data]] elements called measures to determine the effectiveness of the overall [[Security]] program
+	- Information [[Security]] measures
 		- Measures refers to aggregate, higher‐level results
-	- Information security metrics
-		- Applying statistical and quantitative approaches of mathematical analysis to the process of measuring the activities and outcomes of the cyber/information security program
+	- Information [[Security]] metrics
+		- Applying statistical and quantitative approaches of mathematical analysis to the [[Process]] of measuring the activities and outcomes of the cyber/information [[Security]] program
 # Performance Management
 - In an increasingly regulated business environment,
 	- it is no longer acceptable to simply claim the effectiveness of a [[cybersecurity]] program.
 	- performance measurement is increasing required to prove the effectiveness of your [[cybersecurity]] program
-- Establishing an effective [[cybersecurity]] program is a process, and a process can only be improved upon if it is measured
+- Establishing an effective [[cybersecurity]] program is a [[Process]], and a [[Process]] can only be improved upon if it is measured
 - Performance measurements have many advantages including
 	- know your crown jewels
 	- knowing strengths and weak areas
@@ -16,23 +16,23 @@
 	- directing resources to the most needed area
 ## IT Security Performance Management
 
-- **Definition**: The process of designing, implementing, and managing measures to determine the effectiveness of the overall security program.
+- **Definition**: The [[Process]] of designing, implementing, and managing measures to determine the effectiveness of the overall [[Security]] program.
 - **Key Concepts**:
     - **Measures**: Aggregate, higher-level results.
-    - **Metrics**: Statistical and quantitative approaches to analyzing security program performance.
+    - **Metrics**: Statistical and quantitative approaches to analyzing [[Security]] program performance.
 
 ### Why Performance Measurement is Important
 
 - It is necessary to **prove** the effectiveness of [[cybersecurity]] programs in a regulated business environment.
-- **Performance measurements** help in:
+- **Performance measurements** [[Help]] in:
     - Identifying critical assets ("crown jewels").
     - Pinpointing strengths and weaknesses.
-    - Improving security and resource allocation.
+    - Improving [[Security]] and resource allocation.
 
 ### Types of Measures
 
-1. **Effectiveness of security policy execution**.
-2. **Efficiency of security service delivery**.
+1. **Effectiveness of [[Security]] policy execution**.
+2. **Efficiency of [[Security]] service delivery**.
 3. **Impact of incidents on the organization**.
 
 ---
@@ -116,7 +116,7 @@
 
 - **Goal**: Reduce risks by improving knowledge and adherence to best practices.
 - **Delivery Methods**:
-    - Mugs, posters, security alerts, workshops, online training, simulations.
+    - Mugs, posters, [[Security]] alerts, workshops, online training, simulations.
 - **Selecting Methods**:
     - Choose delivery methods that are suitable for the content, interactive, and cause minimal disruption.
 

@@ -42,7 +42,7 @@
 	- Don’t hide network topology(due to transparency)
 	- May not be able to provide enough control over traffic
 	- Throughput of a router decreases as the number of filters increases
-	- Requires intimate knowledge of TCP and UDP port utilization on a number of operating systems
+	- Requires intimate knowledge of TCP and [[UDP]] port utilization on a number of operating systems
 	- Not effective at protecting against attacks that exploit application-specific vulnerabilities (e.g., exploit a buffer overflow in a given application)
 
 ## Application Layer Proxy (ALP) Firewall

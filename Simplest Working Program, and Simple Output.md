@@ -11,7 +11,7 @@ A simplest working program demonstrates basic [[syntax]] and outputs a simple me
 1. Simplest programs often consist of a single line that displays text to the screen.
 2. [["Hello, World!"]] is a common first [[output]] in many programming tutorials.
 3. Understanding a simple program requires basic knowledge of [[syntax]] and structure.
-4. These programs serve as an introduction to the [[compilation]] or [[interpretation]] process.
+4. These programs serve as an introduction to the [[compilation]] or [[interpretation]] [[Process]].
 5. [[Variables]] and [[data types]] can be introduced through slightly more complex examples.
 6. [[Debugging]] skills begin with fixing errors in simple programs.
 7. Each [[programming language]] has its unique way of writing a simple [[output]] program.

@@ -5,7 +5,7 @@
     • Define additional advanced features (e.g. online leaderboards, achievements, sound/particle effects, adaptive difficulty, social sharing).
     
 - **Documentation:**  
-    • Create a Software Design Document (SDD) detailing your game’s features, data models, and flow diagrams.  
+    • Create a [[Software Design]] Document (SDD) detailing your game’s features, [[Data]] [[Models]], and flow diagrams.  
     • Draft wireframes/mockups for the main gameplay screen, settings, high score board, and any additional interfaces.
     
 - **Tooling and Environment:**  
@@ -118,7 +118,7 @@
         
 2. **Week 2:**
     
-    - Develop core UI components and data models.
+    - Develop core UI components and [[Data]] [[Models]].
         
     - Implement basic gameplay (timer, bubble generation, bubble popping).
         
@@ -139,4 +139,4 @@
     - Conduct comprehensive testing, optimize code, and finalize submission.
         
 
-Following this detailed game plan should help you develop a robust and advanced version of the BubblePop game that meets all assessment requirements and includes extra features for an impressive final product.
+Following this detailed game plan should [[Help]] you develop a robust and advanced version of the BubblePop game that meets all assessment requirements and includes extra features for an impressive final product.

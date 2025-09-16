@@ -174,8 +174,8 @@
 
 ### Feature Installation and Testing
 
-- **Adding Features**: Telnet Client and Simple TCP/IP services through Server Manager
-- **Service Verification**: Check services panel for Simple TCP/IP services status
+- **Adding Features**: Telnet Client and Simple [[TCP]]/IP services through Server Manager
+- **Service Verification**: Check services panel for Simple [[TCP]]/IP services status
 - **Testing Commands**:
     - `telnet localhost 13` (daytime service)
     - `telnet localhost 17` (quote of the day service)
@@ -928,7 +928,7 @@ date                              # Check time correction
 #### **GUI Method**
 
 - **Path**: Server Manager → Network Connections → Adapter Properties
-- **Setting**: Internet Protocol v4 (TCP/IPv4) → "Obtain an IP address automatically"
+- **Setting**: Internet Protocol v4 ([[TCP]]/IPv4) → "Obtain an IP address automatically"
 
 #### **Command-Line Method using netsh**
 

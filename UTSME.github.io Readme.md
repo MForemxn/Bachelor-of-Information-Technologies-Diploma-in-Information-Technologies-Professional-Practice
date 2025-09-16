@@ -10,7 +10,7 @@ To add a new Markdown page to the knowledgebase:
 
 1. **Create Your Markdown File:**
     
-    - Use any text editor to create a new Markdown file.
+    - Use any text [[Editor]] to create a new Markdown file.
     - Save the file with a `.md` extension.
 2. **Include Necessary Front Matter:**
     
@@ -40,8 +40,8 @@ To add a new Markdown page to the knowledgebase:
     - Find the file in the repository that you wish to edit.
 2. **Edit the File:**
     
-    - Click on the file name, then click the pencil icon (Edit this file) in the upper right to start editing.
-    - Make your changes directly in the GitHub editor.
+    - Click on the file name, then click the pencil icon (Edit this file) in the upper right to start [[Editing]].
+    - Make your changes directly in the GitHub [[Editor]].
 3. **Commit Your Changes:**
     
     - Scroll down to the "Commit changes" section.
@@ -50,4 +50,4 @@ To add a new Markdown page to the knowledgebase:
 
 ## Viewing Your Changes
 
-After adding or editing your file, GitHub Pages will automatically rebuild the site. It may take a minute or two for your changes to appear online. You can view your updates by navigating to the URL of your GitHub Pages site.
+After adding or [[Editing]] your file, GitHub Pages will automatically rebuild the site. It may take a minute or two for your changes to appear online. You can view your updates by navigating to the URL of your GitHub Pages site.

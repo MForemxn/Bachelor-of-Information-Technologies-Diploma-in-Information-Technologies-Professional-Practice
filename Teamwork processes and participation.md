@@ -1,12 +1,12 @@
 - teamwork [[processes]] and participation refer to the collective actions, behaviours, and mechanisms that enable a group of individuals to work together effectively towards a common goal
-- involves coordination, communication, and collaboration among team members
+- involves coordination, [[Communication]], and collaboration among team members
 - aims to leverage the diverse skills, experiences, and perspectives within the team to achieve better outcomes than individuals working alone
 
 # Key Elements of Effective Teamwork
 - clear roles and responsibilities: ensuring each team member understands their tasks and how they contribute to the team's objectives
-- open and honest communication: facilitating the exchange of ideas, [[feedback]], and concerns in a constructive manner
+- open and honest [[Communication]]: facilitating the exchange of ideas, [[feedback]], and concerns in a constructive manner
 - trust and respect: building a positive team culture where members feel valued and supported
-- flexibility and adaptability: being open to change and willing to adjust plans or roles as needed to meet the team's goals
+- [[Flexibility]] and adaptability: being open to change and willing to adjust plans or roles as needed to meet the team's goals
 
 # Stages of Team Development
 - teams typically go through several stages as they work together:
@@ -40,7 +40,7 @@
 # Tools and Techniques for Enhancing Teamwork
 - various tools and techniques can support teamwork [[processes]]:
 	- project management software to plan, track, and collaborate on tasks
-	- communication platforms for sharing information and staying connected
+	- [[Communication]] platforms for sharing information and staying connected
 	- team-building activities to strengthen relationships and improve collaboration
 	- [[feedback]] mechanisms to provide constructive criticism and recognition
 

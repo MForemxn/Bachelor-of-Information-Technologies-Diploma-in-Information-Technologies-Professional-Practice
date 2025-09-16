@@ -1,10 +1,10 @@
 # What is Internet Infrastructure?
-- internet infrastructure refers to the physical and virtual technologies that enable [[the internet]] to function
+- internet infrastructure refers to the physical and virtual technologies that enable [[the internet]] to [[Function]]
 - it encompasses a wide range of components, including:
 	- hardware (servers, routers, cables, [[data]] centres)
 	- software (protocols, services, applications)
 	- connectivity providers (ISPs, backbone providers)
-- crucial for global communication, commerce, and information exchange
+- crucial for global [[Communication]], commerce, and information exchange
 
 # Key Components of Internet Infrastructure
 - [[the internet]]'s infrastructure is built on several key components:
@@ -12,7 +12,7 @@
 	- **Servers**: powerful computers that store and serve [[data]] and web pages to users
 	- **[[Data]] Centres**: facilities that house servers and related equipment, providing the physical or virtual infrastructure required for internet services
 	- **Cables and Connectivity**: includes undersea cables, fibre optic cables, and wireless connections that link continents, countries, and local networks
-	- **Protocols**: rules and standards (e.g., TCP/IP, HTTP, [[DNS]]) that enable different parts of [[the internet]] to communicate effectively
+	- **Protocols**: rules and standards (e.g., [[TCP]]/[[IP]], [[HTTP]], [[DNS]]) that enable different parts of [[the internet]] to communicate effectively
 
 # Connectivity Providers
 - internet service providers (ISPs) play a crucial role in internet infrastructure
@@ -25,11 +25,11 @@
 - [[the internet]]'s infrastructure has evolved significantly since its inception
 	- from dial-up connections to broadband, fibre optics, and wireless technologies
 - advancements in hardware and software have enabled higher speeds, greater capacity, and more reliable connections
-- ongoing developments in areas like 5G, satellite internet, and edge computing are shaping the future of internet infrastructure
+- ongoing developments in areas like [[NR/5G|5G]], [[satellite]] internet, and edge computing are shaping the future of internet infrastructure
 
 # Challenges and Considerations
 - maintaining and upgrading internet infrastructure presents various challenges:
-	- scalability to accommodate growing [[data]] demands
+	- [[Scalability]] to accommodate growing [[data]] demands
 	- [[security]] measures to protect against cyber threats
 	- ensuring equitable access across different regions and communities
 - environmental impact is also a concern, with efforts underway to make [[data]] centres and network operations more energy-efficient and sustainable

@@ -7,6 +7,7 @@
 - [[Wireless Wide Area Networks - Cellular and Satellite]]
 - [[RFID and Near-field Communications (NFC)]]    
 - [[Develop an innovative solution for practical problems using mobile networking technologies]]
+- [[Telstra Guest Lecture]]
 # In Class Activities
 # Assessment Tasks
 - [[Mobile Networking Assessment task 1 Quizzes]]

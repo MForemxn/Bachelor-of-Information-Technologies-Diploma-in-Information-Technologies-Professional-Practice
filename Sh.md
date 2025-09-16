@@ -2,11 +2,11 @@
 
 See how to use and manage your Platform.sh projects directly from your terminal. Anything you can do within the Console can be done with the [[CLI]].
 
-The [[CLI]] uses the git interface and the [Platform.sh REST API](https://api.platform.sh/docs/) to accomplish tasks. Its source code is hosted on [GitHub](https://github.com/platformsh/cli).
+The [[CLI]] uses the git [[Interface]] and the [Platform.sh REST API](https://api.platform.sh/docs/) to accomplish tasks. Its source code is hosted on [GitHub](https://github.com/platformsh/cli).
 
 ## 1. Install ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-To install the CLI, use a [[Bash]] installation script](https://github.com/platformsh/cli#user-content-[[bash]]-installer). You can also install with [Homebrew](https://brew.sh/) (on Linux, macOS, or the Windows Subsystem for Linux) or [Scoop](https://scoop.sh/)(on Windows).
+To install the [[CLI]], use a [[Bash]] installation script](https://github.com/platformsh/[[CLI]]#user-content-[[[[Bash]]]]-installer). You can also install with [Homebrew](https://brew.sh/) (on Linux, macOS, or the Windows Subsystem for Linux) or [Scoop](https://scoop.sh/)(on Windows).
 
 If you have issues with installation on a Mac, such as missing libraries, see how to [troubleshoot CLI installation on M1 Macs](https://community.platform.sh/t/troubleshoot-cli-installation-on-m1-macs/1202).
 
@@ -14,7 +14,7 @@ If you have issues with installation on a Mac, such as missing libraries, see ho
 
 To list and manage your projects, authenticate by running the following command:
 
-This process opens a browser tab for you to log in. It also creates certificates on your computer for [SSH](https://docs.platform.sh/development/ssh.html).
+This [[Process]] opens a browser tab for you to log in. It also creates certificates on your computer for [SSH](https://docs.platform.sh/development/ssh.html).
 
 Once you are logged in, a list of your projects appears, along with some tips for getting started. If you experience [[authentication]] issues or want to force a login, run the command `platform login`.
 
@@ -24,9 +24,9 @@ Now you can run actions on your projects such as [[branching]] and merging. You 
 
 Get a list of all available commands with:
 
-To get more information on a specific command, preface it with `help`:
+To get more information on a specific command, preface it with `[[Help]]`:
 
-You get output similar to the following:
+You get [[Output]] similar to the following:
 
 ```
 Command: project:get
@@ -70,7 +70,7 @@ For example, if you run the following command:
 platform environment:info
 ```
 
-You get the following output:
+You get the following [[Output]]:
 
 ```
 Enter a number to choose a project:
@@ -90,7 +90,7 @@ You can always specify the project and environment in two ways:
     platform environment:info --project=my-project --environment=staging
     ```
     
-- With environment variables:
+- With environment [[Variables]]:
     
     ```
     export PLATFORM_PROJECT=my-project;
@@ -103,7 +103,7 @@ In [multi-app](https://docs.platform.sh/create-apps/multi-app.html) projects, 
 
 #### RootNotFoundException ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-If you check out a project via Git directly and not using the `platform get`command, the CLI may be unable to determine what project it’s in. You might run a [[CLI]] command from within a project directory you’ve checked out and get an error like this:
+If you check out a project via Git directly and not using the `platform get`command, the [[CLI]] may be unable to determine what project it’s in. You might run a [[CLI]] command from within a project directory you’ve checked out and get an error like this:
 
 ```
 [RootNotFoundException] Project root not found. This can only be run from inside a project directory.
@@ -127,13 +127,13 @@ An example of how this affects commands is that when you run `platform merge`, 
 
 ### Customize the CLI ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-You can customize how the [[CLI]] operates and what it returns with a configuration file (`~/.platform/config.yaml`) or environment variables. For details, see the [customization instructions on GitHub](https://github.com/platformsh/legacy-cli#user-content-customization).
+You can customize how the [[CLI]] operates and what it returns with a configuration file (`~/.platform/config.yaml`) or environment [[Variables]]. For details, see the [customization instructions on GitHub](https://github.com/platformsh/legacy-cli#user-content-customization).
 
 #### Automate repetitive tasks ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-You might want to use the [[CLI]] in a script to automate repetitive tasks such as synchronizing your files locally. In such cases, you want to customize the [[CLI]] to bypass any confirmation questions. You can set the answer to every question as `yes` using the `PLATFORMSH_[[CLI]]_NO_INTERACTION` environment variable.
+You might want to use the [[CLI]] in a script to automate repetitive tasks such as synchronizing your files locally. In such cases, you want to customize the [[CLI]] to bypass any confirmation questions. You can set the answer to every question as `yes` using the `PLATFORMSH_[[[[CLI]]]]_NO_INTERACTION` environment variable.
 
-For instance, to locally sync every mount point for your app named `app`, you could use this command:
+For instance, to locally sync every [[mount]] point for your app named `app`, you could use this command:
 
 ```
 export PLATFORM_PROJECT=my-project;
@@ -150,13 +150,13 @@ The [[CLI]] provides tab autocompletion for commands, options, and some values (
 
 You can use the Platform.sh [[CLI]] to run commands on your container. You can use any command you’ve added in [dependencies](https://docs.platform.sh/create-apps/app-reference.html#dependencies) or a [hook](https://docs.platform.sh/create-apps/app-reference.html#hooks).
 
-The syntax looks like the following:
+The [[Syntax]] looks like the following:
 
 ```
 platform ssh -- COMMAND ARGUMENTS
 ```
 
-For example, to run a specific Python script named `my-script.py` on your current environment, run the following command:
+For example, to run a specific [[Python]] script named `my-script.py` on your current environment, run the following command:
 
 ```
 platform ssh -- python my-script.py

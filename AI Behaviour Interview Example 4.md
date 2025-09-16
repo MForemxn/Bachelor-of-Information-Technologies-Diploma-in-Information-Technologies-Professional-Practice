@@ -93,7 +93,7 @@ Understood, with Lightspeed POS not being an option, let’s focus on finding th
 
 ### Square POS
 
-- **Pros:** Known for its intuitive interface, comprehensive feature set including robust inventory management, customer profiles, and integration options with third-party apps for WooCommerce.
+- **Pros:** Known for its intuitive interface, comprehensive feature set including robust inventory management, customer [[profiles]], and integration options with third-party apps for WooCommerce.
 - **Cons:** While suitable for various business sizes, the transaction fee model can become costly for a business with your sales volume, potentially eating into margins.
 
 ### Shopify POS

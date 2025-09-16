@@ -2,22 +2,22 @@
 ## Top Level Overview
 **Offensive Techniques:**
 
-- **Hash Collision Attacks:** Attackers exploit weaknesses in hashing algorithms (MD5, SHA-1) to create collisions, allowing malicious code to bypass integrity checks. (Merkle, 1987; Petrov & Ivanov, 2024)
+- **Hash Collision Attacks:** Attackers exploit weaknesses in hashing algorithms (MD5, SHA-1) to create collisions, allowing malicious code to bypass [[Integrity]] checks. (Merkle, 1987; Petrov & Ivanov, 2024)
     
-- **Supply Chain Attacks:** Adversaries compromise CI/CD pipelines or insert malicious code into open-source packages to distribute compromised software. (SLSA, 2023; Johnson & Williams, 2023)
+- **Supply Chain Attacks:** Adversaries compromise CI/[[cd]] pipelines or insert malicious code into open-source packages to distribute compromised software. (SLSA, 2023; Johnson & Williams, 2023)
     
-- **Memory Corruption Exploits:** ROP attacks and buffer overflows are used to manipulate runtime data and control flow, undermining software and data integrity. (Shin et al., 2011; McGraw, 2006)
+- **Memory Corruption Exploits:** ROP attacks and [[buffer]] overflows are used to manipulate runtime [[Data]] and [[Control Flow]], undermining software and [[Data]] [[Integrity]]. (Shin et al., 2011; McGraw, 2006)
     
 - **Firmware Manipulation:** Attackers exploit weak update mechanisms in IoT and automotive systems to install malicious firmware, often bypassing signature verification. (Johnson & Williams, 2023; Anderson, 2020)
     
 
 **Defensive Techniques:**
 
-- **Multi-Layered Cryptography:** Digital signatures, certificate pinning, and hardware-backed key storage mitigate the risk of unauthorized code or data modification. (Anderson, 2020; Johnson & Williams, 2023)
+- **Multi-Layered [[Cryptography]]:** Digital signatures, certificate pinning, and hardware-backed key storage mitigate the risk of unauthorized code or [[Data]] modification. (Anderson, 2020; Johnson & Williams, 2023)
     
 - **Immutable Logging:** Tamper-evident logs (blockchain-anchored or cryptographically chained) detect and prevent unauthorized modifications to critical system records. (Schneier, 2015; ISO/IEC 27002, 2022)
     
-- **Automated Vulnerability Discovery:** Fuzzing, static analysis, and code property graphs detect integrity-related vulnerabilities early in the development cycle. (Yamaguchi et al., 2014; Bass et al., 2021)
+- **Automated Vulnerability Discovery:** Fuzzing, static analysis, and code property graphs detect [[Integrity]]-related vulnerabilities early in the development cycle. (Yamaguchi et al., 2014; Bass et al., 2021)
     
 - **Policy-Driven Code Signing:** Implementing strict code signing policies and leveraging frameworks like SLSA and Sigstore reduces the risk from untrusted dependencies. (SLSA, 2023; Clark et al., 2021)
     
@@ -145,60 +145,60 @@ These results provide a strong foundation for both technical recommendations and
 ## References
 ### Cryptographic Methods & Integrity Protection
 
-Ahmadvand, M., Pretschner, A., & Kelbert, F. (2018). A taxonomy of software integrity protection techniques. Advances in Computers, 112, 413-486. [https://doi.org/10.1016/bs.adcom.2018.03.003](https://doi.org/10.1016/bs.adcom.2018.03.003)[8](https://www.doc.ic.ac.uk/~fkelbert/papers/aic18.pdf)
+Ahmadvand, M., Pretschner, A., & Kelbert, F. (2018). A taxonomy of software [[Integrity]] protection techniques. Advances in Computers, 112, 413-486. [https://doi.org/10.1016/bs.adcom.2018.03.003](https://doi.org/10.1016/bs.adcom.2018.03.003)[8](https://www.doc.ic.ac.uk/~fkelbert/papers/aic18.pdf)
 
-Merkle, R. C. (1987). A digital signature based on a conventional encryption function. In C. Pomerance (Ed.), Advances in Cryptology — CRYPTO '87 (pp. 369-378). Springer. [https://doi.org/10.1007/3-540-48184-2_32](https://doi.org/10.1007/3-540-48184-2_32)
+Merkle, R. C. (1987). A digital signature based on a conventional [[Encryption]] [[Function]]. In C. Pomerance (Ed.), Advances in Cryptology — CRYPTO '87 (pp. 369-378). Springer. [https://doi.org/10.1007/3-540-48184-2_32](https://doi.org/10.1007/3-540-48184-2_32)
 
-Petrov, A., & Ivanov, S. (2024). Improved method of constructing a crypto-resistant hashing function to increase the level of data integrity in a special purpose information and communication system. Journal of Information Security and Applications, 75, 103-118. [https://doi.org/10.1016/j.jisa.2023.12.001](https://doi.org/10.1016/j.jisa.2023.12.001)[4](https://www.semanticscholar.org/paper/477e71b0c13ad9b834c2e5acdee2f9e832c7ce61)
+Petrov, A., & Ivanov, S. (2024). Improved method of constructing a crypto-resistant hashing [[Function]] to increase the level of [[Data]] [[Integrity]] in a special purpose information and [[Communication]] system. Journal of Information [[Security]] and Applications, 75, 103-118. [https://doi.org/10.1016/j.jisa.2023.12.001](https://doi.org/10.1016/j.jisa.2023.12.001)[4](https://www.semanticscholar.org/paper/477e71b0c13ad9b834c2e5acdee2f9e832c7ce61)
 
-Shin, Y., Meneely, A., Williams, L., & Osborne, J. A. (2011). Evaluating complexity, code churn, and developer activity metrics as indicators of software vulnerabilities. IEEE Transactions on Software Engineering, 37(6), 772-787. [https://doi.org/10.1109/TSE.2010.81](https://doi.org/10.1109/TSE.2010.81)
+Shin, Y., Meneely, A., Williams, L., & Osborne, J. A. (2011). Evaluating complexity, code churn, and developer activity metrics as indicators of software vulnerabilities. IEEE Transactions on [[Software Engineering]], 37(6), 772-787. [https://doi.org/10.1109/TSE.2010.81](https://doi.org/10.1109/TSE.2010.81)
 
 ### Vulnerability Assessment & Detection
 
-Chen, L., & Zhang, H. (2022). Security threat and vulnerability assessment and measurement in secure software development. Journal of Systems and Software, 184, 111124. [https://doi.org/10.1016/j.jss.2021.111124](https://doi.org/10.1016/j.jss.2021.111124)[10](https://www.semanticscholar.org/paper/a12e91a45e67bf989188d6560ca8095c219e9397)
+Chen, L., & Zhang, H. (2022). [[Security]] threat and vulnerability assessment and measurement in secure [[Software Development]]. Journal of Systems and Software, 184, 111124. [https://doi.org/10.1016/j.jss.2021.111124](https://doi.org/10.1016/j.jss.2021.111124)[10](https://www.semanticscholar.org/paper/a12e91a45e67bf989188d6560ca8095c219e9397)
 
 Clark, J., van Oorschot, P. C., & Adams, C. (2021). Usability of anonymous web browsing: An examination of Tor interfaces and deployability. ACM Transactions on Computer-Human Interaction, 28(1), 1-38. [https://doi.org/10.1145/3410209](https://doi.org/10.1145/3410209)
 
-Johnson, M., & Williams, K. (2023). Fortifying connected vehicles based cybersecurity measures for secure over-the-air software updates. IEEE Transactions on Vehicular Technology, 72(4), 3891-3903. [https://doi.org/10.1109/TVT.2023.3156782](https://doi.org/10.1109/TVT.2023.3156782)[6](https://www.semanticscholar.org/paper/d86fcf3879f553f42b71d7410a642e81ddc6f5cb)
+Johnson, M., & Williams, K. (2023). Fortifying connected vehicles based [[Cybersecurity]] measures for secure over-the-air software updates. IEEE Transactions on Vehicular Technology, 72(4), 3891-3903. [https://doi.org/10.1109/TVT.2023.3156782](https://doi.org/10.1109/TVT.2023.3156782)[6](https://www.semanticscholar.org/paper/d86fcf3879f553f42b71d7410a642e81ddc6f5cb)
 
-Rashid, A., Naqvi, S. A. A., Ramdhany, R., Edwards, M., Chitchyan, R., & Babar, M. A. (2016). Discovering "unknown known" security requirements. In Proceedings of the 38th International Conference on Software Engineering (pp. 866-876). ACM. [https://doi.org/10.1145/2884781.2884785](https://doi.org/10.1145/2884781.2884785)
+Rashid, A., Naqvi, S. A. A., Ramdhany, R., Edwards, M., Chitchyan, R., & Babar, M. A. (2016). Discovering "unknown known" [[Security]] requirements. In Proceedings of the 38th International Conference on [[Software Engineering]] (pp. 866-876). ACM. [https://doi.org/10.1145/2884781.2884785](https://doi.org/10.1145/2884781.2884785)
 
-Yamaguchi, F., Golde, N., Arp, D., & Rieck, K. (2014). Modeling and discovering vulnerabilities with code property graphs. In Proceedings of the IEEE Symposium on Security and Privacy (pp. 590-604). IEEE. [https://doi.org/10.1109/SP.2014.44](https://doi.org/10.1109/SP.2014.44)
+Yamaguchi, F., Golde, N., [[ARP]], D., & Rieck, K. (2014). Modeling and discovering vulnerabilities with code property graphs. In Proceedings of the IEEE Symposium on [[Security]] and Privacy (pp. 590-604). IEEE. [https://doi.org/10.1109/SP.2014.44](https://doi.org/10.1109/SP.2014.44)
 
 ### Books on Secure Software Development
 
-Anderson, R. J. (2020). Security engineering: A guide to building dependable distributed systems (3rd ed.). Wiley.
+Anderson, R. J. (2020). [[Security]] engineering: A guide to building dependable distributed systems (3rd ed.). Wiley.
 
 Bass, L., Clements, P., & Kazman, R. (2021). Software architecture in practice (4th ed.). Addison-Wesley Professional.
 
 Chess, B., & West, J. (2007). Secure programming with static analysis. Addison-Wesley Professional.
 
-Howard, M., & Lipner, S. (2006). The security development lifecycle: SDL: A process for developing demonstrably more secure software. Microsoft Press.
+Howard, M., & Lipner, S. (2006). The [[Security]] development lifecycle: SDL: A [[Process]] for developing demonstrably more secure software. Microsoft Press.
 
-Kim, D., & Solomon, M. G. (2018). Fundamentals of information systems security (3rd ed.). Jones & Bartlett Learning.
+Kim, D., & Solomon, M. G. (2018). Fundamentals of [[Information Systems]] [[Security]] (3rd ed.). Jones & Bartlett Learning.
 
-McGraw, G. (2006). Software security: Building security in. Addison-Wesley Professional.
+McGraw, G. (2006). Software [[Security]]: Building [[Security]] in. Addison-Wesley Professional.
 
-Schneier, B. (2015). Data and Goliath: The hidden battles to collect your data and control your world. W. W. Norton & Company.
+Schneier, B. (2015). [[Data]] and Goliath: The hidden battles to collect your [[Data]] and control your world. W. W. Norton & Company.
 
 Seacord, R. C. (2020). Secure coding in C and C++ (3rd ed.). Addison-Wesley Professional.
 
-Stuttard, D., & Pinto, M. (2021). The web application hacker's handbook: Finding and exploiting security flaws (3rd ed.). Wiley.
+Stuttard, D., & Pinto, M. (2021). The web application hacker's [[Handbook]]: Finding and exploiting [[Security]] flaws (3rd ed.). Wiley.
 
-Viega, J., & McGraw, G. (2011). Building secure software: How to avoid security problems the right way. Addison-Wesley Professional.
+Viega, J., & McGraw, G. (2011). Building secure software: How to avoid [[Security]] problems the right way. Addison-Wesley Professional.
 
 ### Standards, Guidelines & Frameworks
 
-International Organization for Standardization. (2022). Information technology — Security techniques — Code of practice for information security controls (ISO/IEC 27002:2022). [https://www.iso.org/standard/75652.html](https://www.iso.org/standard/75652.html)
+International Organization for Standardization. (2022). Information technology — [[Security]] techniques — Code of practice for information [[Security]] controls (ISO/IEC 27002:2022). [https://www.iso.org/standard/75652.html](https://www.iso.org/standard/75652.html)
 
-National Cybersecurity Center of Excellence. (2021). Data integrity: Identifying and protecting assets against ransomware and other destructive events. National Institute of Standards and Technology. [https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events](https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events)[5](https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events)
+National [[Cybersecurity]] Center of Excellence. (2021). [[Data]] [[Integrity]]: Identifying and protecting assets against ransomware and other destructive events. National Institute of Standards and Technology. [https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events](https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events)[5](https://www.nccoe.nist.gov/data-integrity-identifying-and-protecting-assets-against-ransomware-and-other-destructive-events)
 
-National Institute of Standards and Technology. (2022). Security and privacy controls for information systems and organizations (NIST Special Publication 800-53, Rev. 5). U.S. Department of Commerce. [https://doi.org/10.6028/NIST.SP.800-53r5](https://doi.org/10.6028/NIST.SP.800-53r5)
+National Institute of Standards and Technology. (2022). [[Security]] and privacy controls for [[Information Systems]] and organizations (NIST Special Publication 800-53, Rev. 5). U.S. Department of Commerce. [https://doi.org/10.6028/NIST.SP.800-53r5](https://doi.org/10.6028/NIST.SP.800-53r5)
 
 Supply-chain Levels for Software Artifacts. (2023). SLSA: Supply-chain levels for software artifacts. [https://slsa.dev](https://slsa.dev/)[9](https://slsa.dev/)
 
 ### Technical Documentation & Implementation Guides
 
-IBM Corporation. (2004). Using digital signatures to protect software integrity on IBM i. IBM Documentation. [https://www.ibm.com/docs/en/i/7.5?topic=exposures-using-digital-signatures-protect-software-integrity](https://www.ibm.com/docs/en/i/7.5?topic=exposures-using-digital-signatures-protect-software-integrity)[7](https://www.ibm.com/docs/en/i/7.5?topic=exposures-using-digital-signatures-protect-software-integrity)
+IBM Corporation. (2004). Using digital signatures to protect software [[Integrity]] on IBM i. IBM Documentation. [https://www.ibm.com/docs/en/i/7.5?topic=exposures-using-digital-signatures-protect-software-integrity](https://www.ibm.com/docs/en/i/7.5?topic=exposures-using-digital-signatures-protect-software-integrity)[7](https://www.ibm.com/docs/en/i/7.5?topic=exposures-using-digital-signatures-protect-software-integrity)
 
 Wheeler, D. A., & Brykczynski, B. (2018). Secure programming HOWTO: Creating secure software. [https://dwheeler.com/secure-programs/](https://dwheeler.com/secure-programs/)

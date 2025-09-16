@@ -8,7 +8,7 @@
 - Social engineering is a manipulation technique that exploits human error to gain private information, access, or valuables. In contrast to traditional hacking, which involves breaking into computer systems, social engineering relies on tricking people into breaking normal [[security]] procedures.
 - It is often used by cybercriminals to gather sensitive information, such as passwords and bank information, or to gain unauthorized access to systems.
 # Social Engineering Attack Cycle:
-![[Screenshot 2024-05-06 at 10.41.36 am 1.png]]
+![[Screenshot 2024-05-06 at 10.41.36 [[AM]] 1.png]]
 # Social Engineering Principles
 ![[Pasted image 20240506104228.png]]
 ![[Pasted image 20240506104240.png]]
@@ -49,7 +49,7 @@
 
 # Conclusion
 
-Tailgating and quid pro quo are social engineering techniques that exploit human nature and the social norms of reciprocity and trust. Tailgating takes advantage of physical [[security]] lapses, while quid pro quo manipulates the expectation of a fair exchange for services or information. Awareness and training are key to defending against these tactics, as they help individuals recognize and respond appropriately to unauthorized attempts to gain access or information.
+Tailgating and quid pro quo are social engineering techniques that exploit human nature and the social norms of reciprocity and trust. Tailgating takes advantage of physical [[security]] lapses, while quid pro quo manipulates the expectation of a fair exchange for services or information. Awareness and training are key to defending against these tactics, as they [[Help]] individuals recognize and respond appropriately to unauthorized attempts to gain access or information.
 
 # How Social Engineering Works
 

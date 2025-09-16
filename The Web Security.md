@@ -3,21 +3,21 @@
 ## Client-Server Model
 The client-server model is a foundational concept in network computing where a client requests services or resources from a server. The server [[processes]] these requests and returns the appropriate responses. This model is prevalent in [[web applications]], where a web browser (client) requests web pages from a web server. 
 
-- Clients initiate communication by sending requests.
+- Clients initiate [[Communication]] by sending requests.
 - Servers respond to client requests with the requested resources or services.
 - The model supports [[scalability]] by allowing multiple clients to interact with a single server.
 - It enables resource sharing and centralised management.
 - Examples include web browsing, email exchange, and [[database]] access.
 
 ## [[Web Service]] vs [[API]]
-Web services and APIs are both used for communication between [[software applications]], but they differ in scope and [[implementation]]. A [[web service]] is a type of [[API]] that operates over a network, typically using [[HTTP]]. APIs, however, can be implemented using various protocols and are not limited to web-based interactions.
+Web services and APIs are both used for [[Communication]] between [[software applications]], but they differ in scope and [[implementation]]. A [[web service]] is a type of [[API]] that operates over a network, typically using [[HTTP]]. APIs, however, can be implemented using various protocols and are not limited to web-based interactions.
 
-- Web services are a subset of APIs, specifically designed for network communication.
+- Web services are a subset of APIs, specifically designed for network [[Communication]].
 - APIs can be local or network-based, offering broader functionality.
 - Web services often use SOAP or REST protocols.
 - APIs may use REST, SOAP, GraphQL, or other protocols.
 - Web services are typically used for web-based application integration.
-- APIs facilitate communication between software components, regardless of location.
+- APIs facilitate [[Communication]] between software components, regardless of location.
 
 # [[Session Hijacking]]
 [[Session hijacking]] is a cyber attack where an attacker takes control of a user's session to gain unauthorized access to information or services.

@@ -27,7 +27,7 @@
   - **[[Data]] [[Security]]**: Implements [[security]] measures to protect [[data]].
   - **[[Data]] [[Integrity]]**: Ensures the accuracy and consistency of [[data]] over its lifecycle.
   - **[[Data]] Backup and Recovery**: Provides mechanisms for [[data]] backup and restoration in case of [[data]] loss or corruption.
-- **Examples**: Oracle, MySQL, Microsoft SQL Server, PostgreSQL.
+- **Examples**: Oracle, MySQL, Microsoft [[SQL]] Server, PostgreSQL.
 
 ## Impact of Databases on Organisational Efficiency
 - **Streamlined Operations**: Databases allow for the automation of repetitive tasks, improving operational efficiency.

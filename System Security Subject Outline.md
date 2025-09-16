@@ -84,5 +84,5 @@ This subject contributes to the development of the following Engineers Australia
 - 1.1. Comprehensive, theory based understanding of the underpinning natural and physical sciences and the engineering fundamentals applicable to the engineering discipline.
 - 1.4. Discernment of knowledge development and research directions within the engineering discipline.
 - 2.2. Fluent application of engineering techniques, tools and resources.
-- 3.2. Effective oral and written communication in professional and lay domains.
+- 3.2. Effective oral and written [[Communication]] in professional and lay domains.
 - 3.4. Professional use and management of information.

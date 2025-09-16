@@ -49,7 +49,7 @@ This command will open a browser window and ask you to log in with your credenti
 
 `pac auth list`
 
-This command lists all the auth profiles you have created. If this was the first time connecting with the Power Platform CLI, this will only show one profile. In the scenario where you work with multiple customers, this is an especially useful command to see which profile is available for which customer and you can use the `pac auth select` to easily switch between these profiles.
+This command lists all the auth [[profiles]] you have created. If this was the first time connecting with the Power Platform CLI, this will only show one profile. In the scenario where you work with multiple customers, this is an especially useful command to see which profile is available for which customer and you can use the `pac auth select` to easily switch between these [[profiles]].
 
 > If you want to know which other commands are available in the `pac auth`command group, make sure to go to [aka.ms/pac/auth](https://aka.ms/pac/auth)
 

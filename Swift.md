@@ -78,7 +78,7 @@ Always Ordered by when they were Assigned
 
 - empty arrays require type declaration
 
-- type inference can be utilised when an array is populated upon creation
+- type inference can be utilised when an [[Array]] is populated upon creation
 
 ```swift
 import UIKit
@@ -134,7 +134,7 @@ collection of items
     
     - don’t need to worry about it until building custom classes
     
-    - works well for “Constant Time Lookup”
+    - works well for “[[Constant]] Time Lookup”
         - means that anytime an [[array]] is questioned, the result time will always be the same, no matter the size of the [[array]]
             - doesn’t matter if a set has 10 or 1,000,000,000 items
 
@@ -189,9 +189,9 @@ devices["phone"]
 - set of instructions
     - reusable throughout your code base
 
-- function name should always be a verb
+- [[Function]] name should always be a verb
 
-- scope of a function is everything between the curly brackets
+- scope of a [[Function]] is everything between the curly brackets
 
 - need to be as generic as possible
 
@@ -469,7 +469,7 @@ We can clean this up by using “Raw Value”.
 
 🚨
 
-This can be any type ( `string` ,`integer`), and can be called using the `.rawValue` method
+This can be any type ( `[[String]]` ,`[[Integer]]`), and can be called using the `.rawValue` method
 
 ```swift
 import UIKit
@@ -575,7 +575,7 @@ determinePlayerLeague(from: matchmakingRank)
 
 Operators allow you to check, change and combine values
 
-|Symbol|Name|Function|
+|Symbol|Name|[[Function]]|
 |---|---|---|
 |+|Plus or Sum|Add values (add)|
 |-|Minus or Difference|Find the difference between values (subtract)|
@@ -596,7 +596,7 @@ Operators allow you to check, change and combine values
 
 🚨
 
-Integer will ALWAYS be a whole number. It will not round up or down, it will just cutoff the decimal (if it exists)
+[[Integer]] will ALWAYS be a whole number. It will not round up or down, it will just cutoff the decimal (if it exists)
 
 ```swift
 import UIKit
@@ -645,9 +645,9 @@ let allAges = agesYoung + agesYoung
 
 Declaring something as an optional means you’re giving it the ability to handle the absence of values
 
-- basically this means a function can handle values, or the absence of values
+- basically this means a [[Function]] can handle values, or the absence of values
 
-- what this is going to be useful for is “unwrapping the array”
+- what this is going to be useful for is “unwrapping the [[Array]]”
     - this entails defining what happens if there are values, or if there aren’t
 
 ```swift
@@ -688,7 +688,7 @@ Optionals are marked with a `?`
 
 🚨
 
-The process of adding variable values into strings
+The [[Process]] of adding variable values into strings
 
 ```swift
 print("The oldest age is \(oldestAge)")
@@ -698,7 +698,7 @@ print("The oldest age is \(oldestAge)")
 
 - refers to itself
     
-    - the value of an object
+    - the value of an [[Object]]
     
     - relevant when talking about classes
 
@@ -706,7 +706,7 @@ print("The oldest age is \(oldestAge)")
 
 🚨
 
-an object which can have objects and functions attached to it
+an [[Object]] which can have objects and functions attached to it
 
 ## Initialising a Class with Values Assigned
 
@@ -787,7 +787,7 @@ sean.speakName()
 # Inheritance
 
 - classes can have subclasses
-    - this means they can have inheritance
+    - this means they can have [[Inheritance]]
 
 🚨
 
@@ -799,7 +799,7 @@ class ChildClassName: ParentClassName {}
 
 🚨
 
-By default, all attributes and functions are inherited from the parent class
+By default, all [[Attributes]] and functions are inherited from the parent [[Class]]
 
 🚨
 
@@ -857,8 +857,8 @@ sean.speakFavouriteFramework()
 
 # Struct
 
-- similar to a class
-    - also an object
+- similar to a [[Class]]
+    - also an [[Object]]
         - can have:
             
             - properties
@@ -870,7 +870,7 @@ sean.speakFavouriteFramework()
 
 🚨
 
-Classes are Reference Types
+Classes are [[Reference types]]
 
 🚨
 
@@ -878,14 +878,14 @@ Struct’s are Value Types
 
 ## Reference Type
 
-- point to a specific set of data
+- point to a specific set of [[Data]]
 
 - think of it like a shared google sheet
     - changes made by one party are changed everywhere
 
 ## Value Type
 
-- copy data and create a new instance
+- copy [[Data]] and create a new instance
 
 - think of it like a shared excel spreadsheet
     

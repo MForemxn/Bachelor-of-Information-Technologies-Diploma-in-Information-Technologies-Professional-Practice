@@ -52,7 +52,7 @@ principles and structures of [[data]] transportation designs.
 
 This subject provides students with a modern introduction to the dynamic field of computer networking, including
 
-layered network architecture and the TCP/IP protocol suite. Student practical works include observing network traffic in
+layered network architecture and the [[TCP]]/IP protocol suite. Student practical works include observing network traffic in
 
 action and building their own network applications through socket programming. Students also have hands-on
 
@@ -164,11 +164,11 @@ Socket Programming: Creating Network Applications
 
 Introduction of transport-layer services
 
-Connectionless transport: UDP
+Connectionless transport: [[UDP]]
 
 Principles of reliable [[data]] transfer
 
-Connection oriented transport: TCP
+Connection oriented transport: [[TCP]]
 
 Principles of Congestion Control
 
@@ -262,7 +262,7 @@ Notes:
 
 2.4 [[DNS]]
 
-2.7 socket programming with UDP and TCP
+2.7 socket programming with [[UDP]] and [[TCP]]
 
 Tutorial, Lab
 
@@ -278,7 +278,7 @@ Notes:
 
 3.2 multiplexing and demultiplexing
 
-3.3 connectionless transport: UDP
+3.3 connectionless transport: [[UDP]]
 
 3.4 principles of reliable [[data]] transfer
 
@@ -286,15 +286,15 @@ Tutorial, Lab
 
 Project1 due in your lab [[class]]
 
-6 9-13/9 TCP and congestion control
+6 9-13/9 [[TCP]] and congestion control
 
 Notes:
 
-3.5 connection-oriented transport: TCP
+3.5 connection-oriented transport: [[TCP]]
 
 3.6 principles of congestion control
 
-3.7 TCP congestion control
+3.7 [[TCP]] congestion control
 
 Tutorial, Lab
 

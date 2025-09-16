@@ -19,7 +19,7 @@
 	- [[POP3]] or [[IMAP]]: provides retrieval, deletion of stored messages on server
 - HTTP: gmail, Hotmail, Yahoo!Mail, etc. provides web-based [[interface]] on top of [[SMTP]] (to send), [[IMAP]] (or [[POP3]]) to retrieve e-mail messages
 #### [[SMTP]] (simple mail transfer protocol)
-- uses TCP to reliably transfer email message from client (mail server initiating connection) to server, port 25
+- uses [[TCP]] to reliably transfer email message from client (mail server initiating connection) to server, port 25
 - direct transfer: sending server (acting like client) to receiving server
 - three phases of transfer
 	- handshaking (greeting)
@@ -126,13 +126,13 @@
 	- server [[process]] must first be running
 	- server must have created socket (door) that welcomes client’s contact
 - Client contacts server by:
-	- Creating TCP socket, specifying [[IP address]], port number of server [[process]]
-	- when client creates socket: client TCP establishes connection to server TCP
-- when contacted by client, server TCP creates new socket for server [[process]] to communicate with that particular client
+	- Creating [[TCP]] socket, specifying [[IP address]], port number of server [[process]]
+	- when client creates socket: client [[TCP]] establishes connection to server [[TCP]]
+- when contacted by client, server [[TCP]] creates new socket for server [[process]] to communicate with that particular client
 	- allows server to talk with multiple clients
 	- source port numbers used to distinguish clients (more in Chap 3)
 ![[Screenshot 2024-08-27 at 4.53.06 pm.png]]
-## Example of TCP Server
+## Example of [[TCP]] Server
 ```
 from socket import *  
 serverPort = 12000  
@@ -143,7 +143,7 @@ print("The server is ready to receive")
 while True:    connectionSocket, addr = serverSocket.accept()  
     sentence = connectionSocket.recv(1024).decode()    capitalizedSentence = sentence.upper()    connectionSocket.send(capitalizedSentence.encode())    connectionSocket.close()
 ```
-## Example of TCP Client
+## Example of [[TCP]] Client
 ```
 from socket import *  
 serverName = '192.168.0.20'  

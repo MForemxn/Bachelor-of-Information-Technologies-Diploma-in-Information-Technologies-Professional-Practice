@@ -1,19 +1,19 @@
 # Introduction of transport-layer services
-- provide logical communication between application [[processes]] running on different hosts
+- provide logical [[Communication]] between application [[processes]] running on different hosts
 - transport protocols actions in end systems:
 	- **sender**: breaks application messages into segments, passes to  [[network layer]]
 	- **receiver**: reassembles segments into messages, passes to [[application layer]]
 - two transport protocols available to Internet applications
-	- TCP, UDP
+	- [[TCP]], [[UDP]]
 ## Sender and Receiver
 Sender:
 - is passed an application-layer message
 - ﻿﻿determines segment header fields values
 - ﻿﻿creates segment (segmentation)
-- ﻿﻿passes segment to IP
+- ﻿﻿passes segment to [[IP]]
 
 Receiver:
-- ﻿﻿receives segment from IP
+- ﻿﻿receives segment from [[IP]]
 - ﻿﻿checks header values
 - ﻿﻿extracts application-layer message (reassembly)
 - ﻿﻿demultiplexes message up to application via socket
@@ -21,14 +21,14 @@ Receiver:
 - [[network layer]]: logical communication between hosts
 - transport layer: logical communication between [[processes]]
 	- relies on, enhances, [[network layer]] services
-# TCP vs UDP
-TCP: Transmission Control Protocol
+# [[TCP]] vs [[UDP]]
+[[TCP]]: Transmission Control Protocol
 - reliable, in-order delivery
 - congestion control
 - flow control
 - connection setup
 
-UDP: User Datagram Protocol
+[[UDP]]: User Datagram Protocol
 - unreliable, unordered delivery
 - no-frills extension of “best-effort” IP
 - services not available:
@@ -36,8 +36,8 @@ UDP: User Datagram Protocol
 	- bandwidth guarantees
 # [[Multiplexing]] and [[Demultiplexing]]
 - [[Multiplexing]], [[demultiplexing]]: based on segment, datagram header field values
-- UDP: [[demultiplexing]] using destination port number (only)
-- TCP: [[demultiplexing]] using 4-tuple: source and destination IP addresses, and port numbers
+- [[UDP]]: [[demultiplexing]] using destination port number (only)
+- [[TCP]]: [[demultiplexing]] using 4-tuple: source and destination IP addresses, and port numbers
 - [[Multiplexing]]/[[demultiplexing]] happen at all layers
 
 
@@ -51,61 +51,61 @@ How [[demultiplexing]] works
 - each datagram carries one transport-layer segment
 - each segment has source, destination port number
 - host uses IP addresses & port numbers to direct segment to appropriate socket
-## Connectionless (UDP) [[demultiplexing]]
+## Connectionless ([[UDP]]) [[demultiplexing]]
 - when creating socket, must specify host-local port #: `serverSock.bind((’’, 12000));`
-- when creating datagram to send into UDP socket, must specify 
+- when creating datagram to send into [[UDP]] socket, must specify 
 	- destination [[IP address]] 
 	- destination port #
-- when receiving host receives UDP segment:
+- when receiving host receives [[UDP]] segment:
 	- checks destination port # in segment
-	- directs UDP segment to socket with that port #
-- IP/UDP datagrams with same dest. port #, but different source IP addresses and/or source port numbers will be directed to same socket at receiving host
+	- directs [[UDP]] segment to socket with that port #
+- IP/[[UDP]] datagrams with same dest. port #, but different source IP addresses and/or source port numbers will be directed to same socket at receiving host
 ### Example
 ![[Screenshot 2024-09-03 at 4.55.07 pm.png]]
-## Connection-oriented (TCP) [[demultiplexing]]
-- TCP socket identified by 4-tuple:
+## Connection-oriented ([[TCP]]) [[demultiplexing]]
+- [[TCP]] socket identified by 4-tuple:
 	- source [[IP address]]
 	- source port number
 	- dest [[IP address]]
 	- dest port number
 - demux: receiver uses all four values (4-tuple) to direct segment to appropriate socket
-- server may support many simultaneous TCP sockets:
+- server may support many simultaneous [[TCP]] sockets:
 	- each socket identified by its own 4-tuple
 	- each socket associated with a different connecting client
 
 ### Example
 ![[Screenshot 2024-09-03 at 4.56.22 pm.png]]
 
-# Connectionless transport - UDP
+# Connectionless transport - [[UDP]]
 - “no frills,” “bare bones” Internet transport protocol
-- “best effort” service, UDP segments may be:
+- “best effort” service, [[UDP]] segments may be:
 	- lost
 	- delivered out-of-order to app
 - connectionless:
-	- no handshaking between UDP sender, receiver
-	- each UDP segment handled independently of others
-- why UDP:
+	- no handshaking between [[UDP]] sender, receiver
+	- each [[UDP]] segment handled independently of others
+- why [[UDP]]:
 	- no connection establishment (which can add RTT delay)
 	- simple: no connection [[state]] at sender, receiver
 	- small header size
 	- no congestion control
-		- UDP can blast away as fast as desired!
+		- [[UDP]] can blast away as fast as desired!
 		- can [[function]] in the face of congestion
-- UDP use:
+- [[UDP]] use:
 	- streaming multimedia apps (loss tolerant, rate sensitive)
 	- [[DNS]]
 	- SNMP
 	- HTTP/3
-- if reliable transfer needed over UDP (e.g., HTTP/3):
+- if reliable transfer needed over [[UDP]] (e.g., HTTP/3):
 	- add needed reliability at [[application layer]]
 	- add congestion control at [[application layer]]
 ## Internet Checksum
 > Goal: detect errors (i.e., flipped bits) in transmitted segment
 
 sender:
-- treat contents of UDP segment (including UDP header fields and IP addresses) as sequence of 16-bit integers
+- treat contents of [[UDP]] segment (including [[UDP]] header fields and IP addresses) as sequence of 16-bit integers
 - checksum: addition (one’s complement sum) of segment content
-- checksum value put into UDP checksum field
+- checksum value put into [[UDP]] checksum field
 
 reciever: 
 - compute checksum of received segment
@@ -118,11 +118,11 @@ reciever:
 - “no frills” protocol:
 	- segments may be lost, delivered out of order
 	- best effort service: “send and hope for the best”
-- UDP has its plusses:
+- [[UDP]] has its plusses:
 	- no setup/handshaking needed (no RTT incurred)
 	- can [[function]] when network service is compromised
 	- helps with reliability (checksum)
-- build additional functionality on top of UDP in [[application layer]] (e.g., HTTP/3)
+- build additional functionality on top of [[UDP]] in [[application layer]] (e.g., HTTP/3)
 # Principles of reliable [[data]] transfer
 # Principles of Reliable [[Data]] Transfer
 
@@ -168,7 +168,7 @@ reciever:
 These protocols represent a progression from handling bit errors to managing both errors and [[packet loss]], with increasing complexity and sophistication in the mechanisms used to ensure reliable [[data]] transfer.
 
 
-# Connection oriented transport - TCP
+# Connection oriented transport - [[TCP]]
 
 # Principles of Congestion Control
 
@@ -187,11 +187,11 @@ These protocols represent a progression from handling bit errors to managing bot
 
 1. Transport-layer services
 2. [[Multiplexing]] and [[demultiplexing]]
-3. Connectionless transport: UDP
+3. Connectionless transport: [[UDP]]
 4. Principles of reliable [[data]] transfer
-5. Connection-oriented transport: TCP
+5. Connection-oriented transport: [[TCP]]
 6. Principles of congestion control
-7. TCP congestion control
+7. [[TCP]] congestion control
 8. Evolution of transport-layer functionality
 
 ---
@@ -203,8 +203,8 @@ These protocols represent a progression from handling bit errors to managing bot
   - **Sender:** Breaks application messages into segments and passes them to the [[network layer]]
   - **Receiver:** Reassembles segments into messages and passes them to the [[application layer]]
 - Two transport protocols available to Internet applications:
-  - **TCP** (Transmission Control Protocol)
-  - **UDP** (User Datagram Protocol)
+  - **[[TCP]]** (Transmission Control Protocol)
+  - **[[UDP]]** (User Datagram Protocol)
 
 ---
 
@@ -236,9 +236,9 @@ These protocols represent a progression from handling bit errors to managing bot
 
 ---
 
-## 3.3 Connectionless transport: UDP
+## 3.3 Connectionless transport: [[UDP]]
 
-- **UDP Characteristics:**
+- **[[UDP]] Characteristics:**
   - **“No frills”** Internet transport protocol
   - **Best effort service:** Segments may be lost or delivered out of order
   - No connection establishment (low RTT delay)
@@ -246,11 +246,11 @@ These protocols represent a progression from handling bit errors to managing bot
   - Small header size
   - No congestion control
 
-- **UDP Use Cases:**
+- **[[UDP]] Use Cases:**
   - Streaming multimedia apps (loss-tolerant, rate-sensitive)
   - [[DNS]], SNMP, HTTP/3
 
-- **UDP Segment Format:**
+- **[[UDP]] Segment Format:**
   - **Source Port**
   - **Destination Port**
   - **Length**
@@ -276,16 +276,16 @@ These protocols represent a progression from handling bit errors to managing bot
 
 ---
 
-## 3.5 Connection-oriented transport: TCP
+## 3.5 Connection-oriented transport: [[TCP]]
 
-- **TCP Characteristics:**
+- **[[TCP]] Characteristics:**
   - **Reliable in-order delivery**
   - **Congestion control**
   - **Flow control**
   - **Connection setup**
 
-- **TCP Segment Format:**
-  - Similar to UDP but with additional fields for reliability (e.g., sequence numbers, acknowledgment numbers)
+- **[[TCP]] Segment Format:**
+  - Similar to [[UDP]] but with additional fields for reliability (e.g., sequence numbers, acknowledgment numbers)
 
 ---
 
@@ -296,13 +296,13 @@ These protocols represent a progression from handling bit errors to managing bot
   - Balance efficiency and fairness among multiple flows
 
 - **Congestion Control Mechanisms:**
-  - **TCP Congestion Control:** Uses algorithms like Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery
+  - **[[TCP]] Congestion Control:** Uses algorithms like Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery
 
 ---
 
-## 3.7 TCP congestion control
+## 3.7 [[TCP]] congestion control
 
-- **TCP Congestion Control Algorithms:**
+- **[[TCP]] Congestion Control Algorithms:**
   - **Slow Start:** Begins transmission with a small congestion window, increasing exponentially until a threshold is reached
   - **Congestion Avoidance:** After threshold, increases linearly to avoid congestion
   - **Fast Retransmit and Recovery:** Quickly retransmits lost segments without waiting for a timeout
@@ -326,8 +326,8 @@ These protocols represent a progression from handling bit errors to managing bot
   - Congestion control
 
 - **Protocols:**
-  - **UDP:** Simple, connectionless protocol
-  - **TCP:** Reliable, connection-oriented protocol
+  - **[[UDP]]:** Simple, connectionless protocol
+  - **[[TCP]]:** Reliable, connection-oriented protocol
 
 - **Future Directions:**
   - Continued development of transport-layer protocols to meet the needs of modern networks

@@ -1,7 +1,7 @@
   
 ### Assignment objective:
 
-Design and implement a web site.  Specifically, to write a home page for yourself including information about your past, future aspirations and a reflection on your design.
+Design and implement a web site.  Specifically, to write a [[Home]] page for yourself including information about your past, future aspirations and a reflection on your design.
 
 This assignment tests 2 main skills - creating a live working web site and demonstrating some basic HTML/CSS skills.
 
@@ -107,7 +107,7 @@ You can also set up a web server on your own machine. The choices are many, see�
 - You must submit via EdStem system by Marking and submitting before the draft and final deadlines.  Details are provided in Ed under the Assessment tab.
 - The draft submission can be very preliminary in terms of content, but the key files and the correct directory structure must be there, and should be error free.
 - Your assignment will be copied to an external web server for peer marking (to be announced later)
-- If you are late, the Mark process will still work and the new version will be uploaded to the public site, but this may result in a late penalty as specified in the subject outline.
+- If you are late, the Mark [[Process]] will still work and the new version will be uploaded to the public site, but this may result in a late penalty as specified in the subject outline.
 - You will get zero (0) marks for websites email'ed, submitted erroneously on Canvas, or demonstrated by using the browser to directly load a HTML file (ie: using File -> Open, c:\ or file:// URL's.).  
     ANYTHING ELSE WILL NOT BE MARKED!
 - Do not change the web site after the submission date - everthing is [[data]] stamped so we will know. Your tutor may take up to 2 weeks to finalise the marking.
@@ -126,18 +126,18 @@ You can also set up a web server on your own machine. The choices are many, see�
 - Fundamentals:  you MUST have the site layout exactly as described above :
     - do NOT change the filenames or directory location as we use an automated marking checker
     - make sure your files are in the _websystems_ directory
-    - make sure all file names and href/src attributes are in lower-case. 
+    - make sure all file names and href/src [[Attributes]] are in lower-case. 
     - do NOT capitalise the first letter of filenames
     - **ensure files and directories have correct permissions!!**
     - unreadable or unusable web sites will also be penalised
 - Technical detail :
     - minimum HTML 4.01 Strict and CSS 2.1 - our checker can handle most HTML5 and CSS3, but best to check with Ed's online assignment checker.
-    - do NOT use vendor specific tags or attributes – eg –webkit- -moz- etc as the validator may penalise you for this.
-    - do NOT use deprecated tags or attributes. See [http://en.wikipedia.org/wiki/Html#Transitional_versus_strictLinks to an external site.](http://en.wikipedia.org/wiki/Html#Transitional_versus_strict) for a list of deprecated tags and attributes.
+    - do NOT use vendor specific tags or [[Attributes]] – eg –webkit- -moz- etc as the validator may penalise you for this.
+    - do NOT use deprecated tags or [[Attributes]]. See [http://en.wikipedia.org/wiki/Html#Transitional_versus_strictLinks to an external site.](http://en.wikipedia.org/wiki/Html#Transitional_versus_strict) for a list of deprecated tags and [[Attributes]].
     - do NOT use frames or iframes (this causes problem for my validator/assignment checker)
     - additional marks WILL NOT be granted for features such as Flash, fancy graphics, animations, audio/video etc.
     - watch out for "smart quotes" especially if you cut and paste from Microsoft Word. 
-    - do NOT hard-code your page URL's inside your pages - your website should be "relative", i.e.:  href's should NOT start with "http://" & will be penalised.
+    - do NOT hard-code your page URL's inside your pages - your website should be "relative", i.e.:  href's should NOT start with "[[HTTP]]://" & will be penalised.
 - CSS :
     - You MUST use styles sheets to format your page. This MUST be in one CSS file, _websystems.css_
     - dont use @import since the assignment checker won't pick this up.
@@ -150,12 +150,12 @@ You can also set up a web server on your own machine. The choices are many, see�
         - don't use bad colour combinations (for example, red on black, purple on black, purple on red, blue on purple, black on red)
         - recommend a maximum screen size should be 1024x768, though you should design your web site to cope with larger (and smaller) screens.
         - consider what will happen if your marker uses a smaller screen (eg: 800x600)
-    - do not have large image files - keep pictures to less than 100kb, larger ones may attract penalties - pay attention to the checker output
+    - do not have large image files - keep pictures to less than 100kb, larger ones may attract penalties - pay attention to the checker [[Output]]
     - do not make pages so wide that they can't be read unless you scroll horizontally
     - don't become a site on [http://webpagesthatsuck.comLinks to an external site.](http://webpagesthatsuck.com/)
 - Ethics and Rules
     - don't put advertisements or animations on your web site.
-    - do not put private information on your web site eg date of birth, home address, credit card details. This is a PUBLIC website.
+    - do not put private information on your web site eg date of birth, [[Home]] address, credit card details. This is a PUBLIC website.
     - you MUST acknowledge graphic files downloaded from [[the internet]]. It is sufficient to put them in a HTML comment adjacent to the image tag. This is for legal copyright reasons as well as ethical ones.
     - you MUST NOT use style sheets or designs from anyone else - this includes open source and commercial style sheets and frameworks eg bootstrap! Read the [important heads up](https://canvas.uts.edu.au/courses/30534/pages/how-to-be-successful-in-this-subject?module_item_id=1602854)on how not to fail.
     - this is an individual assessment, no group work is permitted
@@ -171,4 +171,4 @@ You can also set up a web server on your own machine. The choices are many, see�
     - use the **Check** testing within Ed, don't rest until all errors are gone ! and you at least understand (most) warnings, why would you submit when you Know it has errors?! 
         - there are deductions for errors, warnings and access errors:    Error: -0.5,   Warning: -0.2,  CSS Errors: -0.2,   Access: (embedded style):  -0.1  per item. 
         - total warning deductions are capped,  and negative marks are not possible 
-    - but do NOT rely on the Ed web preview function for **final** testing!  you must submit versions via Check and later Mark early to allow yourself time to address any issues that become apparent when the page is `live' - you may need several iterations to fix all errors.  Don't submit first, then only notice errors after the deadline !!
+    - but do NOT rely on the Ed web preview [[Function]] for **final** testing!  you must submit versions via Check and later Mark early to allow yourself time to address any issues that become apparent when the page is `live' - you may need several iterations to fix all errors.  Don't submit first, then only notice errors after the deadline !!

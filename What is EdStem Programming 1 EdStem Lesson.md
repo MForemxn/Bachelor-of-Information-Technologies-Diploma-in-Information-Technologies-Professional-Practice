@@ -52,7 +52,7 @@ You should try to watch these lectures _live_ if you can, because they are desig
 
 ## Readings
 
-Readings go through the theory and examples of each concept we cover in detail. You should complete the readings before the lab (the lessons are in a linear order, so read everything up to that week's lab). While the lecture aims to give a coherent presentation of the topics, there are many technical aspects that cannot be conveyed in detail (and have the lecture be less than 6 hours long). These aspects will also require reinforcement - you will need to refer to the readings repeatedly to [[help]] this process.
+Readings go through the theory and examples of each concept we cover in detail. You should complete the readings before the lab (the lessons are in a linear order, so read everything up to that week's lab). While the lecture aims to give a coherent presentation of the topics, there are many technical aspects that cannot be conveyed in detail (and have the lecture be less than 6 hours long). These aspects will also require reinforcement - you will need to refer to the readings repeatedly to [[help]] this [[Process]].
 
 ## Coding Exercises
 
@@ -70,7 +70,7 @@ You should use the material together to support your learning. Although the mate
     
     - Find where you're stuck, what you don't understand
         
-    - Review the material on that topic
+    - [[Review]] the material on that topic
         
     - Try again
         
@@ -100,7 +100,7 @@ In each exercise you will be given a task to achieve, and some incomplete code t
 
 At the bottom are two buttons, **Run** and **Mark**.
 
-Clicking the **Run** button allows you to run your code. As you progress to more challenging exercises, your code will do increasingly sophisticated things. Some of the programs you will create will stop and ask questions, and alter how they proceed depending on the input that is provided to them. The run button allows you to observe and interact with your programs as they run, and check that they behave correctly.
+Clicking the **Run** button allows you to run your code. As you progress to more challenging exercises, your code will do increasingly sophisticated things. Some of the programs you will create will stop and ask questions, and alter how they proceed depending on the [[Input]] that is provided to them. The run button allows you to observe and interact with your programs as they run, and check that they behave correctly.
 
 Clicking the **Mark** button submits your code to some automated tests. These tests will attempt to compile and run your code. They will make inputs to your running code and analyse the outputs to check whether they satisfy the task that was set. Ed will let you know whether you have passed the tests, and give you specific [[feedback]] and clues if you failed. The next slide will show you what this [[feedback]] looks like.
 
@@ -122,7 +122,7 @@ The [[feedback]] that Ed gives you will look a little different depending on how
 
 The figure above shows what you are aiming for, where the overall [[feedback]] says "Passed". If you get [[feedback]] like this, you can safely move on to the next exercise. If the exercise was assessed, you can be confident that you will get full marks for it.
 
-Below the overall [[feedback]], Ed will provide more details about the individual test cases that your code was checked against. In the figure there is only one test case, and the title of the test case "Printed the correct output" will give you an idea of what was being checked in this test. The green tick indicates that the test was passed.
+Below the overall [[feedback]], Ed will provide more details about the individual test cases that your code was checked against. In the figure there is only one test case, and the title of the test case "Printed the correct [[Output]]" will give you an idea of what was being checked in this test. The green tick indicates that the test was passed.
 
 Most exercises will have multiple testcases, and you will need to pass all of them to fully complete the exercise. For the assessed lab exercises (Assessment Task 1), you will only get marks for an exercise if you successfully pass _all_ test cases. For the assignment (Assessment Task 2), you will get marks for each individual test case that you pass.
 
@@ -134,7 +134,7 @@ It will often take multiple attempts to pass all of the test cases. That's compl
 
 The figure above shows you what the [[feedback]] looks like when you fail one or more of the testcases. This time the overall [[feedback]] says "_Not yet_" and the [[feedback]] for the individual testcase is a red "x".
 
-Below that is more specific [[feedback]] about what went wrong. Here Ed compares the output of your program with the output it expected to see. If you want to pass this test, you need to alter your program so that it produces the expected output exactly. And we do mean exactly: a tiny spelling mistake, some incorrect capitalisation, or even an extra space or missing comma is enough to fail a test.
+Below that is more specific [[feedback]] about what went wrong. Here Ed compares the [[Output]] of your program with the [[Output]] it expected to see. If you want to pass this test, you need to alter your program so that it produces the expected [[Output]] exactly. And we do mean exactly: a tiny spelling mistake, some incorrect capitalisation, or even an extra space or missing comma is enough to fail a test.
 
 ## When your program crashes
 
@@ -144,11 +144,11 @@ The figure above shows what happens if your program crashes in the middle of a t
 
 ## When your code doesn't compile
 
-Your code needs to be compiled before it can run (see the Ed lesson "_A primer on programming_" for more info). If the compiler isn't able to understand your code, then it won't be able to compile it. In this case Ed won't be able to give you test-specific [[feedback]], since there won't be any program for it to test against.
+Your code needs to be compiled before it can run (see the Ed lesson "_A primer on programming_" for more info). If the [[Compiler]] isn't able to understand your code, then it won't be able to compile it. In this case Ed won't be able to give you test-specific [[feedback]], since there won't be any program for it to test against.
 
 ![](https://static.au.edusercontent.com/files/CA1UyOPianLK1dKZCY5u69Mi)
 
-If your code doesn't compile then you will get [[feedback]] like the figure above. Here the overall [[feedback]] says "Errored". Below this is the output of the compiler, which includes one or more error messages that attempt to explain which part(s) of the code are problematic. These messages can also be pretty cryptic, and you'll again need to do some detective work to figure out what went wrong. Again we'll teach you how to decode these messages as we work our way through the subject.
+If your code doesn't compile then you will get [[feedback]] like the figure above. Here the overall [[feedback]] says "Errored". Below this is the [[Output]] of the [[Compiler]], which includes one or more error messages that attempt to explain which part(s) of the code are problematic. These messages can also be pretty cryptic, and you'll again need to do some detective work to figure out what went wrong. Again we'll teach you how to decode these messages as we work our way through the subject.
 
 ## Local Development Environments (Completely Optional)
 
@@ -156,7 +156,7 @@ If your code doesn't compile then you will get [[feedback]] like the figure abov
 
 ## [[Java]]
 
-There's two basic choices for a [[Java]] compiler and VM combinations, both packaged together as [[Java]] Development Kits (JDKs): Oracle, and OpenJDK.
+There's two basic choices for a [[Java]] [[Compiler]] and VM combinations, both packaged together as [[Java]] Development Kits (JDKs): Oracle, and OpenJDK.
 
 I won't bother with the link to the Oracle JDK, because they seem to be trying to make getting hold of it as hostile as possible.
 
@@ -168,7 +168,7 @@ Technically there are other JDKs, and you're welcome to try them, but I haven't 
 
 ## [[Python]]
 
-The [[Python]] foundation maintains the main interpreter for [[Python]], currently at version 3.11.6 on Ed (though 3.12 is out and suitable to use for the subject). If you have an older OS, you may be limited in which version you can use, but anything 3.0+ is sufficient for the subject. It can be downloaded here: [https://www.python.org/](https://www.python.org/)
+The [[Python]] foundation maintains the main [[Interpreter]] for [[Python]], currently at version 3.11.6 on Ed (though 3.12 is out and suitable to use for the subject). If you have an older OS, you may be limited in which version you can use, but anything 3.0+ is sufficient for the subject. It can be downloaded here: [https://www.python.org/](https://www.python.org/)
 
 As with [[Java]], there are other implementations (in fact, a lot more) that serve different purposes, if you want to delve into that, the [[Python]] wiki has [a big list](https://wiki.python.org/moin/PythonImplementations).
 
@@ -191,7 +191,7 @@ These are both full featured IDEs, and can be overwhelming for new programmers. 
 
 ## [[Python]]
 
-I am less familiar with [[Python]] IDEs, most [[Python]] I write is small enough that it doesn't need that level of coding support, but PyCharm is well regarded by many (and made by the same company that makes IntelliJ and played a big part in creating Kotlin):
+I [[AM]] less familiar with [[Python]] IDEs, most [[Python]] I write is small enough that it doesn't need that level of coding support, but PyCharm is well regarded by many (and made by the same company that makes IntelliJ and played a big part in creating Kotlin):
 
 - [PyCharm](https://www.jetbrains.com/pycharm/)
     
@@ -211,7 +211,7 @@ There's hundreds of other options, including variants of the above ones, from st
 
 Programmers of course enjoy getting into trivial arguments about which [[editor]] isbest (though of course, the best [[editor]] is ~~the one that works for you~~ Microsoft Excel)
 
-![[A Cueball-like man sits at a computer, programming. Cueball stands behind him and looks over his shoulder.] Cueball: nano? Real Programmers use emacs. [Megan appears behind him.] Megan: Hey. Real Programmers use vim. [A second Cueball-like man appears behind her.] Ed Cueball: Well, Real Programmers use ed. [A third Cueball-like man appears behind him.] Cat Cueball: No, Real Programmers use cat. [Hairbun appears behind him.] Hairbun: Real Programmers use a magnetized needle and a steady hand. [A fourth Cueball-like man enters, facing them all. We see him facing the last two Cueball-like men and Hairbun.] Butterfly Cueball: Excuse me, but Real Programmers use butterflies. [A Cueball-like programmer is standing much like Butterfly Cueball except for holding out a butterfly in front of his computer. The butterfly flaps its wings.] Butterfly Cueball (narration within the panel, not diegetic to the scene): They open their hands and let the delicate wings flap once. [The next two panels are smaller, and two sets of narrative text are written to span respectively above and below both panels. The first panel is the Cueball-like programmer with the butterfly and above him four curved arrows pointing up or down. The second panel shows the upper atmosphere, with large clouds far below and the earth even further down. Also here are shown seven of the same type of arrows.] Butterfly Cueball (narration above the panels): The disturbances ripple outward, changing the flow of the eddy currents in the upper atmosphere. Butterfly Cueball (narration below the panels): These cause momentary pockets of higher-pressure air to form, [The next two panels are also partial height, leaving room for narration spanning above both panels. The first panel shows the atmosphere, again with clouds, and four parallel lines coming from above, and then they begin to merge, getting quite close at the bottom of the panel. The second panel shows the four lines merging on a driver platter.] Butterfly Cueball (narration above the panels): Which act as lenses that deflect incoming cosmic rays, focusing them to strike the drive platter and flip the desired bit. [All the programmers who have commented so far stand in the order they have commented facing the last Cueball-like man, who slaps his forehead.] Cueball: Nice. 'Course, there's an emacs command to do that. Cat Cueball: Oh yeah! Good ol' C-x M-c M-butterfly... Butterfly Cueball: Dammit, Emacs.](https://static.au.edusercontent.com/files/f6qcqxbZdH2e3UZ4oyTre7lk)
+![[A Cueball-like [[man]] sits at a computer, programming. Cueball stands behind him and looks over his shoulder.] Cueball: nano? Real Programmers use emacs. [Megan appears behind him.] Megan: Hey. Real Programmers use [[vim]]. [A second Cueball-like [[man]] appears behind her.] Ed Cueball: Well, Real Programmers use ed. [A third Cueball-like [[man]] appears behind him.] Cat Cueball: No, Real Programmers use cat. [Hairbun appears behind him.] Hairbun: Real Programmers use a magnetized needle and a steady hand. [A fourth Cueball-like [[man]] enters, facing them all. We see him facing the last two Cueball-like men and Hairbun.] Butterfly Cueball: Excuse me, but Real Programmers use butterflies. [A Cueball-like programmer is standing much like Butterfly Cueball except for holding out a butterfly in front of his computer. The butterfly flaps its wings.] Butterfly Cueball (narration within the panel, not diegetic to the scene): They open their hands and let the delicate wings flap once. [The next two panels are smaller, and two sets of narrative text are written to span respectively above and below both panels. The first panel is the Cueball-like programmer with the butterfly and above him four curved arrows pointing up or down. The second panel shows the upper atmosphere, with large clouds far below and the earth even further down. Also here are shown seven of the same type of arrows.] Butterfly Cueball (narration above the panels): The disturbances ripple outward, changing the flow of the eddy currents in the upper atmosphere. Butterfly Cueball (narration below the panels): These cause momentary pockets of higher-pressure air to form, [The next two panels are also partial height, leaving room for narration spanning above both panels. The first panel shows the atmosphere, again with clouds, and four parallel lines coming from above, and then they begin to merge, getting quite close at the bottom of the panel. The second panel shows the four lines merging on a driver platter.] Butterfly Cueball (narration above the panels): Which act as lenses that deflect incoming cosmic rays, focusing them to strike the drive platter and flip the desired bit. [All the programmers who have commented so far stand in the order they have commented facing the last Cueball-like man, who slaps his forehead.] Cueball: Nice. 'Course, there's an emacs command to do that. Cat Cueball: Oh yeah! Good ol' C-x M-c M-butterfly... Butterfly Cueball: Dammit, Emacs.](https://static.au.edusercontent.com/files/f6qcqxbZdH2e3UZ4oyTre7lk)
 
 [XKCD 378](https://xkcd.com/378)
 
@@ -236,14 +236,14 @@ On the [Lessons](https://edstem.org/au/courses/15065/lessons) page of course! Th
 
 You must complete the assessed lab exercises by **11:55pm of the Monday of the following week** (so the Week 2 Assessment should be completed by the end of Monday Week 3) . You can complete the practice lab exercises at any time, but obviously they will be most useful to you if you complete them prior to attempting the assessed lab exercises each week.
 
-You are free to complete these exercises in your own time, but we recommend completing them during a scheduled lab class, where tutors and peers will be around for [[help]] and moral support.
+You are free to complete these exercises in your own time, but we recommend completing them during a scheduled lab [[Class]], where tutors and peers will be around for [[help]] and moral support.
 
 
 ## How do the lab classes work?
 
 ## What happens during a lab class?
 
-Each lab class will run for 1.5 hours, and is split up into two main activities:
+Each lab [[Class]] will run for 1.5 hours, and is split up into two main activities:
 
 1. Working individually and as a group to attempt the practice lab exercises, with prompting and guidance from the tutor.
     
@@ -254,13 +254,13 @@ Each lab class will run for 1.5 hours, and is split up into two main activities:
 
 No, it's ok to shop around and even attend multiple labs if you are having trouble with a particular topic or exercise.
 
-Conversely it's also totally fine to skip labs altogether. There is nothing stopping you from completing the lab exercises outside of scheduled class time. You can skip labs guilt-free, as long as you are keeping up with the exercises and confident you are understanding the material well.
+Conversely it's also totally fine to skip labs altogether. There is nothing stopping you from completing the lab exercises outside of scheduled [[Class]] time. You can skip labs guilt-free, as long as you are keeping up with the exercises and confident you are understanding the material well.
 
 ## What should I do to prepare?
 
 Prior to attending the lab, please ensure you have worked through the associated lessons (i.e. everything preceding the lab's entry in the Ed lesson page). This includes the associated lecture, which you should have either attended live, or watched the recording afterwards.
 
-It would be a good idea to glance through the lab exercises and attempt at least a few of them. That way, you will be able to make the most of your time in class, focusing on the exercises that are giving you the most trouble.
+It would be a good idea to glance through the lab exercises and attempt at least a few of them. That way, you will be able to make the most of your time in [[Class]], focusing on the exercises that are giving you the most trouble.
 
 Please **do not** come to the labs expecting your tutor to give you a personalised catch-up on all the material you missed in the last week. This would not be a good use of anyone's time.
 
@@ -388,12 +388,12 @@ In short, copied code is very difficult for beginner coders to hide, and very ea
 
 ## How is copied code dealt with?
 
-Copying code is plagiarism, and the university has an official policy and process for how to handle that. You can find the full details [here](https://www.gsu.uts.edu.au/rules/student/schedule-5.html), but the key things to keep in mind are:
+Copying code is plagiarism, and the university has an official policy and [[Process]] for how to handle that. You can find the full details [here](https://www.gsu.uts.edu.au/rules/student/schedule-5.html), but the key things to keep in mind are:
 
 - Teaching staff are required to report all incidents of plagiarism to a Responsible Academic Officer (each school has their own RAO). The RAO provides a brief check to ensure any allegation of misconduct is supported by sufficient evidence, and then forwards the allegation to the Governance Support Unit (GSU).
     
-- Teaching staff don't make any decisions about how incidents are handled once they are reported. Any decisions are left to a committee that will weigh your case. We will provide evidence, but that's about it. That means that there isn't much point appealing to or arguing with teaching staff. The process is out of our hands once it is initiated.
+- Teaching staff don't make any decisions about how incidents are handled once they are reported. Any decisions are left to a committee that will weigh your case. We will provide evidence, but that's about it. That means that there isn't much point appealing to or arguing with teaching staff. The [[Process]] is out of our hands once it is initiated.
     
-- The process for investigating incidents is a long and painful one. It can drag on for months (perhaps even longer than a year), during which time you won't know whether you have passed the subject or not, or whether you will be able to take any other subject that has [[Programming 1]] as a prerequisite.
+- The [[Process]] for investigating incidents is a long and painful one. It can drag on for months (perhaps even longer than a year), during which time you won't know whether you have passed the subject or not, or whether you will be able to take any other subject that has [[Programming 1]] as a prerequisite.
     
 - The potential penalties are severe. At a minimum, you are likely to receive 0 marks for the assessment task. More severe cases or repeated misconduct can result in being suspended or excluded from the university entirely.

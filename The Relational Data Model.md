@@ -45,7 +45,7 @@
 - **[[Flexibility]]**: The relational model allows for complex queries and [[data]] relationships, supporting a wide range of applications.
 - **[[Scalability]]**: Relational databases can handle large amounts of [[data]] and complex queries efficiently.
 - **[[Data]] Consistency**: Ensures that [[data]] is consistent across the [[database]] through [[integrity]] constraints and normalized structures.
-- **Standardization**: SQL provides a standardized way to interact with relational databases, making it widely adopted and supported.
+- **Standardization**: [[SQL]] provides a standardized way to interact with relational databases, making it widely adopted and supported.
 
 
 # Relations
@@ -65,9 +65,9 @@
 - Columns correspond with [[attributes]].
 ## Key Fields
 - [[Keys]] are special fields that serve two main purposes:
-	- Primary [[keys]] are unique identifiers of the relation.
+	- Primary [[keys]] are unique [[Identifiers]] of the relation.
 		- Examples include Customer ID, etc. This guarantees that all rows are unique.
-	- Foreign [[Keys]] are identifiers that enable a dependent relation (on the many side of a relationship) to refer to its parent relation (on the one side of the relationship).
+	- Foreign [[Keys]] are [[Identifiers]] that enable a dependent relation (on the many side of a relationship) to refer to its parent relation (on the one side of the relationship).
 - Foreign [[keys]] ➢ [[Keys]] can be simple (a single field) or composite (more than one field).
 - [[Keys]] usually are used as indexes to speed up the response to user queries
 ## [[Integrity]] Constraints ([[Data]] [[integrity]])
@@ -101,33 +101,33 @@ Entity [[Integrity]]:
 	- Set-to-Null is not allowed when is related to a mandatory [[cardinality]].
 # Transforming EER Diagrams into Relations
 ## Mapping Regular [[Entities]] to Relations
-![[Screenshot 2024-09-03 at 10.01.24 am.png]]
-![[Screenshot 2024-09-03 at 10.02.02 am.png]]
-![[Screenshot 2024-09-03 at 10.02.11 am.png]]
+![[Screenshot 2024-09-03 at 10.01.24 [[AM]].png]]
+![[Screenshot 2024-09-03 at 10.02.02 [[AM]].png]]
+![[Screenshot 2024-09-03 at 10.02.11 [[AM]].png]]
 ## Mapping Binary Relationships (1:M, 1:1, M:N (Associative [[Entities]])
 - One-to-Many: Primary key of the entity on the one side becomes a [[Foreign Keys]] of the entity on the many side.
 - One-to-One: Primary key of the entity on the mandatory side becomes a [[Foreign Keys]] of the entity on the optional side.
 - Many-to-Many → We need to create a new relation (Associative Entity) where the primary [[keys]] of the related [[entities]] will participate in making the composite primary key of the new relation (associative entity).
 ### Mapping Associative [[Entities]]
-![[Screenshot 2024-09-03 at 10.04.13 am.png]]
+![[Screenshot 2024-09-03 at 10.04.13 [[AM]].png]]
 ### Mapping M:N [[Entities]]
-![[Screenshot 2024-09-03 at 10.04.02 am.png]]
+![[Screenshot 2024-09-03 at 10.04.02 [[AM]].png]]
 ### Mapping Binary 1:1 Relationship
-![[Screenshot 2024-09-03 at 10.03.47 am.png]]
+![[Screenshot 2024-09-03 at 10.03.47 [[AM]].png]]
 ### Mapping Binary 1:M Relationship
-![[Screenshot 2024-09-03 at 10.03.35 am.png]]
+![[Screenshot 2024-09-03 at 10.03.35 [[AM]].png]]
 ### Mapping Binary 1:M Relationship
-![[Screenshot 2024-09-03 at 10.03.28 am.png]]
+![[Screenshot 2024-09-03 at 10.03.28 [[AM]].png]]
 ## Mapping Ternary (and n-ary) Relationships
-![[Screenshot 2024-09-03 at 10.06.28 am.png]]
-![[Screenshot 2024-09-03 at 10.06.49 am.png]]
+![[Screenshot 2024-09-03 at 10.06.28 [[AM]].png]]
+![[Screenshot 2024-09-03 at 10.06.49 [[AM]].png]]
 ## Mapping Weak [[Entities]]
 - The weak entity becomes a separate relation with a [[Foreign Keys]] taken from the superior entity
 - The primary key composed of:
 	- Partial identifier of weak entity
 	- Primary key of identifying relation (strong entity)
 > NOTE: Foreign [[keys]] can have null values, but the domain constraint for the [[Foreign Keys]] should NOT allow null value for a weak entity, or an associative entity, or if it is related to a mandatory [[cardinality]].
-![[Screenshot 2024-09-03 at 10.15.57 am.png]]
+![[Screenshot 2024-09-03 at 10.15.57 [[AM]].png]]
 ## Mapping Unary Relationships
 - **One-to-One** and **One-to-Many**: Recursive [[Foreign Keys]] in the same relation
 - **Many-to-Many**: Two relations
@@ -150,7 +150,7 @@ The relational [[data]] model is a framework for organising [[data]] into struct
 2. Tables consist of rows (records) and columns ([[attributes]]).
 3. Uses [[keys]] to establish relationships between tables.
 4. Ensures [[data]] [[integrity]] and reduces redundancy.
-5. Supports powerful querying with SQL.
+5. Supports powerful querying with [[SQL]].
 6. Handles large volumes of [[data]] efficiently.
 7. Based on mathematical principles for consistency.
 8. Provides [[flexibility]] in [[data]] management.
@@ -160,6 +160,6 @@ The relational [[data]] model is a framework for organising [[data]] into struct
 ## TAKEAWAYS:
 1. Relational [[data]] model structures [[data]] into tables with rows and columns.
 2. [[Keys]] establish relationships and ensure [[data]] [[integrity]].
-3. SQL enables complex [[data]] operations.
+3. [[SQL]] enables complex [[data]] operations.
 4. Efficiently manages large [[data]] volumes.
 5. Valued for its simplicity, [[flexibility]], and reliability.

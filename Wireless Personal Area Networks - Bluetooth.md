@@ -369,7 +369,7 @@ _Method 2: Round-Trip Timing (RTT)_
 
 ## Key Takeaways
 
-1. **WPAN technologies** enable short-range wireless communication for IoT and personal devices
+1. **WPAN technologies** enable short-range wireless [[Communication]] for IoT and personal devices
 2. **[[Bluetooth]] architecture** uses master-slave piconets with FHSS for multiple access
 3. **Network topology** supports piconets (up to 8 devices) and scatternets (multiple piconets)
 4. **Power management** includes multiple states for battery optimization

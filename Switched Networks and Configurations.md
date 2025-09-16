@@ -1,5 +1,5 @@
 # Converged Networks
-Converged networks integrate multiple types of communication services, such as voice, video, and [[data]], into a single network infrastructure. This integration enhances efficiency, reduces costs, and simplifies management. Converged networks rely on a hierarchical model consisting of access, distribution, and core layers to ensure optimal performance and [[scalability]].
+Converged networks integrate multiple types of [[Communication]] services, such as voice, video, and [[data]], into a single network infrastructure. This integration enhances efficiency, reduces costs, and simplifies management. Converged networks rely on a hierarchical model consisting of access, distribution, and core layers to ensure optimal performance and [[scalability]].
 
 ## Access, Distribution and Core Layers
 The hierarchical model of network design divides the network into three layers: access, distribution, and core. Each layer has distinct roles and responsibilities, contributing to the overall efficiency and [[scalability]] of the network.
@@ -65,4 +65,4 @@ Secure [[remote access]] allows administrators to manage network devices from a 
 Telnet is a protocol for [[remote access]] that transmits [[data]] in plaintext, making it less secure than SSH.
 
 ## SSH
-SSH (Secure Shell) provides encrypted [[remote access]], ensuring secure communication between network devices and administrators.
+SSH (Secure Shell) provides encrypted [[remote access]], ensuring secure [[Communication]] between network devices and administrators.

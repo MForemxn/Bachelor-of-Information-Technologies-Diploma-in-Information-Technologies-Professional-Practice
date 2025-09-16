@@ -1,6 +1,6 @@
 
 
-| Device Name   | Interface   | IP               | Note                   |
+| Device Name   | [[Interface]]   | [[IP]]               | Note                   |
 | ------------- | ----------- | ---------------- | ---------------------- |
 | Internet      | F0/0        | 138.25.88.85/30  |                        |
 |               | S0/1/1      | 209.165.200.1/30 |                        |
@@ -33,7 +33,7 @@
 | Sw1           | VLAN 99     | 192.168.0.98/29  |                        |
 |               | Default GW  | 192.168.0.97/29  |                        |
 |               |             |                  |                        |
-| Host A1       | NIC VLAN 10 | DHCP             |                        |
+| Host A1       | NIC VLAN 10 | [[DHCP]]             |                        |
 |               |             |                  |                        |
 | Host A2       | NIC VLAN 20 | 192.168.0.2/26   |                        |
 |               | Default GW  | 192.168.0.1/26   |                        |
@@ -41,12 +41,12 @@
 | Host B        | NIC         | 192.168.0.106/29 |                        |
 |               | Default GW  | 192.168.0.105/29 |                        |
 |               |             |                  |                        |
-| Host C        | NIC         | DHCP             |                        |
+| Host C        | NIC         | [[DHCP]]             |                        |
 |               |             |                  |                        |
 | Host D        | NIC         | 172.10.0.2/25    |                        |
 |               | Default GW  | 172.10.0.1/25    |                        |
 |               |             |                  |                        |
-| Mobile Host   | NIC         | DHCP             |                        |
+| Mobile Host   | NIC         | [[DHCP]]             |                        |
 |               |             |                  |                        |
 | External Host | NIC         | 138.25.88.86/30  |                        |
 |               |             |                  |                        |

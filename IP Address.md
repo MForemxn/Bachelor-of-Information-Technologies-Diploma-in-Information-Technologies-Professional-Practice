@@ -81,7 +81,7 @@ each IPv4 address contains two portions. the exact split of this is determined b
 # Testing and verification
 ## Ping
 - `ipconfig /all`
-- testing the local stack: check TCP/IP protocol installation
+- testing the local stack: check [[TCP]]/IP protocol installation
 	- 127.0.0.1 (IPv4)
 	- ::1 (IPv6)
 - Testing connectivity to the local LAN --- gateway

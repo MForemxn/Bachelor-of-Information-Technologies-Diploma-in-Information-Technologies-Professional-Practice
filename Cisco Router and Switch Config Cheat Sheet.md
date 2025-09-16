@@ -360,7 +360,7 @@ switch# configure terminal
 
 (config)# flow exporter FLOW-EXPORT-1
 (config-flow-exporter)# destination 192.168.10.200
-(config-flow-exporter)# transport udp 9996
+(config-flow-exporter)# transport [[udp]] 9996
 
 (config)# flow monitor FLOW-MONITOR-1
 (config-flow-monitor)# record FLOW-RECORD-1

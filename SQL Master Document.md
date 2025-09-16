@@ -1,8 +1,8 @@
 # SQL Intro
-SQL is a standard language for managing and manipulating relational databases. It allows you to create, read, update, and delete [[database]] records. SQL is used in various [[database]] systems like MySQL, PostgreSQL, SQL Server, and SQLite.
+[[SQL]] is a standard language for managing and manipulating relational databases. It allows you to create, read, update, and delete [[database]] records. [[SQL]] is used in various [[database]] systems like MySQL, PostgreSQL, [[SQL]] Server, and SQLite.
 
 ## SQL [[Syntax]]
-SQL [[syntax]] is the set of rules that defines the structure of SQL queries. [[SQL commands]] are case-insensitive, but it's a common practice to write SQL keywords in uppercase for [[readability]].
+[[SQL]] [[syntax]] is the set of rules that defines the structure of [[SQL]] queries. [[SQL commands]] are case-insensitive, but it's a common practice to write [[SQL]] keywords in uppercase for [[readability]].
 
 **Example:**
 ```sql
@@ -126,7 +126,7 @@ SELECT COUNT(*) FROM orders WHERE status = 'completed';
 ```
 
 ## SQL Sum
-The `SUM` [[function]] calculates the total sum of a numeric column.
+The `SUM` [[function]] calculates the total sum of a [[Numeric]] column.
 
 **Example:**
 ```sql
@@ -134,7 +134,7 @@ SELECT SUM(total_amount) FROM invoices;
 ```
 
 ## SQL Avg
-The `AVG` [[function]] calculates the average value of a numeric column.
+The `AVG` [[function]] calculates the average value of a [[Numeric]] column.
 
 **Example:**
 ```sql
@@ -245,10 +245,10 @@ SELECT city FROM suppliers;
 ```
 
 # SQL [[Database]]
-A [[database]] is an organized collection of [[data]], generally stored and accessed electronically from a computer system. SQL provides commands to create, manage, and manipulate databases.
+A [[database]] is an organized collection of [[data]], generally stored and accessed electronically from a computer system. [[SQL]] provides commands to create, manage, and manipulate databases.
 
 ## SQL Create DB
-The `CREATE DATABASE` statement is used to create a new [[database]].
+The `CREATE [[Database]]` statement is used to create a new [[database]].
 
 **Example:**
 ```sql
@@ -256,7 +256,7 @@ CREATE DATABASE company;
 ```
 
 ## SQL Drop DB
-The `DROP DATABASE` statement is used to delete an existing [[database]] and all its associated data.
+The `DROP [[Database]]` statement is used to delete an existing [[database]] and all its associated [[Data]].
 
 **Example:**
 ```sql
@@ -392,7 +392,7 @@ CREATE TABLE employees (
 ```
 
 ## SQL Dates
-SQL provides various functions to work with date and time [[data types]]. These functions can be used to manipulate and retrieve date and time values.
+[[SQL]] provides various functions to work with date and time [[data types]]. These functions can be used to manipulate and retrieve date and time values.
 
 **Example:**
 ```sql
@@ -419,10 +419,10 @@ SELECT * FROM users WHERE username = 'admin' AND password = 'password';
 ```
 
 ## SQL Hosting
-SQL databases can be hosted on various platforms, including local servers, cloud services (like AWS RDS, Google Cloud SQL, Azure SQL [[Database]]), or managed [[database]] services.
+[[SQL]] databases can be hosted on various platforms, including local servers, cloud services (like AWS RDS, Google Cloud [[SQL]], Azure [[SQL]] [[Database]]), or managed [[database]] services.
 
 ## SQL [[Data Types]]
-SQL supports various [[data types]] for columns, including numeric types (e.g., `INT`, `FLOAT`), [[string]] types (e.g., `VARCHAR`, `TEXT`), date and time types (e.g., `DATE`, `TIMESTAMP`), and others.
+[[SQL]] supports various [[data types]] for columns, including [[Numeric]] types (e.g., `INT`, `[[Float]]`), [[string]] types (e.g., `VARCHAR`, `TEXT`), date and time types (e.g., `DATE`, `TIMESTAMP`), and others.
 
 **Example:**
 ```sql
@@ -440,8 +440,8 @@ CREATE TABLE example (
 |[ADD](https://www.w3schools.com/sql/sql_ref_add.asp)|Adds a column in an existing table|
 |[ADD CONSTRAINT](https://www.w3schools.com/sql/sql_ref_add_constraint.asp)|Adds a constraint after a table is already created|
 |[ALL](https://www.w3schools.com/sql/sql_ref_all.asp)|Returns true if all of the subquery values meet the condition|
-|[ALTER](https://www.w3schools.com/sql/sql_ref_alter.asp)|Adds, deletes, or modifies columns in a table, or changes the data type of a column in a table|
-|[ALTER COLUMN](https://www.w3schools.com/sql/sql_ref_alter_column.asp)|Changes the data type of a column in a table|
+|[ALTER](https://www.w3schools.com/sql/sql_ref_alter.asp)|Adds, deletes, or modifies columns in a table, or changes the [[Data]] type of a column in a table|
+|[ALTER COLUMN](https://www.w3schools.com/sql/sql_ref_alter_column.asp)|Changes the [[Data]] type of a column in a table|
 |[ALTER TABLE](https://www.w3schools.com/sql/sql_ref_alter_table.asp)|Adds, deletes, or modifies columns in a table|
 |[AND](https://www.w3schools.com/sql/sql_ref_and.asp)|Only includes rows where both conditions is true|
 |[ANY](https://www.w3schools.com/sql/sql_ref_any.asp)|Returns true if any of the subquery values meet the condition|
@@ -451,17 +451,17 @@ CREATE TABLE example (
 |[BETWEEN](https://www.w3schools.com/sql/sql_ref_between.asp)|Selects values within a given range|
 |[CASE](https://www.w3schools.com/sql/sql_ref_case.asp)|Creates different outputs based on conditions|
 |[CHECK](https://www.w3schools.com/sql/sql_ref_check.asp)|A constraint that limits the value that can be placed in a column|
-|[COLUMN](https://www.w3schools.com/sql/sql_ref_column.asp)|Changes the data type of a column or deletes a column in a table|
+|[COLUMN](https://www.w3schools.com/sql/sql_ref_column.asp)|Changes the [[Data]] type of a column or deletes a column in a table|
 |[CONSTRAINT](https://www.w3schools.com/sql/sql_ref_constraint.asp)|Adds or deletes a constraint|
 |[CREATE](https://www.w3schools.com/sql/sql_ref_create.asp)|Creates a [[database]], index, view, table, or procedure|
-|[CREATE DATABASE](https://www.w3schools.com/sql/sql_ref_create_database.asp)|Creates a new SQL database|
+|[CREATE DATABASE](https://www.w3schools.com/sql/sql_ref_create_database.asp)|Creates a new [[SQL]] [[Database]]|
 |[CREATE INDEX](https://www.w3schools.com/sql/sql_ref_create_index.asp)|Creates an index on a table (allows duplicate values)|
 |[CREATE OR REPLACE VIEW](https://www.w3schools.com/sql/sql_ref_create_or_replace_view.asp)|Updates a view|
-|[CREATE TABLE](https://www.w3schools.com/sql/sql_ref_create_table.asp)|Creates a new table in the database|
+|[CREATE TABLE](https://www.w3schools.com/sql/sql_ref_create_table.asp)|Creates a new table in the [[Database]]|
 |[CREATE PROCEDURE](https://www.w3schools.com/sql/sql_ref_create_procedure.asp)|Creates a stored procedure|
 |[CREATE UNIQUE INDEX](https://www.w3schools.com/sql/sql_ref_create_unique_index.asp)|Creates a unique index on a table (no duplicate values)|
 |[CREATE VIEW](https://www.w3schools.com/sql/sql_ref_create_view.asp)|Creates a view based on the result set of a SELECT statement|
-|[DATABASE](https://www.w3schools.com/sql/sql_ref_database.asp)|Creates or deletes an SQL [[database]]|
+|[DATABASE](https://www.w3schools.com/sql/sql_ref_database.asp)|Creates or deletes an [[SQL]] [[database]]|
 |[DEFAULT](https://www.w3schools.com/sql/sql_ref_default.asp)|A constraint that provides a default value for a column|
 |[DELETE](https://www.w3schools.com/sql/sql_ref_delete.asp)|Deletes rows from a table|
 |[DESC](https://www.w3schools.com/sql/sql_ref_desc.asp)|Sorts the result set in descending order|
@@ -469,7 +469,7 @@ CREATE TABLE example (
 |[DROP](https://www.w3schools.com/sql/sql_ref_drop.asp)|Deletes a column, constraint, [[database]], index, table, or view|
 |[DROP COLUMN](https://www.w3schools.com/sql/sql_ref_drop_column.asp)|Deletes a column in a table|
 |[DROP CONSTRAINT](https://www.w3schools.com/sql/sql_ref_drop_constraint.asp)|Deletes a UNIQUE, PRIMARY KEY, FOREIGN KEY, or CHECK constraint|
-|[DROP DATABASE](https://www.w3schools.com/sql/sql_ref_drop_database.asp)|Deletes an existing SQL [[database]]|
+|[DROP DATABASE](https://www.w3schools.com/sql/sql_ref_drop_database.asp)|Deletes an existing [[SQL]] [[database]]|
 |[DROP DEFAULT](https://www.w3schools.com/sql/sql_ref_drop_default.asp)|Deletes a DEFAULT constraint|
 |[DROP INDEX](https://www.w3schools.com/sql/sql_ref_drop_index.asp)|Deletes an index in a table|
 |[DROP TABLE](https://www.w3schools.com/sql/sql_ref_drop_table.asp)|Deletes an existing table in the [[database]]|

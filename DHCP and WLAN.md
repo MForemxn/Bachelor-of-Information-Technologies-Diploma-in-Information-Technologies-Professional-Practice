@@ -43,9 +43,9 @@
         
 3. Ports Used:
     
-    - Client → Server: UDP 68 → 67
+    - Client → Server: [[UDP]] 68 → 67
         
-    - Server → Client: UDP 67 → 68
+    - Server → Client: [[UDP]] 67 → 68
         
 
 ### DHCPv4 Message Format

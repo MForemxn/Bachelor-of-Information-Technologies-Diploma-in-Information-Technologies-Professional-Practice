@@ -144,8 +144,8 @@ Access control [[models]] define how systems control access to objects by [[subj
 
 ## Intellectual Property (IP) Laws
 
-- **IP**: Products of the mind (inventions, artistic works, symbols).
-- Types of IP:
+- **[[IP]]**: Products of the mind (inventions, artistic works, symbols).
+- Types of [[IP]]:
     - **Copyright**: Protects expression of ideas.
     - **Patent**: Protects inventions.
     - **Trademark**: Protects branding.

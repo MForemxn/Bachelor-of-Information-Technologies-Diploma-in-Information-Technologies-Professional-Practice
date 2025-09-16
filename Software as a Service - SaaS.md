@@ -30,7 +30,7 @@ SaaS provides fully managed applications to users, eliminating the need for loca
 ## Use Cases
 
 - Enterprise applications like CRM, email, and collaboration tools.
-- Productivity software for document management and communication.
+- Productivity software for document management and [[Communication]].
 - Business applications for accounting, HR, or project management.
 
 ## Consumer Implications

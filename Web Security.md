@@ -26,7 +26,7 @@ Every [[DNS]] query and response is matched with a 16bit number
 ## [[How DNS Attacks Work]]
 - if attackers have root access to a machine, they can
 	- modify `/etc/resolv.conf`: use malicious [[DNS]] server as the machines local [[dns]] server, allowing them to control the entire [[DNS]] [[process]]
-	- Modify `/etc/hosts`: add new records to the file, providing the IP addresses to some selected domains. For example, they can change the [[IP address]] of www.bank32.com to lead to their attackers machine instead.
+	- Modify `/etc/hosts`: add new records to the file, providing the [[IP]] addresses to some selected domains. For example, they can change the [[IP address]] of www.bank32.com to lead to their attackers machine instead.
 # Denial of Service Attack
 ## Attacks on the Root and TLD Servers
 - if an attacker can bring down the servers of the root zone, they can bring down the entire internet. However, this attack is very difficult.
@@ -38,7 +38,7 @@ Every [[DNS]] query and response is matched with a 16bit number
 ## Protection using [[DNSSEC]]
 - [[DNSSEC]] (or [[DNS]] [[Security]]) provides some [[authentication]] using [[keys]] and signatures to verify that the response is genuine.
 # [[SQL Injection]] Attack
-- basically involves inputting SQL queries instead of normal responses into fields in websites. 
+- basically involves inputting [[SQL]] queries instead of normal responses into fields in websites. 
 
 # [[CSRF and XSS Attack]]
 - CSRF and XSS are [[web security]] vulnerabilities where CSRF tricks users into executing unwanted actions, while XSS injects malicious scripts into web pages.

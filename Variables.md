@@ -8,7 +8,7 @@ Variables are storage for information
 - you cannot make more than 1 variable with the same name in the same scope
 	- this applied to [[Java]] and [[Python]]
 # [[Python]] vs [[Java]]
-- [[Python]] is a strongly dynamically typed language
+- [[Python]] is a strongly [[Dynamically Typed Language]]
 - [[Java]] is a very strongly statically typed language
 	- what this means is that [[python]] variables can be anything you want, [[Java]] must have a predefined type
 # What are variables?
@@ -23,37 +23,37 @@ Variables are storage for information
 	- **Primitive [[data]] types**: include integers, floats, booleans, and characters
 	- **Complex [[data]] types**: include arrays, objects, and structures
 	- **Scope**:
-		- **Local variables**: accessible only within the block or function where they are declared
-		- **Global variables**: accessible throughout the entire program, from any function or block
+		- **Local variables**: accessible only within the block or [[Function]] where they are declared
+		- **Global variables**: accessible throughout the entire program, from any [[Function]] or block
 
 # Declaring and Initialising Variables
-- **Declaration** involves telling the compiler about the variable's name and type
-	- e.g., in C, `int age;` declares a variable named age of type integer
+- **Declaration** involves telling the [[Compiler]] about the variable's name and type
+	- e.g., in C, `int age;` declares a variable named age of type [[Integer]]
 - **Initialisation** involves assigning a value to the variable at the time of declaration
 	- e.g., `int age = 30;` both declares and initialises the age variable
-- languages have different rules and syntax for declaring and initialising variables
+- languages have different rules and [[Syntax]] for declaring and initialising variables
 
 # Variable Naming Conventions
 - names should be descriptive and indicate the purpose of the variable
-- most programming languages have rules and best practices for naming variables, such as:
+- most [[Programming Languages]] have rules and best practices for naming variables, such as:
 	- starting with a letter or underscore, not a number
 	- avoiding reserved keywords
-	- using camelCase or snake_case for readability
+	- using camelCase or snake_case for [[Readability]]
 
 # Dynamic vs Static Typing
-- **Static typing**: the type of the variable is known at compile time
-	- languages like C, C++, and [[Java]] use static typing
-- **Dynamic typing**: the type of the variable is known at runtime
-	- languages like [[Python]], Ruby, and JavaScript use dynamic typing
-- the choice between static and dynamic typing affects flexibility, error checking, and performance
+- **[[Static Typing]]**: the type of the variable is known at compile time
+	- languages like C, C++, and [[Java]] use [[Static Typing]]
+- **[[Dynamic Typing]]**: the type of the variable is known at runtime
+	- languages like [[Python]], Ruby, and JavaScript use [[Dynamic Typing]]
+- the choice between static and [[Dynamic Typing]] affects [[Flexibility]], error checking, and performance
 
 # Variables in Different Programming Paradigms
 - **Procedural programming**: variables are used to store [[state]] and [[data]] to be manipulated
-- **Object-oriented programming (OOP)**: variables are often attributes of objects, representing the object's [[state]]
+- **[[Object]]-oriented programming (OOP)**: variables are often [[Attributes]] of objects, representing the [[Object]]'s [[state]]
 - **Functional programming**: variables are used less frequently in the traditional sense, as this paradigm emphasises immutability and functions over [[state]]
 
 # [[Memory Management]]
 - understanding how variables are stored in memory is crucial for efficient programming
 - stack and heap are two key areas where variables can be stored:
-	- **Stack**: stores local variables and function call information; has faster access but limited size
-	- **Heap**: used for dynamic memory allocation; more flexible but slower access and requires manual management in some languages to avoid memory leaks
+	- **Stack**: stores local variables and [[Function]] call information; has faster access but limited size
+	- **Heap**: used for dynamic [[Memory Allocation]]; more flexible but slower access and requires manual management in some languages to avoid memory leaks

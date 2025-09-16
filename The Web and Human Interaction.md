@@ -4,11 +4,11 @@
 
 ### Web Servers
 
-- Web servers are programs that accept requests from browsers via a network connection and return content, such as HTML pages or other [[data]]. This process involves an HTTP request from the browser, which the server responds to by sending the requested content back to the browser.
+- Web servers are programs that accept requests from browsers via a network connection and return content, such as HTML pages or other [[data]]. This [[Process]] involves an [[HTTP]] request from the browser, which the server responds to by sending the requested content back to the browser.
 
 ### Web Content Management
 
-- While web servers typically serve static web pages from files (e.g., `index.html`), content can also be dynamically generated through programming languages like PHP or ASP.NET. Large websites may use Content Management Systems (CMS) like Joomla, Drupal, or WordPress to manage content automatically.
+- While web servers typically serve static web pages from files (e.g., `index.html`), content can also be dynamically generated through [[Programming Languages]] like PHP or ASP.NET. Large websites may use Content Management Systems (CMS) like Joomla, Drupal, or WordPress to manage content automatically.
 
 ### [[Web Page Development]]
 
@@ -16,7 +16,7 @@
 
 ### HTML and Web Pages
 
-- Web pages are plain [[text files]] containing text and markup (tags) that browsers use to render the content visually. Web pages use hyperlinks to link to other pages, creating a network of interconnected content. The document mentions different "dialects" of HTML, including HTML 4.0 Transitional, HTML Strict, XHTML, and HTML5.
+- Web pages are plain [[text files]] containing text and markup (tags) that browsers use to render the content visually. Web pages use hyperlinks to link to [[Other Pages]], creating a network of interconnected content. The document mentions different "dialects" of HTML, including HTML 4.0 Transitional, HTML Strict, XHTML, and HTML5.
 
 ### Web Browsers
 

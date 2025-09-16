@@ -4,7 +4,7 @@
 	1. **User Management**
     
 	    - **Registration and Login:** Users can sign up and log in using email/password or OAuth providers.
-	    - **User Profiles:** Users can manage their profiles, including notification preferences.
+	    - **User [[Profiles]]:** Users can manage their [[profiles]], including notification preferences.
 	    - **Group Management:** Users can create groups, invite roommates, and manage memberships.
 	1. **Expense Tracking**
     

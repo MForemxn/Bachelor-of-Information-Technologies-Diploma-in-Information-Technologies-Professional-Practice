@@ -14,7 +14,7 @@
 
 - **Definition**: General abilities that are not role-specific and can be applied across various positions and industries
 - **Transferability**: High - easily portable between different roles and career paths
-- **Examples**: Communication, [[time management]], problem-solving, leadership, teamwork, critical thinking, adaptability, project management
+- **Examples**: [[Communication]], [[time management]], problem-solving, leadership, teamwork, critical thinking, adaptability, project management
 - **Acquisition**: Developed through life experiences, education, work, and personal development
 - **Measurability**: More subjective and harder to quantify
 
@@ -44,21 +44,21 @@ Research indicates employers consistently rank transferable skills higher than t
 
 ### Training Economics
 
-- **Cost efficiency**: Easier and cheaper to train technical skills than to develop communication or leadership abilities
+- **Cost efficiency**: Easier and cheaper to train technical skills than to develop [[Communication]] or leadership abilities
 - **ROI considerations**: Investment in candidates with strong transferable skills yields better long-term returns
 
 ## Communication Skills - The Most Valued Transferable Skill
 
 ### Why Communication Dominates
 
-In IT and engineering contexts, communication bridges the gap between technical complexity and [[business requirements]], making it the most sought-after transferable skill.
+In IT and engineering contexts, [[Communication]] bridges the gap between technical complexity and [[business requirements]], making it the most sought-after transferable skill.
 
 ### Communication Modalities in IT/Engineering
 
 #### Written Communication
 
 - **Technical Documentation**: User manuals, system requirements, technical specifications
-- **Business Communication**: Tender responses, project proposals, business cases
+- **Business [[Communication]]**: Tender responses, project proposals, business cases
 - **Daily Operations**: Professional emails, progress reports, incident documentation
 - **Code-Related**: Meaningful code [[comments]], documentation, technical guides
 
@@ -79,8 +79,8 @@ In IT and engineering contexts, communication bridges the gap between technical 
 #### Non-Verbal Communication
 
 - **Professional Presence**: Body language, eye contact, posture in meetings
-- **Virtual Communication**: Video call etiquette, screen sharing effectiveness
-- **Cultural Awareness**: Understanding diverse communication styles in global teams
+- **Virtual [[Communication]]**: Video call etiquette, screen sharing effectiveness
+- **Cultural Awareness**: Understanding diverse [[Communication]] styles in global teams
 
 ## Strategic Implications for Career Development
 
@@ -92,13 +92,13 @@ In IT and engineering contexts, communication bridges the gap between technical 
 
 ### Application Strategy
 
-- **Resume/CV**: Demonstrate transferable skills through specific examples and achievements
+- **[[resume]]/CV**: Demonstrate transferable skills through specific examples and achievements
 - **Cover Letters**: Use transferable skills to address selection criteria
 - **Interviews**: Prepare STAR (Situation, Task, Action, Result) examples showcasing soft skills
 
 ### Professional Growth
 
-- **Mentorship**: Seek opportunities to develop communication and leadership skills
+- **Mentorship**: Seek opportunities to develop [[Communication]] and leadership skills
 - **Cross-functional Projects**: Volunteer for initiatives requiring diverse skill application
 - **[[Feedback]] Culture**: Actively seek [[feedback]] on transferable skill development
 

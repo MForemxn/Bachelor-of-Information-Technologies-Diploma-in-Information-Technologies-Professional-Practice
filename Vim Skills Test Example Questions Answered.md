@@ -6,7 +6,7 @@
 TERM=vt100;export TERM
 ```
 
-In all terminals where you use vim. We will use the file constitution.txt
+In all terminals where you use [[vim]]. We will use the file constitution.txt
 
 ## Copy the file constitution.txt into a file called con1.txt. Using the vim editor delete all but the last 20 lines of con1.txt
 ```
@@ -79,7 +79,7 @@ fi
 
 # [[Data]] Processing
 
-The file seats_2019.txt is a text file containing electoral [[data]] just prior to the 2019 federal election. The fields in order are: name of the electorate, its’ state or territory, the initials of the party that held the seat and the margin the seat is held by. Each field is separated by a space. Electorates with multiword names have been hyphenated. Although the file has every electorate for 2019, the [[data]] is unordered.
+The file seats_2019.txt is a text file containing electoral [[data]] just prior to the 2019 federal election. The fields in order are: name of the electorate, its’ [[State]] or territory, the initials of the party that held the seat and the margin the seat is held by. Each field is separated by a space. Electorates with multiword names have been hyphenated. Although the file has every electorate for 2019, the [[data]] is unordered.
 
 Note the **major** parties are : 
 - ALP (Australian Labor Party) LIB (Liberal Party)
@@ -167,10 +167,10 @@ grep "$state$" seats_2019.txt | awk -v party="$party" '$3 == party {print $1, $4
 
 ## Take your answer from (7) and add error checking: 
 - (a) If the number of arguments is incorrect print: Incorrect number of Arguments 
-	- Usage :` get_seats.sh <party_name> <state>`
+	- Usage :` get_seats.[[Sh]] <party_name> <state>`
 - (b) Check that the party initials are valid. If they are invalid print “Invalid Party” and exit. 
-- (c) Check that the state initials are valid. If they are invalid print “Invalid State” and exit.
-- (d) If your script has passed the error checking in (a), (b) and (c), but there are no actual electorates held for the party and state/territory supplied as arguments (for example there are no [[NAT]] members in WA) then the script should print:
+- (c) Check that the [[State]] initials are valid. If they are invalid print “Invalid [[State]]” and exit.
+- (d) If your script has passed the error checking in (a), (b) and (c), but there are no actual electorates held for the party and [[State]]/territory supplied as arguments (for example there are no [[NAT]] members in WA) then the script should print:
 	- No electorates held by `<party name`> in `<state/territory name>`
 ```
 #!/bin/bash

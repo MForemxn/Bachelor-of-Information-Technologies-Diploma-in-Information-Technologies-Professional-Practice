@@ -219,6 +219,6 @@
 | **Type:** | Examination |
 | **Groupwork:** | Individual |
 | **Weight:** | 20% |
-| **Task:** | The skills test will consist of a set of hands-on problem solving, Implementation and testing UNIX exercises based on the lab Linux exercises. You must sit for this quiz in your allocated tutorial. This test is open book. |
+| **Task:** | The skills test will consist of a set of hands-on problem solving, [[Implementation]] and testing UNIX exercises based on the lab [[Linux]] exercises. You must sit for this quiz in your allocated tutorial. This test is open book. |
 | **Due:** | Week 12 In your scheduled lab |
 | **Further information:** | If you do not do this exam in your allocated lab, you will receive 0 marks for this exam unless prior arrangements have been made with the subject coordinator |

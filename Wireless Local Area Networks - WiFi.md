@@ -8,7 +8,7 @@
 - **Definition**: Provides wireless LAN devices access to a wired network.
 - **Components**:
   - Radio transceiver
-  - Antenna
+  - [[Antenna]]
   - RJ-45 wired network [[interface]] port
 - **Functions**:
   - Acts as wireless communications base station.
@@ -29,7 +29,7 @@
 - **Basic Service Set (BSS)**: Consists of wireless clients and one AP.
 - **Extended Service Set (ESS)**: Two or more BSSs in the same area for uninterrupted mobile access (roaming).
   - All clients and APs must be part of the same network for seamless roaming.
-- **Identifiers**:
+- **[[Identifiers]]**:
   - SSID (Service Set Identifier): Identifies the ESS.
   - BSSID (Basic SSID): Identifies a specific AP.
 - **Considerations**:
@@ -297,7 +297,7 @@
 
 ## 📝 Key Takeaways
 
-- **OFDM** is the foundation of modern [[WiFi]].
+- **[[OFDM]]** is the foundation of modern [[WiFi]].
     
 - **Channel bonding** and **wider bandwidths** drive higher speeds.
     
@@ -305,7 +305,7 @@
     
 - Newer standards add:
     
-    - Higher-order **QAM**
+    - Higher-order **[[QAM]]**
         
     - **MIMO / MU-MIMO**
         

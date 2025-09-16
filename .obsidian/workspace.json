@@ -1,47 +1,47 @@
 {
   "main": {
-    "id": "7f053ce1bd41bbf2",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "63ae5e5d5359f3ed",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7f8c1c404bd734a7",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Homepage/Home.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers"
+              "title": "Home"
             },
-            "group": "139b7aa82caa4ecc"
+            "group": "a7f4ba0c010cc62a"
           }
         ]
       },
       {
-        "id": "54ecd81501f90e7d",
+        "id": "637871600bb34e94",
         "type": "tabs",
         "children": [
           {
-            "id": "33e6025a2030ef58",
+            "id": "9cbdf516db6ef335",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Homepage/Home.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network Servers"
+              "title": "Home"
             },
-            "group": "139b7aa82caa4ecc"
+            "group": "a7f4ba0c010cc62a"
           }
         ]
       }
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Telstra Guest Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Network Servers"
+              "title": "Outgoing links from Telstra Guest Lecture"
             }
           },
           {
@@ -155,22 +155,12 @@
             }
           },
           {
-            "id": "fef4448d060367fa",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
             "id": "f98fb763ae11cab3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Servers.md",
+                "file": "Homepage/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,11 +170,11 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Network Servers"
+              "title": "Backlinks for Home"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,6 +182,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "obisidian-note-linker:Note Linker": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -202,43 +194,43 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "33e6025a2030ef58",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Network Servers Learning Journal Working.md",
-    "Lab 7c - Implementing backups with cron.pdf",
-    "Lab 7b - Implementing disk quotas.pdf",
-    "Lab 7a - Managing filesystems, including mounting and unmounting.pdf",
-    "Network Servers.md",
-    "Subjects.md",
-    "Mobile Networking.md",
-    "RFID and Near-field Communications (NFC).md",
-    "RFID.md",
-    "NFC.md",
-    "Cloud Computing and Software as a Service.md",
-    "Force.com.md",
-    "Validation Rules.md",
-    "Textual.md",
-    "Communication.md",
-    "Numeric.md",
-    "Identifiers.md",
-    "Basic directory services.md",
+    "Untitled.base",
     "Homepage/Home.md",
-    "Lab 6b - DNS client configuration.pdf",
-    "Lab 6a - DNS server configuration.pdf",
-    "Lab 05a - Managing users and groups.pdf",
-    "Lab 05b - Superuser powers.pdf",
-    "Career Management for IT Professionals.md",
-    "Career Management for IT Professionals Assessment task 4 - Individual Reflection.md",
-    "Career Management for IT Professionals Assessment Task 4 Final Submission Document.md",
-    "Career Management for IT Professionals Assessment Task 4 Planning and Working Document.md",
-    "Career Management for IT Professionals Assessment task 2 - Video Interview.md",
-    "Career Management for IT Professionals Assessment Task 2 Mock Questions.md",
-    "Career Management for IT Professionals Assessment task 3 - Working in Teams.md",
-    "Design, implementation and integration of network server infrastructure.md",
-    "Cloud data objects and validations.md",
-    "Lab 04c - Configuring a DHCP server on Windows Server.pdf",
-    "Lab 04b - Configuring a DHCP server on Linux.pdf",
-    "Lab 04a - Configuring a DHCP client 1.pdf",
+    "Telstra Guest Lecture.md",
+    "Templates/Run Auto Link.md",
+    "Scripts/auto_link.js",
+    "Scripts",
+    "Templates",
+    "TDD.md",
+    "Time Division Duplexing.md",
+    "Massive MIMO.md",
+    "FDD.md",
+    "Frequency Division Duplexing.md",
+    "Radio Duplexing.md",
+    "NR/5G.md",
+    "NR",
+    "LTE/4G.md",
+    "LTE",
+    "OFDM.md",
+    "CDMA.md",
+    "QAM.md",
+    "PSK.md",
+    "FM.md",
+    "AM.md",
+    "Modulation.md",
+    "Wi-Fi.md",
+    "THz.md",
+    "Terahertz.md",
+    "World Radio Congress.md",
+    "3GPP.md",
+    "BL.md",
+    "Bandwidth Reduced Low Complexity.md",
+    "Shelter/Hut",
+    "Shelter",
+    "Tower/Mast/Pole",
+    "Tower/Mast",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",

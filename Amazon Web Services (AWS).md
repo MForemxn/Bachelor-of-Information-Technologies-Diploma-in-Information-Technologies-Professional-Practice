@@ -94,14 +94,14 @@ AWS became the dominant player in the cloud industry, with a wide global infrast
 - Automatically provisioned in high [[availability]] setups; distributes traffic.
 - Types supported by EB:
   - **Classic Load Balancer**: Previous-generation; routes [[HTTP]]/HTTPS/TCP to ports; default [[HTTP]] on port 80; health checks; for [[EC2]]-Classic apps.
-  - **Network Load Balancer**: OSI Layer 4; routes TCP/UDP/[[TLS]]; default TCP on port 80; multiple listeners, health checks.
+  - **Network Load Balancer**: OSI Layer 4; routes TCP/[[UDP]]/[[TLS]]; default TCP on port 80; multiple listeners, health checks.
   - **Application Load Balancer**: OSI Layer 7; routes [[HTTP]]/HTTPS; content-based rules.
 - Common features: Listeners (monitor/direct requests), Health checks (verify instance status).
 
 ### Comparison of Load Balancers
 | Criteria              | Network Load Balancers | Classic Load Balancers | Application Load Balancers |
 |-----------------------|------------------------|------------------------|----------------------------|
-| Protocol Supported   | TCP, UDP, [[TLS]]         | TCP, [[HTTP]], HTTPS      | [[HTTP]], HTTPS               |
+| Protocol Supported   | TCP, [[UDP]], [[TLS]]         | TCP, [[HTTP]], HTTPS      | [[HTTP]], HTTPS               |
 | [[Routing]] Criteria     | Rules based on port numbers | Rules based on port numbers | Rules based on message content |
 | OSI Layer            | Network (Layer 4)     | Layer 4 or 7          | Application (Layer 7)     |
 

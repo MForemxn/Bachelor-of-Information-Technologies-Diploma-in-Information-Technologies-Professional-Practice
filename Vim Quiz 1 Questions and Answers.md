@@ -1,10 +1,10 @@
-Linuxgym Chapter 2 – Questions and Answers on the [[vim]] editor
+Linuxgym Chapter 2 – Questions and Answers on the [[vim]] [[Editor]]
 
-(1) A user is editing a file using the [[vim]] editor. They are at line 97. They want to know how many lines are in the file. What keys do they press?
+(1) A user is [[Editing]] a file using the [[vim]] [[Editor]]. They are at line 97. They want to know how many lines are in the file. What [[Keys]] do they press?
 
 Cntrl-g (Control and g pressed simultaneously)
 
-(2) After finding out that the file has 7000 lines, the user wishes to go to line 2125. What sequence of keys do they press?
+(2) After finding out that the file has 7000 lines, the user wishes to go to line 2125. What sequence of [[Keys]] do they press?
 
 2125 shift-g (Shift and g pressed simultaneously) also :2125 works as well.
 
@@ -20,15 +20,15 @@ u (stands for undo) also :u works as well.
 
 2225 shift-g
 
-(6) [[Vim]] is a modal editor – what does “modal” mean?
+(6) [[Vim]] is a modal [[Editor]] – what does “modal” mean?
 
-It means that the editor behaves differently depending what mode you are in. To do particular actions, you need to be in the appropriate mode.
+It means that the [[Editor]] behaves differently depending what mode you are in. To do particular actions, you need to be in the appropriate mode.
 
-(7)What are the three main modes used by the [[vim]] editor?
+(7)What are the three main modes used by the [[vim]] [[Editor]]?
 
-The three modes are command mode (sometimes known as normal mode), last line mode (sometimes known as command line mode) and insert mode (sometimes known as input mode).
+The three modes are command mode (sometimes known as normal mode), last line mode (sometimes known as command line mode) and insert mode (sometimes known as [[Input]] mode).
 
-(8) (a) The user is editing a file using [[vim]]. They wish to delete the first word on line 35. What mode must they be in to complete the action?
+(8) (a) The user is [[Editing]] a file using [[vim]]. They wish to delete the first word on line 35. What mode must they be in to complete the action?
 
 Command mode
 
@@ -88,7 +88,7 @@ Last Line Mode
 
 :%s/\<exercise\>/calisthenics/g
 
-(17) You want to change all lines beginning with the number 6 so that the number is replaced with the string “six”. What is the key sequence to do this?
+(17) You want to change all lines beginning with the number 6 so that the number is replaced with the [[String]] “six”. What is the key sequence to do this?
 
 :%s/^6/six/g
 

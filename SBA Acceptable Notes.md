@@ -2428,7 +2428,7 @@ eth0, lo, ppp0, etc.
 
 • **-p** (protocol) — the network protocol where your filtering process takes place.
 
-It can be either TCP, UDP, UDPLITE, ICMP, SCTP, ICMPv6, and so on.
+It can be either TCP, [[UDP]], UDPLITE, ICMP, SCTP, ICMPv6, and so on.
 
 Alternatively, you can type all to choose every protocol.
 
@@ -2592,7 +2592,7 @@ Netwag is a graphical front end for netwox. Netwox is a toolbox for tes ng an Et
 
 includes a network library for administrators and hackers. Its objec ve is to let programmers easily create
 
-network programs. This library provides features for Ethernet, IP, UDP, TCP, ICMP, ARP, and RARP protocols.
+network programs. This library provides features for Ethernet, IP, [[UDP]], TCP, ICMP, ARP, and RARP protocols.
 
 It supports spoofing, sniﬃng, client, and server crea on.
 
@@ -2656,7 +2656,7 @@ Lab designed by Ashish Nanda, based on documents “SEED Labs” provided by Wen
 
 OPT PSEUDOSECTION:
 
-EDNS: version: 0, flags:; udp: 4096 QUESTION SECTION:
+EDNS: version: 0, flags:; [[udp]]: 4096 QUESTION SECTION:
 
 www.netsec-week3.com. IN ANSWER
 
@@ -2746,13 +2746,13 @@ response will be accepted by the user’s computer if it meets the following cri
 
 2. The des na on IP address must match the IP address of the user’s machine.
 
-3. The source port number (UDP port) must match the port number that the DNS request was sent to
+3. The source port number ([[UDP]] port) must match the port number that the DNS request was sent to
 
 (usually port 53).
 
 4. The des na on port number must match the port number that the DNS request was sent from.
 
-5. The UDP checksum must be correctly calculated.
+5. The [[UDP]] checksum must be correctly calculated.
 
 6. The transac on ID must match the transac on ID in the DNS request.
 
@@ -3182,7 +3182,7 @@ mixed data Hex for ‘mkdir hello’ + return key : 6d 6b
 
 12. Go back to Wireshark on Client, look for the last telnet packet sent from Server to Client
 
-before TCP Retransmission. (Screenshot Required)
+before [[TCP]] Retransmission. (Screenshot Required)
 
 13. Look into the details of Telnet for that packet. (Screenshot Required)
 

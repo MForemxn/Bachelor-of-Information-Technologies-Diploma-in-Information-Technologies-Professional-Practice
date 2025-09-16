@@ -12,11 +12,11 @@
 
 ## 4.3 IP: [[The Internet]] Protocol
 - **Datagram Format**:
-  - **Header fields** include source/destination IP, TTL, and protocol type.
-  - **Fragmentation**: IP datagrams can be fragmented into smaller packets.
+  - **Header fields** include source/destination [[IP]], TTL, and protocol type.
+  - **Fragmentation**: [[IP]] datagrams can be fragmented into smaller packets.
 - **Addressing**:
   - IPv4 uses 32-bit addresses; IPv6 uses 128-bit addresses.
-  - **[[NAT]] ([[Network Address Translation]])**: Maps private IP addresses to a public IP.
+  - **[[NAT]] ([[Network Address Translation]])**: Maps private [[IP]] addresses to a public [[IP]].
 
 ## 4.4 Generalized Forwarding and SDN (Software-Defined Networking)
 - **Match + Action**:

@@ -50,7 +50,7 @@ Upon successful completion of this subject students should be able to:
 1. Demonstrate understanding of the basic concepts of hardware, software, [[cybersecurity]], [[processes]] and the components of
 an Operating System including how to work on the command line and create simple scripts. (D.1)
 
-2. Identify and explain the role and function of [[the Internet]], the World Wide Web, and their components. Describe and
+2. Identify and explain the role and [[Function]] of [[the Internet]], the [[World Wide Web]], and their components. Describe and
 make use of distributed applications on [[the Internet]]. (D.1)
 
 3. Design and implement a simple web site to a given specification. (C.1)
@@ -70,7 +70,7 @@ The theory component will use a mix of formal seminars, online lectures, electro
 system and tutorial based activities. Online lectures and materials such as e-readings must viewed before each week's
 tutorials. The tutorials are combined with laboratories and will provide an opportunity for students to tie the theory
 taught with practice. Students will collaborate in groups in the tutorial to present and critique on related topics.
-Students will use problem based learning in the laboratories to learn about Linux and the web. The major assignment will
+Students will use problem based learning in the laboratories to learn about [[Linux]] and the web. The major assignment will
 require an exploration of web based topics outside of the formally taught content such as aesthetics and accessibility
 issues.
 
@@ -201,28 +201,28 @@ the week they are due.
 | **Type:**                | Examination                                                                                                                                                                                                                   |
 | **Groupwork:**           | Individual                                                                                                                                                                                                                    |
 | **Weight:**              | 20%                                                                                                                                                                                                                           |
-| **Task:**                | The skills test will consist of a set of hands-on problem solving, Implementation and testing UNIX exercises based on the lab Linux exercises. You must sit for this quiz in your allocated tutorial. This test is open book. |
+| **Task:**                | The skills test will consist of a set of hands-on problem solving, [[Implementation]] and testing UNIX exercises based on the lab [[Linux]] exercises. You must sit for this quiz in your allocated tutorial. This test is open book. |
 | **Due:**                 | Week 12 In your scheduled lab                                                                                                                                                                                                 |
 | **Further information:** | If you do not do this exam in your allocated lab, you will receive 0 marks for this exam unless prior arrangements have been made with the subject coordinator                                                                |
 
 # Moderation of marks
 
 The web site assignment is peer reviewed by students. The tutors and subject coordinator will moderate these reviews
-after the peer review period has finished.
+after the peer [[Review]] period has finished.
 
 # Assessment [[feedback]]
 
 Students receive [[feedback]] on their understanding of the role of an Operating System and simple web site construction
-through low stakes exercises completed in the Linux computer-based tutorials. These exercises provide live hints and
+through low stakes exercises completed in the [[Linux]] computer-based tutorials. These exercises provide live hints and
 immediate [[feedback]] as students complete each question which prepares them to develop a web site in assessment 4
 
 # Examination material or equipment
 
-You are allowed to bring a non-programmable calculator for the Quiz 2 and the final exam. Smartphone calculators such as
-Android or iPhones will not be allowed. Calculators with binary/hex number conversion or [[boolean logic]] functions are not
+You are allowed to bring a non-programmable calculator for the Quiz 2 and the final exam. Smartphone [[Calculators]] such as
+Android or iPhones will not be allowed. [[Calculators]] with binary/hex number conversion or [[boolean logic]] functions are not
 allowed. The typical HSC school calculator is a good choice to bring.
 
-You are allowed to bring 1 A4 double sided sheet of notes into the Linux Skills Test. You are allowed to bring in 2 x A4
+You are allowed to bring 1 A4 double sided sheet of notes into the [[Linux]] Skills Test. You are allowed to bring in 2 x A4
 double sided sheets of notes into the final Theory exam.
 
 **Minimum requirements**
@@ -241,7 +241,7 @@ Fox, R., _Information Technology: An Introduction for Today’s Digital World (_
 Vermaat M. et al, _Discovering Computers: technology ... ,_ Course Technology (any recent version) Kurose & Ross,
 _Computer Networking: A top-down approach,_ Pearson. [Chapters 1 & 2.] **Practical**:
 
-Palmer, Michael, _Guide to UNIX using Linux,_ 4th ed, Course Technology (2008), ISBN 9781418837235
+Palmer, Michael, _Guide to UNIX using [[Linux]],_ 4th ed, Course Technology (2008), ISBN 9781418837235
 
 # Other resources
 
@@ -268,7 +268,7 @@ the [website](http://www.uts.edu.au/current-students/support/upass/upass).
 
 # Graduate attribute development
 
-For a full list of the faculty's graduate attributes refer to the
+For a full list of the faculty's graduate [[Attributes]] refer to the
 FEIT [Graduate Attributes](https://www.uts.edu.au/about/faculty-engineering-and-information-technology/who-we-are/engineering-and-it-uts/graduate)
 webpage.
 
@@ -326,7 +326,7 @@ Students who do not submit assessment tasks by the due dates may be referred to 
 under [Student Rule 3.8.2](https://www.uts.edu.au/about/uts-governance/rules/uts-student-rules/section-3), and a fail
 result may be recorded for the subject.
 
-Request a review of a result
+Request a [[Review]] of a result
 
 If you believe an error may have been made in the calculation of your result in an assessment task or the final result
 for the subject, it is possible

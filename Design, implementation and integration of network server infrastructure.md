@@ -20,7 +20,7 @@
 **[[Transport Layer]] (#4)**
 
 - **TCP (Transmission Control Protocol)**: Error-correcting connections (email)
-- **UDP (User Datagram Protocol)**: No order guarantee, no error correction (audio streaming)
+- **[[UDP]] (User Datagram Protocol)**: No order guarantee, no error correction (audio streaming)
 
 **Session Layer (#5) & Presentation Layer (#6)**
 
@@ -420,7 +420,7 @@ systemctl start|stop|restart|enable|disable firewalld
 
 # Basic operations
 firewall-cmd --state                          # Check status
-firewall-cmd --zone=public --add-port=80/tcp --permanent  # Open port
+firewall-cmd --zone=public --add-port=80/[[tcp]] --permanent  # Open port
 ```
 
 ---
@@ -671,7 +671,7 @@ hostnamectl set-hostname host.uts.edu.au    # Updates /etc/hostname automaticall
 **Automatic Configuration**:
 
 - Clients automatically obtain network configuration from DHCP server
-- **Protocol**: Uses UDP ports 67 (server) and 68 (client)
+- **Protocol**: Uses [[UDP]] ports 67 (server) and 68 (client)
 - **Communication**: Network broadcasts on local subnet (255.255.255.255)
 
 **Broadcast Definition**: IP address 255.255.255.255 allows any host to send packets to every node on the local network.

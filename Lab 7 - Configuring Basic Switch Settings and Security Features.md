@@ -441,7 +441,7 @@ Assign the IP address and subnet mask to the PC as shown in the Addressing Table
 2. Click View By: and choose Small icons.
 3. Choose Network and Sharing Center > Change adapter settings.
 4. Select Local Area Network Connection, right click and choose Properties.
-5. Choose Internet Protocol Version 4 (TCP/IPv4) > Properties.
+5. Choose Internet Protocol Version 4 ([[TCP]]/IPv4) > Properties.
 6. Click the Use the following IP address radio button and enter the IP address and subnet mask.
 
 ### Step 5: Configure basic settings on R1.

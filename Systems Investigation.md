@@ -47,7 +47,7 @@
 - acts as a bridge between the users and the technical team
 - responsible for conducting the systems investigation effectively
 	- includes planning, executing, and managing all the activities mentioned above
-- must possess strong communication, analytical, and problem-solving skills
+- must possess strong [[Communication]], analytical, and problem-solving skills
 
 # Outcome of Systems Investigation
 - a comprehensive report that includes:

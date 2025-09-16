@@ -1,5 +1,5 @@
 # ONE SENTENCE SUMMARY:
-A user [[interface]] (UI) is the point of interaction between a user and a computer system, designed to facilitate effective communication and task completion.
+A user [[interface]] (UI) is the point of interaction between a user and a computer system, designed to facilitate effective [[Communication]] and task completion.
 
 # OVERVIEW:
 A user [[interface]] (UI) is a critical component of any computer system, encompassing the means through which users interact with software and hardware. It includes elements like screens, menus, buttons, icons, and other visual components that allow users to [[input]] commands and receive [[feedback]]. The primary goal of a UI is to provide an intuitive and efficient way for users to perform tasks and access information. There are various types of user interfaces, including graphical user interfaces (GUIs), command-line interfaces (CLIs), and [[touch]] interfaces, each catering to different user needs and preferences. A well-designed UI enhances user experience by being user-friendly, responsive, and accessible, reducing the learning curve and increasing productivity. It also involves considering usability principles, such as consistency, [[feedback]], and error prevention, to ensure that users can navigate and operate the system effectively.
