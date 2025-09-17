@@ -31,7 +31,7 @@
 - A [[floating static route]] is a backup route with a higher [[administrative distance]], activated when primary routes fail.
 
 # IPv4 Static Route Command
-> `Router(config)# [[IP]] route *network address* *[[Subnet]]-mask* { *[[IP]]-address* | *exit-intf* [*[[IP]]-address*]} [*distance*]}`
+> `Router(config)# [[[[IP]]]] route *network address* *[[[[Subnet]]]]-mask* { *[[[[IP]]]]-address* | *exit-intf* [*[[[[IP]]]]-address*]} [*distance*]}`
 
 # [[Administrative Distance]]
 [[Administrative distance]] is a metric used to determine the trustworthiness of a [[routing]] source, influencing route selection in routers.

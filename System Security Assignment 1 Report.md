@@ -1,4 +1,4 @@
-[[Review]][[AI]][[State]][[Security]][[Models]][[AI]][[Algorithm]][[Models]][[Models]][[Input]][[Subjects]][[AI]][[Review]]# Fake/Artificial data detection - Latest (image/video) Deepfake detection methods
+[[Review]][[AI]][[State]][[Security]][[Models]][[AI]][[Algorithm]][[Models]][[Models]][[Input]][[Subjects]][[AI]][[Review]][[Review]][[AI]][[State]][[Security]][[Models]][[AI]][[Algorithm]][[Models]][[Models]][[Input]][[Subjects]][[AI]][[Review]]# Fake/Artificial [[Data]] detection - Latest (image/video) Deepfake detection methods
 # Drafts
 ## Draft 1
 ### Fake/Artificial Data Detection: Latest Image and Video Deepfake Detection Methods

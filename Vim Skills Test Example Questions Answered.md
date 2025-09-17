@@ -167,7 +167,7 @@ grep "$state$" seats_2019.txt | awk -v party="$party" '$3 == party {print $1, $4
 
 ## Take your answer from (7) and add error checking: 
 - (a) If the number of arguments is incorrect print: Incorrect number of Arguments 
-	- Usage :` get_seats.[[Sh]] <party_name> <state>`
+	- Usage :` get_seats.[[[[Sh]]]] <party_name> <state>`
 - (b) Check that the party initials are valid. If they are invalid print “Invalid Party” and exit. 
 - (c) Check that the [[State]] initials are valid. If they are invalid print “Invalid [[State]]” and exit.
 - (d) If your script has passed the error checking in (a), (b) and (c), but there are no actual electorates held for the party and [[State]]/territory supplied as arguments (for example there are no [[NAT]] members in WA) then the script should print:

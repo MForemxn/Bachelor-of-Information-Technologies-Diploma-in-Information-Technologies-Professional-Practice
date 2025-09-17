@@ -6,7 +6,7 @@ The [[CLI]] uses the git [[Interface]] and the [Platform.sh REST API](https://a
 
 ## 1. Install ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-To install the [[CLI]], use a [[Bash]] installation script](https://github.com/platformsh/[[CLI]]#user-content-[[[[Bash]]]]-installer). You can also install with [Homebrew](https://brew.sh/) (on Linux, macOS, or the Windows Subsystem for Linux) or [Scoop](https://scoop.sh/)(on Windows).
+To install the [[CLI]], use a [[Bash]] installation script](https://github.com/platformsh/[[[[CLI]]]]#user-content-[[[[[[Bash]]]]]]-installer). You can also install with [Homebrew](https://brew.sh/) (on Linux, macOS, or the Windows Subsystem for Linux) or [Scoop](https://scoop.sh/)(on Windows).
 
 If you have issues with installation on a Mac, such as missing libraries, see how to [troubleshoot CLI installation on M1 Macs](https://community.platform.sh/t/troubleshoot-cli-installation-on-m1-macs/1202).
 
@@ -24,7 +24,7 @@ Now you can run actions on your projects such as [[branching]] and merging. You 
 
 Get a list of all available commands with:
 
-To get more information on a specific command, preface it with `[[Help]]`:
+To get more information on a specific command, preface it with `[[[[Help]]]]`:
 
 You get [[Output]] similar to the following:
 
@@ -131,7 +131,7 @@ You can customize how the [[CLI]] operates and what it returns with a configurat
 
 #### Automate repetitive tasks ![Anchor to this heading](https://docs.platform.sh/images/svg/link.svg)
 
-You might want to use the [[CLI]] in a script to automate repetitive tasks such as synchronizing your files locally. In such cases, you want to customize the [[CLI]] to bypass any confirmation questions. You can set the answer to every question as `yes` using the `PLATFORMSH_[[[[CLI]]]]_NO_INTERACTION` environment variable.
+You might want to use the [[CLI]] in a script to automate repetitive tasks such as synchronizing your files locally. In such cases, you want to customize the [[CLI]] to bypass any confirmation questions. You can set the answer to every question as `yes` using the `PLATFORMSH_[[[[[[CLI]]]]]]_NO_INTERACTION` environment variable.
 
 For instance, to locally sync every [[mount]] point for your app named `app`, you could use this command:
 

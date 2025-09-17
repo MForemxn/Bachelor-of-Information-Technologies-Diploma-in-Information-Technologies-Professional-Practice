@@ -1,6 +1,6 @@
-[[Conditionals]][[Programming Language]][[Boolean]][[Syntax]][[Syntax]][[Programming Language]][[Boolean]][[Syntax]][[Syntax]][[Nu[[Input]]]][[Numeric]]## Programming and Programming Languages
+[[Conditionals]][[Programming Language]][[Boolean]][[Syntax]][[Syntax]][[Programming Language]][[Boolean]][[Syntax]][[Syntax]][[Numeric]][[Numeric]][[Conditionals]][[Programming Language]][[Boolean]][[Syntax]][[Syntax]][[Programming Language]][[Boolean]][[Syntax]][[Syntax]][[Nu[[Input]]]][[Numeric]]## Programming and [[Programming Languages]]
 
-It is hopefully readily apparent that computer programming is one of the most useful skills in the modern world. Almost everything relies, in some part, on computers, from food production, to logistics, to entertainment.
+It is hopefully readily apparent that computer programming is one of the mos[[Input]]ful skills in the modern world. Almost everything relies, in some part, on computers, from food production, to logistics, to entertainment.
 
 Given that you're in this subject, it seems likely that you also agree that programming is a pretty important skill. Hopefully you also enjoy it.
 
@@ -12,9 +12,9 @@ Over time, inputting raw binary was replaced with coded instructions that simpli
 
 After a variety of experimental developments, John Backus developed [FORTRAN](https://en.wikipedia.org/wiki/FORTRAN) in 1954, allowing a higher level approach to programming, where the programmer could be a little more concerned with what to do, rather than telling the computer exactly how. Fo[[Char]]ample, the fol[[String]] code generates subsets of a base set of size 𝑛n:
 ```
-    SUBROUTINE NEXSUB(N, IN, MTC, NCARD, J)
+    SUBROUTINE NEXSUB(N, IN, MTC, NCARD[[Char]])
 
-    INTEGER IN(N)
+    INT[[String]]IN(N)
 
     LOGICAL MTC
 
@@ -47,9 +47,7 @@ C   IF(J .GT. N) J=N
 
 So much easier, right?
 
-Fortunately, [[Programming Language]] development didn't stop in 1954, and modern languages (usually) have nicer [[Syntax]], more powerful libraries, and more [[Flexibility]] in how you a[[Boolean]] using them. That said, once you've programmed for a little while, that FORTRAN code is actually pretty straightforward.
-
-There are now thousands of [[Programming Languages]] available, with hundreds in active use, so what are the basic things we need in a [[Programming Language]] for it to be "useful"?
+Fortunately, [[Programming Language]] development didn't stop in 1954, and modern languages (usually) have nicer [[Syntax]], more powerful libraries, and more [[Flexibility]] in how you a[[Boolean]] using them. That said, once you've programmed for a little while, that FORTRAN code is actually pretty straightforwa[[Boolean]]ere are now thousands of [[Programming Languages]] available, with hundreds in active use, so what are the basic things we need in a [[Programming Language]] for it to be "useful"?
 
 ## The BASIC Tools of Programming
 
@@ -70,19 +68,18 @@ The central difference between [[Programming Languages]] is in how they choose t
 
 Although there is no clear-cut classification of [[Programming Languages]] into categories, there are some useful paradigms which imply certain choices about how basic elements are implemented (particularly, but not limited to, [[state]] and [[repetition]]):
 
-- **Imperative Languages**: [[State]] is expressed through [[variables]] and their values. The program expresses how to manipulate these [[variables]] to achieve the desi[[Conditional Statements]]igm is also embodied in the structure of most computers. It ca[[Syntax]]urther developed into (at least) two sub-paradigms:
+- **Imperative Languages**: [[State]] is expressed through [[variables]] and their values. The program expresses how to manipulate these [[variables]] to achieve the desi[[Conditional Statements]]igm is also embodied in the structure of most computers. It ca[[Syntax]]urther developed into (at [[Conditional Statements]]ms:
     
-    - **Procedural Languages:** The program is broken into smaller units (_procedures_) that operate on their inputs and produce [[Output]] - in a sense, mini-programs. This allows modularisation and [[abstraction]] of some or all of the program, along with ot[[Programming Language]]thon]]** originated as a procedural language.
-       [[Syntax]]- **[[Object]] Oriented Languages:** [[State]] is encapsulated in _objects,_ along with procedures and functions to manipulate that [[state]] in a (hopefully) controlled manner. **[[Java]]** is an [[Object]] oriented language, and **[[Python]]** has support for an [[Object]] oriented approach.
+    - **Procedural Languages:** The program is broken[[Syntax]]smaller units (_procedures_) that operate on their inputs and produce [[Output]] - in a sense, mini-programs. This allows modularisation and [[abstraction]] of some or all of the program, along with ot[[Programming Language]]thon]]** originated as a procedural language.
+       [[Syntax]]- **[[Object]] Oriented Langu[[Programming Language]] encapsulated in _objects,_ along with procedures and[[Syntax]]ions to manipulate that [[state]] in a (hopefully) controlled manner. **[[Java]]** is an [[Object]] oriented language, and **[[Python]]** has support for an [[Object]] oriented approach.
         
-- **Declarative Languages:** These languages emphasise _what_ is to be computed, rather than _how_. [[State]] is mor[[Syntax]]meral, and may not be directly under the programmer's control. There are several sub-paradigms of declarative languages, but we will only mention one here:
+- **Declarative Languages:** These languages emphasise _what_ is to be computed, rather than _how_. [[State]] is mor[[Syntax]]meral, and may not be directly under the programmer's control. There are several sub-paradigms of [[Syntax]]ative languages, but we will only mention one here:
     
-    - **Functional Languages:** These languages focus on computation as the application of functions. [[State]] is typically restricted that implied[[Syntax]]Function]] inputs, and local information, rather than allowing access to some global [[state]]. They also heavily employ recursion (we'll get to this later).
+    - **Functional Languages:** These languages focus on computation as the application of functions. [[State]] is typically restricted that implied[[Syntax]]Function]] inputs, and local information, rather than allowing access to some global [[state]][[Syntax]] also heavily employ recursion (we'll get to this later).
         
 
 In practice, few languages (especially modern ones) fall into a single category, and most explicitly attempt to offer features of seve[[Switch Statement]]g Paradigms]], or can be forced by the programmer into one paradigm or another.
-
-As mentioned, **[[Java]]**, one of the languages we will be using to learn to program, is nominally an [[Object]] oriented language, however the determined programmer can employ it in a procedural style, and more productively, a functional style. **[[Python]]** is primarily procedural, but includes support for [[Object]] oriented and functional styles of programming.
+[[Switch Statement]]*[[Java]]**, one of the languages we will be using to learn to program, is nominally an [[Object]] oriented language, however the determined programmer can employ it in a procedural style, and more productively, a functional style. **[[Python]]** is primarily procedural, but includes support for [[Object]] oriented and functional styles of programming.
 
 ## Other Features of Programming Languages
 
@@ -122,38 +119,38 @@ var i : Int = 42;
 
 Now that we have some basic terminology about [[Programming Languages]], we can [[state]] the following:
 
-> [[Java]] is a generic, general purpose [[Programming Language]] that is primarily a [[Class]]-based [[Object]] oriented language, but allows both funct[[Numeric]]nd procedural programming. It i[[Char]]ntactically derived[[Float]] C, is strongly statically typed and has automatic garbage collection.
+> [[Java]] is a generic, general purpose [[Programming Language]] that is primarily a [[Class]]-based [[Object]] oriented language, but allows both funct[[Numeric]]nd procedural programming. It i[[Char]]ntactically derived[[Float]] C, is strongly st[[Numeric]]y typed and has automatic garba[[Char]]ollection.
 
-This still won't mean a lot if you haven't done a lot of programming, but this gives you a reference point against which to start building your understanding of both [[Java]], and [[Programming Languages]] in general.
+This st[[Float]]on't mean a lot if you haven't done a lot of programming, but this gives you a reference point against which to start building your understanding of both [[Java]], and [[Programming Languages]] in general.
 
 ## Some Terminology
 
-As mentioned, [[[String]]]'s [[Syntax]] derives most directly from C and C++, which themselves draw upon early languages back to at least Algol. We'll introduce some terminology now, but with the caveat that there's more here than you need to know right now.
+As mentioned, [[[String]]]'s [[Syntax]] derives most directly from C and C++, which themselves draw[[String]]early languages back to at least Algol. We'll introduce some terminology now, but with the caveat that there's more here than you need to know right now.
 
 [[Java]] programs consist of a sequence of **statements** arranged into **blocks**. The blocks may be nested, with the top level being that of a **[[Class]]**. A [[Class]] is a definition of every **[[Object]]** of that sort. Inside a [[Class]] there are **methods** and **[[data]]** **members**.
 
 ![](https://static.au.edusercontent.com/files/jY3MJqonNVEGbdrOElQ8cTmR)
 
-**[[Variables]]** are [[Java]]'s primary mechanism for storing the [[state]] of the program. [[Variables]] are segments of memory that store [[data]]. [[Variables]] also have an associated **type**. This is a way of specifying what [[data]] we expect to see stored in that variable. There are two sorts of variable types in [[Java]], **primitives**, which simply store a value, and **o[[Object]]**, which are structures that combine [[data]] and **methods** (see b[[Object]]for operating on that [[data]] (or sometimes just doing[[Object]]s). We'll look at both of these in more detail as we go.
+**[[Variables]]** are [[Java]]'s primary mechanism for storing the [[state]] of the program. [[Variables]] are segments of memory that store [[data]]. [[Variables]] also have an associated **type**. This is a way of specifying what [[data]] we expect to see stored in that variable. There are two sorts of variable types in [[Java]], **primitives**, which simply store a value, and **o[[Object]]**, which are structures that combine [[data]] and **methods** (see b[[[Object]]t]]for operating on that [[data]] (or sometimes just doing[[Object]]s[[Object]]ll look at both of these in more detail as we go.
 
-**[[Data]] members** (or member [[variables]], or similar), are the [[variables]] that belong to the [[Class]] or to the objects created using that [[Class]] definition. The[[Object]] be other [[variables]] which only belong to lower level blocks than the [[Class]]. These are typically referred to as [[Numeric]] [[variables]].** In contrast, [[variables]] which are accessible by all classes and objects in a program are called **global [[Variables]]**. If all objects made from given [[Class]] share the same instance of a variable, i[[Boolean]]**[[Class]] variable**, if each [[Object]] has its own copy, it is an **[[Object]] variable** or **instance variable**.
+**[[[[Object]] members** (or member [[variables]], or similar), are the [[variables]] that belong to the [[Class]] or to the objects created using that [[Class]] definition. The[[Object]] be other [[variables]] which only belong to lower level b[[Object]]than the [[Class]]. These are typically referred to as [[Numeric]] [[variables]].** In contrast, [[variables]] which ar[[Numeric]]sible by all classes and objects in a program are called **global [[Variables]]**. If all objects made from given [[Class]] share the same instance of a variable, i[[Boolean]]**[[Class]] variable**, if each [[Object]] has it[[Boolean]]opy, it is an **[[Object]] variable** or **instance variable**.
 
 **Methods** are named blocks of code that can take [[Input]] **parameters** and return an [[Output]] value. They may or may not access information outside of the method:
 
 - **Procedures** are methods that access information outside the method (or in particular, modify [[State]] outside the procedure).
     
-- **Functions** are methods that work with l[[Boolean]]State]] only. Another way of viewing this is that given the same [[Input]] parameters repeatedly, a [[Funct[[Syntax]]will always return the same [[Output]] - it is not affected by ot[[Boolean]]ts of the program (or world).
-## Some Java Conventions (and one Rule)
+- **Functions** are methods that work with l[[Boolean]]State]] only. Another way of viewing this is [[Boolean]]ven the same [[Input]] parameters repeatedly, a [[Funct[[Syntax]]will always return the same [[Output]] - i[[Syntax]]ot affected by ot[[Boolean]]ts of the program (or world).
+## Some[[Boolean]]onventions (and one Rule)
 
 Before looking at the rules for writing [[Java]] programs, there's a couple of conventions that [[Java]] programmers tend to use - they're not enforced (except maybe in the workplace), but they will [[Help]] you understand other people's code, and [[Help]] others understa[[Class]]urs:
 
-- Names of classes start with an u[[String]]se letter - `HelloWorld`, not `hello_world`.
+- Names of classes start with[[Class]][[String]]se letter - `HelloWorld`, not [[String]]_world`.
     
 - Names of [[Variables]] start with a lowercase letter - `myNumber`, not `MyNumber`.
     
-- Names made up of multiple words (like t[[Numeric]] above) use uppercase for the start of each word from the second word on (the first word is covered by the previous two conventions).
+- Names made up of multiple words (like t[[Numeric]] above) use uppercase for[[Numeric]]art of each word from the second word on (the first word is covered by the previous two conventions).
     
-- Constants are all uppercase with words separated by underscores (`_`) - `Math.PI` is the [[Constant]] `PI` inside the [[Class]] `Math`, `[[Integer]].MAX_VALUE` and `[[Integer]].MIN_VALUE` are the maximum and minimum values of an `int` variable.
+- Constants are all uppercase with words separated by underscores (`_`) - `Math.PI` is the [[Constant]] `PI` inside the [[Class]] `Math`, `[[[[Integer]]]].MAX_VALUE` and `[[[[Integer]]]].MIN_VALUE` are the maximum and minimum values of an `int` variable.
     
 - Don't use underscores (`_`) in names (with the exception of constants).
     
@@ -164,7 +161,7 @@ The one rule that you actually definitely have to know, is that [[Java]] is _**c
 
 ## Basic Java Syntax
 
-We can now look at a simple program that demonstrates several basic syntactic elements of [[Java]]. (Note: you can run and modify this code! Play around! Maybe[[Array]] the description first though!)
+We can now look at a simple program that demonstrates several basic syntactic elements of [[Java]]. (Note: you can run and modify this code! Play around! Maybe[[Array]] the descriptio[[Array]]st though!)
 
 
 ```
@@ -180,9 +177,9 @@ public class Hello {
 
 
 ```
-This program consists of a single [[Class]]. Line 1 gives the [[Syntax]] for defining a [[Class]]: `[[Class]] <name>.` The name is chosen by the programmer, and when objects are created from this class, their type is `<name>`, whatever that happens to be. So in this case, this [[Class]] can be used to create objects of type `Hello`, although in this program effectively none are ever created. The `public` at the start of Line 1 is an _access modifier_. For now, we'll stick with `public` whenever we need such a thing, but in sh[[Class]]`public` means that everything in the program can access this [[Class]] and its objects. To define what the contents of the [[Class]] are, we enclose those contents in and open `{` and close `}` brace. Thus thus [[Class]] definition runs from Line 1 to Line 8.
+This program consists of a single [[Class]]. Line 1 gives the [[Syntax]] for defining a [[Class]]: `[[[[Class]]]] <name>.` The name is chosen by the programmer, and when objects are created from this class, their type is `<name>`, whatever that happens to be. So in this case, this [[Class]] can be used to create objects of type `Hello`, although in this program effectively none are ever created. The `public` at the start of Line 1 is an _access modifier_. For now, we'll stick with `public` whenever we need such a thing, but in sh[[Class]]`public[[Class]]ns that everything in the program can access this [[Class]] and its objects. To define what the contents of the [[Class]] are, we enclose those contents in and open `{` and close `}` brace. Thus thus [[Class]] definition runs from Line 1 to Line 8.
 
-Starting on Line 3, we have a method. The [[Syntax]] for declaring a method in [[Java]] is `<return type> <name>( <parameter list>[[Class]]... }`. Here the return type is `void`, which means the method does not return anything when it's done, and the name is `main`. Its parameter list consists of a single parameter `String[] args`. Again, we don't need to understand this yet, but it's an array of Strings called `args`. The method has also been declared `public` (everything[[Array]]he program can se[[Function]]d `static` (it only needs class variables to work - no object variables are necessary, and hence no object of this class needs to be created to run this method). The method contains the code between the `{` on Line 3 and the `}` on Line 7.
+Starting on Line 3, we have a method. The [[Syntax]] for declaring a method in [[Java]] is `<return type> <name>( <parameter list>[[Class]]...[[Class]]Here the return type is `void`, which means the method does not return anything when it's done, and the name is `main`. Its parameter list consists of a single parameter `String[] args`. Again, we don't need to understand this yet, but it's an array of Strings called `args`. The method has also been declared `public` (everything[[Array][[Array]]rogram can se[[Fu[[Function]]d `static` (it only needs class variables to work - no object variables are necessary, and hence no object of this class needs to be created to run this method). The method contains the code between the `{` on Line 3 and the `}` on Line 7.
 
 This `main` method happens to be a special one in Java. For a piece of Java code to be runnable (i.e. a program), it needs at least one `main` method with exactly the signature we've just seen: `public static void main(String[] args) { ... }`. Later on we'll see classes with many other methods.
 

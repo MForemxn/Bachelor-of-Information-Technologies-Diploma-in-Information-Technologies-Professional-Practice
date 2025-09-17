@@ -4,7 +4,7 @@
 
 ### 1. Content-[[Security]]-Policy (CSP)
 - **Purpose**: Helps prevent XSS attacks by specifying which dynamic resources are allowed to load.
-- **Example**: `Content-[[[[Security]]]]-Policy: default-src 'self'; script-src 'self' https://apis.example.com`
+- **Example**: `Content-[[[[[[Security]]]]]]-Policy: default-src 'self'; script-src 'self' https://apis.example.com`
 
 ### 2. X-Content-Type-Options
 - **Purpose**: Prevents the browser from interpreting files as a different MIME type than what is specified by the content type in the [[HTTP]] headers.
@@ -16,7 +16,7 @@
 
 ### 4. Strict-Transport-[[Security]] (HSTS)
 - **Purpose**: Enforces secure (HTTPS) connections to the server.
-- **Example**: `Strict-Transport-[[[[Security]]]]: max-age=31536000; includeSubDomains`
+- **Example**: `Strict-Transport-[[[[[[Security]]]]]]: max-age=31536000; includeSubDomains`
 
 ### 5. X-XSS-Protection
 - **Note**: This header is deprecated and not recommended for use, as modern browsers have built-in protection against XSS.

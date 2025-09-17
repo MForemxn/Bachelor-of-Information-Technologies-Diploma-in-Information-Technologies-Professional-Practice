@@ -248,7 +248,7 @@ SELECT city FROM suppliers;
 A [[database]] is an organized collection of [[data]], generally stored and accessed electronically from a computer system. [[SQL]] provides commands to create, manage, and manipulate databases.
 
 ## SQL Create DB
-The `CREATE [[Database]]` statement is used to create a new [[database]].
+The `CREATE [[[[Database]]]]` statement is used to create a new [[database]].
 
 **Example:**
 ```sql
@@ -256,7 +256,7 @@ CREATE DATABASE company;
 ```
 
 ## SQL Drop DB
-The `DROP [[Database]]` statement is used to delete an existing [[database]] and all its associated [[Data]].
+The `DROP [[[[Database]]]]` statement is used to delete an existing [[database]] and all its associated [[Data]].
 
 **Example:**
 ```sql
@@ -422,7 +422,7 @@ SELECT * FROM users WHERE username = 'admin' AND password = 'password';
 [[SQL]] databases can be hosted on various platforms, including local servers, cloud services (like AWS RDS, Google Cloud [[SQL]], Azure [[SQL]] [[Database]]), or managed [[database]] services.
 
 ## SQL [[Data Types]]
-[[SQL]] supports various [[data types]] for columns, including [[Numeric]] types (e.g., `INT`, `[[Float]]`), [[string]] types (e.g., `VARCHAR`, `TEXT`), date and time types (e.g., `DATE`, `TIMESTAMP`), and others.
+[[SQL]] supports various [[data types]] for columns, including [[Numeric]] types (e.g., `INT`, `[[[[Float]]]]`), [[string]] types (e.g., `VARCHAR`, `TEXT`), date and time types (e.g., `DATE`, `TIMESTAMP`), and others.
 
 **Example:**
 ```sql

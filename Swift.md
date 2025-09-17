@@ -469,7 +469,7 @@ We can clean this up by using “Raw Value”.
 
 🚨
 
-This can be any type ( `[[String]]` ,`[[Integer]]`), and can be called using the `.rawValue` method
+This can be any type ( `[[[[String]]]]` ,`[[[[Integer]]]]`), and can be called using the `.rawValue` method
 
 ```swift
 import UIKit

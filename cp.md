@@ -8,7 +8,7 @@
 	- to copy a file, users specify the source file and the destination path
 	- directories require either the `-r` (recursive) or `-a` (archive) option to copy all contents
 - examples:
-	- `cp file.txt /[[Home]]/user/Documents` copies file.txt to the Documents directory
+	- `cp file.txt /[[[[Home]]]]/user/Documents` copies file.txt to the Documents directory
 	- `cp -r folder1 folder2` copies folder1 and its contents into folder2, creating folder2 if it doesn't exist
 
 # Options and Flags
@@ -20,7 +20,7 @@
 
 # Copying Multiple Files
 - the cp command can copy multiple files to a single destination directory at once
-	- e.g., `cp file1.txt file2.txt /[[Home]]/user/Documents` copies both file1.txt and file2.txt to the Documents directory
+	- e.g., `cp file1.txt file2.txt /[[[[Home]]]]/user/Documents` copies both file1.txt and file2.txt to the Documents directory
 
 # Relative vs Absolute Paths
 - similar to the [[cd]] command, cp supports both relative and absolute paths for specifying source and destination

@@ -15,7 +15,7 @@ Fabric addresses the [[AI]] integration challenge by offering a structured envir
     
     [[bash]]
     
-    `[[cd]] /where/you/keep/code git clone https://github.com/danielmiessler/fabric.git [[cd]] fabric`
+    `[[[[cd]]]] /where/you/keep/code git clone https://github.com/danielmiessler/fabric.git [[[[cd]]]] fabric`
     
 3. **Install pipx**:
     - macOS: `brew install pipx`
@@ -65,7 +65,7 @@ Develop and store your custom Patterns locally for unique needs:
 
 Copy code
 
-`[[cp]] -a ~/.config/custom-fabric-patterns/* ~/.config/fabric/patterns/`
+`[[[[cp]]]] -a ~/.config/custom-fabric-patterns/* ~/.config/fabric/patterns/`
 
 ## Advanced Usage
 
