@@ -4,7 +4,7 @@
   "defaultViewMode": "preview",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",

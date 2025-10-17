@@ -6,6 +6,7 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 52.107089737233515,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Mobile Networking Assessment task 2 Mobile Application Design project My Contribution.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Mobile Networking Assessment task 2 Mobile Application Design project My Contribution"
             },
             "group": "94876428a9439221"
           }
@@ -27,6 +28,7 @@
       {
         "id": "fd1ae83f504d4ffc",
         "type": "tabs",
+        "dimension": 47.892910262766485,
         "children": [
           {
             "id": "670d2bee7f975132",
@@ -34,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Mobile Networking Assessment task 2 Mobile Application Design project My Contribution.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Mobile Networking Assessment task 2 Mobile Application Design project My Contribution"
             },
             "group": "94876428a9439221"
           }
@@ -145,36 +147,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design, implementation and integration of network server infrastructure.md",
+                "file": "Mobile Networking Assessment task 2 Mobile Application Design project My Contribution.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Design, implementation and integration of network server infrastructure"
+              "title": "Outline of Mobile Networking Assessment task 2 Mobile Application Design project My Contribution"
             }
           },
           {
-            "id": "f98fb763ae11cab3",
+            "id": "c811379c0f80bd48",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage/Home.md",
+                "file": "Network Servers Learning Journal Working.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for Network Servers Learning Journal Working"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -182,7 +184,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "obisidian-note-linker:Note Linker": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
@@ -196,42 +197,43 @@
   },
   "active": "670d2bee7f975132",
   "lastOpenFiles": [
+    "Mobile Networking Assessment task 2 Mobile Application Design project.md",
+    "Mobile Networking Assessment task 2 Mobile Application Design project My Contribution.md",
+    "Emergency Vehicle Preemption System Using C-V2X Principles A Practical Implementation with LoRa Technology.md",
+    "Screenshot 2025-10-17 at 9.26.31 pm.png",
+    "Mobile Networking.md",
     "Subjects.md",
     "Homepage/Home.md",
+    "Network Servers Assessment task 3 Final Skills Test.md",
+    "Network Servers.md",
+    "Network Servers Learning Journal Working.md",
+    "Career Management for IT Professionals Assessment Task 4 Final Submission Document.md",
+    "Career Management for IT Professionals Assessment task 4 - Individual Reflection.md",
+    "Career Management for IT Professionals.md",
+    "Lab 10d - Web server (IIS) on Windows.pdf",
+    "Lab 10c - Virtual hosting with Apache-1.pdf",
+    "Lab 10b - Configuring Apache SSL.pdf",
+    "Lab 10a - Basic web server configuration-1.pdf",
+    "Routing and Switching Essentials.md",
+    "Switched Networks and Configurations.md",
     "Shelter/Hut/Equipment Room.md",
+    "L2 Service Desk Analyst.md",
+    "Job Applications.md",
+    "Level 2/3 Helpdesk Engineer with Hays.md",
+    "Level 2",
+    "Other Pages.md",
+    "Career Management for IT Professionals Assessment Task 1 Resume.md",
+    "Career Management for IT Professionals Assessment task 1 - Job Application.md",
+    "Filesystems - NFS and Samba.md",
+    "Lab 8b - Samba-2024.pdf",
+    "Lab 8a - NFS-2024.pdf",
     "Untitled.base",
     "Telstra Guest Lecture.md",
     "Templates/Run Auto Link.md",
     "Scripts/auto_link.js",
     "Scripts",
-    "Templates",
     "TDD.md",
     "Time Division Duplexing.md",
-    "Massive MIMO.md",
-    "FDD.md",
-    "Frequency Division Duplexing.md",
-    "Radio Duplexing.md",
-    "NR/5G.md",
-    "NR",
-    "LTE/4G.md",
-    "LTE",
-    "OFDM.md",
-    "CDMA.md",
-    "QAM.md",
-    "PSK.md",
-    "FM.md",
-    "AM.md",
-    "Modulation.md",
-    "Wi-Fi.md",
-    "THz.md",
-    "Terahertz.md",
-    "World Radio Congress.md",
-    "3GPP.md",
-    "BL.md",
-    "Shelter/Hut",
-    "Shelter",
-    "Tower/Mast/Pole",
-    "Tower/Mast",
     "Screenshot 2025-07-28 at 4.23.28 pm.png",
     "Screenshot 2025-07-28 at 4.22.37 pm.png",
     "Screenshot 2025-07-28 at 4.18.00 pm.png",
@@ -241,7 +243,6 @@
     "Screenshot 2025-04-11 at 6.05.59 pm.png",
     "Screenshot 2025-04-11 at 6.03.52 pm.png",
     "Screenshot 2025-04-05 at 8.41.43 am.png",
-    "Screenshot 2025-04-05 at 8.36.58 am.png",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

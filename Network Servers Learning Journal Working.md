@@ -2451,8 +2451,446 @@ bash
 - **Verification requirement:** Check following week to confirm automation is functioning
 - **Best practice:** Regular backup schedule with automated execution reduces human error
 # Week 8
-# Week 9
-# Week 10
+## Lab 8a
+![[Lab 8a - NFS-2024.pdf]]
+### **1. Aims of the Lab**
+
+- Configure a Linux machine to act as an NFS server and client
+- Understand the `exportfs` command to list available exports
+- Set up NFSv4 file sharing between Linux systems
+
+---
+
+### **2. NFS Server Setup**
+
+- **Network configuration:** Static IP `10.0.2.1/24` on `ens37` interface
+- **Required packages:**
+
+bash
+
+```bash
+  dnf install nfs-utils rpcbind nfs4-acl-tools
+```
+
+- **Export directory:** Create `/share/IT_Projects` for sharing
+- **Export configuration:** Edit `/etc/exports` for read-only access to `10.0.2.0/24` subnet
+- **Service management:**
+
+bash
+
+```bash
+  systemctl start rpcbind
+  systemctl start nfs-server
+  systemctl enable rpcbind nfs-server
+```
+
+---
+
+### **3. Export Verification and Local Testing**
+
+- **Verify exports:** `exportfs -v` confirms directory exported as read-only (ro)
+- **Local mount test:** Same machine acts as client and server
+
+bash
+
+```bash
+  mkdir /mnt/projects
+  mount -t nfs4 10.0.2.1:/share/IT_Projects /mnt/projects
+```
+
+- **Read-only testing:**
+    - Create file in `/share/IT_Projects` (server side) - should work
+    - Attempt file creation in `/mnt/projects` (client side) - should fail with permission error
+- **Cleanup:** `umount /mnt/projects` (note: command is "umount" not "unmount")
+
+---
+
+### **4. Remote NFS Client Setup**
+
+- **Second VM creation:** Linked clone or complete copy of original VM
+- **Client configuration:**
+    - IP address: `10.0.2.2/24`
+    - Install same NFS packages
+    - Start and enable NFS services
+- **Remote mounting:**
+
+bash
+
+```bash
+  mkdir /mnt/projects
+  mount -t nfs4 10.0.2.1:/share/IT_Projects /mnt/projects
+```
+
+---
+
+### **5. Persistent Mounting and Read-Write Access**
+
+- **Automatic mounting:** Add to `/etc/fstab`:
+
+```
+  10.0.2.1/share/IT_Projects /mnt/projects nfs default 1 1
+```
+
+- **Convert to read-write:**
+    - Edit `/etc/exports` on server
+    - `exportfs -r` to re-export
+    - `chmod 777 /share/IT_Projects` for write permissions
+    - `mount -o remount /mnt/projects` on client
+- **Root squash behavior:** Root user file creation shows different ownership due to security feature
+## Lab 8b
+![[Lab 8b - Samba-2024.pdf]]
+### **1. Aims of the Lab**
+
+- Configure Linux machine as Samba server with shares
+- Access Samba shares from Windows and Linux machines
+- Understand SMB/CIFS protocol for cross-platform file sharing
+
+---
+
+### **2. Samba Server Configuration**
+
+- **Network setup:** Static IP `10.0.2.1/24` on `ens37` interface
+- **Package installation:** `dnf install samba` if not present
+- **Configuration backup:** `cp /etc/samba/smb.conf /etc/samba/smb.conf_backup`
+- **Key configuration parameters:**
+    - `workgroup = WORKGROUP`
+    - `netbios name = MYSAMBASERVER`
+    - `interfaces = 10.0.2.0/24 127.0.0.0/8`
+    - `hosts allow = 10.0.2.`
+- **Home directory sharing:** Set `browseable = Yes` and `read only = Yes` under `[homes]`
+
+---
+
+### **3. Firewall and User Configuration**
+
+- **Configuration validation:** `testparm smb.conf`
+- **Firewall setup:** Use `firewall-config` GUI to enable samba service in public zone
+    - Configure both runtime and permanent settings
+- **Samba user accounts:**
+
+bash
+
+```bash
+  pdbedit -a root
+  pdbedit -a peter
+  pdbedit -L    # list users
+  pdbedit -L -v # verbose listing
+```
+
+- **Service management:** Start and enable `smb` and `nmb` services
+
+---
+
+### **4. Linux Client Testing**
+
+- **Share enumeration:**
+
+bash
+
+```bash
+  smbclient -L 10.0.2.1
+```
+
+- **Anonymous vs authenticated access:** Different share visibility based on credentials
+- **Direct share access:**
+
+bash
+
+```bash
+  smbclient -U peter //10.0.2.1/peter
+```
+
+- **FTP-like interface:** Use `dir`, `?` for help, standard file transfer commands
+
+---
+
+### **5. Windows Integration and Custom Shares**
+
+- **Windows access:** File Explorer `\\10.0.2.1\peter`
+- **Write access configuration:** Modify `smb.conf` for user write permissions
+- **Custom shares creation:**
+    - **tmp share:** Browseable, writeable, public with `force user = nobody`
+    - **opt share:** Read-only, public, browseable
+- **Windows-side sharing:**
+    - Create `c:\winshare` folder
+    - Right-click → "Give access to" → "Specific people"
+    - Access from Linux: `smbclient -U stewie //10.0.2.2/winshare`
+
+---
+
+### **6. Cross-Platform File Operations**
+
+- **smbclient commands:**
+    - `dir` - list directory contents
+    - `get mywinfile.txt /tmp/win` - download file
+    - `put /etc/samba/smb.conf samba.txt` - upload file
+- **Password considerations:** Windows user passwords vs Linux user passwords may differ
+- **Path conventions:** Forward slashes work in Linux, backslashes in Windows
+# Week 9 (Stuvac)
+# Week 10 (Review Week)
 # Week 11
+## Lab 10a
+![[Lab 10a - Basic web server configuration-1.pdf]]
+### **1. Aims of the Lab**
+
+- Configure Linux machine as web server using Apache
+- Verify Apache installation and start web server service
+- Create basic web pages and understand Apache directory structure
+
+---
+
+### **2. Apache Installation and Service Management**
+
+- **Status verification:** `systemctl status httpd`
+- **SSL module check:** `rpm -qa | grep mod_ssl`
+- **Package management:** `dnf install httpd mod_ssl` if needed
+- **File inspection:**
+    - `rpm -qs httpd` - list installed files
+    - `rpm -qs httpd-filesystem` - filesystem structure
+- **Key directories:**
+    - `/var/www` - web content location
+    - `/etc/httpd` - configuration files
+- **Service configuration:**
+    - `systemctl start httpd`
+    - `systemctl enable httpd` - enable at boot
+
+---
+
+### **3. Basic Configuration and Testing**
+
+- **DNS prerequisites:** Ensure `it.netserv.edu.au` and `www.it.netserv.edu.au` resolve correctly
+- **Configuration file:** `/etc/httpd/conf/httpd.conf`
+    - Modify `ServerName` directive
+    - Note `DocumentRoot` directory (default: `/var/www/html`)
+- **Service restart:** `systemctl restart httpd`
+- **Initial testing:** Firefox to `http://localhost` shows default Apache page
+- **Custom content:** Create `index.html` in DocumentRoot
+
+---
+
+### **4. Troubleshooting Common Issues**
+
+- **Port binding error:** Must run as root to bind port 80
+- **404/403 errors:**
+    - Verify file exists in correct DocumentRoot
+    - Check file permissions (public read required)
+    - Check directory permissions (public read/execute required)
+- **Process ownership:** `ps -ef | grep httpd` shows apache userid
+- **File permissions:** All `/var/www` files must be readable by apache user
+- **Configuration validation:** `apachectl -t` checks for config errors
+- **Error 500:** Usually indicates configuration syntax problems
+
+---
+## Lab 10b
+![[Lab 10b - Configuring Apache SSL.pdf]]
+### **1. Aims of the Lab**
+
+- Configure Apache web server to support SSL/TLS connections
+- Generate self-signed certificates for HTTPS
+- Understand SSL key/certificate infrastructure
+
+---
+
+### **2. Certificate Generation**
+
+- **Key location:** `/etc/pki/tls/certs` working directory
+- **Remove existing certificates:**
+    - `rm ../private/localhost.key` - remove old private key
+    - `rm localhost.crt` - remove old certificate
+- **Generate new key/certificate pair:**
+
+bash
+
+```bash
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ../private/localhost.key -out localhost.crt
+```
+
+- **Certificate details:**
+    - Common Name: Web server DNS name (e.g. `www.it.netserv.edu.au`)
+    - Alternative: Wildcard entry (e.g. `*.it.netserv.edu.au`)
+    - Valid for 365 days
+    - 2048-bit RSA key
+
+---
+
+### **3. SSL Configuration**
+
+- **Configuration file:** `/etc/httpd/conf.d/ssl.conf`
+- **Key directives:**
+    - Private key location: `../private/localhost.key`
+    - Certificate location: `localhost.crt`
+    - DocumentRoot: Uncomment and set to `/var/www/secure`
+- **Separate content location:** SSL pages served from different directory than HTTP
+- **Directory setup:**
+    - Create `/var/www/secure` directory
+    - Add `index.html` file for testing
+- **Service restart:** `systemctl restart httpd`
+
+---
+
+### **4. Testing and Certificate Warnings**
+
+- **HTTPS access:** `https://www.it.netserv.edu.au/`
+- **Browser warnings:**
+    - Self-signed certificate warning appears
+    - Choose "Advanced" to view details
+    - Certificate shows entered information
+    - "Accept the risk and continue" to proceed
+- **Verification:** Secure web page displays if configuration correct
+- **Port difference:** HTTPS uses port 443, HTTP uses port 80
+## Lab 10c
+![[Lab 10c - Virtual hosting with Apache-1.pdf]]
+### **1. Aims of the Lab**
+
+- Configure Linux machine as web server for multiple DNS domains
+- Implement name-based virtual hosting
+- Understand HTTP/1.1 Host header mechanism
+
+---
+
+### **2. Virtual Hosting Concepts**
+
+- **Use cases:** Multiple domains on single server (e.g. `www.redhat.com` and `www.fedoraproject.org`)
+- **Implementation types:** IP-based, name-based, dynamic
+- **Name-based method:** Uses HTTP/1.1 Host header to distinguish target website
+- **DNS requirements:**
+    - Must have valid DNS entries for all hostnames
+    - Alternative for testing: Add entries to `/etc/hosts` file
+    - Separate zone files in DNS server for each domain
+
+---
+
+### **3. Apache Virtual Host Configuration**
+
+- **Configuration location:** End of `httpd.conf` file
+- **Key directives:**
+    - `NameVirtualHost` - enable name-based virtual hosting
+    - `<VirtualHost>` blocks for each hostname
+    - Different `DocumentRoot` for each virtual host
+- **Example structure:**
+
+apache
+
+```apache
+<VirtualHost *:80>
+    DocumentRoot "/www/example1"
+    ServerName www.example.com
+</VirtualHost>
+```
+
+- **Directory setup:** Create separate directories with unique `index.html` files
+- **Testing:** Firefox shows different content for each hostname
+
+---
+
+### **4. Testing from Host Operating System**
+
+- **Network interface check:** `ifconfig` or `nmcli` for ens33 IP (e.g. `192.168.3.2`)
+- **Firewall configuration:** `firewall-config` to add http/https to public zone
+- **Host file modification:**
+    - Linux: Edit `/etc/hosts`
+    - Windows: Edit `C:\Windows\System32\drivers\etc\hosts` (Run as administrator)
+    - Add line: `192.168.3.2 www.it.netserv.edu.au www2.it.netserv.edu.au`
+- **Browser testing:** Enter hostnames to see different virtual host sites
+- **Cleanup:** Remove test entries from hosts file when complete
+
+---
+
+### **5. Configuration Priority and Matching**
+
+- **Default server:** First VirtualHost in config has highest priority
+- **Request matching:** Unmatched ServerName directives served by first VirtualHost
+- **Wildcard usage:** `*` matches all addresses instead of specific IP
+- **Dynamic IP scenarios:** `*` configuration works when IP address changes
+- **Port specification:** `Listen 80` ensures Apache listens on correct port
+
+---
+## Lab 10d
+![[Lab 10d - Web server (IIS) on Windows.pdf]]
+### **1. Aims of the Lab**
+
+- Configure Windows machine as web server using IIS
+- Compare IIS management to Apache configuration
+- Implement virtual hosting and SSL on Windows platform
+
+---
+
+### **2. IIS Role Installation**
+
+- **Installation method:** Server Manager → Add Roles and Features
+- **Role selection:** "Web Server (IIS)" with management console
+- **Required role services:**
+    - Common HTTP features
+    - Security: Request Filtering, Basic Authentication, IP/Domain Restrictions, URL Authorization, Windows Authentication
+    - FTP Service
+    - Management tools: IIS Management Console, Management Service
+- **Service verification:** Check running services status
+- **Initial testing:** Browse to `http://localhost`
+
+---
+
+### **3. IIS Management Structure**
+
+- **Access methods:**
+    - Server Manager → Tools menu → IIS Manager
+    - Start menu → Windows Administrative Tools → IIS Manager
+- **Hierarchy structure:**
+    - Server hostname folder
+    - Application Pools subfolder (DefaultAppPool)
+    - Sites subfolder (Default Web Site, FTP sites)
+- **Application pools:** Isolate and tune web server performance
+- **Overall vs site-specific settings:** Server-level defaults apply to all sites unless overridden
+
+---
+
+### **4. Server-Wide Configuration**
+
+- **Default Document:** Top-to-bottom priority list of filenames
+- **Directory Browsing:** Enable/disable automatic directory listing
+- **Error Pages:** Customize HTTP error responses (e.g. 404 page)
+- **IP Address and Domain Restrictions:** Client IP-based access control
+- **MIME Types:** File extension to content type mapping
+- **Management Service:** Enable remote management and add authorized users
+- **Document root:** `%SYSTEMDRIVE%\inetpub\wwwroot` default location
+
+---
+
+### **5. Site-Specific Settings and Actions**
+
+- **Explore action:** Opens default document root folder
+- **Bindings:** Protocol (http), IP address (*), Port (80) configuration
+- **Basic Settings:** View/modify document root path
+- **Advanced Settings:** Change site name, physical path, other parameters
+- **File creation:**
+    - Enable "File name extensions" in File Explorer View menu
+    - Right mouse button → New Document → rename to `index.html`
+- **Virtual directories:** Map physical directory to alias/virtual path (e.g. `/staff` → `c:\inetpub\wwwroot\secure`)
+
+---
+
+### **6. SSL Configuration**
+
+- **Bindings modification:** Add Site Binding for https type on port 443
+- **Default certificate:** IIS installer generates certificate automatically
+- **Self-signed certificate creation:**
+    - Server Certificates icon in IIS server Home
+    - Create Self-Signed Certificate action
+    - Store in "web hosting" certificate store
+- **Certificate assignment:** Edit https binding to select certificate
+- **Testing:** Use DNS hostname from certificate (e.g. `https://www.netserv.edu.au`)
+- **Browser warnings:** Accept "This site is not secure" exception for self-signed certificates
+- **Commercial certificates:** Use CA (Verisign, etc.) with "Create Certificate Request" and "Complete Certificate Request"
+
+---
+
+### **7. Virtual Hosting Implementation**
+
+- **Creation method:** Sites → Add Web Site action
+- **Configuration requirements:**
+    - Friendly name
+    - Physical directory path (e.g. `c:\inetpub\wwwroot2`)
+    - HOST NAME assignment (required for virtual hosting)
+- **DNS integration:** Create CNAME alias pointing to server A record
+- **Example:** `www2.netserv.edu.au` CNAME → `site.netserv.edu.au` A record
 # Week 12
 # Week 13
